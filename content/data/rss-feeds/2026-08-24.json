@@ -1,15 +1,20 @@
 {
   "source": "content/feeds.json",
   "attribution": "Aggregated headlines/summaries from third-party RSS/Atom feeds for navigation only. All rights belong to original publishers and authors. Chinese text is machine-translated.",
-  "fetchedAt": "2026-08-24T12:37:56.951Z",
+  "fetchedAt": "2026-08-24T18:31:48.063Z",
   "date": "2026-08-24",
   "feedCount": 3,
-  "itemCount": 50,
+  "itemCount": 30,
   "locale": {
     "summaryDefault": "zh",
     "translated": true
   },
-  "errors": [],
+  "errors": [
+    {
+      "id": "hacker-news",
+      "error": "fetch failed"
+    }
+  ],
   "feeds": [
     {
       "id": "hacker-news",
@@ -17,230 +22,10 @@
       "url": "https://hnrss.org/frontpage",
       "home": "https://news.ycombinator.com/",
       "group": "community",
-      "fetchedAt": "2026-08-24T12:37:05.315Z",
-      "count": 20,
-      "items": [
-        {
-          "id": "https://news.ycombinator.com/item?id=49409200",
-          "title": "Slovakia finds Russian backdoor in traffic speed cameras",
-          "titleZh": "Slovakia finds Russian backdoor in traffic speed cameras",
-          "link": "https://risky.biz/risky-bulletin-slovakia-finds-russian-backdoor-in-traffic-speed-cameras/",
-          "summary": "Article URL: https://risky.biz/risky-bulletin-slovakia-finds-russian-backdoor-in-traffic-speed-cameras/\n\n Comments URL: https://news.ycombinator.com/item?id=49409200\n\n Points: 21\n\n # Comments: 2",
-          "summaryZh": "Article URL: https://risky.biz/risky-bulletin-slovakia-finds-russian-backdoor-in-traffic-speed-cameras/\n\n Comments URL: https://news.ycombinator.com/item?id=49409200\n\n Points: 21\n\n # Comments: 2",
-          "publishedAt": "2026-08-23T14:38:25.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49409200",
-          "author": "dredmorbius"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49409184",
-          "title": "Authoritarianism of Code",
-          "titleZh": "Authoritarianism of Code",
-          "link": "https://zedshaw.com/blog/2020-10-07-authoritarianism-of-code/",
-          "summary": "Article URL: https://zedshaw.com/blog/2020-10-07-authoritarianism-of-code/\n\n Comments URL: https://news.ycombinator.com/item?id=49409184\n\n Points: 5\n\n # Comments: 3",
-          "summaryZh": "Article URL: https://zedshaw.com/blog/2020-10-07-authoritarianism-of-code/\n\n Comments URL: https://news.ycombinator.com/item?id=49409184\n\n Points: 5\n\n # Comments: 3",
-          "publishedAt": "2026-08-23T14:36:38.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49409184",
-          "author": "wqlander"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49409092",
-          "title": "What Is a Harness?",
-          "titleZh": "What Is a Harness?",
-          "link": "https://earendil.com/posts/what-is-a-harness/",
-          "summary": "Article URL: https://earendil.com/posts/what-is-a-harness/\n\n Comments URL: https://news.ycombinator.com/item?id=49409092\n\n Points: 27\n\n # Comments: 15",
-          "summaryZh": "Article URL: https://earendil.com/posts/what-is-a-harness/\n\n Comments URL: https://news.ycombinator.com/item?id=49409092\n\n Points: 27\n\n # Comments: 15",
-          "publishedAt": "2026-08-23T14:24:21.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49409092",
-          "author": "tosh"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49408889",
-          "title": "Death to px, long live ch",
-          "titleZh": "Death to px, long live ch",
-          "link": "https://shkspr.mobi/blog/2026/08/death-to-px-long-live-ch/",
-          "summary": "Article URL: https://shkspr.mobi/blog/2026/08/death-to-px-long-live-ch/\n\n Comments URL: https://news.ycombinator.com/item?id=49408889\n\n Points: 20\n\n # Comments: 10",
-          "summaryZh": "Article URL: https://shkspr.mobi/blog/2026/08/death-to-px-long-live-ch/\n\n Comments URL: https://news.ycombinator.com/item?id=49408889\n\n Points: 20\n\n # Comments: 10",
-          "publishedAt": "2026-08-23T13:56:27.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49408889",
-          "author": "Brajeshwar"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49408858",
-          "title": "My favorite nonfiction books about cults, scams, and schemes",
-          "titleZh": "My favorite nonfiction books about cults, scams, and schemes",
-          "link": "https://bookdna.com/best-books/nonfiction-about-cults-scams-and-schemes",
-          "summary": "Article URL: https://bookdna.com/best-books/nonfiction-about-cults-scams-and-schemes\n\n Comments URL: https://news.ycombinator.com/item?id=49408858\n\n Points: 48\n\n # Comments: 13",
-          "summaryZh": "Article URL: https://bookdna.com/best-books/nonfiction-about-cults-scams-and-schemes\n\n Comments URL: https://news.ycombinator.com/item?id=49408858\n\n Points: 48\n\n # Comments: 13",
-          "publishedAt": "2026-08-23T13:51:10.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49408858",
-          "author": "bwb"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49408550",
-          "title": "Malware infects Android-based automotive head unit firmware",
-          "titleZh": "Malware infects Android-based automotive head unit firmware",
-          "link": "https://securelist.com/android-head-unit-malware/121106/",
-          "summary": "Article URL: https://securelist.com/android-head-unit-malware/121106/\n\n Comments URL: https://news.ycombinator.com/item?id=49408550\n\n Points: 87\n\n # Comments: 40",
-          "summaryZh": "Article URL: https://securelist.com/android-head-unit-malware/121106/\n\n Comments URL: https://news.ycombinator.com/item?id=49408550\n\n Points: 87\n\n # Comments: 40",
-          "publishedAt": "2026-08-23T13:05:38.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49408550",
-          "author": "campuscodi"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49407576",
-          "title": "Sydney Marathon medal mistakenly depicts Munich stadium",
-          "titleZh": "Sydney Marathon medal mistakenly depicts Munich stadium",
-          "link": "https://www.bbc.com/news/articles/cvg92y1wzn8o",
-          "summary": "Article URL: https://www.bbc.com/news/articles/cvg92y1wzn8o\n\n Comments URL: https://news.ycombinator.com/item?id=49407576\n\n Points: 90\n\n # Comments: 59",
-          "summaryZh": "Article URL: https://www.bbc.com/news/articles/cvg92y1wzn8o\n\n Comments URL: https://news.ycombinator.com/item?id=49407576\n\n Points: 90\n\n # Comments: 59",
-          "publishedAt": "2026-08-23T10:14:48.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49407576",
-          "author": "epestr"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49407509",
-          "title": "Iranian hackers shut down UK power plant for 4 days",
-          "titleZh": "Iranian hackers shut down UK power plant for 4 days",
-          "link": "https://www.telegraph.co.uk/news/2026/08/22/iranian-hackers-shut-down-uk-power-plant/",
-          "summary": "Article URL: https://www.telegraph.co.uk/news/2026/08/22/iranian-hackers-shut-down-uk-power-plant/\n\n Comments URL: https://news.ycombinator.com/item?id=49407509\n\n Points: 56\n\n # Comments: 34",
-          "summaryZh": "Article URL: https://www.telegraph.co.uk/news/2026/08/22/iranian-hackers-shut-down-uk-power-plant/\n\n Comments URL: https://news.ycombinator.com/item?id=49407509\n\n Points: 56\n\n # Comments: 34",
-          "publishedAt": "2026-08-23T10:03:01.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49407509",
-          "author": "giuliomagnifico"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49407507",
-          "title": "I gave Qwen 3.8 27B a reverse-engineering job and it finished in 30 minutes",
-          "titleZh": "I gave Qwen 3.8 27B a reverse-engineering job and it finished in 30 minutes",
-          "link": "https://www.xda-developers.com/qwen-3-8-27b-reverse-engineering-job-frontier-model/",
-          "summary": "Article URL: https://www.xda-developers.com/qwen-3-8-27b-reverse-engineering-job-frontier-model/\n\n Comments URL: https://news.ycombinator.com/item?id=49407507\n\n Points: 159\n\n # Comments: 80",
-          "summaryZh": "Article URL: https://www.xda-developers.com/qwen-3-8-27b-reverse-engineering-job-frontier-model/\n\n Comments URL: https://news.ycombinator.com/item?id=49407507\n\n Points: 159\n\n # Comments: 80",
-          "publishedAt": "2026-08-23T10:02:51.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49407507",
-          "author": "raybb"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49407309",
-          "title": "Show HN: Live 3D satellite tracker and the declassified Pentagon UFO archive",
-          "titleZh": "Show HN: Live 3D satellite tracker and the declassified Pentagon UFO archive",
-          "link": "https://skylens.yantraai.app/",
-          "summary": "Article URL: https://skylens.yantraai.app/\n\n Comments URL: https://news.ycombinator.com/item?id=49407309\n\n Points: 36\n\n # Comments: 17",
-          "summaryZh": "Article URL: https://skylens.yantraai.app/\n\n Comments URL: https://news.ycombinator.com/item?id=49407309\n\n Points: 36\n\n # Comments: 17",
-          "publishedAt": "2026-08-23T09:27:40.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49407309",
-          "author": "skylensspace"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49406398",
-          "title": "Risk of transmission of amyloid β pathology via transfused blood products",
-          "titleZh": "Risk of transmission of amyloid β pathology via transfused blood products",
-          "link": "https://doi.org/10.1016/S0140-6736(26)00767-1",
-          "summary": "Article URL: https://doi.org/10.1016/S0140-6736(26)00767-1\n\n Comments URL: https://news.ycombinator.com/item?id=49406398\n\n Points: 24\n\n # Comments: 6",
-          "summaryZh": "Article URL: https://doi.org/10.1016/S0140-6736(26)00767-1\n\n Comments URL: https://news.ycombinator.com/item?id=49406398\n\n Points: 24\n\n # Comments: 6",
-          "publishedAt": "2026-08-23T06:07:06.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49406398",
-          "author": "sbulaev"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49406387",
-          "title": "JIT Compiling Code in 5μs",
-          "titleZh": "JIT Compiling Code in 5μs",
-          "link": "https://malisper.me/jit-compiling-code-in-5-us/",
-          "summary": "Article URL: https://malisper.me/jit-compiling-code-in-5-us/\n\n Comments URL: https://news.ycombinator.com/item?id=49406387\n\n Points: 123\n\n # Comments: 78",
-          "summaryZh": "Article URL: https://malisper.me/jit-compiling-code-in-5-us/\n\n Comments URL: https://news.ycombinator.com/item?id=49406387\n\n Points: 123\n\n # Comments: 78",
-          "publishedAt": "2026-08-23T06:04:51.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49406387",
-          "author": "zX41ZdbW"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49406333",
-          "title": "The End of an Athlon",
-          "titleZh": "The End of an Athlon",
-          "link": "http://www.os2museum.com/wp/the-end-of-an-athlon/",
-          "summary": "Article URL: http://www.os2museum.com/wp/the-end-of-an-athlon/\n\n Comments URL: https://news.ycombinator.com/item?id=49406333\n\n Points: 143\n\n # Comments: 57",
-          "summaryZh": "Article URL: http://www.os2museum.com/wp/the-end-of-an-athlon/\n\n Comments URL: https://news.ycombinator.com/item?id=49406333\n\n Points: 143\n\n # Comments: 57",
-          "publishedAt": "2026-08-23T05:51:01.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49406333",
-          "author": "userbinator"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49406285",
-          "title": "Fast and Hard Code",
-          "titleZh": "Fast and Hard Code",
-          "link": "https://lucumr.pocoo.org/2026/8/22/fast-hard-code/",
-          "summary": "Article URL: https://lucumr.pocoo.org/2026/8/22/fast-hard-code/\n\n Comments URL: https://news.ycombinator.com/item?id=49406285\n\n Points: 81\n\n # Comments: 44",
-          "summaryZh": "Article URL: https://lucumr.pocoo.org/2026/8/22/fast-hard-code/\n\n Comments URL: https://news.ycombinator.com/item?id=49406285\n\n Points: 81\n\n # Comments: 44",
-          "publishedAt": "2026-08-23T05:39:06.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49406285",
-          "author": "tosh"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49405870",
-          "title": "To become a better writer, read as much as you can",
-          "titleZh": "To become a better writer, read as much as you can",
-          "link": "https://nappertime.com/the-golden-rule-of-becoming-a-better-writer/",
-          "summary": "Article URL: https://nappertime.com/the-golden-rule-of-becoming-a-better-writer/\n\n Comments URL: https://news.ycombinator.com/item?id=49405870\n\n Points: 316\n\n # Comments: 208",
-          "summaryZh": "Article URL: https://nappertime.com/the-golden-rule-of-becoming-a-better-writer/\n\n Comments URL: https://news.ycombinator.com/item?id=49405870\n\n Points: 316\n\n # Comments: 208",
-          "publishedAt": "2026-08-23T03:32:25.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49405870",
-          "author": "andsoitis"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49405816",
-          "title": "MartyPC is a cross-platform emulator of early PCs written in Rust",
-          "titleZh": "MartyPC is a cross-platform emulator of early PCs written in Rust",
-          "link": "https://martypc.net/",
-          "summary": "Article URL: https://martypc.net/\n\n Comments URL: https://news.ycombinator.com/item?id=49405816\n\n Points: 154\n\n # Comments: 55",
-          "summaryZh": "Article URL: https://martypc.net/\n\n Comments URL: https://news.ycombinator.com/item?id=49405816\n\n Points: 154\n\n # Comments: 55",
-          "publishedAt": "2026-08-23T03:13:16.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49405816",
-          "author": "boilerupnc"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49405331",
-          "title": "The Art and Beauty of Blade Runner (2015)",
-          "titleZh": "The Art and Beauty of Blade Runner (2015)",
-          "link": "https://nappertime.com/the-art-of-and-beauty-of-blade-runner/",
-          "summary": "Article URL: https://nappertime.com/the-art-of-and-beauty-of-blade-runner/\n\n Comments URL: https://news.ycombinator.com/item?id=49405331\n\n Points: 136\n\n # Comments: 68",
-          "summaryZh": "Article URL: https://nappertime.com/the-art-of-and-beauty-of-blade-runner/\n\n Comments URL: https://news.ycombinator.com/item?id=49405331\n\n Points: 136\n\n # Comments: 68",
-          "publishedAt": "2026-08-23T00:56:03.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49405331",
-          "author": "cocacola1"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49404380",
-          "title": "NanoGPT Speedrun Frontier",
-          "titleZh": "NanoGPT Speedrun Frontier",
-          "link": "https://www.primeintellect.ai/research/nanogpt-speedrun",
-          "summary": "Article URL: https://www.primeintellect.ai/research/nanogpt-speedrun\n\n Comments URL: https://news.ycombinator.com/item?id=49404380\n\n Points: 127\n\n # Comments: 31",
-          "summaryZh": "Article URL: https://www.primeintellect.ai/research/nanogpt-speedrun\n\n Comments URL: https://news.ycombinator.com/item?id=49404380\n\n Points: 127\n\n # Comments: 31",
-          "publishedAt": "2026-08-22T22:14:27.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49404380",
-          "author": "stared"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49402781",
-          "title": "NetBSD and my life (2005)",
-          "titleZh": "NetBSD and my life (2005)",
-          "link": "https://mail-index.netbsd.org/netbsd-advocacy/2005/09/10/0000.html",
-          "summary": "Article URL: https://mail-index.netbsd.org/netbsd-advocacy/2005/09/10/0000.html\n\n Comments URL: https://news.ycombinator.com/item?id=49402781\n\n Points: 139\n\n # Comments: 32",
-          "summaryZh": "Article URL: https://mail-index.netbsd.org/netbsd-advocacy/2005/09/10/0000.html\n\n Comments URL: https://news.ycombinator.com/item?id=49402781\n\n Points: 139\n\n # Comments: 32",
-          "publishedAt": "2026-08-22T19:07:46.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49402781",
-          "author": "gnyeki"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49402491",
-          "title": "Things I want in a modern relational query language",
-          "titleZh": "Things I want in a modern relational query language",
-          "link": "https://sporks.space/2026/08/19/things-i-want-in-a-modern-relational-query-language/",
-          "summary": "Article URL: https://sporks.space/2026/08/19/things-i-want-in-a-modern-relational-query-language/\n\n Comments URL: https://news.ycombinator.com/item?id=49402491\n\n Points: 19\n\n # Comments: 7",
-          "summaryZh": "Article URL: https://sporks.space/2026/08/19/things-i-want-in-a-modern-relational-query-language/\n\n Comments URL: https://news.ycombinator.com/item?id=49402491\n\n Points: 19\n\n # Comments: 7",
-          "publishedAt": "2026-08-22T18:38:41.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49402491",
-          "author": "zdw"
-        }
-      ]
+      "fetchedAt": "2026-08-24T18:31:16.770Z",
+      "count": 0,
+      "items": [],
+      "error": "fetch failed"
     },
     {
       "id": "arxiv-cs-ai",
@@ -248,7 +33,7 @@
       "url": "https://rss.arxiv.org/rss/cs.AI",
       "home": "https://arxiv.org/list/cs.AI/recent",
       "group": "arxiv",
-      "fetchedAt": "2026-08-24T12:37:05.841Z",
+      "fetchedAt": "2026-08-24T18:31:17.370Z",
       "count": 15,
       "items": [
         {
@@ -424,7 +209,7 @@
       "url": "https://rss.arxiv.org/rss/cs.LG",
       "home": "https://arxiv.org/list/cs.LG/recent",
       "group": "arxiv",
-      "fetchedAt": "2026-08-24T12:37:06.266Z",
+      "fetchedAt": "2026-08-24T18:31:17.801Z",
       "count": 15,
       "items": [
         {
