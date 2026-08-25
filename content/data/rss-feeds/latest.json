@@ -1,15 +1,20 @@
 {
   "source": "content/feeds.json",
   "attribution": "Aggregated headlines/summaries from third-party RSS/Atom feeds for navigation only. All rights belong to original publishers and authors. Chinese text is machine-translated.",
-  "fetchedAt": "2026-08-25T12:36:57.247Z",
+  "fetchedAt": "2026-08-25T18:32:00.853Z",
   "date": "2026-08-25",
   "feedCount": 3,
-  "itemCount": 50,
+  "itemCount": 30,
   "locale": {
     "summaryDefault": "zh",
     "translated": true
   },
-  "errors": [],
+  "errors": [
+    {
+      "id": "hacker-news",
+      "error": "fetch failed"
+    }
+  ],
   "feeds": [
     {
       "id": "hacker-news",
@@ -17,230 +22,10 @@
       "url": "https://hnrss.org/frontpage",
       "home": "https://news.ycombinator.com/",
       "group": "community",
-      "fetchedAt": "2026-08-25T12:36:05.911Z",
-      "count": 20,
-      "items": [
-        {
-          "id": "https://news.ycombinator.com/item?id=49432227",
-          "title": "HelloAssembly The smallest possible complete Windows application",
-          "titleZh": "HelloAssembly The smallest possible complete Windows application",
-          "link": "https://github.com/PlummersSoftwareLLC/HelloAssembly",
-          "summary": "Article URL: https://github.com/PlummersSoftwareLLC/HelloAssembly\n\n Comments URL: https://news.ycombinator.com/item?id=49432227\n\n Points: 3\n\n # Comments: 1",
-          "summaryZh": "Article URL: https://github.com/PlummersSoftwareLLC/HelloAssembly\n\n Comments URL: https://news.ycombinator.com/item?id=49432227\n\n Points: 3\n\n # Comments: 1",
-          "publishedAt": "2026-08-25T11:40:00.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49432227",
-          "author": "Bluestein"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49432201",
-          "title": "Credit Card Rewards Became a $9.2B Wealth Transfer",
-          "titleZh": "Credit Card Rewards Became a $9.2B Wealth Transfer",
-          "link": "https://www.library.hbs.edu/working-knowledge/how-credit-card-rewards-became-multibillion-dollar-wealth-transfer",
-          "summary": "Article URL: https://www.library.hbs.edu/working-knowledge/how-credit-card-rewards-became-multibillion-dollar-wealth-transfer\n\n Comments URL: https://news.ycombinator.com/item?id=49432201\n\n Points: 63\n\n # Comments: 53",
-          "summaryZh": "Article URL: https://www.library.hbs.edu/working-knowledge/how-credit-card-rewards-became-multibillion-dollar-wealth-transfer\n\n Comments URL: https://news.ycombinator.com/item?id=49432201\n\n Points: 63\n\n # Comments: 53",
-          "publishedAt": "2026-08-25T11:37:24.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49432201",
-          "author": "conbrian"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49431560",
-          "title": "Quantum battery upends the rules of charging",
-          "titleZh": "Quantum battery upends the rules of charging",
-          "link": "https://www.bbc.com/future/article/20260824-this-quantum-battery-charges-faster-the-larger-it-gets",
-          "summary": "Article URL: https://www.bbc.com/future/article/20260824-this-quantum-battery-charges-faster-the-larger-it-gets\n\n Comments URL: https://news.ycombinator.com/item?id=49431560\n\n Points: 38\n\n # Comments: 32",
-          "summaryZh": "Article URL: https://www.bbc.com/future/article/20260824-this-quantum-battery-charges-faster-the-larger-it-gets\n\n Comments URL: https://news.ycombinator.com/item?id=49431560\n\n Points: 38\n\n # Comments: 32",
-          "publishedAt": "2026-08-25T10:34:12.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49431560",
-          "author": "reconnecting"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49431364",
-          "title": "Why some US restaurants are banning tips",
-          "titleZh": "Why some US restaurants are banning tips",
-          "link": "https://www.bbc.com/news/articles/c4g36yze692o",
-          "summary": "Article URL: https://www.bbc.com/news/articles/c4g36yze692o\n\n Comments URL: https://news.ycombinator.com/item?id=49431364\n\n Points: 150\n\n # Comments: 263",
-          "summaryZh": "Article URL: https://www.bbc.com/news/articles/c4g36yze692o\n\n Comments URL: https://news.ycombinator.com/item?id=49431364\n\n Points: 150\n\n # Comments: 263",
-          "publishedAt": "2026-08-25T10:09:47.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49431364",
-          "author": "rock_artist"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49428882",
-          "title": "Headlong: A Microharness for Persistent Agents",
-          "titleZh": "Headlong: A Microharness for Persistent Agents",
-          "link": "https://www.laude.org/updates/headlong-a-microharness-for-persistent-agents",
-          "summary": "Article URL: https://www.laude.org/updates/headlong-a-microharness-for-persistent-agents\n\n Comments URL: https://news.ycombinator.com/item?id=49428882\n\n Points: 84\n\n # Comments: 33",
-          "summaryZh": "Article URL: https://www.laude.org/updates/headlong-a-microharness-for-persistent-agents\n\n Comments URL: https://news.ycombinator.com/item?id=49428882\n\n Points: 84\n\n # Comments: 33",
-          "publishedAt": "2026-08-25T03:54:19.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49428882",
-          "author": "lbw1215"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49428638",
-          "title": "SiFive's First Server Platform",
-          "titleZh": "SiFive's First Server Platform",
-          "link": "https://chipsandcheese.com/p/sifives-first-server-platform",
-          "summary": "Article URL: https://chipsandcheese.com/p/sifives-first-server-platform\n\n Comments URL: https://news.ycombinator.com/item?id=49428638\n\n Points: 73\n\n # Comments: 17",
-          "summaryZh": "Article URL: https://chipsandcheese.com/p/sifives-first-server-platform\n\n Comments URL: https://news.ycombinator.com/item?id=49428638\n\n Points: 73\n\n # Comments: 17",
-          "publishedAt": "2026-08-25T03:06:26.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49428638",
-          "author": "geerlingguy"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49428121",
-          "title": "How Universities Should Prepare Founders",
-          "titleZh": "How Universities Should Prepare Founders",
-          "link": "https://paulgraham.com/prepare.html",
-          "summary": "Article URL: https://paulgraham.com/prepare.html\n\n Comments URL: https://news.ycombinator.com/item?id=49428121\n\n Points: 161\n\n # Comments: 185",
-          "summaryZh": "Article URL: https://paulgraham.com/prepare.html\n\n Comments URL: https://news.ycombinator.com/item?id=49428121\n\n Points: 161\n\n # Comments: 185",
-          "publishedAt": "2026-08-25T01:40:39.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49428121",
-          "author": "gmays"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49428080",
-          "title": "Was modern art a CIA psy-op? (2020)",
-          "titleZh": "Was modern art a CIA psy-op? (2020)",
-          "link": "https://daily.jstor.org/was-modern-art-really-a-cia-psy-op/",
-          "summary": "Article URL: https://daily.jstor.org/was-modern-art-really-a-cia-psy-op/\n\n Comments URL: https://news.ycombinator.com/item?id=49428080\n\n Points: 100\n\n # Comments: 174",
-          "summaryZh": "Article URL: https://daily.jstor.org/was-modern-art-really-a-cia-psy-op/\n\n Comments URL: https://news.ycombinator.com/item?id=49428080\n\n Points: 100\n\n # Comments: 174",
-          "publishedAt": "2026-08-25T01:35:00.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49428080",
-          "author": "neom"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49427001",
-          "title": "Bookshelf – Self-hosted eBook library that runs on object storage",
-          "titleZh": "Bookshelf – Self-hosted eBook library that runs on object storage",
-          "link": "https://github.com/murerkinn/bookshelf",
-          "summary": "Article URL: https://github.com/murerkinn/bookshelf\n\n Comments URL: https://news.ycombinator.com/item?id=49427001\n\n Points: 117\n\n # Comments: 45",
-          "summaryZh": "Article URL: https://github.com/murerkinn/bookshelf\n\n Comments URL: https://news.ycombinator.com/item?id=49427001\n\n Points: 117\n\n # Comments: 45",
-          "publishedAt": "2026-08-24T23:00:37.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49427001",
-          "author": "arbayi"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49426564",
-          "title": "iCloud+ Hide My Email addresses will remain on icloud.com",
-          "titleZh": "iCloud+ Hide My Email addresses will remain on icloud.com",
-          "link": "https://developer.apple.com/news/?id=1ptvdtcm",
-          "summary": "Article URL: https://developer.apple.com/news/?id=1ptvdtcm\n\n Comments URL: https://news.ycombinator.com/item?id=49426564\n\n Points: 505\n\n # Comments: 152",
-          "summaryZh": "Article URL: https://developer.apple.com/news/?id=1ptvdtcm\n\n Comments URL: https://news.ycombinator.com/item?id=49426564\n\n Points: 505\n\n # Comments: 152",
-          "publishedAt": "2026-08-24T22:13:40.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49426564",
-          "author": "K7PJP"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49426466",
-          "title": "Moon (2024)",
-          "titleZh": "Moon (2024)",
-          "link": "https://ciechanow.ski/moon/",
-          "summary": "Article URL: https://ciechanow.ski/moon/\n\n Comments URL: https://news.ycombinator.com/item?id=49426466\n\n Points: 214\n\n # Comments: 37",
-          "summaryZh": "Article URL: https://ciechanow.ski/moon/\n\n Comments URL: https://news.ycombinator.com/item?id=49426466\n\n Points: 214\n\n # Comments: 37",
-          "publishedAt": "2026-08-24T22:06:02.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49426466",
-          "author": "simonebrunozzi"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49425800",
-          "title": "Vintage Artificial Intelligence: Before It Got Awkward",
-          "titleZh": "Vintage Artificial Intelligence: Before It Got Awkward",
-          "link": "https://blog.archive.org/2026/08/16/vintage-artificial-intelligence-before-it-got-awkward/",
-          "summary": "Article URL: https://blog.archive.org/2026/08/16/vintage-artificial-intelligence-before-it-got-awkward/\n\n Comments URL: https://news.ycombinator.com/item?id=49425800\n\n Points: 117\n\n # Comments: 22",
-          "summaryZh": "Article URL: https://blog.archive.org/2026/08/16/vintage-artificial-intelligence-before-it-got-awkward/\n\n Comments URL: https://news.ycombinator.com/item?id=49425800\n\n Points: 117\n\n # Comments: 22",
-          "publishedAt": "2026-08-24T21:01:38.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49425800",
-          "author": "signor_bosco"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49424606",
-          "title": "Oceans hit highest temperature on record",
-          "titleZh": "Oceans hit highest temperature on record",
-          "link": "https://www.bbc.com/news/articles/c62m4gpnp78o",
-          "summary": "Article URL: https://www.bbc.com/news/articles/c62m4gpnp78o\n\n Comments URL: https://news.ycombinator.com/item?id=49424606\n\n Points: 613\n\n # Comments: 479",
-          "summaryZh": "Article URL: https://www.bbc.com/news/articles/c62m4gpnp78o\n\n Comments URL: https://news.ycombinator.com/item?id=49424606\n\n Points: 613\n\n # Comments: 479",
-          "publishedAt": "2026-08-24T19:19:08.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49424606",
-          "author": "tcp_handshaker"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49424387",
-          "title": "LLMs could control their host machines by exploiting inference engines",
-          "titleZh": "LLMs could control their host machines by exploiting inference engines",
-          "link": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
-          "summary": "Article URL: https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines\n\n Comments URL: https://news.ycombinator.com/item?id=49424387\n\n Points: 162\n\n # Comments: 78",
-          "summaryZh": "Article URL: https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines\n\n Comments URL: https://news.ycombinator.com/item?id=49424387\n\n Points: 162\n\n # Comments: 78",
-          "publishedAt": "2026-08-24T19:03:06.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49424387",
-          "author": "zdw"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49423539",
-          "title": "Octopus intelligence may be related to never-before-seen mutation",
-          "titleZh": "Octopus intelligence may be related to never-before-seen mutation",
-          "link": "https://www.smithsonianmag.com/smart-news/why-are-some-octopuses-so-smart-the-answer-might-lie-in-a-never-before-seen-mutation-that-helps-them-accurately-build-proteins-180989319/",
-          "summary": "Article URL: https://www.smithsonianmag.com/smart-news/why-are-some-octopuses-so-smart-the-answer-might-lie-in-a-never-before-seen-mutation-that-helps-them-accurately-build-proteins-180989319/\n\n Comments URL: https://news.ycombinator.com/item?id=49423539\n\n Points: 179\n\n # Comments: 134",
-          "summaryZh": "Article URL: https://www.smithsonianmag.com/smart-news/why-are-some-octopuses-so-smart-the-answer-might-lie-in-a-never-before-seen-mutation-that-helps-them-accurately-build-proteins-180989319/\n\n Comments URL: https://news.ycombinator.com/item?id=49423539\n\n Points: 179\n\n # Comments: 134",
-          "publishedAt": "2026-08-24T17:57:13.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49423539",
-          "author": "bookofjoe"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49422800",
-          "title": "Where did all the public bathrooms go?",
-          "titleZh": "Where did all the public bathrooms go?",
-          "link": "https://daily.jstor.org/where-did-all-the-public-bathrooms-go/",
-          "summary": "Article URL: https://daily.jstor.org/where-did-all-the-public-bathrooms-go/\n\n Comments URL: https://news.ycombinator.com/item?id=49422800\n\n Points: 267\n\n # Comments: 582",
-          "summaryZh": "Article URL: https://daily.jstor.org/where-did-all-the-public-bathrooms-go/\n\n Comments URL: https://news.ycombinator.com/item?id=49422800\n\n Points: 267\n\n # Comments: 582",
-          "publishedAt": "2026-08-24T17:07:01.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49422800",
-          "author": "herbertl"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49422784",
-          "title": "The entire city of San Francisco as a video game",
-          "titleZh": "The entire city of San Francisco as a video game",
-          "link": "https://sf.thijs.gg/",
-          "summary": "https://twitter.com/cdngdev/status/2091909073038082139 , https://xcancel.com/cdngdev/status/2091909073038082139\n\n Comments URL: https://news.ycombinator.com/item?id=49422784\n\n Points: 507\n\n # Comments: 148",
-          "summaryZh": "https://twitter.com/cdngdev/status/2091909073038082139 , https://xcancel.com/cdngdev/status/2091909073038082139\n\n Comments URL: https://news.ycombinator.com/item?id=49422784\n\n Points: 507\n\n # Comments: 148",
-          "publishedAt": "2026-08-24T17:05:38.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49422784",
-          "author": "centrosphere"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49421536",
-          "title": "Jabber/XMPP: 25 Years of Digital Independence",
-          "titleZh": "Jabber/XMPP: 25 Years of Digital Independence",
-          "link": "https://gultsch.de/posts/25-years-of-digital-independence/",
-          "summary": "Article URL: https://gultsch.de/posts/25-years-of-digital-independence/\n\n Comments URL: https://news.ycombinator.com/item?id=49421536\n\n Points: 240\n\n # Comments: 141",
-          "summaryZh": "Article URL: https://gultsch.de/posts/25-years-of-digital-independence/\n\n Comments URL: https://news.ycombinator.com/item?id=49421536\n\n Points: 240\n\n # Comments: 141",
-          "publishedAt": "2026-08-24T15:51:31.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49421536",
-          "author": "inputmice"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49421158",
-          "title": "MS Paint and Photos inivisibly watermark even locally generated output with GUID",
-          "titleZh": "MS Paint and Photos inivisibly watermark even locally generated output with GUID",
-          "link": "https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/",
-          "summary": "Article URL: https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/\n\n Comments URL: https://news.ycombinator.com/item?id=49421158\n\n Points: 749\n\n # Comments: 357",
-          "summaryZh": "Article URL: https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/\n\n Comments URL: https://news.ycombinator.com/item?id=49421158\n\n Points: 749\n\n # Comments: 357",
-          "publishedAt": "2026-08-24T15:28:04.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49421158",
-          "author": "ComputerGuru"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49420873",
-          "title": "Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded",
-          "titleZh": "Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded",
-          "link": "https://twitter.com/lemire/status/2091894299289874926",
-          "summary": "https://xcancel.com/lemire/status/2091894299289874926\n\n Comments URL: https://news.ycombinator.com/item?id=49420873\n\n Points: 908\n\n # Comments: 651",
-          "summaryZh": "https://xcancel.com/lemire/status/2091894299289874926\n\n Comments URL: https://news.ycombinator.com/item?id=49420873\n\n Points: 908\n\n # Comments: 651",
-          "publishedAt": "2026-08-24T15:08:17.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49420873",
-          "author": "tosh"
-        }
-      ]
+      "fetchedAt": "2026-08-25T18:31:29.142Z",
+      "count": 0,
+      "items": [],
+      "error": "fetch failed"
     },
     {
       "id": "arxiv-cs-ai",
@@ -248,7 +33,7 @@
       "url": "https://rss.arxiv.org/rss/cs.AI",
       "home": "https://arxiv.org/list/cs.AI/recent",
       "group": "arxiv",
-      "fetchedAt": "2026-08-25T12:36:06.450Z",
+      "fetchedAt": "2026-08-25T18:31:29.814Z",
       "count": 15,
       "items": [
         {
@@ -424,7 +209,7 @@
       "url": "https://rss.arxiv.org/rss/cs.LG",
       "home": "https://arxiv.org/list/cs.LG/recent",
       "group": "arxiv",
-      "fetchedAt": "2026-08-25T12:36:06.893Z",
+      "fetchedAt": "2026-08-25T18:31:30.266Z",
       "count": 15,
       "items": [
         {
