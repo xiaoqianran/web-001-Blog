@@ -1,0 +1,414 @@
+{
+  "source": "huggingface.co/api/daily_papers",
+  "attribution": "Data from Hugging Face Daily Papers (community curation). All rights belong to the original authors. Chinese text is machine-translated.",
+  "fetchedAt": "2026-08-30T13:34:02.391Z",
+  "date": "2026-08-30",
+  "sort": "trending",
+  "count": 15,
+  "locale": {
+    "summaryDefault": "zh",
+    "translated": true
+  },
+  "papers": [
+    {
+      "id": "2608.09888",
+      "title": "BDH-CQ: In-Context Learning with Recurrent Latent Reasoning",
+      "summary": "We introduce BDH-CQ, a reasoning model that combines in-context learning with recurrent latent reasoning. Inputs presented at inference time continuously update the model's recurrent memory; the model then solves a query through iterative computation in a high-dimensional latent space, without verbalizing its intermediate reasoning. We evaluate the model on the public ARC-AGI-1 evaluation set and use controlled ARC-like interventions to study what it learns from demonstrations, how consistently it applies an inferred transformation, and which concepts remain difficult. A 150M-parameter configuration reaches 29.5% pass@2 at a computed inference cost of \\$0.0007 per task. This operating point breaks through the previously reported ARC-AGI-1 cost-accuracy Pareto frontier, establishing a new state of the art in benchmark cost efficiency.",
+      "summaryZh": "我们引入了 BDH-CQ，这是一种将上下文学习与循环潜在推理相结合的推理模型。推理时呈现的输入不断更新模型的循环记忆；然后，该模型通过高维潜在空间中的迭代计算来解决查询，而无需用语言表达其中间推理。我们在公共 ARC-AGI-1 评估集上评估模型，并使用受控的类似 ARC 的干预措施来研究它从演示中学到了什么、它应用推断转换的一致性以及哪些概念仍然困难。 150M 参数配置达到 29.5% pass@2，计算得出的每个任务的推理成本为 0.0007 美元。该工作点突破了之前报道的 ARC-AGI-1 成本精度帕累托前沿，建立了基准成本效率的新技术水平。",
+      "titleZh": "BDH-CQ：具有循环潜在推理的情境学习",
+      "authors": [
+        "Björn Engdahl",
+        "Adrian Kosowski",
+        "Jan Chorowski",
+        "Zuzanna Stamirowska",
+        "Przemysław Uznański",
+        "Junlin Jiang",
+        "Rohan Phadke",
+        "Remigiusz Kinas",
+        "Richard Zhong"
+      ],
+      "publishedAt": "2026-08-10T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-08-11T00:00:00.000Z",
+      "submitter": "janchorowski",
+      "upvotes": 764,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2608.09888",
+        "arxiv": "https://arxiv.org/abs/2608.09888",
+        "pdf": "https://arxiv.org/pdf/2608.09888"
+      }
+    },
+    {
+      "id": "2608.16157",
+      "title": "FreeToken: Efficient Edge-Native MoE Serving with Bandwidth-Adaptive Execution",
+      "summary": "Frontier open-weight models are increasingly available, but serving them still largely assumes datacenter infrastructure. We present FreeToken, an edge-native MoE serving system that treats a personal machine not as a small GPU, but as a unified, elastic inference platform. FreeToken co-designs the full serving stack, including model layout and loading, expert residency, CPU--GPU execution, agentic state reuse, and runtime memory management, around two realities of local AI: agent workloads continuously change their execution pattern, and edge hardware exposes heterogeneous resources whose balance differs from machine to machine. Rather than committing to a fixed offloading strategy, FreeToken continuously maps computation and model state onto the resources actually available. FreeToken supports more than 20 MoE models and real coding and tool-using agents across hardware ranging from an 8GB laptop GPU to a single workstation GPU. More importantly, it changes what these machines can practically serve, from a 35B model on a laptop to a 284B model on a gaming desktop and the 753B GLM-5.2 on a single workstation GPU. FreeToken turns open weights into deployable local software, making the machines users already own a practical platform for frontier-scale intelligence. We release the system at flashml.ai.",
+      "summaryZh": "前沿开放权重模型越来越可用，但为它们提供服务仍然很大程度上假设数据中心基础设施。我们推出 FreeToken，这是一种边缘原生 MoE 服务系统，它不会将个人机器视为小型 GPU，而是将其视为统一的弹性推理平台。 FreeToken 围绕本地 AI 的两个现实共同设计了完整的服务堆栈，包括模型布局和加载、专家驻留、CPU-GPU 执行、代理状态重用和运行时内存管理：代理工作负载不断改变其执行模式，边缘硬件公开异构资源，其平衡因机器而异。 FreeToken 没有采用固定的卸载策略，而是不断地将计算和模型状态映射到实际可用的资源上。 FreeToken 支持 20 多种 MoE 模型以及跨硬件（从 8GB 笔记本电脑 GPU 到单个工作站 GPU）的真实编码和工具使用代理。更重要的是，它改变了这些机器的实际服务范围，从笔记本电脑上的 35B 型号到游戏台式机上的 284B 型号以及单个工作站 GPU 上的 753B GLM-5.2。 FreeToken 将开放权重转化为可部署的本地软件，使机器用户已经拥有了一个前沿智能的实用平台。我们在 flashml.ai 上发布了该系统。",
+      "titleZh": "FreeToken：具有带宽自适应执行能力的高效边缘原生 MoE 服务",
+      "authors": [
+        "Shuo Yang",
+        "Xiaoze Fan",
+        "Melissa Pan",
+        "Haocheng Xi",
+        "Zhe Wang",
+        "Shanlin Sun",
+        "Kurt Keutzer",
+        "Song Han",
+        "Matei Zaharia",
+        "Chenfeng Xu",
+        "Ion Stoica"
+      ],
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-08-19T00:00:00.000Z",
+      "submitter": "andy-yang",
+      "upvotes": 102,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2608.16157",
+        "arxiv": "https://arxiv.org/abs/2608.16157",
+        "pdf": "https://arxiv.org/pdf/2608.16157"
+      }
+    },
+    {
+      "id": "2412.20138",
+      "title": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "summary": "Significant progress has been made in automated problem-solving using\nsocieties of agents powered by large language models (LLMs). In finance,\nefforts have largely focused on single-agent systems handling specific tasks or\nmulti-agent frameworks independently gathering data. However, the multi-agent\nsystems' potential to replicate real-world trading firms' collaborative\ndynamics remains underexplored. TradingAgents proposes a novel stock trading\nframework inspired by trading firms, featuring LLM-powered agents in\nspecialized roles such as fundamental analysts, sentiment analysts, technical\nanalysts, and traders with varied risk profiles. The framework includes Bull\nand Bear researcher agents assessing market conditions, a risk management team\nmonitoring exposure, and traders synthesizing insights from debates and\nhistorical data to make informed decisions. By simulating a dynamic,\ncollaborative trading environment, this framework aims to improve trading\nperformance. Detailed architecture and extensive experiments reveal its\nsuperiority over baseline models, with notable improvements in cumulative\nreturns, Sharpe ratio, and maximum drawdown, highlighting the potential of\nmulti-agent LLM frameworks in financial trading. TradingAgents is available at\nhttps://github.com/TauricResearch/TradingAgents.",
+      "summaryZh": "使用自动化解决问题取得了重大进展\n由大型语言模型 (LLM) 提供支持的代理协会。在金融领域，\n工作主要集中在处理特定任务的单代理系统或\n多代理框架独立收集数据。然而，多代理\n系统复制现实世界贸易公司协作的潜力\n动力学仍有待探索。 TradingAgents 提出了一种新颖的股票交易方式\n受贸易公司启发的框架，以法学硕士支持的代理为特色\n专业角色，例如基本面分析师、情绪分析师、技术分析师\n具有不同风险状况的分析师和交易员。该框架包括 Bull\n贝尔斯登研究人员评估市场状况，风险管理团队\n监控风险敞口，交易者从辩论中综合见解\n历史数据以做出明智的决策。通过模拟动态，\n协作交易环境，该框架旨在改善交易\n性能。详细的架构和广泛的实验揭示了它的\n优于基线模型，累积显着改进\n回报率、夏普比率和最大回撤，凸显了\n金融交易中的多代理法学硕士框架。交易代理可在\nhttps://github.com/TauricResearch/TradingAgents。",
+      "titleZh": "TradingAgents：多代理LLM金融交易框架",
+      "authors": [
+        "Yijia Xiao",
+        "Edward Sun",
+        "Di Luo",
+        "Wei Wang"
+      ],
+      "publishedAt": "2024-12-28T12:54:06.000Z",
+      "submittedOnDailyAt": "2024-12-28T07:54:06.000Z",
+      "submitter": null,
+      "upvotes": 125,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2412.20138",
+        "arxiv": "https://arxiv.org/abs/2412.20138",
+        "pdf": "https://arxiv.org/pdf/2412.20138"
+      }
+    },
+    {
+      "id": "2608.23283",
+      "title": "Apodex 1.1: Scaling Agentic Intelligence for Complex Work",
+      "summary": "General-purpose language models can reason and synthesize knowledge, but complex work also requires sustained interaction with files, information sources, and executable code, together with state maintenance, failure recovery, and verifiable delivery. We call this working capability: sustained, verifiable progress toward a real-world objective. Apodex 1.1 develops this capability along two complementary dimensions. Environment Scaling expands the diversity and verifiability of executable file, search, and code environments, while Agentic Coordination Scaling trains agents to decompose long-horizon tasks, delegate parallel work, integrate asynchronous results, and replan. A shared execution harness and AgentOS maintain task state and provenance across tools and agents, and training turns environment trajectories and coordination traces into reliable behavior. Across complex professional work, finance, scientific research, mathematics, coding, and search, Apodex 1.1 reaches the leading performance band despite using a substantially smaller model than many frontier systems. The 35B-parameter Apodex 1.1 Mini further retains strong working capability in a locally deployable form. These results ground agentic intelligence in useful, verifiable work completed over time and advance our goal of building a Heavy-Duty Solver for ambitious, long-running tasks.",
+      "summaryZh": "通用语言模型可以推理和综合知识，但复杂的工作还需要与文件、信息源和可执行代码持续交互，以及状态维护、故障恢复和可验证的交付。我们称之为工作能力：朝着现实世界的目标持续、可验证的进展。 Apodex 1.1 在两个互补的维度上开发了这种功能。环境扩展扩展了可执行文件、搜索和代码环境的多样性和可验证性，而代理协调扩展则训练代理分解长期任务、委派并行工作、集成异步结果和重新计划。共享执行工具和 AgentOS 维护跨工具和代理的任务状态和来源，并且训练将环境轨迹和协调跟踪转化为可靠的行为。尽管使用的模型比许多前沿系统小得多，但在复杂的专业工作、金融、科学研究、数学、编码和搜索中，Apodex 1.1 仍达到了领先的性能范围。 35B参数的Apodex 1.1 Mini以可本地部署的形式进一步保留了强大的工作能力。这些结果将代理智能融入到随着时间的推移完成的有用、可验证的工作中，并推进我们为雄心勃勃的长期运行任务构建重型求解器的目标。",
+      "titleZh": "Apodex 1.1：扩展代理智能以应对复杂的工作",
+      "authors": [
+        "Apodex Team",
+        "B. An",
+        "B. Li",
+        "B. Wang",
+        "B. Zhang",
+        "B. L. Wang",
+        "C. Feng",
+        "C. Wei",
+        "C. Xue",
+        "C. Zhang",
+        "D. Ng",
+        "D. Ye"
+      ],
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-08-25T00:00:00.000Z",
+      "submitter": "oriuta",
+      "upvotes": 201,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2608.23283",
+        "arxiv": "https://arxiv.org/abs/2608.23283",
+        "pdf": "https://arxiv.org/pdf/2608.23283"
+      }
+    },
+    {
+      "id": "2608.24053",
+      "title": "WeMM-Embedding: WeChat Multi-Modal Embedding Technical Report",
+      "summary": "Universal multimodal embeddings are becoming a core component of modern AI systems, enabling heterogeneous content to be represented in a shared space for applications such as retrieval, recommendation, classification, and agentic systems. In this report, we present WeMM-Embedding, a family of universal multimodal embedding models supporting text, images, videos, visual documents, and arbitrarily interleaved multimodal inputs with flexible output dimensions. The family comprises 2B, 4B, and 9B variants and is trained in two stages: a large-scale multimodal alignment stage, followed by a refinement stage using curated data, fine-grained relevance supervision, and cross-scale knowledge transfer. Across extensive evaluations, WeMM-Embedding achieves leading performance on multiple public benchmarks. Notably, the 2B variant already surpasses the previously leading 8B open-source baseline on MMEB-v2, while the 9B variant further achieves a new state-of-the-art overall score of 80.6. WeMM-Embedding also demonstrates strong practical performance across WeChat applications, with substantial gains on a 26-task in-house benchmark and consistent improvements across 14 online A/B tests. It has been deployed at scale across recommendation and search applications, including WeChat Channels, Official Accounts, Moments, and e-commerce services. We have released the model weights and code to facilitate future research at https://github.com/Tencent/WeMM-Embedding.",
+      "summaryZh": "通用多模态嵌入正在成为现代人工智能系统的核心组件，使异构内容能够在共享空间中表示，用于检索、推荐、分类和代理系统等应用。在本报告中，我们提出了 WeMM-Embedding，这是一系列通用多模态嵌入模型，支持文本、图像、视频、视觉文档以及具有灵活输出维度的任意交错多模态输入。该系列包括 2B、4B 和 9B 变体，并分两个阶段进行训练：大规模多模式对齐阶段，然后是使用精选数据、细粒度相关性监督和跨规模知识转移的细化阶段。经过广泛的评估，WeMM-Embedding 在多个公共基准上取得了领先的性能。值得注意的是，2B 变体已经超越了之前在 MMEB-v2 上领先的 8B 开源基线，而 9B 变体进一步达到了新的最先进总分 80.6。 WeMM-Embedding 还在微信应用程序中展示了强大的实际性能，在 26 项内部基准测试中取得了显着的进步，并在 14 项在线 A/B 测试中取得了一致的改进。它已在推荐和搜索应用程序中大规模部署，包括微信频道、公众号、朋友圈和电子商务服务。我们已经在 https://github.com/Tencent/WeMM-Embedding 发布了模型权重和代码，以方便将来的研究。",
+      "titleZh": "WeMM-Embedding：微信多模态嵌入技术报告",
+      "authors": [
+        "Junjie Zhou",
+        "Ke Mei",
+        "Lei Li",
+        "Tianyi Wang",
+        "Fengyun Rao",
+        "Jing Lyu"
+      ],
+      "publishedAt": "2026-08-25T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-08-26T00:00:00.000Z",
+      "submitter": "JUNJIE99",
+      "upvotes": 66,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2608.24053",
+        "arxiv": "https://arxiv.org/abs/2608.24053",
+        "pdf": "https://arxiv.org/pdf/2608.24053"
+      }
+    },
+    {
+      "id": "2608.23552",
+      "title": "Prime Agent: A Self-Improving RLM Harness",
+      "summary": "Language models are sequential processors, but long-horizon agency requires external information and computation beyond model weights and active context. Prime Agent is an open-source harness for long-horizon evaluation and coding-agent workflows. A persistent IPython REPL follows the Recursive Language Model abstraction for programmatic context processing and test-time compute, while Continual Harness preserves histories, memories, skills, prompts, and subagent specifications across trajectories. Recursive subagents coordinate through direct agent-to-agent communication, and the Agents View lets humans inspect and manage daemon-backed sessions. Prime Agent standardizes execution, recovery, verification, and resource accounting while leaving strategy construction to the model. This low-friction, expressive membrane prevents harness failures from becoming model failures and pushes measurement toward the model's true maximal underlying capability. Prime Agent raises ARC-AGI-3 RHAE Best@1 from 30% to 95.5% and matches or exceeds native and popular harnesses across long-context coding, GPU-kernel generation, emulator construction, and autonomous nanoGPT speedruns. On Factorio, we find refinement allows for continuous technology progression and dedicated subagents enable parallelized work. Code is available at https://github.com/PrimeIntellect-ai/prime-agent.",
+      "summaryZh": "语言模型是顺序处理器，但长期代理需要模型权重和活动上下文之外的外部信息和计算。 Prime Agent 是一个用于长期评估和编码代理工作流程的开源工具。持久性 IPython REPL 遵循用于编程上下文处理和测试时计算的递归语言模型抽象，而持续利用则保留跨轨迹的历史、记忆、技能、提示和子代理规范。递归子代理通过直接代理到代理通信进行协调，代理视图允许人们检查和管理守护程序支持的会话。 Prime Agent 标准化执行、恢复、验证和资源核算，同时将策略构建留给模型。这种低摩擦、富有表现力的薄膜可防止线束故障变成模型故障，并将测量推向模型真正的最大基础能力。 Prime Agent 将 ARC-AGI-3 RHAE Best@1 从 30% 提高到 95.5%，并且在长上下文编码、GPU 内核生成、模拟器构建和自主 nanoGPT 速度运行方面匹配或超过了本地和流行的工具。在异星工厂中，我们发现细化可以实现持续的技术进步，而专用的子代理可以实现并行工作。代码可在 https://github.com/PrimeIntellect-ai/prime-agent 获取。",
+      "titleZh": "Prime Agent：自我改进的 RLM 安全带",
+      "authors": [
+        "Seth Karten",
+        "Alex L. Zhang",
+        "Kevin Thomas",
+        "Sebastian Müller",
+        "Elie Bakouch",
+        "Daniel Auras",
+        "Mika Senghaas",
+        "Fares Obeid",
+        "Konstantin Dunas",
+        "Johannes Hagemann",
+        "Sami Jaghouar"
+      ],
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-08-25T00:00:00.000Z",
+      "submitter": "milkkarten",
+      "upvotes": 45,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2608.23552",
+        "arxiv": "https://arxiv.org/abs/2608.23552",
+        "pdf": "https://arxiv.org/pdf/2608.23552"
+      }
+    },
+    {
+      "id": "2407.16741",
+      "title": "OpenDevin: An Open Platform for AI Software Developers as Generalist\n  Agents",
+      "summary": "Software is one of the most powerful tools that we humans have at our\ndisposal; it allows a skilled programmer to interact with the world in complex\nand profound ways. At the same time, thanks to improvements in large language\nmodels (LLMs), there has also been a rapid development in AI agents that\ninteract with and affect change in their surrounding environments. In this\npaper, we introduce OpenDevin, a platform for the development of powerful and\nflexible AI agents that interact with the world in similar ways to those of a\nhuman developer: by writing code, interacting with a command line, and browsing\nthe web. We describe how the platform allows for the implementation of new\nagents, safe interaction with sandboxed environments for code execution,\ncoordination between multiple agents, and incorporation of evaluation\nbenchmarks. Based on our currently incorporated benchmarks, we perform an\nevaluation of agents over 15 challenging tasks, including software engineering\n(e.g., SWE-Bench) and web browsing (e.g., WebArena), among others. Released\nunder the permissive MIT license, OpenDevin is a community project spanning\nacademia and industry with more than 1.3K contributions from over 160\ncontributors and will improve going forward.",
+      "summaryZh": "软件是我们人类拥有的最强大的工具之一\n处置；它允许熟练的程序员与复杂的世界进行交互\n和深刻的方法。同时得益于大语言的改进\n模型（法学硕士），人工智能代理也得到了快速发展，\n与周围环境的变化相互作用并影响其变化。在这个\n论文中，我们介绍了 OpenDevin，一个用于开发功能强大且\n灵活的人工智能代理，以类似于人类的方式与世界互动\n人类开发人员：通过编写代码、与命令行交互和浏览\n网络。我们描述了该平台如何允许实施新的\n代理，与沙盒环境安全交互以执行代码，\n多个主体之间的协调以及评估的结合\n基准。根据我们目前纳入的基准，我们执行\n对代理进行超过 15 项挑战性任务的评估，包括软件工程\n（例如，SWE-Bench）和网页浏览（例如，WebArena）等。已发布\n在 MIT 许可下，OpenDevin 是一个社区项目，涵盖\n学术界和工业界超过 160 人做出了超过 1,300 份贡献\n贡献者并将继续改进。",
+      "titleZh": "OpenDevin：面向多面手的人工智能软件开发人员的开放平台\n  代理商",
+      "authors": [
+        "Xingyao Wang",
+        "Boxuan Li",
+        "Yufan Song",
+        "Frank F. Xu",
+        "Xiangru Tang",
+        "Mingchen Zhuge",
+        "Jiayi Pan",
+        "Yueqi Song",
+        "Bowen Li",
+        "Jaskirat Singh",
+        "Hoang H. Tran",
+        "Fuqiang Li"
+      ],
+      "publishedAt": "2024-07-23T17:50:43.000Z",
+      "submittedOnDailyAt": "2024-07-25T00:00:00.000Z",
+      "submitter": "akhaliq",
+      "upvotes": 85,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2407.16741",
+        "arxiv": "https://arxiv.org/abs/2407.16741",
+        "pdf": "https://arxiv.org/pdf/2407.16741"
+      }
+    },
+    {
+      "id": "2407.17789",
+      "title": "Very Large-Scale Multi-Agent Simulation in AgentScope",
+      "summary": "Recent advances in large language models (LLMs) have opened new avenues for\napplying multi-agent systems in very large-scale simulations. However, there\nremain several challenges when conducting multi-agent simulations with existing\nplatforms, such as limited scalability and low efficiency, unsatisfied agent\ndiversity, and effort-intensive management processes. To address these\nchallenges, we develop several new features and components for AgentScope, a\nuser-friendly multi-agent platform, enhancing its convenience and flexibility\nfor supporting very large-scale multi-agent simulations. Specifically, we\npropose an actor-based distributed mechanism as the underlying technological\ninfrastructure towards great scalability and high efficiency, and provide\nflexible environment support for simulating various real-world scenarios, which\nenables parallel execution of multiple agents, centralized workflow\norchestration, and both inter-agent and agent-environment interactions among\nagents. Moreover, we integrate an easy-to-use configurable tool and an\nautomatic background generation pipeline in AgentScope, simplifying the process\nof creating agents with diverse yet detailed background settings. Last but not\nleast, we provide a web-based interface for conveniently monitoring and\nmanaging a large number of agents that might deploy across multiple devices. We\nconduct a comprehensive simulation to demonstrate the effectiveness of the\nproposed enhancements in AgentScope, and provide detailed observations and\ndiscussions to highlight the great potential of applying multi-agent systems in\nlarge-scale simulations. The source code is released on GitHub at\nhttps://github.com/modelscope/agentscope to inspire further research and\ndevelopment in large-scale multi-agent simulations.",
+      "summaryZh": "大语言模型 (LLM) 的最新进展为\n在超大规模模拟中应用多智能体系统。然而，有\n在利用现有技术进行多智能体模拟时仍然面临一些挑战\n平台，如可扩展性有限、效率低下、代理不满意\n多样性和努力密集型的管理流程。为了解决这些\n挑战，我们为 AgentScope 开发了几个新功能和组件，\n用户友好的多代理平台，增强其便利性和灵活性\n用于支持超大规模的多智能体模拟。具体来说，我们\n提出基于参与者的分布式机制作为底层技术\n基础设施具有良好的可扩展性和高效率，并提供\n灵活的环境支持模拟各种现实场景，\n支持多个代理并行执行、集中工作流程\n编排，以及代理间和代理与环境之间的交互\n代理。此外，我们集成了一个易于使用的可配置工具和一个\nAgentScope中自动后台生成管道，简化流程\n创建具有多样化但详细的背景设置的代理。最后但不是\n至少，我们提供了一个基于网络的界面，可以方便地监控和\n管理可能跨多个设备部署的大量代理。我们\n进行全面的模拟以证明其有效性\nAgentScope 中提出的增强功能，并提供详细的观察结果和\n讨论强调了应用多智能体系统的巨大潜力\n大规模模拟。源代码发布在 GitHub 上：\nhttps://github.com/modelscope/agentscope 激发进一步的研究和\n大规模多智能体模拟的发展。",
+      "titleZh": "AgentScope 中的超大规模多智能体模拟",
+      "authors": [
+        "Xuchen Pan",
+        "Dawei Gao",
+        "Yuexiang Xie",
+        "Zhewei Wei",
+        "Yaliang Li",
+        "Bolin Ding",
+        "Ji-Rong Wen",
+        "Jingren Zhou"
+      ],
+      "publishedAt": "2024-07-25T05:50:46.000Z",
+      "submittedOnDailyAt": "2024-07-26T00:00:00.000Z",
+      "submitter": "akhaliq",
+      "upvotes": 46,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2407.17789",
+        "arxiv": "https://arxiv.org/abs/2407.17789",
+        "pdf": "https://arxiv.org/pdf/2407.17789"
+      }
+    },
+    {
+      "id": "2508.16279",
+      "title": "AgentScope 1.0: A Developer-Centric Framework for Building Agentic\n  Applications",
+      "summary": "Driven by rapid advancements of Large Language Models (LLMs), agents are\nempowered to combine intrinsic knowledge with dynamic tool use, greatly\nenhancing their capacity to address real-world tasks. In line with such an\nevolution, AgentScope introduces major improvements in a new version (1.0),\ntowards comprehensively supporting flexible and efficient tool-based\nagent-environment interactions for building agentic applications. Specifically,\nwe abstract foundational components essential for agentic applications and\nprovide unified interfaces and extensible modules, enabling developers to\neasily leverage the latest progress, such as new models and MCPs. Furthermore,\nwe ground agent behaviors in the ReAct paradigm and offer advanced agent-level\ninfrastructure based on a systematic asynchronous design, which enriches both\nhuman-agent and agent-agent interaction patterns while improving execution\nefficiency. Building on this foundation, we integrate several built-in agents\ntailored to specific practical scenarios. AgentScope also includes robust\nengineering support for developer-friendly experiences. We provide a scalable\nevaluation module with a visual studio interface, making the development of\nlong-trajectory agentic applications more manageable and easier to trace. In\naddition, AgentScope offers a runtime sandbox to ensure safe agent execution\nand facilitates rapid deployment in production environments. With these\nenhancements, AgentScope provides a practical foundation for building scalable,\nadaptive, and effective agentic applications.",
+      "summaryZh": "在大型语言模型 (LLM) 快速发展的推动下，代理正在\n能够将内在知识与动态工具的使用结合起来，极大地\n增强他们解决现实世界任务的能力。符合这样一个\n演变，AgentScope 在新版本 (1.0) 中引入了重大改进，\n全面支持灵活高效的工具化\n用于构建代理应用程序的代理与环境交互。具体来说，\n我们抽象了代理应用程序所必需的基础组件，并且\n提供统一的接口和可扩展的模块，方便开发者\n轻松利用最新进展，例如新模型和 MCP。此外，\n我们将代理行为置于 ReAct 范式中，并提供高级代理级别\n基于系统异步设计的基础设施，丰富了两者\n人与代理和代理与代理交互模式，同时提高执行力\n效率。在此基础上，我们集成了多个内置代理\n针对具体的实际场景进行定制。 AgentScope 还包括强大的\n为开发人员提供友好体验的工程支持。我们提供可扩展的\n具有 Visual Studio 界面的评估模块，使得开发\n长轨迹代理应用程序更易于管理和跟踪。在\n此外，AgentScope 还提供运行时沙箱以确保安全代理执行\n并有利于生产环境中的快速部署。有了这些\n增强功能，AgentScope 为构建可扩展、\n自适应且有效的代理应用程序。",
+      "titleZh": "AgentScope 1.0：以开发人员为中心的 Agentic 构建框架\n  应用领域",
+      "authors": [
+        "Dawei Gao",
+        "Zitao Li",
+        "Yuexiang Xie",
+        "Weirui Kuang",
+        "Liuyi Yao",
+        "Bingchen Qian",
+        "Zhijian Ma",
+        "Yue Cui",
+        "Haohao Luo",
+        "Shen Li",
+        "Lu Yi",
+        "Yi Yu"
+      ],
+      "publishedAt": "2025-08-22T10:35:56.000Z",
+      "submittedOnDailyAt": "2025-08-25T00:00:00.000Z",
+      "submitter": "taesiri",
+      "upvotes": 68,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2508.16279",
+        "arxiv": "https://arxiv.org/abs/2508.16279",
+        "pdf": "https://arxiv.org/pdf/2508.16279"
+      }
+    },
+    {
+      "id": "2308.04079",
+      "title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
+      "summary": "Radiance Field methods have recently revolutionized novel-view synthesis of\nscenes captured with multiple photos or videos. However, achieving high visual\nquality still requires neural networks that are costly to train and render,\nwhile recent faster methods inevitably trade off speed for quality. For\nunbounded and complete scenes (rather than isolated objects) and 1080p\nresolution rendering, no current method can achieve real-time display rates. We\nintroduce three key elements that allow us to achieve state-of-the-art visual\nquality while maintaining competitive training times and importantly allow\nhigh-quality real-time (>= 30 fps) novel-view synthesis at 1080p resolution.\nFirst, starting from sparse points produced during camera calibration, we\nrepresent the scene with 3D Gaussians that preserve desirable properties of\ncontinuous volumetric radiance fields for scene optimization while avoiding\nunnecessary computation in empty space; Second, we perform interleaved\noptimization/density control of the 3D Gaussians, notably optimizing\nanisotropic covariance to achieve an accurate representation of the scene;\nThird, we develop a fast visibility-aware rendering algorithm that supports\nanisotropic splatting and both accelerates training and allows realtime\nrendering. We demonstrate state-of-the-art visual quality and real-time\nrendering on several established datasets.",
+      "summaryZh": "辐射场方法最近彻底改变了新视角合成\n使用多张照片或视频拍摄的场景。然而，实现高视觉\n质量仍然需要训练和渲染成本高昂的神经网络，\n而最近更快的方法不可避免地要牺牲速度来换取质量。对于\n无界且完整的场景（而不是孤立的物体）和 1080p\n分辨率渲染，目前还没有方法可以达到实时显示速率。我们\n介绍使我们能够实现最先进视觉效果的三个关键要素\n质量，同时保持有竞争力的培训时间，重要的是允许\n1080p 分辨率的高质量实时 (>= 30 fps) 新颖视图合成。\n首先，从相机标定过程中产生的稀疏点开始，我们\n用 3D 高斯表示场景，保留所需的属性\n连续体积辐射场用于场景优化，同时避免\n在空的空间中进行不必要的计算；其次，我们执行交错\n3D 高斯的优化/密度控制，特别是优化\n各向异性协方差实现场景的准确表示；\n第三，我们开发了一种快速可见性感知渲染算法，支持\n各向异性泼溅既加速训练又允许实时\n渲染。我们展示最先进的视觉质量和实时性\n在几个已建立的数据集上进行渲染。",
+      "titleZh": "用于实时辐射场渲染的 3D 高斯喷射",
+      "authors": [
+        "Bernhard Kerbl",
+        "Georgios Kopanas",
+        "Thomas Leimkühler",
+        "George Drettakis"
+      ],
+      "publishedAt": "2023-08-08T06:37:06.000Z",
+      "submittedOnDailyAt": "2023-08-09T00:00:00.000Z",
+      "submitter": "akhaliq",
+      "upvotes": 204,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2308.04079",
+        "arxiv": "https://arxiv.org/abs/2308.04079",
+        "pdf": "https://arxiv.org/pdf/2308.04079"
+      }
+    },
+    {
+      "id": "2608.26005",
+      "title": "VoiceMem: Streaming Dual-Brain Memory for Real-Time Interaction",
+      "summary": "Conversational systems, such as duplex speech language models (SLMs), still lack a streaming, accurate, and empathetic memory system as their soul. We introduce VoiceMem, a simple memory architecture with a parallel informational left brain, an emotional right brain, and streaming memory I/O mechanisms. We further build a complete pipeline for memory-aware SLM training, long-horizon evaluation, and decoupled deployment with interchangeable memory backends. Experiments and real-world deployment show three advantages: i) Accuracy: under top-5 retrieval, the left brain outperforms classical systems such as Mem0 at top-200 by nearly 30 points; ii) Emotional & Personal: the right brain, with short- and long-horizon affective attribution and dual-node persona modeling, achieves state-of-the-art performance across three persona benchmarks and improves the aggregate score by 4.29 points over the previous best system; and iii) Real-Time & Cheap: VoiceMem completes retrieval in 134 ms, well within standard VAD latency, adding no extra conversational delay while maintaining high accuracy and low cost. These results show that VoiceMem provides a practical memory foundation for real-time, personalized, and emotionally aware speech interaction.",
+      "summaryZh": "会话系统，例如双工语音语言模型（SLM），仍然缺乏流式、准确且具有同理心的记忆系统作为其灵魂。我们介绍了 VoiceMem，这是一种简单的内存架构，具有并行信息左脑、情感右脑和流式内存 I/O 机制。我们进一步构建了一个完整的管道，用于内存感知 SLM 训练、长期评估以及可互换内存后端的解耦部署。实验和实际部署显示出三个优势：i）准确性：在top-5检索下，左脑在top-200检索中比Mem0等经典系统高出近30分； ii) 情感和个人：右脑通过短视和长视情感归因和双节点角色建模，在三个角色基准上实现了最先进的性能，并且总分比之前的最佳系统提高了 4.29 分； iii) 实时且便宜：VoiceMem 在 134 毫秒内完成检索，完全在标准 VAD 延迟范围内，不会增加额外的对话延迟，同时保持高精度和低成本。这些结果表明，VoiceMem 为实时、个性化和情感感知的语音交互提供了实用的记忆基础。",
+      "titleZh": "VoiceMem：用于实时交互的流式双脑记忆",
+      "authors": [
+        "Zhifei Xie",
+        "Jiaqi Lang",
+        "Ze An",
+        "Yifan Zhao",
+        "Dongchao Yang",
+        "Kai Li",
+        "Ziyang Ma",
+        "Mingbao Lin",
+        "Chunyan Miao",
+        "Shuicheng Yan"
+      ],
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-08-27T00:00:00.000Z",
+      "submitter": "zhifeixie",
+      "upvotes": 167,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2608.26005",
+        "arxiv": "https://arxiv.org/abs/2608.26005",
+        "pdf": "https://arxiv.org/pdf/2608.26005"
+      }
+    },
+    {
+      "id": "2309.06180",
+      "title": "Efficient Memory Management for Large Language Model Serving with\n  PagedAttention",
+      "summary": "High throughput serving of large language models (LLMs) requires batching\nsufficiently many requests at a time. However, existing systems struggle\nbecause the key-value cache (KV cache) memory for each request is huge and\ngrows and shrinks dynamically. When managed inefficiently, this memory can be\nsignificantly wasted by fragmentation and redundant duplication, limiting the\nbatch size. To address this problem, we propose PagedAttention, an attention\nalgorithm inspired by the classical virtual memory and paging techniques in\noperating systems. On top of it, we build vLLM, an LLM serving system that\nachieves (1) near-zero waste in KV cache memory and (2) flexible sharing of KV\ncache within and across requests to further reduce memory usage. Our\nevaluations show that vLLM improves the throughput of popular LLMs by\n2-4times with the same level of latency compared to the state-of-the-art\nsystems, such as FasterTransformer and Orca. The improvement is more pronounced\nwith longer sequences, larger models, and more complex decoding algorithms.\nvLLM's source code is publicly available at\nhttps://github.com/vllm-project/vllm",
+      "summaryZh": "大型语言模型 (LLM) 的高吞吐量服务需要批处理\n一次有足够多的请求。然而，现有系统却举步维艰\n因为每个请求的键值缓存（KV缓存）内存巨大并且\n动态增长和收缩。当管理效率低下时，该内存可能会被\n碎片和冗余重复造成了极大的浪费，限制了\n批量大小。为了解决这个问题，我们提出PagedAttention，一个注意力机制\n算法的灵感来自于经典的虚拟内存和分页技术\n操作系统。在此基础上，我们构建了 vLLM，一个 LLM 服务系统，\n实现 (1) KV 缓存内存近乎零浪费和 (2) KV 灵活共享\n在请求内和请求之间进行缓存，以进一步减少内存使用。我们的\n评估表明，vLLM 通过以下方式提高了流行 LLM 的吞吐量：\n与最先进的技术相比，相同延迟水平下的 2-4 倍\n系统，例如 FasterTransformer 和 Orca。改善效果更加明显\n具有更长的序列、更大的模型和更复杂的解码算法。\nvLLM 的源代码可在以下位置公开获取：\nhttps://github.com/vllm-project/vllm",
+      "titleZh": "大型语言模型的高效内存管理\n  分页注意力",
+      "authors": [
+        "Woosuk Kwon",
+        "Zhuohan Li",
+        "Siyuan Zhuang",
+        "Ying Sheng",
+        "Lianmin Zheng",
+        "Cody Hao Yu",
+        "Joseph E. Gonzalez",
+        "Hao Zhang",
+        "Ion Stoica"
+      ],
+      "publishedAt": "2023-09-12T12:50:04.000Z",
+      "submittedOnDailyAt": "2023-09-13T00:00:00.000Z",
+      "submitter": "akhaliq",
+      "upvotes": 68,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2309.06180",
+        "arxiv": "https://arxiv.org/abs/2309.06180",
+        "pdf": "https://arxiv.org/pdf/2309.06180"
+      }
+    },
+    {
+      "id": "2407.04051",
+      "title": "FunAudioLLM: Voice Understanding and Generation Foundation Models for\n  Natural Interaction Between Humans and LLMs",
+      "summary": "This report introduces FunAudioLLM, a model family designed to enhance\nnatural voice interactions between humans and large language models (LLMs). At\nits core are two innovative models: SenseVoice, which handles multilingual\nspeech recognition, emotion recognition, and audio event detection; and\nCosyVoice, which facilitates natural speech generation with control over\nmultiple languages, timbre, speaking style, and speaker identity.\nSenseVoice-Small delivers exceptionally low-latency ASR for 5 languages, and\nSenseVoice-Large supports high-precision ASR for over 50 languages, while\nCosyVoice excels in multi-lingual voice generation, zero-shot in-context\nlearning, cross-lingual voice cloning, and instruction-following capabilities.\nThe models related to SenseVoice and CosyVoice have been open-sourced on\nModelscope and Huggingface, along with the corresponding training, inference,\nand fine-tuning codes released on GitHub. By integrating these models with\nLLMs, FunAudioLLM enables applications such as speech-to-speech translation,\nemotional voice chat, interactive podcasts, and expressive audiobook narration,\nthereby pushing the boundaries of voice interaction technology. Demos are\navailable at https://fun-audio-llm.github.io, and the code can be accessed at\nhttps://github.com/FunAudioLLM.",
+      "summaryZh": "本报告介绍了 FunAudioLLM，一个旨在增强\n人类和大型语言模型 (LLM) 之间的自然语音交互。在\n其核心是两个创新模型：SenseVoice，处理多语言\n语音识别、情感识别和音频事件检测；和\nCosyVoice，通过控制促进自然语音生成\n多种语言、音色、说话风格和说话者身份。\nSenseVoice-Small 为 5 种语言提供极低延迟的 ASR，并且\nSenseVoice-Large 支持 50 多种语言的高精度 ASR，同时\nCosyVoice 擅长多语言语音生成、上下文中的零样本\n学习、跨语言语音克隆和指令跟踪功能。\nSenseVoice和CosyVoice相关模型已开源\nModelscope和Huggingface，以及相应的训练、推理、\n并对 GitHub 上发布的代码进行微调。通过将这些模型与\n法学硕士，FunAudioLLM 支持语音到语音翻译等应用，\n情感语音聊天、互动播客和富有表现力的有声读物旁白，\n从而突破语音交互技术的界限。演示是\n可在 https://fun-audio-llm.github.io 获取，代码可在以下位置访问\nhttps://github.com/FunAudioLLM。",
+      "titleZh": "FunAudioLLM：语音理解和生成基础模型\n  人类与法学硕士之间的自然互动",
+      "authors": [
+        "Tongyi SpeechTeam"
+      ],
+      "publishedAt": "2024-07-04T16:49:02.000Z",
+      "submittedOnDailyAt": "2024-07-08T00:00:00.000Z",
+      "submitter": "akhaliq",
+      "upvotes": 40,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2407.04051",
+        "arxiv": "https://arxiv.org/abs/2407.04051",
+        "pdf": "https://arxiv.org/pdf/2407.04051"
+      }
+    },
+    {
+      "id": "2509.22186",
+      "title": "MinerU2.5: A Decoupled Vision-Language Model for Efficient\n  High-Resolution Document Parsing",
+      "summary": "We introduce MinerU2.5, a 1.2B-parameter document parsing vision-language\nmodel that achieves state-of-the-art recognition accuracy while maintaining\nexceptional computational efficiency. Our approach employs a coarse-to-fine,\ntwo-stage parsing strategy that decouples global layout analysis from local\ncontent recognition. In the first stage, the model performs efficient layout\nanalysis on downsampled images to identify structural elements, circumventing\nthe computational overhead of processing high-resolution inputs. In the second\nstage, guided by the global layout, it performs targeted content recognition on\nnative-resolution crops extracted from the original image, preserving\nfine-grained details in dense text, complex formulas, and tables. To support\nthis strategy, we developed a comprehensive data engine that generates diverse,\nlarge-scale training corpora for both pretraining and fine-tuning. Ultimately,\nMinerU2.5 demonstrates strong document parsing ability, achieving\nstate-of-the-art performance on multiple benchmarks, surpassing both\ngeneral-purpose and domain-specific models across various recognition tasks,\nwhile maintaining significantly lower computational overhead.",
+      "summaryZh": "我们介绍MinerU2.5，一个1.2B参数的文档解析视觉语言\n该模型可实现最先进的识别精度，同时保持\n卓越的计算效率。我们的方法采用从粗到细的方法，\n将全局布局分析与局部布局分析分离的两阶段解析策略\n内容识别。第一阶段，模型进行高效布局\n对下采样图像进行分析以识别结构元素，规避\n处理高分辨率输入的计算开销。在第二个\n舞台上，以全球布局为导向，进行有针对性的内容识别\n从原始图像中提取的原始分辨率作物，保留\n密集文本、复杂公式和表格中的细粒度细节。支持\n根据这一策略，我们开发了一个全面的数据引擎，可以生成不同的、\n用于预训练和微调的大规模训练语料库。 Ultimately,\nMinerU2.5展现出强大的文档解析能力，实现\n在多个基准测试中具有最先进的性能，超越了两者\n跨各种识别任务的通用和特定领域模型，\n同时保持显着较低的计算开销。",
+      "titleZh": "MinerU2.5：一种高效的解耦视觉语言模型\n  高分辨率文档解析",
+      "authors": [
+        "Junbo Niu",
+        "Zheng Liu",
+        "Zhuangcheng Gu",
+        "Bin Wang",
+        "Linke Ouyang",
+        "Zhiyuan Zhao",
+        "Tao Chu",
+        "Tianyao He",
+        "Fan Wu",
+        "Qintong Zhang",
+        "Zhenjiang Jin",
+        "Guang Liang"
+      ],
+      "publishedAt": "2025-09-26T10:45:48.000Z",
+      "submittedOnDailyAt": "2025-09-29T00:00:00.000Z",
+      "submitter": "taesiri",
+      "upvotes": 177,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2509.22186",
+        "arxiv": "https://arxiv.org/abs/2509.22186",
+        "pdf": "https://arxiv.org/pdf/2509.22186"
+      }
+    },
+    {
+      "id": "2608.20335",
+      "title": "4DAnyone: Create Anyone in 4D from a Casual Monocular Video",
+      "summary": "We present 4DAnyone, a framework for reconstructing 4D humans from an uncalibrated monocular video by generating reconstruction-grade multiview-consistent videos and lifting them into 4D Gaussian Splatting (4DGS). Existing camera-controlled video diffusion models synthesize plausible novel-view videos but fail to maintain consistency when scaled to the tens of target views required for 4DGS reconstruction. We identify this failure as a bounded-attention-context problem: when target views exceed the capacity of a single DiT forward pass, they must be split into groups, exposing two coupled bottlenecks. On the reference-context side, conditioning on all previously generated views grows as O(N), weakening cross-view appearance guidance. On the target-context side, disjoint groups cannot directly exchange information, causing global structural drift. 4DAnyone addresses both bottlenecks with two complementary designs: Reference Context Packing (RCP) compresses growing reference views into a fixed-length mixed-resolution context with O(1) reference-context complexity, while Target Context Routing (TCR) rotates target-view groupings during denoising to share context across groups at high-noise steps and stabilize details at low-noise steps. We further build the MVGameHuman dataset using our in-house game engine and combine it with light-stage and in-the-wild video datasets for training. Experiments on DNA-Rendering and DyMVHumans show that 4DAnyone outperforms prior methods in both novel-view video quality and downstream 4DGS reconstruction, with robust in-the-wild generalization. See our project page for video results and source code: https://4danyone.github.io.",
+      "summaryZh": "我们提出了 4DAnyone，这是一个框架，用于通过生成重建级多视图一致视频并将其提升为 4D 高斯泼溅 (4DGS)，从未经校准的单眼视频重建 4D 人类。现有的摄像机控制视频扩散模型可以合成合理的新颖视图视频，但在扩展到 4DGS 重建所需的数十个目标视图时无法保持一致性。我们将这种失败识别为有界注意上下文问题：当目标视图超过单个 DiT 前向传递的容量时，它们必须分成组，从而暴露两个耦合的瓶颈。在参考上下文方面，对所有先前生成的视图的调节随着 O(N) 增长，削弱了跨视图外观指导。在目标上下文方面，不相交的群体无法直接交换信息，导致全局结构漂移。 4DAnyone 通过两种互补的设计解决了这两个瓶颈：参考上下文打包 (RCP) 将不断增长的参考视图压缩为参考上下文复杂度为 O(1) 的固定长度混合分辨率上下文，而目标上下文路由 (TCR) 在去噪期间旋转目标视图分组，以在高噪声步骤中跨组共享上下文，并在低噪声步骤中稳定细节。我们使用我们的内部游戏引擎进一步构建 MVGameHuman 数据集，并将其与光舞台和野外视频数据集相结合进行训练。 DNA-Rendering 和 DyMVHumans 的实验表明，4DAnyone 在新视角视频质量和下游 4DGS 重建方面均优于先前方法，并具有强大的野外泛化能力。请参阅我们的项目页面以获取视频结果和源代码：https://4danone.github.io。",
+      "titleZh": "4DAnyone：通过休闲单眼视频以 4D 形式创建任何人",
+      "authors": [
+        "Yudong Jin",
+        "Tao Xie",
+        "Qihang Zhang",
+        "Zehong Shen",
+        "Zhen Xu",
+        "Yujun Shen",
+        "Hujun Bao",
+        "Xiaowei Zhou",
+        "Yinghao Xu"
+      ],
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-08-21T00:00:00.000Z",
+      "submitter": "krahets",
+      "upvotes": 81,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2608.20335",
+        "arxiv": "https://arxiv.org/abs/2608.20335",
+        "pdf": "https://arxiv.org/pdf/2608.20335"
+      }
+    }
+  ]
+}
