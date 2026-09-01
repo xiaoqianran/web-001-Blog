@@ -1,7 +1,7 @@
 {
   "source": "content/feeds.json",
   "attribution": "Aggregated headlines/summaries from third-party RSS/Atom feeds for navigation only. All rights belong to original publishers and authors. Chinese text is machine-translated.",
-  "fetchedAt": "2026-09-01T10:57:19.549Z",
+  "fetchedAt": "2026-09-01T15:57:13.954Z",
   "date": "2026-09-01",
   "feedCount": 3,
   "itemCount": 50,
@@ -17,16 +17,104 @@
       "url": "https://hnrss.org/frontpage",
       "home": "https://news.ycombinator.com/",
       "group": "community",
-      "fetchedAt": "2026-09-01T10:56:50.469Z",
+      "fetchedAt": "2026-09-01T15:56:20.579Z",
       "count": 20,
       "items": [
+        {
+          "id": "https://news.ycombinator.com/item?id=49523033",
+          "title": "Ubisoft's FOR HONOR will block SteamOS / Linux players starting September 10",
+          "titleZh": "育碧《FOR HONOR》将于 9 月 10 日起屏蔽 SteamOS / Linux 玩家",
+          "link": "https://www.gamingonlinux.com/2026/09/ubisofts-for-honor-will-block-steamos-linux-on-september-10/",
+          "summary": "Article URL: https://www.gamingonlinux.com/2026/09/ubisofts-for-honor-will-block-steamos-linux-on-september-10/\n\n Comments URL: https://news.ycombinator.com/item?id=49523033\n\n Points: 33\n\n # Comments: 18",
+          "summaryZh": "文章网址：https://www.gamingonlinux.com/2026/09/ubisofts-for-honor-will-block-steamos-linux-on-september-10/\n\n 评论网址：https://news.ycombinator.com/item?id=49523033\n\n 积分：33\n\n # 评论: 18",
+          "publishedAt": "2026-09-01T15:09:44.000Z",
+          "comments": "https://news.ycombinator.com/item?id=49523033",
+          "author": "haunter"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49522954",
+          "title": "EFF to Governor Newsom: Veto California's AB 1709",
+          "titleZh": "EFF 致纽瑟姆州长：否决加州 AB 1709",
+          "link": "https://www.eff.org/deeplinks/2026/08/eff-gov-newsom-veto-californias-ab-1709",
+          "summary": "Article URL: https://www.eff.org/deeplinks/2026/08/eff-gov-newsom-veto-californias-ab-1709\n\n Comments URL: https://news.ycombinator.com/item?id=49522954\n\n Points: 34\n\n # Comments: 17",
+          "summaryZh": "文章网址：https://www.eff.org/deeplinks/2026/08/eff-gov-newsom-veto-californias-ab-1709\n\n 评论网址：https://news.ycombinator.com/item?id=49522954\n\n 积分：34\n\n # 评论: 17",
+          "publishedAt": "2026-09-01T15:04:14.000Z",
+          "comments": "https://news.ycombinator.com/item?id=49522954",
+          "author": "mdp2021"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49522897",
+          "title": "Ask HN: Who is hiring? (September 2026)",
+          "titleZh": "问 HN：谁在招聘？ （2026 年 9 月）",
+          "link": "https://news.ycombinator.com/item?id=49522897",
+          "summary": "Please state the location and include REMOTE for remote work, REMOTE (US)\nor similar if the country is restricted, and ONSITE when remote work is not an option. Please only post if you personally are part of the hiring company—no\nrecruiting firms or job boards. One post per company. If it isn't a household name,\nexplain what your company does. Please only post if you are actively filling a position and are committed\nto replying to applicants. Commenters: please don't reply to job posts to complain about\nsomething. It's off topic here. Readers: please only email if you are personally interested in the job. Searchers: try https://nthesis.ai/public/hn-who-is-hiring , https://dheerajck.github.io/hnwhoishiring/ ,\n http://nchelluri.github.io/hnjobs/ , https://hnjobs.emilburzo.com . Don't miss this other fine thread: Who wants to be hired? https://news.ycombinator.com/item?id=49522896\n\n Comments URL: https://news.ycombinator.com/item?id=49522897\n\n Points: 34\n\n # Comments: 22",
+          "summaryZh": "请说明位置并包含用于远程工作的 REMOTE、REMOTE（美国）\n或类似（如果国家/地区受到限制），以及现场（如果远程工作不可行）。仅当您个人是招聘公司的成员时才请发帖——否\n招聘公司或招聘委员会。每个公司一个职位。如果不是家喻户晓的名字\n解释一下你的公司是做什么的。请仅在您积极填补职位空缺并做出承诺的情况下发帖\n回复申请人。评论者：请勿回复招聘帖子进行投诉\n某事。这里是题外话。读者：如果您个人对这份工作感兴趣，请仅发送电子邮件。搜索者：尝试 https://nthesis.ai/public/hn-who-is-hiring 、 https://dheerajck.github.io/hnwhoishiring/ 、\n http://ncelluri.github.io/hnjobs/，https://hnjobs.emilburzo.com。不要错过另一个细线：谁想被雇用？ https://news.ycombinator.com/item?id=49522896\n\n 评论网址：https://news.ycombinator.com/item?id=49522897\n\n 积分：34\n\n # 评论: 22",
+          "publishedAt": "2026-09-01T15:01:17.000Z",
+          "comments": "https://news.ycombinator.com/item?id=49522897",
+          "author": "whoishiring"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49522816",
+          "title": "State of Open Models: Summer 2026 Observations",
+          "titleZh": "开放模型状况：2026 年夏季观察",
+          "link": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+          "summary": "Article URL: https://huggingface.co/blog/state-of-open-models-summer-2026\n\n Comments URL: https://news.ycombinator.com/item?id=49522816\n\n Points: 11\n\n # Comments: 0",
+          "summaryZh": "文章网址：https://huggingface.co/blog/state-of-open-models-summer-2026\n\n 评论网址：https://news.ycombinator.com/item?id=49522816\n\n 积分：11\n\n # 评论: 0",
+          "publishedAt": "2026-09-01T14:55:50.000Z",
+          "comments": "https://news.ycombinator.com/item?id=49522816",
+          "author": "gmays"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49522503",
+          "title": "Urban Congestion Pricing and the Response Times of Emergency Medical Services",
+          "titleZh": "城市拥堵收费与紧急医疗服务响应时间",
+          "link": "https://www.nber.org/digest/202609/urban-congestion-pricing-and-response-times-emergency-medical-services",
+          "summary": "Article URL: https://www.nber.org/digest/202609/urban-congestion-pricing-and-response-times-emergency-medical-services\n\n Comments URL: https://news.ycombinator.com/item?id=49522503\n\n Points: 36\n\n # Comments: 30",
+          "summaryZh": "文章网址：https://www.nber.org/digest/202609/urban-congestion-pricing-and-response-times-emergency-medical-services\n\n 评论网址：https://news.ycombinator.com/item?id=49522503\n\n 积分：36\n\n # 评论: 30",
+          "publishedAt": "2026-09-01T14:28:24.000Z",
+          "comments": "https://news.ycombinator.com/item?id=49522503",
+          "author": "ceejayoz"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49522374",
+          "title": "Saab Enters Collaborative Combat Aircraft Race with High-End Concept",
+          "titleZh": "萨博以高端概念参加协作战斗机竞赛",
+          "link": "https://aviationweek.com/defense/aircraft-propulsion/saab-enters-collaborative-combat-aircraft-race-high-end-concept",
+          "summary": "Article URL: https://aviationweek.com/defense/aircraft-propulsion/saab-enters-collaborative-combat-aircraft-race-high-end-concept\n\n Comments URL: https://news.ycombinator.com/item?id=49522374\n\n Points: 41\n\n # Comments: 18",
+          "summaryZh": "文章网址：https://aviationweek.com/defense/aircraft-propulsion/saab-enters-collaborative-combat-aircraft-race-high-end-concept\n\n 评论网址：https://news.ycombinator.com/item?id=49522374\n\n 积分：41\n\n # 评论: 18",
+          "publishedAt": "2026-09-01T14:19:30.000Z",
+          "comments": "https://news.ycombinator.com/item?id=49522374",
+          "author": "rbanffy"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49521973",
+          "title": "Introducing Ad Blocker for Firefox on iOS",
+          "titleZh": "iOS 版 Firefox 广告拦截器简介",
+          "link": "https://blog.mozilla.org/en/firefox/ad-blocker-on-ios/",
+          "summary": "Article URL: https://blog.mozilla.org/en/firefox/ad-blocker-on-ios/\n\n Comments URL: https://news.ycombinator.com/item?id=49521973\n\n Points: 55\n\n # Comments: 22",
+          "summaryZh": "文章网址：https://blog.mozilla.org/en/firefox/ad-blocker-on-ios/\n\n 评论网址：https://news.ycombinator.com/item?id=49521973\n\n 积分：55\n\n # 评论: 22",
+          "publishedAt": "2026-09-01T13:46:49.000Z",
+          "comments": "https://news.ycombinator.com/item?id=49521973",
+          "author": "HieronymusBosch"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49521623",
+          "title": "Io_uring Without Readahead",
+          "titleZh": "没有预读的 Io_uring",
+          "link": "https://frn.sh/io-uring/",
+          "summary": "Article URL: https://frn.sh/io-uring/\n\n Comments URL: https://news.ycombinator.com/item?id=49521623\n\n Points: 50\n\n # Comments: 3",
+          "summaryZh": "文章网址：https://frn.sh/io-uring/\n\n 评论网址：https://news.ycombinator.com/item?id=49521623\n\n 积分：50\n\n # 评论: 3",
+          "publishedAt": "2026-09-01T13:19:12.000Z",
+          "comments": "https://news.ycombinator.com/item?id=49521623",
+          "author": "porridgeraisin"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=49520022",
           "title": "AnkiDroid: Google Play no longer allowing Open Collective donation link",
           "titleZh": "AnkiDroid：Google Play 不再允许 Open Collective 捐赠链接",
           "link": "https://github.com/ankidroid/Anki-Android/issues/21656",
-          "summary": "Article URL: https://github.com/ankidroid/Anki-Android/issues/21656\n\n Comments URL: https://news.ycombinator.com/item?id=49520022\n\n Points: 65\n\n # Comments: 1",
-          "summaryZh": "文章网址：https://github.com/ankidroid/Anki-Android/issues/21656\n\n 评论网址：https://news.ycombinator.com/item?id=49520022\n\n 积分：65\n\n # 评论: 1",
+          "summary": "Article URL: https://github.com/ankidroid/Anki-Android/issues/21656\n\n Comments URL: https://news.ycombinator.com/item?id=49520022\n\n Points: 521\n\n # Comments: 140",
+          "summaryZh": "文章网址：https://github.com/ankidroid/Anki-Android/issues/21656\n\n 评论网址：https://news.ycombinator.com/item?id=49520022\n\n 积分：521\n\n # 评论：140",
           "publishedAt": "2026-09-01T10:11:02.000Z",
           "comments": "https://news.ycombinator.com/item?id=49520022",
           "author": "hexa555"
@@ -36,22 +124,11 @@
           "title": "44% on ARC-AGI-1 in 67 cents",
           "titleZh": "ARC-AGI-1 的 44% 仅需 67 美分",
           "link": "https://mvakde.github.io/blog/44-on-arc-1/",
-          "summary": "Article URL: https://mvakde.github.io/blog/44-on-arc-1/\n\n Comments URL: https://news.ycombinator.com/item?id=49519939\n\n Points: 23\n\n # Comments: 6",
-          "summaryZh": "文章网址：https://mvakde.github.io/blog/44-on-arc-1/\n\n 评论网址：https://news.ycombinator.com/item?id=49519939\n\n 积分：23\n\n # 评论: 6",
+          "summary": "Article URL: https://mvakde.github.io/blog/44-on-arc-1/\n\n Comments URL: https://news.ycombinator.com/item?id=49519939\n\n Points: 237\n\n # Comments: 68",
+          "summaryZh": "文章网址：https://mvakde.github.io/blog/44-on-arc-1/\n\n 评论网址：https://news.ycombinator.com/item?id=49519939\n\n 积分：237\n\n # 评论: 68",
           "publishedAt": "2026-09-01T09:52:45.000Z",
           "comments": "https://news.ycombinator.com/item?id=49519939",
           "author": "porridgeraisin"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49519902",
-          "title": "NASA: Fill in a name, and you can have an exclusive coordinate in the universe",
-          "titleZh": "NASA：填写一个名字，你就能拥有宇宙专属坐标",
-          "link": "https://science.nasa.gov/mission/roman-space-telescope/adopt-a-pixel/",
-          "summary": "Article URL: https://science.nasa.gov/mission/roman-space-telescope/adopt-a-pixel/\n\n Comments URL: https://news.ycombinator.com/item?id=49519902\n\n Points: 11\n\n # Comments: 1",
-          "summaryZh": "文章网址：https://science.nasa.gov/mission/roman-space-telescope/adopt-a-pixel/\n\n 评论网址：https://news.ycombinator.com/item?id=49519902\n\n 积分：11\n\n # 评论: 1",
-          "publishedAt": "2026-09-01T09:46:39.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49519902",
-          "author": "BearBest"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49518877",
@@ -69,8 +146,8 @@
           "title": "Restroom Archive",
           "titleZh": "卫生间档案",
           "link": "https://restroomarchive.com",
-          "summary": "Article URL: https://restroomarchive.com\n\n Comments URL: https://news.ycombinator.com/item?id=49517624\n\n Points: 141\n\n # Comments: 37",
-          "summaryZh": "文章网址：https://restroomarchive.com\n\n 评论网址：https://news.ycombinator.com/item?id=49517624\n\n 积分：141\n\n # 评论: 37",
+          "summary": "Article URL: https://restroomarchive.com\n\n Comments URL: https://news.ycombinator.com/item?id=49517624\n\n Points: 260\n\n # Comments: 58",
+          "summaryZh": "文章网址：https://restroomarchive.com\n\n 评论网址：https://news.ycombinator.com/item?id=49517624\n\n 积分：260\n\n # 评论: 58",
           "publishedAt": "2026-09-01T03:23:48.000Z",
           "comments": "https://news.ycombinator.com/item?id=49517624",
           "author": "jcalx"
@@ -80,8 +157,8 @@
           "title": "GPU World",
           "titleZh": "GPU世界",
           "link": "https://www.gpuworld.org/",
-          "summary": "Article URL: https://www.gpuworld.org/\n\n Comments URL: https://news.ycombinator.com/item?id=49517584\n\n Points: 257\n\n # Comments: 135",
-          "summaryZh": "文章网址：https://www.gpuworld.org/\n\n 评论网址：https://news.ycombinator.com/item?id=49517584\n\n 积分：257\n\n # 评论: 135",
+          "summary": "Article URL: https://www.gpuworld.org/\n\n Comments URL: https://news.ycombinator.com/item?id=49517584\n\n Points: 341\n\n # Comments: 206",
+          "summaryZh": "文章网址：https://www.gpuworld.org/\n\n 评论网址：https://news.ycombinator.com/item?id=49517584\n\n 积分：341\n\n # 评论：206",
           "publishedAt": "2026-09-01T03:16:36.000Z",
           "comments": "https://news.ycombinator.com/item?id=49517584",
           "author": "simonpure"
@@ -91,8 +168,8 @@
           "title": "Fastpotify",
           "titleZh": "快点",
           "link": "https://fastpotify.rocks/",
-          "summary": "Article URL: https://fastpotify.rocks/\n\n Comments URL: https://news.ycombinator.com/item?id=49517448\n\n Points: 436\n\n # Comments: 234",
-          "summaryZh": "文章网址：https://fastpotify.rocks/\n\n 评论网址：https://news.ycombinator.com/item?id=49517448\n\n 积分：436\n\n # 评论：234",
+          "summary": "Article URL: https://fastpotify.rocks/\n\n Comments URL: https://news.ycombinator.com/item?id=49517448\n\n Points: 661\n\n # Comments: 421",
+          "summaryZh": "文章网址：https://fastpotify.rocks/\n\n 评论网址：https://news.ycombinator.com/item?id=49517448\n\n 积分：661\n\n # 评论: 421",
           "publishedAt": "2026-09-01T02:52:14.000Z",
           "comments": "https://news.ycombinator.com/item?id=49517448",
           "author": "nreece"
@@ -102,41 +179,30 @@
           "title": "RotaryCell: Making an unmodified rotary phone work over LTE with an ESP32-S3",
           "titleZh": "RotaryCell：使用 ESP32-S3 让未经修改的旋转电话通过 LTE 工作",
           "link": "https://github.com/fregacmols/RotaryCell",
-          "summary": "Article URL: https://github.com/fregacmols/RotaryCell\n\n Comments URL: https://news.ycombinator.com/item?id=49517297\n\n Points: 68\n\n # Comments: 10",
-          "summaryZh": "文章网址：https://github.com/fregacmols/RotaryCell\n\n 评论网址：https://news.ycombinator.com/item?id=49517297\n\n 积分：68\n\n # 评论: 10",
+          "summary": "Article URL: https://github.com/fregacmols/RotaryCell\n\n Comments URL: https://news.ycombinator.com/item?id=49517297\n\n Points: 127\n\n # Comments: 34",
+          "summaryZh": "文章网址：https://github.com/fregacmols/RotaryCell\n\n 评论网址：https://news.ycombinator.com/item?id=49517297\n\n 积分：127\n\n # 评论: 34",
           "publishedAt": "2026-09-01T02:29:23.000Z",
           "comments": "https://news.ycombinator.com/item?id=49517297",
           "author": "jombib"
         },
         {
-          "id": "https://news.ycombinator.com/item?id=49516848",
-          "title": "DoltLite: A SQLite fork with Git-style version control, built with 2k agent PRs",
-          "titleZh": "DoltLite：具有 Git 风格版本控制的 SQLite 分支，使用 2k 代理 PR 构建",
-          "link": "https://www.dolthub.com/blog/2026-08-31-doltlite-beta/",
-          "summary": "Article URL: https://www.dolthub.com/blog/2026-08-31-doltlite-beta/\n\n Comments URL: https://news.ycombinator.com/item?id=49516848\n\n Points: 49\n\n # Comments: 33",
-          "summaryZh": "文章网址：https://www.dolthub.com/blog/2026-08-31-doltlite-beta/\n\n 评论网址：https://news.ycombinator.com/item?id=49516848\n\n 积分：49\n\n # 评论: 33",
-          "publishedAt": "2026-09-01T01:25:40.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49516848",
-          "author": "lbw1215"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49516199",
-          "title": "Evidence of Fraud in an Influential Study About Procrastination",
-          "titleZh": "关于拖延症的一项有影响力的研究中的欺诈证据",
-          "link": "https://datacolada.org/138",
-          "summary": "Article URL: https://datacolada.org/138\n\n Comments URL: https://news.ycombinator.com/item?id=49516199\n\n Points: 251\n\n # Comments: 170",
-          "summaryZh": "文章网址：https://datacolada.org/138\n\n 评论网址：https://news.ycombinator.com/item?id=49516199\n\n 积分：251\n\n # 评论：170",
-          "publishedAt": "2026-08-31T23:45:56.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49516199",
-          "author": "Anon84"
+          "id": "https://news.ycombinator.com/item?id=49516184",
+          "title": "A Genealogy of Freudenthal's Lincos",
+          "titleZh": "弗洛伊登塔尔林科斯的家谱",
+          "link": "https://www.shellsandpebbles.com/2026/01/19/a-genealogy-of-freudenthals-lincos-part-i-looking-up-from-the-ruins-of-babel/",
+          "summary": "Article URL: https://www.shellsandpebbles.com/2026/01/19/a-genealogy-of-freudenthals-lincos-part-i-looking-up-from-the-ruins-of-babel/\n\n Comments URL: https://news.ycombinator.com/item?id=49516184\n\n Points: 3\n\n # Comments: 0",
+          "summaryZh": "文章网址：https://www.shellsandpebbles.com/2026/01/19/a-genealogy-of-freudenthals-lincos-part-i-looking-up-from-the-ruins-of-babel/\n\n 评论网址：https://news.ycombinator.com/item?id=49516184\n\n 积分：3\n\n # 评论: 0",
+          "publishedAt": "2026-08-31T23:43:26.000Z",
+          "comments": "https://news.ycombinator.com/item?id=49516184",
+          "author": "akkartik"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49516059",
           "title": "Tmp.0ut Volume 5",
           "titleZh": "Tmp.0ut 第 5 卷",
           "link": "https://tmpout.sh/5/",
-          "summary": "Article URL: https://tmpout.sh/5/\n\n Comments URL: https://news.ycombinator.com/item?id=49516059\n\n Points: 79\n\n # Comments: 24",
-          "summaryZh": "文章网址：https://tmpout.sh/5/\n\n 评论网址：https://news.ycombinator.com/item?id=49516059\n\n 积分：79\n\n # 评论: 24",
+          "summary": "Article URL: https://tmpout.sh/5/\n\n Comments URL: https://news.ycombinator.com/item?id=49516059\n\n Points: 153\n\n # Comments: 32",
+          "summaryZh": "文章网址：https://tmpout.sh/5/\n\n 评论网址：https://news.ycombinator.com/item?id=49516059\n\n 积分：153\n\n # 评论: 32",
           "publishedAt": "2026-08-31T23:26:08.000Z",
           "comments": "https://news.ycombinator.com/item?id=49516059",
           "author": "ghuntley"
@@ -146,8 +212,8 @@
           "title": "A walkable ASCII cyberpunk city in one HTML file [video]",
           "titleZh": "一个 HTML 文件中的可步行 ASCII 赛博朋克城市 [视频]",
           "link": "https://www.youtube.com/watch?v=3YtygAx_C6A",
-          "summary": "ASCII City: Traffic and Detail Update - https://www.youtube.com/watch?v=DSRooHo_HSI ASCII City Update: Interiors, Elevation and Skyscrapers - https://www.youtube.com/watch?v=UCKEDWowc0o\n\n Comments URL: https://news.ycombinator.com/item?id=49512975\n\n Points: 335\n\n # Comments: 42",
-          "summaryZh": "ASCII 城市：交通和详细信息更新 - https://www.youtube.com/watch?v=DSRooHo_HSI ASCII 城市更新：内饰、海拔和摩天大楼 - https://www.youtube.com/watch?v=UCKEDWowc0o\n\n 评论网址：https://news.ycombinator.com/item?id=49512975\n\n 积分：335\n\n # 评论: 42",
+          "summary": "ASCII City: Traffic and Detail Update - https://www.youtube.com/watch?v=DSRooHo_HSI ASCII City Update: Interiors, Elevation and Skyscrapers - https://www.youtube.com/watch?v=UCKEDWowc0o\n\n Comments URL: https://news.ycombinator.com/item?id=49512975\n\n Points: 371\n\n # Comments: 55",
+          "summaryZh": "ASCII 城市：交通和详细信息更新 - https://www.youtube.com/watch?v=DSRooHo_HSI ASCII 城市更新：内饰、海拔和摩天大楼 - https://www.youtube.com/watch?v=UCKEDWowc0o\n\n 评论网址：https://news.ycombinator.com/item?id=49512975\n\n 积分：371\n\n # 评论: 55",
           "publishedAt": "2026-08-31T18:21:33.000Z",
           "comments": "https://news.ycombinator.com/item?id=49512975",
           "author": "keithcarolus"
@@ -157,88 +223,22 @@
           "title": "I turned my security cameras into an automatic bird identification system",
           "titleZh": "我把我的安全摄像头变成了自动鸟类识别系统",
           "link": "https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/",
-          "summary": "Article URL: https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/\n\n Comments URL: https://news.ycombinator.com/item?id=49511856\n\n Points: 511\n\n # Comments: 125",
-          "summaryZh": "文章网址：https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/\n\n 评论网址：https://news.ycombinator.com/item?id=49511856\n\n 积分：511\n\n # 评论: 125",
+          "summary": "Article URL: https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/\n\n Comments URL: https://news.ycombinator.com/item?id=49511856\n\n Points: 569\n\n # Comments: 150",
+          "summaryZh": "文章网址：https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/\n\n 评论网址：https://news.ycombinator.com/item?id=49511856\n\n 积分：569\n\n # 评论：150",
           "publishedAt": "2026-08-31T16:47:11.000Z",
           "comments": "https://news.ycombinator.com/item?id=49511856",
           "author": "speckx"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49511534",
-          "title": "RavynOS: Pre-alpha open-source OS based on Darwin, FreeBSD, Apple open-source",
-          "titleZh": "RavynOS：基于 Darwin、FreeBSD、Apple 开源的 Pre-alpha 开源操作系统",
-          "link": "https://ravynos.com/",
-          "summary": "Article URL: https://ravynos.com/\n\n Comments URL: https://news.ycombinator.com/item?id=49511534\n\n Points: 202\n\n # Comments: 115",
-          "summaryZh": "文章网址：https://ravynos.com/\n\n 评论网址：https://news.ycombinator.com/item?id=49511534\n\n 积分：202\n\n # 评论: 115",
-          "publishedAt": "2026-08-31T16:19:36.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49511534",
-          "author": "Bluestein"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49510514",
           "title": "Playa Phone",
           "titleZh": "普拉亚电话",
           "link": "https://playaphone.com/",
-          "summary": "Article URL: https://playaphone.com/\n\n Comments URL: https://news.ycombinator.com/item?id=49510514\n\n Points: 643\n\n # Comments: 211",
-          "summaryZh": "文章网址：https://playaphone.com/\n\n 评论网址：https://news.ycombinator.com/item?id=49510514\n\n 积分：643\n\n # 评论：211",
+          "summary": "Article URL: https://playaphone.com/\n\n Comments URL: https://news.ycombinator.com/item?id=49510514\n\n Points: 704\n\n # Comments: 221",
+          "summaryZh": "文章网址：https://playaphone.com/\n\n 评论网址：https://news.ycombinator.com/item?id=49510514\n\n 积分：704\n\n # 评论：221",
           "publishedAt": "2026-08-31T14:52:26.000Z",
           "comments": "https://news.ycombinator.com/item?id=49510514",
           "author": "cutoff"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49510000",
-          "title": "ChatGPT Work Tool and Skill Reference",
-          "titleZh": "ChatGPT 工作工具和技能参考",
-          "link": "https://codex-tool-reference.simonw.chatgpt.site/",
-          "summary": "Article URL: https://codex-tool-reference.simonw.chatgpt.site/\n\n Comments URL: https://news.ycombinator.com/item?id=49510000\n\n Points: 221\n\n # Comments: 53",
-          "summaryZh": "文章网址：https://codex-tool-reference.simonw.chatgpt.site/\n\n 评论网址：https://news.ycombinator.com/item?id=49510000\n\n 积分：221\n\n # 评论: 53",
-          "publishedAt": "2026-08-31T14:07:15.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49510000",
-          "author": "ijidak"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49508982",
-          "title": "Apple caught off guard by AI demand for Mac Mini and Mac Studio",
-          "titleZh": "Mac Mini 和 Mac Studio 的人工智能需求让苹果措手不及",
-          "link": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/",
-          "summary": "Article URL: https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/\n\n Comments URL: https://news.ycombinator.com/item?id=49508982\n\n Points: 419\n\n # Comments: 461",
-          "summaryZh": "文章网址：https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/\n\n 评论网址：https://news.ycombinator.com/item?id=49508982\n\n 积分：419\n\n # 评论: 461",
-          "publishedAt": "2026-08-31T12:41:22.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49508982",
-          "author": "thm"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49508506",
-          "title": "I think the military commissary's freezers were hacked",
-          "titleZh": "我认为军需处的冰箱被黑了",
-          "link": "https://signalandsilence.substack.com/p/i-think-someone-hacked-the-commissary",
-          "summary": "Article URL: https://signalandsilence.substack.com/p/i-think-someone-hacked-the-commissary\n\n Comments URL: https://news.ycombinator.com/item?id=49508506\n\n Points: 353\n\n # Comments: 196",
-          "summaryZh": "文章网址：https://signalandsilence.substack.com/p/i-think-someone-hacked-the-commissary\n\n 评论网址：https://news.ycombinator.com/item?id=49508506\n\n 积分：353\n\n # 评论: 196",
-          "publishedAt": "2026-08-31T11:45:48.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49508506",
-          "author": "jcurbo"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49505584",
-          "title": "Roget's Thesaurus",
-          "titleZh": "罗杰特的同义词库",
-          "link": "https://artflsrv04.uchicago.edu/roget-thesaurus/",
-          "summary": "Article URL: https://artflsrv04.uchicago.edu/roget-thesaurus/\n\n Comments URL: https://news.ycombinator.com/item?id=49505584\n\n Points: 17\n\n # Comments: 2",
-          "summaryZh": "文章网址：https://artflsrv04.uchicago.edu/roget-thesaurus/\n\n 评论网址：https://news.ycombinator.com/item?id=49505584\n\n 积分：17\n\n # 评论: 2",
-          "publishedAt": "2026-08-31T04:29:26.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49505584",
-          "author": "gregsadetsky"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49503521",
-          "title": "Terence Tao explains 6 essential mathematical concepts [video]",
-          "titleZh": "陶哲轩解释 6 个基本数学概念 [视频]",
-          "link": "https://www.youtube.com/watch?v=OOMx2BHHWtE",
-          "summary": "Article URL: https://www.youtube.com/watch?v=OOMx2BHHWtE\n\n Comments URL: https://news.ycombinator.com/item?id=49503521\n\n Points: 441\n\n # Comments: 63",
-          "summaryZh": "文章网址：https://www.youtube.com/watch?v=OOMx2BHHWtE\n\n 评论网址：https://news.ycombinator.com/item?id=49503521\n\n 积分：441\n\n # 评论: 63",
-          "publishedAt": "2026-08-30T22:37:01.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49503521",
-          "author": "matthewsinclair"
         }
       ]
     },
@@ -248,7 +248,7 @@
       "url": "https://rss.arxiv.org/rss/cs.AI",
       "home": "https://arxiv.org/list/cs.AI/recent",
       "group": "arxiv",
-      "fetchedAt": "2026-09-01T10:56:50.966Z",
+      "fetchedAt": "2026-09-01T15:56:21.242Z",
       "count": 15,
       "items": [
         {
@@ -268,7 +268,7 @@
           "titleZh": "评估评估者：LLM 评估的 Rasch 测量理论",
           "link": "https://arxiv.org/abs/2608.27463",
           "summary": "arXiv:2608.27463v1 Announce Type: new\nAbstract: LLMs now sit on every side of evaluation: as examinees scored on benchmarks, judges of other models' outputs, and raters of human-generated content. Each paradigm can be viewed as a measurement problem, where a latent property of an object is probed with items from an instrument (e.g., benchmark) by raters. Standard evaluation practices often neglect the contributions of each core component to the end result, limiting our understanding of what is being measured. Rasch measurement theory (RMT) is well-suited to this kind of problem. RMT decomposes ordinal ratings into separable facets on a common scale. It further provides a battery of diagnostics that can identify miscalibrated measurements and rater biases. We present a case study of RMT applied to the LLM-as-rater paradigm using the Measuring Hate Speech corpus, whose construct was itself built under RMT. We fit a series of many-facet Rasch models to annotations from nine LLMs spanning families and capability levels. Our analyses show that LLMs systematically differ from human raters in severity, item-level calibration, question-order robustness, target-identity sensitivity, and rating scale use, which all would be obscured by standard evaluation practice. Overall, we argue that RMT belongs in the toolkit for evaluating LLM-as-examinee, -judge, and -rater paradigms.",
-          "summaryZh": "arXiv:2608.27463v1 公告类型：新\n摘要：法学硕士现在参与评估的各个方面：作为基准评分的考生、其他模型输出的评判者以及人类生成内容的评分者。每个范式都可以被视为一个测量问题，其中评估者使用仪器（例如基准）中的项目来探测对象的潜在属性。标准评估实践常常忽略每个核心组成部分对最终结果的贡献，限制了我们对所测量内容的理解。拉希测量理论（RMT）非常适合此类问题。 RMT 将顺序评级分解为通用尺度上的可分离的方面。它还提供了一系列诊断功能，可以识别错误校准的测量结果和评估者偏差。我们使用测量仇恨言论语料库提出了将 RMT 应用于法学硕士作为评估者范式的案例研究，其构造本身是在 RMT 下构建的。我们将一系列多方面的 Rasch 模型与跨越家庭和能力级别的九个法学硕士的注释进行拟合。我们的分析表明，法学硕士在严重性、项目级校准、问题顺序稳健性、目标身份敏感性和评级量表使用方面与人类评估者存在系统性差异，而所有这些都会被标准评估实践所掩盖。总的来说，我们认为 RMT 属于评估 LLM 考生、法官和评估者范式的工具包。",
+          "summaryZh": "arXiv:2608.27463v1 公告类型：新\n摘要：法学硕士现在参与评估的各个方面：作为基准评分的考生、其他模型输出的评判者以及人类生成内容的评分者。每个范式都可以被视为一个测量问题，其中评估者使用仪器（例如基准）中的项目来探测对象的潜在属性。标准评估实践常常忽略每个核心组成部分对最终结果的贡献，限制了我们对所测量内容的理解。拉希测量理论（RMT）非常适合此类问题。 RMT 将顺序评级分解为通用尺度上的可分离的方面。它还提供了一系列诊断功能，可以识别错误校准的测量结果和评估者偏差。我们使用测量仇恨言论语料库提出了将 RMT 应用于法学硕士作为评估者范式的案例研究，其构造本身是在 RMT 下构建的。我们将一系列多方面的 Rasch 模型与跨越家庭和能力级别的九个法学硕士的注释进行拟合。我们的分析表明，法学硕士在严重性、项目级校准、问题顺序鲁棒性、目标身份敏感性和评级量表使用方面与人类评估者存在系统性差异，而标准评估实践会掩盖所有这些。总的来说，我们认为 RMT 属于评估 LLM 考生、法官和评估者范式的工具包。",
           "publishedAt": "2026-09-01T04:00:00.000Z",
           "comments": null,
           "author": "Pratik S. Sachdeva, Nathan Boudol"
@@ -290,7 +290,7 @@
           "titleZh": "检索关系，发现谬误：政治辩论分析的 RAG 方法",
           "link": "https://arxiv.org/abs/2608.27471",
           "summary": "arXiv:2608.27471v1 Announce Type: new\nAbstract: Fallacies are arguments that employ invalid reasoning, making their automatic detection critical in sensitive contexts such as high-stakes political debates, where public opinion is shaped. Spotting a fallacious argument requires contextual knowledge beyond its pure surface text. This entails world knowledge pertaining to the subject matter under discussion, as well as knowledge of the relationships that exist between arguments within the argumentative discourse. Prior work on fallacy analysis has shown that argumentative discourse structure can beneficially improve classification performance. However, such structure is typically encoded only as static classifier features, limiting its flexibility. Building on this intuition while addressing this limitation, we introduce a guided retrieval-augmented methodology for fallacy detection and classification that leverages argumentative relations of support and attack to dynamically steer the extraction of relevant documents. We evaluate our approach on the ElecDeb60to20 benchmark across 42 retrieval configurations and 14 models, performing retrieval over a 15GB knowledge base of collected political-related documents. Our approach improves macro-F1 up to 0.864 for fallacy detection and up to 0.725 for classification over non-retrieval baselines. These results show that incorporating external knowledge significantly enhances fallacy detection and classification when retrieval is argumentatively guided.",
-          "summaryZh": "arXiv:2608.27471v1 公告类型：新\n摘要：谬论是采用无效推理的论点，这使得它们的自动检测在敏感环境中至关重要，例如影响公众舆论的高风险政治辩论。发现一个错误的论点需要超越其纯粹表面文本的上下文知识。这需要与所讨论的主题有关的世界知识，以及辩论性话语中论点之间存在的关系的知识。先前关于谬误分析的工作表明，论证性话语结构可以有益地提高分类性能。然而，这种结构通常仅编码为静态分类器特征，限制了其灵活性。基于这种直觉，同时解决这一限制，我们引入了一种用于谬误检测和分类的引导检索增强方法，该方法利用支持和攻击的论证关系来动态引导相关文档的提取。我们在 ElecDeb60to20 基准上评估我们的方法，涵盖 42 个检索配置和 14 个模型，对收集的政治相关文档的 15GB 知识库进行检索。我们的方法将谬误检测的宏观 F1 提高到 0.864，将非检索基线的分类提高到 0.725。这些结果表明，当检索受到争论指导时，结合外部知识可以显着增强谬误检测和分类。",
+          "summaryZh": "arXiv:2608.27471v1 公告类型：新\n摘要：谬论是采用无效推理的论点，这使得它们的自动检测在敏感环境中至关重要，例如影响公众舆论的高风险政治辩论。发现一个错误的论点需要超越其纯粹表面文本的上下文知识。这需要与所讨论的主题有关的世界知识，以及辩论性话语中论点之间存在的关系的知识。先前关于谬误分析的工作表明，论证性话语结构可以有益地提高分类性能。然而，这种结构通常仅被编码为静态分类器特征，限制了其灵活性。基于这种直觉，同时解决这一限制，我们引入了一种用于谬误检测和分类的引导检索增强方法，该方法利用支持和攻击的论证关系来动态引导相关文档的提取。我们在 ElecDeb60to20 基准上评估我们的方法，涵盖 42 个检索配置和 14 个模型，对收集的政治相关文档的 15GB 知识库进行检索。我们的方法将谬误检测的宏观 F1 提高到 0.864，将非检索基线的分类提高到 0.725。这些结果表明，当检索受到争论指导时，结合外部知识可以显着增强谬误检测和分类。",
           "publishedAt": "2026-09-01T04:00:00.000Z",
           "comments": null,
           "author": "Deborah Dore, Greta Damo, Elena Cabrio, Serena Villata"
@@ -312,7 +312,7 @@
           "titleZh": "假设、评估、细化：用于未知空间系数场的偏微分方程发现的科学代理",
           "link": "https://arxiv.org/abs/2608.27475",
           "summary": "arXiv:2608.27475v1 Announce Type: new\nAbstract: Discovering PDEs in heterogeneous media requires jointly identifying the governing operator and the unknown spatial fields that parameterize it. These tasks are coupled: changing field placement changes the differential law, while a sufficiently flexible field can conceal structural error on a single trajectory. We present Hypothesize, Evaluate, Refine for PDE Discovery (HER-PDE), a scientific-agent framework that discovers compositional PDE structure together with nonparametric, time-invariant coefficient fields. The Agent analyzes two noisy trajectories generated by different excitations, proposes complete expression-tree hypotheses, and combines creative structural exploration with local candidate refinement. Its Hypothesis Evaluation Interface (HEI) estimates only the fields explicitly declared in each hypothesis, never adds missing terms, and scores structures by bidirectional cross-excitation transfer. The selected law is subsequently audited on a sealed temporal interval. Across five controlled two-dimensional systems observed with 5 percent relative Gaussian state noise, the Agent recovers the generating operator in all five cases, including equivalent signed-field and product-rule parameterizations. Across nine unknown coefficient fields, the recovered fields attain a median Pearson correlation of approximately 0.85 and a median relative L2 error of approximately 0.28. These results show that agent-guided hypothesis refinement can recover heterogeneous governing laws without prescribing a parametric form for their spatial coefficients.",
-          "summaryZh": "arXiv:2608.27475v1 公告类型：新\n摘要：发现异构介质中的偏微分方程需要联合识别控制算子和参数化它的未知空间场。这些任务是耦合的：改变场布置会改变微分定律，而足够灵活的场可以隐藏单个轨迹上的结构误差。我们提出了偏微分方程发现的假设、评估、优化 (HER-PDE)，这是一种科学代理框架，可发现组合偏微分方程结构以及非参数、时不变系数场。该代理分析由不同激励生成的两个噪声轨迹，提出完整的表达树假设，并将创造性的结构探索与局部候选细化相结合。其假设评估接口 (HEI) 仅估计每个假设中明确声明的字段，从不添加缺失项，并通过双向交叉激励传递对结构进行评分。随后，选定的法律将在密封的时间间隔内进行审核。在使用 5% 相对高斯状态噪声观察的五个受控二维系统中，代理在所有五种情况下恢复生成算子，包括等效符号场和乘积规则参数化。在 9 个未知系数字段中，恢复的字段获得约 0.85 的中值 Pearson 相关性和约 0.28 的中值相对 L2 误差。这些结果表明，智能体引导的假设细化可以恢复异质控制定律，而无需为其空间系数规定参数形式。",
+          "summaryZh": "arXiv:2608.27475v1 公告类型：新\n摘要：发现异构介质中的偏微分方程需要联合识别控制算子和参数化它的未知空间场。这些任务是耦合的：改变场布置会改变微分定律，而足够灵活的场可以隐藏单个轨迹上的结构误差。我们提出了偏微分方程发现的假设、评估、优化 (HER-PDE)，这是一种科学代理框架，可发现组合偏微分方程结构以及非参数、时不变系数场。该代理分析由不同激励生成的两个噪声轨迹，提出完整的表达树假设，并将创造性的结构探索与局部候选细化相结合。其假设评估接口（HEI）仅估计每个假设中明确声明的字段，从不添加缺失的项，并通过双向交叉激励传递对结构进行评分。随后，选定的法律将在密封的时间间隔内进行审核。在使用 5% 相对高斯状态噪声观察的五个受控二维系统中，代理在所有五种情况下恢复生成算子，包括等效符号场和乘积规则参数化。在 9 个未知系数字段中，恢复的字段获得约 0.85 的中值 Pearson 相关性和约 0.28 的中值相对 L2 误差。这些结果表明，智能体引导的假设细化可以恢复异质控制定律，而无需为其空间系数规定参数形式。",
           "publishedAt": "2026-09-01T04:00:00.000Z",
           "comments": null,
           "author": "YuJie Huang, WenWu He, ZhuoEr Lin, Congcong Liu, Dong Liang, Zhuo-Xu Cui"
@@ -345,7 +345,7 @@
           "titleZh": "物联网和深度学习对茶园后电白蚁检测和严重程度评估的有效性",
           "link": "https://arxiv.org/abs/2608.27480",
           "summary": "arXiv:2608.27480v1 Announce Type: new\nAbstract: Tea plantations are vulnerable to Postelectrotermes militaris, commonly known as the Upcountry Live Wood Termite (ULWT), which can cause substantial damage when infestations remain undetected. This study proposes an IoT-enabled acoustic monitoring framework integrated with deep learning for early detection and severity assessment of ULWT infestations in tea plantations.\n Research Method: Audio signals were captured non-invasively from tea trunks using a high-sensitivity microphone connected to a Raspberry Pi-based IoT device, with geographic coordinates recorded for spatial tracking. After trimming, resampling, and segmentation, 2,000 ten-second samples were obtained, comprising 1,000 healthy and 1,000 infested samples, and divided into 1,600 training, 200 validation, and 200 test samples. The dataset used in this study is publicly available on Kaggle (Senevirathna et al. 2026). Fourier-derived spectrograms trained a CNN for infestation classification and probability estimation. A weighted severity model combined CNN probability, mean acoustic amplitude, and nearby infested plants within 5 m, with geospatial mapping used to visualize infestation distribution.\n Findings and Values: Field trials in a ULWT-affected tea plantation in Pundaluoya demonstrated feasibility under realistic environmental noise. On the held-out test set, the CNN achieved 81.5% accuracy, 80.6% precision, 83.0% recall, 81.8% F1-score, and 0.819 ROC-AUC. Beyond binary infestation detection, the framework introduced quantitative severity assessment using infestation probability, acoustic amplitude, and nearby infested plants. The resulting severity and geospatial outputs can support plantation managers in identifying high-risk areas, prioritizing field inspections, and implementing more timely and targeted control measures.",
-          "summaryZh": "arXiv:2608.27480v1 公告类型：新\n摘要：茶园很容易受到后电白蚁（Post electrotermes militaris）的侵害，俗称内陆活木白蚁（ULWT），如果未发现侵扰，可能会造成严重损害。本研究提出了一种支持物联网的声学监测框架，与深度学习相结合，用于茶园 ULWT 侵扰的早期检测和严重程度评估。\n 研究方法：使用连接到基于 Raspberry Pi 的物联网设备的高灵敏度麦克风从茶树干中非侵入性地捕获音频信号，并记录地理坐标以进行空间跟踪。经过修剪、重采样和分割后，获得 2,000 个 10 秒样本，其中包括 1,000 个健康样本和 1,000 个感染样本，并分为 1,600 个训练样本、200 个验证样本和 200 个测试样本。本研究中使用的数据集可在 Kaggle 上公开获取（Senevirathna 等人，2026）。傅里叶派生频谱图训练了 CNN，用于感染分类和概率估计。加权严重性模型结合了 CNN 概率、平均声波幅度和 5 m 范围内附近受感染植物，以及用于可视化感染分布的地理空间映射。\n 结果和价值：在 Pundaluoya 受 ULWT 影响的茶园进行的田间试验证明了在现实环境噪声下的可行性。在保留的测试集上，CNN 实现了 81.5% 的准确度、80.6% 的精确度、83.0% 的召回率、81.8% 的 F1 分数和 0.819 ROC-AUC。除了二元侵扰检测之外，该框架还使用侵扰概率、声波幅度和附近受侵扰的植物引入了定量严重性评估。由此产生的严重性和地理空间输出可以支持种植园管理者识别高风险区域、确定现场检查的优先顺序以及实施更及时和有针对性的控制措施。",
+          "summaryZh": "arXiv:2608.27480v1 公告类型：新\n摘要：茶园很容易受到后电白蚁（Post electrotermes militaris）的侵害，俗称内陆活木白蚁（ULWT），如果未发现侵扰，可能会造成严重损害。本研究提出了一种支持物联网的声学监测框架，与深度学习相结合，用于茶园 ULWT 侵扰的早期检测和严重程度评估。\n 研究方法：使用连接到基于 Raspberry Pi 的物联网设备的高灵敏度麦克风从茶树干中非侵入性地捕获音频信号，并记录地理坐标以进行空间跟踪。经过修剪、重采样和分割后，获得 2,000 个 10 秒样本，其中包括 1,000 个健康样本和 1,000 个感染样本，并分为 1,600 个训练样本、200 个验证样本和 200 个测试样本。本研究中使用的数据集可在 Kaggle 上公开获取（Senevirathna 等人，2026）。傅里叶派生频谱图训练了 CNN，用于感染分类和概率估计。加权严重性模型结合了 CNN 概率、平均声波幅度和 5 m 范围内附近受感染植物，以及用于可视化感染分布的地理空间映射。\n 结果和价值：在 Pundaluoya 受 ULWT 影响的茶园进行的现场试验证明了在现实环境噪声下的可行性。在保留的测试集上，CNN 实现了 81.5% 的准确度、80.6% 的精确度、83.0% 的召回率、81.8% 的 F1 分数和 0.819 ROC-AUC。除了二元侵扰检测之外，该框架还使用侵扰概率、声波幅度和附近受侵扰的植物引入了定量严重性评估。由此产生的严重性和地理空间输出可以支持种植园管理者识别高风险区域、确定现场检查的优先顺序以及实施更及时和有针对性的控制措施。",
           "publishedAt": "2026-09-01T04:00:00.000Z",
           "comments": null,
           "author": "D. K. C. Senevirathna, A. A. E. Nanayakkara, H. M. C. K. Kulathunga, J. K. D. P. Nadula, R. M. Mapatuna, Malithi Nawarathne, Jaliya L. Wijayaraja, P. D. Senanayake, Samitha Vidhanaarachchi, Kalpani Manathunga"
@@ -378,7 +378,7 @@
           "titleZh": "思考需要花费代币：当更多的结构值得付出代价时",
           "link": "https://arxiv.org/abs/2608.27506",
           "summary": "arXiv:2608.27506v1 Announce Type: new\nAbstract: Adding inference structure to a language model lets it search, verify, and revise, but these actions consume the very budget they are supposed to use well. In this paper, we investigate whether there exists a token-budget threshold, below which the overhead of planning and verification hurts performance and above which it helps. We evaluate two systems on FinQA and TAT-QA financial reasoning tasks, using GPT-5.4 mini across 14 budget tiers ranging from 250 to 42,000 output-equivalent tokens. The first system is a monolith, which is a single LLM call. The second is a verified search architecture that adds planning, label-blind checking, and repair capabilities. We run 1,000 cases for a total of 28,000 completed cells. Both systems score 0% at the two lowest tiers, where neither can fit a complete prompt. At 1,000 tokens, the monolith reaches 18% accuracy while verified search scores near 0%, since the planning overhead leaves no room for an answer. From 1,500 tokens onward, verified search surpasses the monolith and maintains a consistent advantage, reaching approximately 44% at the highest tiers while the monolith reaches approximately 40%. The crossover occurs between 1,000 and 1,500 output-equivalent tokens, confirmed by a strict intersection-union test ($p \\le 0.001$ at both endpoints).",
-          "summaryZh": "arXiv:2608.27506v1 公告类型：新\n摘要：向语言模型添加推理结构可以使其搜索、验证和修改，但这些操作消耗了它们应该充分利用的预算。在本文中，我们研究是否存在代币预算阈值，低于该阈值，规划和验证的开销会损害性能，高于该阈值，则会有所帮助。我们使用 GPT-5.4 mini 评估 FinQA 和 TAT-QA 财务推理任务的两个系统，涵盖 14 个预算等级，范围从 250 到 42,000 个输出等价代币。第一个系统是一个整体系统，它是一个单一的 LLM 调用。第二个是经过验证的搜索架构，增加了规划、标签盲检查和修复功能。我们运行了 1,000 个案例，总共 28,000 个已完成的单元。两个系统在两个最低级别的得分都是 0%，都无法满足完整的提示。在 1,000 个令牌时，整体的准确率达到 18%，而验证的搜索分数接近 0%，因为规划开销没有留下答案的空间。从 1,500 个代币开始，经过验证的搜索超过了整体架构并保持一致的优势，在最高层达到约 44%，而整体架构达到约 40%。交叉发生在 1,000 到 1,500 个输出等价令牌之间，通过严格的交集并集测试确认（两个端点处的 $p \\le 0.001$）。",
+          "summaryZh": "arXiv:2608.27506v1 公告类型：新\n摘要：向语言模型添加推理结构可以使其搜索、验证和修改，但这些操作消耗了它们应该充分利用的预算。在本文中，我们研究是否存在代币预算阈值，低于该阈值，规划和验证的开销会损害性能，高于该阈值，则会有所帮助。我们使用 GPT-5.4 mini 评估了 FinQA 和 TAT-QA 财务推理任务上的两个系统，涵盖 14 个预算等级，范围从 250 到 42,000 个输出等价代币。第一个系统是一个整体系统，它是一个单一的 LLM 调用。第二个是经过验证的搜索架构，增加了规划、标签盲检查和修复功能。我们运行了 1,000 个案例，总共 28,000 个已完成的单元。两个系统在两个最低级别的得分都是 0%，都无法满足完整的提示。在 1,000 个令牌时，整体的准确率达到 18%，而验证的搜索分数接近 0%，因为规划开销没有留下答案的空间。从 1,500 个代币开始，经过验证的搜索超过了整体式搜索并保持一致的优势，在最高层达到约 44%，而整体式则达到约 40%。交叉发生在 1,000 到 1,500 个输出等价令牌之间，通过严格的交集并集测试确认（两个端点处的 $p \\le 0.001$）。",
           "publishedAt": "2026-09-01T04:00:00.000Z",
           "comments": null,
           "author": "Thomas Nolasque, John Grey, Calista Pham, Ankit Vani"
@@ -389,7 +389,7 @@
           "titleZh": "WM-R1：通过强化学习训练 GUI 代理进行推理并利用世界模型",
           "link": "https://arxiv.org/abs/2608.27508",
           "summary": "arXiv:2608.27508v1 Announce Type: new\nAbstract: GUI agents trained with reinforcement learning (RL) have showcased strong environment learning capabilities on mobile platforms. However, RL typically demands extensive real-environment interactions, leading to high resource costs and instability, especially in GUI scenarios. To address these, we propose WM-R1, the first reinforcement learning framework that trains mobile GUI agents with world models instead of real environments. Specifically, world models serve as the source of state transitions during all rollouts, replacing the real Android environment within the training loop. WM-R1 also embeds world models directly into the thinking process, enabling agents to reason about the consequences of candidate actions before committing to the final action. Crucially, WM-R1 eliminates the need for real-environment interaction, supports massively parallelized and step-level granularized trajectory generation grounded in world models, and introduces a multi-dimensional rule-based reward that jointly optimizes task success, trajectory efficiency, and world model utilization. For efficient training, we curate a high-quality dataset of 2000 challenging tasks. Experiments on Android mobile benchmarks demonstrate that WM-R1-trained agents significantly outperform GRPO-only baselines and inference-time simulation methods. Code is available at https://github.com/genalyu/WM-R1 .",
-          "summaryZh": "arXiv:2608.27508v1 公告类型：新\n摘要：经过强化学习（RL）训练的 GUI 代理在移动平台上展示了强大的环境学习能力。然而，强化学习通常需要大量的真实环境交互，导致资源成本高且不稳定，尤其是在 GUI 场景中。为了解决这些问题，我们提出了 WM-R1，这是第一个用世界模型而不是真实环境来训练移动 GUI 代理的强化学习框架。具体来说，世界模型在所有部署过程中充当状态转换的来源，取代了训练循环中的真实 Android 环境。 WM-R1 还将世界模型直接嵌入到思维过程中，使智能体能够在采取最终行动之前推理候选行动的后果。至关重要的是，WM-R1 消除了对真实环境交互的需求，支持基于世界模型的大规模并行和步骤级粒度化轨迹生成，并引入了基于规则的多维奖励，共同优化任务成功、轨迹效率和世界模型利用率。为了高效训练，我们整理了包含 2000 个具有挑战性任务的高质量数据集。 Android 移动基准测试表明，经过 WM-R1 训练的代理显着优于仅 GRPO 基线和推理时间模拟方法。代码可在 https://github.com/genalyu/WM-R1 获取。",
+          "summaryZh": "arXiv:2608.27508v1 公告类型：新\n摘要：经过强化学习（RL）训练的 GUI 代理在移动平台上展示了强大的环境学习能力。然而，强化学习通常需要大量的真实环境交互，导致资源成本高且不稳定，尤其是在 GUI 场景中。为了解决这些问题，我们提出了 WM-R1，这是第一个用世界模型而不是真实环境来训练移动 GUI 代理的强化学习框架。具体来说，世界模型在所有部署过程中充当状态转换的来源，取代了训练循环中的真实 Android 环境。 WM-R1 还将世界模型直接嵌入到思维过程中，使智能体能够在采取最终行动之前推理候选行动的后果。至关重要的是，WM-R1消除了对真实环境交互的需要，支持基于世界模型的大规模并行和步骤级粒度化轨迹生成，并引入了基于规则的多维奖励，共同优化任务成功、轨迹效率和世界模型利用率。为了高效训练，我们整理了包含 2000 个具有挑战性任务的高质量数据集。 Android 移动基准测试表明，经过 WM-R1 训练的代理显着优于仅 GRPO 基线和推理时间模拟方法。代码可在 https://github.com/genalyu/WM-R1 获取。",
           "publishedAt": "2026-09-01T04:00:00.000Z",
           "comments": null,
           "author": "Yu Han, Tianwen Qian"
@@ -400,7 +400,7 @@
           "titleZh": "SETU：多语言、角色感知沟通辅导的代理生态系统",
           "link": "https://arxiv.org/abs/2608.27524",
           "summary": "arXiv:2608.27524v1 Announce Type: new\nAbstract: Corporate training teams need scalable and explainable tools to improve workforce communication in multilingual settings. Existing systems often score text, audio, or video in isolation, or produce black-box outputs that are difficult to audit for coaching use. This paper presents SETU, an agentic ecosystem for corporate communication coaching aimed at recruiters, frontline sales professionals and training units who prepare for audience specific conversations. SETU is designed for two scoped scenarios: (i) recruiter-candidate eligibility-and-interest calls with persona context and (ii) sales pitches with target-audience adaptation; owing to limited evaluation resources, this paper reports results on scenario (ii) only. The ecosystem decomposes analysis into specialized video, audio-speech, text-relevance, scoring, notification and reporting agents coordinated through trust-aware orchestration. It generates modality-attributed coaching reports for formative training, with human reviewers retaining final judgment. The name SETU (bridge in several Indic languages) reflects the goal of bridging communication gaps across regional languages and audience expectations.",
-          "summaryZh": "arXiv:2608.27524v1 公告类型：新\n摘要：企业培训团队需要可扩展且可解释的工具来改善多语言环境中的员工沟通。现有系统通常对文本、音频或视频进行单独评分，或者产生难以审核用于教练用途的黑匣子输出。本文介绍了 SETU，这是一个企业沟通辅导的代理生态系统，面向招聘人员、一线销售专业人员和为受众特定对话做准备的培训单位。 SETU 专为两个范围场景而设计：(i) 具有角色背景的招聘人员-候选人资格和兴趣电话会议，以及 (ii) 具有目标受众适应性的销售推介；由于评价资源有限，本文仅报告情景(ii)的结果。该生态系统将分析分解为专门的视频、音频语音、文本相关性、评分、通知和报告代理，并通过信任感知编排进行协调。它为形成性培训生成模态归因的辅导报告，并由人工审核员保留最终判断。 SETU（多种印度语言的桥梁）这个名称反映了弥合区域语言之间的沟通差距和受众期望的目标。",
+          "summaryZh": "arXiv:2608.27524v1 公告类型：新\n摘要：企业培训团队需要可扩展且可解释的工具来改善多语言环境中的员工沟通。现有系统通常对文本、音频或视频进行单独评分，或者产生难以审核用于教练用途的黑匣子输出。本文介绍了 SETU，这是一个企业沟通辅导的代理生态系统，面向招聘人员、一线销售专业人员和为受众特定对话做准备的培训单位。 SETU 专为两个范围场景而设计：(i) 具有角色背景的招聘人员-候选人资格和兴趣电话会议，以及 (ii) 具有目标受众适应性的销售推介；由于评价资源有限，本文仅报告情景(ii)的结果。该生态系统将分析分解为专门的视频、音频语音、文本相关性、评分、通知和报告代理，并通过信任感知编排进行协调。它为形成性培训生成模态归因的辅导报告，并由人工审核员保留最终判断。 SETU（几种印度语言的桥梁）这个名称反映了弥合区域语言和受众期望之间的沟通差距的目标。",
           "publishedAt": "2026-09-01T04:00:00.000Z",
           "comments": null,
           "author": "Jonnalagadda Maruthi Tejas, Uponika Barman Roy, Tilottama Goswami, Samir Goswami, Mousita Dhar"
@@ -411,7 +411,7 @@
           "titleZh": "Nemotron 3.5 内容安全审核器：紧凑型多模式、多语言和推理功能的内容安全审核器",
           "link": "https://arxiv.org/abs/2608.27548",
           "summary": "arXiv:2608.27548v1 Announce Type: new\nAbstract: Safety moderation for deployed AI applications is moving beyond text-only prompts: systems increasingly need to judge images, documents, screenshots, and generated responses under policies that vary across domains. Existing guardrails usually cover only part of this setting, making it difficult to combine broad coverage, custom policy control, and low compute cost. We present Nemotron 3.5 Content Safety Moderator, also referred to as Nemotron 3.5 CS in this paper for brevity, a compact 4B vision-language safety moderator that jointly classifies user prompts, images, and assistant responses across 12 languages. Nemotron 3.5 CS returns safety labels for latency-sensitive moderation and can additionally produce concise reasoning traces that apply supplied custom policies and identify violated categories when reasoning is requested. We also release a multimodal and multilingual safety dataset for guard training, spanning human-labeled real-image moderation, benign vision-language and document tasks, synthetic rare-risk and jailbreak cases, and custom-policy examples. Across evaluations spanning multimodal safety, text moderation, multilingual robustness, custom-policy following, benign false positives, and latency, Nemotron 3.5 CS demonstrates a practical coverage tradeoff: it adds image-conditioned and policy-conditioned moderation while remaining broadly competitive with specialized guard models. These results suggest that compact vision-language moderators can serve as deployable front-line safety components, with reasoning used selectively for audit and policy review.",
-          "summaryZh": "arXiv:2608.27548v1 公告类型：新\n摘要：已部署的人工智能应用程序的安全审核正在超越纯文本提示：系统越来越需要根据跨领域不同的策略来判断图像、文档、屏幕截图和生成的响应。现有的护栏通常仅覆盖此设置的一部分，因此很难将广泛的覆盖范围、自定义策略控制和低计算成本结合起来。我们推出了 Nemotron 3.5 内容安全审核器（为简洁起见，在本文中也称为 Nemotron 3.5 CS），这是一种紧凑的 4B 视觉语言安全审核器，可对 12 种语言的用户提示、图像和助理响应进行联合分类。 Nemotron 3.5 CS 返回用于延迟敏感审核的安全标签，并且还可以生成简洁的推理跟踪，这些跟踪应用提供的自定义策略并在请求推理时识别违规类别。我们还发布了用于警卫培训的多模式和多语言安全数据集，涵盖人工标记的真实图像审核、良性视觉语言和文档任务、合成罕见风险和越狱案例以及自定义策略示例。在涵盖多模式安全性、文本审核、多语言鲁棒性、自定义策略遵循、良性误报和延迟等方面的评估中，Nemotron 3.5 CS 展示了实际的覆盖范围权衡：它增加了图像条件和策略条件审核，同时与专门的防护模型保持广泛的竞争力。这些结果表明，紧凑的视觉语言调节器可以作为可部署的一线安全组件，并选择性地用于审计和政策审查。",
+          "summaryZh": "arXiv:2608.27548v1 公告类型：新\n摘要：已部署的人工智能应用程序的安全审核正在超越纯文本提示：系统越来越需要根据跨领域不同的策略来判断图像、文档、屏幕截图和生成的响应。现有的护栏通常仅覆盖此设置的一部分，因此很难将广泛的覆盖范围、自定义策略控制和低计算成本结合起来。我们推出了 Nemotron 3.5 内容安全审核器（为简洁起见，在本文中也称为 Nemotron 3.5 CS），这是一种紧凑的 4B 视觉语言安全审核器，可对 12 种语言的用户提示、图像和助理响应进行联合分类。 Nemotron 3.5 CS 返回用于延迟敏感审核的安全标签，并且还可以生成简洁的推理跟踪，这些跟踪应用提供的自定义策略并在请求推理时识别违规类别。我们还发布了用于警卫培训的多模式和多语言安全数据集，涵盖人工标记的真实图像审核、良性视觉语言和文档任务、合成罕见风险和越狱案例以及自定义策略示例。在涵盖多模式安全性、文本审核、多语言鲁棒性、自定义策略遵循、良性误报和延迟等方面的评估中，Nemotron 3.5 CS 展示了实际的覆盖权衡：它增加了图像调节和策略调节的审核，同时与专门的防护模型保持广泛的竞争力。这些结果表明，紧凑的视觉语言调节器可以作为可部署的一线安全组件，并选择性地用于审计和政策审查。",
           "publishedAt": "2026-09-01T04:00:00.000Z",
           "comments": null,
           "author": "Varun Singh, Anuj Doshi, Makesh Narsimhan Sreedhar, Shaona Ghosh, Katherine Luna"
@@ -424,7 +424,7 @@
       "url": "https://rss.arxiv.org/rss/cs.LG",
       "home": "https://arxiv.org/list/cs.LG/recent",
       "group": "arxiv",
-      "fetchedAt": "2026-09-01T10:56:51.419Z",
+      "fetchedAt": "2026-09-01T15:56:21.738Z",
       "count": 15,
       "items": [
         {
@@ -554,7 +554,7 @@
           "titleZh": "从神经网络中的损失景观到多样化特征学习",
           "link": "https://arxiv.org/abs/2608.28948",
           "summary": "arXiv:2608.28948v1 Announce Type: new\nAbstract: Over the course of the last decade, neural networks have grown from an academic curiosity to moving the markets of nations. Despite this explosion in both research and deployment, relatively little is understood about how they achieve the solutions they do. This is both scientifically relevant, and pressing for society. When neural networks make decisions across self-driving, construction, law, hiring and health, there have been and will continue to be unintended consequences.\n However, attempting to generalize the failures of the largest and most important production systems makes for a very difficult task. Yet signs of these failures exist at all scales of neural networks, so we should be able to study a much more tractable setting. All neural networks must undergo an optimization process, called training, to be useful. To a great degree, understanding neural networks is understanding their optimization: through what process and exposure to which data did they arrive at their results. Yet our knowledge on this topic as a field is quite imprecise. In particular, a curious phenomenon called mode connectivity, the ability to connect neural networks in the loss surface, defies explanation entirely.\n This dissertation elucidates, explains and exploits this special structure in the loss landscape...",
-          "summaryZh": "arXiv:2608.28948v1 公告类型：新\n摘要：在过去的十年中，神经网络已经从一种学术好奇心发展成为推动国家市场的力量。尽管研究和部署都呈爆炸式增长，但人们对他们如何实现解决方案的了解却相对较少。这既具有科学意义，又对社会紧迫。当神经网络在自动驾驶、建筑、法律、招聘和健康领域做出决策时，已经并将继续产生意想不到的后果。\n 然而，试图概括最大和最重要的生产系统的故障是一项非常困难的任务。然而，这些失败的迹象存在于所有规模的神经网络中，因此我们应该能够研究更容易处理的环境。所有神经网络都必须经过优化过程（称为训练）才能发挥作用。在很大程度上，理解神经网络就是理解它们的优化：它们通过什么过程和接触哪些数据得出了结果。然而，我们对这个主题作为一个领域的了解相当不精确。特别是一种称为模式连接的奇怪现象，即在损失表面中连接神经网络的能力，完全无法解释。\n 本论文阐明、解释并利用了损失景观中的这种特殊结构......",
+          "summaryZh": "arXiv:2608.28948v1 公告类型：新\n摘要：在过去的十年中，神经网络已经从一种学术好奇心发展成为推动国家市场的力量。尽管研究和部署都呈爆炸式增长，但人们对它们如何实现解决方案的了解却相对较少。这既具有科学意义，又对社会紧迫。当神经网络在自动驾驶、建筑、法律、招聘和健康领域做出决策时，已经并将继续产生意想不到的后果。\n 然而，试图概括最大和最重要的生产系统的故障是一项非常困难的任务。然而，这些失败的迹象存在于所有规模的神经网络中，因此我们应该能够研究更容易处理的环境。所有神经网络都必须经过优化过程（称为训练）才能发挥作用。在很大程度上，理解神经网络就是理解它们的优化：它们通过什么过程和接触哪些数据得出了结果。然而，我们对这个主题作为一个领域的了解相当不精确。特别是一种称为模式连接的奇怪现象，即在损失表面中连接神经网络的能力，完全无法解释。\n 本论文阐明、解释并利用了损失景观中的这种特殊结构......",
           "publishedAt": "2026-09-01T04:00:00.000Z",
           "comments": null,
           "author": "David Aram Yunis"
