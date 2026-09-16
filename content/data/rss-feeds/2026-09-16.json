@@ -1,7 +1,7 @@
 {
   "source": "content/feeds.json",
   "attribution": "Aggregated headlines/summaries from third-party RSS/Atom feeds for navigation only. All rights belong to original publishers and authors. Chinese text is machine-translated.",
-  "fetchedAt": "2026-09-16T10:41:30.437Z",
+  "fetchedAt": "2026-09-16T15:57:27.975Z",
   "date": "2026-09-16",
   "feedCount": 3,
   "itemCount": 50,
@@ -17,228 +17,228 @@
       "url": "https://hnrss.org/frontpage",
       "home": "https://news.ycombinator.com/",
       "group": "community",
-      "fetchedAt": "2026-09-16T10:40:38.289Z",
+      "fetchedAt": "2026-09-16T15:56:42.182Z",
       "count": 20,
       "items": [
         {
-          "id": "https://news.ycombinator.com/item?id=49723873",
-          "title": "Learning Programming in an Age of LLMs",
-          "titleZh": "Learning Programming in an Age of LLMs",
-          "link": "https://blog.ploeh.dk/2026/09/16/on-learning-programming-in-an-age-of-llms/",
-          "summary": "Article URL: https://blog.ploeh.dk/2026/09/16/on-learning-programming-in-an-age-of-llms/\n\n Comments URL: https://news.ycombinator.com/item?id=49723873\n\n Points: 26\n\n # Comments: 8",
-          "summaryZh": "Article URL: https://blog.ploeh.dk/2026/09/16/on-learning-programming-in-an-age-of-llms/\n\n Comments URL: https://news.ycombinator.com/item?id=49723873\n\n Points: 26\n\n # Comments: 8",
-          "publishedAt": "2026-09-16T09:12:34.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49723873",
-          "author": "moneroloop2018"
+          "id": "https://news.ycombinator.com/item?id=49728159",
+          "title": "Show HN: Give your AI agents access to WhatsApp",
+          "titleZh": "Show HN：让您的 AI 代理访问 WhatsApp",
+          "link": "https://news.ycombinator.com/item?id=49728159",
+          "summary": "Hi, I built Chat-Man because I wanted a cheap way to give my agents access to WhatsApp without integrating a WhatsApp library separately in every project. You get WhatsApp MCP server, so you can connect WhatsApp to an agent and programmatically read, search, extract and send messages - but also have a web UI for non-techies. You can also receive webhooks for incoming messages for starred conversations. What you can do with the MCP?\n-Read WhatsApp messages and turn them into CRM records\n-Summarise conversations or groups\n-Extract structured information from messages\n-Find messages, participants or other WhatsApp data\n-Send messages\n-Manage group memberships Of course.. you always need to follow data protection regulation. The web UI:\n-Edit group details\n-See who joined or left\n-See who is most active\n-Export group members\n-Match members against a CSV (e.g. from a CRM)\n-Bulk message members\n-Bulk kick members\n-Create invite links\nFor individual contacts, you can send messages directly from the UI. Why I built it for myself?\nI needed WhatsApp access for several projects (hermo.ai, florahaus.co.uk, …) and didn't want to pay for a WhatsApp integration for each project. Link: https://chat-man.net I’d love to get some feedback, especially from people building agents that need access to WhatsApp.\nFabian\n\n Comments URL: https://news.ycombinator.com/item?id=49728159\n\n Points: 13\n\n # Comments: 16",
+          "summaryZh": "大家好，我构建了 Chat-Man，因为我想要一种廉价的方式让我的代理访问 WhatsApp，而无需在每个项目中单独集成 WhatsApp 库。您可以获得 WhatsApp MCP 服务器，因此您可以将 WhatsApp 连接到代理并以编程方式读取、搜索、提取和发送消息 - 而且还拥有适合非技术人员的 Web UI。您还可以接收已加星标对话的传入消息的 Webhook。您可以使用 MCP 做什么？\n-读取WhatsApp消息并将其转化为CRM记录\n-总结对话或小组\n-从消息中提取结构化信息\n-查找消息、参与者或其他 WhatsApp 数据\n- 发送消息\n-管理组成员身份当然..您始终需要遵循数据保护法规。网络用户界面：\n- 编辑群组详细信息\n-查看谁加入或离开\n-看看谁最活跃\n-导出群组成员\n-根据 CSV（例如来自 CRM）匹配成员\n- 群发消息会员\n-批量踢会员\n- 创建邀请链接\n对于个别联系人，您可以直接从 UI 发送消息。为什么我为自己建造它？\n我需要对多个项目（hermo.ai、florahaus.co.uk 等）进行 WhatsApp 访问，并且不想为每个项目支付 WhatsApp 集成费用。链接：https://chat-man.net 我很想得到一些反馈，尤其是来自构建需要访问 WhatsApp 的代理的人们的反馈。\n法比安\n\n 评论网址：https://news.ycombinator.com/item?id=49728159\n\n 积分：13\n\n # 评论: 16",
+          "publishedAt": "2026-09-16T15:04:08.000Z",
+          "comments": "https://news.ycombinator.com/item?id=49728159",
+          "author": "fabian_shipamax"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49727661",
+          "title": "Microsoft says AI rival Anthropic could have 'disastrous impact' on humanity",
+          "titleZh": "微软称人工智能竞争对手 Anthropic 可能对人类产生“灾难性影响”",
+          "link": "https://www.bbc.co.uk/news/articles/c6n07ypqz8kzo",
+          "summary": "Article URL: https://www.bbc.co.uk/news/articles/c6n07ypqz8kzo\n\n Comments URL: https://news.ycombinator.com/item?id=49727661\n\n Points: 27\n\n # Comments: 24",
+          "summaryZh": "文章网址：https://www.bbc.co.uk/news/articles/c6n07ypqz8kzo\n\n 评论网址：https://news.ycombinator.com/item?id=49727661\n\n 积分：27\n\n # 评论: 24",
+          "publishedAt": "2026-09-16T14:32:15.000Z",
+          "comments": "https://news.ycombinator.com/item?id=49727661",
+          "author": "pluc"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49727627",
+          "title": "PS5 Linux lead quits: \"a bunch of noobs using LLMs\" that \"they don't understand\"",
+          "titleZh": "PS5 Linux 负责人退出：“一群使用法学硕士的菜鸟”“他们不明白”",
+          "link": "https://frvr.com/blog/news/ps5-linux-lead-quits-as-open-source-projects-have-become-a-bunch-of-noobs-using-llms-that-they-dont-even-understand/",
+          "summary": "Article URL: https://frvr.com/blog/news/ps5-linux-lead-quits-as-open-source-projects-have-become-a-bunch-of-noobs-using-llms-that-they-dont-even-understand/\n\n Comments URL: https://news.ycombinator.com/item?id=49727627\n\n Points: 204\n\n # Comments: 118",
+          "summaryZh": "文章网址：https://frvr.com/blog/news/ps5-linux-lead-quits-as-open-source-projects-have-become-a-bunch-of-noobs-using-llms-that-they-dont-even-understand/\n\n 评论网址：https://news.ycombinator.com/item?id=49727627\n\n 积分：204\n\n # 评论: 118",
+          "publishedAt": "2026-09-16T14:30:36.000Z",
+          "comments": "https://news.ycombinator.com/item?id=49727627",
+          "author": "alexjplant"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49727592",
+          "title": "Anatomy of a Texture",
+          "titleZh": "纹理的解剖",
+          "link": "https://agentlien.github.io/texture/",
+          "summary": "Article URL: https://agentlien.github.io/texture/\n\n Comments URL: https://news.ycombinator.com/item?id=49727592\n\n Points: 7\n\n # Comments: 1",
+          "summaryZh": "文章网址：https://agentlien.github.io/texture/\n\n 评论网址：https://news.ycombinator.com/item?id=49727592\n\n 积分：7\n\n # 评论: 1",
+          "publishedAt": "2026-09-16T14:28:28.000Z",
+          "comments": "https://news.ycombinator.com/item?id=49727592",
+          "author": "Agentlien"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49727041",
+          "title": "OpenAI expands ChatGPT ads with Sponsored Agents",
+          "titleZh": "OpenAI 通过赞助代理扩展 ChatGPT 广告",
+          "link": "https://openai.com/index/reimagining-advertising-with-ai/",
+          "summary": "Article URL: https://openai.com/index/reimagining-advertising-with-ai/\n\n Comments URL: https://news.ycombinator.com/item?id=49727041\n\n Points: 97\n\n # Comments: 95",
+          "summaryZh": "文章网址：https://openai.com/index/reimagining-advertising-with-ai/\n\n 评论网址：https://news.ycombinator.com/item?id=49727041\n\n 积分：97\n\n #评论：95",
+          "publishedAt": "2026-09-16T13:51:15.000Z",
+          "comments": "https://news.ycombinator.com/item?id=49727041",
+          "author": "vertigoruntime"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49726955",
+          "title": "Dream-RSI: Recursive Self-Improvement through Evolving Worlds",
+          "titleZh": "Dream-RSI：通过不断发展的世界递归自我完善",
+          "link": "https://arxiv.org/abs/2609.14858",
+          "summary": "Article URL: https://arxiv.org/abs/2609.14858\n\n Comments URL: https://news.ycombinator.com/item?id=49726955\n\n Points: 58\n\n # Comments: 16",
+          "summaryZh": "文章网址：https://arxiv.org/abs/2609.14858\n\n 评论网址：https://news.ycombinator.com/item?id=49726955\n\n 积分：58\n\n # 评论: 16",
+          "publishedAt": "2026-09-16T13:44:40.000Z",
+          "comments": "https://news.ycombinator.com/item?id=49726955",
+          "author": "bananaflag"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49726586",
+          "title": "Hackers Got Inside a Flock Camera. Its Data Shows How the System Works",
+          "titleZh": "黑客侵入了群体摄像机。其数据显示系统如何工作",
+          "link": "https://www.wired.com/story/hackers-flock-camera-data-shows-how-system-works/",
+          "summary": "Article URL: https://www.wired.com/story/hackers-flock-camera-data-shows-how-system-works/\n\n Comments URL: https://news.ycombinator.com/item?id=49726586\n\n Points: 184\n\n # Comments: 79",
+          "summaryZh": "文章网址：https://www.wired.com/story/hackers-flock-camera-data-shows-how-system-works/\n\n 评论网址：https://news.ycombinator.com/item?id=49726586\n\n 积分：184\n\n # 评论: 79",
+          "publishedAt": "2026-09-16T13:18:47.000Z",
+          "comments": "https://news.ycombinator.com/item?id=49726586",
+          "author": "driverdan"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49726350",
+          "title": "Scaling Golang CI by Replacing actions/setup-go",
+          "titleZh": "通过替换 actions/setup-go 来扩展 Golang CI",
+          "link": "https://www.cloudx.ai/posts/setup-go",
+          "summary": "Article URL: https://www.cloudx.ai/posts/setup-go\n\n Comments URL: https://news.ycombinator.com/item?id=49726350\n\n Points: 38\n\n # Comments: 3",
+          "summaryZh": "文章网址：https://www.cloudx.ai/posts/setup-go\n\n 评论网址：https://news.ycombinator.com/item?id=49726350\n\n 积分：38\n\n # 评论: 3",
+          "publishedAt": "2026-09-16T13:02:14.000Z",
+          "comments": "https://news.ycombinator.com/item?id=49726350",
+          "author": "peterldowns"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49726343",
+          "title": "Show HN: How Stale Is Your AI? Release age and training cutoff for 20 models",
+          "titleZh": "Show HN：你的人工智能有多陈旧？ 20 名模特的发布年龄和训练截止时间",
+          "link": "https://stale.jock.pl/",
+          "summary": "Article URL: https://stale.jock.pl/\n\n Comments URL: https://news.ycombinator.com/item?id=49726343\n\n Points: 23\n\n # Comments: 17",
+          "summaryZh": "文章网址：https://stale.jock.pl/\n\n 评论网址：https://news.ycombinator.com/item?id=49726343\n\n 积分：23\n\n # 评论: 17",
+          "publishedAt": "2026-09-16T13:01:52.000Z",
+          "comments": "https://news.ycombinator.com/item?id=49726343",
+          "author": "joozio"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49726329",
+          "title": "ImpactGate: A merge gate that scores the structural decay AI adds",
+          "titleZh": "ImpactGate：人工智能添加的对结构衰退进行评分的合并门",
+          "link": "https://github.com/officefloor/ImpactGate",
+          "summary": "Article URL: https://github.com/officefloor/ImpactGate\n\n Comments URL: https://news.ycombinator.com/item?id=49726329\n\n Points: 34\n\n # Comments: 39",
+          "summaryZh": "文章网址：https://github.com/officefloor/ImpactGate\n\n 评论网址：https://news.ycombinator.com/item?id=49726329\n\n 积分：34\n\n # 评论: 39",
+          "publishedAt": "2026-09-16T13:01:09.000Z",
+          "comments": "https://news.ycombinator.com/item?id=49726329",
+          "author": "sagenschneider"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49725800",
+          "title": "DeepSeek v4.1 Flash Is Now Our Best Hacking Model",
+          "titleZh": "DeepSeek v4.1 Flash 现在是我们最好的黑客模型",
+          "link": "https://enclave.ai/blog/deepseek-v41-flash-is-now-our-best-hacking-model",
+          "summary": "Article URL: https://enclave.ai/blog/deepseek-v41-flash-is-now-our-best-hacking-model\n\n Comments URL: https://news.ycombinator.com/item?id=49725800\n\n Points: 80\n\n # Comments: 18",
+          "summaryZh": "文章网址：https://enclave.ai/blog/deepseek-v41-flash-is-now-our-best-hacking-model\n\n 评论网址：https://news.ycombinator.com/item?id=49725800\n\n 积分：80\n\n # 评论: 18",
+          "publishedAt": "2026-09-16T12:19:55.000Z",
+          "comments": "https://news.ycombinator.com/item?id=49725800",
+          "author": "talhof8"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49725541",
+          "title": "Kyber (YC W23) Is Hiring a Forward Deployed Engineer",
+          "titleZh": "Kyber (YC W23) 正在招聘一名前沿部署工程师",
+          "link": "https://www.ycombinator.com/companies/kyber/jobs/eturrAR-forward-deployed-engineer",
+          "summary": "Article URL: https://www.ycombinator.com/companies/kyber/jobs/eturrAR-forward-deployed-engineer\n\n Comments URL: https://news.ycombinator.com/item?id=49725541\n\n Points: 0\n\n # Comments: 0",
+          "summaryZh": "文章网址：https://www.ycombinator.com/companies/kyber/jobs/eturrAR-forward-deployed-engineer\n\n 评论网址：https://news.ycombinator.com/item?id=49725541\n\n 积分：0\n\n # 评论: 0",
+          "publishedAt": "2026-09-16T12:01:09.000Z",
+          "comments": "https://news.ycombinator.com/item?id=49725541",
+          "author": "asontha"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49725356",
+          "title": "Original Sony PlayStation 2 security chip 'broken wide open' after 26 years",
+          "titleZh": "索尼原装 PlayStation 2 安全芯片在 26 年后“完全暴露”",
+          "link": "https://www.tomshardware.com/video-games/playstation/26-year-old-sony-ps2-security-chip-broken-wide-open-after-four-years-of-effort-reverse-engineering-enthusiast-successfully-unlocks-cxp102064-mechacon-chip",
+          "summary": "Article URL: https://www.tomshardware.com/video-games/playstation/26-year-old-sony-ps2-security-chip-broken-wide-open-after-four-years-of-effort-reverse-engineering-enthusiast-successfully-unlocks-cxp102064-mechacon-chip\n\n Comments URL: https://news.ycombinator.com/item?id=49725356\n\n Points: 142\n\n # Comments: 37",
+          "summaryZh": "文章网址：https://www.tomshardware.com/video-games/playstation/26-year-old-sony-ps2-security-chip-broken-wide-open-after-four-years-of-effort-reverse-engineering-enthusiast-successively-unlocks-cxp102064-mechacon-chip\n\n 评论网址：https://news.ycombinator.com/item?id=49725356\n\n 积分：142\n\n # 评论: 37",
+          "publishedAt": "2026-09-16T11:49:40.000Z",
+          "comments": "https://news.ycombinator.com/item?id=49725356",
+          "author": "rbanffy"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49724927",
+          "title": "The Google Play app review process now regularly takes longer than a week",
+          "titleZh": "Google Play 应用审核流程现在通常需要一周以上的时间",
+          "link": "https://gultsch.social/@daniel/117280438824908947",
+          "summary": "Article URL: https://gultsch.social/@daniel/117280438824908947\n\n Comments URL: https://news.ycombinator.com/item?id=49724927\n\n Points: 237\n\n # Comments: 205",
+          "summaryZh": "文章网址：https://gultsch.social/@daniel/117280438824908947\n\n 评论网址：https://news.ycombinator.com/item?id=49724927\n\n 积分：237\n\n # 评论：205",
+          "publishedAt": "2026-09-16T11:19:11.000Z",
+          "comments": "https://news.ycombinator.com/item?id=49724927",
+          "author": "inputmice"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49724488",
+          "title": "Salesforce Global Outage",
+          "titleZh": "Salesforce 全球中断",
+          "link": "https://status.salesforce.com/products/all",
+          "summary": "Article URL: https://status.salesforce.com/products/all\n\n Comments URL: https://news.ycombinator.com/item?id=49724488\n\n Points: 195\n\n # Comments: 110",
+          "summaryZh": "文章网址：https://status.salesforce.com/products/all\n\n 评论网址：https://news.ycombinator.com/item?id=49724488\n\n 积分：195\n\n # 评论: 110",
+          "publishedAt": "2026-09-16T10:37:08.000Z",
+          "comments": "https://news.ycombinator.com/item?id=49724488",
+          "author": "mabil"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49723408",
           "title": "Mistral X Mozilla: Private, Multilingual AI Browsing",
-          "titleZh": "Mistral X Mozilla: Private, Multilingual AI Browsing",
+          "titleZh": "Mistral X Mozilla：私密、多语言 AI ​​浏览",
           "link": "https://mistral.ai/news/mistral-x-mozilla/",
-          "summary": "Article URL: https://mistral.ai/news/mistral-x-mozilla/\n\n Comments URL: https://news.ycombinator.com/item?id=49723408\n\n Points: 35\n\n # Comments: 8",
-          "summaryZh": "Article URL: https://mistral.ai/news/mistral-x-mozilla/\n\n Comments URL: https://news.ycombinator.com/item?id=49723408\n\n Points: 35\n\n # Comments: 8",
+          "summary": "Article URL: https://mistral.ai/news/mistral-x-mozilla/\n\n Comments URL: https://news.ycombinator.com/item?id=49723408\n\n Points: 311\n\n # Comments: 102",
+          "summaryZh": "文章网址：https://mistral.ai/news/mistral-x-mozilla/\n\n 评论网址：https://news.ycombinator.com/item?id=49723408\n\n 积分：311\n\n # 评论: 102",
           "publishedAt": "2026-09-16T08:08:57.000Z",
           "comments": "https://news.ycombinator.com/item?id=49723408",
           "author": "vertigoruntime"
         },
         {
-          "id": "https://news.ycombinator.com/item?id=49722591",
-          "title": "MartyPC – A Cycle-Accurate IBM PC/XT Emulator",
-          "titleZh": "MartyPC – A Cycle-Accurate IBM PC/XT Emulator",
-          "link": "https://github.com/dbalsom/martypc",
-          "summary": "Article URL: https://github.com/dbalsom/martypc\n\n Comments URL: https://news.ycombinator.com/item?id=49722591\n\n Points: 17\n\n # Comments: 2",
-          "summaryZh": "Article URL: https://github.com/dbalsom/martypc\n\n Comments URL: https://news.ycombinator.com/item?id=49722591\n\n Points: 17\n\n # Comments: 2",
-          "publishedAt": "2026-09-16T05:56:02.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49722591",
-          "author": "yitchelle"
-        },
-        {
           "id": "https://news.ycombinator.com/item?id=49722521",
           "title": "A software thing I built: GPS on a 25MHz 486-SX",
-          "titleZh": "A software thing I built: GPS on a 25MHz 486-SX",
+          "titleZh": "我构建的软件：25MHz 486-SX 上的 GPS",
           "link": "https://forum.vcfed.org/index.php?threads/a-software-thing-i-built-gps-on-a-25mhz-486-sx.1258966/",
-          "summary": "Article URL: https://forum.vcfed.org/index.php?threads/a-software-thing-i-built-gps-on-a-25mhz-486-sx.1258966/\n\n Comments URL: https://news.ycombinator.com/item?id=49722521\n\n Points: 29\n\n # Comments: 6",
-          "summaryZh": "Article URL: https://forum.vcfed.org/index.php?threads/a-software-thing-i-built-gps-on-a-25mhz-486-sx.1258966/\n\n Comments URL: https://news.ycombinator.com/item?id=49722521\n\n Points: 29\n\n # Comments: 6",
+          "summary": "Article URL: https://forum.vcfed.org/index.php?threads/a-software-thing-i-built-gps-on-a-25mhz-486-sx.1258966/\n\n Comments URL: https://news.ycombinator.com/item?id=49722521\n\n Points: 57\n\n # Comments: 19",
+          "summaryZh": "文章网址：https://forum.vcfed.org/index.php?threads/a-software-thing-i-built-gps-on-a-25mhz-486-sx.1258966/\n\n 评论网址：https://news.ycombinator.com/item?id=49722521\n\n 积分：57\n\n # 评论: 19",
           "publishedAt": "2026-09-16T05:43:44.000Z",
           "comments": "https://news.ycombinator.com/item?id=49722521",
           "author": "JPLeRouzic"
         },
         {
-          "id": "https://news.ycombinator.com/item?id=49722276",
-          "title": "Datamimic – don't let your coding agent invent its own test world",
-          "titleZh": "Datamimic – don't let your coding agent invent its own test world",
-          "link": "https://github.com/rapiddweller/datamimic",
-          "summary": "Article URL: https://github.com/rapiddweller/datamimic\n\n Comments URL: https://news.ycombinator.com/item?id=49722276\n\n Points: 40\n\n # Comments: 6",
-          "summaryZh": "Article URL: https://github.com/rapiddweller/datamimic\n\n Comments URL: https://news.ycombinator.com/item?id=49722276\n\n Points: 40\n\n # Comments: 6",
-          "publishedAt": "2026-09-16T04:58:36.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49722276",
-          "author": "ake2l"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49721548",
-          "title": "Negativland, Culture Jamming, and the Art of Making Something New",
-          "titleZh": "Negativland, Culture Jamming, and the Art of Making Something New",
-          "link": "https://blog.archive.org/2026/09/11/negativland-culture-jamming-and-the-art-of-making-something-new/",
-          "summary": "Article URL: https://blog.archive.org/2026/09/11/negativland-culture-jamming-and-the-art-of-making-something-new/\n\n Comments URL: https://news.ycombinator.com/item?id=49721548\n\n Points: 84\n\n # Comments: 20",
-          "summaryZh": "Article URL: https://blog.archive.org/2026/09/11/negativland-culture-jamming-and-the-art-of-making-something-new/\n\n Comments URL: https://news.ycombinator.com/item?id=49721548\n\n Points: 84\n\n # Comments: 20",
-          "publishedAt": "2026-09-16T02:46:06.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49721548",
-          "author": "bananaboy"
-        },
-        {
           "id": "https://news.ycombinator.com/item?id=49721322",
           "title": "Apple Reference Image: A New Approach for Verified Photography",
-          "titleZh": "Apple Reference Image: A New Approach for Verified Photography",
+          "titleZh": "Apple 参考图像：验证摄影的新方法",
           "link": "https://security.apple.com/blog/apple-reference-image/",
-          "summary": "Article URL: https://security.apple.com/blog/apple-reference-image/\n\n Comments URL: https://news.ycombinator.com/item?id=49721322\n\n Points: 263\n\n # Comments: 193",
-          "summaryZh": "Article URL: https://security.apple.com/blog/apple-reference-image/\n\n Comments URL: https://news.ycombinator.com/item?id=49721322\n\n Points: 263\n\n # Comments: 193",
+          "summary": "Article URL: https://security.apple.com/blog/apple-reference-image/\n\n Comments URL: https://news.ycombinator.com/item?id=49721322\n\n Points: 396\n\n # Comments: 256",
+          "summaryZh": "文章网址：https://security.apple.com/blog/apple-reference-image/\n\n 评论网址：https://news.ycombinator.com/item?id=49721322\n\n 积分：396\n\n # 评论：256",
           "publishedAt": "2026-09-16T02:07:31.000Z",
           "comments": "https://news.ycombinator.com/item?id=49721322",
           "author": "imwally"
         },
         {
-          "id": "https://news.ycombinator.com/item?id=49720164",
-          "title": "Saving Jet Fuel",
-          "titleZh": "Saving Jet Fuel",
-          "link": "https://tech.marksblogg.com/scikit-decide-openap-optimal-flight-planning.html",
-          "summary": "Article URL: https://tech.marksblogg.com/scikit-decide-openap-optimal-flight-planning.html\n\n Comments URL: https://news.ycombinator.com/item?id=49720164\n\n Points: 96\n\n # Comments: 48",
-          "summaryZh": "Article URL: https://tech.marksblogg.com/scikit-decide-openap-optimal-flight-planning.html\n\n Comments URL: https://news.ycombinator.com/item?id=49720164\n\n Points: 96\n\n # Comments: 48",
-          "publishedAt": "2026-09-15T23:17:20.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49720164",
-          "author": "marklit"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49719938",
-          "title": "Recreating Voodoo Graphics and a Late-1990s Gaming PC on an FPGA",
-          "titleZh": "Recreating Voodoo Graphics and a Late-1990s Gaming PC on an FPGA",
-          "link": "https://nand2mario.github.io/posts/2026/zsst-voodoo/",
-          "summary": "Article URL: https://nand2mario.github.io/posts/2026/zsst-voodoo/\n\n Comments URL: https://news.ycombinator.com/item?id=49719938\n\n Points: 129\n\n # Comments: 37",
-          "summaryZh": "Article URL: https://nand2mario.github.io/posts/2026/zsst-voodoo/\n\n Comments URL: https://news.ycombinator.com/item?id=49719938\n\n Points: 129\n\n # Comments: 37",
-          "publishedAt": "2026-09-15T22:50:55.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49719938",
-          "author": "zdw"
-        },
-        {
           "id": "https://news.ycombinator.com/item?id=49718928",
           "title": "German Rheinmetall open-sources its Battlesuite connected weapon system protcol",
-          "titleZh": "German Rheinmetall open-sources its Battlesuite connected weapon system protcol",
+          "titleZh": "德国莱茵金属开源其Battlesuite连接武器系统协议",
           "link": "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
-          "summary": "Article URL: https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html\n\n Comments URL: https://news.ycombinator.com/item?id=49718928\n\n Points: 223\n\n # Comments: 77",
-          "summaryZh": "Article URL: https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html\n\n Comments URL: https://news.ycombinator.com/item?id=49718928\n\n Points: 223\n\n # Comments: 77",
+          "summary": "Article URL: https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html\n\n Comments URL: https://news.ycombinator.com/item?id=49718928\n\n Points: 260\n\n # Comments: 97",
+          "summaryZh": "文章网址：https://rheinmetal.github.io/onboardapi-documentation/9.10.0/index.html\n\n 评论网址：https://news.ycombinator.com/item?id=49718928\n\n 积分：260\n\n #评论：97",
           "publishedAt": "2026-09-15T21:07:47.000Z",
           "comments": "https://news.ycombinator.com/item?id=49718928",
           "author": "summarity"
         },
         {
-          "id": "https://news.ycombinator.com/item?id=49718822",
-          "title": "Jean-Pierre Serre turns 100",
-          "titleZh": "Jean-Pierre Serre turns 100",
-          "link": "https://mathshistory.st-andrews.ac.uk/Biographies/Serre/",
-          "summary": "Article URL: https://mathshistory.st-andrews.ac.uk/Biographies/Serre/\n\n Comments URL: https://news.ycombinator.com/item?id=49718822\n\n Points: 134\n\n # Comments: 24",
-          "summaryZh": "Article URL: https://mathshistory.st-andrews.ac.uk/Biographies/Serre/\n\n Comments URL: https://news.ycombinator.com/item?id=49718822\n\n Points: 134\n\n # Comments: 24",
-          "publishedAt": "2026-09-15T20:57:18.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49718822",
-          "author": "jzox"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49717638",
-          "title": "Building a Linux GPU Driver for the M4 Mac Mini in One Month",
-          "titleZh": "Building a Linux GPU Driver for the M4 Mac Mini in One Month",
-          "link": "https://codyho.dev/blog/gpu-driver/",
-          "summary": "Article URL: https://codyho.dev/blog/gpu-driver/\n\n Comments URL: https://news.ycombinator.com/item?id=49717638\n\n Points: 331\n\n # Comments: 191",
-          "summaryZh": "Article URL: https://codyho.dev/blog/gpu-driver/\n\n Comments URL: https://news.ycombinator.com/item?id=49717638\n\n Points: 331\n\n # Comments: 191",
-          "publishedAt": "2026-09-15T19:30:03.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49717638",
-          "author": "ADevWithAnIdea"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49717605",
-          "title": "WangNet – 1.8 MB, zero-dependency Numberwang adjudication in 11 languages",
-          "titleZh": "WangNet – 1.8 MB, zero-dependency Numberwang adjudication in 11 languages",
-          "link": "https://github.com/GraafHenk/numberwang",
-          "summary": "Article URL: https://github.com/GraafHenk/numberwang\n\n Comments URL: https://news.ycombinator.com/item?id=49717605\n\n Points: 163\n\n # Comments: 58",
-          "summaryZh": "Article URL: https://github.com/GraafHenk/numberwang\n\n Comments URL: https://news.ycombinator.com/item?id=49717605\n\n Points: 163\n\n # Comments: 58",
-          "publishedAt": "2026-09-15T19:27:35.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49717605",
-          "author": "Liogra123"
-        },
-        {
           "id": "https://news.ycombinator.com/item?id=49717558",
           "title": "Introducing System One Models and Jev",
-          "titleZh": "Introducing System One Models and Jev",
+          "titleZh": "系统一模型和 Jev 简介",
           "link": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
-          "summary": "Article URL: https://typesafe.ai/blog/introducing-system-one-models-and-jev\n\n Comments URL: https://news.ycombinator.com/item?id=49717558\n\n Points: 1417\n\n # Comments: 402",
-          "summaryZh": "Article URL: https://typesafe.ai/blog/introducing-system-one-models-and-jev\n\n Comments URL: https://news.ycombinator.com/item?id=49717558\n\n Points: 1417\n\n # Comments: 402",
+          "summary": "Article URL: https://typesafe.ai/blog/introducing-system-one-models-and-jev\n\n Comments URL: https://news.ycombinator.com/item?id=49717558\n\n Points: 1653\n\n # Comments: 456",
+          "summaryZh": "文章网址：https://typesafe.ai/blog/introducing-system-one-models-and-jev\n\n 评论网址：https://news.ycombinator.com/item?id=49717558\n\n 积分：1653\n\n # 评论: 456",
           "publishedAt": "2026-09-15T19:25:03.000Z",
           "comments": "https://news.ycombinator.com/item?id=49717558",
           "author": "albelfio"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49717280",
-          "title": "Learning to solve hard problems in RL for LLMs by never giving up",
-          "titleZh": "Learning to solve hard problems in RL for LLMs by never giving up",
-          "link": "https://mnoukhov.github.io/posts/ngu/",
-          "summary": "https://arxiv.org/abs/2609.13443\n\n Comments URL: https://news.ycombinator.com/item?id=49717280\n\n Points: 96\n\n # Comments: 5",
-          "summaryZh": "https://arxiv.org/abs/2609.13443\n\n Comments URL: https://news.ycombinator.com/item?id=49717280\n\n Points: 96\n\n # Comments: 5",
-          "publishedAt": "2026-09-15T19:07:38.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49717280",
-          "author": "natolambert"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49716953",
-          "title": "Chopping up books when they're physically too big",
-          "titleZh": "Chopping up books when they're physically too big",
-          "link": "https://attainablefelicity.mattkirkland.com/20260915/cut-up-your-books.html",
-          "summary": "Article URL: https://attainablefelicity.mattkirkland.com/20260915/cut-up-your-books.html\n\n Comments URL: https://news.ycombinator.com/item?id=49716953\n\n Points: 179\n\n # Comments: 166",
-          "summaryZh": "Article URL: https://attainablefelicity.mattkirkland.com/20260915/cut-up-your-books.html\n\n Comments URL: https://news.ycombinator.com/item?id=49716953\n\n Points: 179\n\n # Comments: 166",
-          "publishedAt": "2026-09-15T18:45:31.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49716953",
-          "author": "matt_kirkland"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49716476",
-          "title": "We got admin access to Baseten's production GitHub",
-          "titleZh": "We got admin access to Baseten's production GitHub",
-          "link": "https://www.strix.ai/blog/baseten-harbor-github-pat-takeover",
-          "summary": "Article URL: https://www.strix.ai/blog/baseten-harbor-github-pat-takeover\n\n Comments URL: https://news.ycombinator.com/item?id=49716476\n\n Points: 282\n\n # Comments: 155",
-          "summaryZh": "Article URL: https://www.strix.ai/blog/baseten-harbor-github-pat-takeover\n\n Comments URL: https://news.ycombinator.com/item?id=49716476\n\n Points: 282\n\n # Comments: 155",
-          "publishedAt": "2026-09-15T18:11:24.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49716476",
-          "author": "bearsyankees"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49716176",
-          "title": "An update on Wayback Machine access",
-          "titleZh": "An update on Wayback Machine access",
-          "link": "https://blog.archive.org/2026/09/15/an-update-on-wayback-machine-access/",
-          "summary": "Article URL: https://blog.archive.org/2026/09/15/an-update-on-wayback-machine-access/\n\n Comments URL: https://news.ycombinator.com/item?id=49716176\n\n Points: 544\n\n # Comments: 272",
-          "summaryZh": "Article URL: https://blog.archive.org/2026/09/15/an-update-on-wayback-machine-access/\n\n Comments URL: https://news.ycombinator.com/item?id=49716176\n\n Points: 544\n\n # Comments: 272",
-          "publishedAt": "2026-09-15T17:52:18.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49716176",
-          "author": "ChrisArchitect"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49715947",
-          "title": "Gemini 3.8 Live and 3.8 Live Extended Thinking",
-          "titleZh": "Gemini 3.8 Live and 3.8 Live Extended Thinking",
-          "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
-          "summary": "Article URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/\n\n Comments URL: https://news.ycombinator.com/item?id=49715947\n\n Points: 419\n\n # Comments: 273",
-          "summaryZh": "Article URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/\n\n Comments URL: https://news.ycombinator.com/item?id=49715947\n\n Points: 419\n\n # Comments: 273",
-          "publishedAt": "2026-09-15T17:38:18.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49715947",
-          "author": "leumon"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49715927",
-          "title": "Why I'm still bearish on LLMs after Navier-Stokes",
-          "titleZh": "Why I'm still bearish on LLMs after Navier-Stokes",
-          "link": "https://dank.systems/posts/2026-09-15-ai-bear.html",
-          "summary": "Article URL: https://dank.systems/posts/2026-09-15-ai-bear.html\n\n Comments URL: https://news.ycombinator.com/item?id=49715927\n\n Points: 234\n\n # Comments: 262",
-          "summaryZh": "Article URL: https://dank.systems/posts/2026-09-15-ai-bear.html\n\n Comments URL: https://news.ycombinator.com/item?id=49715927\n\n Points: 234\n\n # Comments: 262",
-          "publishedAt": "2026-09-15T17:37:12.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49715927",
-          "author": "jaykru"
         }
       ]
     },
@@ -248,16 +248,16 @@
       "url": "https://rss.arxiv.org/rss/cs.AI",
       "home": "https://arxiv.org/list/cs.AI/recent",
       "group": "arxiv",
-      "fetchedAt": "2026-09-16T10:40:39.012Z",
+      "fetchedAt": "2026-09-16T15:56:42.910Z",
       "count": 15,
       "items": [
         {
           "id": "oai:arXiv.org:2609.13356v1",
           "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
-          "titleZh": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
+          "titleZh": "ZGCM-1：完全开放且极其高效的数学和代理搜索基础模型",
           "link": "https://arxiv.org/abs/2609.13356",
           "summary": "arXiv:2609.13356v1 Announce Type: new\nAbstract: In this work, we present ZGCM-1, a fully open 7B dense foundation model trained from scratch with extreme data, system, and algorithmic efficiency. ZGCM-1 is founded on a core premise: compact models cannot passively memorize the open web, but can overcome parametric capacity limits by coupling deliberate internal thinking with active external tool use. To support this paradigm across a 256K context, we develop an end-to-end, high-efficiency open training recipe: Architecture & System Co-design: interleaved gated sliding-window and full attention, and a stable FP8 Muon optimizer; Progressive Curriculum & MDP Mid-Training: context scaling across 16K, 64K, and 256K, and the reformulation of interaction traces into Markov Decision Processes. Furthermore, we establish an AI-native R&D workflow where agent swarms autonomously manage cluster operations, data curation, and rapid diagnostic evaluation. Extensive evaluations show that ZGCM-1-7B is competitive across 7B model family on general benchmarks. On several challenging mathematical reasoning and agentic search suites, it remains competitive with frontier models orders of magnitude larger, such as Qwen3-235B-A22B and GLM-5.1. We also show that our pre-training design offers a ~4.2x efficiency improvement in 16K pre-training time-to-loss. Across the full development lifecycle, we distill eight actionable empirical findings-spanning architectural scaling, SFT quality pruning, long-context generalization, and agentic co-training dynamics. To facilitate community research, we open-source model weights from the pre-training, mid-training, and post-training stages, intermediate checkpoints, training code, per-stage data and data recipes, and W&B logs.",
-          "summaryZh": "arXiv:2609.13356v1 Announce Type: new\nAbstract: In this work, we present ZGCM-1, a fully open 7B dense foundation model trained from scratch with extreme data, system, and algorithmic efficiency. ZGCM-1 is founded on a core premise: compact models cannot passively memorize the open web, but can overcome parametric capacity limits by coupling deliberate internal thinking with active external tool use. To support this paradigm across a 256K context, we develop an end-to-end, high-efficiency open training recipe: Architecture & System Co-design: interleaved gated sliding-window and full attention, and a stable FP8 Muon optimizer; Progressive Curriculum & MDP Mid-Training: context scaling across 16K, 64K, and 256K, and the reformulation of interaction traces into Markov Decision Processes. Furthermore, we establish an AI-native R&D workflow where agent swarms autonomously manage cluster operations, data curation, and rapid diagnostic evaluation. Extensive evaluations show that ZGCM-1-7B is competitive across 7B model family on general benchmarks. On several challenging mathematical reasoning and agentic search suites, it remains competitive with frontier models orders of magnitude larger, such as Qwen3-235B-A22B and GLM-5.1. We also show that our pre-training design offers a ~4.2x efficiency improvement in 16K pre-training time-to-loss. Across the full development lifecycle, we distill eight actionable empirical findings-spanning architectural scaling, SFT quality pruning, long-context generalization, and agentic co-training dynamics. To facilitate community research, we open-source model weights from the pre-training, mid-training, and post-training stages, intermediate checkpoints, training code, per-stage data and data recipes, and W&B logs.",
+          "summaryZh": "arXiv:2609.13356v1 公告类型：新\n摘要：在这项工作中，我们提出了 ZGCM-1，一种完全开放的 7B 密集基础模型，从头开始训练，具有极高的数据、系统和算法效率。 ZGCM-1 建立在一个核心前提之上：紧凑模型不能被动地记忆开放网络，而是可以通过将深思熟虑的内部思维与主动的外部工具使用相结合来克服参数容量限制。为了在 256K 环境中支持这种范式，我们开发了一种端到端、高效的开放训练方法：架构与系统协同设计：交错门控滑动窗口和充分关注，以及稳定的 FP8 Muon 优化器；渐进式课程和 MDP 中期培训：跨 16K、64K 和 256K 的上下文扩展，以及将交互轨迹重新表述为马尔可夫决策过程。此外，我们建立了人工智能原生研发工作流程，其中代理群自主管理集群操作、数据管理和快速诊断评估。广泛的评估表明，ZGCM-1-7B 在一般基准测试中在 7B 型号系列中具有竞争力。在几个具有挑战性的数学推理和代理搜索套件上，它与大数量级的前沿模型（例如 Qwen3-235B-A22B 和 GLM-5.1）相比仍然具有竞争力。我们还表明，我们的预训练设计在 16K 预训练损失时间方面提供了约 4.2 倍的效率提升。在整个开发生命周期中，我们提炼出了八个可操作的实证结果——涵盖架构扩展、SFT 质量修剪、长上下文泛化和代理协同训练动态。为了促进社区研究，我们开源了训练前、训练中和训练后阶段的模型权重、中间检查点、训练代码、每阶段数据和数据配方以及 W&B 日志。",
           "publishedAt": "2026-09-16T04:00:00.000Z",
           "comments": null,
           "author": "Jiyan He, Guang Liang, Hao Liu, Haoxiang Guan, Jinbo Sun, Junyi Guo, Wenjun Feng, Yantai Xie, Yifei Shen, Bin Shao, Chuyang Wei, Kai Chen, Kexin Zhou, Minghang Zhu, Shuxin Zheng, Tie-Yan Liu, Taine Zhao, Wenhui Zhu, Xueyin Xu, Xiaoqing Zhang, Yatao Li, Yuxuan Ren"
@@ -265,10 +265,10 @@
         {
           "id": "oai:arXiv.org:2609.13396v1",
           "title": "Converge Then Diversify: Decoupling Convergence and Diversity in Multi-Objective Bayesian Optimisation",
-          "titleZh": "Converge Then Diversify: Decoupling Convergence and Diversity in Multi-Objective Bayesian Optimisation",
+          "titleZh": "收敛然后多样化：解耦多目标贝叶斯优化中的收敛性和多样性",
           "link": "https://arxiv.org/abs/2609.13396",
           "summary": "arXiv:2609.13396v1 Announce Type: new\nAbstract: Multi-objective Bayesian optimisation (MOBO) is a sample-efficient approach for optimising expensive black-box functions with multiple objectives. In MOBO, the goal is to adequately approximate the Pareto front; that is, to obtain a high-quality solution set with 1) good convergence (closeness to the Pareto front) and 2) good diversity (spread across the Pareto front). Existing MOBO methods typically aim to accomplish these two tasks simultaneously, i.e., driving the search towards the Pareto front while maintaining a diverse set of nondominated solutions, such that the solutions, ideally, can gradually approach the entire front. When sufficient search budgets are available, this approach is effective. However, considering both convergence and diversity throughout the search is not easy and requires careful design. Under very tight budgets, there may not be enough solutions generated to be able to simultaneously approach the entire Pareto front. To address this issue, this paper proposes a \\textit{converge-then-diversify} (CTD) approach that decouples convergence and diversity into two stages. In the first stage, CTD focuses on convergence, aiming to quickly drive the search toward a single point on the Pareto front. In the second stage, CTD focuses on diversity, aiming to spread solutions across the front. We present two simple instantiations of CTD by using widely adopted acquisition functions in the area. Experimental results show that, across all 446 pairwise comparisons, CTD statistically outperforms state-of-the-art methods in 72.9\\% of the cases, performs equivalently in 21.1\\%, and is statistically worse in only 6.1\\%, with the advantage being particularly evident in settings with very tight evaluation budgets or in high-dimensional problems.",
-          "summaryZh": "arXiv:2609.13396v1 Announce Type: new\nAbstract: Multi-objective Bayesian optimisation (MOBO) is a sample-efficient approach for optimising expensive black-box functions with multiple objectives. In MOBO, the goal is to adequately approximate the Pareto front; that is, to obtain a high-quality solution set with 1) good convergence (closeness to the Pareto front) and 2) good diversity (spread across the Pareto front). Existing MOBO methods typically aim to accomplish these two tasks simultaneously, i.e., driving the search towards the Pareto front while maintaining a diverse set of nondominated solutions, such that the solutions, ideally, can gradually approach the entire front. When sufficient search budgets are available, this approach is effective. However, considering both convergence and diversity throughout the search is not easy and requires careful design. Under very tight budgets, there may not be enough solutions generated to be able to simultaneously approach the entire Pareto front. To address this issue, this paper proposes a \\textit{converge-then-diversify} (CTD) approach that decouples convergence and diversity into two stages. In the first stage, CTD focuses on convergence, aiming to quickly drive the search toward a single point on the Pareto front. In the second stage, CTD focuses on diversity, aiming to spread solutions across the front. We present two simple instantiations of CTD by using widely adopted acquisition functions in the area. Experimental results show that, across all 446 pairwise comparisons, CTD statistically outperforms state-of-the-art methods in 72.9\\% of the cases, performs equivalently in 21.1\\%, and is statistically worse in only 6.1\\%, with the advantage being particularly evident in settings with very tight evaluation budgets or in high-dimensional problems.",
+          "summaryZh": "arXiv:2609.13396v1 公告类型：新\n摘要：多目标贝叶斯优化（MOBO）是一种样本有效的方法，用于优化具有多个目标的昂贵的黑盒函数。在 MOBO 中，目标是充分逼近帕累托前沿；也就是说，获得高质量的解集，具有 1）良好的收敛性（接近 Pareto 前沿）和 2）良好的多样性（分布在 Pareto 前沿）。现有的 MOBO 方法通常旨在同时完成这两个任务，即推动搜索向 Pareto 前沿发展，同时保持一组多样化的非支配解，这样理想情况下，这些解决方案可以逐渐接近整个前沿。当有足够的搜索预算时，这种方法是有效的。然而，在整个搜索过程中同时考虑收敛性和多样性并不容易，需要仔细设计。在预算非常紧张的情况下，可能无法生成足够的解决方案来同时接近整个帕累托前沿。为了解决这个问题，本文提出了一种\\textit{收敛然后多样化}（CTD）方法，将收敛和多样性解耦为两个阶段。在第一阶段，CTD侧重于收敛，旨在快速推动搜索向帕累托前沿上的单个点移动。第二阶段，CTD注重多样性，旨在将解决方案传播到前沿。我们通过使用该领域广泛采用的采集功能来展示 CTD 的两个简单实例。实验结果表明，在所有 446 个成对比较中，CTD 在 72.9% 的情况下在统计上优于最先进的方法，在 21.1% 的情况下表现相当，并且在统计上只有 6.1% 的情况下表现更差，在评估预算非常紧张或高维问题的情况下，优势尤其明显。",
           "publishedAt": "2026-09-16T04:00:00.000Z",
           "comments": null,
           "author": "Chao Jiang, Yueling Huang, Miqing Li"
@@ -276,10 +276,10 @@
         {
           "id": "oai:arXiv.org:2609.13406v1",
           "title": "Generalized Agent Iteration: One Formal Framework for Iterative Policy Improvement and Recursive Self-Improvement",
-          "titleZh": "Generalized Agent Iteration: One Formal Framework for Iterative Policy Improvement and Recursive Self-Improvement",
+          "titleZh": "广义代理迭代：迭代策略改进和递归自我改进的一种正式框架",
           "link": "https://arxiv.org/abs/2609.13406",
           "summary": "arXiv:2609.13406v1 Announce Type: new\nAbstract: When we speak of recursive self-improvement (RSI), are we speaking of a phenomenon, a mechanism, or a prospect? Towards autonomous and evolving intelligence, RSI is being claimed at many scales, while no single framework that formally describes these emerging instances exists. Its counterpart in the classical realm, iterative policy improvement, is characterized by generalized policy iteration (GPI), a framework of broad applicability with well-understood theoretical properties, but only where the update principle and the evaluation base lie outside the agent. In this paper, we propose Generalized Agent Iteration (GAI), a formal framework that describes iterative policy improvement and RSI as two cases of a single learning paradigm. GAI defines the agent as a configuration of modifiable components within a system and models the learning process as a cycle of agent evaluation and agent improvement. Two pivotal dials then distinguish the instances: whether the improving mechanism is part of the agent and whether the standard it is measured against is grounded outside it. The former dial delineates the boundary between GPI and RSI, and the latter determines a system's polarity as anchored, goal drift, or fully self-referential. Moreover, we use these coordinates to place existing systems on the same two axes and make the defects of recursive self-improvement statable one condition at a time. We see this paper as a first step toward exploring a formal characterization of RSI that rests on the classical account, makes existing systems comparable, and provides a principled basis for analyzing and designing new ones.",
-          "summaryZh": "arXiv:2609.13406v1 Announce Type: new\nAbstract: When we speak of recursive self-improvement (RSI), are we speaking of a phenomenon, a mechanism, or a prospect? Towards autonomous and evolving intelligence, RSI is being claimed at many scales, while no single framework that formally describes these emerging instances exists. Its counterpart in the classical realm, iterative policy improvement, is characterized by generalized policy iteration (GPI), a framework of broad applicability with well-understood theoretical properties, but only where the update principle and the evaluation base lie outside the agent. In this paper, we propose Generalized Agent Iteration (GAI), a formal framework that describes iterative policy improvement and RSI as two cases of a single learning paradigm. GAI defines the agent as a configuration of modifiable components within a system and models the learning process as a cycle of agent evaluation and agent improvement. Two pivotal dials then distinguish the instances: whether the improving mechanism is part of the agent and whether the standard it is measured against is grounded outside it. The former dial delineates the boundary between GPI and RSI, and the latter determines a system's polarity as anchored, goal drift, or fully self-referential. Moreover, we use these coordinates to place existing systems on the same two axes and make the defects of recursive self-improvement statable one condition at a time. We see this paper as a first step toward exploring a formal characterization of RSI that rests on the classical account, makes existing systems comparable, and provides a principled basis for analyzing and designing new ones.",
+          "summaryZh": "arXiv:2609.13406v1 公告类型：新\n摘要：当我们谈论递归自我改进（RSI）时，我们是在谈论一种现象、一种机制还是一种前景？为了实现自主和不断发展的智能，RSI 在许多方面都得到了广泛的应用，但目前还没有一个框架能够正式描述这些新兴实例。它在经典领域中的对应物，迭代策略改进，其特点是广义策略迭代（GPI），这是一个具有广泛适用性的框架，具有易于理解的理论属性，但仅限于更新原则和评估基础位于代理之外的情况。在本文中，我们提出了广义代理迭代（GAI），这是一个正式框架，它将迭代策略改进和 RSI 描述为单一学习范式的两种情况。 GAI 将智能体定义为系统内可修改组件的配置，并将学习过程建模为智能体评估和智能体改进的循环。然后，两个关键刻度盘区分了这些情况：改进机制是否是代理的一部分，以及衡量它所依据的标准是否扎根于代理之外。前者划定了 GPI 和 RSI 之间的界限，后者确定了系统的极性：锚定、目标漂移或完全自我参照。此外，我们使用这些坐标将现有系统放置在相同的两个轴上，并使递归自我改进的缺陷一次稳定在一个条件上。我们认为这篇论文是探索基于经典账户的 RSI 正式表征的第一步，使现有系统具有可比性，并为分析和设计新系统提供原则基础。",
           "publishedAt": "2026-09-16T04:00:00.000Z",
           "comments": null,
           "author": "Hongyao Tang, Yi Ma, Pengyi Li, Yifu Yuan"
@@ -287,10 +287,10 @@
         {
           "id": "oai:arXiv.org:2609.13422v1",
           "title": "Vibe Patenting: Evaluating LLM Judges for Professional Patent-Drafting Agents",
-          "titleZh": "Vibe Patenting: Evaluating LLM Judges for Professional Patent-Drafting Agents",
+          "titleZh": "Vibe Patenting：评估专业专利起草代理人的法学硕士法官",
           "link": "https://arxiv.org/abs/2609.13422",
           "summary": "arXiv:2609.13422v1 Announce Type: new\nAbstract: LLM judges are increasingly used to evaluate and improve AI-generated outputs, yet their reliability for complex professional work remains unclear. We study this problem through Vibe Patenting, an end-to-end patent-drafting testbed for AI-agent evaluation. A separately-invoked LLM judge evaluates generated patent drafts and provides structured feedback for iterative revision. Across multiple inventions and drafting-agent configurations, judge-guided revision consistently improves judge-assessed quality, while unguided revision tends to saturate. Notably, iterative judge feedback enables a low-reasoning agent to approach the performance of a substantially more expensive high-reasoning agent. Stronger models and increased reasoning generally improve judge-assessed drafting quality, while domain-specific agentic workflows provide further gains. We validate the judge against independent evaluation by a professional patent attorney and find meaningful but strongly metric-dependent agreement and systematic calibration differences. These results highlight both the utility and limitations of LLM judges as evaluators and optimization signals for complex professional workflows.",
-          "summaryZh": "arXiv:2609.13422v1 Announce Type: new\nAbstract: LLM judges are increasingly used to evaluate and improve AI-generated outputs, yet their reliability for complex professional work remains unclear. We study this problem through Vibe Patenting, an end-to-end patent-drafting testbed for AI-agent evaluation. A separately-invoked LLM judge evaluates generated patent drafts and provides structured feedback for iterative revision. Across multiple inventions and drafting-agent configurations, judge-guided revision consistently improves judge-assessed quality, while unguided revision tends to saturate. Notably, iterative judge feedback enables a low-reasoning agent to approach the performance of a substantially more expensive high-reasoning agent. Stronger models and increased reasoning generally improve judge-assessed drafting quality, while domain-specific agentic workflows provide further gains. We validate the judge against independent evaluation by a professional patent attorney and find meaningful but strongly metric-dependent agreement and systematic calibration differences. These results highlight both the utility and limitations of LLM judges as evaluators and optimization signals for complex professional workflows.",
+          "summaryZh": "arXiv:2609.13422v1 公告类型：新\n摘要：法学硕士法官越来越多地用于评估和改进人工智能生成的输出，但他们对复杂专业工作的可靠性仍不清楚。我们通过 Vibe Patenting 研究这个问题，这是一个用于人工智能代理评估的端到端专利起草测试平台。单独调用的法学硕士法官评估生成的专利草案，并为迭代修订提供结构化反馈。在多项发明和起草代理人配置中，法官指导的修订持续提高了法官评估的质量，而无指导的修订往往会饱和。值得注意的是，迭代判断反馈使低推理智能体能够接近昂贵得多的高推理智能体的性能。更强大的模型和增强的推理通常可以提高法官评估的起草质量，而特定领域的代理工作流程则可以提供进一步的收益。我们根据专业专利律师的独立评估来验证判断，并发现有意义但强烈依赖于度量的一致性和系统校准差异。这些结果凸显了法学硕士法官作为复杂专业工作流程的评估者和优化信号的效用和局限性。",
           "publishedAt": "2026-09-16T04:00:00.000Z",
           "comments": null,
           "author": "Toshiaki Koike-Akino, Vlad Blaykhman, Ye Wang, Jing Liu, Gene V. Vinokur"
@@ -298,10 +298,10 @@
         {
           "id": "oai:arXiv.org:2609.13436v1",
           "title": "Toward Self-Adaptive Physical AI: Can LLM Agents Manage Long-Horizon Physical Tasks?",
-          "titleZh": "Toward Self-Adaptive Physical AI: Can LLM Agents Manage Long-Horizon Physical Tasks?",
+          "titleZh": "迈向自适应物理人工智能：法学硕士代理可以管理长期物理任务吗？",
           "link": "https://arxiv.org/abs/2609.13436",
           "summary": "arXiv:2609.13436v1 Announce Type: new\nAbstract: Large Language Model (LLM) agents offer a promising path toward autonomously managing long-term physical tasks without human intervention. However, physical tasks require agents to continuously observe the environment, make consequential actions, and remain effective as the environment changes. Existing approaches either require substantial data and retraining, or primarily focus on agents operating in the virtual world. In this work, we explore the feasibility of building a self-adaptive physical AI agent that manages long-term physical tasks in a zero-shot manner and adapts to environmental changes without human intervention. We design a multi-agent framework that integrates planning, tool calling, observation, and verification, and evaluate it on agricultural tasks against reinforcement learning (RL) agents under different weather patterns. Our results show that zero-shot LLM agents can achieve comparable management outcomes to RL agents under the same weather pattern and adapt more effectively than RL when evaluated under a shifted environment, highlighting a promising path toward self-adaptive physical AI agents.",
-          "summaryZh": "arXiv:2609.13436v1 Announce Type: new\nAbstract: Large Language Model (LLM) agents offer a promising path toward autonomously managing long-term physical tasks without human intervention. However, physical tasks require agents to continuously observe the environment, make consequential actions, and remain effective as the environment changes. Existing approaches either require substantial data and retraining, or primarily focus on agents operating in the virtual world. In this work, we explore the feasibility of building a self-adaptive physical AI agent that manages long-term physical tasks in a zero-shot manner and adapts to environmental changes without human intervention. We design a multi-agent framework that integrates planning, tool calling, observation, and verification, and evaluate it on agricultural tasks against reinforcement learning (RL) agents under different weather patterns. Our results show that zero-shot LLM agents can achieve comparable management outcomes to RL agents under the same weather pattern and adapt more effectively than RL when evaluated under a shifted environment, highlighting a promising path toward self-adaptive physical AI agents.",
+          "summaryZh": "arXiv:2609.13436v1 公告类型：新\n摘要：大型语言模型（LLM）代理为在无需人工干预的情况下自主管理长期物理任务提供了一条有前途的道路。然而，物理任务要求智能体持续观察环境，采取相应的行动，并随着环境的变化保持有效。现有方法要么需要大量数据和再培训，要么主要关注在虚拟世界中运行的代理。在这项工作中，我们探索了构建自适应物理人工智能代理的可行性，该代理以零样本的方式管理长期物理任务，并在无需人工干预的情况下适应环境变化。我们设计了一个集规划、工具调用、观察和验证于一体的多智能体框架，并在不同天气模式下针对强化学习（RL）智能体对农业任务进行评估。我们的结果表明，在相同的天气模式下，零样本 LLM 智能体可以实现与 RL 智能体相当的管理结果，并且在变化的环境下评估时比 RL 更有效地适应，这凸显了通往自适应物理 AI 智能体的一条有希望的道路。",
           "publishedAt": "2026-09-16T04:00:00.000Z",
           "comments": null,
           "author": "Varun Kaushik, Yayun Tan, Xiaofan Yu"
@@ -309,10 +309,10 @@
         {
           "id": "oai:arXiv.org:2609.13437v1",
           "title": "LabAgent: Customize Any Research Hubs for Scientific Discoveries Using AI Agents",
-          "titleZh": "LabAgent: Customize Any Research Hubs for Scientific Discoveries Using AI Agents",
+          "titleZh": "LabAgent：使用 AI 代理为科学发现定制任何研究中心",
           "link": "https://arxiv.org/abs/2609.13437",
           "summary": "arXiv:2609.13437v1 Announce Type: new\nAbstract: Scientific research is a continuous process that emphasizes inheritance. Methods developed by predecessors are often expanded upon by new researchers to explore more novel and in-depth scientific questions. However, the change of lab staff, such as student graduation, leads to a lack of personnel capable of replicating methods. Methods that have been developed with significant effort and resources cannot be continued. To address these limitations, we propose LabAgent, a reproduce and discovery harness tailored for a lab's continuous work. LabAgent employs two mechanisms to guarantee that all skills can be executed and verified and to record the corrective methods and experiences, allowing for direct correction or avoidance of similar errors. We applied LabAgent to drug property prediction, biomedical problem analysis, protein variant effect prediction, and statistical genetics in life science domains. LabAgent ranks first over commercial generalist agents in every domain, and demonstrates accurate reproduction of a published figure. Overall, these results demonstrate that LabAgent can effectively integrate and reasonably expand laboratory knowledge.",
-          "summaryZh": "arXiv:2609.13437v1 Announce Type: new\nAbstract: Scientific research is a continuous process that emphasizes inheritance. Methods developed by predecessors are often expanded upon by new researchers to explore more novel and in-depth scientific questions. However, the change of lab staff, such as student graduation, leads to a lack of personnel capable of replicating methods. Methods that have been developed with significant effort and resources cannot be continued. To address these limitations, we propose LabAgent, a reproduce and discovery harness tailored for a lab's continuous work. LabAgent employs two mechanisms to guarantee that all skills can be executed and verified and to record the corrective methods and experiences, allowing for direct correction or avoidance of similar errors. We applied LabAgent to drug property prediction, biomedical problem analysis, protein variant effect prediction, and statistical genetics in life science domains. LabAgent ranks first over commercial generalist agents in every domain, and demonstrates accurate reproduction of a published figure. Overall, these results demonstrate that LabAgent can effectively integrate and reasonably expand laboratory knowledge.",
+          "summaryZh": "arXiv:2609.13437v1 公告类型：新\n摘要：科学研究是一个持续的过程，强调传承。前人开发的方法经常被新的研究人员扩展，以探索更新颖、更深入的科学问题。然而，实验室人员的变动，例如学生毕业，导致缺乏能够复制方法的人员。花费大量精力和资源开发的方法无法继续下去。为了解决这些限制，我们提出了 LabAgent，这是一种为实验室的连续工作量身定制的再现和发现工具。 LabAgent采用两种机制来保证所有技能都能被执行和验证，并记录纠正方法和经验，以便直接纠正或避免类似错误。我们将 LabAgent 应用于生命科学领域的药物特性预测、生物医学问题分析、蛋白质变异效应预测和统计遗传学。 LabAgent 在各个领域都比商业通才代理排名第一，并且能够准确再现已发布的数据。总体而言，这些结果表明LabAgent能够有效整合并合理扩展实验室知识。",
           "publishedAt": "2026-09-16T04:00:00.000Z",
           "comments": null,
           "author": "Lei Liu, Yikun Zhang, Jialin Chen, Wanjia Zhao, Rex Ying, Wengong Jin, Hua Xu, James Zou, Tianyu Liu, Hongyu Zhao"
@@ -320,10 +320,10 @@
         {
           "id": "oai:arXiv.org:2609.13457v1",
           "title": "TimeThink: Eliciting Compositional Reasoning in Timeseries Large Language Models",
-          "titleZh": "TimeThink: Eliciting Compositional Reasoning in Timeseries Large Language Models",
+          "titleZh": "TimeThink：在时间序列大型语言模型中引发组合推理",
           "link": "https://arxiv.org/abs/2609.13457",
           "summary": "arXiv:2609.13457v1 Announce Type: new\nAbstract: Timeseries multimodal large language models (TS-MLLMs) have recently begun leveraging the reasoning capabilities of large language models (LLMs) for question-answering tasks. However, these models often fail to capture dynamic temporal patterns, providing only implicit reasoning that lacks the underlying explanations critical for high-stakes applications like healthcare. While reinforcement learning (RL)-based timeseries language models aim to address this, they often fall short because they are trained on narrow, in-distribution data and struggle with out-of-distribution compositional questions. To address these challenges, we present TimeThink, a synthetic framework for eliciting compositional timeseries reasoning. Core timeseries primitives (e.g., trend, seasonality) are domain-independent and can be deterministically generated. Guided by this premise, TimeThink first designs a synthetic data generator that produces atomic and composite question-answer pairs, providing objective ground truth with reasoning traces. Building on this framework, TimeThink employs a reinforcement learning with verifiable rewards (RLVR) training strategy that encourages explicit reasoning. Unlike template-reliant methods, this approach enables the model to learn the underlying logic of composition rather than simply imitating traces. Extensive experiments show that TimeThink, trained only on synthetic data, significantly outperforms strong baselines on both synthetic and real-world benchmarks.",
-          "summaryZh": "arXiv:2609.13457v1 Announce Type: new\nAbstract: Timeseries multimodal large language models (TS-MLLMs) have recently begun leveraging the reasoning capabilities of large language models (LLMs) for question-answering tasks. However, these models often fail to capture dynamic temporal patterns, providing only implicit reasoning that lacks the underlying explanations critical for high-stakes applications like healthcare. While reinforcement learning (RL)-based timeseries language models aim to address this, they often fall short because they are trained on narrow, in-distribution data and struggle with out-of-distribution compositional questions. To address these challenges, we present TimeThink, a synthetic framework for eliciting compositional timeseries reasoning. Core timeseries primitives (e.g., trend, seasonality) are domain-independent and can be deterministically generated. Guided by this premise, TimeThink first designs a synthetic data generator that produces atomic and composite question-answer pairs, providing objective ground truth with reasoning traces. Building on this framework, TimeThink employs a reinforcement learning with verifiable rewards (RLVR) training strategy that encourages explicit reasoning. Unlike template-reliant methods, this approach enables the model to learn the underlying logic of composition rather than simply imitating traces. Extensive experiments show that TimeThink, trained only on synthetic data, significantly outperforms strong baselines on both synthetic and real-world benchmarks.",
+          "summaryZh": "arXiv:2609.13457v1 公告类型：新\n摘要：时间序列多模态大语言模型（TS-MLLM）最近开始利用大语言模型（LLM）的推理能力来完成问答任务。然而，这些模型通常无法捕获动态时间模式，仅提供隐式推理，缺乏对医疗保健等高风险应用至关重要的底层解释。虽然基于强化学习 (RL) 的时间序列语言模型旨在解决这个问题，但它们常常达不到要求，因为它们是在狭窄的分布内数据上进行训练的，并且难以解决分布外的组合问题。为了应对这些挑战，我们提出了 TimeThink，这是一个用于引发组合时间序列推理的综合框架。核心时间序列基元（例如趋势、季节性）是与域无关的，并且可以确定性地生成。在此前提下，TimeThink 首先设计了一个合成数据生成器，可生成原子和复合问答对，提供带有推理痕迹的客观事实。在此框架的基础上，TimeThink 采用了可验证奖励的强化学习 (RLVR) 训练策略，鼓励显式推理。与依赖模板的方法不同，这种方法使模型能够学习组合的底层逻辑，而不是简单地模仿痕迹。大量实验表明，仅在合成数据上进行训练的 TimeThink 在合成基准和现实基准上都显着优于强大的基准。",
           "publishedAt": "2026-09-16T04:00:00.000Z",
           "comments": null,
           "author": "Sudarshan Regmi, Arvind Pillai, Yu Yvonne Wu, Yuliang Chen, Bibek Panthi, Tess Z. Griffin, Michael V. Heinz, Lisa Marsch, Nicholas C. Jacobson, Andrew Campbell"
@@ -331,10 +331,10 @@
         {
           "id": "oai:arXiv.org:2609.13463v1",
           "title": "Root-Cause Attribution Is a Search Problem: Continual Search for Long-Horizon Agent Failures",
-          "titleZh": "Root-Cause Attribution Is a Search Problem: Continual Search for Long-Horizon Agent Failures",
+          "titleZh": "根本原因归因是一个搜索问题：持续搜索长期代理故障",
           "link": "https://arxiv.org/abs/2609.13463",
           "summary": "arXiv:2609.13463v1 Announce Type: new\nAbstract: The increasing deployment of AI agents in long-horizon tasks yields massive execution logs. Diagnosing failures within these records is crucial for reliability, as it transforms outcome-level signals into actionable interventions. The sheer scale of the data renders human review impractical, driving the need for automated root-cause attribution (RCA). However, automated RCA methods using LLMs suffer from low diagnostic accuracy, especially as execution traces grow larger. They struggle because relevant information is often sparse, distributed across distant actions, and disconnected from the visible failure, reducing root-cause attribution to a massive search problem. Existing RCA methods typically rely on one-shot LLM judgments to diagnose failures from execution traces. While effective for shorter trajectories, these judges tend to settle on a plausible diagnosis early, leaving critical evidence in longer traces unexamined. We introduce Continual Search, an iterative framework that nudges the judge, over successive turns, to keep searching for unresolved diagnostic evidence. We evaluate Continual Search across four existing RCA benchmarks. Recognizing the lack of massive execution traces in current benchmarks, we introduce MegaRCA-Mix to evaluate RCA at scale. MegaRCA-Mix provides a challenging testbed of 50 human-annotated failure trials spanning long-horizon, execution-heavy tasks. Across multiple benchmark suites and model families, Continual Search consistently improves attribution performance. On MegaRCA-Mix, for example, it improves GPT-5.5's F1 score by more than 40\\%, from $0.349$ to $0.498$. More interestingly, within the same model family, lower-tier models can even surpass their higher-tier counterparts, demonstrating that effective search supersedes raw model scale.",
-          "summaryZh": "arXiv:2609.13463v1 Announce Type: new\nAbstract: The increasing deployment of AI agents in long-horizon tasks yields massive execution logs. Diagnosing failures within these records is crucial for reliability, as it transforms outcome-level signals into actionable interventions. The sheer scale of the data renders human review impractical, driving the need for automated root-cause attribution (RCA). However, automated RCA methods using LLMs suffer from low diagnostic accuracy, especially as execution traces grow larger. They struggle because relevant information is often sparse, distributed across distant actions, and disconnected from the visible failure, reducing root-cause attribution to a massive search problem. Existing RCA methods typically rely on one-shot LLM judgments to diagnose failures from execution traces. While effective for shorter trajectories, these judges tend to settle on a plausible diagnosis early, leaving critical evidence in longer traces unexamined. We introduce Continual Search, an iterative framework that nudges the judge, over successive turns, to keep searching for unresolved diagnostic evidence. We evaluate Continual Search across four existing RCA benchmarks. Recognizing the lack of massive execution traces in current benchmarks, we introduce MegaRCA-Mix to evaluate RCA at scale. MegaRCA-Mix provides a challenging testbed of 50 human-annotated failure trials spanning long-horizon, execution-heavy tasks. Across multiple benchmark suites and model families, Continual Search consistently improves attribution performance. On MegaRCA-Mix, for example, it improves GPT-5.5's F1 score by more than 40\\%, from $0.349$ to $0.498$. More interestingly, within the same model family, lower-tier models can even surpass their higher-tier counterparts, demonstrating that effective search supersedes raw model scale.",
+          "summaryZh": "arXiv:2609.13463v1 公告类型：新\n摘要：在长期任务中越来越多地部署人工智能代理会产生大量执行日志。诊断这些记录中的故障对于可靠性至关重要，因为它将结果级信号转化为可行的干预措施。数据的庞大规模使得人工审查变得不切实际，从而推动了对自动根本原因归因 (RCA) 的需求。然而，使用 LLM 的自动化 RCA 方法的诊断准确性较低，尤其是当执行轨迹变大时。他们之所以陷入困境，是因为相关信息往往稀疏，分布在遥远的行动中，并且与可见的失败脱节，从而减少了大规模搜索问题的根本原因。现有的 RCA 方法通常依赖于一次性 LLM 判断来从执行跟踪中诊断故障。虽然对于较短的轨迹有效，但这些法官往往会尽早做出合理的诊断，从而留下未经检查的较长轨迹中的关键证据。我们引入了持续搜索，这是一个迭代框架，可以推动法官在连续的轮次中不断寻找未解决的诊断证据。我们通过四个现有的 RCA 基准评估持续搜索。认识到当前基准测试中缺乏大量执行跟踪，我们引入了 MegaRCA-Mix 来大规模评估 RCA。 MegaRCA-Mix 提供了一个具有挑战性的测试平台，其中包含 50 项人工注释的故障试验，涵盖长期、执行繁重的任务。在多个基准套件和模型系列中，持续搜索持续提高归因性能。例如，在 MegaRCA-Mix 上，它将 GPT-5.5 的 F1 分数提高了 40% 以上，从 0.349 美元提高到 0.498 美元。更有趣的是，在同一模型系列中，较低级别的模型甚至可以超越较高级别的模型，这表明有效的搜索取代了原始模型规模。",
           "publishedAt": "2026-09-16T04:00:00.000Z",
           "comments": null,
           "author": "Harsh Raj, David Lee, Anas Mahmoud, Renxiong Wang, Razvan-Gabriel Dumitru, Chenguang Wang, Tong Zhao, Yunzhong He, Darvin Yi, Vipul Gupta"
@@ -342,10 +342,10 @@
         {
           "id": "oai:arXiv.org:2609.13466v1",
           "title": "Governing at Machine Speed: An Adaptive Intelligence Architecture for Real-Time AI Policy Enforcement",
-          "titleZh": "Governing at Machine Speed: An Adaptive Intelligence Architecture for Real-Time AI Policy Enforcement",
+          "titleZh": "以机器速度进行治理：用于实时人工智能政策执行的自适应智能架构",
           "link": "https://arxiv.org/abs/2609.13466",
           "summary": "arXiv:2609.13466v1 Announce Type: new\nAbstract: Enterprise AI adoption has reached 78% of organizations globally, yet the infrastructure to govern that adoption has not kept pace. This paper identifies and characterizes the attestation deficit, a structural condition in which organizations maintain governance policies but cannot produce auditable, tamper-evident evidence of enforcement within regulatory timelines. Drawing on empirical data from the Stanford 2026 AI Index Report (362 documented incidents), the IBM/Ponemon 2026 Cost of a Data Breach study (USD 4.99M average cost, 92% lacking access controls), and the EY/AIUC-1 Consortium survey (38% end-to-end monitoring, 17% agent-to-agent coverage), this paper demonstrates that the governance failure is organizational and architectural rather than technical. To address this deficit, we propose AGIL (Adaptive Governance Intelligence Layer), a conceptual five-layer architecture designed to use machine learning for real-time AI governance enforcement. The proposed layers include: (1) Autonomous Discovery for shadow AI detection via behavioral fingerprinting, (2) Behavioral Risk Classification unifying security, hallucination, privacy, and accountability scoring, (3) a Policy Enforcement Gateway for inline permit/deny/modify decisions at sub-100ms latency, (4) a Continuous Attestation Engine generating tamper-evident audit trails as a byproduct of enforcement, and (5) Adaptive Policy Intelligence for ML-driven policy evolution across jurisdictions. AGIL is presented as a theoretical framework and architectural proposal; empirical validation through controlled deployment remains a direction for future work.",
-          "summaryZh": "arXiv:2609.13466v1 Announce Type: new\nAbstract: Enterprise AI adoption has reached 78% of organizations globally, yet the infrastructure to govern that adoption has not kept pace. This paper identifies and characterizes the attestation deficit, a structural condition in which organizations maintain governance policies but cannot produce auditable, tamper-evident evidence of enforcement within regulatory timelines. Drawing on empirical data from the Stanford 2026 AI Index Report (362 documented incidents), the IBM/Ponemon 2026 Cost of a Data Breach study (USD 4.99M average cost, 92% lacking access controls), and the EY/AIUC-1 Consortium survey (38% end-to-end monitoring, 17% agent-to-agent coverage), this paper demonstrates that the governance failure is organizational and architectural rather than technical. To address this deficit, we propose AGIL (Adaptive Governance Intelligence Layer), a conceptual five-layer architecture designed to use machine learning for real-time AI governance enforcement. The proposed layers include: (1) Autonomous Discovery for shadow AI detection via behavioral fingerprinting, (2) Behavioral Risk Classification unifying security, hallucination, privacy, and accountability scoring, (3) a Policy Enforcement Gateway for inline permit/deny/modify decisions at sub-100ms latency, (4) a Continuous Attestation Engine generating tamper-evident audit trails as a byproduct of enforcement, and (5) Adaptive Policy Intelligence for ML-driven policy evolution across jurisdictions. AGIL is presented as a theoretical framework and architectural proposal; empirical validation through controlled deployment remains a direction for future work.",
+          "summaryZh": "arXiv:2609.13466v1 公告类型：新\n摘要：全球 78% 的组织采用了企业人工智能，但管理这种采用的基础设施却没有跟上步伐。本文识别并描述了证明缺陷，这是一种结构性状况，组织维持治理政策，但无法在监管时限内生成可审计、防篡改的执行证据。本文借鉴斯坦福 2026 年 AI 指数报告（362 起记录的事件）、IBM/Ponemon 2026 年数据泄露成本研究（平均成本 499 万美元，92% 缺乏访问控制）和 EY/AIUC-1 联盟调查（38% 端到端监控，17% 代理到代理覆盖率）的经验数据，证明治理失败是组织和架构方面的失败，而不是技术方面的失败。为了解决这一缺陷，我们提出了 AGIL（自适应治理智能层），这是一种概念性五层架构，旨在使用机器学习进行实时人工智能治理执行。拟议的层包括：（1）通过行为指纹识别进行影子人工智能检测的自主发现，（2）统一安全、幻觉、隐私和责任评分的行为风险分类，（3）用于在低于 100 毫秒延迟的内联许可/拒绝/修改决策的策略执行网关，（4）连续证明引擎生成防篡改审计跟踪作为执行的副产品，以及（5）用于跨司法管辖区的机器学习驱动的策略演变的自适应策略智能。 AGIL作为理论框架和架构建议提出；通过受控部署进行实证验证仍然是未来工作的方向。",
           "publishedAt": "2026-09-16T04:00:00.000Z",
           "comments": null,
           "author": "Sandeep Bokkasam, B. Durgalakshmi"
@@ -353,10 +353,10 @@
         {
           "id": "oai:arXiv.org:2609.13470v1",
           "title": "OrchSLM: Probing the Dynamics of Small Language Model Orchestration",
-          "titleZh": "OrchSLM: Probing the Dynamics of Small Language Model Orchestration",
+          "titleZh": "OrchSLM：探索小语言模型编排的动态",
           "link": "https://arxiv.org/abs/2609.13470",
           "summary": "arXiv:2609.13470v1 Announce Type: new\nAbstract: Although large language models (LLMs) have demonstrated remarkable capabilities, their reliance on cloud-scale infrastructure poses fundamental challenges for deployment in agentic pipelines, including latency, privacy, connectivity, and substantial computational cost. Small language models (SLMs) offer a compelling alternative: recent studies suggest that many repetitive and narrowly scoped subtasks in agentic workloads may be better served by specialized SLMs than by monolithic LLMs. However, the limited capacity and context windows of SLMs can constrain long-horizon reasoning and interaction-heavy orchestration strategies such as iterative verification and debate. This motivates a complementary, non-interactive paradigm in which heterogeneous SLMs independently generate candidate solutions and a router orchestrates their cached samples without further model interaction. To further understand the mechanisms of such orchestration, we introduce OrchSLM, a routing framework that unifies existing non-interactive orchestration methods and exposes their underlying design choices as controllable parameters. Using OrchSLM as a systematic probe, we reveal how orchestration behavior emerges from diverse knobs, including the task structure, model-pool composition, and multi-agent consensus.",
-          "summaryZh": "arXiv:2609.13470v1 Announce Type: new\nAbstract: Although large language models (LLMs) have demonstrated remarkable capabilities, their reliance on cloud-scale infrastructure poses fundamental challenges for deployment in agentic pipelines, including latency, privacy, connectivity, and substantial computational cost. Small language models (SLMs) offer a compelling alternative: recent studies suggest that many repetitive and narrowly scoped subtasks in agentic workloads may be better served by specialized SLMs than by monolithic LLMs. However, the limited capacity and context windows of SLMs can constrain long-horizon reasoning and interaction-heavy orchestration strategies such as iterative verification and debate. This motivates a complementary, non-interactive paradigm in which heterogeneous SLMs independently generate candidate solutions and a router orchestrates their cached samples without further model interaction. To further understand the mechanisms of such orchestration, we introduce OrchSLM, a routing framework that unifies existing non-interactive orchestration methods and exposes their underlying design choices as controllable parameters. Using OrchSLM as a systematic probe, we reveal how orchestration behavior emerges from diverse knobs, including the task structure, model-pool composition, and multi-agent consensus.",
+          "summaryZh": "arXiv:2609.13470v1 公告类型：新\n摘要：尽管大型语言模型 (LLM) 已展现出卓越的功能，但它们对云规模基础设施的依赖对代理管道中的部署提出了根本性挑战，包括延迟、隐私、连接性和大量计算成本。小语言模型 (SLM) 提供了一个令人信服的替代方案：最近的研究表明，与单一的 LLM 相比，专门的 SLM 可能更好地服务于代理工作负载中的许多重复且范围狭窄的子任务。然而，SLM 的有限容量和上下文窗口可能会限制长期推理和交互密集型编排策略，例如迭代验证和辩论。这激发了一种互补的非交互式范例，其中异构 SLM 独立生成候选解决方案，并且路由器编排其缓存的样本，而无需进一步的模型交互。为了进一步理解这种编排的机制，我们引入了 OrchSLM，这是一个路由框架，它统一了现有的非交互式编排方法，并将其底层设计选择公开为可控参数。使用 OrchSLM 作为系统探针，我们揭示了编排行为如何从不同的旋钮中出现，包括任务结构、模型池组成和多代理共识。",
           "publishedAt": "2026-09-16T04:00:00.000Z",
           "comments": null,
           "author": "Chengxi Zhang, Yu Yao"
@@ -364,10 +364,10 @@
         {
           "id": "oai:arXiv.org:2609.13475v1",
           "title": "Grounded Adjudication of Variations across Extracted TimeLines (GAVEL): Comparing Clinical Timelines Against Their Case Reports",
-          "titleZh": "Grounded Adjudication of Variations across Extracted TimeLines (GAVEL): Comparing Clinical Timelines Against Their Case Reports",
+          "titleZh": "对提取时间线变异的有根据的裁决 (GAVEL)：将临床时间线与其病例报告进行比较",
           "link": "https://arxiv.org/abs/2609.13475",
           "summary": "arXiv:2609.13475v1 Announce Type: new\nAbstract: Existing pipelines for clinical timeline extraction from case reports are evaluated using an expert reference and are limited by imperfect reference annotations and imprecise event alignment. We developed GAVEL, an LLM judge protocol that compares two timelines with the case report and returns a discrepancy type, verdict, and report passage for each difference. We evaluated the event matcher, reviewed 2,738 findings from GPT5.6sol and DeepSeek V3.2, ranked six LLM extractors and two human annotators, and tested GAVEL guided merging. True match rates were 60% immediately below and 48% immediately above the 0.10 cutoff. Manual review confirmed 89.4% and 88.6% of findings. Across 126 reports, merged timelines were preferred in 77.0% of comparisons (95% CI, 69.8 to 84.1%) and reduced discrepancies attributed to the evaluated timeline from 7.63 to 0.85 per report. GAVEL supports report-based comparison and revision without treating either timeline as ground truth.",
-          "summaryZh": "arXiv:2609.13475v1 Announce Type: new\nAbstract: Existing pipelines for clinical timeline extraction from case reports are evaluated using an expert reference and are limited by imperfect reference annotations and imprecise event alignment. We developed GAVEL, an LLM judge protocol that compares two timelines with the case report and returns a discrepancy type, verdict, and report passage for each difference. We evaluated the event matcher, reviewed 2,738 findings from GPT5.6sol and DeepSeek V3.2, ranked six LLM extractors and two human annotators, and tested GAVEL guided merging. True match rates were 60% immediately below and 48% immediately above the 0.10 cutoff. Manual review confirmed 89.4% and 88.6% of findings. Across 126 reports, merged timelines were preferred in 77.0% of comparisons (95% CI, 69.8 to 84.1%) and reduced discrepancies attributed to the evaluated timeline from 7.63 to 0.85 per report. GAVEL supports report-based comparison and revision without treating either timeline as ground truth.",
+          "summaryZh": "arXiv:2609.13475v1 公告类型：新\n摘要：从病例报告中提取临床时间线的现有流程是使用专家参考进行评估的，但受到不完善的参考注释和不精确的事件对齐的限制。我们开发了 GAVEL，一种法学硕士法官协议，它将两个时间线与案例报告进行比较，并返回每个差异的差异类型、判决和报告段落。我们评估了事件匹配器，审查了 GPT5.6sol 和 DeepSeek V3.2 的 2,738 个结果，对六个 LLM 提取器和两个人类注释器进行了排名，并测试了 GAVEL 引导合并。真实匹配率紧邻 0.10 截止值，分别为 60% 和 48%。人工审核确认了 89.4% 和 88.6% 的结果。在 126 份报告中，77.0% 的比较中首选合并时间表（95% CI，69.8% 至 84.1%），并且将每份报告评估时间表造成的差异从 7.63 减少到 0.85。 GAVEL 支持基于报告的比较和修订，而不将任一时间线视为基本事实。",
           "publishedAt": "2026-09-16T04:00:00.000Z",
           "comments": null,
           "author": "Jack Cummins, Sayantan Kumar, Ketan Tamirisa, Jeremy C. Weiss"
@@ -375,10 +375,10 @@
         {
           "id": "oai:arXiv.org:2609.13491v1",
           "title": "Token Efficient Task Execution via Application Behavior Modeling for Web Agents",
-          "titleZh": "Token Efficient Task Execution via Application Behavior Modeling for Web Agents",
+          "titleZh": "通过 Web 代理的应用程序行为建模实现令牌高效的任务执行",
           "link": "https://arxiv.org/abs/2609.13491",
           "summary": "arXiv:2609.13491v1 Announce Type: new\nAbstract: The strong performance of AI Agents across an impressive variety of tasks is driving an unprecedented investment in agentic infrastructures, however the cost of processing tokens is fast increasing. Web agents automate the execution of web-application tasks described in natural language, by analyzing the web-application's user interface (UI) and interacting with it. This work introduces OdoBot, a novel web-agent architecture that completes tasks at a fraction of the cost when compared to conventional web agents. This is achieved by leveraging a behavioral model of the underlying application constructed by analyzing successful task-execution demonstrations. Our experiments with 45 tasks on the Canvas Learning Management System (LMS) demonstrate that OdoBot uses 44% and 80% fewer tokens than two state-of-the-art competitor agents (Agent-E and WebVoyager), while also surpassing WebVoyager in terms of task success rate.",
-          "summaryZh": "arXiv:2609.13491v1 Announce Type: new\nAbstract: The strong performance of AI Agents across an impressive variety of tasks is driving an unprecedented investment in agentic infrastructures, however the cost of processing tokens is fast increasing. Web agents automate the execution of web-application tasks described in natural language, by analyzing the web-application's user interface (UI) and interacting with it. This work introduces OdoBot, a novel web-agent architecture that completes tasks at a fraction of the cost when compared to conventional web agents. This is achieved by leveraging a behavioral model of the underlying application constructed by analyzing successful task-execution demonstrations. Our experiments with 45 tasks on the Canvas Learning Management System (LMS) demonstrate that OdoBot uses 44% and 80% fewer tokens than two state-of-the-art competitor agents (Agent-E and WebVoyager), while also surpassing WebVoyager in terms of task success rate.",
+          "summaryZh": "arXiv:2609.13491v1 公告类型：新\n摘要：人工智能代理在各种令人印象深刻的任务中的强大性能正在推动对代理基础设施的前所未有的投资，但处理代币的成本正在快速增加。 Web 代理通过分析 Web 应用程序的用户界面 (UI) 并与之交互，自动执行以自然语言描述的 Web 应用程序任务。这项工作引入了 OdoBot，这是一种新颖的网络代理架构，与传统网络代理相比，它以极低的成本完成任务。这是通过利用通过分析成功的任务执行演示而构建的底层应用程序的行为模型来实现的。我们在 Canvas 学习管理系统 (LMS) 上对 45 个任务进行的实验表明，OdoBot 使用的令牌比两个最先进的竞争对手代理（Agent-E 和 WebVoyager）少了 44% 和 80%，同时在任务成功率方面也超过了 WebVoyager。",
           "publishedAt": "2026-09-16T04:00:00.000Z",
           "comments": null,
           "author": "Alexandru Ianta, Eleni Stroulia"
@@ -386,10 +386,10 @@
         {
           "id": "oai:arXiv.org:2609.13519v1",
           "title": "Fraglingo: Molecular Design via Attachment-Aware Autoregressive Fragment Generation",
-          "titleZh": "Fraglingo: Molecular Design via Attachment-Aware Autoregressive Fragment Generation",
+          "titleZh": "Fralingo：通过附件感知自回归片段生成进行分子设计",
           "link": "https://arxiv.org/abs/2609.13519",
           "summary": "arXiv:2609.13519v1 Announce Type: new\nAbstract: Molecular design is most effective when generation mirrors the edits chemists actually make: extending a scaffold, replacing a substituent, or decorating a scaffold at a specified attachment site while optimizing molecular properties. Fragment-based molecular design naturally supports this workflow, yet existing approaches often separate fragment selection from attachment prediction, first choosing a fragment from a fixed vocabulary and then predicting how it should be connected. This decoupling restricts generation to a closed fragment vocabulary and treats attachment as a separate prediction problem. We introduce Fraglingo, an autoregressive fragment-based molecular generator that jointly models fragment identity and attachment in a continuous latent space. Fraglingo predicts an attachment-aware fragment embedding and retrieves the next fragment through latent-space nearest-neighbor search. To encode attachment context, we introduce a wildcard-anchored readout that represents the growing molecule from the perspective of its active attachment site, enabling the predicted embedding to capture both the molecular context and the required attachment. Because generation operates in a continuous embedding space rather than over fixed fragment identifiers, new fragments can be added to the inference-time vocabulary without retraining, provided their embeddings can be computed by the trained fragment encoder. This retrieval-based formulation provides a unified generation primitive for molecule generation, scaffold generation, scaffold decoration, and molecular optimization. On controlled property-conditional benchmarks, Fraglingo achieves stronger joint property control than comparably trained baselines while maintaining competitive validity, uniqueness, and novelty. Furthermore, Fraglingo generalizes to fragment libraries up to 4x larger than those used during training without retraining.",
-          "summaryZh": "arXiv:2609.13519v1 Announce Type: new\nAbstract: Molecular design is most effective when generation mirrors the edits chemists actually make: extending a scaffold, replacing a substituent, or decorating a scaffold at a specified attachment site while optimizing molecular properties. Fragment-based molecular design naturally supports this workflow, yet existing approaches often separate fragment selection from attachment prediction, first choosing a fragment from a fixed vocabulary and then predicting how it should be connected. This decoupling restricts generation to a closed fragment vocabulary and treats attachment as a separate prediction problem. We introduce Fraglingo, an autoregressive fragment-based molecular generator that jointly models fragment identity and attachment in a continuous latent space. Fraglingo predicts an attachment-aware fragment embedding and retrieves the next fragment through latent-space nearest-neighbor search. To encode attachment context, we introduce a wildcard-anchored readout that represents the growing molecule from the perspective of its active attachment site, enabling the predicted embedding to capture both the molecular context and the required attachment. Because generation operates in a continuous embedding space rather than over fixed fragment identifiers, new fragments can be added to the inference-time vocabulary without retraining, provided their embeddings can be computed by the trained fragment encoder. This retrieval-based formulation provides a unified generation primitive for molecule generation, scaffold generation, scaffold decoration, and molecular optimization. On controlled property-conditional benchmarks, Fraglingo achieves stronger joint property control than comparably trained baselines while maintaining competitive validity, uniqueness, and novelty. Furthermore, Fraglingo generalizes to fragment libraries up to 4x larger than those used during training without retraining.",
+          "summaryZh": "arXiv:2609.13519v1 公告类型：新\n摘要：当生成反映化学家实际进行的编辑时，分子设计是最有效的：延伸支架、替换取代基或在特定附着位点装饰支架，同时优化分子特性。基于片段的分子设计自然支持这种工作流程，但现有的方法通常将片段选择与附件预测分开，首先从固定词汇表中选择片段，然后预测它应该如何连接。这种解耦将生成限制为封闭片段词汇表，并将附件视为单独的预测问题。我们介绍了 Fraglingo，一种基于自回归片段的分子生成器，它联合模拟连续潜在空间中的片段身份和附着。 Fraglingo 预测附件感知片段嵌入，并通过潜在空间最近邻搜索检索下一个片段。为了对附件上下文进行编码，我们引入了通配符锚定的读数，该读数从其活性附件位点的角度代表正在生长的分子，从而使预测的嵌入能够捕获分子上下文和所需的附件。由于生成在连续的嵌入空间中而不是在固定的片段标识符上运行，因此可以将新片段添加到推理时间词汇表中而无需重新训练，只要它们的嵌入可以由经过训练的片段编码器计算即可。这种基于检索的公式为分子生成、支架生成、支架装饰和分子优化提供了统一的生成原语。在受控财产条件基准上，Fraglingo 实现了比同等训练基准更强的联合财产控制，同时保持竞争有效性、独特性和新颖性。此外，Fraglingo 的泛化片段库比训练期间使用的片段库大 4 倍，无需重新训练。",
           "publishedAt": "2026-09-16T04:00:00.000Z",
           "comments": null,
           "author": "Thao Nguyen, Jeonghwan Kim, Zhenhailong Wang, Heng Ji"
@@ -397,10 +397,10 @@
         {
           "id": "oai:arXiv.org:2609.13535v1",
           "title": "From Legal Text to AI-specific Risk Sources: A Systematic Analysis of the EU AI Act's High-Risk Requirements",
-          "titleZh": "From Legal Text to AI-specific Risk Sources: A Systematic Analysis of the EU AI Act's High-Risk Requirements",
+          "titleZh": "从法律文本到人工智能特定风险源：欧盟人工智能法案高风险要求的系统分析",
           "link": "https://arxiv.org/abs/2609.13535",
           "summary": "arXiv:2609.13535v1 Announce Type: new\nAbstract: The EU AI Act introduces mandatory requirements for high-risk AI systems with the explicit goal of ensuring the development and operation of trustworthy AI. At the same time, AI risk management practices rely on structured risk taxonomies to systematically identify and treat AI-specific risk sources. As both the AI Act and established risk taxonomies aim to address AI-induced risks, a natural question is whether they align in the risk sources they cover. However, no clear mapping exists between the risks implicitly addressed by the Act's high-risk requirements and established taxonomies, leaving practitioners without a structured basis for aligning regulatory obligations with AI risk management practice. This paper presents a systematic classification of the requirements extracted from the EU AI Act Section 2 (Requirements for high-risk AI systems), revealing that only a minority directly address AI-specific risk sources, while the majority impose organizational process and documentation obligations. From the AI risk-related requirements, a consolidated list of distinct AI-specific risk sources is derived. The resulting EU AI Act Risk Source List takes an important step towards bridging the gap between legal obligation and AI risk management practice, providing a structured reference for explicit comparison between existing AI risk taxonomies and the risk sources implicitly addressed by the EU AI Act. Important Note: This is the authors' preprint. The paper was presented at the 4th International Conference on Frontiers of Artificial Intelligence, Ethics, and Multidisciplinary Applications. A link to the conference's official proceedings will be provided upon publication.",
-          "summaryZh": "arXiv:2609.13535v1 Announce Type: new\nAbstract: The EU AI Act introduces mandatory requirements for high-risk AI systems with the explicit goal of ensuring the development and operation of trustworthy AI. At the same time, AI risk management practices rely on structured risk taxonomies to systematically identify and treat AI-specific risk sources. As both the AI Act and established risk taxonomies aim to address AI-induced risks, a natural question is whether they align in the risk sources they cover. However, no clear mapping exists between the risks implicitly addressed by the Act's high-risk requirements and established taxonomies, leaving practitioners without a structured basis for aligning regulatory obligations with AI risk management practice. This paper presents a systematic classification of the requirements extracted from the EU AI Act Section 2 (Requirements for high-risk AI systems), revealing that only a minority directly address AI-specific risk sources, while the majority impose organizational process and documentation obligations. From the AI risk-related requirements, a consolidated list of distinct AI-specific risk sources is derived. The resulting EU AI Act Risk Source List takes an important step towards bridging the gap between legal obligation and AI risk management practice, providing a structured reference for explicit comparison between existing AI risk taxonomies and the risk sources implicitly addressed by the EU AI Act. Important Note: This is the authors' preprint. The paper was presented at the 4th International Conference on Frontiers of Artificial Intelligence, Ethics, and Multidisciplinary Applications. A link to the conference's official proceedings will be provided upon publication.",
+          "summaryZh": "arXiv:2609.13535v1 公告类型：新\n摘要：欧盟人工智能法案对高风险人工智能系统提出了强制性要求，明确目标是确保可信人工智能的开发和运行。与此同时，人工智能风险管理实践依靠结构化风险分类法来系统地识别和处理人工智能特定的风险源。由于《人工智能法案》和既定的风险分类法都旨在解决人工智能引发的风险，一个自然的问题是它们是否与所涵盖的风险源一致。然而，该法案的高风险要求隐含的风险与既定的分类法之间不存在明确的映射，使得从业者没有一个结构化的基础来使监管义务与人工智能风险管理实践保持一致。本文对欧盟人工智能法案第 2 条（高风险人工智能系统的要求）中提取的要求进行了系统分类，揭示了只有少数直接解决人工智能特定风险源，而大多数则规定了组织流程和文档义务。根据人工智能风险相关要求，得出了不同人工智能特定风险源的综合列表。由此产生的《欧盟人工智能法案风险源清单》朝着弥合法律义务和人工智能风险管理实践之间的差距迈出了重要一步，为现有人工智能风险分类法与欧盟人工智能法案隐含解决的风险源之间的明确比较提供了结构化参考。重要提示：这是作者的预印本。该论文在第四届人工智能、伦理学和多学科应用前沿国际会议上发表。会议正式会议记录的链接将在出版后提供。",
           "publishedAt": "2026-09-16T04:00:00.000Z",
           "comments": null,
           "author": "Ronald Schnitzer, Mike Auer, Rumpa Choudhury, Andreas Hapfelmeier, Maximilian Hoeving, Isabelle Painter, Josiane Xavier Parreira, Sonja Zillner"
@@ -408,10 +408,10 @@
         {
           "id": "oai:arXiv.org:2609.13543v1",
           "title": "Asclepius: An Adaptive Harness for Long-Horizon Clinical Agents",
-          "titleZh": "Asclepius: An Adaptive Harness for Long-Horizon Clinical Agents",
+          "titleZh": "Asclepius：适用于长期临床药剂的自适应安全带",
           "link": "https://arxiv.org/abs/2609.13543",
           "summary": "arXiv:2609.13543v1 Announce Type: new\nAbstract: LLM agents are predominantly benchmarked on short, single-task trajectories, yet real deployments run for hours under contention, surfacing a different class of failures. We use the Clinical Environment Simulator (CES), in which an agent manages an entire emergency-department shift under continuous time and resource pressure, as a testbed: long-horizon execution failures manifest measurably in a single rollout under structured, multi-dimensional grading. On CES, current agents reach the correct diagnosis in most cases yet fail to deliver complete and timely critical actions, revealing an execution gap. We attribute this gap to three long-horizon failure modes, each operationalized as a per-trace counter: instruction-adherence drift, treatment incompleteness, and a severity-equity gap in timeliness. We then introduce Asclepius, an adaptive agent scaffolding with a self-evolving harness that rewrites the operating manual between shifts from trace-level feedback, an externalized clinical skills library for high-stakes regimen knowledge, and three isolated subagents that partition per-turn decisions across the patient queue. On held-out batches never observed during harness evolution, Asclepius improves critical-action correctness by 22% (p = 0.024) over a strong baseline agent framework while preserving diagnostic accuracy, with consistent gains across five LLM judges from three model families; on the full ten-batch set, improvements reach 25% on critical actions and 13% on timeliness. The three failure modes form a coupled bottleneck: decisive reductions appear only when all three components act together.",
-          "summaryZh": "arXiv:2609.13543v1 Announce Type: new\nAbstract: LLM agents are predominantly benchmarked on short, single-task trajectories, yet real deployments run for hours under contention, surfacing a different class of failures. We use the Clinical Environment Simulator (CES), in which an agent manages an entire emergency-department shift under continuous time and resource pressure, as a testbed: long-horizon execution failures manifest measurably in a single rollout under structured, multi-dimensional grading. On CES, current agents reach the correct diagnosis in most cases yet fail to deliver complete and timely critical actions, revealing an execution gap. We attribute this gap to three long-horizon failure modes, each operationalized as a per-trace counter: instruction-adherence drift, treatment incompleteness, and a severity-equity gap in timeliness. We then introduce Asclepius, an adaptive agent scaffolding with a self-evolving harness that rewrites the operating manual between shifts from trace-level feedback, an externalized clinical skills library for high-stakes regimen knowledge, and three isolated subagents that partition per-turn decisions across the patient queue. On held-out batches never observed during harness evolution, Asclepius improves critical-action correctness by 22% (p = 0.024) over a strong baseline agent framework while preserving diagnostic accuracy, with consistent gains across five LLM judges from three model families; on the full ten-batch set, improvements reach 25% on critical actions and 13% on timeliness. The three failure modes form a coupled bottleneck: decisive reductions appear only when all three components act together.",
+          "summaryZh": "arXiv:2609.13543v1 公告类型：新\n摘要：LLM 代理主要以短的单任务轨迹为基准，但实际部署会在争用情况下运行数小时，从而出现不同类别的故障。我们使用临床环境模拟器（CES）作为测试平台，其中代理在连续的时间和资源压力下管理整个急诊科轮班：长期执行失败在结构化、多维分级下的单次部署中明显体现出来。在 CES 上，当前的代理在大多数情况下都能做出正确的诊断，但无法提供完整且及时的关键行动，从而暴露了执行差距。我们将这种差距归因于三种长期失败模式，每种模式都可作为每跟踪计数器操作：指令遵守漂移、治疗不完整以及及时性的严重性与公平性差距。然后，我们介绍了 Asclepius，一种具有自我进化安全带的自适应代理脚手架，可以重写来自跟踪级反馈的轮班之间的操作手册，一个用于高风险治疗知识的外部化临床技能库，以及三个独立的子代理，可以在患者队列中划分每轮决策。对于在工具演化过程中从未观察到的保留批次，Asclepius 比强大的基线代理框架将关键操作正确性提高了 22% (p = 0.024)，同时保持了诊断准确性，来自三个模型系列的五名 LLM 法官获得了一致的收益；在全部 10 个批次中，关键操作的改进达到 25%，及时性的改进达到 13%。这三种故障模式形成了一个耦合瓶颈：只有当所有三个组件共同作用时，才会出现决定性的减少。",
           "publishedAt": "2026-09-16T04:00:00.000Z",
           "comments": null,
           "author": "Grace Chang Yuan, Xiaoman Zhang, Sung Eun Kim, Luyang Luo, Pranav Rajpurkar"
@@ -424,16 +424,16 @@
       "url": "https://rss.arxiv.org/rss/cs.LG",
       "home": "https://arxiv.org/list/cs.LG/recent",
       "group": "arxiv",
-      "fetchedAt": "2026-09-16T10:40:39.439Z",
+      "fetchedAt": "2026-09-16T15:56:43.338Z",
       "count": 15,
       "items": [
         {
           "id": "oai:arXiv.org:2609.16054v1",
           "title": "Causal neural set filtering for online multi-target tracking",
-          "titleZh": "Causal neural set filtering for online multi-target tracking",
+          "titleZh": "用于在线多目标跟踪的因果神经集过滤",
           "link": "https://arxiv.org/abs/2609.16054",
           "summary": "arXiv:2609.16054v1 Announce Type: new\nAbstract: Transformer-based multi-target tracking (MTT) jointly learns data association and state estimation, but MT3/Track-MT3-style trackers repeatedly re-encode measurement windows, incurring redundant computation. We propose Causal Neural Set Filtering (CNSF)\\footnote{\\href{https://github.com/daihuangyu/CNSF}{Code: https://github.com/daihuangyu/CNSF}}, a neural set filter that encodes only current measurements while carrying past evidence in a structured recursive track state. CNSF combines exclusive Sinkhorn association, association-conditioned Kalman-shaped updates with moment matching, and recurrent Bernoulli lifecycle modeling with measurement-driven birth. These mechanisms impose soft one-to-one constraints, propagate association-induced state uncertainty, and support existence estimation under missed detections and birth--death transitions. On a held-out three-regime simulated test set, CNSF reduces mean GOSPA and T-GOSPA relative to Track-MT3 by 19.3\\% and 30.4\\%, with 55.9\\% fewer parameters and a $3.76\\times$ speedup in single-thread CPU inference.",
-          "summaryZh": "arXiv:2609.16054v1 Announce Type: new\nAbstract: Transformer-based multi-target tracking (MTT) jointly learns data association and state estimation, but MT3/Track-MT3-style trackers repeatedly re-encode measurement windows, incurring redundant computation. We propose Causal Neural Set Filtering (CNSF)\\footnote{\\href{https://github.com/daihuangyu/CNSF}{Code: https://github.com/daihuangyu/CNSF}}, a neural set filter that encodes only current measurements while carrying past evidence in a structured recursive track state. CNSF combines exclusive Sinkhorn association, association-conditioned Kalman-shaped updates with moment matching, and recurrent Bernoulli lifecycle modeling with measurement-driven birth. These mechanisms impose soft one-to-one constraints, propagate association-induced state uncertainty, and support existence estimation under missed detections and birth--death transitions. On a held-out three-regime simulated test set, CNSF reduces mean GOSPA and T-GOSPA relative to Track-MT3 by 19.3\\% and 30.4\\%, with 55.9\\% fewer parameters and a $3.76\\times$ speedup in single-thread CPU inference.",
+          "summaryZh": "arXiv:2609.16054v1 公告类型：新\n摘要：基于 Transformer 的多目标跟踪（MTT）联合学习数据关联和状态估计，但 MT3/Track-MT3 式跟踪器重复对测量窗口进行重新编码，导致冗余计算。我们提出因果神经集过滤（CNSF）\\footnote{\\href{https://github.com/daihuangyu/CNSF}{Code: https://github.com/daihuangyu/CNSF}}，一种神经集过滤器，仅对当前测量进行编码，同时以结构化递归跟踪状态携带过去的证据。 CNSF 结合了独特的 Sinkhorn 关联、关联条件卡尔曼形更新与矩匹配，以及循环伯努利生命周期建模与测量驱动的诞生。这些机制施加软一对一约束，传播关联引起的状态不确定性，并支持在漏检和生死转换下的存在估计。在保留的三机制模拟测试集上，CNSF 相对于 Track-MT3 将平均 GOSPA 和 T-GOSPA 降低了 19.3\\% 和 30.4\\%，参数减少了 55.9\\%，单线程 CPU 推理速度提高了 3.76\\times$。",
           "publishedAt": "2026-09-16T04:00:00.000Z",
           "comments": null,
           "author": "Zhongdi Liu, Huangyu Dai"
@@ -441,10 +441,10 @@
         {
           "id": "oai:arXiv.org:2609.16056v1",
           "title": "Managing Action Preconditions in Neuro-Symbolic RL: Three Placement Strategies for Embodied Agents",
-          "titleZh": "Managing Action Preconditions in Neuro-Symbolic RL: Three Placement Strategies for Embodied Agents",
+          "titleZh": "管理神经符号强化学习中的动作先决条件：实体主体的三种放置策略",
           "link": "https://arxiv.org/abs/2609.16056",
           "summary": "arXiv:2609.16056v1 Announce Type: new\nAbstract: Humans carry behaviour knowledge of how to act in familiar situations into every new task rather than relearning it from scratch. There is no reason a Reinforcement Learning (RL) agent shouldn't do the same: known behaviour patterns need not be learned, only applied. Neuro-symbolic RL bridges prior knowledge and RL by injecting symbolic knowledge alongside a learned policy. The point at which this knowledge is integrated is critical: a poor choice can produce, for instance, hallucinated preconditions, which surface as safety and reliability problems in agents acting in changing environments. We formalise this behavioural knowledge as a precondition Bayesian network (BN) over the agent's \\emph{structural actions} - the actions whose legality depends on preconditions, such as picking up a key, grasping a block, toggling a door, or dropping an object. The BN restricts when these actions may fire, and we inject it into the RL loop at three placements: (1) a \\emph{symbolic verifier}, consulted only at inference, that fires a structural action once its preconditions hold; (2) a \\emph{symbolic enforcer}, active during both training and inference, that governs structural-action use throughout learning; and (3) a \\emph{symbolic learner}, which folds the knowledge into the network and learns the restriction and use of structural actions itself. To test the three variants we run experiments on two benchmarks with opposite regimes: one built on long, ordered planning chains, the other on continuous manipulation. We compare against strong baselines on solution quality, sample efficiency, and traceability. The payoff is substantial. On MiniGrid, all three placements improve the \\emph{solution quality} over the PPO+RND baseline, the symbolic enforcer leading at $98.2\\%$ against the baseline's $88.8\\%$. On Fetch, $\\dots$",
-          "summaryZh": "arXiv:2609.16056v1 Announce Type: new\nAbstract: Humans carry behaviour knowledge of how to act in familiar situations into every new task rather than relearning it from scratch. There is no reason a Reinforcement Learning (RL) agent shouldn't do the same: known behaviour patterns need not be learned, only applied. Neuro-symbolic RL bridges prior knowledge and RL by injecting symbolic knowledge alongside a learned policy. The point at which this knowledge is integrated is critical: a poor choice can produce, for instance, hallucinated preconditions, which surface as safety and reliability problems in agents acting in changing environments. We formalise this behavioural knowledge as a precondition Bayesian network (BN) over the agent's \\emph{structural actions} - the actions whose legality depends on preconditions, such as picking up a key, grasping a block, toggling a door, or dropping an object. The BN restricts when these actions may fire, and we inject it into the RL loop at three placements: (1) a \\emph{symbolic verifier}, consulted only at inference, that fires a structural action once its preconditions hold; (2) a \\emph{symbolic enforcer}, active during both training and inference, that governs structural-action use throughout learning; and (3) a \\emph{symbolic learner}, which folds the knowledge into the network and learns the restriction and use of structural actions itself. To test the three variants we run experiments on two benchmarks with opposite regimes: one built on long, ordered planning chains, the other on continuous manipulation. We compare against strong baselines on solution quality, sample efficiency, and traceability. The payoff is substantial. On MiniGrid, all three placements improve the \\emph{solution quality} over the PPO+RND baseline, the symbolic enforcer leading at $98.2\\%$ against the baseline's $88.8\\%$. On Fetch, $\\dots$",
+          "summaryZh": "arXiv:2609.16056v1 公告类型：新\n摘要：人类将如何在熟悉的情况下采取行动的行为知识带入每一个新任务中，而不是从头开始重新学习。强化学习 (RL) 代理没有理由不这样做：不需要学习已知的行为模式，只需应用即可。神经符号强化学习通过将符号知识与学习策略一起注入，将先验知识和强化学习联系起来。整合这些知识的点至关重要：例如，糟糕的选择可能会产生幻觉的先决条件，这些先决条件表现为在不断变化的环境中行动的智能体的安全性和可靠性问题。我们将这种行为知识形式化为代理的\\emph{结构动作}的前提条件贝叶斯网络（BN）——其合法性取决于先决条件的动作，例如拿起钥匙、抓住方块、打开门或掉落物体。 BN 限制了这些动作何时可以触发，我们将其注入到 RL 循环的三个位置：（1）一个 \\emph{符号验证器}，仅在推理时参考，一旦其前提条件成立，就会触发结构动作； （2）一个 \\emph{符号执行器}，在训练和推理过程中都很活跃，控制整个学习过程中结构动作的使用； （3）一个\\emph{符号学习器}，它将知识折叠到网络中并学习结构动作本身的限制和使用。为了测试这三种变体，我们在两个具有相反机制的基准上进行了实验：一个建立在长而有序的计划链上，另一个建立在连续操作上。我们与解决方案质量、样品效率和可追溯性方面的强大基线进行比较。回报是巨大的。在 MiniGrid 上，所有三个布局都比 PPO+RND 基线提高了 \\emph{解决方案质量}，符号执行器以 $98.2\\%$ 领先，而基线为 $88.8\\%$。获取时，$\\dots$",
           "publishedAt": "2026-09-16T04:00:00.000Z",
           "comments": null,
           "author": "Norbert Oswald, Fabian Deuser, Thomas Br\\\"aunl"
@@ -452,10 +452,10 @@
         {
           "id": "oai:arXiv.org:2609.16057v1",
           "title": "OmniHarness: Harnessing Generalizable Visual Generation via Symbolic Policy Learning",
-          "titleZh": "OmniHarness: Harnessing Generalizable Visual Generation via Symbolic Policy Learning",
+          "titleZh": "OmniHarness：通过符号策略学习利用通用视觉生成",
           "link": "https://arxiv.org/abs/2609.16057",
           "summary": "arXiv:2609.16057v1 Announce Type: new\nAbstract: Unified multimodal large language models (MLLMs) and multi-agent systems have advanced visual generation. However, three limitations remain. (1) Existing methods often distill task-specific experience with limited generalizability. (2) Reflection is often deferred until task completion. (3) Knowledge is often acquired only in response to downstream task demands. To address these limitations, we introduce OmniHarness, a framework for generalizable visual generation via symbolic policy learning. OmniHarness abstracts verified executions into symbolic policies for visual generation task families, capturing shared procedures and applicability conditions while removing instance-specific inputs. The harness instantiates, adapts, and composes these policies for new tasks. Intermediate verification guides refinement and failure recovery during execution. Through self-directed inquiry, OmniHarness autonomously generates and executes practice tasks near its capability limits before downstream objectives are specified. Execution feedback continually refines the policies while model parameters remain fixed. Experiments across six benchmarks, three MLLM backbones, and three visual agent frameworks demonstrate strong performance and continual capability expansion. On ComfyBench's Creative tasks, OmniHarness achieves a 95.0% resolve rate, exceeding the strongest baseline by 27.5 percentage points. Frozen policy snapshots improve existing visual agent systems through plug-and-play reuse.",
-          "summaryZh": "arXiv:2609.16057v1 Announce Type: new\nAbstract: Unified multimodal large language models (MLLMs) and multi-agent systems have advanced visual generation. However, three limitations remain. (1) Existing methods often distill task-specific experience with limited generalizability. (2) Reflection is often deferred until task completion. (3) Knowledge is often acquired only in response to downstream task demands. To address these limitations, we introduce OmniHarness, a framework for generalizable visual generation via symbolic policy learning. OmniHarness abstracts verified executions into symbolic policies for visual generation task families, capturing shared procedures and applicability conditions while removing instance-specific inputs. The harness instantiates, adapts, and composes these policies for new tasks. Intermediate verification guides refinement and failure recovery during execution. Through self-directed inquiry, OmniHarness autonomously generates and executes practice tasks near its capability limits before downstream objectives are specified. Execution feedback continually refines the policies while model parameters remain fixed. Experiments across six benchmarks, three MLLM backbones, and three visual agent frameworks demonstrate strong performance and continual capability expansion. On ComfyBench's Creative tasks, OmniHarness achieves a 95.0% resolve rate, exceeding the strongest baseline by 27.5 percentage points. Frozen policy snapshots improve existing visual agent systems through plug-and-play reuse.",
+          "summaryZh": "arXiv:2609.16057v1 公告类型：新\n摘要：统一多模态大语言模型（MLLM）和多智能体系统具有先进的视觉生成功能。然而，仍然存在三个限制。 (1) 现有方法通常提取特定任务的经验，但普遍性有限。 (2) 反思常常被推迟到任务完成之后。 (3) 知识通常只能在响应下游任务需求时获得。为了解决这些限制，我们引入了 OmniHarness，这是一个通过符号策略学习进行泛化视觉生成的框架。 OmniHarness 将经过验证的执行抽象为视觉生成任务系列的符号策略，捕获共享过程和适用性条件，同时删除特定于实例的输入。该工具为新任务实例化、调整和组合这些策略。中间验证指导执行过程中的细化和故障恢复。通过自主查询，OmniHarness 在指定下游目标之前自动生成并执行接近其能力限制的练习任务。执行反馈不断完善策略，同时模型参数保持固定。六个基准、三个 MLLM 主干和三个视觉代理框架的实验证明了强大的性能和持续的功能扩展。在 ComfyBench 的 Creative 任​​务中，OmniHarness 实现了 95.0% 的解决率，比最强基线高出 27.5 个百分点。冻结策略快照通过即插即用的重用改进了现有的可视代理系统。",
           "publishedAt": "2026-09-16T04:00:00.000Z",
           "comments": null,
           "author": "Xu Xu (Beihang University), Jinxiu Liu (The Chinese University of Hong Kong), Zhangbo Qiao (Beihang University), Jiaxing Lu (Beihang University), Xiangyu Zhang (Beihang University), Yubin Gu (National University of Singapore), Fangwei Ning (Beihang University), Yan Shi (Beihang University)"
@@ -463,10 +463,10 @@
         {
           "id": "oai:arXiv.org:2609.16058v1",
           "title": "Driver Behavior Estimation at Signalized Intersections Using a Physics-Constrained Decision-Conditioned Autoregressive Transformer",
-          "titleZh": "Driver Behavior Estimation at Signalized Intersections Using a Physics-Constrained Decision-Conditioned Autoregressive Transformer",
+          "titleZh": "使用物理约束决策条件自回归变压器对信号交叉口的驾驶员行为进行估计",
           "link": "https://arxiv.org/abs/2609.16058",
           "summary": "arXiv:2609.16058v1 Announce Type: new\nAbstract: Red-light violations and harsh braking at signalized intersections are major contributors to traffic accidents. This paper analyzes and predicts human driver decision-making and longitudinal trajectory behavior during traffic light signal transitions. We collected a diverse real-world dataset comprising 449 approach runs under varying speed and distance conditions. Vehicle motion was recorded using RTK-corrected GNSS with centimeter-level accuracy, and driver heart rate and multi-level comfort ratings were monitored. Spatial and temporal calibration ensured precise alignment between vehicle state and signal timing. Statistical analysis identifies required deceleration as the dominant single predictor of the stop-go decision, and heteroscedastic Gaussian modeling of peak deceleration reveals five empirical comfort ranges derived from human stopping behavior. Based on this insight, we propose a two-stage modeling framework. Stage 1 predicts the binary maneuver decision, and Stage 2 generates the longitudinal acceleration trajectory using a decision-conditioned autoregressive Transformer with physics constraints, including target-state conditioning and jerk limits. The proposed architecture outperforms baseline methods and achieves 0.49m/s^2 acceleration MAE and 0.62m distance MAE. It also estimates the future stopping-comfort level of the human driver from a single yellow-onset snapshot. Qualitative results demonstrate realistic human-like braking behavior. The dataset and source code are publicly available.",
-          "summaryZh": "arXiv:2609.16058v1 Announce Type: new\nAbstract: Red-light violations and harsh braking at signalized intersections are major contributors to traffic accidents. This paper analyzes and predicts human driver decision-making and longitudinal trajectory behavior during traffic light signal transitions. We collected a diverse real-world dataset comprising 449 approach runs under varying speed and distance conditions. Vehicle motion was recorded using RTK-corrected GNSS with centimeter-level accuracy, and driver heart rate and multi-level comfort ratings were monitored. Spatial and temporal calibration ensured precise alignment between vehicle state and signal timing. Statistical analysis identifies required deceleration as the dominant single predictor of the stop-go decision, and heteroscedastic Gaussian modeling of peak deceleration reveals five empirical comfort ranges derived from human stopping behavior. Based on this insight, we propose a two-stage modeling framework. Stage 1 predicts the binary maneuver decision, and Stage 2 generates the longitudinal acceleration trajectory using a decision-conditioned autoregressive Transformer with physics constraints, including target-state conditioning and jerk limits. The proposed architecture outperforms baseline methods and achieves 0.49m/s^2 acceleration MAE and 0.62m distance MAE. It also estimates the future stopping-comfort level of the human driver from a single yellow-onset snapshot. Qualitative results demonstrate realistic human-like braking behavior. The dataset and source code are publicly available.",
+          "summaryZh": "arXiv:2609.16058v1 公告类型：新\n摘要： 闯红灯和在信号交叉口猛烈制动是导致交通事故的主要原因。本文分析并预测了交通灯信号转换期间人类驾驶员的决策和纵向轨迹行为。我们收集了一个多样化的真实世界数据集，其中包括 449 次在不同速度和距离条件下的进近运行。使用 RTK 校正的 GNSS 记录车辆运动，精度达到厘米级，并监测驾驶员心率和多级舒适度。空间和时间校准确保车辆状态和信号定时之间的精确对准。统计分析将所需的减速度确定为走走停停决策的主要单一预测因子​​，峰值减速度的异方差高斯模型揭示了源自人类停止行为的五个经验舒适范围。基于这一见解，我们提出了一个两阶段建模框架。第 1 阶段预测二元机动决策，第 2 阶段使用具有物理约束（包括目标状态调节和加加速度限制）的决策条件自回归 Transformer 生成纵向加速度轨迹。所提出的架构优于基线方法，并实现了 0.49m/s^2 加速度 MAE 和 0.62m 距离 MAE。它还根据单个黄色开始快照来估计人类驾驶员未来的停车舒适度。定性结果展示了逼真的类人制动行为。数据集和源代码是公开的。",
           "publishedAt": "2026-09-16T04:00:00.000Z",
           "comments": null,
           "author": "Mohammad Khoshkdahan, Pavel Laskov, Alexey Vinel"
@@ -474,10 +474,10 @@
         {
           "id": "oai:arXiv.org:2609.16060v1",
           "title": "HintMiner: Automatic Question Hints Mining From Q&A Web Posts with Language Model via Self-Supervised Learning",
-          "titleZh": "HintMiner: Automatic Question Hints Mining From Q&A Web Posts with Language Model via Self-Supervised Learning",
+          "titleZh": "HintMiner：通过自监督学习使用语言模型从问答网络帖子中自动挖掘问题提示",
           "link": "https://arxiv.org/abs/2609.16060",
           "summary": "arXiv:2609.16060v1 Announce Type: new\nAbstract: Users often need ask questions and seek answers online. The Question - Answering (QA) forums such as Stack Overflow cannot always respond to the questions timely and properly. In this paper, we propose HintMiner, a novel automatic question hints mining tool for users to help them find answers. HintMiner leverages the machine comprehension and sequence generation techniques to automatically generate hints for users' questions. It firstly retrieve many web Q\\&A posts and then extract some hints from the posts using MiningNet that is built via a language model. Using the huge amount of online Q\\&A posts, we design a self-supervised objective to train the MiningNet that is a neural encoder-decoder model based on the transformer and copying mechanisms. We have evaluated HintMiner on 60,000 Stack Overflow questions. The experiment results show that the proposed approach is effective. For example, HintMiner achieves an average BLEU score of 36.17\\% and an average ROUGE-2 score of 36.29\\%. Our tool and experimental data are publicly available.",
-          "summaryZh": "arXiv:2609.16060v1 Announce Type: new\nAbstract: Users often need ask questions and seek answers online. The Question - Answering (QA) forums such as Stack Overflow cannot always respond to the questions timely and properly. In this paper, we propose HintMiner, a novel automatic question hints mining tool for users to help them find answers. HintMiner leverages the machine comprehension and sequence generation techniques to automatically generate hints for users' questions. It firstly retrieve many web Q\\&A posts and then extract some hints from the posts using MiningNet that is built via a language model. Using the huge amount of online Q\\&A posts, we design a self-supervised objective to train the MiningNet that is a neural encoder-decoder model based on the transformer and copying mechanisms. We have evaluated HintMiner on 60,000 Stack Overflow questions. The experiment results show that the proposed approach is effective. For example, HintMiner achieves an average BLEU score of 36.17\\% and an average ROUGE-2 score of 36.29\\%. Our tool and experimental data are publicly available.",
+          "summaryZh": "arXiv:2609.16060v1 公告类型：新\n摘要：用户经常需要在线提问并寻求答案。 Stack Overflow 等问答 (QA) 论坛并不总能及时、正确地回复问题。在本文中，我们提出了 HintMiner，一种新颖的自动问题提示挖掘工具，可帮助用户找到答案。 HintMiner 利用机器理解和序列生成技术自动生成用户问题的提示。它首先检索许多网络问答帖子，然后使用通过语言模型构建的 MiningNet 从帖子中提取一些提示。利用大量的在线问答帖子，我们设计了一个自我监督的目标来训练 MiningNet，这是一个基于变压器和复制机制的神经编码器-解码器模型。我们已经针对 60,000 个 Stack Overflow 问题对 HintMiner 进行了评估。实验结果表明该方法是有效的。例如，HintMiner 的平均 BLEU 分数为 36.17%，平均 ROUGE-2 分数为 36.29%。我们的工具和实验数据是公开的。",
           "publishedAt": "2026-09-16T04:00:00.000Z",
           "comments": null,
           "author": "Zhenyu Zhang, JiuDong Yang"
@@ -485,10 +485,10 @@
         {
           "id": "oai:arXiv.org:2609.16061v1",
           "title": "POSPAN: Position-Constrained Span Masking for Language Model Pre-training",
-          "titleZh": "POSPAN: Position-Constrained Span Masking for Language Model Pre-training",
+          "titleZh": "POSPAN：用于语言模型预训练的位置约束跨度掩蔽",
           "link": "https://arxiv.org/abs/2609.16061",
           "summary": "arXiv:2609.16061v1 Announce Type: new\nAbstract: Span-level masked language modeling (MLM) has shown to be advantageous to pre-trained language models over the original single-token MLM, as entities/phrases and their dependencies are critical to language understanding. Previous works only consider span length with some discrete distributions, while the dependencies among spans are ignored, i.e., assuming that the positions of masked spans are uniformly distributed. In this paper, we present POSPAN, a general framework to allow diverse position-constrained span masking strategies via the combination of span length distribution and position constraint distribution, which unifies all existing span-level masking methods. To verify the effectiveness of POSPAN in pre-training, we evaluate it on the datasets from several NLU benchmarks. Experimental results indicate that the position constraint is capable of enhancing span-level masking broadly, and our best POSPAN setting consistently outperforms its span-length-only counterparts and vanilla MLM. We also conduct theoretical analysis for the position constraint in masked language models to shed light on the reason why POSPAN works well, demonstrating the rationality and necessity of POSPAN.",
-          "summaryZh": "arXiv:2609.16061v1 Announce Type: new\nAbstract: Span-level masked language modeling (MLM) has shown to be advantageous to pre-trained language models over the original single-token MLM, as entities/phrases and their dependencies are critical to language understanding. Previous works only consider span length with some discrete distributions, while the dependencies among spans are ignored, i.e., assuming that the positions of masked spans are uniformly distributed. In this paper, we present POSPAN, a general framework to allow diverse position-constrained span masking strategies via the combination of span length distribution and position constraint distribution, which unifies all existing span-level masking methods. To verify the effectiveness of POSPAN in pre-training, we evaluate it on the datasets from several NLU benchmarks. Experimental results indicate that the position constraint is capable of enhancing span-level masking broadly, and our best POSPAN setting consistently outperforms its span-length-only counterparts and vanilla MLM. We also conduct theoretical analysis for the position constraint in masked language models to shed light on the reason why POSPAN works well, demonstrating the rationality and necessity of POSPAN.",
+          "summaryZh": "arXiv:2609.16061v1 公告类型：新\n摘要：跨度级掩码语言建模（MLM）已被证明比原始单标记 MLM 更有利于预训练语言模型，因为实体/短语及其依赖关系对于语言理解至关重要。以前的工作仅考虑具有一些离散分布的跨度长度，而忽略了跨度之间的依赖性，即假设屏蔽跨度的位置是均匀分布的。在本文中，我们提出了 POSPAN，这是一个通用框架，通过跨度长度分布和位置约束分布的组合来允许多种位置约束跨度掩蔽策略，它统一了所有现有的跨度级掩蔽方法。为了验证 POSPAN 在预训练中的有效性，我们在多个 NLU 基准的数据集上对其进行了评估。实验结果表明，位置约束能够广泛增强跨度级掩蔽，并且我们的最佳 POSPAN 设置始终优于其仅跨度长度对应项和普通 MLM。我们还对掩码语言模型中的位置约束进行了理论分析，以阐明 POSPAN 效果良好的原因，论证了 POSPAN 的合理性和必要性。",
           "publishedAt": "2026-09-16T04:00:00.000Z",
           "comments": null,
           "author": "Zhenyu Zhang, Lei Shen, Yuming Zhao, Meng Chen, Xiaodong He"
@@ -496,10 +496,10 @@
         {
           "id": "oai:arXiv.org:2609.16063v1",
           "title": "Signed p-adic Residual Encodings of Finite-Domain All-Different Systems with a Sudoku Case Study",
-          "titleZh": "Signed p-adic Residual Encodings of Finite-Domain All-Different Systems with a Sudoku Case Study",
+          "titleZh": "有限域全差系统的有符号 p-adic 残差编码与数独案例研究",
           "link": "https://arxiv.org/abs/2609.16063",
           "summary": "arXiv:2609.16063v1 Announce Type: new\nAbstract: We study signed, weighted affine $p$-adic residual objectives as native encodings of finite-domain constraints. For primes that separate the finite alphabet, sufficiently weighted positive unary rows pin each coefficient to its allowed set, while negative rows reward unequal endpoints or clause satisfaction. A coordinatewise domination theorem places every global minimiser in the finite domain; there the loss is, up to an additive constant, the all-different conflict count or the negative number of satisfied CNF clauses. Standard Sudoku provides an $81$-coefficient case study without a one-hot lift. A client-side implementation exposes the generated dataframes, arithmetic, diagnostics, and searches.",
-          "summaryZh": "arXiv:2609.16063v1 Announce Type: new\nAbstract: We study signed, weighted affine $p$-adic residual objectives as native encodings of finite-domain constraints. For primes that separate the finite alphabet, sufficiently weighted positive unary rows pin each coefficient to its allowed set, while negative rows reward unequal endpoints or clause satisfaction. A coordinatewise domination theorem places every global minimiser in the finite domain; there the loss is, up to an additive constant, the all-different conflict count or the negative number of satisfied CNF clauses. Standard Sudoku provides an $81$-coefficient case study without a one-hot lift. A client-side implementation exposes the generated dataframes, arithmetic, diagnostics, and searches.",
+          "summaryZh": "arXiv:2609.16063v1 公告类型：新\n摘要：我们研究带符号的加权仿射 $p$-adic 残差目标作为有限域约束的本机编码。对于分隔有限字母表的素数，充分加权的正一元行将每个系数固定到其允许的集合，而负行奖励不相等的端点或子句满意度。坐标支配定理将每个全局极小值置于有限域中；损失是（最多可达一个加性常数）所有不同的冲突计数或满足的 CNF 子句的负数。标准数独提供了一项系数为 81 美元的案例研究，无需一次性提升。客户端实现公开生成的数据帧、算术、诊断和搜索。",
           "publishedAt": "2026-09-16T04:00:00.000Z",
           "comments": null,
           "author": "Greg Baker"
@@ -507,10 +507,10 @@
         {
           "id": "oai:arXiv.org:2609.16065v1",
           "title": "You Don't Need To Train: Agentic Heuristic Learning Studio for Executable Human Activity Recognition",
-          "titleZh": "You Don't Need To Train: Agentic Heuristic Learning Studio for Executable Human Activity Recognition",
+          "titleZh": "您不需要培训：用于可执行人类活动识别的代理启发式学习工作室",
           "link": "https://arxiv.org/abs/2609.16065",
           "summary": "arXiv:2609.16065v1 Announce Type: new\nAbstract: Human activity recognition (HAR) is usually framed as gradient-based training of neural networks. Agentic Heuristic Learning (AHL) Studio explores a complementary view inspired by human cognitive learning: people learn activities by remembering examples, forming rules, and repairing mistakes, not by backpropagating. This proposed tool implements AHL for HAR: a learning-time agent reasons over sensor protocols, proposes executable heuristic policies, records repair traces, and exports an LLM-free policy for edge deployment. We focus on the HAR benchmark family and provide an end-to-end workflow from dataset observation to edge-oriented export. On eleven HAR datasets evaluated so far, AHL policies reach strong executable-policy performance while remaining inspectable, editable, and replayable \\footnote{https://github.com/zhaxidele/ahl-ts-studio}.",
-          "summaryZh": "arXiv:2609.16065v1 Announce Type: new\nAbstract: Human activity recognition (HAR) is usually framed as gradient-based training of neural networks. Agentic Heuristic Learning (AHL) Studio explores a complementary view inspired by human cognitive learning: people learn activities by remembering examples, forming rules, and repairing mistakes, not by backpropagating. This proposed tool implements AHL for HAR: a learning-time agent reasons over sensor protocols, proposes executable heuristic policies, records repair traces, and exports an LLM-free policy for edge deployment. We focus on the HAR benchmark family and provide an end-to-end workflow from dataset observation to edge-oriented export. On eleven HAR datasets evaluated so far, AHL policies reach strong executable-policy performance while remaining inspectable, editable, and replayable \\footnote{https://github.com/zhaxidele/ahl-ts-studio}.",
+          "summaryZh": "arXiv:2609.16065v1 公告类型：新\n摘要：人类活动识别（HAR）通常被定义为基于梯度的神经网络训练。代理启发式学习 (AHL) Studio 探索了受人类认知学习启发的补充观点：人们通过记住示例、形成规则和修复错误来学习活动，而不是通过反向传播。这个提议的工具实现了 HAR 的 AHL：学习时间代理对传感器协议进行推理，提出可执行的启发式策略，记录修复跟踪，并导出用于边缘部署的 LLM-free 策略。我们专注于 HAR 基准测试系列，并提供从数据集观察到面向边缘的导出的端到端工作流程。在迄今为止评估的 11 个 HAR 数据集上，AHL 策略达到了强大的可执行策略性能，同时保持可检查、可编辑和可重播 \\footnote{https://github.com/zhaxidele/ahl-ts-studio}。",
           "publishedAt": "2026-09-16T04:00:00.000Z",
           "comments": null,
           "author": "Siyu Yuan, He Zhang, Sizhen Bian, Bin Guo"
@@ -518,10 +518,10 @@
         {
           "id": "oai:arXiv.org:2609.16066v1",
           "title": "A panoramic aerodynamic performance prediction method for turbomachinery cascades using transformer-enhanced neural operator",
-          "titleZh": "A panoramic aerodynamic performance prediction method for turbomachinery cascades using transformer-enhanced neural operator",
+          "titleZh": "基于变压器增强神经算子的涡轮机械叶栅全景气动性能预测方法",
           "link": "https://arxiv.org/abs/2609.16066",
           "summary": "arXiv:2609.16066v1 Announce Type: new\nAbstract: To enable flexible and rapid aerodynamic performance evaluation in turbomachinery design, this paper proposes a panoramic performance prediction framework. Unlike most previous prediction models that directly predict the objective functions of interest, our approach first predicts the basic parameters of the Navier-Stokes equations, such as temperature, pressure, and density. Utilizing these basic physical quantities, it subsequently predicts key performance parameters of the turbine stage meridian plane. By adopting this methodology, our proposed panoramic performance prediction framework functions similarly to a CFD simulator, capable of predicting various objective of interest to the designers. To enhance prediction accuracy, a transformer-enhanced neural operator (TNO) is introduced within this framework. Using the Rotor 37 blades as a reference, the proposed TNO is trained to predict the performance of a transonic compressor blade in the meridian plane. The TNO can accurately predict total quantities such as isentropic efficiency, mass flow, and distributions of total pressure ratio. Remarkably, the prediction error of TNO is observed to be smaller than that of state-of-the-art deep learning operators such as the FNO and DeepONet. Furthermore, the TNO is applied to downstream tasks, including sensitivity analysis and optimization of various objective functions. The results confirm that the TNO can operate almost like a CFD simulator, while reducing the computational cost of downstream tasks by four orders of magnitude. The effectiveness and reliability of the proposed TNO for solving different kinds of downstream tasks have been well demonstrated.",
-          "summaryZh": "arXiv:2609.16066v1 Announce Type: new\nAbstract: To enable flexible and rapid aerodynamic performance evaluation in turbomachinery design, this paper proposes a panoramic performance prediction framework. Unlike most previous prediction models that directly predict the objective functions of interest, our approach first predicts the basic parameters of the Navier-Stokes equations, such as temperature, pressure, and density. Utilizing these basic physical quantities, it subsequently predicts key performance parameters of the turbine stage meridian plane. By adopting this methodology, our proposed panoramic performance prediction framework functions similarly to a CFD simulator, capable of predicting various objective of interest to the designers. To enhance prediction accuracy, a transformer-enhanced neural operator (TNO) is introduced within this framework. Using the Rotor 37 blades as a reference, the proposed TNO is trained to predict the performance of a transonic compressor blade in the meridian plane. The TNO can accurately predict total quantities such as isentropic efficiency, mass flow, and distributions of total pressure ratio. Remarkably, the prediction error of TNO is observed to be smaller than that of state-of-the-art deep learning operators such as the FNO and DeepONet. Furthermore, the TNO is applied to downstream tasks, including sensitivity analysis and optimization of various objective functions. The results confirm that the TNO can operate almost like a CFD simulator, while reducing the computational cost of downstream tasks by four orders of magnitude. The effectiveness and reliability of the proposed TNO for solving different kinds of downstream tasks have been well demonstrated.",
+          "summaryZh": "arXiv:2609.16066v1 公告类型：新\n摘要：为了在涡轮机械设计中实现灵活、快速的气动性能评估，本文提出了一种全景性能预测框架。与大多数先前直接预测感兴趣的目标函数的预测模型不同，我们的方法首先预测纳维-斯托克斯方程的基本参数，例如温度、压力和密度。利用这些基本物理量，随后预测涡轮级子午面的关键性能参数。通过采用这种方法，我们提出的全景性能预测框架的功能类似于 CFD 模拟器，能够预测设计人员感兴趣的各种目标。为了提高预测精度，该框架中引入了变压器增强型神经算子（TNO）。使用 Rotor 37 叶片作为参考，训练所提出的 TNO 来预测子午面中跨音速压缩机叶片的性能。 TNO可以准确预测等熵效率、质量流量和总压比分布等总量。值得注意的是，TNO 的预测误差小于 FNO 和 DeepONet 等最先进的深度学习算子的预测误差。此外，TNO还应用于下游任务，包括敏感性分析和各种目标函数的优化。结果证实，TNO 几乎可以像 CFD 模拟器一样运行，同时将下游任务的计算成本降低四个数量级。所提出的 TNO 解决不同类型下游任务的有效性和可靠性已得到很好的证明。",
           "publishedAt": "2026-09-16T04:00:00.000Z",
           "comments": null,
           "author": "Qineng Wang, Zhendong Guo, Liming Song, Tianyuan Liu"
@@ -529,10 +529,10 @@
         {
           "id": "oai:arXiv.org:2609.16067v1",
           "title": "A Dynamic Aggregation Strategy Enhanced Efficient Global Optimization Algorithm for Solving High-Dimensional Turbomachinery Design Problems",
-          "titleZh": "A Dynamic Aggregation Strategy Enhanced Efficient Global Optimization Algorithm for Solving High-Dimensional Turbomachinery Design Problems",
+          "titleZh": "动态聚合策略增强高效全局优化算法解决高维涡轮机械设计问题",
           "link": "https://arxiv.org/abs/2609.16067",
           "summary": "arXiv:2609.16067v1 Announce Type: new\nAbstract: In order to solve the high-dimensional ($d \\geq 30$) expensive black-box problems within budget, an efficient global optimization (EGO) algorithm with a dynamic aggregation strategy is proposed, labeled as DA-EGO. Specifically, the DA-EGO decomposes the original high-dimensional design space into a set of low-dimensional subspaces for efficient surrogate-based optimization search, and the optimal solutions of subspaces are combined as an elite point for the global search. Most importantly, the subspaces are not fixed. Instead, the subspace variables are updated in each iteration, according to the variable interaction analyses in the sub- and full-spaces. The perturbation method and the analysis of variance are used to detect variable interactions. To further accelerate the optimization progress, the searching ranges of subspaces are also adaptively adjusted according to the analyses of subspace optimization results of the previous iteration. Tests on 21 benchmark instances, comprising seven functions at 30, 60, and 90 dimensions, show that DA-EGO is effective on separable and partially separable problems under a budget of 1500 function evaluations. Its advantage is case-dependent: on the non-separable shifted Rosenbrock function, GSGA performs better at 60 and 90 dimensions, while the 30-dimensional results are statistically comparable to IKAEA and GSGA. Moreover, the advantage of DA-EGO is also seen in the aerodynamic optimization of a transonic rotor blade with 28 variables as well as the compressor stage optimization with 60 variables. With the above, the effectiveness of the proposed DA-EGO has been well demonstrated.",
-          "summaryZh": "arXiv:2609.16067v1 Announce Type: new\nAbstract: In order to solve the high-dimensional ($d \\geq 30$) expensive black-box problems within budget, an efficient global optimization (EGO) algorithm with a dynamic aggregation strategy is proposed, labeled as DA-EGO. Specifically, the DA-EGO decomposes the original high-dimensional design space into a set of low-dimensional subspaces for efficient surrogate-based optimization search, and the optimal solutions of subspaces are combined as an elite point for the global search. Most importantly, the subspaces are not fixed. Instead, the subspace variables are updated in each iteration, according to the variable interaction analyses in the sub- and full-spaces. The perturbation method and the analysis of variance are used to detect variable interactions. To further accelerate the optimization progress, the searching ranges of subspaces are also adaptively adjusted according to the analyses of subspace optimization results of the previous iteration. Tests on 21 benchmark instances, comprising seven functions at 30, 60, and 90 dimensions, show that DA-EGO is effective on separable and partially separable problems under a budget of 1500 function evaluations. Its advantage is case-dependent: on the non-separable shifted Rosenbrock function, GSGA performs better at 60 and 90 dimensions, while the 30-dimensional results are statistically comparable to IKAEA and GSGA. Moreover, the advantage of DA-EGO is also seen in the aerodynamic optimization of a transonic rotor blade with 28 variables as well as the compressor stage optimization with 60 variables. With the above, the effectiveness of the proposed DA-EGO has been well demonstrated.",
+          "summaryZh": "arXiv:2609.16067v1 公告类型：新\n摘要：为了解决预算内高维（$d \\geq 30$）昂贵的黑盒问题，提出了一种具有动态聚合策略的高效全局优化（EGO）算法，标记为 DA-EGO。具体来说，DA-EGO将原始高维设计空间分解为一组低维子空间，以进行高效的基于代理的优化搜索，并将子空间的最优解组合为全局搜索的精英点。最重要的是，子空间不是固定的。相反，根据子空间和全空间中的变量交互分析，子空间变量在每次迭代中更新。扰动方法和方差分析用于检测变量的相互作用。为了进一步加快优化进度，子空间的搜索范围还根据前一次迭代的子空间优化结果的分析进行自适应调整。对 21 个基准实​​例（包括 30、60 和 90 维的 7 个函数）的测试表明，在 1500 个函数评估的预算下，DA-EGO 对于可分离和部分可分离问题是有效的。它的优点取决于具体情况：在不可分离的移位 Rosenbrock 函数上，GSGA 在 60 维和 90 维上表现更好，而 30 维结果在统计上与 IKAEA 和 GSGA 相当。此外，DA-EGO的优势还体现在28个变量的跨音速转子叶片的气动优化以及60个变量的压气机级优化中。综上所述，所提出的 DA-EGO 的有效性已得到很好的证明。",
           "publishedAt": "2026-09-16T04:00:00.000Z",
           "comments": null,
           "author": "Qineng Wang, Zhendong Guo, Yun Chen, Guangjian Ma, Liming Song, Jun Li"
@@ -540,10 +540,10 @@
         {
           "id": "oai:arXiv.org:2609.16069v1",
           "title": "Beyond Distribution Matching: Semantics-Consistent Tabular Diffusion with Weak Semantic Priors",
-          "titleZh": "Beyond Distribution Matching: Semantics-Consistent Tabular Diffusion with Weak Semantic Priors",
+          "titleZh": "超越分布匹配：具有弱语义先验的语义一致的表格扩散",
           "link": "https://arxiv.org/abs/2609.16069",
           "summary": "arXiv:2609.16069v1 Announce Type: new\nAbstract: Synthetic tabular data can match real data distributions while still violating the semantic constraints that govern valid tabular rows. This reveals a key limitation of existing tabular generators: they mainly optimize distributional fidelity, but do not explicitly model weak semantic priors encoded in tabular schema and textual descriptions. In this paper, we propose \\ours, a semantics-consistent tabular diffusion framework for high-fidelity synthetic data generation under weakly specified semantic priors. \\ours\\ first constructs two types of priors, namely intra-column semantics and inter-column symbolic rules, with LLM-assisted extraction from metadata and validation on the real training split. These priors are then used as generation conditions rather than post-hoc filters. Specifically, \\ours\\ maps heterogeneous column values, column identities, and semantic priors into a unified semantic space, and performs column-wise forward corruption and prior-conditioned reverse denoising to preserve both marginal distributions and rule-consistent cross-column dependencies. Extensive experiments on six real-world tabular benchmarks show that \\ours\\ consistently improves distributional fidelity, semantic consistency, and downstream task utility over representative VAE-, GAN-, LLM-, and diffusion-based baselines. Additional analyses further demonstrate the robustness of \\ours\\ when semantic priors are partially unavailable.",
-          "summaryZh": "arXiv:2609.16069v1 Announce Type: new\nAbstract: Synthetic tabular data can match real data distributions while still violating the semantic constraints that govern valid tabular rows. This reveals a key limitation of existing tabular generators: they mainly optimize distributional fidelity, but do not explicitly model weak semantic priors encoded in tabular schema and textual descriptions. In this paper, we propose \\ours, a semantics-consistent tabular diffusion framework for high-fidelity synthetic data generation under weakly specified semantic priors. \\ours\\ first constructs two types of priors, namely intra-column semantics and inter-column symbolic rules, with LLM-assisted extraction from metadata and validation on the real training split. These priors are then used as generation conditions rather than post-hoc filters. Specifically, \\ours\\ maps heterogeneous column values, column identities, and semantic priors into a unified semantic space, and performs column-wise forward corruption and prior-conditioned reverse denoising to preserve both marginal distributions and rule-consistent cross-column dependencies. Extensive experiments on six real-world tabular benchmarks show that \\ours\\ consistently improves distributional fidelity, semantic consistency, and downstream task utility over representative VAE-, GAN-, LLM-, and diffusion-based baselines. Additional analyses further demonstrate the robustness of \\ours\\ when semantic priors are partially unavailable.",
+          "summaryZh": "arXiv:2609.16069v1 公告类型：新\n摘要：合成表格数据可以匹配真实数据分布，同时仍然违反管理有效表格行的语义约束。这揭示了现有表格生成器的一个关键限制：它们主要优化分布保真度，但没有显式地对表格模式和文本描述中编码的弱语义先验进行建模。在本文中，我们提出了一种语义一致的表格扩散框架，用于在弱指定的语义先验下生成高保真合成数据。我们首先构建两种类型的先验，即列内语义和列间符号规则，并通过 LLM 辅助从元数据中提取并在实际训练分割上进行验证。然后将这些先验用作生成条件而不是事后过滤器。具体来说，\\ours\\ 将异构列值、列标识和语义先验映射到统一的语义空间，并执行列式前向损坏和先验条件反向去噪，以保留边缘分布和规则一致的跨列依赖性。对六个现实世界表格基准的广泛实验表明，与代表性的 VAE、GAN、LLM 和基于扩散的基准相比，我们的基准持续改进了分布保真度、语义一致性和下游任务效用。当语义先验部分不可用时，其他分析进一步证明了“我们的”的稳健性。",
           "publishedAt": "2026-09-16T04:00:00.000Z",
           "comments": null,
           "author": "Yili Wang, Ruxue Shi, Mengnan Du, Hangting Ye, Yi Chang, Xin Wang"
@@ -551,10 +551,10 @@
         {
           "id": "oai:arXiv.org:2609.16071v1",
           "title": "Schema-Adaptive Action-Conditioned JEPA for Cross-Machine CNC Transfer under Partial Sensor Overlap",
-          "titleZh": "Schema-Adaptive Action-Conditioned JEPA for Cross-Machine CNC Transfer under Partial Sensor Overlap",
+          "titleZh": "用于部分传感器重叠下跨机 CNC 传输的模式自适应动作条件 JEPA",
           "link": "https://arxiv.org/abs/2609.16071",
           "summary": "arXiv:2609.16071v1 Announce Type: new\nAbstract: Cross-machine deployment of industrial world models requires transfer across changes in dynamics, sensing interfaces, sampling regimes, and control units. We study a schema-adaptive action-conditioned Joint-Embedding Predictive Architecture (SAAC-JEPA) for CNC dynamics, where the source machine has 17 canonical sensor channels and the target shares only 10. Evaluation uses group-disjoint source splits, source-only normalization, held-out self-supervised validation, unit audits, and a sealed target test after model locking. Across five seeds, JEPA pretraining gives no clean-source forecasting gain: scratch and pretrained-body models obtain \\(\\mathrm{RMSE}=0.811\\pm0.022\\) and \\(0.813\\pm0.022\\). A source-only search over 20 candidates selects a schema-consistent action-conditioned JEPA after seven-seed stability checks. On the confirmatory target pass, the locked model reaches zero-shot \\(\\mathrm{RMSE}=0.546\\), \\(R^2=0.012\\), and \\(\\mathrm{NLL}=0.52\\), outperforming persistence but not RevIN-equipped PatchTST and iTransformer baselines (\\(0.503\\) and \\(0.498\\)). A pre-declared paired ablation shows that RevIN in the same architecture improves RMSE to \\(0.495\\pm0.004\\) over three seeds, but degrades target calibration (\\(\\mathrm{NLL}=20.6\\)) on stationary context windows. A pre-lock adaptation sweep further reduces RMSE to \\(0.520\\) with limited target support. These results show that source-domain forecasting accuracy alone is insufficient to assess industrial predictive representations, and that cross-machine adaptation under partial sensor overlap is a distinct evaluation axis.",
-          "summaryZh": "arXiv:2609.16071v1 Announce Type: new\nAbstract: Cross-machine deployment of industrial world models requires transfer across changes in dynamics, sensing interfaces, sampling regimes, and control units. We study a schema-adaptive action-conditioned Joint-Embedding Predictive Architecture (SAAC-JEPA) for CNC dynamics, where the source machine has 17 canonical sensor channels and the target shares only 10. Evaluation uses group-disjoint source splits, source-only normalization, held-out self-supervised validation, unit audits, and a sealed target test after model locking. Across five seeds, JEPA pretraining gives no clean-source forecasting gain: scratch and pretrained-body models obtain \\(\\mathrm{RMSE}=0.811\\pm0.022\\) and \\(0.813\\pm0.022\\). A source-only search over 20 candidates selects a schema-consistent action-conditioned JEPA after seven-seed stability checks. On the confirmatory target pass, the locked model reaches zero-shot \\(\\mathrm{RMSE}=0.546\\), \\(R^2=0.012\\), and \\(\\mathrm{NLL}=0.52\\), outperforming persistence but not RevIN-equipped PatchTST and iTransformer baselines (\\(0.503\\) and \\(0.498\\)). A pre-declared paired ablation shows that RevIN in the same architecture improves RMSE to \\(0.495\\pm0.004\\) over three seeds, but degrades target calibration (\\(\\mathrm{NLL}=20.6\\)) on stationary context windows. A pre-lock adaptation sweep further reduces RMSE to \\(0.520\\) with limited target support. These results show that source-domain forecasting accuracy alone is insufficient to assess industrial predictive representations, and that cross-machine adaptation under partial sensor overlap is a distinct evaluation axis.",
+          "summaryZh": "arXiv:2609.16071v1 公告类型：新\n摘要：工业世界模型的跨机器部署需要在动力学、传感接口、采样机制和控制单元的变化之间进行传输。我们研究了一种用于 CNC 动力学的模式自适应动作条件联合嵌入预测架构 (SAAC-JEPA)，其中源机器有 17 个规范传感器通道，而目标仅共享 10 个。评估使用组不相交源拆分、仅源标准化、保留自监督验证、单元审核和模型锁定后的密封目标测试。在五个种子中，JEPA 预训练没有提供清洁源预测增益：划痕模型和预训练体模型获得 \\(\\mathrm{RMSE}=0.811\\pm0.022\\) 和 \\(0.813\\pm0.022\\)。经过七次种子稳定性检查后，超过 20 个候选者的纯源搜索选择了模式一致的动作条件 JEPA。在确认目标传递中，锁定模型达到零样本 \\(\\mathrm{RMSE}=0.546\\)、\\(R^2=0.012\\) 和 \\(\\mathrm{NLL}=0.52\\)，优于持久性，但不及配备 RevIN 的 PatchTST 和 iTransformer 基线（\\(0.503\\) 和 \\(0.498\\)）。预先声明的配对消融表明，同一架构中的 RevIN 在三个种子上将 RMSE 提高到 \\(0.495\\pm0.004\\)，但降低了固定上下文窗口上的目标校准 (\\(\\mathrm{NLL}=20.6\\))。预锁定自适应扫描在有限的目标支持下进一步将 RMSE 降低至 \\(0.520\\)。这些结果表明，仅源域预测精度不足以评估工业预测表示，并且部分传感器重叠下的跨机器适应是一个独特的评估轴。",
           "publishedAt": "2026-09-16T04:00:00.000Z",
           "comments": null,
           "author": "Ayoub Louaye Bouaziz, Matthieu Ostertag, Anton Demasles"
@@ -562,10 +562,10 @@
         {
           "id": "oai:arXiv.org:2609.16077v1",
           "title": "Pseudo-Label Augmentation for Affect Sensing in Small Collaborative Groups",
-          "titleZh": "Pseudo-Label Augmentation for Affect Sensing in Small Collaborative Groups",
+          "titleZh": "小型协作群体中情感感知的伪标签增强",
           "link": "https://arxiv.org/abs/2609.16077",
           "summary": "arXiv:2609.16077v1 Announce Type: new\nAbstract: Physiological affect sensing in naturalistic group interaction is often limited by sparse labels rather than sensor data: wearable devices produce many time windows, while self-reports are collected only a few times per session. Using GroupAffect-4, a four-person collaborative dataset with wearable physiology, eye tracking, Big Five personality, and post-task VAD labels, we study pseudo-label augmentation for affect sensing under sparse supervision. We compare no augmentation, Gaussian Process pseudo-labelling, personality-aware trust weighting, and joint personality-plus-confidence weighting within a shared target-construction pipeline. Results show that pseudo-label augmentation improves over the labelled-only baseline in the known-team setting. However, the narrow range of Big Five cosine similarities (0.91-0.99) makes fine-grained personality weighting ineffective; personality similarity functions mainly as a same-team filter rather than a calibrated trust signal. With smoothing, augmented SVM variants are effectively tied on Valence and Arousal, while the joint personality-plus-confidence variant gives the highest Dominance score. Cross-subject LOSO transfer remains encouraging, especially for Arousal, whereas strict session-isolated LOGO removes the augmentation benefit. Given only 10 groups, LOGO should be interpreted as a conservative lower bound on unseen-group transfer. Overall, the results suggest that pseudo-label augmentation can make better use of sparsely labelled collaborative affect data, while personality information is most useful as a within-team selection mechanism.",
-          "summaryZh": "arXiv:2609.16077v1 Announce Type: new\nAbstract: Physiological affect sensing in naturalistic group interaction is often limited by sparse labels rather than sensor data: wearable devices produce many time windows, while self-reports are collected only a few times per session. Using GroupAffect-4, a four-person collaborative dataset with wearable physiology, eye tracking, Big Five personality, and post-task VAD labels, we study pseudo-label augmentation for affect sensing under sparse supervision. We compare no augmentation, Gaussian Process pseudo-labelling, personality-aware trust weighting, and joint personality-plus-confidence weighting within a shared target-construction pipeline. Results show that pseudo-label augmentation improves over the labelled-only baseline in the known-team setting. However, the narrow range of Big Five cosine similarities (0.91-0.99) makes fine-grained personality weighting ineffective; personality similarity functions mainly as a same-team filter rather than a calibrated trust signal. With smoothing, augmented SVM variants are effectively tied on Valence and Arousal, while the joint personality-plus-confidence variant gives the highest Dominance score. Cross-subject LOSO transfer remains encouraging, especially for Arousal, whereas strict session-isolated LOGO removes the augmentation benefit. Given only 10 groups, LOGO should be interpreted as a conservative lower bound on unseen-group transfer. Overall, the results suggest that pseudo-label augmentation can make better use of sparsely labelled collaborative affect data, while personality information is most useful as a within-team selection mechanism.",
+          "summaryZh": "arXiv:2609.16077v1 公告类型：新\n摘要：自然群体互动中的生理情感感知通常受到稀疏标签而不是传感器数据的限制：可穿戴设备产生许多时间窗口，而每次会话仅收集几次自我报告。使用 GroupAffect-4（一个具有可穿戴生理学、眼动追踪、大五人格和任务后 VAD 标签的四人协作数据集），我们研究了稀疏监督下情感感知的伪标签增强。我们在共享目标构建管道中比较无增强、高斯过程伪标签、个性感知信任权重以及联合个性加置信权重。结果表明，在已知团队设置中，伪标签增强比仅标记基线有所改善。然而，大五余弦相似度的狭窄范围（0.91-0.99）使得细粒度的个性加权无效；性格相似度主要起到同一团队过滤器的作用，而不是校准的信任信号。通过平滑，增强 SVM 变体有效地与效价和唤醒联系在一起，而联合个性加置信度变体则给出最高的优势得分。跨受试者 LOSO 转移仍然令人鼓舞，尤其是对于唤醒而言，而严格的会话隔离 LOGO 消除了增强的好处。仅给出 10 个组，LOGO 应被解释为未见组转移的保守下限。总体而言，结果表明伪标签增强可以更好地利用稀疏标记的协作情感数据，而个性信息作为团队内选择机制最有用。",
           "publishedAt": "2026-09-16T04:00:00.000Z",
           "comments": null,
           "author": "Meisam Jamshidi Seikavandi, Tanya Ignatenko, Fabricio Batista Narcizo, Paolo Burelli, Jesper B\\\"unsow Boldt, Andrew Burke Dittberner"
@@ -573,10 +573,10 @@
         {
           "id": "oai:arXiv.org:2609.16091v1",
           "title": "Distilling Foundation Models for Agentic What-If Reasoning:Cost, Latency, and Governance in a Hybrid LLM+SLM Architecture",
-          "titleZh": "Distilling Foundation Models for Agentic What-If Reasoning:Cost, Latency, and Governance in a Hybrid LLM+SLM Architecture",
+          "titleZh": "提取代理假设推理的基础模型：混合 LLM+SLM 架构中的成本、延迟和治理",
           "link": "https://arxiv.org/abs/2609.16091",
           "summary": "arXiv:2609.16091v1 Announce Type: new\nAbstract: Tabular foundation models deliver strong zero-training predictive performance via in-context learning, but their high inference latency makes them impractical as hot-path decision backends in interactive agentic loops. We distill a TabPFN teacher into a compact feed-forward student across a business-decision simulation on UCI Adult and five OpenML benchmarks: the classification head compresses 53.2M parameters to 8,546 (6,220x); the deployed two-head loan pipeline compresses 111.4M parameters to 17,059 (6,532x). The student retains 95.4-100.5% accuracy and 96.8-100.0% AUC, with the lowest accuracy retention on credit-g at 95.4%; an alpha = 0 hard-label control shows that the teacher's soft targets provide a 2.1-7.0 AUC point gain.",
-          "summaryZh": "arXiv:2609.16091v1 Announce Type: new\nAbstract: Tabular foundation models deliver strong zero-training predictive performance via in-context learning, but their high inference latency makes them impractical as hot-path decision backends in interactive agentic loops. We distill a TabPFN teacher into a compact feed-forward student across a business-decision simulation on UCI Adult and five OpenML benchmarks: the classification head compresses 53.2M parameters to 8,546 (6,220x); the deployed two-head loan pipeline compresses 111.4M parameters to 17,059 (6,532x). The student retains 95.4-100.5% accuracy and 96.8-100.0% AUC, with the lowest accuracy retention on credit-g at 95.4%; an alpha = 0 hard-label control shows that the teacher's soft targets provide a 2.1-7.0 AUC point gain.",
+          "summaryZh": "arXiv:2609.16091v1 公告类型：新\n摘要：表格基础模型通过上下文学习提供强大的零训练预测性能，但其高推理延迟使得它们作为交互式代理循环中的热路径决策后端不切实际。我们通过 UCI Adult 和五个 OpenML 基准的业务决策模拟，将 TabPFN 教师提炼为紧凑的前馈学生：分类头将 5320 万个参数压缩到 8,546 个（6,220 倍）；部署的双头贷款管道将 111.4M 个参数压缩至 17,059 个（6,532x）。学生保留了 95.4-100.5% 的准确率和 96.8-100.0% AUC，其中 Credit-g 的准确率保留率最低为 95.4%； alpha = 0 硬标签对照显示教师的软目标提供了 2.1-7.0 AUC 点增益。",
           "publishedAt": "2026-09-16T04:00:00.000Z",
           "comments": null,
           "author": "Sourish Dey, Aditya Kumar"
@@ -584,10 +584,10 @@
         {
           "id": "oai:arXiv.org:2609.16093v1",
           "title": "Evaluating Open-Weight E-Commerce Agents with Environment-Grounded Verification",
-          "titleZh": "Evaluating Open-Weight E-Commerce Agents with Environment-Grounded Verification",
+          "titleZh": "通过基于环境的验证评估开放式电子商务代理",
           "link": "https://arxiv.org/abs/2609.16093",
           "summary": "arXiv:2609.16093v1 Announce Type: new\nAbstract: A shopping conversation has many routes to the same cart, and a task-success rate reduces all of them to one score. We build a deterministic and reproducible e-commerce environment that precommits each trial's customer and trajectory parameters, including the persona, difficulty, target cart, and an item reveal schedule. A simulated consumer attempts to buy a target cart from the environment with assistance from the evaluated model. The environment guides the simulator's actions and records every assistant action alongside the environment state at that point. After the trial, these records allow the evaluator to assess individual parts of the conversation against the retained evidence. For example, the evaluator penalizes a search for failing to surface a target product only when the customer has already mentioned that product. We further use this evidence to apply different penalties to tool calls depending on how the assistant's actions compare with an expected tool-call set. Our environment also interacts with the simulator bidirectionally, reading its output to stop the trial when the simulator determines that the customer has become too frustrated and injecting directives in real time that specify when to explore, defer buying an item, or recall a previous exchange. This interaction creates an open-ended and verifiable simulation. Across eight open-weight agents from 20B to 35B parameters, with 160 trials per agent and 44 metrics, the resulting capability profiles distinguish under-action, over-purchase, unsupported product attributes, and poor search, all of which terminal success obscures.",
-          "summaryZh": "arXiv:2609.16093v1 Announce Type: new\nAbstract: A shopping conversation has many routes to the same cart, and a task-success rate reduces all of them to one score. We build a deterministic and reproducible e-commerce environment that precommits each trial's customer and trajectory parameters, including the persona, difficulty, target cart, and an item reveal schedule. A simulated consumer attempts to buy a target cart from the environment with assistance from the evaluated model. The environment guides the simulator's actions and records every assistant action alongside the environment state at that point. After the trial, these records allow the evaluator to assess individual parts of the conversation against the retained evidence. For example, the evaluator penalizes a search for failing to surface a target product only when the customer has already mentioned that product. We further use this evidence to apply different penalties to tool calls depending on how the assistant's actions compare with an expected tool-call set. Our environment also interacts with the simulator bidirectionally, reading its output to stop the trial when the simulator determines that the customer has become too frustrated and injecting directives in real time that specify when to explore, defer buying an item, or recall a previous exchange. This interaction creates an open-ended and verifiable simulation. Across eight open-weight agents from 20B to 35B parameters, with 160 trials per agent and 44 metrics, the resulting capability profiles distinguish under-action, over-purchase, unsupported product attributes, and poor search, all of which terminal success obscures.",
+          "summaryZh": "arXiv:2609.16093v1 公告类型：新\n摘要：购物对话有许多通往同一个购物车的路线，任务成功率将所有路线降低为一个分数。我们构建了一个确定性且可重复的电子商务环境，预先提交每个试验的客户和轨迹参数，包括角色、难度、目标购物车和项目展示时间表。模拟消费者尝试在评估模型的帮助下从环境中购买目标购物车。环境指导模拟器的操作并记录每个辅助操作以及当时的环境状态。审判结束后，这些记录使评估人员能够根据保留的证据评估对话的各个部分。例如，仅当客户已经提及该产品时，评估人员才会对未能显示目标产品的搜索进行惩罚。我们进一步使用这些证据，根据助手的操作与预期工具调用集的比较，对工具调用应用不同的惩罚。我们的环境还与模拟器进行双向交互，当模拟器确定客户变得过于沮丧时，读取其输出以停止试用，并实时注入指令，指定何时探索、推迟购买商品或召回之前的交易。这种交互创建了一个开放式且可验证的模拟。在 20B 到 35B 参数的 8 个开放权重代理中，每个代理进行 160 次试验和 44 个指标，生成的能力概况可区分行动不足、过度购买、不受支持的产品属性和糟糕的搜索，所有这些终端的成功都掩盖了这些。",
           "publishedAt": "2026-09-16T04:00:00.000Z",
           "comments": null,
           "author": "Nimit Shah, Haitz S\\'aez de Oc\\'ariz Borde"
