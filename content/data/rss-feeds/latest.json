@@ -1,7 +1,7 @@
 {
   "source": "content/feeds.json",
   "attribution": "Aggregated headlines/summaries from third-party RSS/Atom feeds for navigation only. All rights belong to original publishers and authors. Chinese text is machine-translated.",
-  "fetchedAt": "2026-09-17T16:03:51.091Z",
+  "fetchedAt": "2026-09-17T20:52:03.211Z",
   "date": "2026-09-17",
   "feedCount": 3,
   "itemCount": 50,
@@ -17,104 +17,214 @@
       "url": "https://hnrss.org/frontpage",
       "home": "https://news.ycombinator.com/",
       "group": "community",
-      "fetchedAt": "2026-09-17T16:03:13.167Z",
+      "fetchedAt": "2026-09-17T20:51:11.014Z",
       "count": 20,
       "items": [
         {
+          "id": "https://news.ycombinator.com/item?id=49745940",
+          "title": "Astra for Law",
+          "titleZh": "Astra for Law",
+          "link": "https://openai.com/index/astra-for-law/",
+          "summary": "Article URL: https://openai.com/index/astra-for-law/\n\n Comments URL: https://news.ycombinator.com/item?id=49745940\n\n Points: 35\n\n # Comments: 20",
+          "summaryZh": "Article URL: https://openai.com/index/astra-for-law/\n\n Comments URL: https://news.ycombinator.com/item?id=49745940\n\n Points: 35\n\n # Comments: 20",
+          "publishedAt": "2026-09-17T20:17:48.000Z",
+          "comments": "https://news.ycombinator.com/item?id=49745940",
+          "author": "vertigoruntime"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49745570",
+          "title": "Everybody's Lost Their Minds",
+          "titleZh": "Everybody's Lost Their Minds",
+          "link": "https://www.netmeister.org/blog/everybodys-lost-their-minds.html",
+          "summary": "Article URL: https://www.netmeister.org/blog/everybodys-lost-their-minds.html\n\n Comments URL: https://news.ycombinator.com/item?id=49745570\n\n Points: 42\n\n # Comments: 17",
+          "summaryZh": "Article URL: https://www.netmeister.org/blog/everybodys-lost-their-minds.html\n\n Comments URL: https://news.ycombinator.com/item?id=49745570\n\n Points: 42\n\n # Comments: 17",
+          "publishedAt": "2026-09-17T19:43:34.000Z",
+          "comments": "https://news.ycombinator.com/item?id=49745570",
+          "author": "ibobev"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49745266",
+          "title": "Don't Just Say Hello",
+          "titleZh": "Don't Just Say Hello",
+          "link": "https://nohello.net/en/",
+          "summary": "Article URL: https://nohello.net/en/\n\n Comments URL: https://news.ycombinator.com/item?id=49745266\n\n Points: 38\n\n # Comments: 21",
+          "summaryZh": "Article URL: https://nohello.net/en/\n\n Comments URL: https://news.ycombinator.com/item?id=49745266\n\n Points: 38\n\n # Comments: 21",
+          "publishedAt": "2026-09-17T19:16:46.000Z",
+          "comments": "https://news.ycombinator.com/item?id=49745266",
+          "author": "ninju"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49744715",
+          "title": "Canto: A speech model built for the real world",
+          "titleZh": "Canto: A speech model built for the real world",
+          "link": "https://wisprflow.ai/canto",
+          "summary": "Article URL: https://wisprflow.ai/canto\n\n Comments URL: https://news.ycombinator.com/item?id=49744715\n\n Points: 11\n\n # Comments: 4",
+          "summaryZh": "Article URL: https://wisprflow.ai/canto\n\n Comments URL: https://news.ycombinator.com/item?id=49744715\n\n Points: 11\n\n # Comments: 4",
+          "publishedAt": "2026-09-17T18:32:50.000Z",
+          "comments": "https://news.ycombinator.com/item?id=49744715",
+          "author": "sleepypandas"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49744530",
+          "title": "Don't Make Job Referrals Public",
+          "titleZh": "Don't Make Job Referrals Public",
+          "link": "https://blog.melashri.net/micro/public-job-referral/",
+          "summary": "Article URL: https://blog.melashri.net/micro/public-job-referral/\n\n Comments URL: https://news.ycombinator.com/item?id=49744530\n\n Points: 16\n\n # Comments: 8",
+          "summaryZh": "Article URL: https://blog.melashri.net/micro/public-job-referral/\n\n Comments URL: https://news.ycombinator.com/item?id=49744530\n\n Points: 16\n\n # Comments: 8",
+          "publishedAt": "2026-09-17T18:16:38.000Z",
+          "comments": "https://news.ycombinator.com/item?id=49744530",
+          "author": "elashri"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49743567",
+          "title": "Zettascale (YC S24) Is Hiring ASIC/FPGA Engineers to Build Chips for ASI",
+          "titleZh": "Zettascale (YC S24) Is Hiring ASIC/FPGA Engineers to Build Chips for ASI",
+          "link": "https://zscc.ai/careers?job_id=109821",
+          "summary": "Article URL: https://zscc.ai/careers?job_id=109821\n\n Comments URL: https://news.ycombinator.com/item?id=49743567\n\n Points: 0\n\n # Comments: 0",
+          "summaryZh": "Article URL: https://zscc.ai/careers?job_id=109821\n\n Comments URL: https://news.ycombinator.com/item?id=49743567\n\n Points: 0\n\n # Comments: 0",
+          "publishedAt": "2026-09-17T17:00:59.000Z",
+          "comments": "https://news.ycombinator.com/item?id=49743567",
+          "author": "el_al"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49743483",
+          "title": "Infinite-Parameter LLMs: Generating and Adapting Weights from Live Data",
+          "titleZh": "Infinite-Parameter LLMs: Generating and Adapting Weights from Live Data",
+          "link": "https://arxiv.org/abs/2609.18842",
+          "summary": "Article URL: https://arxiv.org/abs/2609.18842\n\n Comments URL: https://news.ycombinator.com/item?id=49743483\n\n Points: 62\n\n # Comments: 16",
+          "summaryZh": "Article URL: https://arxiv.org/abs/2609.18842\n\n Comments URL: https://news.ycombinator.com/item?id=49743483\n\n Points: 62\n\n # Comments: 16",
+          "publishedAt": "2026-09-17T16:55:14.000Z",
+          "comments": "https://news.ycombinator.com/item?id=49743483",
+          "author": "Betelbuddy"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49743459",
+          "title": "Show HN: Craigslist for agent skills, curated by a human",
+          "titleZh": "Show HN: Craigslist for agent skills, curated by a human",
+          "link": "https://skillbay.sh/",
+          "summary": "hey, i'm nick (@skeptrune on X). i have been using ai for a lot of things i'm not an expert in and thought it would be nice to try and buy paid skills for helping it accomplish those tasks more efficiently. for example, redlining contracts, creating ai generated videos, different website designs, and more. curious to see if this resonates with folks here. i figure a more engineering'y audience that's ai coding-agent forward would have similar problems to what inspired me to make this\n\n Comments URL: https://news.ycombinator.com/item?id=49743459\n\n Points: 13\n\n # Comments: 11",
+          "summaryZh": "hey, i'm nick (@skeptrune on X). i have been using ai for a lot of things i'm not an expert in and thought it would be nice to try and buy paid skills for helping it accomplish those tasks more efficiently. for example, redlining contracts, creating ai generated videos, different website designs, and more. curious to see if this resonates with folks here. i figure a more engineering'y audience that's ai coding-agent forward would have similar problems to what inspired me to make this\n\n Comments URL: https://news.ycombinator.com/item?id=49743459\n\n Points: 13\n\n # Comments: 11",
+          "publishedAt": "2026-09-17T16:53:51.000Z",
+          "comments": "https://news.ycombinator.com/item?id=49743459",
+          "author": "skeptrune"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49743097",
+          "title": "Hister: A private search engine for the pages you visit and the files you keep",
+          "titleZh": "Hister: A private search engine for the pages you visit and the files you keep",
+          "link": "https://github.com/asciimoo/hister",
+          "summary": "Article URL: https://github.com/asciimoo/hister\n\n Comments URL: https://news.ycombinator.com/item?id=49743097\n\n Points: 302\n\n # Comments: 100",
+          "summaryZh": "Article URL: https://github.com/asciimoo/hister\n\n Comments URL: https://news.ycombinator.com/item?id=49743097\n\n Points: 302\n\n # Comments: 100",
+          "publishedAt": "2026-09-17T16:25:37.000Z",
+          "comments": "https://news.ycombinator.com/item?id=49743097",
+          "author": "bookofjoe"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49743049",
+          "title": "Launch HN: Skillsync (YC W26) – AI chat sessions made portable across agents",
+          "titleZh": "Launch HN: Skillsync (YC W26) – AI chat sessions made portable across agents",
+          "link": "https://news.ycombinator.com/item?id=49743049",
+          "summary": "Hey HN, we're Nars & Nishant, founders of Skillsync ( https://skillsync.com ) Skillsync lets you move your AI chats across every coding agent. Most of our work exists as conversations, which are currently scattered across our agents. Though stored locally, these conversations use different formats. This is annoying because you cannot simply switch between agents without starting over. We get locked into a single provider and their agent as we invest in skills and memories over time. Skillsync acts as a universal converter. It moves the entire session, including all the messages, reasoning and tool calls so you can pick up right where you left off. Skillsync collects all your sessions in one place and makes them searchable. It breaks down what each session is carrying, including which loaded skills the agent is actually using, making stale context easy to spot. You can also create shared workspaces to sync sessions across your team. You can build your own closed loop systems. Everything runs locally except when you share to workspaces. The core is an open-source Rust engine called txcript ( https://github.com/skillsynchq/txcript ). It translates a session from one agent's on-disk format into another's, mapping conversation, reasoning, and tool history. Think ffmpeg or pandoc, but for agent sessions. On top of that engine is a local-first desktop app. Your agent sessions are normally scattered across different tools' folders in formats you'd never read by hand; the app surfaces them in one place with a UI that makes them actually readable, the conversation, the reasoning, and the tool calls, so you can revisit what happened, move a session into another agent, or share it with a teammate. Skills and memory are stored as portable, human-readable markdown you own, and exposed to any agent over MCP for search and selective retrieval. Sessions and translation run locally on your machine. The one thing that leaves is what you explicitly share into a team workspace. It’s been surprising to us to see how locked-in people already are without realizing it. You don't notice you're trapped in one agent or harness until you try to leave, and by then you've got months of sessions stuck in a format only that tool can read. The lock-in is invisible right up until it's expensive. Once sessions are portable, they stop being disposable logs and become something you can actually build on, spotting patterns in how you work, handing a session off to someone else, letting a non-technical teammate pick up where an engineer left off. The session turns out to be the unit of collaboration, and right now it's being thrown away. Before Skillsync, Nars and I built an open-source payment orchestrator that let merchants route across many processors instead of getting locked into one (30k+ GitHub stars). Fighting vendor lock-in by making incompatible systems interoperate was the whole job. We came into YC with a different idea, but the more we lived inside coding agents the more we saw the same problem from the other side: your context is locked into whatever agent you start with, because every agent stores sessions differently and none of it moves. Some of the things we’re seeing people do with Skillsync are: - Moving a session between Claude Code, Codex, and Cursor mid-task, including when you hit a usage limit on one and want to keep going on another. - Thinking through a problem in a browser Claude chat, then handing the whole thread to Claude Code or Codex to build. - Sharing research sessions with a team. Everyone uploads their sessions, so teammates and their agents can build on each other's work instead of repeating it. It's available as a Mac app, CLI and MCP. Here's the demo: https://youtu.be/7hVhSnSKGl8 . Would love to hear your feedback and answer questions!\n\n Comments URL: https://news.ycombinator.com/item?id=49743049\n\n Points: 28\n\n # Comments: 38",
+          "summaryZh": "Hey HN, we're Nars & Nishant, founders of Skillsync ( https://skillsync.com ) Skillsync lets you move your AI chats across every coding agent. Most of our work exists as conversations, which are currently scattered across our agents. Though stored locally, these conversations use different formats. This is annoying because you cannot simply switch between agents without starting over. We get locked into a single provider and their agent as we invest in skills and memories over time. Skillsync acts as a universal converter. It moves the entire session, including all the messages, reasoning and tool calls so you can pick up right where you left off. Skillsync collects all your sessions in one place and makes them searchable. It breaks down what each session is carrying, including which loaded skills the agent is actually using, making stale context easy to spot. You can also create shared workspaces to sync sessions across your team. You can build your own closed loop systems. Everything runs locally except when you share to workspaces. The core is an open-source Rust engine called txcript ( https://github.com/skillsynchq/txcript ). It translates a session from one agent's on-disk format into another's, mapping conversation, reasoning, and tool history. Think ffmpeg or pandoc, but for agent sessions. On top of that engine is a local-first desktop app. Your agent sessions are normally scattered across different tools' folders in formats you'd never read by hand; the app surfaces them in one place with a UI that makes them actually readable, the conversation, the reasoning, and the tool calls, so you can revisit what happened, move a session into another agent, or share it with a teammate. Skills and memory are stored as portable, human-readable markdown you own, and exposed to any agent over MCP for search and selective retrieval. Sessions and translation run locally on your machine. The one thing that leaves is what you explicitly share into a team workspace. It’s been surprising to us to see how locked-in people already are without realizing it. You don't notice you're trapped in one agent or harness until you try to leave, and by then you've got months of sessions stuck in a format only that tool can read. The lock-in is invisible right up until it's expensive. Once sessions are portable, they stop being disposable logs and become something you can actually build on, spotting patterns in how you work, handing a session off to someone else, letting a non-te",
+          "publishedAt": "2026-09-17T16:22:15.000Z",
+          "comments": "https://news.ycombinator.com/item?id=49743049",
+          "author": "cat-whisperer"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49742714",
+          "title": "Whoisinspace.com/",
+          "titleZh": "Whoisinspace.com/",
+          "link": "https://whoisinspace.com",
+          "summary": "Article URL: https://whoisinspace.com\n\n Comments URL: https://news.ycombinator.com/item?id=49742714\n\n Points: 114\n\n # Comments: 67",
+          "summaryZh": "Article URL: https://whoisinspace.com\n\n Comments URL: https://news.ycombinator.com/item?id=49742714\n\n Points: 114\n\n # Comments: 67",
+          "publishedAt": "2026-09-17T15:59:37.000Z",
+          "comments": "https://news.ycombinator.com/item?id=49742714",
+          "author": "Egg-Man"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49742437",
           "title": "LLM Classification Is Feature Engineering",
-          "titleZh": "LLM分类是特征工程",
+          "titleZh": "LLM Classification Is Feature Engineering",
           "link": "https://minimallysufficient.com/posts/llm-classification-is-feature-extraction/",
-          "summary": "Article URL: https://minimallysufficient.com/posts/llm-classification-is-feature-extraction/\n\n Comments URL: https://news.ycombinator.com/item?id=49742437\n\n Points: 5\n\n # Comments: 0",
-          "summaryZh": "文章网址：https://minimallysufficient.com/posts/llm-classification-is-feature-extraction/\n\n 评论网址：https://news.ycombinator.com/item?id=49742437\n\n 积分：5\n\n # 评论: 0",
+          "summary": "Article URL: https://minimallysufficient.com/posts/llm-classification-is-feature-extraction/\n\n Comments URL: https://news.ycombinator.com/item?id=49742437\n\n Points: 78\n\n # Comments: 15",
+          "summaryZh": "Article URL: https://minimallysufficient.com/posts/llm-classification-is-feature-extraction/\n\n Comments URL: https://news.ycombinator.com/item?id=49742437\n\n Points: 78\n\n # Comments: 15",
           "publishedAt": "2026-09-17T15:40:17.000Z",
           "comments": "https://news.ycombinator.com/item?id=49742437",
           "author": "minsufficient"
         },
         {
+          "id": "https://news.ycombinator.com/item?id=49742355",
+          "title": "CrowdSec Source Code Leak",
+          "titleZh": "CrowdSec Source Code Leak",
+          "link": "https://www.crowdsec.net/blog/crowdsec-statement-source-code-exposure",
+          "summary": "Article URL: https://www.crowdsec.net/blog/crowdsec-statement-source-code-exposure\n\n Comments URL: https://news.ycombinator.com/item?id=49742355\n\n Points: 101\n\n # Comments: 30",
+          "summaryZh": "Article URL: https://www.crowdsec.net/blog/crowdsec-statement-source-code-exposure\n\n Comments URL: https://news.ycombinator.com/item?id=49742355\n\n Points: 101\n\n # Comments: 30",
+          "publishedAt": "2026-09-17T15:34:01.000Z",
+          "comments": "https://news.ycombinator.com/item?id=49742355",
+          "author": "eccgecko"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=49742353",
           "title": "Rate limits on GitLab.com are changing",
-          "titleZh": "GitLab.com 的速率限制正在变化",
+          "titleZh": "Rate limits on GitLab.com are changing",
           "link": "https://about.gitlab.com/blog/rate-limit-change-2026/",
-          "summary": "Article URL: https://about.gitlab.com/blog/rate-limit-change-2026/\n\n Comments URL: https://news.ycombinator.com/item?id=49742353\n\n Points: 7\n\n # Comments: 0",
-          "summaryZh": "文章网址：https://about.gitlab.com/blog/rate-limit-change-2026/\n\n 评论网址：https://news.ycombinator.com/item?id=49742353\n\n 积分：7\n\n # 评论: 0",
+          "summary": "Article URL: https://about.gitlab.com/blog/rate-limit-change-2026/\n\n Comments URL: https://news.ycombinator.com/item?id=49742353\n\n Points: 119\n\n # Comments: 95",
+          "summaryZh": "Article URL: https://about.gitlab.com/blog/rate-limit-change-2026/\n\n Comments URL: https://news.ycombinator.com/item?id=49742353\n\n Points: 119\n\n # Comments: 95",
           "publishedAt": "2026-09-17T15:33:54.000Z",
           "comments": "https://news.ycombinator.com/item?id=49742353",
           "author": "darkwater"
         },
         {
-          "id": "https://news.ycombinator.com/item?id=49742233",
-          "title": "OpenAI's Misalignment Framework: A Tactical Bid to Preempt Global AI Governance",
-          "titleZh": "OpenAI 的错位框架：抢占全球人工智能治理的战术",
-          "link": "https://asiaai.fyi/openai-misalignment-framework-global-governance/",
-          "summary": "Article URL: https://asiaai.fyi/openai-misalignment-framework-global-governance/\n\n Comments URL: https://news.ycombinator.com/item?id=49742233\n\n Points: 7\n\n # Comments: 5",
-          "summaryZh": "文章网址：https://asiaai.fyi/openai-misalignment-framework-global-governance/\n\n 评论网址：https://news.ycombinator.com/item?id=49742233\n\n 积分：7\n\n # 评论: 5",
-          "publishedAt": "2026-09-17T15:26:23.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49742233",
-          "author": "ghernando"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49742021",
-          "title": "Artificial intelligence now beats some of the best human forecasters",
-          "titleZh": "人工智能现在击败了一些最优秀的人类预测者",
-          "link": "https://www.economist.com/science-and-technology/2026/09/16/artificial-intelligence-now-beats-some-of-the-best-human-forecasters",
-          "summary": "Article URL: https://www.economist.com/science-and-technology/2026/09/16/artificial-intelligence-now-beats-some-of-the-best-human-forecasters\n\n Comments URL: https://news.ycombinator.com/item?id=49742021\n\n Points: 4\n\n # Comments: 0",
-          "summaryZh": "文章网址：https://www.economist.com/science-and-technology/2026/09/16/artificial-intelligence-now-beats-some-of-the-best- human-forecasters\n\n 评论网址：https://news.ycombinator.com/item?id=49742021\n\n 积分：4\n\n # 评论: 0",
-          "publishedAt": "2026-09-17T15:13:30.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49742021",
-          "author": "ddp26"
+          "id": "https://news.ycombinator.com/item?id=49740260",
+          "title": "The American Religion of Self-Storage Facilities",
+          "titleZh": "The American Religion of Self-Storage Facilities",
+          "link": "https://www.newyorker.com/magazine/2026/09/21/the-american-religion-of-self-storage-facilities",
+          "summary": "https://archive.ph/F77tj\n\n Comments URL: https://news.ycombinator.com/item?id=49740260\n\n Points: 140\n\n # Comments: 232",
+          "summaryZh": "https://archive.ph/F77tj\n\n Comments URL: https://news.ycombinator.com/item?id=49740260\n\n Points: 140\n\n # Comments: 232",
+          "publishedAt": "2026-09-17T13:12:28.000Z",
+          "comments": "https://news.ycombinator.com/item?id=49740260",
+          "author": "pseudolus"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49740105",
           "title": "Show HN: Share your AI Setup, Learn from others",
-          "titleZh": "Show HN：分享您的 AI 设置，向他人学习",
+          "titleZh": "Show HN: Share your AI Setup, Learn from others",
           "link": "https://mysetup.ai/",
-          "summary": "I kept seeing engineers share what they were building with AI; however, I was always more curious about how they worked. Which agents did they use? What skills and tools had stuck or been thrown out the window? How did they manage longer-running tasks? So I built this with the hope we could have a dedicated space to share and be open about our setups.\n\n Comments URL: https://news.ycombinator.com/item?id=49740105\n\n Points: 35\n\n # Comments: 15",
-          "summaryZh": "我不断看到工程师分享他们用人工智能构建的东西；然而，我总是更好奇它们是如何工作的。他们使用了哪些代理？哪些技能和工具被卡住或被抛弃？他们如何管理长时间运行的任务？所以我建立这个是希望我们能有一个专门的空间来分享和开放我们的设置。\n\n 评论网址：https://news.ycombinator.com/item?id=49740105\n\n 积分：35\n\n # 评论: 15",
+          "summary": "I kept seeing engineers share what they were building with AI; however, I was always more curious about how they worked. Which agents did they use? What skills and tools had stuck or been thrown out the window? How did they manage longer-running tasks? So I built this with the hope we could have a dedicated space to share and be open about our setups.\n\n Comments URL: https://news.ycombinator.com/item?id=49740105\n\n Points: 141\n\n # Comments: 75",
+          "summaryZh": "I kept seeing engineers share what they were building with AI; however, I was always more curious about how they worked. Which agents did they use? What skills and tools had stuck or been thrown out the window? How did they manage longer-running tasks? So I built this with the hope we could have a dedicated space to share and be open about our setups.\n\n Comments URL: https://news.ycombinator.com/item?id=49740105\n\n Points: 141\n\n # Comments: 75",
           "publishedAt": "2026-09-17T13:01:44.000Z",
           "comments": "https://news.ycombinator.com/item?id=49740105",
           "author": "steveybrown"
         },
         {
-          "id": "https://news.ycombinator.com/item?id=49740047",
-          "title": "Show HN: I built a new version of my fun spatial 3D online meeting app",
-          "titleZh": "Show HN：我构建了有趣的空间 3D 在线会议应用程序的新版本",
-          "link": "https://flat.social",
-          "summary": "Hi HN! flat.social is a fun spatial online meeting app for remote teams and communities. It's largely built like a web multiplayer game, and the 3D virtual spaces are highly customisable with elements and activities (I recently added surfing!). Live demo to try it out: https://app.flat.social/f/demo-flat Here's a quick demo video: https://www.youtube.com/watch?v=GeinBNqL23s It's a solo, bootstrapped project built with Three.js, LiveKit and Rapier for physics. I built the first version during the pandemic and posted it here back then: https://news.ycombinator.com/item?id=31833415 I had a couple of months off this year, so I locked myself in an (almost) jungle house in Brazil and rebuilt it into what I've always wanted it to be. Would love to hear what you think!\n\n Comments URL: https://news.ycombinator.com/item?id=49740047\n\n Points: 70\n\n # Comments: 42",
-          "summaryZh": "嗨，HN！ flat.social 是一款适合远程团队和社区的有趣的空间在线会议应用程序。它的构建很大程度上类似于网络多人游戏，并且 3D 虚拟空间可以通过元素和活动进行高度定制（我最近添加了冲浪！）。现场演示来尝试一下：https://app.flat.social/f/demo-flat 这里有一个快速演示视频：https://www.youtube.com/watch?v=GeinBNqL23s 这是一个单独的引导项目，使用 Three.js、LiveKit 和 Rapier 构建物理领域。我在大流行期间构建了第一个版本，然后将其发布在这里：https://news.ycombinator.com/item?id=31833415 今年我有几个月的假期，所以我把自己锁在巴西的一个（几乎）丛林房子里，并将其重建成我一直想要的样子。很想听听您的想法！\n\n 评论网址：https://news.ycombinator.com/item?id=49740047\n\n 积分：70\n\n # 评论: 42",
-          "publishedAt": "2026-09-17T12:57:09.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49740047",
-          "author": "pawelwentpawel"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49738766",
-          "title": "Better Vector Search for Long Documents: Chunking Inside Manticore Search",
-          "titleZh": "更好的长文档矢量搜索：Manticore 搜索中的分块",
-          "link": "https://manticoresearch.com/blog/auto-chunking/",
-          "summary": "Article URL: https://manticoresearch.com/blog/auto-chunking/\n\n Comments URL: https://news.ycombinator.com/item?id=49738766\n\n Points: 60\n\n # Comments: 10",
-          "summaryZh": "文章网址：https://manticoresearch.com/blog/auto-chunking/\n\n 评论网址：https://news.ycombinator.com/item?id=49738766\n\n 积分：60\n\n # 评论: 10",
-          "publishedAt": "2026-09-17T10:30:52.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49738766",
-          "author": "GloriaVinogrado"
+          "id": "https://news.ycombinator.com/item?id=49738091",
+          "title": "Why I didn’t sign the Fields medallists’ letter",
+          "titleZh": "Why I didn’t sign the Fields medallists’ letter",
+          "link": "https://gowers.wordpress.com/2026/09/17/why-i-didnt-sign-the-fields-medallists-letter/",
+          "summary": "Article URL: https://gowers.wordpress.com/2026/09/17/why-i-didnt-sign-the-fields-medallists-letter/\n\n Comments URL: https://news.ycombinator.com/item?id=49738091\n\n Points: 165\n\n # Comments: 211",
+          "summaryZh": "Article URL: https://gowers.wordpress.com/2026/09/17/why-i-didnt-sign-the-fields-medallists-letter/\n\n Comments URL: https://news.ycombinator.com/item?id=49738091\n\n Points: 165\n\n # Comments: 211",
+          "publishedAt": "2026-09-17T08:51:51.000Z",
+          "comments": "https://news.ycombinator.com/item?id=49738091",
+          "author": "simianwords"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49737922",
-          "title": "GLM Built Its Own Inference Infrastructure",
-          "titleZh": "GLM 构建了自己的推理基础设施",
+          "title": "How GLM built its own inference infrastructure",
+          "titleZh": "How GLM built its own inference infrastructure",
           "link": "https://z.ai/blog/glm-built-its-inference-infrastructure",
-          "summary": "Article URL: https://z.ai/blog/glm-built-its-inference-infrastructure\n\n Comments URL: https://news.ycombinator.com/item?id=49737922\n\n Points: 223\n\n # Comments: 175",
-          "summaryZh": "文章网址：https://z.ai/blog/glm-built-its-inference-infrastruct\n\n 评论网址：https://news.ycombinator.com/item?id=49737922\n\n 积分：223\n\n # 评论: 175",
+          "summary": "Article URL: https://z.ai/blog/glm-built-its-inference-infrastructure\n\n Comments URL: https://news.ycombinator.com/item?id=49737922\n\n Points: 326\n\n # Comments: 244",
+          "summaryZh": "Article URL: https://z.ai/blog/glm-built-its-inference-infrastructure\n\n Comments URL: https://news.ycombinator.com/item?id=49737922\n\n Points: 326\n\n # Comments: 244",
           "publishedAt": "2026-09-17T08:27:09.000Z",
           "comments": "https://news.ycombinator.com/item?id=49737922",
           "author": "whiteros_e"
         },
         {
           "id": "https://news.ycombinator.com/item?id=49737849",
-          "title": "One Year of Sponsored Servo Development",
-          "titleZh": "赞助伺服开发一年",
+          "title": "One year of sponsored Servo development",
+          "titleZh": "One year of sponsored Servo development",
           "link": "https://servo.org/blog/2026/09/15/one-year-of-sponsorship/",
-          "summary": "Article URL: https://servo.org/blog/2026/09/15/one-year-of-sponsorship/\n\n Comments URL: https://news.ycombinator.com/item?id=49737849\n\n Points: 262\n\n # Comments: 113",
-          "summaryZh": "文章网址：https://servo.org/blog/2026/09/15/one-year-of-sponsorship/\n\n 评论网址：https://news.ycombinator.com/item?id=49737849\n\n 积分：262\n\n # 评论: 113",
+          "summary": "Article URL: https://servo.org/blog/2026/09/15/one-year-of-sponsorship/\n\n Comments URL: https://news.ycombinator.com/item?id=49737849\n\n Points: 328\n\n # Comments: 132",
+          "summaryZh": "Article URL: https://servo.org/blog/2026/09/15/one-year-of-sponsorship/\n\n Comments URL: https://news.ycombinator.com/item?id=49737849\n\n Points: 328\n\n # Comments: 132",
           "publishedAt": "2026-09-17T08:13:54.000Z",
           "comments": "https://news.ycombinator.com/item?id=49737849",
           "author": "AshleysBrain"
@@ -122,123 +232,13 @@
         {
           "id": "https://news.ycombinator.com/item?id=49737787",
           "title": "CCC invites all model citizens to 40C3",
-          "titleZh": "CCC邀请所有模范公民参加40C3",
+          "titleZh": "CCC invites all model citizens to 40C3",
           "link": "https://events.ccc.de/en/2026/09/12/40c3-model-citizens/",
-          "summary": "Article URL: https://events.ccc.de/en/2026/09/12/40c3-model-citizens/\n\n Comments URL: https://news.ycombinator.com/item?id=49737787\n\n Points: 181\n\n # Comments: 48",
-          "summaryZh": "文章网址：https://events.ccc.de/en/2026/09/12/40c3-model-citizens/\n\n 评论网址：https://news.ycombinator.com/item?id=49737787\n\n 积分：181\n\n # 评论: 48",
+          "summary": "Article URL: https://events.ccc.de/en/2026/09/12/40c3-model-citizens/\n\n Comments URL: https://news.ycombinator.com/item?id=49737787\n\n Points: 296\n\n # Comments: 153",
+          "summaryZh": "Article URL: https://events.ccc.de/en/2026/09/12/40c3-model-citizens/\n\n Comments URL: https://news.ycombinator.com/item?id=49737787\n\n Points: 296\n\n # Comments: 153",
           "publishedAt": "2026-09-17T08:03:54.000Z",
           "comments": "https://news.ycombinator.com/item?id=49737787",
           "author": "antonly"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49736466",
-          "title": "Cloudflare/Security-Audit-Skill",
-          "titleZh": "Cloudflare/安全审计技能",
-          "link": "https://github.com/cloudflare/security-audit-skill",
-          "summary": "Article URL: https://github.com/cloudflare/security-audit-skill\n\n Comments URL: https://news.ycombinator.com/item?id=49736466\n\n Points: 153\n\n # Comments: 31",
-          "summaryZh": "文章网址：https://github.com/cloudflare/security-audit-skill\n\n 评论网址：https://news.ycombinator.com/item?id=49736466\n\n 积分：153\n\n # 评论: 31",
-          "publishedAt": "2026-09-17T04:36:55.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49736466",
-          "author": "donk8r"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49735930",
-          "title": "Keys Not Included: recovering the signing keys for US driver's license barcodes",
-          "titleZh": "不包括密钥：恢复美国驾驶执照条形码的签名密钥",
-          "link": "https://ryan.science/blog/keys-not-included",
-          "summary": "Article URL: https://ryan.science/blog/keys-not-included\n\n Comments URL: https://news.ycombinator.com/item?id=49735930\n\n Points: 242\n\n # Comments: 107",
-          "summaryZh": "文章网址：https://ryan.science/blog/keys-not-included\n\n 评论网址：https://news.ycombinator.com/item?id=49735930\n\n 积分：242\n\n # 评论: 107",
-          "publishedAt": "2026-09-17T03:03:23.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49735930",
-          "author": "Ryan5453"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49734264",
-          "title": "OpenSpec – A lightweight and configurable AI spec framework",
-          "titleZh": "OpenSpec – 轻量级且可配置的 AI 规范框架",
-          "link": "https://openspec.dev/",
-          "summary": "Article URL: https://openspec.dev/\n\n Comments URL: https://news.ycombinator.com/item?id=49734264\n\n Points: 174\n\n # Comments: 87",
-          "summaryZh": "文章网址：https://openspec.dev/\n\n 评论网址：https://news.ycombinator.com/item?id=49734264\n\n 积分：174\n\n # 评论: 87",
-          "publishedAt": "2026-09-16T23:06:39.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49734264",
-          "author": "etoxin"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49733726",
-          "title": "HarnessTax: How Much Does the Harness Matter for Coding Agents?",
-          "titleZh": "HarnessTax：Harness 对编码代理有多重要？",
-          "link": "https://harnesstax.github.io/",
-          "summary": "Article URL: https://harnesstax.github.io/\n\n Comments URL: https://news.ycombinator.com/item?id=49733726\n\n Points: 196\n\n # Comments: 73",
-          "summaryZh": "文章网址：https://harnesstax.github.io/\n\n 评论网址：https://news.ycombinator.com/item?id=49733726\n\n 积分：196\n\n # 评论: 73",
-          "publishedAt": "2026-09-16T22:10:13.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49733726",
-          "author": "matt_d"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49732931",
-          "title": "Breaking the 1.58-bit Barrier for Ternary LLMs",
-          "titleZh": "打破三元法学硕士的 1.58 位障碍",
-          "link": "https://arxiv.org/abs/2609.16338",
-          "summary": "Article URL: https://arxiv.org/abs/2609.16338\n\n Comments URL: https://news.ycombinator.com/item?id=49732931\n\n Points: 228\n\n # Comments: 36",
-          "summaryZh": "文章网址：https://arxiv.org/abs/2609.16338\n\n 评论网址：https://news.ycombinator.com/item?id=49732931\n\n 积分：228\n\n # 评论: 36",
-          "publishedAt": "2026-09-16T20:59:24.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49732931",
-          "author": "matt_d"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49732513",
-          "title": "Backups Aren't Simple",
-          "titleZh": "备份并不简单",
-          "link": "https://filipovski.net/2026/09/16/backups-arent-simple.html",
-          "summary": "Article URL: https://filipovski.net/2026/09/16/backups-arent-simple.html\n\n Comments URL: https://news.ycombinator.com/item?id=49732513\n\n Points: 309\n\n # Comments: 187",
-          "summaryZh": "文章网址：https://filipovski.net/2026/09/16/backups-arent-simple.html\n\n 评论网址：https://news.ycombinator.com/item?id=49732513\n\n 积分：309\n\n # 评论: 187",
-          "publishedAt": "2026-09-16T20:27:16.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49732513",
-          "author": "afilipovski"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49732270",
-          "title": "Xiaomi Mimo 2.6 live post-training dashboard",
-          "titleZh": "小米 Mimo 2.6 实时训练后仪表板",
-          "link": "https://mimo.xiaomi.com/rl/",
-          "summary": "Article URL: https://mimo.xiaomi.com/rl/\n\n Comments URL: https://news.ycombinator.com/item?id=49732270\n\n Points: 511\n\n # Comments: 144",
-          "summaryZh": "文章网址：https://mimo.xiaomi.com/rl/\n\n 评论网址：https://news.ycombinator.com/item?id=49732270\n\n 积分：511\n\n # 评论: 144",
-          "publishedAt": "2026-09-16T20:09:18.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49732270",
-          "author": "krackers"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49731285",
-          "title": "Training a 4B model to produce 81% faster query plans than Postgres",
-          "titleZh": "训练 4B 模型生成比 Postgres 快 81% 的查询计划",
-          "link": "https://rohanbansal.com/qorl",
-          "summary": "Article URL: https://rohanbansal.com/qorl\n\n Comments URL: https://news.ycombinator.com/item?id=49731285\n\n Points: 646\n\n # Comments: 130",
-          "summaryZh": "文章网址：https://rohanbansal.com/qorl\n\n 评论网址：https://news.ycombinator.com/item?id=49731285\n\n 积分：646\n\n # 评论：130",
-          "publishedAt": "2026-09-16T18:50:00.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49731285",
-          "author": "polyphilz"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49724881",
-          "title": "Nvidia announces native GPU programming in Rust",
-          "titleZh": "Nvidia 宣布使用 Rust 进行原生 GPU 编程",
-          "link": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
-          "summary": "Article URL: https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/\n\n Comments URL: https://news.ycombinator.com/item?id=49724881\n\n Points: 867\n\n # Comments: 343",
-          "summaryZh": "文章网址：https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/\n\n 评论网址：https://news.ycombinator.com/item?id=49724881\n\n 积分：867\n\n # 评论: 343",
-          "publishedAt": "2026-09-16T11:15:53.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49724881",
-          "author": "nonmaskable"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=49719751",
-          "title": "Lucasart's Afterlife",
-          "titleZh": "卢卡萨特的来世",
-          "link": "https://togameforlife.wordpress.com/2023/12/09/on-lucasarts-afterlife/",
-          "summary": "Article URL: https://togameforlife.wordpress.com/2023/12/09/on-lucasarts-afterlife/\n\n Comments URL: https://news.ycombinator.com/item?id=49719751\n\n Points: 79\n\n # Comments: 35",
-          "summaryZh": "文章网址：https://togameforlife.wordpress.com/2023/12/09/on-lucasarts-afterlife/\n\n 评论网址：https://news.ycombinator.com/item?id=49719751\n\n 积分：79\n\n # 评论: 35",
-          "publishedAt": "2026-09-15T22:30:30.000Z",
-          "comments": "https://news.ycombinator.com/item?id=49719751",
-          "author": "Bondi_Blue"
         }
       ]
     },
@@ -248,16 +248,16 @@
       "url": "https://rss.arxiv.org/rss/cs.AI",
       "home": "https://arxiv.org/list/cs.AI/recent",
       "group": "arxiv",
-      "fetchedAt": "2026-09-17T16:03:13.650Z",
+      "fetchedAt": "2026-09-17T20:51:11.587Z",
       "count": 15,
       "items": [
         {
           "id": "oai:arXiv.org:2609.17631v1",
           "title": "Making AI-Assisted Claims Independently Challengeable: Publication Authority and a Protocol for Falsifiable Publication Records",
-          "titleZh": "让人工智能辅助的索赔面临独立挑战：出版机构和可伪造出版记录协议",
+          "titleZh": "Making AI-Assisted Claims Independently Challengeable: Publication Authority and a Protocol for Falsifiable Publication Records",
           "link": "https://arxiv.org/abs/2609.17631",
           "summary": "arXiv:2609.17631v1 Announce Type: new\nAbstract: AI-assisted claims can appear authoritative when evidence, analysis, human authorization, presentation, and correction history refer to different states. Provenance, attestation, and transparency expose history but alone do not specify the publication transition examined here. We develop Publication Authority as an exact-state, non-transferable, single-use publication capability and instantiate it in PAC-2026 (Publication-Accountability Calculus), a machine-readable AIJIM Protocol candidate. We evaluate its fourth bounded semantic freeze (SF-4), a fixed-profile specification designed for replaceable bindings. Six obligations govern evidence, runs and artifacts, measurement disclosure, authorization, surface correspondence, and lifecycle continuity. Each yields a target-bound witness, localized counterexample, or localized unverifiability; none can compensate for another. Only a fresh, complete all-pass record derives the permit consumed by one atomic publication transition. We use identity vectors, adversarial cases, finite models, and historical implementations. Ten models explored 110,764 safe reachable states; 76 unsafe configurations produced the expected violation or observer countermodel. A reader surface passing its correspondence check cannot authorize publication unless the accepted record admits that surface. SF-4 separates evidence horizon from verification time and rejects an authentic but causally invalid authorization. A historical predecessor path reproduced 17 frozen authorization-successor outcomes. A later in-house, instance-blind test of known case classes matched all 183 scored expectations; same-host package execution reproduced its 240 archived observations. Results support internal coherence, bounded safety, fault sensitivity, and limited constructibility, but not factual truth, general refinement, blind interoperability, field efficacy, or standards status.",
-          "summaryZh": "arXiv:2609.17631v1 公告类型：新\n摘要：当证据、分析、人工授权、呈现和更正历史涉及不同状态时，人工智能辅助的索赔可以显得具有权威性。出处、证明和透明度公开了历史，但单独并不能指定此处检查的发布转换。我们将出版机构开发为一种精确状态、不可转让、一次性出版功能，并在 PAC-2026（出版责任演算）中实例化它，PAC-2026 是一种机器可读的 AIJIM 协议候选者。我们评估其第四个有界语义冻结（SF-4），这是一种专为可替换绑定设计的固定配置文件规范。六项义务管辖证据、运行和工件、测量披露、授权、表面对应和生命周期连续性。每一个都会产生一个目标绑定的见证、局部反例或局部不可验证性；没有人可以弥补另一个人。只有一个新的、完整的全通记录才能获得一个原子发布转换所消耗的许可。我们使用身份向量、对抗性案例、有限模型和历史实现。十个模型探索了 110,764 个安全可达状态； 76 个不安全的配置产生了预期的违规或观察者反模型。通过对应检查的读者表面不能授权出版，除非接受的记录承认该表面。 SF-4 将证据范围与验证时间分开，并拒绝真实但因果无效的授权。历史前驱路径再现了 17 个冻结的授权后继结果。后来对已知案例类别进行的内部实例盲测试符合所有 183 个评分预期；同一主机包执行重现了 240 个存档的观察结果。结果支持内部一致性、有限安全性、故障敏感性和有限的可构造性，但不支持事实真相、一般细化、盲目互操作性、现场功效或标准状态。",
+          "summaryZh": "arXiv:2609.17631v1 Announce Type: new\nAbstract: AI-assisted claims can appear authoritative when evidence, analysis, human authorization, presentation, and correction history refer to different states. Provenance, attestation, and transparency expose history but alone do not specify the publication transition examined here. We develop Publication Authority as an exact-state, non-transferable, single-use publication capability and instantiate it in PAC-2026 (Publication-Accountability Calculus), a machine-readable AIJIM Protocol candidate. We evaluate its fourth bounded semantic freeze (SF-4), a fixed-profile specification designed for replaceable bindings. Six obligations govern evidence, runs and artifacts, measurement disclosure, authorization, surface correspondence, and lifecycle continuity. Each yields a target-bound witness, localized counterexample, or localized unverifiability; none can compensate for another. Only a fresh, complete all-pass record derives the permit consumed by one atomic publication transition. We use identity vectors, adversarial cases, finite models, and historical implementations. Ten models explored 110,764 safe reachable states; 76 unsafe configurations produced the expected violation or observer countermodel. A reader surface passing its correspondence check cannot authorize publication unless the accepted record admits that surface. SF-4 separates evidence horizon from verification time and rejects an authentic but causally invalid authorization. A historical predecessor path reproduced 17 frozen authorization-successor outcomes. A later in-house, instance-blind test of known case classes matched all 183 scored expectations; same-host package execution reproduced its 240 archived observations. Results support internal coherence, bounded safety, fault sensitivity, and limited constructibility, but not factual truth, general refinement, blind interoperability, field efficacy, or standards status.",
           "publishedAt": "2026-09-17T04:00:00.000Z",
           "comments": null,
           "author": "Torsten Olivi Tiltack, Yifei Dong, Kun Yu, Xu Wang, Wei Liu, Jianlong Zhou, Ren Ping Liu, Fang Chen"
@@ -265,10 +265,10 @@
         {
           "id": "oai:arXiv.org:2609.17632v1",
           "title": "EvolveTrade: Experience-Driven Policy Refinement for Self-Evolving LLM Trading Agents",
-          "titleZh": "EvolveTrade：针对自我进化 LLM 交易代理的经验驱动政策细化",
+          "titleZh": "EvolveTrade: Experience-Driven Policy Refinement for Self-Evolving LLM Trading Agents",
           "link": "https://arxiv.org/abs/2609.17632",
           "summary": "arXiv:2609.17632v1 Announce Type: new\nAbstract: Large language model (LLM) trading agents can combine market data, news, and executable analysis, but their behavior is often controlled by static hand-written tool-use policies that are fixed before deployment. This limits their ability to adapt how they gather evidence, invoke tools, verify signals, and manage risk under changing market regimes. We introduce EvolveTrade, a self-evolving framework that treats the system prompt of a tool-using trading agent as a text-parameterized policy. After each update interval, a Policy Agent revises this policy using accumulated decision traces and realized portfolio feedback, while keeping the backbone LLM fixed. The updated policy is then used for the next batch of trading decisions, enabling the agent to refine its information-acquisition and portfolio-construction procedure over time. Experiments across multiple market regimes and two LLM backbones show that EvolveTrade often improves Sharpe Ratio and Cumulative Return over fixed-policy LLM baselines, achieving the improved SR and CR in most evaluated settings. Behavioral analyses further show that self-evolved policies increase code-mediated analysis and activate regime-relevant computations; case-level policy-to-return attributions trace how policy-induced allocation changes contribute to realized return differences. These results suggest that adapting the reusable procedure governing tool use is a key direction for building more robust LLM trading agents.",
-          "summaryZh": "arXiv:2609.17632v1 公告类型：新\n摘要：大型语言模型（LLM）交易代理可以结合市场数据、新闻和可执行分析，但它们的行为通常由部署前固定的静态手写工具使用策略控制。这限制了他们在不断变化的市场体制下调整收集证据、调用工具、验证信号和管理风险的能力。我们引入了 EvolveTrade，这是一个自我进化的框架，它将使用工具的交易代理的系统提示视为文本参数化策略。在每个更新间隔之后，策略代理会使用累积的决策轨迹和实现的投资组合反馈来修改此策略，同时保持骨干 LLM 固定。然后，更新后的策略将用于下一批交易决策，使代理能够随着时间的推移完善其信息获取和投资组合构建程序。跨多个市场制度和两个 LLM 主干的实验表明，EvolveTrade 通常会比固定政策 LLM 基线提高夏普比率和累积回报，在大多数评估环境中实现改进的 SR 和 CR。行为分析进一步表明，自我演化的策略增加了代码中介分析并激活了与政权相关的计算；案例层面的政策回报归因追踪政策引发的分配变化如何导致实现的回报差异。这些结果表明，调整可重复使用的程序来管理工具的使用是构建更强大的 LLM 交易代理的关键方向。",
+          "summaryZh": "arXiv:2609.17632v1 Announce Type: new\nAbstract: Large language model (LLM) trading agents can combine market data, news, and executable analysis, but their behavior is often controlled by static hand-written tool-use policies that are fixed before deployment. This limits their ability to adapt how they gather evidence, invoke tools, verify signals, and manage risk under changing market regimes. We introduce EvolveTrade, a self-evolving framework that treats the system prompt of a tool-using trading agent as a text-parameterized policy. After each update interval, a Policy Agent revises this policy using accumulated decision traces and realized portfolio feedback, while keeping the backbone LLM fixed. The updated policy is then used for the next batch of trading decisions, enabling the agent to refine its information-acquisition and portfolio-construction procedure over time. Experiments across multiple market regimes and two LLM backbones show that EvolveTrade often improves Sharpe Ratio and Cumulative Return over fixed-policy LLM baselines, achieving the improved SR and CR in most evaluated settings. Behavioral analyses further show that self-evolved policies increase code-mediated analysis and activate regime-relevant computations; case-level policy-to-return attributions trace how policy-induced allocation changes contribute to realized return differences. These results suggest that adapting the reusable procedure governing tool use is a key direction for building more robust LLM trading agents.",
           "publishedAt": "2026-09-17T04:00:00.000Z",
           "comments": null,
           "author": "Sehee Kim, Yumin Choi, Minki Kang, Sung Ju Hwang"
@@ -276,10 +276,10 @@
         {
           "id": "oai:arXiv.org:2609.17633v1",
           "title": "One Color Preprocessing Improves DSATUR",
-          "titleZh": "一种颜色预处理可提高 DSATUR",
+          "titleZh": "One Color Preprocessing Improves DSATUR",
           "link": "https://arxiv.org/abs/2609.17633",
           "summary": "arXiv:2609.17633v1 Announce Type: new\nAbstract: The Graph Coloring Problem (GCP) is NP-hard and DSATUR stands as one of the fastest heuristics for it despite producing colorings that typically use more colors than state-of-the-art coloring algorithms. We propose SSLD (Semidefinite Spectral Learning with DSATUR), which improves DSATUR by preprocessing a first good color class before letting DSATUR complete coloring the rest of the given graph. We obtain this color class from a Semidefinite Programming (SDP), similar to an SDP used to compute the Lov\\'asz theta number. To the best of our knowledge, SSLD is the first approach to improve DSATUR by preprocessing through fixed color classes. We evaluate SSLD against DSATUR and against a naive 1-color-class preprocessing algorithm on DIMACS instances, random graphs (Erd\\H{o}s--R\\'enyi, Watts-Strogatz, Barab\\'asi--Albert), Frequency Assignment and Job Shop Scheduling instances. SSLD matches or beats DSATUR in almost every case across over 1600 benchmark instances, and out performs the naive GISD baseline, allows us to confirm the value brought by the SDP-guided choice of the first color class. This quality comes at a runtime cost of roughly 195 times slower that DSATUR, but demonstrating that SDP-guided preprocessing of a first color class is a direction for future improvements.",
-          "summaryZh": "arXiv:2609.17633v1 公告类型：新\n摘要：图着色问题 (GCP) 是 NP 难题，尽管 DSATUR 生成的着色通常使用比最先进的着色算法更多的颜色，但它是最快的启发式问题之一。我们提出 SSLD（使用 DSATUR 的半定谱学习），它通过在让 DSATUR 完成给定图的其余部分的着色之前预处理第一个好的颜色类来改进 DSATUR。我们通过半定规划 (SDP) 获得此颜色类别，类似于用于计算 Lov\\'asz theta 数的 SDP。据我们所知，SSLD 是第一个通过固定颜色类别进行预处理来提高 DSATUR 的方法。我们针对 DSATUR 以及 DIMACS 实例、随机图（Erd\\H{o}s--R\\'enyi、Watts-Strogatz、Barab\\'asi--Albert）、频率分配和作业车间调度实例上的朴素 1 色类预处理算法来评估 SSLD。 SSLD 在 1600 多个基准实例中的几乎所有情况下都匹配或击败 DSATUR，并且优于朴素的 GISD 基线，使我们能够确认 SDP 引导的第一颜色类别选择所带来的价值。这种质量的运行时间成本大约比 DSATUR 慢 195 倍，但表明 SDP 引导的第一颜色类预处理是未来改进的方向。",
+          "summaryZh": "arXiv:2609.17633v1 Announce Type: new\nAbstract: The Graph Coloring Problem (GCP) is NP-hard and DSATUR stands as one of the fastest heuristics for it despite producing colorings that typically use more colors than state-of-the-art coloring algorithms. We propose SSLD (Semidefinite Spectral Learning with DSATUR), which improves DSATUR by preprocessing a first good color class before letting DSATUR complete coloring the rest of the given graph. We obtain this color class from a Semidefinite Programming (SDP), similar to an SDP used to compute the Lov\\'asz theta number. To the best of our knowledge, SSLD is the first approach to improve DSATUR by preprocessing through fixed color classes. We evaluate SSLD against DSATUR and against a naive 1-color-class preprocessing algorithm on DIMACS instances, random graphs (Erd\\H{o}s--R\\'enyi, Watts-Strogatz, Barab\\'asi--Albert), Frequency Assignment and Job Shop Scheduling instances. SSLD matches or beats DSATUR in almost every case across over 1600 benchmark instances, and out performs the naive GISD baseline, allows us to confirm the value brought by the SDP-guided choice of the first color class. This quality comes at a runtime cost of roughly 195 times slower that DSATUR, but demonstrating that SDP-guided preprocessing of a first color class is a direction for future improvements.",
           "publishedAt": "2026-09-17T04:00:00.000Z",
           "comments": null,
           "author": "Adam Nouira, Lucas Isenmann"
@@ -287,10 +287,10 @@
         {
           "id": "oai:arXiv.org:2609.17635v1",
           "title": "Physics-Constrained Digital Twins for Sensor Integrity in Urban Pedestrian Flow: Detecting Stealthy False Data Injection with Conformal Guarantees",
-          "titleZh": "用于城市行人流中传感器完整性的物理约束数字孪生：通过保形保证检测隐形虚假数据注入",
+          "titleZh": "Physics-Constrained Digital Twins for Sensor Integrity in Urban Pedestrian Flow: Detecting Stealthy False Data Injection with Conformal Guarantees",
           "link": "https://arxiv.org/abs/2609.17635",
           "summary": "arXiv:2609.17635v1 Announce Type: new\nAbstract: City pedestrian counting systems now feed economic indicators, planning decisions and safety operations, yet the twins built on top of them treat the incoming stream as ground truth. We study what happens when it is not. We formalise stealthy false data injection for city-scale pedestrian sensing, where the map from latent flow to observation is far more rank deficient than in the power and water networks for which stealth has been characterised. Our twin estimates directed flows on the pedestrian street graph, assimilates counts through a learned graph-localised gain, and is trained against a flow conservation residual that couples metered and unmetered segments. Detection combines the innovation with that residual, and the alarm threshold is set by adaptive conformal calibration rather than by hand. To measure what the physics buys, we define the attack margin, the relative reduction in worst-case corruption of the estimated flow field, achieved against a white-box adversary that optimises directly through the twin. On six years of Melbourne data the margin reaches 0.54 against a single compromised device and falls to 0.19 when a third of the fleet is compromised, on a network where only 1.18 per cent of walkable segments are metered. Replacing the street graph by a distance graph collapses it to 0.09, which shows that the gain comes from the conservation law rather than from locality.",
-          "summaryZh": "arXiv:2609.17635v1 公告类型：新\n摘要：城市行人计数系统现在提供经济指标、规划决策和安全操作，但建立在其之上的双胞胎将传入流视为地面事实。我们研究当情况并非如此时会发生什么。我们将城市规模的行人感知的隐形虚假数据注入形式化，其中从潜在流到观察的地图比具有隐形特征的电力和供水网络中的等级缺陷要严重得多。我们的双胞胎估计步行街图上的定向流量，通过学习的图本地化增益同化计数，并针对耦合计量和未计量路段的流量守恒残差进行训练。检测将创新与残差结合起来，警报阈值是通过自适应保形校准而不是手动设置的。为了衡量物理性能，我们定义了攻击裕度，即估计流场最坏情况损坏的相对减少，这是针对直接通过孪生优化的白盒对手而实现的。根据墨尔本六年的数据，在只有 1.18% 的步行路段进行计量的网络上，针对单个受感染设备的裕度达到 0.54，当三分之一的车队受到损害时，裕度降至 0.19。用距离图替换街道图会将其压缩为 0.09，这表明增益来自守恒定律而不是局部性。",
+          "summaryZh": "arXiv:2609.17635v1 Announce Type: new\nAbstract: City pedestrian counting systems now feed economic indicators, planning decisions and safety operations, yet the twins built on top of them treat the incoming stream as ground truth. We study what happens when it is not. We formalise stealthy false data injection for city-scale pedestrian sensing, where the map from latent flow to observation is far more rank deficient than in the power and water networks for which stealth has been characterised. Our twin estimates directed flows on the pedestrian street graph, assimilates counts through a learned graph-localised gain, and is trained against a flow conservation residual that couples metered and unmetered segments. Detection combines the innovation with that residual, and the alarm threshold is set by adaptive conformal calibration rather than by hand. To measure what the physics buys, we define the attack margin, the relative reduction in worst-case corruption of the estimated flow field, achieved against a white-box adversary that optimises directly through the twin. On six years of Melbourne data the margin reaches 0.54 against a single compromised device and falls to 0.19 when a third of the fleet is compromised, on a network where only 1.18 per cent of walkable segments are metered. Replacing the street graph by a distance graph collapses it to 0.09, which shows that the gain comes from the conservation law rather than from locality.",
           "publishedAt": "2026-09-17T04:00:00.000Z",
           "comments": null,
           "author": "Oscar Mogollon Gutierrez, Fatemeh Ghasemi, Mohammadhossein Homaei, Andres Caro, Mar Avila"
@@ -298,10 +298,10 @@
         {
           "id": "oai:arXiv.org:2609.17637v1",
           "title": "What You Can't See Is Still What You Learn: A Preregistered Sixty-Society Confirmation That Evidence Masking Drives Compositional Generalization",
-          "titleZh": "你看不到的仍然是你学到的：预先注册的 60 个社会证实证据掩盖推动了成分概括",
+          "titleZh": "What You Can't See Is Still What You Learn: A Preregistered Sixty-Society Confirmation That Evidence Masking Drives Compositional Generalization",
           "link": "https://arxiv.org/abs/2609.17637",
           "summary": "arXiv:2609.17637v1 Announce Type: new\nAbstract: Restricting what a module can read may improve what a system learns to compute. We test this in a preregistered confirmation with sixty four-cell systems sharing a frozen language-model backbone and communicating through learned continuous packets. Five conditions vary evidence masking, ownership markers, and replacement of foreign evidence with neutral filler, across six initialization clusters, each with two data orders, on one fresh task world. With markers available in both regimes, masking improved accuracy on held-out two- and three-operation compositions by median paired differences of 0.846 and 0.859; all twelve pairs cleared the required margins, and the full preregistered behavioral criterion passed. The unmarked replication also passed. No globally visible system passed the marker-following check, so the effect of usable role information remains unresolved. The filler condition yielded seven full generalizers, but its decomposition criteria were inconclusive. Packet interventions in all eighteen audited masked systems followed the predicted intermediate-value changes on eligible cases; these finite, success-conditioned audits do not establish mediation. The results confirm a large advantage of the tested masking regime, while leaving its finer attribution and generality open. Protocols, results, and checkpoints are public.",
-          "summaryZh": "arXiv:2609.17637v1 公告类型：新\n摘要：限制模块可以读取的内容可能会改善系统学习计算的能力。我们在预先注册的确认中对此进行了测试，其中 64 个单元系统共享冻结的语言模型主干并通过学习的连续数据包进行通信。在一个新的任务世界中，跨六个初始化集群（每个集群有两个数据顺序），有五种条件会改变证据屏蔽、所有权标记以及用中性填充物替换外来证据。利用两种方案中可用的标记，掩蔽提高了保留的两次和三次操作组合物的准确性，中位数配对差异为 0.846 和 0.859；所有十二对都达到了要求的保证金，并且通过了完整的预注册行为标准。无标记复制也通过了。没有全局可见的系统通过标记跟踪检查，因此可用角色信息的影响仍未解决。填充条件产生了七个完整的泛化器，但其分解标准尚无定论。所有 18 个经过审计的屏蔽系统中的数据包干预均遵循合格案例的预测中间值变化；这些有限的、以成功为条件的审计并不能建立调解。结果证实了所测试的掩蔽机制的巨大优势，同时保留了其更精细的归因和普遍性。协议、结果和检查点都是公开的。",
+          "summaryZh": "arXiv:2609.17637v1 Announce Type: new\nAbstract: Restricting what a module can read may improve what a system learns to compute. We test this in a preregistered confirmation with sixty four-cell systems sharing a frozen language-model backbone and communicating through learned continuous packets. Five conditions vary evidence masking, ownership markers, and replacement of foreign evidence with neutral filler, across six initialization clusters, each with two data orders, on one fresh task world. With markers available in both regimes, masking improved accuracy on held-out two- and three-operation compositions by median paired differences of 0.846 and 0.859; all twelve pairs cleared the required margins, and the full preregistered behavioral criterion passed. The unmarked replication also passed. No globally visible system passed the marker-following check, so the effect of usable role information remains unresolved. The filler condition yielded seven full generalizers, but its decomposition criteria were inconclusive. Packet interventions in all eighteen audited masked systems followed the predicted intermediate-value changes on eligible cases; these finite, success-conditioned audits do not establish mediation. The results confirm a large advantage of the tested masking regime, while leaving its finer attribution and generality open. Protocols, results, and checkpoints are public.",
           "publishedAt": "2026-09-17T04:00:00.000Z",
           "comments": null,
           "author": "Narcis Marincat"
@@ -309,10 +309,10 @@
         {
           "id": "oai:arXiv.org:2609.17688v1",
           "title": "CapMem: A Benchmark for Caption-Based Episodic Memory in Egocentric Video",
-          "titleZh": "CapMem：自我中心视频中基于字幕的情景记忆的基准",
+          "titleZh": "CapMem: A Benchmark for Caption-Based Episodic Memory in Egocentric Video",
           "link": "https://arxiv.org/abs/2609.17688",
           "summary": "arXiv:2609.17688v1 Announce Type: new\nAbstract: Wearable assistants require episodic memory over egocentric video, yet current vision-language models face bounded frame budgets, growing visual-token costs, and long-context retrieval failures. Under these practical constraints, we study whether textual captions can serve as reusable episodic memory. We define the Episodic Memory Video Caption QA task and introduce CapMem, a human-annotated benchmark with 75 videos totaling 33.7 hours, and 1,000 multiple-choice questions across 16 scenarios. On long videos (>20 min), full-coverage CaptionQA with 30s and 60s caption windows outperforms direct VideoQA for 10/12 and 8/12 models, respectively. On the same video subset, a matched-frame control across six Qwen models retains mean accuracy gains of 3.22 and 2.55 points, respectively. Our caption-guided retrieve-and-verify harness further improves accuracy by up to 5.3 points. These results support the effectiveness of caption memory for episodic reasoning over long egocentric video.",
-          "summaryZh": "arXiv:2609.17688v1 公告类型：新\n摘要：可穿戴助手需要情景记忆而不是以自我为中心的视频，但当前的视觉语言模型面临有限的帧预算、不断增长的视觉令牌成本和长上下文检索失败。在这些实际限制下，我们研究文本字幕是否可以作为可重用的情景记忆。我们定义了情节记忆视频字幕 QA 任务，并引入了 CapMem，这是一个人工注释的基准测试，包含 75 个视频，总计 33.7 小时，以及 16 个场景的 1,000 个多项选择题。在长视频（>20 分钟）上，具有 30 秒和 60 秒字幕窗口的全覆盖 CaptionQA 的性能分别优于 10/12 和 8/12 模型的直接 VideoQA。在同一视频子集上，六个 Qwen 模型的匹配帧控制分别保留了 3.22 点和 2.55 点的平均精度增益。我们的字幕引导检索和验证工具进一步将准确性提高了 5.3 个百分点。这些结果支持了字幕记忆对于长段自我中心视频的情景推理的有效性。",
+          "summaryZh": "arXiv:2609.17688v1 Announce Type: new\nAbstract: Wearable assistants require episodic memory over egocentric video, yet current vision-language models face bounded frame budgets, growing visual-token costs, and long-context retrieval failures. Under these practical constraints, we study whether textual captions can serve as reusable episodic memory. We define the Episodic Memory Video Caption QA task and introduce CapMem, a human-annotated benchmark with 75 videos totaling 33.7 hours, and 1,000 multiple-choice questions across 16 scenarios. On long videos (>20 min), full-coverage CaptionQA with 30s and 60s caption windows outperforms direct VideoQA for 10/12 and 8/12 models, respectively. On the same video subset, a matched-frame control across six Qwen models retains mean accuracy gains of 3.22 and 2.55 points, respectively. Our caption-guided retrieve-and-verify harness further improves accuracy by up to 5.3 points. These results support the effectiveness of caption memory for episodic reasoning over long egocentric video.",
           "publishedAt": "2026-09-17T04:00:00.000Z",
           "comments": null,
           "author": "Dingli Liang, Yiqiao Xie, Yukai Huang, Zhaokai Wang, Weitong Cai, Guangwen Feng, Jifei Song, Zhensong Zhang, Hang Zhang"
@@ -320,10 +320,10 @@
         {
           "id": "oai:arXiv.org:2609.17695v1",
           "title": "GraphEcho: Structural Redundancy and Evidence Provenance in LLM Graph Agents",
-          "titleZh": "GraphEcho：LLM 图形代理中的结构冗余和证据来源",
+          "titleZh": "GraphEcho: Structural Redundancy and Evidence Provenance in LLM Graph Agents",
           "link": "https://arxiv.org/abs/2609.17695",
           "summary": "arXiv:2609.17695v1 Announce Type: new\nAbstract: A large language model (LLM) agent can follow more graph paths without acquiring more independent evidence. GraphEcho tests whether agents mistake these repeated encounters for additional corroboration. The benchmark varies path counts and evidential origins while holding evidence content fixed, and evaluates both judgments and active exploration. Controlled synthetic experiments reveal model-dependent judgment shifts, but redundant supporting paths increase the share of repeated walks across all evaluated frozen agents. Provenance-aware post-training (PAPT) reduces revisits and improves synthetic accuracy, yet covers fewer distinct sources. On scientific claims, it continues to reduce repetition while accuracy declines. These findings expose a gap between efficient exploration and effective evidence use: an agent can learn to stop repeating itself while overlooking information it needs. GraphEcho provides a controlled way to evaluate both what graph agents conclude and whether their exploration reaches distinct evidential sources.",
-          "summaryZh": "arXiv:2609.17695v1 公告类型：新\n摘要：大型语言模型（LLM）智能体可以遵循更多的图路径，而无需获取更多的独立证据。 GraphEcho 测试代理是否将这些重复的遭遇误认为是额外的佐证。该基准改变路径计数和证据来源，同时保持证据内容固定，并评估判断和主动探索。受控的综合实验揭示了依赖于模型的判断转移，但冗余的支持路径增加了所有评估的冻结代理中重复行走的份额。来源感知后训练 (PAPT) 减少了重访并提高了合成准确性，但涵盖的不同来源较少。在科学主张上，它继续减少重复，但准确性却下降。这些发现揭示了有效探索和有效证据使用之间的差距：智能体可以学会停止重复自己，同时忽略它需要的信息。 GraphEcho 提供了一种受控方法来评估图代理得出的结论以及他们的探索是否达到了不同的证据来源。",
+          "summaryZh": "arXiv:2609.17695v1 Announce Type: new\nAbstract: A large language model (LLM) agent can follow more graph paths without acquiring more independent evidence. GraphEcho tests whether agents mistake these repeated encounters for additional corroboration. The benchmark varies path counts and evidential origins while holding evidence content fixed, and evaluates both judgments and active exploration. Controlled synthetic experiments reveal model-dependent judgment shifts, but redundant supporting paths increase the share of repeated walks across all evaluated frozen agents. Provenance-aware post-training (PAPT) reduces revisits and improves synthetic accuracy, yet covers fewer distinct sources. On scientific claims, it continues to reduce repetition while accuracy declines. These findings expose a gap between efficient exploration and effective evidence use: an agent can learn to stop repeating itself while overlooking information it needs. GraphEcho provides a controlled way to evaluate both what graph agents conclude and whether their exploration reaches distinct evidential sources.",
           "publishedAt": "2026-09-17T04:00:00.000Z",
           "comments": null,
           "author": "Sikun Wang, Yixi Zhou, Lei Fan, Fan Zhang"
@@ -331,10 +331,10 @@
         {
           "id": "oai:arXiv.org:2609.17696v1",
           "title": "GVD: Governed Versioning and Deduplication for Document Repositories",
-          "titleZh": "GVD：文档存储库的受控版本控制和重复数据删除",
+          "titleZh": "GVD: Governed Versioning and Deduplication for Document Repositories",
           "link": "https://arxiv.org/abs/2609.17696",
           "summary": "arXiv:2609.17696v1 Announce Type: new\nAbstract: Document repositories evolve continuously. Guidelines and policies are revised, superseded, and re-uploaded, so the same content recurs in different wording and newer versions refine or contradict earlier ones. These inconsistencies belong to the growing collection rather than to any single document, yet existing work treats versioning, duplicate detection, and contradiction detection as isolated pairwise tasks and stops once a pair is labeled. We present GVD (Governed Versioning and Deduplication), a framework that unifies cross-document version linking with rule-level conflict resolution under an auditable update policy. Incoming documents are assigned to version families through bidirectional rule alignment, and their rules are compared against the family memory to identify duplicates, contradictions, asymmetric refinements, and new knowledge, with Counterfactual Span Probing (CSP) resolving related pairs that inference misclassifies as neutral. Relation-specific policies suppress duplicates and escalate only consequential changes for review, retaining version lineage as an audit trail. The pipeline runs fully locally, with no large language model. On 120 enterprise documents processed as 140 ingestions across 59 version families, GVD reaches an F1 of 0.97 for version-family construction and 0.94 for rule-level consistency, with CSP raising rule consistency from 0.90 to 0.94.",
-          "summaryZh": "arXiv:2609.17696v1 公告类型：新\n摘要：文档存储库不断发展。准则和政策会被修订、取代和重新上传，因此相同的内容会以不同的措辞重复出现，新版本会完善或与旧版本相矛盾。这些不一致属于不断增长的集合，而不是任何单个文档，但现有的工作将版本控制、重复检测和矛盾检测视为孤立的成对任务，一旦一对被标记，就会停止。我们提出了 GVD（受控版本控制和重复数据删除），这是一个框架，它在可审核的更新策略下将跨文档版本链接与规则级冲突解决统一起来。传入文档通过双向规则对齐分配给版本系列，并将其规则与系列内存进行比较，以识别重复、矛盾、不对称细化和新知识，并使用反事实跨度探测 (CSP) 解决推理错误分类为中性的相关对。特定于关系的策略会抑制重复项，并仅升级相应的更改以供审核，并保留版本沿袭作为审计跟踪。该管道完全在本地运行，没有大型语言模型。在跨 59 个版本系列进行 140 次摄取处理的 120 个企业文档中，GVD 版本系列构建的 F1 达到 0.97，规则级别一致性的 F1 达到 0.94，CSP 将规则一致性从 0.90 提高到 0.94。",
+          "summaryZh": "arXiv:2609.17696v1 Announce Type: new\nAbstract: Document repositories evolve continuously. Guidelines and policies are revised, superseded, and re-uploaded, so the same content recurs in different wording and newer versions refine or contradict earlier ones. These inconsistencies belong to the growing collection rather than to any single document, yet existing work treats versioning, duplicate detection, and contradiction detection as isolated pairwise tasks and stops once a pair is labeled. We present GVD (Governed Versioning and Deduplication), a framework that unifies cross-document version linking with rule-level conflict resolution under an auditable update policy. Incoming documents are assigned to version families through bidirectional rule alignment, and their rules are compared against the family memory to identify duplicates, contradictions, asymmetric refinements, and new knowledge, with Counterfactual Span Probing (CSP) resolving related pairs that inference misclassifies as neutral. Relation-specific policies suppress duplicates and escalate only consequential changes for review, retaining version lineage as an audit trail. The pipeline runs fully locally, with no large language model. On 120 enterprise documents processed as 140 ingestions across 59 version families, GVD reaches an F1 of 0.97 for version-family construction and 0.94 for rule-level consistency, with CSP raising rule consistency from 0.90 to 0.94.",
           "publishedAt": "2026-09-17T04:00:00.000Z",
           "comments": null,
           "author": "Mohammadreza Sediqin, Shivali Dalmia, Sumukha Thoppanahalli, Abhishek Mukherji"
@@ -342,10 +342,10 @@
         {
           "id": "oai:arXiv.org:2609.17699v1",
           "title": "NeMo Data Designer: An Extensible Framework for Multimodal Synthetic Data Generation",
-          "titleZh": "NeMo Data Designer：多模式综合数据生成的可扩展框架",
+          "titleZh": "NeMo Data Designer: An Extensible Framework for Multimodal Synthetic Data Generation",
           "link": "https://arxiv.org/abs/2609.17699",
           "summary": "arXiv:2609.17699v1 Announce Type: new\nAbstract: We present NeMo Data Designer (NDD), an open-source, general-purpose framework for multi-modal synthetic data generation (SDG). Designed to be intuitive to use, NDD provides a declarative configuration format in which human and/or agent users define each dataset column, with column types spanning text, code, structured outputs, images, embeddings, and statistical samplers that are explicitly configured to steer dataset diversity. Additional column types and functionality can be introduced using the framework's flexible plugin system. NDD's configuration is an inspectable artifact, supporting workflow sharing and reproducibility. SDG is an inherently iterative process. NDD therefore builds a preview-and-revision loop into its core workflow, allowing users to generate and inspect a small number of records, refine the specification, and rerun generation at full scale. At runtime, NDD resolves dependencies, schedules calls to user-provided model endpoints, and retries failed requests. We describe NDD's architecture and programming model and present case studies spanning structured, agentic, multimodal, and domain-specialized tasks, including datasets used in Nemotron model development and in production enterprise deployments.",
-          "summaryZh": "arXiv:2609.17699v1 公告类型：新\n摘要：我们提出了 NeMo Data Designer (NDD)，这是一个用于多模式合成数据生成 (SDG) 的开源通用框架。 NDD 旨在使用直观，提供了一种声明性配置格式，人类和/或代理用户可以在其中定义每个数据集列，列类型涵盖文本、代码、结构化输出、图像、嵌入和统计采样器，这些列类型经过显式配置以引导数据集多样性。可以使用框架的灵活插件系统引入其他列类型和功能。 NDD 的配置是一个可检查的工件，支持工作流程共享和可重复性。 SDG本质上是一个迭代过程。因此，NDD 在其核心工作流程中构建了预览和修订循环，允许用户生成和检查少量记录、完善规范并全面重新运行生成。在运行时，NDD 解决依赖关系，安排对用户提供的模型端点的调用，并重试失败的请求。我们描述了 NDD 的架构和编程模型，并展示了涵盖结构化、代理、多模式和领域专业任务的案例研究，包括 Nemotron 模型开发和生产企业部署中使用的数据集。",
+          "summaryZh": "arXiv:2609.17699v1 Announce Type: new\nAbstract: We present NeMo Data Designer (NDD), an open-source, general-purpose framework for multi-modal synthetic data generation (SDG). Designed to be intuitive to use, NDD provides a declarative configuration format in which human and/or agent users define each dataset column, with column types spanning text, code, structured outputs, images, embeddings, and statistical samplers that are explicitly configured to steer dataset diversity. Additional column types and functionality can be introduced using the framework's flexible plugin system. NDD's configuration is an inspectable artifact, supporting workflow sharing and reproducibility. SDG is an inherently iterative process. NDD therefore builds a preview-and-revision loop into its core workflow, allowing users to generate and inspect a small number of records, refine the specification, and rerun generation at full scale. At runtime, NDD resolves dependencies, schedules calls to user-provided model endpoints, and retries failed requests. We describe NDD's architecture and programming model and present case studies spanning structured, agentic, multimodal, and domain-specialized tasks, including datasets used in Nemotron model development and in production enterprise deployments.",
           "publishedAt": "2026-09-17T04:00:00.000Z",
           "comments": null,
           "author": "Johnny Greco, Nabin Mulepati, Andre Manoel, Eric Tramel, Kirit Thadaka, Mike Knepper, Dhruv Nathawani, Dane Corneil, Yev Meyer, Alex Watson, Maarten Van Segbroeck"
@@ -353,10 +353,10 @@
         {
           "id": "oai:arXiv.org:2609.17731v1",
           "title": "A Systematic Evaluation of the COTQ Provincial Land Cover Product: Structural Consistency, Spectral Separability, and Relative Positioning Against ESA, ESRI, and Google Products",
-          "titleZh": "COTQ 省级土地覆盖产品的系统评估：结构一致性、光谱可分离性以及针对 ESA、ESRI 和 Google 产品的相对定位",
+          "titleZh": "A Systematic Evaluation of the COTQ Provincial Land Cover Product: Structural Consistency, Spectral Separability, and Relative Positioning Against ESA, ESRI, and Google Products",
           "link": "https://arxiv.org/abs/2609.17731",
           "summary": "arXiv:2609.17731v1 Announce Type: new\nAbstract: High-resolution land use and land cover (LULC) products derived from Sentinel-2 imagery are widely used for environmental monitoring and land management, yet their performance can vary across regions with complex ecological gradients and heterogeneous surface conditions. In Quebec, these limitations motivated the development of a provincial 10-m land-cover product, the COTQ, designed to support annual monitoring of land occupation and soil artificialisation. This study presents a systematic evaluation of the COTQ product relative to three global 10-m LULC datasets: ESA WorldCover, ESRI LandCover, and Google DynamicWorld. This paper does not introduce a new mapping methodology but focuses on analysing the behaviour and consistency of the COTQ using complementary evaluation approaches. All products are harmonized under a common legend and compared using structural indicators (object-size distributions, shape complexity, Adjusted Rand Index, and Intersection over Union), spectral separability metrics derived from Sentinel-2 reflectance data, and a targeted photo-interpretation of disagreement areas. The analysis is conducted over eight Sentinel-2 tiles selected to represent the main bioclimatic domains of Qu\\'ebec, from temperate and boreal forests to northern tundra environments. The results show that the COTQ exhibits structural and spectral characteristics most similar to ESA WorldCover among the reference global products, while revealing systematic differences linked to class definitions and thematic priorities, particularly for urban areas, wetlands, and rocky or cryptogamic surfaces. This multi-criteria evaluation provides an objective characterization of the COTQ product and clarifies its relative positioning with respect to existing global land-cover datasets for operational land monitoring in Qu\\'ebec.",
-          "summaryZh": "arXiv:2609.17731v1 公告类型：新\n摘要：源自 Sentinel-2 图像的高分辨率土地利用和土地覆盖 (LULC) 产品广泛用于环境监测和土地管理，但其性能可能因生态梯度复杂和地表条件不均匀的地区而异。在魁北克省，这些限制促使开发省级 10 米土地覆盖产品 COTQ，旨在支持对土地占用和土壤人工化的年度监测。本研究针对三个全球 10 米 LULC 数据集（ESA WorldCover、ESRI LandCover 和 Google DynamicWorld）对 COTQ 产品进行了系统评估。本文没有引入新的映射方法，而是重点使用补充评估方法来分析 COTQ 的行为和一致性。所有产品都在一个共同的图例下进行协调，并使用结构指标（物体尺寸分布、形状复杂性、调整兰德指数和并集交集）、源自 Sentinel-2 反射率数据的光谱可分离性指标以及对分歧区域的有针对性的照片解释进行比较。该分析是在八个 Sentinel-2 图块上进行的，这些图块代表了魁北克的主要生物气候领域，从温带和北方森林到北部苔原环境。结果表明，在参考全球产品中，COTQ 表现出与 ESA WorldCover 最相似的结构和光谱特征，同时揭示了与类别定义和主题优先级相关的系统差异，特别是对于城市地区、湿地以及岩石或隐花表面。这项多标准评估提供了 COTQ 产品的客观特征，并阐明了其相对于魁北克省可操作土地监测的现有全球土地覆盖数据集的相对定位。",
+          "summaryZh": "arXiv:2609.17731v1 Announce Type: new\nAbstract: High-resolution land use and land cover (LULC) products derived from Sentinel-2 imagery are widely used for environmental monitoring and land management, yet their performance can vary across regions with complex ecological gradients and heterogeneous surface conditions. In Quebec, these limitations motivated the development of a provincial 10-m land-cover product, the COTQ, designed to support annual monitoring of land occupation and soil artificialisation. This study presents a systematic evaluation of the COTQ product relative to three global 10-m LULC datasets: ESA WorldCover, ESRI LandCover, and Google DynamicWorld. This paper does not introduce a new mapping methodology but focuses on analysing the behaviour and consistency of the COTQ using complementary evaluation approaches. All products are harmonized under a common legend and compared using structural indicators (object-size distributions, shape complexity, Adjusted Rand Index, and Intersection over Union), spectral separability metrics derived from Sentinel-2 reflectance data, and a targeted photo-interpretation of disagreement areas. The analysis is conducted over eight Sentinel-2 tiles selected to represent the main bioclimatic domains of Qu\\'ebec, from temperate and boreal forests to northern tundra environments. The results show that the COTQ exhibits structural and spectral characteristics most similar to ESA WorldCover among the reference global products, while revealing systematic differences linked to class definitions and thematic priorities, particularly for urban areas, wetlands, and rocky or cryptogamic surfaces. This multi-criteria evaluation provides an objective characterization of the COTQ product and clarifies its relative positioning with respect to existing global land-cover datasets for operational land monitoring in Qu\\'ebec.",
           "publishedAt": "2026-09-17T04:00:00.000Z",
           "comments": null,
           "author": "\\'Etienne Clabaut, Samuel Foucher, Yacine Bouroubi"
@@ -364,10 +364,10 @@
         {
           "id": "oai:arXiv.org:2609.17757v1",
           "title": "Imitation Learning for Autonomous Driving in CARLA",
-          "titleZh": "CARLA 中自动驾驶的模仿学习",
+          "titleZh": "Imitation Learning for Autonomous Driving in CARLA",
           "link": "https://arxiv.org/abs/2609.17757",
           "summary": "arXiv:2609.17757v1 Announce Type: new\nAbstract: Behavioral cloning trains a policy offline on expert demonstrations, but deployment is closed loop: each action affects the observations the policy receives next. We study how much closed-loop driving competence a compact multimodal policy can acquire from offline demonstrations in the CARLA simulator. The policy uses five-frame histories of RGB images, LiDAR, vehicle telemetry, and lane waypoints to predict throttle, brake, and steering at 20 Hz. Demonstrations were collected in three stages, ending with a systematic route-generation procedure that enumerates spawn points and feasible maneuvers and verifies completed autopilot routes. The released 1.36 million parameter policy was trained on 236,882 windows, representing about 3.3 hours of driving from 448 captures. The resulting policy drives autonomously for hours on training and held-out routes. In our runs, it did so without collisions and also transferred qualitatively to an unseen CARLA town with different road geometry. We also observed recovery from large trajectory deviations, although we do not claim systematic recovery without controlled evaluation. We report offline metrics and distinguish measured results from qualitative closed-loop observations. We release the code, trained checkpoint, ONNX model, data sample, and an evidence audit for the reported claims.",
-          "summaryZh": "arXiv:2609.17757v1 公告类型：新\n摘要：行为克隆在专家演示中离线训练策略，但部署是闭环的：每个操作都会影响策略接下来收到的观察结果。我们研究了紧凑型多式联运政策可以通过 CARLA 模拟器的离线演示获得多少闭环驾驶能力。该策略使用 RGB 图像、LiDAR、车辆遥测和车道路点的五帧历史来预测 20 Hz 的油门、制动和转向。演示分三个阶段进行，最后是系统性的路线生成程序，该程序枚举重生点和可行的操作，并验证完整的自动驾驶路线。发布的 136 万个参数策略在 236,882 个窗口上进行了训练，相当于 448 个捕获的大约 3.3 小时的驾驶时间。由此产生的策略可以在训练和保留路线上自动驾驶数小时。在我们的运行中，它没有发生碰撞，并且还定性地转移到了一个具有不同道路几何形状的看不见的 CARLA 城镇。我们还观察到从大的轨迹偏差中恢复，尽管我们不声称没有受控评估的系统恢复。我们报告离线指标并将测量结果与定性闭环观察区分开来。我们发布代码、经过训练的检查点、ONNX 模型、数据样本以及针对所报告索赔的证据审核。",
+          "summaryZh": "arXiv:2609.17757v1 Announce Type: new\nAbstract: Behavioral cloning trains a policy offline on expert demonstrations, but deployment is closed loop: each action affects the observations the policy receives next. We study how much closed-loop driving competence a compact multimodal policy can acquire from offline demonstrations in the CARLA simulator. The policy uses five-frame histories of RGB images, LiDAR, vehicle telemetry, and lane waypoints to predict throttle, brake, and steering at 20 Hz. Demonstrations were collected in three stages, ending with a systematic route-generation procedure that enumerates spawn points and feasible maneuvers and verifies completed autopilot routes. The released 1.36 million parameter policy was trained on 236,882 windows, representing about 3.3 hours of driving from 448 captures. The resulting policy drives autonomously for hours on training and held-out routes. In our runs, it did so without collisions and also transferred qualitatively to an unseen CARLA town with different road geometry. We also observed recovery from large trajectory deviations, although we do not claim systematic recovery without controlled evaluation. We report offline metrics and distinguish measured results from qualitative closed-loop observations. We release the code, trained checkpoint, ONNX model, data sample, and an evidence audit for the reported claims.",
           "publishedAt": "2026-09-17T04:00:00.000Z",
           "comments": null,
           "author": "Jordy Kieto"
@@ -375,10 +375,10 @@
         {
           "id": "oai:arXiv.org:2609.17775v1",
           "title": "SAGE: Governed Artifact Generation from Enterprise Guidelines",
-          "titleZh": "SAGE：根据企业指南管理工件生成",
+          "titleZh": "SAGE: Governed Artifact Generation from Enterprise Guidelines",
           "link": "https://arxiv.org/abs/2609.17775",
           "summary": "arXiv:2609.17775v1 Announce Type: new\nAbstract: Enterprise guideline documents mix narrative text, complex tables, and embedded images, and converting them into structured work artifacts still takes two to three days of manual effort each. Current language and vision-language models extract from such documents but offer no governed workflow beyond extraction: no validation, no consistency checking, no traceable artifact generation. We introduce SAGE, a governed multi-stage LLM pipeline organized around a shared versioned rule store with stable identifiers, schema-validated inter-stage contracts, and end-to-end provenance tracking. Extracted rules undergo deterministic structural validation and LLM-based semantic scoring, then a consistency module that removes duplicates, flags contradictions, and surfaces specification gaps; only uncertain or flagged items reach reviewers, while high-confidence outputs are auto-approved. On 120 documents, SAGE cuts turnaround from days to 20-100 minutes, achieving a 96% document-level success rate with 3.2% hallucination, extracting 3,896 rules and producing 812 artifacts ready for human review; without governance, hallucination rises to 15.7%.",
-          "summaryZh": "arXiv:2609.17775v1 公告类型：新\n摘要：企业指南文档混合了叙述性文本、复杂表格和嵌入图像，将它们转换为结构化工作工件仍然需要两到三天的手动工作。当前的语言和视觉语言模型从此类文档中提取数据，但除提取之外不提供受管控的工作流程：没有验证、没有一致性检查、没有可追踪的工件生成。我们引入了 SAGE，这是一个受管理的多阶段 LLM 管道，围绕具有稳定标识符、模式验证的阶段间合约和端到端来源跟踪的共享版本规则存储进行组织。提取的规则经过确定性结构验证和基于 LLM 的语义评分，然后是一个一致性模块，用于删除重复项、标记矛盾和表面规范差距；只有不确定或标记的项目才会到达审阅者，而高可信度的输出会被自动批准。在 120 个文档上，SAGE 将周转时间从几天缩短到 20-100 分钟，实现了 96% 的文档级成功率和 3.2% 的幻觉，提取了 3,896 条规则并生成了 812 个可供人工审查的工件；如果不加以治理，出现幻觉的比例将上升至15.7%。",
+          "summaryZh": "arXiv:2609.17775v1 Announce Type: new\nAbstract: Enterprise guideline documents mix narrative text, complex tables, and embedded images, and converting them into structured work artifacts still takes two to three days of manual effort each. Current language and vision-language models extract from such documents but offer no governed workflow beyond extraction: no validation, no consistency checking, no traceable artifact generation. We introduce SAGE, a governed multi-stage LLM pipeline organized around a shared versioned rule store with stable identifiers, schema-validated inter-stage contracts, and end-to-end provenance tracking. Extracted rules undergo deterministic structural validation and LLM-based semantic scoring, then a consistency module that removes duplicates, flags contradictions, and surfaces specification gaps; only uncertain or flagged items reach reviewers, while high-confidence outputs are auto-approved. On 120 documents, SAGE cuts turnaround from days to 20-100 minutes, achieving a 96% document-level success rate with 3.2% hallucination, extracting 3,896 rules and producing 812 artifacts ready for human review; without governance, hallucination rises to 15.7%.",
           "publishedAt": "2026-09-17T04:00:00.000Z",
           "comments": null,
           "author": "Mohammadreza Sediqin, Shivali Dalmia, Sumukha Thoppanahalli, Srinivasa Karthikeya Reddy Kovvuri, Abhishek Mukherji"
@@ -386,10 +386,10 @@
         {
           "id": "oai:arXiv.org:2609.17786v1",
           "title": "FairCompressAgent: An Agentic Framework for Fairness-Aware Model Compression for FPGA Deployment",
-          "titleZh": "FairCompressAgent：用于 FPGA 部署的公平感知模型压缩的代理框架",
+          "titleZh": "FairCompressAgent: An Agentic Framework for Fairness-Aware Model Compression for FPGA Deployment",
           "link": "https://arxiv.org/abs/2609.17786",
           "summary": "arXiv:2609.17786v1 Announce Type: new\nAbstract: Fairness-aware model compression requires selecting methods and configurations that balance accuracy, fairness, and deployment cost. These decisions become more difficult when compression methods are composed or the user's requirements change. In this paper, we propose FairCompressAgent (FCA), an agentic framework that integrates fairness-aware pruning, incremental quantization, and sparse low-rank factorization through a common operator interface. A language-model planner uses model profiles and measured outcomes to select compression configurations, while an execution layer performs compression, fine-tuning, evaluation, and constraint-based selection. FCA also supports requirement updates and reports the remaining violation when a request cannot be satisfied. Experiments on Fitzpatrick-17k with VGG-11 compare four search methods over 40 measured configurations. Under the accuracy-constrained request, FCA selects a compressed model with 59.54% less inference tensor storage, while validation average precision increases from 0.5141 to 0.5233 and equalized opportunity (EOpp) decreases from 0.2251 to 0.2168. It reaches the same final selection as one-shot planning with 7.33 versus 12 candidate evaluations on average, under their respective stopping policies. Repeated fine-tuning, held-out testing, and online requirement updates characterize the stability and interactive use of this compression workflow. The results demonstrate how measured feedback and explicit constraints support the selection and interactive refinement of fairness-aware compression configurations.",
-          "summaryZh": "arXiv:2609.17786v1 公告类型：新\n摘要：公平感知模型压缩需要选择平衡准确性、公平性和部署成本的方法和配置。当压缩方法组合或用户需求改变时，这些决策变得更加困难。在本文中，我们提出了 FairCompressAgent (FCA)，这是一种代理框架，通过通用算子接口集成了公平感知剪枝、增量量化和稀疏低秩分解。语言模型规划器使用模型配置文件和测量的结果来选择压缩配置，而执行层则执行压缩、微调、评估和基于约束的选择。 FCA 还支持要求更新，并在无法满足请求时报告剩余的违规情况。 Fitzpatrick-17k 与 VGG-11 的实验比较了 40 种测量配置的四种搜索方法。在精度受限的要求下，FCA 选择推理张量存储减少 59.54% 的压缩模型，同时验证平均精度从 0.5141 增加到 0.5233，均衡机会 (EOpp) 从 0.2251 减少到 0.2168。在各自的停止策略下，它达到了与一次性规划相同的最终选择，平均 7.33 比 12 个候选评估。反复微调、保留测试和在线需求更新体现了该压缩工作流程的稳定性和交互式使用。结果证明了测量的反馈和显式约束如何支持公平感知压缩配置的选择和交互细化。",
+          "summaryZh": "arXiv:2609.17786v1 Announce Type: new\nAbstract: Fairness-aware model compression requires selecting methods and configurations that balance accuracy, fairness, and deployment cost. These decisions become more difficult when compression methods are composed or the user's requirements change. In this paper, we propose FairCompressAgent (FCA), an agentic framework that integrates fairness-aware pruning, incremental quantization, and sparse low-rank factorization through a common operator interface. A language-model planner uses model profiles and measured outcomes to select compression configurations, while an execution layer performs compression, fine-tuning, evaluation, and constraint-based selection. FCA also supports requirement updates and reports the remaining violation when a request cannot be satisfied. Experiments on Fitzpatrick-17k with VGG-11 compare four search methods over 40 measured configurations. Under the accuracy-constrained request, FCA selects a compressed model with 59.54% less inference tensor storage, while validation average precision increases from 0.5141 to 0.5233 and equalized opportunity (EOpp) decreases from 0.2251 to 0.2168. It reaches the same final selection as one-shot planning with 7.33 versus 12 candidate evaluations on average, under their respective stopping policies. Repeated fine-tuning, held-out testing, and online requirement updates characterize the stability and interactive use of this compression workflow. The results demonstrate how measured feedback and explicit constraints support the selection and interactive refinement of fairness-aware compression configurations.",
           "publishedAt": "2026-09-17T04:00:00.000Z",
           "comments": null,
           "author": "Yuanbo Guo, Yiyu Shi"
@@ -397,10 +397,10 @@
         {
           "id": "oai:arXiv.org:2609.17804v1",
           "title": "A Four-Stage Decomposition of Word-Problem Solving and Mechanistic Fragility in LLM Math Reasoning",
-          "titleZh": "LLM数学推理中单词问题解决和机制脆弱性的四阶段分解",
+          "titleZh": "A Four-Stage Decomposition of Word-Problem Solving and Mechanistic Fragility in LLM Math Reasoning",
           "link": "https://arxiv.org/abs/2609.17804",
           "summary": "arXiv:2609.17804v1 Announce Type: new\nAbstract: Large language models solve grade-school math word problems with high accuracy, yet a single irrelevant clause inserted into the problem can collapse it. We reconcile these observations with a mechanistic account. We show that the model's internal computation decomposes into a four-stage sequential pipeline, Schema Abstraction, Operation Planning, Operand Binding, and Computation, each stage producing a distinct intermediate representation in an identifiable band of layers. Using the same scaffold to diagnose distractor-induced failure, we localize the corruption to a single stage, Operation Planning, implemented by a set of attention heads whose causal role we validate bidirectionally. In short, we provide a mechanistic interpretation of math word problem reasoning in LLMs, and their failure when distracted.",
-          "summaryZh": "arXiv:2609.17804v1 公告类型：新\n摘要：大型语言模型可以高精度解决小学数学应用题，但插入问题中的单个不相关子句可能会导致问题崩溃。我们将这些观察结果与机械解释相协调。我们展示了模型的内部计算分解为四阶段顺序管道、模式抽象、操作规划、操作数绑定和计算，每个阶段在可识别的层带中产生不同的中间表示。使用相同的支架来诊断干扰引起的故障，我们将损坏定位到单个阶段，即操作计划，由一组注意力头实施，我们双向验证其因果作用。简而言之，我们对法学硕士的数学应用题推理以及他们在分心时的失败提供了机械解释。",
+          "summaryZh": "arXiv:2609.17804v1 Announce Type: new\nAbstract: Large language models solve grade-school math word problems with high accuracy, yet a single irrelevant clause inserted into the problem can collapse it. We reconcile these observations with a mechanistic account. We show that the model's internal computation decomposes into a four-stage sequential pipeline, Schema Abstraction, Operation Planning, Operand Binding, and Computation, each stage producing a distinct intermediate representation in an identifiable band of layers. Using the same scaffold to diagnose distractor-induced failure, we localize the corruption to a single stage, Operation Planning, implemented by a set of attention heads whose causal role we validate bidirectionally. In short, we provide a mechanistic interpretation of math word problem reasoning in LLMs, and their failure when distracted.",
           "publishedAt": "2026-09-17T04:00:00.000Z",
           "comments": null,
           "author": "Zhongdi Qu, Carla P. Gomes"
@@ -408,10 +408,10 @@
         {
           "id": "oai:arXiv.org:2609.17847v1",
           "title": "Learning Heterogeneous Preferences",
-          "titleZh": "学习异质偏好",
+          "titleZh": "Learning Heterogeneous Preferences",
           "link": "https://arxiv.org/abs/2609.17847",
           "summary": "arXiv:2609.17847v1 Announce Type: new\nAbstract: Learning from human feedback has become a central paradigm for training modern AI systems, where models of human utility are used as reward models in policy learning. Existing methods typically assume a \\emph{universal utility} function shared across a population and treat disagreement between annotators as stochastic variation. While suitable for objective tasks, this assumption breaks down in subjective domains where preferences vary systematically across individuals. We study the problem of subjective preference learning, in which observed choices arise from heterogeneous but internally consistent utility functions. Drawing upon rational choice theory, RCT \\parencite{tversky1981framing}, we introduce \\emph{individuated utility} functions conditioned on both the individual and their decision context, and propose a novel multi-stage architecture for estimating them from multi-modal data. We evaluate our framework on a newly collected dataset of more than $575{,}000$ pairwise aesthetic judgments from $2{,}398$ participants comparing automotive wheel designs. Our experiments show that individuated utility models substantially outperform universal utility models including foundation model baselines. Our results demonstrate that disagreement reflects meaningful preference heterogeneity rather than annotation noise. More broadly, our findings highlight the importance of collecting annotator attributes and learning individuated utility functions, enabling reward models that explicitly account for whose preferences they represent and faithfully capture human decision diversity.",
-          "summaryZh": "arXiv:2609.17847v1 公告类型：新\n摘要：从人类反馈中学习已成为训练现代人工智能系统的中心范例，其中人类效用模型被用作政策学习中的奖励模型。现有的方法通常假设一个在群体中共享的\\emph{通用效用}函数，并将注释者之间的分歧视为随机变化。虽然这种假设适用于客观任务，但在主观领域中就站不住脚了，在主观领域中，个体的偏好存在系统性差异。我们研究主观偏好学习问题，其中观察到的选择来自异质但内部一致的效用函数。借鉴理性选择理论 RCT \\parencite{tversky1981framing}，我们引入了以个体及其决策背景为条件的 \\emph{individuated utility} 函数，并提出了一种新颖的多阶段架构，用于根据多模态数据估计它们。我们在新收集的数据集上评估我们的框架，该数据集包含来自比较汽车车轮设计的 2 美元{,}398 美元参与者的超过 575 美元{,}000 美元的成对审美判断。我们的实验表明，个性化实用模型大大优于包括基础模型基线在内的通用实用模型。我们的结果表明，分歧反映了有意义的偏好异质性，而不是注释噪音。更广泛地说，我们的研究结果强调了收集注释器属性和学习个性化效用函数的重要性，从而使奖励模型能够明确说明它们所代表的偏好并忠实地捕捉人类决策的多样性。",
+          "summaryZh": "arXiv:2609.17847v1 Announce Type: new\nAbstract: Learning from human feedback has become a central paradigm for training modern AI systems, where models of human utility are used as reward models in policy learning. Existing methods typically assume a \\emph{universal utility} function shared across a population and treat disagreement between annotators as stochastic variation. While suitable for objective tasks, this assumption breaks down in subjective domains where preferences vary systematically across individuals. We study the problem of subjective preference learning, in which observed choices arise from heterogeneous but internally consistent utility functions. Drawing upon rational choice theory, RCT \\parencite{tversky1981framing}, we introduce \\emph{individuated utility} functions conditioned on both the individual and their decision context, and propose a novel multi-stage architecture for estimating them from multi-modal data. We evaluate our framework on a newly collected dataset of more than $575{,}000$ pairwise aesthetic judgments from $2{,}398$ participants comparing automotive wheel designs. Our experiments show that individuated utility models substantially outperform universal utility models including foundation model baselines. Our results demonstrate that disagreement reflects meaningful preference heterogeneity rather than annotation noise. More broadly, our findings highlight the importance of collecting annotator attributes and learning individuated utility functions, enabling reward models that explicitly account for whose preferences they represent and faithfully capture human decision diversity.",
           "publishedAt": "2026-09-17T04:00:00.000Z",
           "comments": null,
           "author": "Shiwali Mohan, Matt Hong, Dule Shu, Aniek Fransen, Shabnam Hakimi, Matt Klenk"
@@ -424,16 +424,16 @@
       "url": "https://rss.arxiv.org/rss/cs.LG",
       "home": "https://arxiv.org/list/cs.LG/recent",
       "group": "arxiv",
-      "fetchedAt": "2026-09-17T16:03:14.082Z",
+      "fetchedAt": "2026-09-17T20:51:12.033Z",
       "count": 15,
       "items": [
         {
           "id": "oai:arXiv.org:2609.17560v1",
           "title": "Pay Only for Disagreement: Certified No-Regression Verdicts for Model Updates with Matching Label-Complexity Bounds",
-          "titleZh": "只为分歧付费：具有匹配标签复杂性界限的模型更新的经过认证的无回归判决",
+          "titleZh": "Pay Only for Disagreement: Certified No-Regression Verdicts for Model Updates with Matching Label-Complexity Bounds",
           "link": "https://arxiv.org/abs/2609.17560",
           "summary": "arXiv:2609.17560v1 Announce Type: new\nAbstract: Every production model is updated, by retraining, fine-tuning, quantization, or a silent vendor swap, and each update risks being worse than what it replaced. We formalize update promotion as certified paired risk-difference auditing. Our starting point is a support identity: the risk difference between two models lives on the inputs where they disagree, observable without labels. We build DISCERN, a sequential two-tier protocol. A zero-label tier certifies benign updates whose disagreement rate is below tolerance from unlabeled traffic alone. An audited tier labels only sampled disagreements through an anytime-valid confidence sequence, valid at every stopping time and under any label-routing rule, even an adversarial judge. We prove finite-sample validity and matching label-complexity bounds of order rho^2/eps^2 at the rate level, so exploiting free disagreement provably saves a factor 1/rho over any pairing-blind auditor, and the guarantee composes across an unbounded sequence of promotions from one error budget. Across 14,000+ replayed audit streams over 785 update pairs, including LoRA fine-tunes of language models up to 1.4B parameters, miscoverage is 0.0002 (nominal 5%), power 0.986 with zero false alarms, and 56% of benign updates certify with zero labels. Each audit emits a machine-checkable evidence record for post-market monitoring.",
-          "summaryZh": "arXiv:2609.17560v1 公告类型：新\n摘要：每个生产模型都会通过重新训练、微调、量化或静默供应商交换来更新，并且每次更新都有可能比它所取代的模型更糟糕。我们将更新升级正式化为经过认证的配对风险差异审计。我们的出发点是支持恒等式：两个模型之间的风险差异取决于它们不一致的输入，无需标签即可观察到。我们构建了 DISCERN，一个顺序两层协议。零标签层证明良性更新，其不一致率低于单独未标记流量的容忍度。经过审计的层标签仅通过随时有效的置信序列对分歧进行抽样，该序列在每个停止时间和任何标签路由规则下都有效，甚至是对抗性法官。我们在速率水平上证明了有限样本有效性和匹配标签复杂性界限 rho^2/eps^2 ，因此利用自由分歧可以证明比任何配对盲审核员节省了 1/rho 因子，并且保证涵盖了来自一个错误预算的无界促销序列。在超过 785 个更新对的 14,000 多个重播审核流中，包括 LoRA 对语言模型进行高达 1.4B 参数的微调，错误覆盖率为 0.0002（标称 5%），功效为 0.986，零误报，56% 的良性更新证明零标签。每次审核都会发出可机器检查的证据记录，用于上市后监控。",
+          "summaryZh": "arXiv:2609.17560v1 Announce Type: new\nAbstract: Every production model is updated, by retraining, fine-tuning, quantization, or a silent vendor swap, and each update risks being worse than what it replaced. We formalize update promotion as certified paired risk-difference auditing. Our starting point is a support identity: the risk difference between two models lives on the inputs where they disagree, observable without labels. We build DISCERN, a sequential two-tier protocol. A zero-label tier certifies benign updates whose disagreement rate is below tolerance from unlabeled traffic alone. An audited tier labels only sampled disagreements through an anytime-valid confidence sequence, valid at every stopping time and under any label-routing rule, even an adversarial judge. We prove finite-sample validity and matching label-complexity bounds of order rho^2/eps^2 at the rate level, so exploiting free disagreement provably saves a factor 1/rho over any pairing-blind auditor, and the guarantee composes across an unbounded sequence of promotions from one error budget. Across 14,000+ replayed audit streams over 785 update pairs, including LoRA fine-tunes of language models up to 1.4B parameters, miscoverage is 0.0002 (nominal 5%), power 0.986 with zero false alarms, and 56% of benign updates certify with zero labels. Each audit emits a machine-checkable evidence record for post-market monitoring.",
           "publishedAt": "2026-09-17T04:00:00.000Z",
           "comments": null,
           "author": "Vishnu Bindu Balachandran"
@@ -441,10 +441,10 @@
         {
           "id": "oai:arXiv.org:2609.17564v1",
           "title": "Beyond Static RAG: An Adaptive, Tri-Metric Routing Framework for Efficient Long-Context Inference on Commodity GPUs",
-          "titleZh": "超越静态 RAG：用于在商品 GPU 上进行高效长上下文推理的自适应三度量路由框架",
+          "titleZh": "Beyond Static RAG: An Adaptive, Tri-Metric Routing Framework for Efficient Long-Context Inference on Commodity GPUs",
           "link": "https://arxiv.org/abs/2609.17564",
           "summary": "arXiv:2609.17564v1 Announce Type: new\nAbstract: Deploying retrieval-augmented generation (RAG) on commodity GPUs such as the NVIDIA T4 (16 GB VRAM) exposes a practical failure mode we call the Compression Paradox: neural prompt compression can add key-value (KV) cache contention and preprocessing latency that outweigh generation-time savings, while skipping compression can cause out-of-memory (OOM) failures on long contexts. We identify two distinct failure mechanisms when a vLLM-served LLM and a PyTorch-based compressor are co-deployed under tight memory budgets, and introduce the Tri-Metric Router, a deterministic, training-free policy that selects among Raw, Neural (LLMLingua-2), and Lexical (BM25) pipelines. The router uses three CPU-side signals: spatial complexity ($L$), syntactic density ($\\rho_{key}$), and type-token ratio (TTR). Unlike prior semantic-only adaptation, our dispatch signal is hardware-physical, based on VRAM headroom and a latency crossover point. Thresholds are calibrated from profiling on LongBench qasper, yielding an operating crossover near 4,332 words on T4; our contribution is this calibration methodology rather than a hardware-specific constant. On out-of-distribution holdouts, the method achieves 0% OOM failures, 88.5 $\\pm$ 4.4% oracle alignment, and 49.3% Combined F1, improving over always-on lexical compression by 5.2 points without additional VRAM or training cost.",
-          "summaryZh": "arXiv:2609.17564v1 公告类型：新\n摘要：在 NVIDIA T4（16 GB VRAM）等商用 GPU 上部署检索增强生成（RAG）暴露了一种我们称之为压缩悖论的实际故障模式：神经提示压缩可能会增加键值（KV）缓存争用和预处理延迟，从而超过生成时间节省，而跳过压缩可能会导致长上下文中的内存不足（OOM）故障。当 vLLM 服务的 LLM 和基于 PyTorch 的压缩器在内存预算紧张的情况下共同部署时，我们确定了两种不同的故障机制，并引入了 Tri-Metric Router，这是一种确定性、免训练的策略，可以在原始、神经 (LLMLingua-2) 和词法 (BM25) 管道之间进行选择。路由器使用三个 CPU 端信号：空间复杂度 ($L$)、句法密度 ($\\rho_{key}$) 和类型标记比 (TTR)。与之前的纯语义自适应不同，我们的调度信号是硬件物理的，基于 VRAM 余量和延迟交叉点。阈值根据 LongBench qasper 上的分析进行校准，在 T4 上产生接近 4,332 个字的操作交叉；我们的贡献是这种校准方法，而不是特定于硬件的常数。在分布外坚持时，该方法实现了 0% OOM 失败、88.5 $\\pm$ 4.4% 预言机对齐和 49.3% 组合 F1，比始终在线的词法压缩提高了 5.2 个点，而无需额外的 VRAM 或训练成本。",
+          "summaryZh": "arXiv:2609.17564v1 Announce Type: new\nAbstract: Deploying retrieval-augmented generation (RAG) on commodity GPUs such as the NVIDIA T4 (16 GB VRAM) exposes a practical failure mode we call the Compression Paradox: neural prompt compression can add key-value (KV) cache contention and preprocessing latency that outweigh generation-time savings, while skipping compression can cause out-of-memory (OOM) failures on long contexts. We identify two distinct failure mechanisms when a vLLM-served LLM and a PyTorch-based compressor are co-deployed under tight memory budgets, and introduce the Tri-Metric Router, a deterministic, training-free policy that selects among Raw, Neural (LLMLingua-2), and Lexical (BM25) pipelines. The router uses three CPU-side signals: spatial complexity ($L$), syntactic density ($\\rho_{key}$), and type-token ratio (TTR). Unlike prior semantic-only adaptation, our dispatch signal is hardware-physical, based on VRAM headroom and a latency crossover point. Thresholds are calibrated from profiling on LongBench qasper, yielding an operating crossover near 4,332 words on T4; our contribution is this calibration methodology rather than a hardware-specific constant. On out-of-distribution holdouts, the method achieves 0% OOM failures, 88.5 $\\pm$ 4.4% oracle alignment, and 49.3% Combined F1, improving over always-on lexical compression by 5.2 points without additional VRAM or training cost.",
           "publishedAt": "2026-09-17T04:00:00.000Z",
           "comments": null,
           "author": "Saipraveen Vabbilisetty, Ajay Kumar Boddepalli, Deep Narayan Mishra, Shashank Kapadia, Haoan Wang, Anupriya Sharma"
@@ -452,10 +452,10 @@
         {
           "id": "oai:arXiv.org:2609.17571v1",
           "title": "Where Grokking Happens: Distributed Utility and Fourier Recoding Without a Module Switch",
-          "titleZh": "Grokking 发生的地方：分布式实用程序和无需模块切换的傅立叶重新编码",
+          "titleZh": "Where Grokking Happens: Distributed Utility and Fourier Recoding Without a Module Switch",
           "link": "https://arxiv.org/abs/2609.17571",
           "summary": "arXiv:2609.17571v1 Announce Type: new\nAbstract: Where in a Transformer is the change from memorization to generalization functionally expressed? We introduce Transition Games--behavior-aligned exact activation games with paired non-generalizing controls--and find distributed utility gain with a prospective block-0 attention bias; selected degree-two modes account for 67--92% of its addition contrast across replacement games, and a disjoint exact path study confirms that block-1 MLP mediates more of their effect than all other tested downstream paths in 12/12 pairs. The sharper \"MLP memorizes, attention generalizes\" prediction instead reverses (-.331 bits/example at the memory anchor; 0/12 in the predicted direction), while routing onset, global rank collapse, and a prime-invariant architecture ridge also fail, identifying grokking here as spectral recoding of an existing distributed circuit rather than a module switch.",
-          "summaryZh": "arXiv:2609.17571v1 公告类型：新\n摘要：Transformer 中从记忆到泛化的变化在函数上表达在哪里？我们引入了过渡游戏（Transition Games）——行为一致的精确激活游戏，具有配对的非泛化控制——并发现具有预期区块 0 注意力偏差的分布式效用增益；选定的二级模式在替换游戏中占其附加对比度的 67--92%，并且一项不相交的精确路径研究证实，在 12/12 对中，块 1 MLP 比所有其他测试的下游路径更能调节其效果。更清晰的“MLP 记忆，注意力泛化”预测相反（记忆锚点处为 -0.331 位/示例；预测方向为 0/12），而路由开始、全局秩崩溃和素数不变架构脊也失败，将此处的 grokking 识别为现有分布式电路的频谱记录，而不是模块开关。",
+          "summaryZh": "arXiv:2609.17571v1 Announce Type: new\nAbstract: Where in a Transformer is the change from memorization to generalization functionally expressed? We introduce Transition Games--behavior-aligned exact activation games with paired non-generalizing controls--and find distributed utility gain with a prospective block-0 attention bias; selected degree-two modes account for 67--92% of its addition contrast across replacement games, and a disjoint exact path study confirms that block-1 MLP mediates more of their effect than all other tested downstream paths in 12/12 pairs. The sharper \"MLP memorizes, attention generalizes\" prediction instead reverses (-.331 bits/example at the memory anchor; 0/12 in the predicted direction), while routing onset, global rank collapse, and a prime-invariant architecture ridge also fail, identifying grokking here as spectral recoding of an existing distributed circuit rather than a module switch.",
           "publishedAt": "2026-09-17T04:00:00.000Z",
           "comments": null,
           "author": "Dekun Yang"
@@ -463,10 +463,10 @@
         {
           "id": "oai:arXiv.org:2609.17572v1",
           "title": "Disentangling Algorithmic Bias from Archival Artifacts: A Controlled Audit of Vision-Language Model Valuation in Metropolitan Museum Archives",
-          "titleZh": "消除档案文物中的算法偏差：对大都会博物馆档案馆视觉语言模型评估的受控审计",
+          "titleZh": "Disentangling Algorithmic Bias from Archival Artifacts: A Controlled Audit of Vision-Language Model Valuation in Metropolitan Museum Archives",
           "link": "https://arxiv.org/abs/2609.17572",
           "summary": "arXiv:2609.17572v1 Announce Type: new\nAbstract: Auditing vision-language models (VLMs) for societal bias requires distinguishing direct algorithmic valuation disparities from confounders embedded within archival metadata. In this study, we audit Contrastive Language-Image Pretraining (CLIP) models using historical artwork metadata from the Metropolitan Museum of Art Open Access collection (N = 1,500 total objects; N = 743 attributed works: Male n = 534, Female n = 209; n = 618 anonymous).\n We establish a quantitative audit framework evaluating zero-shot CLIP logit differential scores across three semantic prompt pairs (masterpiece, quality, and influence). Unadjusted evaluations demonstrate high score convergence without a statistically significant main gender effect under OpenAI CLIP (mu_F = -0.0067 vs mu_M = -0.0035, p = 0.1829) or OpenCLIP (mu_F = 0.0171 vs mu_M = 0.0237, p = 0.1224). Two One-Sided Tests (TOST) confirm statistical equivalence across Cohen's d >= 0.25 bounds (pTOST 0.20). High residual embedding variance (R^2 < 2%) indicates that global zero-shot valuation metrics operate near an embedding noise floor, showing that broad zero-shot prompt logit differentials are a coarse measurement instrument rather than proving absolute model fairness.\n We highlight two key caveats: (i) macro-level score equivalence reflects metric insensitivity to fine-grained visual-semantic features and does not preclude localized micro-level visual biases, and (ii) excluding 41.2% unattributed holdings reflects institutional survival bias. These results demonstrate the necessity of multivariate confound control, equivalence testing, and archival provenance auditing when assessing AI fairness in cultural heritage collections.",
-          "summaryZh": "arXiv:2609.17572v1 公告类型：新\n摘要：审核视觉语言模型（VLM）是否存在社会偏见需要区分直接算法评估差异和嵌入档案元数据中的混杂因素。在本研究中，我们使用大都会艺术博物馆开放获取收藏中的历史艺术品元数据审核对比语言图像预训练 (CLIP) 模型（N = 1,500 件总物品；N = 743 件归属作品：男性 n = 534，女性 n = 209；n = 618 件匿名作品）。\n 我们建立了一个定量审核框架，评估三个语义提示对（杰作、质量和影响力）的零样本 CLIP logit 差异分数。未经调整的评估表明，在 OpenAI CLIP（mu_F = -0.0067 vs mu_M = -0.0035，p = 0.1829）或 OpenCLIP（mu_F = 0.0171 vs mu_M = 0.0237，p = 0.1224）下，分数收敛，并且没有统计显着的主要性别影响。两个单侧检验 (TOST) 确认 Cohen d >= 0.25 范围内的统计等效性 (pTOST 0.20)。高残差嵌入方差（R^2 < 2%）表明全局零样本估值指标在嵌入噪声基底附近运行，表明广泛的零样本提示 Logit 差异是一种粗略的测量工具，而不是证明绝对模型公平性。\n 我们强调两个关键警告：（i）宏观层面的分数等价反映了对细粒度视觉语义特征的度量不敏感，并且不排除局部微观层面的视觉偏差，（ii）排除 41.2% 的未归属持有反映了机构生存偏差。这些结果证明了在评估文化遗产收藏中的人工智能公平性时，多元混杂控制、等价性测试和档案来源审计的必要性。",
+          "summaryZh": "arXiv:2609.17572v1 Announce Type: new\nAbstract: Auditing vision-language models (VLMs) for societal bias requires distinguishing direct algorithmic valuation disparities from confounders embedded within archival metadata. In this study, we audit Contrastive Language-Image Pretraining (CLIP) models using historical artwork metadata from the Metropolitan Museum of Art Open Access collection (N = 1,500 total objects; N = 743 attributed works: Male n = 534, Female n = 209; n = 618 anonymous).\n We establish a quantitative audit framework evaluating zero-shot CLIP logit differential scores across three semantic prompt pairs (masterpiece, quality, and influence). Unadjusted evaluations demonstrate high score convergence without a statistically significant main gender effect under OpenAI CLIP (mu_F = -0.0067 vs mu_M = -0.0035, p = 0.1829) or OpenCLIP (mu_F = 0.0171 vs mu_M = 0.0237, p = 0.1224). Two One-Sided Tests (TOST) confirm statistical equivalence across Cohen's d >= 0.25 bounds (pTOST 0.20). High residual embedding variance (R^2 < 2%) indicates that global zero-shot valuation metrics operate near an embedding noise floor, showing that broad zero-shot prompt logit differentials are a coarse measurement instrument rather than proving absolute model fairness.\n We highlight two key caveats: (i) macro-level score equivalence reflects metric insensitivity to fine-grained visual-semantic features and does not preclude localized micro-level visual biases, and (ii) excluding 41.2% unattributed holdings reflects institutional survival bias. These results demonstrate the necessity of multivariate confound control, equivalence testing, and archival provenance auditing when assessing AI fairness in cultural heritage collections.",
           "publishedAt": "2026-09-17T04:00:00.000Z",
           "comments": null,
           "author": "Manpreet Singh, Rhythm Bhatia, Rahul Joshi"
@@ -474,10 +474,10 @@
         {
           "id": "oai:arXiv.org:2609.17575v1",
           "title": "Temperon: Full-Time SAM Quality at a Third Less Wall-Clock",
-          "titleZh": "Temperon：全职 SAM 质量，减少三分之一的挂钟",
+          "titleZh": "Temperon: Full-Time SAM Quality at a Third Less Wall-Clock",
           "link": "https://arxiv.org/abs/2609.17575",
           "summary": "arXiv:2609.17575v1 Announce Type: new\nAbstract: Sharpness-aware minimization (SAM) doubles the cost of every training step, yet its benefit concentrates where training ends. We study where an expensive training mode should be spent and propose Temperon: a plain-SGD explorer for the first 43% of the epoch budget, then one scheduled hand-off that gives the entire final cosine anneal to a SAM-wrapped Muon refiner. On CIFAR-10/100, SVHN and Tiny ImageNet (five seeds, times reported as epochs-to-target times an idle-GPU-calibrated epoch cost), Temperon matches the best full-time-SAM recipe on accuracy everywhere while reaching the hardest common target 35%, 34% and 32% sooner on three of the four, and sits a tier above the published SAM+SGD recipe at level cost. Ablations make the attribution exact: the Muon refiner is worth +0.85pp with everything else fixed; the explorer's shape and its restarts are worth nothing, and we withdraw them as contributions. Re-running the closest rival, late-phase SAM, at matched budget shows the frontier: it is fastest to every mid-level target, but the tier the Muon refiner buys (0.83 on CIFAR-100, 0.97 on CIFAR-10) is reached by no SGD-refined method in any seed, and on Tiny ImageNet, where Muon buys no tier, the rival simply wins -- the measured boundary of the method. The allocation law transfers to GPT-2 pretraining (full-SAM quality at -29% wall-clock) and GLUE fine-tuning (never worse than full-time SAM at a third of its SAM cost). Two constants organize the economics: skipping SAM early buys a fixed credit, and a Muon epoch costs 1.50x a SAM+SGD epoch on all four datasets. Finally, the hand-off cannot be timed from the trajectory: under cosine schedules the accuracy curve is plateau-then-surge, so the information lives in the schedule, making the scheduled switch principled rather than convenient. Code and a pip-installable implementation are released.",
-          "summaryZh": "arXiv:2609.17575v1 公告类型：新\n摘要：锐度感知最小化（SAM）使每个训练步骤的成本增加了一倍，但它的好处集中在训练结束的地方。我们研究了昂贵的训练模式应该用在哪里，并提出了 Temperon：一个普通的 SGD 探索器，用于 epoch 预算的前 43%，然后一个预定的交接，将整个最终余弦退火交给 SAM 包裹的 Muon 精炼器。在 CIFAR-10/100、SVHN 和 Tiny ImageNet（五个种子，报告的时间为 epochs-to-target 时间乘以空闲 GPU 校准的 epoch 成本）上，Temperon 在所有准确度上都与最佳的全职 SAM 配方相匹配，同时在四个中的三个上更快地达到最难的共同目标 35%、34% 和 32%，并且在同等成本下比已发布的 SAM+SGD 配方高出一层。消融使归属变得准确：Muon 精炼器价值 +0.85pp，其他所有内容均固定；探索者的形状及其重新启动毫无价值，我们将其作为贡献撤回。以匹配的预算重新运行最接近的竞争对手后期 SAM 显示了边界：它对每个中级目标都是最快的，但任何种子中都没有 SGD 精炼方法达到 Muon 精炼器购买的层（CIFAR-100 上为 0.83，CIFAR-10 上为 0.97），而在 Tiny ImageNet 上，Muon 没有购买任何层，竞争对手只是获胜 - 该方法的测量边界。分配法则转移到 GPT-2 预训练（-29% 挂钟的全 SAM 质量）和 GLUE 微调（绝不会比全职 SAM 差，但 SAM 成本只有三分之一）。两个常数组织了经济学：提前跳过 SAM 会购买固定信用，而在所有四个数据集上，Muon 历元的成本是 SAM+SGD 历元的 1.50 倍。最后，切换不能根据轨迹来计时：在余弦调度下，精度曲线是平稳然后激增，因此信息存在于调度中，使得调度切换有原则性而不是方便性。代码和可安装 pip 的实现已发布。",
+          "summaryZh": "arXiv:2609.17575v1 Announce Type: new\nAbstract: Sharpness-aware minimization (SAM) doubles the cost of every training step, yet its benefit concentrates where training ends. We study where an expensive training mode should be spent and propose Temperon: a plain-SGD explorer for the first 43% of the epoch budget, then one scheduled hand-off that gives the entire final cosine anneal to a SAM-wrapped Muon refiner. On CIFAR-10/100, SVHN and Tiny ImageNet (five seeds, times reported as epochs-to-target times an idle-GPU-calibrated epoch cost), Temperon matches the best full-time-SAM recipe on accuracy everywhere while reaching the hardest common target 35%, 34% and 32% sooner on three of the four, and sits a tier above the published SAM+SGD recipe at level cost. Ablations make the attribution exact: the Muon refiner is worth +0.85pp with everything else fixed; the explorer's shape and its restarts are worth nothing, and we withdraw them as contributions. Re-running the closest rival, late-phase SAM, at matched budget shows the frontier: it is fastest to every mid-level target, but the tier the Muon refiner buys (0.83 on CIFAR-100, 0.97 on CIFAR-10) is reached by no SGD-refined method in any seed, and on Tiny ImageNet, where Muon buys no tier, the rival simply wins -- the measured boundary of the method. The allocation law transfers to GPT-2 pretraining (full-SAM quality at -29% wall-clock) and GLUE fine-tuning (never worse than full-time SAM at a third of its SAM cost). Two constants organize the economics: skipping SAM early buys a fixed credit, and a Muon epoch costs 1.50x a SAM+SGD epoch on all four datasets. Finally, the hand-off cannot be timed from the trajectory: under cosine schedules the accuracy curve is plateau-then-surge, so the information lives in the schedule, making the scheduled switch principled rather than convenient. Code and a pip-installable implementation are released.",
           "publishedAt": "2026-09-17T04:00:00.000Z",
           "comments": null,
           "author": "Stamatis Mastromichalakis"
@@ -485,10 +485,10 @@
         {
           "id": "oai:arXiv.org:2609.17594v1",
           "title": "When the Gradient Sees Rank: Provable Necessity, Causal Recruitment, and Composition in Trained Matrix Memories",
-          "titleZh": "当梯度看到等级时：可证明的必要性、因果招募和训练矩阵记忆中的组合",
+          "titleZh": "When the Gradient Sees Rank: Provable Necessity, Causal Recruitment, and Composition in Trained Matrix Memories",
           "link": "https://arxiv.org/abs/2609.17594",
           "summary": "arXiv:2609.17594v1 Announce Type: new\nAbstract: Can gradient-based training learn the rank needed to store and compose associations in a matrix memory? In our earlier study, we used a matrix-augmented reasoner on a task that admits a rank-1 solution, leaving this question open. We train matrix memories on $K$ fresh key-value bindings whose exact linear recovery requires $\\mathrm{rank}(Z) \\geq K$. A fixed linear readout queries a single matrix state without access to the original bindings. Experiments measure recovery by cosine similarity greater than 0.9, a threshold distinct from mathematical equality. Learned effective rank increases with $K$ across the tested grid (Spearman $\\rho = 1.0$ at $d = 16$). Training-time rank caps produce a recovery transition near $k = K$: at $d = 8$, $K = 4$, rank 3 gives at most 0.0004 recovery and rank 4 gives 0.97. Four of five seeds retain at least 0.9996 recovery through 21-fold self-application of the trained operator. On the entity subspace, the learned operator has effective rank close to $K$ and approximates the ideal cycle. For the single converged seed capped below $K$, a calculation using the entity-subspace operator and ideal cycle predicts the measured cosine within 0.008 through seven applications. Extending training resolves several initial failures, but recovery still declines at larger matrix dimensions with encoder width fixed.",
-          "summaryZh": "arXiv:2609.17594v1 公告类型：新\n摘要：基于梯度的训练能否学习在矩阵存储器中存储和组合关联所需的等级？在我们早期的研究中，我们在一项承认 1 级解决方案的任务中使用了矩阵增强推理器，从而使这个问题悬而未决。我们在 $K$ 个新的键值绑定上训练矩阵记忆，其精确的线性恢复需要 $\\mathrm{rank}(Z) \\geq K$。固定线性读数查询单个矩阵状态，而无需访问原始绑定。实验通过大于 0.9 的余弦相似度来衡量恢复情况，这是一个与数学等式不同的阈值。在测试网格中学习的有效排名随着 $K$ 的增加而增加（Spearman $\\rho = 1.0$ at $d = 16$）。训练时间排名上限会在 $k = K$ 附近产生恢复过渡：在 $d = 8$、$K = 4$ 时，排名 3 最多提供 0.0004 恢复，排名 4 提供 0.97。通过训练有素的操作员 21 倍的自我应用，五颗种子中的四颗保留了至少 0.9996 的回收率。在实体子空间上，学习算子的有效排名接近$K$并且接近理想循环。对于上限低于 $K$ 的单个收敛种子，使用实体子空间运算符和理想循环的计算通过七次应用预测测量的余弦在 0.008 范围内。扩展训练解决了一些最初的失败，但在编码器宽度固定的较大矩阵维度上，恢复率仍然下降。",
+          "summaryZh": "arXiv:2609.17594v1 Announce Type: new\nAbstract: Can gradient-based training learn the rank needed to store and compose associations in a matrix memory? In our earlier study, we used a matrix-augmented reasoner on a task that admits a rank-1 solution, leaving this question open. We train matrix memories on $K$ fresh key-value bindings whose exact linear recovery requires $\\mathrm{rank}(Z) \\geq K$. A fixed linear readout queries a single matrix state without access to the original bindings. Experiments measure recovery by cosine similarity greater than 0.9, a threshold distinct from mathematical equality. Learned effective rank increases with $K$ across the tested grid (Spearman $\\rho = 1.0$ at $d = 16$). Training-time rank caps produce a recovery transition near $k = K$: at $d = 8$, $K = 4$, rank 3 gives at most 0.0004 recovery and rank 4 gives 0.97. Four of five seeds retain at least 0.9996 recovery through 21-fold self-application of the trained operator. On the entity subspace, the learned operator has effective rank close to $K$ and approximates the ideal cycle. For the single converged seed capped below $K$, a calculation using the entity-subspace operator and ideal cycle predicts the measured cosine within 0.008 through seven applications. Extending training resolves several initial failures, but recovery still declines at larger matrix dimensions with encoder width fixed.",
           "publishedAt": "2026-09-17T04:00:00.000Z",
           "comments": null,
           "author": "Samuel Larson"
@@ -496,10 +496,10 @@
         {
           "id": "oai:arXiv.org:2609.17595v1",
           "title": "Prior-Free Competitive Ratios for Improving Bandits: Scale, Curvature and Horizon Are Free, but Not Jointly Under Noise",
-          "titleZh": "用于改进强盗的无先验竞争比：尺度、曲率和地平线是自由的，但在噪声下不能同时存在",
+          "titleZh": "Prior-Free Competitive Ratios for Improving Bandits: Scale, Curvature and Horizon Are Free, but Not Jointly Under Noise",
           "link": "https://arxiv.org/abs/2609.17595",
           "summary": "arXiv:2609.17595v1 Announce Type: new\nAbstract: In the improving multi-armed bandits problem, each of $k$ arms has an unknown nondecreasing, discretely concave reward curve $f_i$, and pulling arm $i$ for the $t$-th time yields $f_i(t)$. For sufficiently long horizons, Blum and Ravichandran (ALT 2025) proved that randomized algorithms achieve an $O(\\sqrt k)$ approximation to the best single arm when the scale $m=f^*(T)$ of the optimal arm is known ($T\\ge2k$), and $O(\\sqrt k\\log k)$ when it is not ($T>4k$), against an $\\Omega(\\sqrt k)$ lower bound. The logarithmic factor is unnecessary: a one-page \\emph{probe-and-commit} algorithm achieves competitive ratio $4\\sqrt3\\,\\sqrt k$ for $T\\ge2\\lfloor\\sqrt k\\rfloor$, without any knowledge of the scale, and we determine the optimal ratio for every horizon, $\\Theta(\\sqrt k+k/T)$, also for unknown horizons. Without noise, \\emph{no prior is needed at all}: a random-marginal probing algorithm reading neither the scale $m$, nor the concavity-envelope exponent $\\beta$ of Blum, Garicano, Ravichandran and Sharma (UAI 2026), nor the horizon $T$, achieves the optimal $\\Theta(k^{\\beta/(1+\\beta)}+k/T)$ simultaneously for every $\\beta$ and every horizon. Under the multiplicative noise model of Blum and Ravichandran, probe-and-commit keeps the same all-horizon order $\\Theta(\\sqrt k+k/T)$ without knowing the noise level (and $\\Theta(\\sqrt k)$ on the same range), but the price of priors jumps: for any fixed noise level $\\varepsilon\\in(0,1/2]$, the uniform price of adaptation $\\phi_\\varepsilon(k)$ --- the worst case over horizons $T\\ge16k$ of the loss relative to $k^{\\beta/(1+\\beta)}$ for algorithms knowing neither $m$ nor $\\beta$ --- is $\\Theta_\\varepsilon(\\sqrt{\\log k/\\log\\log k})$, the lower bound asymptotic in $k$ at fixed positive $\\varepsilon$ and matched by a nested random-permutation probing algorithm, whereas knowing either $m$ or $\\beta$ alone restores a constant price.",
-          "summaryZh": "arXiv:2609.17595v1 公告类型：新\n摘要：在改进的多臂老虎机问题中，每个 $k$ 个臂都有一条未知的非递减、离散凹奖励曲线 $f_i$，并且第 $t$ 次拉动臂 $i$ 会产生 $f_i(t)$。对于足够长的视野，Blum 和 Ravichandran (ALT 2025) 证明，当最佳臂的尺度 $m=f^*(T)$ 已知时 ($T\\ge2k$)，随机算法可实现对最佳单臂的 $O(\\sqrt k)$ 近似；当最佳臂的尺度 $m=f^*(T)$ 未知时 ($T>4k$)，随机算法可实现 $O(\\sqrt k\\log k)$，而 $\\Omega(\\sqrt k)$ 较低绑定。对数因子是不必要的：一页 \\emph{probe-and-commit} 算法在 $T\\ge2\\lfloor\\sqrt k\\rfloor$ 上实现了竞争比率 $4\\sqrt3\\,\\sqrt k$，而无需了解规模，并且我们确定每个水平线的最佳比率 $\\Theta(\\sqrt k+k/T)$，也适用于未知水平线。没有噪声，\\emph{根本不需要先验}：随机边缘探测算法既不读取 Blum、Garicano、Ravichandran 和 Sharma (UAI 2026) 的尺度 $m$，也不读取 Blum、Garicano、Ravichandran 和 Sharma (UAI 2026) 的凹包络指数 $\\beta$，也不读取地平线 $T$，对于每个 $\\beta$ 同时实现最佳 $\\Theta(k^{\\beta/(1+\\beta)}+k/T)$每一个地平线。在 Blum 和 Ravichandran 的乘性噪声模型下，探测并提交在不知道噪声水平的情况下保持相同的全范围顺序 $\\Theta(\\sqrt k+k/T)$（并且 $\\Theta(\\sqrt k)$ 在同一范围内），但先验的价格会跳跃：对于任何固定的噪声水平 $\\varepsilon\\in(0,1/2]$，适应的统一价格$\\phi_\\varepsilon(k)$ --- 对于既不知道 $m$ 也不知道 $\\beta$ 的算法，相对于 $k^{\\beta/(1+\\beta)}$ 的损失相对于 $k^{\\beta/(1+\\beta)}$ 的最坏情况是 $\\Theta_\\varepsilon(\\sqrt{\\log k/\\log\\log k})$，$k$ 在固定正 $\\varepsilon$ 处渐近的下界，并由嵌套随机排列探测算法，而仅知道 $m$ 或 $\\beta$ 即可恢复恒定价格。",
+          "summaryZh": "arXiv:2609.17595v1 Announce Type: new\nAbstract: In the improving multi-armed bandits problem, each of $k$ arms has an unknown nondecreasing, discretely concave reward curve $f_i$, and pulling arm $i$ for the $t$-th time yields $f_i(t)$. For sufficiently long horizons, Blum and Ravichandran (ALT 2025) proved that randomized algorithms achieve an $O(\\sqrt k)$ approximation to the best single arm when the scale $m=f^*(T)$ of the optimal arm is known ($T\\ge2k$), and $O(\\sqrt k\\log k)$ when it is not ($T>4k$), against an $\\Omega(\\sqrt k)$ lower bound. The logarithmic factor is unnecessary: a one-page \\emph{probe-and-commit} algorithm achieves competitive ratio $4\\sqrt3\\,\\sqrt k$ for $T\\ge2\\lfloor\\sqrt k\\rfloor$, without any knowledge of the scale, and we determine the optimal ratio for every horizon, $\\Theta(\\sqrt k+k/T)$, also for unknown horizons. Without noise, \\emph{no prior is needed at all}: a random-marginal probing algorithm reading neither the scale $m$, nor the concavity-envelope exponent $\\beta$ of Blum, Garicano, Ravichandran and Sharma (UAI 2026), nor the horizon $T$, achieves the optimal $\\Theta(k^{\\beta/(1+\\beta)}+k/T)$ simultaneously for every $\\beta$ and every horizon. Under the multiplicative noise model of Blum and Ravichandran, probe-and-commit keeps the same all-horizon order $\\Theta(\\sqrt k+k/T)$ without knowing the noise level (and $\\Theta(\\sqrt k)$ on the same range), but the price of priors jumps: for any fixed noise level $\\varepsilon\\in(0,1/2]$, the uniform price of adaptation $\\phi_\\varepsilon(k)$ --- the worst case over horizons $T\\ge16k$ of the loss relative to $k^{\\beta/(1+\\beta)}$ for algorithms knowing neither $m$ nor $\\beta$ --- is $\\Theta_\\varepsilon(\\sqrt{\\log k/\\log\\log k})$, the lower bound asymptotic in $k$ at fixed positive $\\varepsilon$ and matched by a nested random-permutation probing algorithm, whereas knowing either $m$ or $\\beta$ alone restores a constant price.",
           "publishedAt": "2026-09-17T04:00:00.000Z",
           "comments": null,
           "author": "Xuan Li"
@@ -507,10 +507,10 @@
         {
           "id": "oai:arXiv.org:2609.17638v1",
           "title": "Lecture notes on Physics Informed Neural Networks, Neural Operators, and their applications",
-          "titleZh": "关于物理信息神经网络、神经算子及其应用的讲义",
+          "titleZh": "Lecture notes on Physics Informed Neural Networks, Neural Operators, and their applications",
           "link": "https://arxiv.org/abs/2609.17638",
           "summary": "arXiv:2609.17638v1 Announce Type: new\nAbstract: This is the set of lecture notes for the PhD course \\href{https://www.unibz.it/en/faculties/engineering/phd-computer-science/study-course-offering/2025/36967}{\\textit{Physics Informed Neural Network}, held at the University of Bozen/Bolzano} in the academic year 2025/2026.\n The goal of the course was to introduce the concept of Physics Informed Deep Neural Networks (PINN) and Neural Operators (NOs), discuss their implementation from scratch in PyTorch and using advanced ad-hoc developed open-source libraries such as NVIDia PhysicsNeMo to address real-world problems in various fields (engineering, physics, petroleum reservoir). We discuss recent topics such as Mixture-of-Models, Fourier Neural Operators, Physics-Informed Kolmogorov-Arnold Networks (PIKANs) and Fourier Neural Operators.",
-          "summaryZh": "arXiv:2609.17638v1 公告类型：新\n摘要：这是 2025/2026 学年在博岑/博尔扎诺大学举办的博士课程 \\href{https://www.unibz.it/en/faculties/engineering/phd-computer-science/study-course-offering/2025/36967}{\\textit{物理知情神经网络}的一套讲义。\n 本课程的目标是介绍物理信息深度神经网络 (PINN) 和神经算子 (NO) 的概念，讨论它们在 PyTorch 中从头开始的实现，并使用先进的临时开发的开源库（例如 NVIDiaPhysicsNeMo）来解决各个领域（工程、物理、石油储层）的现实问题。我们讨论最近的主题，例如模型混合、傅里叶神经算子、基于物理的柯尔莫哥洛夫-阿诺德网络 (PIKAN) 和傅里叶神经算子。",
+          "summaryZh": "arXiv:2609.17638v1 Announce Type: new\nAbstract: This is the set of lecture notes for the PhD course \\href{https://www.unibz.it/en/faculties/engineering/phd-computer-science/study-course-offering/2025/36967}{\\textit{Physics Informed Neural Network}, held at the University of Bozen/Bolzano} in the academic year 2025/2026.\n The goal of the course was to introduce the concept of Physics Informed Deep Neural Networks (PINN) and Neural Operators (NOs), discuss their implementation from scratch in PyTorch and using advanced ad-hoc developed open-source libraries such as NVIDia PhysicsNeMo to address real-world problems in various fields (engineering, physics, petroleum reservoir). We discuss recent topics such as Mixture-of-Models, Fourier Neural Operators, Physics-Informed Kolmogorov-Arnold Networks (PIKANs) and Fourier Neural Operators.",
           "publishedAt": "2026-09-17T04:00:00.000Z",
           "comments": null,
           "author": "Alessandro Bombini"
@@ -518,10 +518,10 @@
         {
           "id": "oai:arXiv.org:2609.17652v1",
           "title": "Fathom: Per-Query Read Depth for Sparse Decoding over Offloaded KV Caches",
-          "titleZh": "Fathom：卸载 KV 缓存上稀疏解码的每查询读取深度",
+          "titleZh": "Fathom: Per-Query Read Depth for Sparse Decoding over Offloaded KV Caches",
           "link": "https://arxiv.org/abs/2609.17652",
           "summary": "arXiv:2609.17652v1 Announce Type: new\nAbstract: When agentic sessions run to a million tokens with many sessions resident at once, the KV cache and the index that ranks it live in host memory, and the scan that ranks all n keys for a top-k step becomes the traffic that bounds decoding. We present Fathom, a key scan in which each query decides how many bits of each key channel to read. The 4-bit K cache is stored channel-major as bit planes, so a prefix of t planes is exactly the channel's t-bit quantizer, and the query spends its bit budget by reverse water-filling over the variance-weighted importance of its channels. At one million tokens on Qwen3-8B a decode step is 1.67x faster in GPU time than with the 136-bit scans of Double Sparsity, Loki and SparQ r=32, and in the same GPU time as SparQ's 68-bit read (r=16) Fathom reads 18% fewer bytes with lower attention error on six of seven model and context settings. On RULER-style tasks every per-token scan matches exact top-k decoding, and on real coding-agent sessions Fathom reaches the step agreement of the most accurate 136-bit scan at 92 bits. The store is the 4-bit K copy a quantized serving stack already holds, and the method is not faster when the index is resident in GPU memory.",
-          "summaryZh": "arXiv:2609.17652v1 公告类型：新\n摘要：当代理会话运行到一百万个令牌并且同时驻留多个会话时，KV 缓存和对其进行排名的索引位于主机内存中，并且对 top-k 步骤的所有 n 个键进行排名的扫描成为限制解码的流量。我们提出了 Fathom，一种键扫描，其中每个查询决定读取每个键通道的多少位。 4 位 K 缓存以通道主存储为位平面，因此 t 个平面的前缀正是通道的 t 位量化器，并且查询通过对其通道的方差加权重要性进行反向注水来花费其位预算。在 Qwen3-8B 上的 100 万个标记上，解码步骤的 GPU 时间比 Double Sparsity、Loki 和 SparQ r=32 的 136 位扫描快 1.67 倍，并且在与 SparQ 的 68 位读取 (r=16) 相同的 GPU 时间下，Fathom 在七个模型和上下文设置中的六个上读取的字节数减少了 18%，注意力误差也较低。在 RULER 风格的任务中，每个令牌扫描都与精确的 top-k 解码相匹配，而在真实的编码代理会话中，Fathom 在 92 位时达到了最准确的 136 位扫描的步长协议。存储是量化服务堆栈已保存的 4 位 K 副本，并且当索引驻留在 GPU 内存中时，该方法不会更快。",
+          "summaryZh": "arXiv:2609.17652v1 Announce Type: new\nAbstract: When agentic sessions run to a million tokens with many sessions resident at once, the KV cache and the index that ranks it live in host memory, and the scan that ranks all n keys for a top-k step becomes the traffic that bounds decoding. We present Fathom, a key scan in which each query decides how many bits of each key channel to read. The 4-bit K cache is stored channel-major as bit planes, so a prefix of t planes is exactly the channel's t-bit quantizer, and the query spends its bit budget by reverse water-filling over the variance-weighted importance of its channels. At one million tokens on Qwen3-8B a decode step is 1.67x faster in GPU time than with the 136-bit scans of Double Sparsity, Loki and SparQ r=32, and in the same GPU time as SparQ's 68-bit read (r=16) Fathom reads 18% fewer bytes with lower attention error on six of seven model and context settings. On RULER-style tasks every per-token scan matches exact top-k decoding, and on real coding-agent sessions Fathom reaches the step agreement of the most accurate 136-bit scan at 92 bits. The store is the 4-bit K copy a quantized serving stack already holds, and the method is not faster when the index is resident in GPU memory.",
           "publishedAt": "2026-09-17T04:00:00.000Z",
           "comments": null,
           "author": "Vivek Kalyanarangan"
@@ -529,10 +529,10 @@
         {
           "id": "oai:arXiv.org:2609.17653v1",
           "title": "Reflect, Revise, Reuse: Training-Free Skill Evolution for GUI Agents",
-          "titleZh": "反思、修改、重用：GUI 代理的免培训技能演变",
+          "titleZh": "Reflect, Revise, Reuse: Training-Free Skill Evolution for GUI Agents",
           "link": "https://arxiv.org/abs/2609.17653",
           "summary": "arXiv:2609.17653v1 Announce Type: new\nAbstract: GUI agents execute long-horizon tasks on dynamic graphical user interfaces, where pop-ups, delayed loads, and relocated widgets routinely invalidate plans fixed before execution. Recent agent-skill frameworks encapsulate reusable procedural knowledge to mitigate this, yet existing skill designs are largely developed without targeting GUI execution dynamics and treat skills as static artifacts produced before deployment rather than living procedural knowledge that improves through it. We argue that what GUI agents need is not better static skills, but skills that can be revised from execution feedback at deployment time, without additional training. We propose \\textbf{EvoSkill-GUI}, a training-free framework in which each skill is a structured multi-file package containing retrieval metadata, executable plans, backup localization, failure-recovery rules, accessibility utilities, and failure cases. EvoSkill-GUI operates through a \\textbf{\\emph{reflect-revise-reuse}} loop: the executor performs instant in-rollout revisions, an isolated critic diagnoses failed trajectories under strict information isolation, and the executor edits specific skill files through a restricted tool interface. Across MobileWorld, AndroidWorld, and OSWorld, three mainstream GUI benchmarks spanning mobile and desktop platforms, EvoSkill-GUI consistently improves multiple base models without any training, with maximum gains of $+16.2\\%$, $+6.0\\%$, and $+10.5\\%$ respectively, and evolved skill libraries continue to benefit related tasks rather than being rebuilt from scratch. Our code is available at https://github.com/ZJU-REAL/EvoSkill-GUI.",
-          "summaryZh": "arXiv:2609.17653v1 公告类型：新\n摘要：GUI 代理在动态图形用户界面上执行长期任务，其中弹出窗口、延迟加载和重新定位的小部件通常会使执行前固定的计划失效。最近的代理技能框架封装了可重用的程序知识来缓解这一问题，但现有的技能设计在很大程度上是在没有针对 GUI 执行动态的情况下开发的，并将技能视为部署前生成的静态工件，而不是通过它改进的实时程序知识。我们认为，GUI 代理需要的不是更好的静态技能，而是可以在部署时根据执行反馈进行修改的技能，无需额外培训。我们提出 \\textbf{EvoSkill-GUI}，这是一个免培训框架，其中每个技能都是一个结构化的多文件包，其中包含检索元数据、可执行计划、备份本地化、故障恢复规则、可访问实用程序和故障案例。 EvoSkill-GUI 通过 \\textbf{\\emph{reflect-revise-reuse}} 循环进行操作：执行器执行即时的推出修订，孤立的批评者在严格的信息隔离下诊断失败的轨迹，执行器通过受限的工具界面编辑特定的技能文件。跨越 MobileWorld、AndroidWorld 和 OSWorld 这三个跨越移动和桌面平台的主流 GUI 基准测试，EvoSkill-GUI 在无需任何训练的情况下持续改进多个基础模型，最大收益分别为 $+16.2\\%$、$+6.0\\%$ 和 $+10.5\\%$，并且进化的技能库继续使相关任务受益，而不是从头开始重建。我们的代码可在 https://github.com/ZJU-REAL/EvoSkill-GUI 获取。",
+          "summaryZh": "arXiv:2609.17653v1 Announce Type: new\nAbstract: GUI agents execute long-horizon tasks on dynamic graphical user interfaces, where pop-ups, delayed loads, and relocated widgets routinely invalidate plans fixed before execution. Recent agent-skill frameworks encapsulate reusable procedural knowledge to mitigate this, yet existing skill designs are largely developed without targeting GUI execution dynamics and treat skills as static artifacts produced before deployment rather than living procedural knowledge that improves through it. We argue that what GUI agents need is not better static skills, but skills that can be revised from execution feedback at deployment time, without additional training. We propose \\textbf{EvoSkill-GUI}, a training-free framework in which each skill is a structured multi-file package containing retrieval metadata, executable plans, backup localization, failure-recovery rules, accessibility utilities, and failure cases. EvoSkill-GUI operates through a \\textbf{\\emph{reflect-revise-reuse}} loop: the executor performs instant in-rollout revisions, an isolated critic diagnoses failed trajectories under strict information isolation, and the executor edits specific skill files through a restricted tool interface. Across MobileWorld, AndroidWorld, and OSWorld, three mainstream GUI benchmarks spanning mobile and desktop platforms, EvoSkill-GUI consistently improves multiple base models without any training, with maximum gains of $+16.2\\%$, $+6.0\\%$, and $+10.5\\%$ respectively, and evolved skill libraries continue to benefit related tasks rather than being rebuilt from scratch. Our code is available at https://github.com/ZJU-REAL/EvoSkill-GUI.",
           "publishedAt": "2026-09-17T04:00:00.000Z",
           "comments": null,
           "author": "Bofan Chen, Boxuan Zhang, Fei Tang, Zhengxi Lu, Yong Du, Tongbo Chen, Weiming Lu, Jun Xiao, Yueting Zhuang, Yongliang Shen"
@@ -540,10 +540,10 @@
         {
           "id": "oai:arXiv.org:2609.17654v1",
           "title": "Regularized Least Squares Training of Quadratic Neural Networks with Applications to System Identification",
-          "titleZh": "二次神经网络的正则最小二乘训练及其在系统辨识中的应用",
+          "titleZh": "Regularized Least Squares Training of Quadratic Neural Networks with Applications to System Identification",
           "link": "https://arxiv.org/abs/2609.17654",
           "summary": "arXiv:2609.17654v1 Announce Type: new\nAbstract: This paper proposes a least squares approach for the training of quadratic neural networks with regularization. The proposed methodology yields a lower bound on the solution of the training optimization problem for the case where the regularization coefficient is positive. Moreover, it yields closed-form expressions for the approximate solution and its sensitivity The lower bound is tight and the approximate solution is the optimal solution when the regularization coefficient is zero. Having a closed-form expression for the weights reduces considerably the computational time when compared with iterative numerical methods such as backpropagation that can get stuck in local minima. The proposed approach has three main contributions, namely, (i) it yields an analytical expression for the weights, (ii) an analytical expression for the sensitivity of the weights to errors in the data is also provided, (iii) it establishes a connection between the optimization to compute a lower bound and nuclear norm minimization. The proposed least squares training is successfully applied to a nonlinear system identification example where the proposed lower bound is compared with the optimal value.",
-          "summaryZh": "arXiv:2609.17654v1 公告类型：新\n摘要：本文提出了一种用于训练正则化二次神经网络的最小二乘方法。对于正则化系数为正的情况，所提出的方法给出了训练优化问题的解的下界。此外，它给出了近似解及其灵敏度的封闭式表达式。当正则化系数为零时，下界是紧的，近似解是最优解。与迭代数值方法（例如可能陷入局部最小值的反向传播）相比，权重的闭合形式表达式可以大大减少计算时间。所提出的方法具有三个主要贡献，即，（i）它产生权重的解析表达式，（ii）还提供了权重对数据误差的敏感性的解析表达式，（iii）它在计算下限的优化和核范数最小化之间建立了联系。所提出的最小二乘训练已成功应用于非线性系统识别示例，其中将所提出的下限与最优值进行比较。",
+          "summaryZh": "arXiv:2609.17654v1 Announce Type: new\nAbstract: This paper proposes a least squares approach for the training of quadratic neural networks with regularization. The proposed methodology yields a lower bound on the solution of the training optimization problem for the case where the regularization coefficient is positive. Moreover, it yields closed-form expressions for the approximate solution and its sensitivity The lower bound is tight and the approximate solution is the optimal solution when the regularization coefficient is zero. Having a closed-form expression for the weights reduces considerably the computational time when compared with iterative numerical methods such as backpropagation that can get stuck in local minima. The proposed approach has three main contributions, namely, (i) it yields an analytical expression for the weights, (ii) an analytical expression for the sensitivity of the weights to errors in the data is also provided, (iii) it establishes a connection between the optimization to compute a lower bound and nuclear norm minimization. The proposed least squares training is successfully applied to a nonlinear system identification example where the proposed lower bound is compared with the optimal value.",
           "publishedAt": "2026-09-17T04:00:00.000Z",
           "comments": null,
           "author": "Luis Rodrigues, Zachary Yetman Van Egmond, Mohammad R. Amiri Fard"
@@ -551,10 +551,10 @@
         {
           "id": "oai:arXiv.org:2609.17682v1",
           "title": "DSD: Learning Diverse and Reusable Motor Skills via Diffusion Skill Discovery",
-          "titleZh": "DSD：通过扩散技能发现学习多样化且可重复使用的运动技能",
+          "titleZh": "DSD: Learning Diverse and Reusable Motor Skills via Diffusion Skill Discovery",
           "link": "https://arxiv.org/abs/2609.17682",
           "summary": "arXiv:2609.17682v1 Announce Type: new\nAbstract: Humans efficiently learn new tasks by reusing a rich repertoire of motor skills across different goals and contexts. A similar strategy can also be used to enable simulated characters to efficiently perform new tasks by leveraging reusable motor skills. To support a wide range of downstream tasks, the learned repertoire should be diverse, consisting of distinct behaviors as well as spatial and temporal variation within each behavior. A commonly used method for learning diverse skills is by maximizing the mutual information between skill latents and the states produced by a policy. The marginal state entropy promotes broad behavioral coverage, while the conditional entropy encourages consistent behaviors from each latent. However, directly estimating the marginal state entropy is intractable in high-dimensional control problems. Prior methods therefore rely on indirect latent-space approximations or coarse estimators of the state distribution. These approximations may not effectively promote broad coverage of the state space, resulting in skills with limited behavioral diversity and reduced utility for downstream tasks. In this work, we propose Diffusion Skill Discovery (DSD), a skill discovery method that uses a diffusion model to approximate the entropy gradient of the policy-induced state distribution through score matching. The resulting objective encourages the discovery of skills that produce a broader range of behaviors for high-dimensional humanoid control. The learned skills are reused in two downstream control settings: hierarchical control with a task-specific high-level policy and zero-shot control through latent selection from offline trajectories. Our experiments show that DSD discovers a broader repertoire of reusable motor skills than prior skill discovery methods, leading to the emergence of complex and agile behaviors that can be reused across downstream tasks.",
-          "summaryZh": "arXiv:2609.17682v1 公告类型：新\n摘要：人类通过在不同目标和环境中重复使用丰富的运动技能来有效地学习新任务。类似的策略也可用于使模拟角色通过利用可重复使用的运动技能来有效地执行新任务。为了支持广泛的下游任务，学习的技能应该是多样化的，包括不同的行为以及每种行为的空间和时间变化。学习多样化技能的常用方法是最大化潜在技能与政策产生的状态之间的相互信息。边际状态熵促进广泛的行为覆盖，而条件熵则鼓励每个潜在变量的一致行为。然而，在高维控制问题中直接估计边缘状态熵是很困难的。因此，现有方法依赖于状态分布的间接潜在空间近似或粗略估计器。这些近似可能无法有效地促进状态空间的广泛覆盖，导致技能的行为多样性有限，并降低下游任务的效用。在这项工作中，我们提出了扩散技能发现（DSD），这是一种使用扩散模型通过分数匹配来近似策略诱导状态分布的熵梯度的技能发现方法。由此产生的目标鼓励发现能够为高维人形控制产生更广泛行为的技能。学到的技能在两个下游控制设置中重用：具有特定于任务的高级策略的分层控制和通过离线轨迹的潜在选择的零样本控制。我们的实验表明，与之前的技能发现方法相比，DSD 发现了更广泛的可重用运动技能，从而导致了可以在下游任务中重用的复杂而敏捷的行为的出现。",
+          "summaryZh": "arXiv:2609.17682v1 Announce Type: new\nAbstract: Humans efficiently learn new tasks by reusing a rich repertoire of motor skills across different goals and contexts. A similar strategy can also be used to enable simulated characters to efficiently perform new tasks by leveraging reusable motor skills. To support a wide range of downstream tasks, the learned repertoire should be diverse, consisting of distinct behaviors as well as spatial and temporal variation within each behavior. A commonly used method for learning diverse skills is by maximizing the mutual information between skill latents and the states produced by a policy. The marginal state entropy promotes broad behavioral coverage, while the conditional entropy encourages consistent behaviors from each latent. However, directly estimating the marginal state entropy is intractable in high-dimensional control problems. Prior methods therefore rely on indirect latent-space approximations or coarse estimators of the state distribution. These approximations may not effectively promote broad coverage of the state space, resulting in skills with limited behavioral diversity and reduced utility for downstream tasks. In this work, we propose Diffusion Skill Discovery (DSD), a skill discovery method that uses a diffusion model to approximate the entropy gradient of the policy-induced state distribution through score matching. The resulting objective encourages the discovery of skills that produce a broader range of behaviors for high-dimensional humanoid control. The learned skills are reused in two downstream control settings: hierarchical control with a task-specific high-level policy and zero-shot control through latent selection from offline trajectories. Our experiments show that DSD discovers a broader repertoire of reusable motor skills than prior skill discovery methods, leading to the emergence of complex and agile behaviors that can be reused across downstream tasks.",
           "publishedAt": "2026-09-17T04:00:00.000Z",
           "comments": null,
           "author": "Sun Woo Kim, Xue Bin Peng"
@@ -562,10 +562,10 @@
         {
           "id": "oai:arXiv.org:2609.17686v1",
           "title": "The Missing \"I Don't Know\": Why Three Reasoning-Reliability Findings Converge on Calibrated Abstention",
-          "titleZh": "缺失的“我不知道”：为什么三个推理可靠性结果会趋于校准弃权",
+          "titleZh": "The Missing \"I Don't Know\": Why Three Reasoning-Reliability Findings Converge on Calibrated Abstention",
           "link": "https://arxiv.org/abs/2609.17686",
           "summary": "arXiv:2609.17686v1 Announce Type: new\nAbstract: Three recent results describe what look like unrelated LLM reliability problems. Yin et al. (2026) show reasoning RL collapses tool-reliability representations. Suleymanov et al. (2026) show that under safety-constrained generation, large models rewrite flagged spans while small models truncate. Bastounis et al. (2024) prove any consistent-reasoning system without an implicit \"I don't know\" function must hallucinate infinitely often on broad problem classes. We argue these findings converge on a single intervention: calibrated abstention is what each independently identifies as the missing capability, even though the unavailability they document, a capability gap, a policy gap, and a recursion-theoretic gap, has a different source in each case. Honesty post-training has narrowed the gap in deployed models, but principled closure of the class Bastounis identifies requires a calibrated abstention function whose training signal at the leaderboard level is absent: dominant benchmarks assign zero reward to decline, so the leaderboard gradient that would select for the function does not exist. We propose four changes to evaluation: triple-scoring, abstention-rate reporting, capability-stratified evaluation, and mandatory calibration metrics. Benchmark reform is necessary, not sufficient, for closing the gap the theorem identifies.",
-          "summaryZh": "arXiv:2609.17686v1 公告类型：新\n摘要：最近的三个结果描述了看似无关的法学硕士可靠性问题。尹等人。 (2026) 显示推理 RL 崩溃了工具可靠性表示。苏莱曼诺夫等人。 （2026）表明，在安全约束的生成下，大模型会重写标记的跨度，而小模型会截断。巴斯托尼斯等人。 （2024）证明任何没有隐式“我不知道”功能的一致推理系统必定会在广泛的问题类别上无限频繁地产生幻觉。我们认为这些发现集中在单一干预措施上：校准弃权是每个人独立识别为缺失能力的东西，尽管他们记录的不可用性、能力差距、政策差距和递归理论差距在每种情况下都有不同的来源。训练后的诚实缩小了部署模型中的差距，但 Bastounis 确定的类的原则性封闭需要一个校准的弃权函数，其排行榜级别的训练信号不存在：主导基准为下降分配零奖励，因此为该函数选择的排行榜梯度不存在。我们提出对评估的四项改变：三重评分、弃权率报告、能力分层评估和强制性校准指标。为了缩小定理所确定的差距，基准改革是必要的，但还不够。",
+          "summaryZh": "arXiv:2609.17686v1 Announce Type: new\nAbstract: Three recent results describe what look like unrelated LLM reliability problems. Yin et al. (2026) show reasoning RL collapses tool-reliability representations. Suleymanov et al. (2026) show that under safety-constrained generation, large models rewrite flagged spans while small models truncate. Bastounis et al. (2024) prove any consistent-reasoning system without an implicit \"I don't know\" function must hallucinate infinitely often on broad problem classes. We argue these findings converge on a single intervention: calibrated abstention is what each independently identifies as the missing capability, even though the unavailability they document, a capability gap, a policy gap, and a recursion-theoretic gap, has a different source in each case. Honesty post-training has narrowed the gap in deployed models, but principled closure of the class Bastounis identifies requires a calibrated abstention function whose training signal at the leaderboard level is absent: dominant benchmarks assign zero reward to decline, so the leaderboard gradient that would select for the function does not exist. We propose four changes to evaluation: triple-scoring, abstention-rate reporting, capability-stratified evaluation, and mandatory calibration metrics. Benchmark reform is necessary, not sufficient, for closing the gap the theorem identifies.",
           "publishedAt": "2026-09-17T04:00:00.000Z",
           "comments": null,
           "author": "Srijith Ravikumar"
@@ -573,10 +573,10 @@
         {
           "id": "oai:arXiv.org:2609.17691v1",
           "title": "Accelerating Diffusion Sampling via Speculative Draft Trees",
-          "titleZh": "通过推测草稿树加速扩散采样",
+          "titleZh": "Accelerating Diffusion Sampling via Speculative Draft Trees",
           "link": "https://arxiv.org/abs/2609.17691",
           "summary": "arXiv:2609.17691v1 Announce Type: new\nAbstract: Speculative sampling accelerates diffusion model generation by drafting inexpensive candidate states and correcting them under a coupling that preserves the target distribution exactly, reducing the number of expensive target evaluations. Existing diffusion samplers, notably those based on reflection maximal coupling, are topologically constrained: their lookahead drafts form a chain graph, a single linear sequence, which inherently limits the acceptance rate per target evaluation. We connect speculative sampling in diffusion models to relative entropy coding (REC). This perspective shows the lookahead need not be linear and motivates our central contribution, draft trees, which enrich the candidates considered per round and lower the target function evaluations. We further adopt greedy rejection sampling, an REC algorithm, as the draft-target coupling, improving acceptance while guaranteeing exact target samples. Experiments across diverse target and draft models demonstrate up to 8.3% acceleration over the reflection coupling baseline in practical settings.",
-          "summaryZh": "arXiv:2609.17691v1 公告类型：新\n摘要：推测采样通过起草廉价的候选状态并在精确保留目标分布的耦合下对其进行校正来加速扩散模型的生成，从而减少昂贵的目标评估的数量。现有的扩散采样器，特别是基于反射最大耦合的扩散采样器，在拓扑上受到限制：它们的前瞻草稿形成链图，单个线性序列，这本质上限制了每个目标评估的接受率。我们将扩散模型中的推测采样与相对熵编码（REC）联系起来。这个观点表明，前瞻不一定是线性的，并激发了我们的核心贡献，即草拟树，它丰富了每轮考虑的候选者并降低了目标函数评估。我们进一步采用贪婪拒绝采样（REC 算法）作为草稿-目标耦合，在保证目标样本准确的同时提高接受度。跨不同目标和草图模型的实验表明，在实际设置中，反射耦合基线的加速度高达 8.3%。",
+          "summaryZh": "arXiv:2609.17691v1 Announce Type: new\nAbstract: Speculative sampling accelerates diffusion model generation by drafting inexpensive candidate states and correcting them under a coupling that preserves the target distribution exactly, reducing the number of expensive target evaluations. Existing diffusion samplers, notably those based on reflection maximal coupling, are topologically constrained: their lookahead drafts form a chain graph, a single linear sequence, which inherently limits the acceptance rate per target evaluation. We connect speculative sampling in diffusion models to relative entropy coding (REC). This perspective shows the lookahead need not be linear and motivates our central contribution, draft trees, which enrich the candidates considered per round and lower the target function evaluations. We further adopt greedy rejection sampling, an REC algorithm, as the draft-target coupling, improving acceptance while guaranteeing exact target samples. Experiments across diverse target and draft models demonstrate up to 8.3% acceleration over the reflection coupling baseline in practical settings.",
           "publishedAt": "2026-09-17T04:00:00.000Z",
           "comments": null,
           "author": "Marcello Bullo, Yanxiao Liu, \\\"Oyk\\\"u S{\\i}la G\\\"uner, Arpan Mukherjee, Deniz G\\\"und\\\"uz"
@@ -584,10 +584,10 @@
         {
           "id": "oai:arXiv.org:2609.17697v1",
           "title": "Composite-Gradient Learning for Shared Control Authority Between Deep Reinforcement Learning and Model Predictive Control",
-          "titleZh": "深度强化学习和模型预测控制之间共享控制权的复合梯度学习",
+          "titleZh": "Composite-Gradient Learning for Shared Control Authority Between Deep Reinforcement Learning and Model Predictive Control",
           "link": "https://arxiv.org/abs/2609.17697",
           "summary": "arXiv:2609.17697v1 Announce Type: new\nAbstract: Integrated deep reinforcement learning (DRL) and model predictive control (MPC) methods are increasingly used to control autonomous systems by combining their complementary capabilities. DRL learns control policies through interaction with the environment. MPC uses a system model to optimize control inputs while accounting for constraints. In DRL-MPC frameworks with shared control authority, both the DRL agent and the MPC controller each determine part of the control inputs. However, common learning formulations treat MPC as part of the environment and therefore do not explicitly account for MPC's contribution to control or its interaction with the DRL agent. This paper proposes a novel composite-gradient learning (CGL) method that integrates the MPC controller into the learning process by representing the DRL and MPC control inputs as a joint action and accounting for their interaction when updating the DRL agent during training. CGL is evaluated on two multi-class freeway traffic networks with different strengths of interaction between the DRL and MPC control inputs and it is compared with alternative methods that treat MPC as part of the environment or that only partially incorporate MPC into learning. The results show that CGL offers limited benefit under weak interaction, but learns higher-performing control policies than the alternative methods in a subset of training runs under strong interaction, although the average control-performance gains remain modest.",
-          "summaryZh": "arXiv:2609.17697v1 公告类型：新\n摘要：集成深度强化学习（DRL）和模型预测控制（MPC）方法越来越多地用于通过结合它们的互补能力来控制自主系统。 DRL 通过与环境的交互来学习控制策略。 MPC 使用系统模型来优化控制输入，同时考虑约束。在具有共享控制权限的DRL-MPC框架中，DRL代理和MPC控制器各自确定部分控制输入。然而，常见的学习公式将 MPC 视为环境的一部分，因此没有明确考虑 MPC 对控制的贡献或其与 DRL 代理的交互。本文提出了一种新颖的复合梯度学习（CGL）方法，通过将 DRL 和 MPC 控制输入表示为联合动作，并在训练期间更新 DRL 代理时考虑它们的交互，将 MPC 控制器集成到学习过程中。 CGL 在两个多类高速公路交通网络上进行评估，其中 DRL 和 MPC 控制输入之间的交互强度不同，并将其与将 MPC 视为环境一部分或仅部分将 MPC 纳入学习的替代方法进行比较。结果表明，CGL 在弱交互作用下提供的收益有限，但在强交互作用下的训练运行子集中，它比替代方法学到了更高性能的控制策略，尽管平均控制性能增益仍然不大。",
+          "summaryZh": "arXiv:2609.17697v1 Announce Type: new\nAbstract: Integrated deep reinforcement learning (DRL) and model predictive control (MPC) methods are increasingly used to control autonomous systems by combining their complementary capabilities. DRL learns control policies through interaction with the environment. MPC uses a system model to optimize control inputs while accounting for constraints. In DRL-MPC frameworks with shared control authority, both the DRL agent and the MPC controller each determine part of the control inputs. However, common learning formulations treat MPC as part of the environment and therefore do not explicitly account for MPC's contribution to control or its interaction with the DRL agent. This paper proposes a novel composite-gradient learning (CGL) method that integrates the MPC controller into the learning process by representing the DRL and MPC control inputs as a joint action and accounting for their interaction when updating the DRL agent during training. CGL is evaluated on two multi-class freeway traffic networks with different strengths of interaction between the DRL and MPC control inputs and it is compared with alternative methods that treat MPC as part of the environment or that only partially incorporate MPC into learning. The results show that CGL offers limited benefit under weak interaction, but learns higher-performing control policies than the alternative methods in a subset of training runs under strong interaction, although the average control-performance gains remain modest.",
           "publishedAt": "2026-09-17T04:00:00.000Z",
           "comments": null,
           "author": "Giray \\\"On\\\"ur, Azita Dabiri, Bart De Schutter"
