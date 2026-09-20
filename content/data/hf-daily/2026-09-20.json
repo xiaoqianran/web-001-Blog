@@ -1,0 +1,429 @@
+{
+  "source": "huggingface.co/api/daily_papers",
+  "attribution": "Data from Hugging Face Daily Papers (community curation). All rights belong to the original authors. Chinese text is machine-translated.",
+  "fetchedAt": "2026-09-20T12:52:06.176Z",
+  "date": "2026-09-20",
+  "sort": "trending",
+  "count": 15,
+  "locale": {
+    "summaryDefault": "zh",
+    "translated": true
+  },
+  "papers": [
+    {
+      "id": "2412.20138",
+      "title": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "summary": "Significant progress has been made in automated problem-solving using\nsocieties of agents powered by large language models (LLMs). In finance,\nefforts have largely focused on single-agent systems handling specific tasks or\nmulti-agent frameworks independently gathering data. However, the multi-agent\nsystems' potential to replicate real-world trading firms' collaborative\ndynamics remains underexplored. TradingAgents proposes a novel stock trading\nframework inspired by trading firms, featuring LLM-powered agents in\nspecialized roles such as fundamental analysts, sentiment analysts, technical\nanalysts, and traders with varied risk profiles. The framework includes Bull\nand Bear researcher agents assessing market conditions, a risk management team\nmonitoring exposure, and traders synthesizing insights from debates and\nhistorical data to make informed decisions. By simulating a dynamic,\ncollaborative trading environment, this framework aims to improve trading\nperformance. Detailed architecture and extensive experiments reveal its\nsuperiority over baseline models, with notable improvements in cumulative\nreturns, Sharpe ratio, and maximum drawdown, highlighting the potential of\nmulti-agent LLM frameworks in financial trading. TradingAgents is available at\nhttps://github.com/TauricResearch/TradingAgents.",
+      "summaryZh": "使用自动化解决问题取得了重大进展\n由大型语言模型 (LLM) 提供支持的代理协会。在金融领域，\n工作主要集中在处理特定任务的单代理系统或\n多代理框架独立收集数据。然而，多代理\n系统复制现实世界贸易公司协作的潜力\n动力学仍有待探索。 TradingAgents 提出了一种新颖的股票交易方式\n受贸易公司启发的框架，以法学硕士支持的代理为特色\n专业角色，例如基本面分析师、情绪分析师、技术分析师\n具有不同风险状况的分析师和交易员。该框架包括 Bull\n贝尔斯登研究人员评估市场状况，风险管理团队\n监控风险敞口，交易者从辩论中综合见解\n历史数据以做出明智的决策。通过模拟动态，\n协作交易环境，该框架旨在改善交易\n性能。详细的架构和广泛的实验揭示了它的\n优于基线模型，累积显着改进\n回报率、夏普比率和最大回撤，凸显了\n金融交易中的多代理法学硕士框架。交易代理可在\nhttps://github.com/TauricResearch/TradingAgents。",
+      "titleZh": "TradingAgents：多代理LLM金融交易框架",
+      "authors": [
+        "Yijia Xiao",
+        "Edward Sun",
+        "Di Luo",
+        "Wei Wang"
+      ],
+      "publishedAt": "2024-12-28T12:54:06.000Z",
+      "submittedOnDailyAt": "2024-12-28T07:54:06.000Z",
+      "submitter": null,
+      "upvotes": 141,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2412.20138",
+        "arxiv": "https://arxiv.org/abs/2412.20138",
+        "pdf": "https://arxiv.org/pdf/2412.20138"
+      }
+    },
+    {
+      "id": "2503.11576",
+      "title": "SmolDocling: An ultra-compact vision-language model for end-to-end\n  multi-modal document conversion",
+      "summary": "We introduce SmolDocling, an ultra-compact vision-language model targeting\nend-to-end document conversion. Our model comprehensively processes entire\npages by generating DocTags, a new universal markup format that captures all\npage elements in their full context with location. Unlike existing approaches\nthat rely on large foundational models, or ensemble solutions that rely on\nhandcrafted pipelines of multiple specialized models, SmolDocling offers an\nend-to-end conversion for accurately capturing content, structure and spatial\nlocation of document elements in a 256M parameters vision-language model.\nSmolDocling exhibits robust performance in correctly reproducing document\nfeatures such as code listings, tables, equations, charts, lists, and more\nacross a diverse range of document types including business documents, academic\npapers, technical reports, patents, and forms -- significantly extending beyond\nthe commonly observed focus on scientific papers. Additionally, we contribute\nnovel publicly sourced datasets for charts, tables, equations, and code\nrecognition. Experimental results demonstrate that SmolDocling competes with\nother Vision Language Models that are up to 27 times larger in size, while\nreducing computational requirements substantially. The model is currently\navailable, datasets will be publicly available soon.",
+      "summaryZh": "我们推出 SmolDocling，一种超紧凑的视觉语言模型\n端到端文档转换。我们的模型全面处理整个\n通过生成 DocTags 来创建页面，DocTags 是一种新的通用标记格式，可以捕获所有内容\n页面元素的完整上下文和位置。与现有方法不同\n依赖于大型基础模型，或依赖于集成解决方案\nSmolDocling 提供多种专业模型的手工制作管道\n端到端转换，准确捕捉内容、结构和空间\n256M 参数视觉语言模型中文档元素的位置。\nSmolDocling 在正确复制文档方面表现出强大的性能\n代码列表、表格、方程、图表、列表等功能\n涵盖各种文档类型，包括商业文档、学术文档\n论文、技术报告、专利和表格——显着超出范围\n普遍观察到的焦点是科学论文。此外，我们还贡献\n用于图表、表格、方程和代码的新颖的公共来源数据集\n认可。实验结果表明 SmolDocling 与\n其他视觉语言模型的尺寸最多大 27 倍，而\n大大减少计算需求。目前该型号为\n可用，数据集将很快公开。",
+      "titleZh": "SmolDocling：一种超紧凑的端到端视觉语言模型\n  多模式文档转换",
+      "authors": [
+        "Ahmed Nassar",
+        "Andres Marafioti",
+        "Matteo Omenetti",
+        "Maksym Lysak",
+        "Nikolaos Livathinos",
+        "Christoph Auer",
+        "Lucas Morin",
+        "Rafael Teixeira de Lima",
+        "Yusik Kim",
+        "A. Said Gurbuz",
+        "Michele Dolfi",
+        "Miquel Farré"
+      ],
+      "publishedAt": "2025-03-14T16:44:14.000Z",
+      "submittedOnDailyAt": "2025-03-17T00:00:00.000Z",
+      "submitter": "andito",
+      "upvotes": 175,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2503.11576",
+        "arxiv": "https://arxiv.org/abs/2503.11576",
+        "pdf": "https://arxiv.org/pdf/2503.11576"
+      }
+    },
+    {
+      "id": "2503.08638",
+      "title": "YuE: Scaling Open Foundation Models for Long-Form Music Generation",
+      "summary": "We tackle the task of long-form music generation--particularly the\nchallenging lyrics-to-song problem--by introducing YuE, a family of\nopen foundation models based on the LLaMA2 architecture. Specifically, YuE\nscales to trillions of tokens and generates up to five minutes of music while\nmaintaining lyrical alignment, coherent musical structure, and engaging vocal\nmelodies with appropriate accompaniment. It achieves this through (1)\ntrack-decoupled next-token prediction to overcome dense mixture signals, (2)\nstructural progressive conditioning for long-context lyrical alignment, and (3)\na multitask, multiphase pre-training recipe to converge and generalize. In\naddition, we redesign the in-context learning technique for music generation,\nenabling versatile style transfer (e.g., converting Japanese city pop into an\nEnglish rap while preserving the original accompaniment) and bidirectional\ngeneration. Through extensive evaluation, we demonstrate that YuE matches or\neven surpasses some of the proprietary systems in musicality and vocal agility.\nIn addition, fine-tuning YuE enables additional controls and enhanced support\nfor tail languages. Furthermore, beyond generation, we show that YuE's learned\nrepresentations can perform well on music understanding tasks, where the\nresults of YuE match or exceed state-of-the-art methods on the MARBLE\nbenchmark. Keywords: lyrics2song, song generation, long-form, foundation model,\nmusic generation",
+      "summaryZh": "我们解决长格式音乐生成的任务——特别是\n挑战歌词到歌曲的问题--通过介绍YuE，一个家庭\n基于 LLaMA2 架构的开放基础模型。具体来说，于E\n可扩展到数万亿个代币并生成长达五分钟的音乐，同时\n保持歌词的一致性、连贯的音乐结构和引人入胜的声音\n旋律配合适当的伴奏。它通过（1）实现这一点\n轨道解耦的下一个令牌预测可克服密集的混合信号，(2)\n用于长上下文抒情对齐的结构渐进调节，以及（3）\n用于收敛和泛化的多任务、多阶段预训练方法。在\n此外，我们重新设计了音乐生成的情境学习技术，\n实现多功能风格转移（例如，将日本城市流行音乐转变为\n英语说唱，同时保留原始伴奏）和双向\n一代。通过广泛的评估，我们证明 YuE 匹配或\n在音乐性和声音敏捷性方面甚至超越了一些专有系统。\n此外，微调 YuE 可实现额外的控制和增强的支持\n对于尾语言。此外，除了一代之外，我们还表明 YuE 的学习能力\n表征可以在音乐理解任务中表现良好，其中\nYuE 的结果匹配或超过 MARBLE 上最先进的方法\n基准。关键词：lyric2song、歌曲生成、长格式、基础模型、\n音乐一代",
+      "titleZh": "YuE：扩展长格式音乐生成的开放基础模型",
+      "authors": [
+        "Ruibin Yuan",
+        "Hanfeng Lin",
+        "Shuyue Guo",
+        "Ge Zhang",
+        "Jiahao Pan",
+        "Yongyi Zang",
+        "Haohe Liu",
+        "Yiming Liang",
+        "Wenye Ma",
+        "Xingjian Du",
+        "Xinrun Du",
+        "Zhen Ye"
+      ],
+      "publishedAt": "2025-03-11T17:26:50.000Z",
+      "submittedOnDailyAt": "2025-03-12T00:00:00.000Z",
+      "submitter": "a43992899",
+      "upvotes": 77,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2503.08638",
+        "arxiv": "https://arxiv.org/abs/2503.08638",
+        "pdf": "https://arxiv.org/pdf/2503.08638"
+      }
+    },
+    {
+      "id": "2608.23283",
+      "title": "Apodex 1.1: Scaling Agentic Intelligence for Complex Work",
+      "summary": "General-purpose language models can reason and synthesize knowledge, but complex work also requires sustained interaction with files, information sources, and executable code, together with state maintenance, failure recovery, and verifiable delivery. We call this working capability: sustained, verifiable progress toward a real-world objective. Apodex 1.1 develops this capability along two complementary dimensions. Environment Scaling expands the diversity and verifiability of executable file, search, and code environments, while Agentic Coordination Scaling trains agents to decompose long-horizon tasks, delegate parallel work, integrate asynchronous results, and replan. A shared execution harness and AgentOS maintain task state and provenance across tools and agents, and training turns environment trajectories and coordination traces into reliable behavior. Across complex professional work, finance, scientific research, mathematics, coding, and search, Apodex 1.1 reaches the leading performance band despite using a substantially smaller model than many frontier systems. The 35B-parameter Apodex 1.1 Mini further retains strong working capability in a locally deployable form. These results ground agentic intelligence in useful, verifiable work completed over time and advance our goal of building a Heavy-Duty Solver for ambitious, long-running tasks.",
+      "summaryZh": "通用语言模型可以推理和综合知识，但复杂的工作还需要与文件、信息源和可执行代码持续交互，以及状态维护、故障恢复和可验证的交付。我们称之为工作能力：朝着现实世界的目标持续、可验证的进展。 Apodex 1.1 在两个互补的维度上开发了这种功能。环境扩展扩展了可执行文件、搜索和代码环境的多样性和可验证性，而代理协调扩展则训练代理分解长期任务、委派并行工作、集成异步结果和重新计划。共享执行工具和 AgentOS 维护跨工具和代理的任务状态和来源，并且训练将环境轨迹和协调跟踪转化为可靠的行为。尽管使用的模型比许多前沿系统小得多，但在复杂的专业工作、金融、科学研究、数学、编码和搜索中，Apodex 1.1 仍达到了领先的性能范围。 35B参数的Apodex 1.1 Mini以可本地部署的形式进一步保留了强大的工作能力。这些结果将代理智能融入到随着时间的推移完成的有用、可验证的工作中，并推进我们为雄心勃勃的长期运行任务构建重型求解器的目标。",
+      "titleZh": "Apodex 1.1：扩展代理智能以应对复杂的工作",
+      "authors": [
+        "Apodex Team",
+        "B. An",
+        "B. Li",
+        "B. Wang",
+        "B. Zhang",
+        "B. L. Wang",
+        "C. Feng",
+        "C. Wei",
+        "C. Xue",
+        "C. Zhang",
+        "D. Ng",
+        "D. Ye"
+      ],
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-08-25T00:00:00.000Z",
+      "submitter": "oriuta",
+      "upvotes": 208,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2608.23283",
+        "arxiv": "https://arxiv.org/abs/2608.23283",
+        "pdf": "https://arxiv.org/pdf/2608.23283"
+      }
+    },
+    {
+      "id": "2609.14858",
+      "title": "Dream-RSI: Recursive Self-Improvement through Evolving Worlds",
+      "summary": "Recursive self-improvement is becoming increasingly vital for autonomous AI agents, where progress hinges on discovering high-value solutions across complex domains. The driver of this process is effective exploration, however, managing and improving exploration strategies remains a major bottleneck. Current systems face a fundamental dilemma: fixed strategies fail to adapt as search spaces scale, while online policy optimization requires navigating vast meta-search spaces under delayed and expensive feedback over long-horizon rollouts. We introduce Dream-RSI, a framework for scalable and recursively self-improving exploration. A lightweight orchestration layer makes exploration explicit and programmable while leaving the underlying coding agent unchanged. Our key insight is that accumulated discovery history can serve as a replay simulator over the realized search space. By performing dreaming in the replay simulator constructed from historical discovery trees, Dream-RSI secures immediate, low-cost off-policy feedback to evaluate and refine exploration policies without invoking repetitive, expensive online evaluations. The improved policy is subsequently redeployed online to drive further discovery, continuously expanding the simulator pool in a self-improving loop. Across algorithm engineering, mathematical optimization, and GPU kernel engineering, Dream-RSI achieves competitive or improved discovery quality while substantially reducing discovery cost in several settings.",
+      "summaryZh": "递归的自我改进对于自主人工智能代理来说变得越来越重要，其中的进步取决于跨复杂领域发现高价值的解决方案。这一过程的驱动力是有效的勘探，然而，管理和改进勘探策略仍然是一个主要瓶颈。当前的系统面临着一个根本性的困境：固定策略无法随着搜索空间的扩展而调整，而在线策略优化则需要在长期部署过程中在延迟且昂贵的反馈下导航巨大的元搜索空间。我们介绍 Dream-RSI，一个用于可扩展和递归自我改进探索的框架。轻量级编排层使探索变得明确且可编程，同时保持底层编码代理不变。我们的主要见解是，积累的发现历史可以作为已实现的搜索空间的重播模拟器。通过在由历史发现树构建的重放模拟器中执行梦想，Dream-RSI 可确保即时、低成本的非策略反馈，以评估和完善探索策略，而无需调用重复的、昂贵的在线评估。改进后的策略随后在线重新部署以推动进一步发现，在自我改进的循环中不断扩展模拟器池。在算法工程、数学优化和 GPU 内核工程方面，Dream-RSI 实现了具有竞争力或改进的发现质量，同时在多种设置中大幅降低了发现成本。",
+      "titleZh": "Dream-RSI：通过不断发展的世界递归自我完善",
+      "authors": [
+        "Tong Zheng",
+        "Xidong Wu",
+        "Zheng Zhang",
+        "Zhankui He",
+        "Chaoyi Zhang",
+        "Benjamin Coleman",
+        "Ruoqiao Wei",
+        "Di Bai",
+        "Haolin Liu",
+        "Rui Liu",
+        "Xue Wang",
+        "Yue Zhuan"
+      ],
+      "publishedAt": "2026-09-14T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-09-15T00:00:00.000Z",
+      "submitter": "TongZheng1999",
+      "upvotes": 235,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2609.14858",
+        "arxiv": "https://arxiv.org/abs/2609.14858",
+        "pdf": "https://arxiv.org/pdf/2609.14858"
+      }
+    },
+    {
+      "id": "2609.20519",
+      "title": "SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness",
+      "summary": "As coding agents move from supervised code completion to unattended, around-the-clock exploration, their work expands from isolated predictions into long trajectories of reasoning, tool use, and feedback. Token efficiency therefore becomes important for scaling recursive self-improvement. We take an RSI-inspired approach at the harness layer, scaling auto-research loops across increasingly numerous and diverse environments for harness rollouts. At this scale, the process yields reusable improvements that transfer beyond their development setting, moving automated harness discovery toward production-level outcomes. Four mechanisms survive selection and form SoL-Pi, spanning action execution, context compaction, observation handling, and delegated reading. On the 51-task EdgeBench evaluation, SoL-Pi achieves performance comparable to Pi across GPT-5.6 Sol and Opus 5 while reducing recorded token traffic by 44.7-49.0% and API cost by about one third. In other words, estimated hourly savings are \\8.75-13.50 relative to native Codex and Claude Code harnesses, and \\4.36-5.71 relative to Pi.",
+      "summaryZh": "随着编码代理从监督代码完成转向无人值守、全天候探索，他们的工作从孤立的预测扩展到推理、工具使用和反馈的长轨迹。因此，代币效率对于扩展递归自我改进变得非常重要。我们在线束层采用了受 RSI 启发的方法，在越来越多和多样化的环境中扩展自动研究循环，以进行线束部署。在这种规模上，该过程产生了可重复使用的改进，这些改进超出了其开发环境，将自动化线束发现转向生产级结果。四种机制在选择后形成 SoL-Pi，涵盖动作执行、上下文压缩、观察处理和委托读取。在 51 任务 EdgeBench 评估中，SoL-Pi 在 GPT-5.6 Sol 和 Opus 5 上实现了与 Pi 相当的性能，同时将记录的令牌流量减少了 44.7-49.0%，API 成本减少了约三分之一。换句话说，相对于原生 Codex 和 Claude Code 线束，预计每小时节省 8.75-13.50 美元，相对于 Pi，每小时节省 4.36-5.71 美元。",
+      "titleZh": "SoL-Pi：递归扩展自动研究循环以实现高效的代理利用",
+      "authors": [
+        "Haozhe Liu",
+        "Tian Ye",
+        "Sensen Gao",
+        "Qihang Cao",
+        "Yitong Li",
+        "Mingchen Zhuge",
+        "Duomin Wang",
+        "Ruihua Zhang",
+        "Ping Luo",
+        "Jiawang Bian",
+        "Lei Zhu",
+        "Ligeng Zhu"
+      ],
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-09-18T00:00:00.000Z",
+      "submitter": "Sensen02",
+      "upvotes": 92,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2609.20519",
+        "arxiv": "https://arxiv.org/abs/2609.20519",
+        "pdf": "https://arxiv.org/pdf/2609.20519"
+      }
+    },
+    {
+      "id": "2310.10688",
+      "title": "A decoder-only foundation model for time-series forecasting",
+      "summary": "Motivated by recent advances in large language models for Natural Language\nProcessing (NLP), we design a time-series foundation model for forecasting\nwhose out-of-the-box zero-shot performance on a variety of public datasets\ncomes close to the accuracy of state-of-the-art supervised forecasting models\nfor each individual dataset. Our model is based on pretraining a\npatched-decoder style attention model on a large time-series corpus, and can\nwork well across different forecasting history lengths, prediction lengths and\ntemporal granularities.",
+      "summaryZh": "受自然语言大型语言模型最新进展的推动\n处理（NLP），我们设计了一个用于预测的时间序列基础模型\n其在各种公共数据集上的开箱即用的零样本性能\n接近最先进的监督预测模型的准确性\n对于每个单独的数据集。我们的模型基于预训练\n大型时间序列语料库上的修补解码器式注意力模型，并且可以\n在不同的预测历史长度、预测长度和\n时间粒度。",
+      "titleZh": "用于时间序列预测的仅解码器基础模型",
+      "authors": [
+        "Abhimanyu Das",
+        "Weihao Kong",
+        "Rajat Sen",
+        "Yichen Zhou"
+      ],
+      "publishedAt": "2023-10-14T17:01:37.000Z",
+      "submittedOnDailyAt": "2023-10-14T13:01:37.000Z",
+      "submitter": null,
+      "upvotes": 44,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2310.10688",
+        "arxiv": "https://arxiv.org/abs/2310.10688",
+        "pdf": "https://arxiv.org/pdf/2310.10688"
+      }
+    },
+    {
+      "id": "2407.16741",
+      "title": "OpenDevin: An Open Platform for AI Software Developers as Generalist\n  Agents",
+      "summary": "Software is one of the most powerful tools that we humans have at our\ndisposal; it allows a skilled programmer to interact with the world in complex\nand profound ways. At the same time, thanks to improvements in large language\nmodels (LLMs), there has also been a rapid development in AI agents that\ninteract with and affect change in their surrounding environments. In this\npaper, we introduce OpenDevin, a platform for the development of powerful and\nflexible AI agents that interact with the world in similar ways to those of a\nhuman developer: by writing code, interacting with a command line, and browsing\nthe web. We describe how the platform allows for the implementation of new\nagents, safe interaction with sandboxed environments for code execution,\ncoordination between multiple agents, and incorporation of evaluation\nbenchmarks. Based on our currently incorporated benchmarks, we perform an\nevaluation of agents over 15 challenging tasks, including software engineering\n(e.g., SWE-Bench) and web browsing (e.g., WebArena), among others. Released\nunder the permissive MIT license, OpenDevin is a community project spanning\nacademia and industry with more than 1.3K contributions from over 160\ncontributors and will improve going forward.",
+      "summaryZh": "软件是我们人类拥有的最强大的工具之一\n处置；它允许熟练的程序员以复杂的方式与世界交互\n和深刻的方法。同时得益于大语言的改进\n模型（法学硕士），人工智能代理也得到了快速发展，\n与周围环境相互作用并影响其变化。在这个\n论文中，我们介绍了 OpenDevin，一个用于开发功能强大且\n灵活的人工智能代理，以类似于人类的方式与世界互动\n人类开发人员：通过编写代码、与命令行交互和浏览\n网络。我们描述了该平台如何允许实施新的\n代理，与沙盒环境安全交互以执行代码，\n多个主体之间的协调以及评估的结合\n基准。根据我们当前纳入的基准，我们执行\n对代理进行超过 15 项挑战性任务的评估，包括软件工程\n（例如，SWE-Bench）和网页浏览（例如，WebArena）等。已发布\n在 MIT 许可下，OpenDevin 是一个社区项目，涵盖\n学术界和工业界超过 160 人做出了超过 1,300 份贡献\n贡献者并将继续改进。",
+      "titleZh": "OpenDevin：面向多面手的人工智能软件开发人员的开放平台\n  代理商",
+      "authors": [
+        "Xingyao Wang",
+        "Boxuan Li",
+        "Yufan Song",
+        "Frank F. Xu",
+        "Xiangru Tang",
+        "Mingchen Zhuge",
+        "Jiayi Pan",
+        "Yueqi Song",
+        "Bowen Li",
+        "Jaskirat Singh",
+        "Hoang H. Tran",
+        "Fuqiang Li"
+      ],
+      "publishedAt": "2024-07-23T17:50:43.000Z",
+      "submittedOnDailyAt": "2024-07-25T00:00:00.000Z",
+      "submitter": "akhaliq",
+      "upvotes": 87,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2407.16741",
+        "arxiv": "https://arxiv.org/abs/2407.16741",
+        "pdf": "https://arxiv.org/pdf/2407.16741"
+      }
+    },
+    {
+      "id": "2509.06917",
+      "title": "Paper2Agent: Reimagining Research Papers As Interactive and Reliable AI\n  Agents",
+      "summary": "We introduce Paper2Agent, an automated framework that converts research\npapers into AI agents. Paper2Agent transforms research output from passive\nartifacts into active systems that can accelerate downstream use, adoption, and\ndiscovery. Conventional research papers require readers to invest substantial\neffort to understand and adapt a paper's code, data, and methods to their own\nwork, creating barriers to dissemination and reuse. Paper2Agent addresses this\nchallenge by automatically converting a paper into an AI agent that acts as a\nknowledgeable research assistant. It systematically analyzes the paper and the\nassociated codebase using multiple agents to construct a Model Context Protocol\n(MCP) server, then iteratively generates and runs tests to refine and robustify\nthe resulting MCP. These paper MCPs can then be flexibly connected to a chat\nagent (e.g. Claude Code) to carry out complex scientific queries through\nnatural language while invoking tools and workflows from the original paper. We\ndemonstrate Paper2Agent's effectiveness in creating reliable and capable paper\nagents through in-depth case studies. Paper2Agent created an agent that\nleverages AlphaGenome to interpret genomic variants and agents based on ScanPy\nand TISSUE to carry out single-cell and spatial transcriptomics analyses. We\nvalidate that these paper agents can reproduce the original paper's results and\ncan correctly carry out novel user queries. By turning static papers into\ndynamic, interactive AI agents, Paper2Agent introduces a new paradigm for\nknowledge dissemination and a foundation for the collaborative ecosystem of AI\nco-scientists.",
+      "summaryZh": "我们推出 Paper2Agent，一个将研究成果转化为自动化框架\n论文转化为人工智能代理。 Paper2Agent 将研究成果从被动式转变为\n将工件集成到活动系统中，可以加速下游的使用、采用和\n发现。传统的研究论文需要读者投入大量资金\n努力理解论文的代码、数据和方法并使其适应自己的需要\n工作，为传播和重用造成障碍。 Paper2Agent 解决了这个问题\n通过自动将论文转换为人工智能代理来挑战\n知识渊博的研究助理。系统地分析了论文和\n使用多个代理构建模型上下文协议的关联代码库\n(MCP) 服务器，然后迭代生成并运行测试以改进和增强\n由此产生的 MCP。然后可以将这些纸质 MCP 灵活地连接到聊天室\n代理（例如 Claude Code）通过以下方式执行复杂的科学查询\n自然语言，同时调用原始论文中的工具和工作流程。我们\n展示 Paper2Agent 在创建可靠且有能力的纸张方面的有效性\n代理人通过深入的案例研究。 Paper2Agent 创建了一个代理\n利用 AlphaGenome 解释基于 ScanPy 的基因组变异和试剂\n和 TISSUE 进行单细胞和空间转录组学分析。我们\n验证这些论文代理可以重现原始论文的结果并\n能够正确执行新奇的用户查询。通过将静态纸张变成\n动态、交互式 AI 代理，Paper2Agent 引入了一种新的范式\n知识传播和人工智能协作生态系统的基础\n共同科学家。",
+      "titleZh": "Paper2Agent：将研究论文重新想象为交互式且可靠的人工智能\n  代理商",
+      "authors": [
+        "Jiacheng Miao",
+        "Joe R. Davis",
+        "Jonathan K. Pritchard",
+        "James Zou"
+      ],
+      "publishedAt": "2025-09-08T17:28:42.000Z",
+      "submittedOnDailyAt": "2025-09-09T00:00:00.000Z",
+      "submitter": "taesiri",
+      "upvotes": 45,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2509.06917",
+        "arxiv": "https://arxiv.org/abs/2509.06917",
+        "pdf": "https://arxiv.org/pdf/2509.06917"
+      }
+    },
+    {
+      "id": "2403.08299",
+      "title": "AutoDev: Automated AI-Driven Development",
+      "summary": "The landscape of software development has witnessed a paradigm shift with the\nadvent of AI-powered assistants, exemplified by GitHub Copilot. However,\nexisting solutions are not leveraging all the potential capabilities available\nin an IDE such as building, testing, executing code, git operations, etc.\nTherefore, they are constrained by their limited capabilities, primarily\nfocusing on suggesting code snippets and file manipulation within a chat-based\ninterface. To fill this gap, we present AutoDev, a fully automated AI-driven\nsoftware development framework, designed for autonomous planning and execution\nof intricate software engineering tasks. AutoDev enables users to define\ncomplex software engineering objectives, which are assigned to AutoDev's\nautonomous AI Agents to achieve. These AI agents can perform diverse operations\non a codebase, including file editing, retrieval, build processes, execution,\ntesting, and git operations. They also have access to files, compiler output,\nbuild and testing logs, static analysis tools, and more. This enables the AI\nAgents to execute tasks in a fully automated manner with a comprehensive\nunderstanding of the contextual information required. Furthermore, AutoDev\nestablishes a secure development environment by confining all operations within\nDocker containers. This framework incorporates guardrails to ensure user\nprivacy and file security, allowing users to define specific permitted or\nrestricted commands and operations within AutoDev. In our evaluation, we tested\nAutoDev on the HumanEval dataset, obtaining promising results with 91.5% and\n87.8% of Pass@1 for code generation and test generation respectively,\ndemonstrating its effectiveness in automating software engineering tasks while\nmaintaining a secure and user-controlled development environment.",
+      "summaryZh": "软件开发的格局见证了范式的转变\n以 GitHub Copilot 为代表的人工智能助手的出现。然而，\n现有的解决方案没有利用所有可用的潜在功能\n在 IDE 中，例如构建、测试、执行代码、git 操作等。\n因此，他们受到自身能力有限的限制，主要是\n专注于在基于聊天的内容中建议代码片段和文件操作\n界面。为了填补这一空白，我们推出了 AutoDev，一种完全自动化的人工智能驱动的\n软件开发框架，专为自主规划和执行而设计\n复杂的软件工程任务。 AutoDev 使用户能够定义\n复杂的软件工程目标，这些目标被分配给 AutoDev\n自主AI代理来实现。这些人工智能代理可以执行多种操作\n在代码库上，包括文件编辑、检索、构建过程、执行、\n测试和 git 操作。他们还可以访问文件、编译器输出、\n构建和测试日志、静态分析工具等等。这使得人工智能\n代理以完全自动化的方式执行任务，具有全面的\n了解所需的上下文信息。此外，自动开发\n通过将所有操作限制在内部来建立安全的开发环境\nDocker 容器。该框架包含护栏以确保用户\n隐私和文件安全，允许用户定义特定的允许或\nAutoDev 中的受限命令和操作。在我们的评估中，我们测试了\nAutoDev 在 HumanEval 数据集上获得了 91.5% 的有希望的结果\n代码生成和测试生成分别达到 Pass@1 的 87.8%，\n展示其在自动化软件工程任务方面的有效性，同时\n维护安全且用户控制的开发环境。",
+      "titleZh": "AutoDev：自动化人工智能驱动开发",
+      "authors": [
+        "Michele Tufano",
+        "Anisha Agarwal",
+        "Jinu Jang",
+        "Roshanak Zilouchian Moghaddam",
+        "Neel Sundaresan"
+      ],
+      "publishedAt": "2024-03-13T07:12:03.000Z",
+      "submittedOnDailyAt": "2024-03-13T03:12:03.000Z",
+      "submitter": null,
+      "upvotes": 20,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2403.08299",
+        "arxiv": "https://arxiv.org/abs/2403.08299",
+        "pdf": "https://arxiv.org/pdf/2403.08299"
+      }
+    },
+    {
+      "id": "1910.03771",
+      "title": "HuggingFace's Transformers: State-of-the-art Natural Language Processing",
+      "summary": "Recent progress in natural language processing has been driven by advances in\nboth model architecture and model pretraining. Transformer architectures have\nfacilitated building higher-capacity models and pretraining has made it\npossible to effectively utilize this capacity for a wide variety of tasks.\nTransformers is an open-source library with the goal of opening up\nthese advances to the wider machine learning community. The library consists of\ncarefully engineered state-of-the art Transformer architectures under a unified\nAPI. Backing this library is a curated collection of pretrained models made by\nand available for the community. Transformers is designed to be\nextensible by researchers, simple for practitioners, and fast and robust in\nindustrial deployments. The library is available at\nhttps://github.com/huggingface/transformers.",
+      "summaryZh": "自然语言处理的最新进展是由以下方面的进步推动的\n模型架构和模型预训练。 Transformer 架构有\n促进构建更高容量的模型，预训练使其成为可能\n可以有效地利用这种能力来完成各种任务。\nTransformers 是一个开源库，目标是开放\n这些进步将惠及更广泛的机器学习社区。图书馆包括\n在统一的架构下精心设计最先进的 Transformer 架构\nAPI。支持该库的是由以下人员制作的精选预训练模型集合\n并可供社区使用。变压器的设计目的是\n可由研究人员扩展，对实践者来说简单，并且快速且稳健\n产业部署。该图书馆位于\nhttps://github.com/huggingface/transformers。",
+      "titleZh": "HuggingFace 的 Transformers：最先进的自然语言处理",
+      "authors": [
+        "Thomas Wolf",
+        "Lysandre Debut",
+        "Victor Sanh",
+        "Julien Chaumond",
+        "Clement Delangue",
+        "Anthony Moi",
+        "Pierric Cistac",
+        "Tim Rault",
+        "Rémi Louf",
+        "Morgan Funtowicz",
+        "Joe Davison",
+        "Sam Shleifer"
+      ],
+      "publishedAt": "2019-10-09T03:23:22.000Z",
+      "submittedOnDailyAt": "2019-10-08T23:23:22.000Z",
+      "submitter": null,
+      "upvotes": 30,
+      "urls": {
+        "hf": "https://huggingface.co/papers/1910.03771",
+        "arxiv": "https://arxiv.org/abs/1910.03771",
+        "pdf": "https://arxiv.org/pdf/1910.03771"
+      }
+    },
+    {
+      "id": "2608.16157",
+      "title": "FreeToken: Efficient Edge-Native MoE Serving with Bandwidth-Adaptive Execution",
+      "summary": "Frontier open-weight models are increasingly available, but serving them still largely assumes datacenter infrastructure. We present FreeToken, an edge-native MoE serving system that treats a personal machine not as a small GPU, but as a unified, elastic inference platform. FreeToken co-designs the full serving stack, including model layout and loading, expert residency, CPU--GPU execution, agentic state reuse, and runtime memory management, around two realities of local AI: agent workloads continuously change their execution pattern, and edge hardware exposes heterogeneous resources whose balance differs from machine to machine. Rather than committing to a fixed offloading strategy, FreeToken continuously maps computation and model state onto the resources actually available. FreeToken supports more than 20 MoE models and real coding and tool-using agents across hardware ranging from an 8GB laptop GPU to a single workstation GPU. More importantly, it changes what these machines can practically serve, from a 35B model on a laptop to a 284B model on a gaming desktop and the 753B GLM-5.2 on a single workstation GPU. FreeToken turns open weights into deployable local software, making the machines users already own a practical platform for frontier-scale intelligence. We release the system at flashml.ai.",
+      "summaryZh": "前沿开放权重模型越来越可用，但为它们提供服务仍然很大程度上假设数据中心基础设施。我们推出 FreeToken，这是一种边缘原生 MoE 服务系统，它不会将个人机器视为小型 GPU，而是将其视为统一的弹性推理平台。 FreeToken 围绕本地 AI 的两个现实共同设计了完整的服务堆栈，包括模型布局和加载、专家驻留、CPU-GPU 执行、代理状态重用和运行时内存管理：代理工作负载不断改变其执行模式，边缘硬件公开异构资源，其平衡因机器而异。 FreeToken 没有采用固定的卸载策略，而是不断地将计算和模型状态映射到实际可用的资源上。 FreeToken 支持 20 多种 MoE 模型以及跨硬件（从 8GB 笔记本电脑 GPU 到单个工作站 GPU）的真实编码和工具使用代理。更重要的是，它改变了这些机器的实际服务范围，从笔记本电脑上的 35B 型号到游戏台式机上的 284B 型号以及单个工作站 GPU 上的 753B GLM-5.2。 FreeToken 将开放权重转化为可部署的本地软件，使机器用户已经拥有了一个前沿智能的实用平台。我们在 flashml.ai 上发布了该系统。",
+      "titleZh": "FreeToken：具有带宽自适应执行能力的高效边缘原生 MoE 服务",
+      "authors": [
+        "Shuo Yang",
+        "Xiaoze Fan",
+        "Melissa Pan",
+        "Haocheng Xi",
+        "Zhe Wang",
+        "Shanlin Sun",
+        "Kurt Keutzer",
+        "Song Han",
+        "Matei Zaharia",
+        "Chenfeng Xu",
+        "Ion Stoica"
+      ],
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-08-19T00:00:00.000Z",
+      "submitter": "andy-yang",
+      "upvotes": 110,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2608.16157",
+        "arxiv": "https://arxiv.org/abs/2608.16157",
+        "pdf": "https://arxiv.org/pdf/2608.16157"
+      }
+    },
+    {
+      "id": "2609.15818",
+      "title": "Atria Dawn: The Dawn of Agentic Superintelligence",
+      "summary": "As AI agents become participants in the development of their successors, they reshape both the production of intelligence and the role of human researchers. We introduce Atria Dawn Preview, a foundation agentic language model designed for scientific research and engineering workflows, with the goal of expanding the frontier of agent productivity in the real world. This model is trained via a Verifiable Experience Pipeline that connects tool-mediated interactions to executable environments and externally verified outcomes. Across 16 benchmarks spanning real-world research, engineering, and digital work, Atria Dawn Preview is competitive with frontier agents and achieves the highest reported score on five of them. Beyond standalone performance, we examine the real research-and-development process behind this model as a case study of human--AI collaboration, analyzing 769 task records from 56 participants together with agent logs. When asked to evaluate completed tasks under comparable conditions, participants rated about one-third of completed AI-assisted tasks as infeasible without AI. More strikingly, agents frequently propose methods and implement revisions, while humans retain most final decisions and guide exploration through judgment and feedback. These observations indicate a shift from task-level execution to project-level partnership, with human effort concentrating on what is worth pursuing and how evidence should guide research. Progress toward more autonomous AI research must therefore advance both the capacity for discovery and the capacity for meaningful human oversight, preserving accountable human authority over the risks and direction of continued development.",
+      "summaryZh": "随着人工智能代理成为其继任者发展的参与者，它们重塑了智能的生产和人类研究人员的角色。我们推出 Atria Dawn Preview，这是一种专为科学研究和工程工作流程而设计的基础代理语言模型，其目标是扩展现实世界中代理生产力的前沿。该模型通过可验证的体验管道进行训练，该管道将工具介导的交互与可执行环境和外部验证的结果连接起来。在涵盖现实世界研究、工程和数字工作的 16 个基准测试中，Atria Dawn Preview 与前沿代理具有竞争力，并在其中 5 个基准测试中获得了最高分。除了独立性能之外，我们还检查了该模型背后的真实研发过程，作为人类与人工智能协作的案例研究，分析了来自 56 个参与者的 769 条任务记录以及代理日志。当被要求评估在可比条件下完成的任务时，参与者认为大约三分之一的人工智能辅助任务在没有人工智能的情况下是不可行的。更引人注目的是，智能体经常提出方法并实施修订，而人类则保留大部分最终决策并通过判断和反馈来指导探索。这些观察结果表明，从任务级执行到项目级合作的转变，人类的努力集中在值得追求的事物以及证据应如何指导研究上。因此，更加自主的人工智能研究的进展必须提高发现能力和有意义的人类监督能力，保持人类对持续发展的风险和方向的负责任的权威。",
+      "titleZh": "Atria Dawn：特工超级智能的黎明",
+      "authors": [
+        "Honglin Guo",
+        "Tao Gui",
+        "Yicheng Chen",
+        "Guanting Dong",
+        "Qiming Ge",
+        "Yuyang Hu",
+        "Zixian Huang",
+        "Jiajie Jin",
+        "Alexander Lam",
+        "Yining Li",
+        "Jiahang Lin",
+        "Yanjiang Liu"
+      ],
+      "publishedAt": "2026-09-14T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-09-15T00:00:00.000Z",
+      "submitter": "KYLN24",
+      "upvotes": 416,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2609.15818",
+        "arxiv": "https://arxiv.org/abs/2609.15818",
+        "pdf": "https://arxiv.org/pdf/2609.15818"
+      }
+    },
+    {
+      "id": "2609.13356",
+      "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
+      "summary": "In this work, we present ZGCM-1, a fully open 7B dense foundation model trained from scratch with extreme data, system, and algorithmic efficiency. ZGCM-1 is founded on a core premise: compact models cannot passively memorize the open web, but can overcome parametric capacity limits by coupling deliberate internal thinking with active external tool use. To support this paradigm across a 256K context, we develop an end-to-end, high-efficiency open training recipe: Architecture & System Co-design: interleaved gated sliding-window and full attention, and a stable FP8 Muon optimizer; Progressive Curriculum & MDP Mid-Training: context scaling across 16K, 64K, and 256K, and the reformulation of interaction traces into Markov Decision Processes. Furthermore, we establish an AI-native R&D workflow where agent swarms autonomously manage cluster operations, data curation, and rapid diagnostic evaluation. Extensive evaluations show that ZGCM-1-7B is competitive across 7B model family on general benchmarks. On several challenging mathematical reasoning and agentic search suites, it remains competitive with frontier models orders of magnitude larger, such as Qwen3-235B-A22B and GLM-5.1. We also show that our pre-training design offers a ~4.2x efficiency improvement in 16K pre-training time-to-loss. Across the full development lifecycle, we distill eight actionable empirical findings-spanning architectural scaling, SFT quality pruning, long-context generalization, and agentic co-training dynamics. To facilitate community research, we open-source model weights from the pre-training, mid-training, and post-training stages, intermediate checkpoints, training code, per-stage data and data recipes, and W&B logs.",
+      "summaryZh": "在这项工作中，我们提出了 ZGCM-1，一种完全开放的 7B 密集基础模型，从头开始训练，具有极高的数据、系统和算法效率。 ZGCM-1 建立在一个核心前提之上：紧凑模型不能被动地记忆开放网络，而是可以通过将深思熟虑的内部思维与主动的外部工具使用相结合来克服参数容量限制。为了在 256K 环境中支持这种范式，我们开发了一种端到端、高效的开放训练方法：架构与系统协同设计：交错门控滑动窗口和充分关注，以及稳定的 FP8 Muon 优化器；渐进式课程和 MDP 中期培训：跨 16K、64K 和 256K 的上下文扩展，以及将交互轨迹重新表述为马尔可夫决策过程。此外，我们建立了人工智能原生研发工作流程，其中代理群自主管理集群操作、数据管理和快速诊断评估。广泛的评估表明，ZGCM-1-7B 在一般基准测试中在 7B 型号系列中具有竞争力。在几个具有挑战性的数学推理和代理搜索套件上，它与大数量级的前沿模型（例如 Qwen3-235B-A22B 和 GLM-5.1）相比仍然具有竞争力。我们还表明，我们的预训练设计在 16K 预训练损失时间方面提供了约 4.2 倍的效率提升。在整个开发生命周期中，我们提炼出了八个可操作的实证结果——涵盖架构扩展、SFT 质量修剪、长上下文泛化和代理协同训练动态。为了促进社区研究，我们开源了训练前、训练中和训练后阶段的模型权重、中间检查点、训练代码、每阶段数据和数据配方以及 W&B 日志。",
+      "titleZh": "ZGCM-1：完全开放且极其高效的数学和代理搜索基础模型",
+      "authors": [
+        "Jiyan He",
+        "Guang Liang",
+        "Hao Liu",
+        "Haoxiang Guan",
+        "Jinbo Sun",
+        "Junyi Guo",
+        "Wenjun Feng",
+        "Yantai Xie",
+        "Yifei Shen",
+        "Bin Shao",
+        "Chuyang Wei",
+        "Kai Chen"
+      ],
+      "publishedAt": "2026-09-11T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-09-15T00:00:00.000Z",
+      "submitter": "yshenaw",
+      "upvotes": 253,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2609.13356",
+        "arxiv": "https://arxiv.org/abs/2609.13356",
+        "pdf": "https://arxiv.org/pdf/2609.13356"
+      }
+    },
+    {
+      "id": "2309.06180",
+      "title": "Efficient Memory Management for Large Language Model Serving with\n  PagedAttention",
+      "summary": "High throughput serving of large language models (LLMs) requires batching\nsufficiently many requests at a time. However, existing systems struggle\nbecause the key-value cache (KV cache) memory for each request is huge and\ngrows and shrinks dynamically. When managed inefficiently, this memory can be\nsignificantly wasted by fragmentation and redundant duplication, limiting the\nbatch size. To address this problem, we propose PagedAttention, an attention\nalgorithm inspired by the classical virtual memory and paging techniques in\noperating systems. On top of it, we build vLLM, an LLM serving system that\nachieves (1) near-zero waste in KV cache memory and (2) flexible sharing of KV\ncache within and across requests to further reduce memory usage. Our\nevaluations show that vLLM improves the throughput of popular LLMs by\n2-4times with the same level of latency compared to the state-of-the-art\nsystems, such as FasterTransformer and Orca. The improvement is more pronounced\nwith longer sequences, larger models, and more complex decoding algorithms.\nvLLM's source code is publicly available at\nhttps://github.com/vllm-project/vllm",
+      "summaryZh": "大型语言模型 (LLM) 的高吞吐量服务需要批处理\n一次有足够多的请求。然而，现有系统却举步维艰\n因为每个请求的键值缓存（KV缓存）内存巨大并且\n动态增长和收缩。当管理效率低下时，该内存可能会被\n碎片和冗余重复造成了极大的浪费，限制了\n批量大小。为了解决这个问题，我们提出PagedAttention，一个注意力机制\n算法的灵感来自于经典的虚拟内存和分页技术\n操作系统。在此基础上，我们构建了 vLLM，一个 LLM 服务系统，\n实现 (1) KV 缓存内存近乎零浪费和 (2) KV 灵活共享\n在请求内和请求之间进行缓存，以进一步减少内存使用。我们的\n评估表明，vLLM 通过以下方式提高了流行 LLM 的吞吐量：\n与最先进的技术相比，相同延迟水平下的 2-4 倍\n系统，例如 FasterTransformer 和 Orca。改善效果更加明显\n具有更长的序列、更大的模型和更复杂的解码算法。\nvLLM 的源代码可在以下位置公开获取：\nhttps://github.com/vllm-project/vllm",
+      "titleZh": "大型语言模型的高效内存管理\n  分页注意力",
+      "authors": [
+        "Woosuk Kwon",
+        "Zhuohan Li",
+        "Siyuan Zhuang",
+        "Ying Sheng",
+        "Lianmin Zheng",
+        "Cody Hao Yu",
+        "Joseph E. Gonzalez",
+        "Hao Zhang",
+        "Ion Stoica"
+      ],
+      "publishedAt": "2023-09-12T12:50:04.000Z",
+      "submittedOnDailyAt": "2023-09-13T00:00:00.000Z",
+      "submitter": "akhaliq",
+      "upvotes": 69,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2309.06180",
+        "arxiv": "https://arxiv.org/abs/2309.06180",
+        "pdf": "https://arxiv.org/pdf/2309.06180"
+      }
+    }
+  ]
+}
