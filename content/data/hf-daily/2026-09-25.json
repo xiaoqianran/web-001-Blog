@@ -1,0 +1,434 @@
+{
+  "source": "huggingface.co/api/daily_papers",
+  "attribution": "Data from Hugging Face Daily Papers (community curation). All rights belong to the original authors. Chinese text is machine-translated.",
+  "fetchedAt": "2026-09-25T13:15:51.166Z",
+  "date": "2026-09-25",
+  "sort": "trending",
+  "count": 15,
+  "locale": {
+    "summaryDefault": "zh",
+    "translated": true
+  },
+  "papers": [
+    {
+      "id": "2412.20138",
+      "title": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "summary": "Significant progress has been made in automated problem-solving using\nsocieties of agents powered by large language models (LLMs). In finance,\nefforts have largely focused on single-agent systems handling specific tasks or\nmulti-agent frameworks independently gathering data. However, the multi-agent\nsystems' potential to replicate real-world trading firms' collaborative\ndynamics remains underexplored. TradingAgents proposes a novel stock trading\nframework inspired by trading firms, featuring LLM-powered agents in\nspecialized roles such as fundamental analysts, sentiment analysts, technical\nanalysts, and traders with varied risk profiles. The framework includes Bull\nand Bear researcher agents assessing market conditions, a risk management team\nmonitoring exposure, and traders synthesizing insights from debates and\nhistorical data to make informed decisions. By simulating a dynamic,\ncollaborative trading environment, this framework aims to improve trading\nperformance. Detailed architecture and extensive experiments reveal its\nsuperiority over baseline models, with notable improvements in cumulative\nreturns, Sharpe ratio, and maximum drawdown, highlighting the potential of\nmulti-agent LLM frameworks in financial trading. TradingAgents is available at\nhttps://github.com/TauricResearch/TradingAgents.",
+      "summaryZh": "使用自动化解决问题取得了重大进展\n由大型语言模型 (LLM) 提供支持的代理协会。在金融领域，\n工作主要集中在处理特定任务的单代理系统或\n多代理框架独立收集数据。然而，多代理\n系统复制现实世界贸易公司协作的潜力\n动力学仍有待探索。 TradingAgents 提出了一种新颖的股票交易方式\n受贸易公司启发的框架，以法学硕士支持的代理为特色\n专业角色，例如基本面分析师、情绪分析师、技术分析师\n具有不同风险状况的分析师和交易员。该框架包括 Bull\n贝尔斯登研究人员评估市场状况，风险管理团队\n监控风险敞口，交易者从辩论中综合见解\n历史数据以做出明智的决策。通过模拟动态，\n协作交易环境，该框架旨在改善交易\n性能。详细的架构和广泛的实验揭示了它的\n优于基线模型，累积显着改进\n回报率、夏普比率和最大回撤，凸显了\n金融交易中的多代理法学硕士框架。交易代理可在\nhttps://github.com/TauricResearch/TradingAgents。",
+      "titleZh": "TradingAgents：多代理LLM金融交易框架",
+      "authors": [
+        "Yijia Xiao",
+        "Edward Sun",
+        "Di Luo",
+        "Wei Wang"
+      ],
+      "publishedAt": "2024-12-28T12:54:06.000Z",
+      "submittedOnDailyAt": "2024-12-28T07:54:06.000Z",
+      "submitter": null,
+      "upvotes": 144,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2412.20138",
+        "arxiv": "https://arxiv.org/abs/2412.20138",
+        "pdf": "https://arxiv.org/pdf/2412.20138"
+      }
+    },
+    {
+      "id": "2609.24984",
+      "title": "WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory",
+      "summary": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. The key insight is to let the requested viewpoint shape how multi-view evidence is compressed into the video generator's limited token budget. Trained jointly with the video generator, a memory encoder and pose-conditioned readout module integrate historical observations into a fixed set of target view-specific tokens before denoising, without explicit depth-based correspondences. By combining this memory with recent temporal context and few-step distillation, WorldCrafter enables streaming scene exploration from a single input image or text prompt. Experiments across static and dynamic scenes show substantial gains in long-horizon consistency and camera-control accuracy while preserving visual quality during minute-scale exploration.",
+      "summaryZh": "视频世界模型可以对动态环境进行交互式探索，但很难尊重先前的长期观察和跨视角观察。我们提出了 WorldCrafter，这是一种视频世界模型，它可以为此目的学习可相机查询的隐式 3D 感知内存。关键的见解是让所请求的视点决定如何将多视图证据压缩到视频生成器有限的代币预算中。与视频生成器联合训练，内存编码器和姿势条件读出模块在去噪之前将历史观察结果集成到一组固定的目标视图特定标记中，而无需明确的基于深度的对应关系。通过将这种记忆与最近的时间上下文和几个步骤的蒸馏相结合，WorldCrafter 可以从单个输入图像或文本提示进行流式场景探索。静态和动态场景的实验表明，在长视距一致性和相机控制精度方面取得了显着的进步，同时在分钟尺度的探索过程中保持了视觉质量。",
+      "titleZh": "WorldCrafter：具有隐式 3D 感知内存的一致视频世界模型",
+      "authors": [
+        "Wangbo Yu",
+        "Kunhao Liu",
+        "Wenbo Hu",
+        "Shenghai Yuan",
+        "Chaoran Feng",
+        "Haiyang Zhou",
+        "Yukun Huang",
+        "Yiran Wang",
+        "Wang Zhao",
+        "Yingmin Luo",
+        "Ying Shan"
+      ],
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-09-22T00:00:00.000Z",
+      "submitter": "Drexubery",
+      "upvotes": 148,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2609.24984",
+        "arxiv": "https://arxiv.org/abs/2609.24984",
+        "pdf": "https://arxiv.org/pdf/2609.24984"
+      }
+    },
+    {
+      "id": "2503.11576",
+      "title": "SmolDocling: An ultra-compact vision-language model for end-to-end\n  multi-modal document conversion",
+      "summary": "We introduce SmolDocling, an ultra-compact vision-language model targeting\nend-to-end document conversion. Our model comprehensively processes entire\npages by generating DocTags, a new universal markup format that captures all\npage elements in their full context with location. Unlike existing approaches\nthat rely on large foundational models, or ensemble solutions that rely on\nhandcrafted pipelines of multiple specialized models, SmolDocling offers an\nend-to-end conversion for accurately capturing content, structure and spatial\nlocation of document elements in a 256M parameters vision-language model.\nSmolDocling exhibits robust performance in correctly reproducing document\nfeatures such as code listings, tables, equations, charts, lists, and more\nacross a diverse range of document types including business documents, academic\npapers, technical reports, patents, and forms -- significantly extending beyond\nthe commonly observed focus on scientific papers. Additionally, we contribute\nnovel publicly sourced datasets for charts, tables, equations, and code\nrecognition. Experimental results demonstrate that SmolDocling competes with\nother Vision Language Models that are up to 27 times larger in size, while\nreducing computational requirements substantially. The model is currently\navailable, datasets will be publicly available soon.",
+      "summaryZh": "我们推出 SmolDocling，一种超紧凑的视觉语言模型\n端到端文档转换。我们的模型全面处理整个\n通过生成 DocTags 来创建页面，DocTags 是一种新的通用标记格式，可以捕获所有内容\n页面元素的完整上下文和位置。与现有方法不同\n依赖于大型基础模型，或依赖于集成解决方案\nSmolDocling 提供多种专业模型的手工制作管道\n端到端转换，准确捕捉内容、结构和空间\n256M 参数视觉语言模型中文档元素的位置。\nSmolDocling 在正确复制文档方面表现出强大的性能\n代码清单、表格、方程、图表、列表等功能\n涵盖各种文档类型，包括商业文档、学术文档\n论文、技术报告、专利和表格——大大超出了\n普遍观察到的焦点是科学论文。此外，我们还贡献\n图表、表格、方程和代码的新颖公共数据集\n认可。实验结果表明 SmolDocling 与\n其他视觉语言模型的尺寸最多大 27 倍，而\n大大减少计算需求。目前该型号为\n可用，数据集将很快公开。",
+      "titleZh": "SmolDocling：一种超紧凑的端到端视觉语言模型\n  多模式文档转换",
+      "authors": [
+        "Ahmed Nassar",
+        "Andres Marafioti",
+        "Matteo Omenetti",
+        "Maksym Lysak",
+        "Nikolaos Livathinos",
+        "Christoph Auer",
+        "Lucas Morin",
+        "Rafael Teixeira de Lima",
+        "Yusik Kim",
+        "A. Said Gurbuz",
+        "Michele Dolfi",
+        "Miquel Farré"
+      ],
+      "publishedAt": "2025-03-14T16:44:14.000Z",
+      "submittedOnDailyAt": "2025-03-17T00:00:00.000Z",
+      "submitter": "andito",
+      "upvotes": 177,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2503.11576",
+        "arxiv": "https://arxiv.org/abs/2503.11576",
+        "pdf": "https://arxiv.org/pdf/2503.11576"
+      }
+    },
+    {
+      "id": "2609.24981",
+      "title": "GAE: Learning a Geometry-Native Latent Space for 3D-Consistent World Generation",
+      "summary": "We present a compact geometry-native latent space as a shared foundation for perception and generation. Visual generators can produce photorealistic frames without preserving a consistent 3D scene. We argue that this is not only a modeling problem but also a representation problem: generators typically evolve appearance-centric latents, while perception models recover geometry in a semantically rich space that encodes cross-view structure. Rather than adding geometry as another output, we reparameterize a geometry foundation model's features into a compact latent space for generation. We realize this shift with the geometry-native autoencoder (GAE), whose latent is jointly decodable to appearance, depth, cameras, and point maps. With this state, a standard conditional flow supports diverse generation tasks. In controlled comparisons that hold the generator and training protocol fixed, replacing the latent with GAE improves both visual quality and independently measured 3D coherence: FVD falls by 12.7% and 23.1% on RealEstate10K and DL3DV, and camera-trajectory error is halved on RealEstate10K. Together, these results show that the latent space is central to geometry-consistent generation and can serve as a shared interface between perception and generation.",
+      "summaryZh": "我们提出了一个紧凑的几何原生潜在空间作为感知和生成的共享基础。视觉生成器可以生成逼真的帧，而无需保留一致的 3D 场景。我们认为这不仅是一个建模问题，也是一个表示问题：生成器通常会演化以外观为中心的潜在特征，而感知模型则在编码跨视图结构的语义丰富的空间中恢复几何形状。我们没有将几何图形添加为另一个输出，而是将几何基础模型的特征重新参数化为紧凑的潜在空间以进行生成。我们通过几何原生自动编码器（GAE）实现了这种转变，其潜在特征可以联合解码为外观、深度、相机和点图。在这种状态下，标准条件流支持不同的生成任务。在固定生成器和训练协议的受控比较中，用 GAE 替换潜在变量可提高视觉质量和独立测量的 3D 连贯性：RealEstate10K 和 DL3DV 上的 FVD 分别下降 12.7% 和 23.1%，RealEstate10K 上的相机轨迹误差减半。总之，这些结果表明，潜在空间是几何一致生成的核心，可以作为感知和生成之间的共享接口。",
+      "titleZh": "GAE：学习几何原生潜在空间以生成 3D 一致的世界",
+      "authors": [
+        "Jiahao Lu",
+        "Minghao Yin",
+        "Wenbo Hu",
+        "Hengyu Liu",
+        "Wang Zhao",
+        "Sai-Kit Yeung",
+        "Ying Shan",
+        "Yuan Liu"
+      ],
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-09-23T00:00:00.000Z",
+      "submitter": "Michaelqaz",
+      "upvotes": 47,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2609.24981",
+        "arxiv": "https://arxiv.org/abs/2609.24981",
+        "pdf": "https://arxiv.org/pdf/2609.24981"
+      }
+    },
+    {
+      "id": "2609.25001",
+      "title": "GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay",
+      "summary": "Modern video games provide a measurable testbed for AI models, combining abilities of visual understanding, instruction decomposition, goal planning, and precise action control over multiple temporal horizons. Existing datasets and benchmarks, however, either cover a narrow range of games, lack language instructions, or rely on high-variance online rollouts. To address these challenges, we introduce GameHorizon, a unified data and evaluation suite that measures gameplay capabilities at different horizons for diverse model families. GameHorizon Suite consists of three components. First, GameHorizon-Annotator is a scalable and automated annotation pipeline for multi-horizon instructions. Second, utilizing the pipeline, we construct GameHorizon-Data, the first large-scale AAA gameplay dataset with temporally aligned videos, player actions, and multi-horizon instructions. It comprises 5,000 hours of recordings from 21 games, collected by 100 human expert players. Third, we build GameHorizon-Bench with reproducible offline and stepwise online testing. The offline track enables reproducible evaluation using thousands of standardized questions organized into three primary tasks and a series of diagnostic variants, while the online track tests whether offline scores reflect actual gameplay capabilities and localizes failures to specific steps within long-horizon gameplay. Based on our GameHorizon Suite, we evaluate 47 models through more than one million model invocations, revealing a meaningful hierarchy of task difficulty and pronounced differences in model capabilities. Our work can provide a standardized yardstick for evaluating gameplay capabilities across horizons and model families. We will release our dataset, annotator, and benchmark to facilitate future research.",
+      "summaryZh": "现代视频游戏为人工智能模型提供了一个可测量的测试平台，结合了视觉理解、指令分解、目标规划和多个时间范围内精确动作控制的能力。然而，现有的数据集和基准要么覆盖游戏范围狭窄，缺乏语言说明，要么依赖高方差的在线发布。为了应对这些挑战，我们推出了 GameHorizo​​n，这是一个统一的数据和评估套件，可以衡量不同模型系列在不同范围内的游戏功能。 GameHorizo​​n Suite 由三个组件组成。首先，GameHorizo​​n-Annotator 是一个用于多水平指令的可扩展且自动化的注释管道。其次，利用该管道，我们构建了 GameHorizo​​n-Data，这是第一个大规模 AAA 游戏数据集，其中包含时间对齐的视频、玩家操作和多水平指令。它包含 100 名人类专家玩家收集的 21 场比赛的 5,000 小时录音。第三，我们构建了具有可重复离线和逐步在线测试的 GameHorizo​​n-Bench。离线轨道使用组织成三个主要任务和一系列诊断变体的数千个标准化问题来实现可重复的评估，而在线轨道测试离线分数是否反映实际的游戏功能，并将失败定位到长期游戏中的特定步骤。基于我们的 GameHorizo​​n Suite，我们通过超过一百万次的模型调用评估了 47 个模型，揭示了任务难度的有意义的层次结构以及模型功能的显着差异。我们的工作可以提供一个标准化的标准来评估跨视野和模型系列的游戏能力。我们将发布我们的数据集、注释器和基准以促进未来的研究。",
+      "titleZh": "GameHorizo​​n Suite：游戏中的多视野数据和评估",
+      "authors": [
+        "Yiran Wang",
+        "Xingyilang Yin",
+        "Junfu Pu",
+        "Guangzhi Wang",
+        "Kaifeng Li",
+        "Mingyu Ouyang",
+        "Huiqiang Sun",
+        "Lingen Li",
+        "Cheng Cheng",
+        "Wangbo Yu",
+        "Honghao Chen",
+        "Xiaodong Cun"
+      ],
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-09-22T00:00:00.000Z",
+      "submitter": "taesiri",
+      "upvotes": 130,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2609.25001",
+        "arxiv": "https://arxiv.org/abs/2609.25001",
+        "pdf": "https://arxiv.org/pdf/2609.25001"
+      }
+    },
+    {
+      "id": "2407.16741",
+      "title": "OpenDevin: An Open Platform for AI Software Developers as Generalist\n  Agents",
+      "summary": "Software is one of the most powerful tools that we humans have at our\ndisposal; it allows a skilled programmer to interact with the world in complex\nand profound ways. At the same time, thanks to improvements in large language\nmodels (LLMs), there has also been a rapid development in AI agents that\ninteract with and affect change in their surrounding environments. In this\npaper, we introduce OpenDevin, a platform for the development of powerful and\nflexible AI agents that interact with the world in similar ways to those of a\nhuman developer: by writing code, interacting with a command line, and browsing\nthe web. We describe how the platform allows for the implementation of new\nagents, safe interaction with sandboxed environments for code execution,\ncoordination between multiple agents, and incorporation of evaluation\nbenchmarks. Based on our currently incorporated benchmarks, we perform an\nevaluation of agents over 15 challenging tasks, including software engineering\n(e.g., SWE-Bench) and web browsing (e.g., WebArena), among others. Released\nunder the permissive MIT license, OpenDevin is a community project spanning\nacademia and industry with more than 1.3K contributions from over 160\ncontributors and will improve going forward.",
+      "summaryZh": "软件是我们人类拥有的最强大的工具之一\n处置；它允许熟练的程序员与复杂的世界进行交互\n和深刻的方法。同时得益于大语言的改进\n模型（法学硕士），人工智能代理也得到了快速发展，\n与周围环境的变化相互作用并影响其变化。在这个\n论文中，我们介绍了 OpenDevin，一个用于开发功能强大且\n灵活的人工智能代理，以类似于人类的方式与世界互动\n人类开发人员：通过编写代码、与命令行交互和浏览\n网络。我们描述了该平台如何允许实施新的\n代理，与沙盒环境安全交互以执行代码，\n多个主体之间的协调以及评估的结合\n基准。根据我们目前纳入的基准，我们执行\n对代理进行超过 15 项挑战性任务的评估，包括软件工程\n（例如，SWE-Bench）和网页浏览（例如，WebArena）等。已发布\n在 MIT 许可下，OpenDevin 是一个社区项目，涵盖\n学术界和工业界超过 160 人做出了超过 1,300 份贡献\n贡献者并将继续改进。",
+      "titleZh": "OpenDevin：面向多面手的人工智能软件开发人员的开放平台\n  代理商",
+      "authors": [
+        "Xingyao Wang",
+        "Boxuan Li",
+        "Yufan Song",
+        "Frank F. Xu",
+        "Xiangru Tang",
+        "Mingchen Zhuge",
+        "Jiayi Pan",
+        "Yueqi Song",
+        "Bowen Li",
+        "Jaskirat Singh",
+        "Hoang H. Tran",
+        "Fuqiang Li"
+      ],
+      "publishedAt": "2024-07-23T17:50:43.000Z",
+      "submittedOnDailyAt": "2024-07-25T00:00:00.000Z",
+      "submitter": "akhaliq",
+      "upvotes": 89,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2407.16741",
+        "arxiv": "https://arxiv.org/abs/2407.16741",
+        "pdf": "https://arxiv.org/pdf/2407.16741"
+      }
+    },
+    {
+      "id": "2503.08638",
+      "title": "YuE: Scaling Open Foundation Models for Long-Form Music Generation",
+      "summary": "We tackle the task of long-form music generation--particularly the\nchallenging lyrics-to-song problem--by introducing YuE, a family of\nopen foundation models based on the LLaMA2 architecture. Specifically, YuE\nscales to trillions of tokens and generates up to five minutes of music while\nmaintaining lyrical alignment, coherent musical structure, and engaging vocal\nmelodies with appropriate accompaniment. It achieves this through (1)\ntrack-decoupled next-token prediction to overcome dense mixture signals, (2)\nstructural progressive conditioning for long-context lyrical alignment, and (3)\na multitask, multiphase pre-training recipe to converge and generalize. In\naddition, we redesign the in-context learning technique for music generation,\nenabling versatile style transfer (e.g., converting Japanese city pop into an\nEnglish rap while preserving the original accompaniment) and bidirectional\ngeneration. Through extensive evaluation, we demonstrate that YuE matches or\neven surpasses some of the proprietary systems in musicality and vocal agility.\nIn addition, fine-tuning YuE enables additional controls and enhanced support\nfor tail languages. Furthermore, beyond generation, we show that YuE's learned\nrepresentations can perform well on music understanding tasks, where the\nresults of YuE match or exceed state-of-the-art methods on the MARBLE\nbenchmark. Keywords: lyrics2song, song generation, long-form, foundation model,\nmusic generation",
+      "summaryZh": "我们解决长格式音乐生成的任务——特别是\n挑战歌词到歌曲的问题--通过介绍YuE，一个家庭\n基于 LLaMA2 架构的开放基础模型。具体来说，于E\n可扩展到数万亿个代币并生成长达五分钟的音乐，同时\n保持歌词的一致性、连贯的音乐结构和引人入胜的声音\n旋律与适当的伴奏。它通过（1）实现这一点\n轨道解耦的下一个令牌预测可克服密集的混合信号，(2)\n用于长上下文抒情对齐的结构渐进调节，以及（3）\n用于收敛和泛化的多任务、多阶段预训练方法。在\n此外，我们重新设计了音乐生成的情境学习技术，\n实现多功能风格转移（例如，将日本城市流行音乐转变为\n英语说唱，同时保留原始伴奏）和双向\n一代。通过广泛的评估，我们证明 YuE 匹配或\n在音乐性和声音敏捷性方面甚至超越了一些专有系统。\n此外，微调 YuE 可实现额外的控制和增强的支持\n对于尾语言。此外，除了一代之外，我们还表明 YuE 的学习能力\n表征可以在音乐理解任务中表现良好，其中\nYuE 的结果匹配或超过 MARBLE 上最先进的方法\n基准。关键词：lyric2song、歌曲生成、长格式、基础模型、\n音乐一代",
+      "titleZh": "YuE：扩展长格式音乐生成的开放基础模型",
+      "authors": [
+        "Ruibin Yuan",
+        "Hanfeng Lin",
+        "Shuyue Guo",
+        "Ge Zhang",
+        "Jiahao Pan",
+        "Yongyi Zang",
+        "Haohe Liu",
+        "Yiming Liang",
+        "Wenye Ma",
+        "Xingjian Du",
+        "Xinrun Du",
+        "Zhen Ye"
+      ],
+      "publishedAt": "2025-03-11T17:26:50.000Z",
+      "submittedOnDailyAt": "2025-03-12T00:00:00.000Z",
+      "submitter": "a43992899",
+      "upvotes": 78,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2503.08638",
+        "arxiv": "https://arxiv.org/abs/2503.08638",
+        "pdf": "https://arxiv.org/pdf/2503.08638"
+      }
+    },
+    {
+      "id": "2604.09557",
+      "title": "SPEED-Bench: A Unified and Diverse Benchmark for Speculative Decoding",
+      "summary": "Speculative Decoding (SD) has emerged as a critical technique for accelerating Large Language Model (LLM) inference. Unlike deterministic system optimizations, SD performance is inherently data-dependent, meaning that diverse and representative workloads are essential for accurately measuring its effectiveness. Existing benchmarks suffer from limited task diversity, inadequate support for throughput-oriented evaluation, and a reliance on high-level implementations that fail to reflect production environments. To address this, we introduce SPEED-Bench, a comprehensive suite designed to standardize SD evaluation across diverse semantic domains and realistic serving regimes. SPEED-Bench offers a carefully curated Qualitative data split, selected by prioritizing semantic diversity across the data samples. Additionally, it includes a Throughput data split, allowing speedup evaluation across a range of concurrencies, from latency-sensitive low-batch settings to throughput-oriented high-load scenarios. By integrating with production engines like vLLM and TensorRT-LLM, SPEED-Bench allows practitioners to analyze system behaviors often masked by other benchmarks. We highlight this by quantifying how synthetic inputs overestimate real-world throughput, identifying batch-size dependent optimal draft lengths and biases in low-diversity data, and analyzing the caveats of vocabulary pruning in state-of-the-art drafters. We release SPEED-Bench to establish a unified evaluation standard for practical comparisons of SD algorithms.",
+      "summaryZh": "推测解码 (SD) 已成为加速大型语言模型 (LLM) 推理的关键技术。与确定性系统优化不同，SD 性能本质上依赖于数据，这意味着多样化且具有代表性的工作负载对于准确衡量其有效性至关重要。现有的基准测试面临着任务多样性有限、对以吞吐量为导向的评估支持不足以及对无法反映生产环境的高级实现的依赖等问题的困扰。为了解决这个问题，我们引入了 SPEED-Bench，这是一个综合套件，旨在标准化跨不同语义领域和现实服务机制的 SD 评估。 SPEED-Bench 提供精心策划的定性数据分割，通过优先考虑数据样本中的语义多样性来选择。此外，它还包括吞吐量数据分割，允许在一系列并发情况下加速评估，从延迟敏感的低批量设置到面向吞吐量的高负载场景。通过与 vLLM 和 TensorRT-LLM 等生产引擎集成，SPEED-Bench 允许从业者分析经常被其他基准测试掩盖的系统行为。我们通过量化合成输入如何高估现实世界的吞吐量、识别低多样性数据中与批次大小相关的最佳草稿长度和偏差，以及分析最先进的起草者中词汇修剪的注意事项来强调这一点。我们发布SPEED-Bench，为SD算法的实际比较建立统一的评估标准。",
+      "titleZh": "SPEED-Bench：推测解码的统一且多样化的基准",
+      "authors": [
+        "Talor Abramovich",
+        "Maor Ashkenazi",
+        "Carl",
+        "Putterman",
+        "Benjamin Chislett",
+        "Tiyasa Mitra",
+        "Bita Darvish Rouhani",
+        "Ran Zilberstein",
+        "Yonatan Geifman"
+      ],
+      "publishedAt": "2026-02-10T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-04-14T00:00:00.000Z",
+      "submitter": "talor-abr",
+      "upvotes": 14,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2604.09557",
+        "arxiv": "https://arxiv.org/abs/2604.09557",
+        "pdf": "https://arxiv.org/pdf/2604.09557"
+      }
+    },
+    {
+      "id": "2608.23283",
+      "title": "Apodex 1.1: Scaling Agentic Intelligence for Complex Work",
+      "summary": "General-purpose language models can reason and synthesize knowledge, but complex work also requires sustained interaction with files, information sources, and executable code, together with state maintenance, failure recovery, and verifiable delivery. We call this working capability: sustained, verifiable progress toward a real-world objective. Apodex 1.1 develops this capability along two complementary dimensions. Environment Scaling expands the diversity and verifiability of executable file, search, and code environments, while Agentic Coordination Scaling trains agents to decompose long-horizon tasks, delegate parallel work, integrate asynchronous results, and replan. A shared execution harness and AgentOS maintain task state and provenance across tools and agents, and training turns environment trajectories and coordination traces into reliable behavior. Across complex professional work, finance, scientific research, mathematics, coding, and search, Apodex 1.1 reaches the leading performance band despite using a substantially smaller model than many frontier systems. The 35B-parameter Apodex 1.1 Mini further retains strong working capability in a locally deployable form. These results ground agentic intelligence in useful, verifiable work completed over time and advance our goal of building a Heavy-Duty Solver for ambitious, long-running tasks.",
+      "summaryZh": "通用语言模型可以推理和综合知识，但复杂的工作还需要与文件、信息源和可执行代码持续交互，以及状态维护、故障恢复和可验证的交付。我们称之为工作能力：朝着现实世界的目标持续、可验证的进展。 Apodex 1.1 在两个互补的维度上开发了这种功能。环境扩展扩展了可执行文件、搜索和代码环境的多样性和可验证性，而代理协调扩展则训练代理分解长期任务、委派并行工作、集成异步结果和重新计划。共享执行工具和 AgentOS 维护跨工具和代理的任务状态和来源，并且训练将环境轨迹和协调跟踪转化为可靠的行为。尽管使用的模型比许多前沿系统小得多，但在复杂的专业工作、金融、科学研究、数学、编码和搜索中，Apodex 1.1 仍达到了领先的性能范围。 35B参数的Apodex 1.1 Mini以可本地部署的形式进一步保留了强大的工作能力。这些结果将代理智能融入到随着时间的推移完成的有用、可验证的工作中，并推进我们为雄心勃勃的长期运行任务构建重型求解器的目标。",
+      "titleZh": "Apodex 1.1：扩展代理智能以应对复杂的工作",
+      "authors": [
+        "Apodex Team",
+        "B. An",
+        "B. Li",
+        "B. Wang",
+        "B. Zhang",
+        "B. L. Wang",
+        "C. Feng",
+        "C. Wei",
+        "C. Xue",
+        "C. Zhang",
+        "D. Ng",
+        "D. Ye"
+      ],
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-08-25T00:00:00.000Z",
+      "submitter": "oriuta",
+      "upvotes": 211,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2608.23283",
+        "arxiv": "https://arxiv.org/abs/2608.23283",
+        "pdf": "https://arxiv.org/pdf/2608.23283"
+      }
+    },
+    {
+      "id": "2609.20519",
+      "title": "SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness",
+      "summary": "As coding agents move from supervised code completion to unattended, around-the-clock exploration, their work expands from isolated predictions into long trajectories of reasoning, tool use, and feedback. Token efficiency therefore becomes important for scaling recursive self-improvement. We take an RSI-inspired approach at the harness layer, scaling auto-research loops across increasingly numerous and diverse environments for harness rollouts. At this scale, the process yields reusable improvements that transfer beyond their development setting, moving automated harness discovery toward production-level outcomes. Four mechanisms survive selection and form SoL-Pi, spanning action execution, context compaction, observation handling, and delegated reading. On the 51-task EdgeBench evaluation, SoL-Pi achieves performance comparable to Pi across GPT-5.6 Sol and Opus 5 while reducing recorded token traffic by 44.7-49.0% and API cost by about one third. In other words, estimated hourly savings are \\8.75-13.50 relative to native Codex and Claude Code harnesses, and \\4.36-5.71 relative to Pi.",
+      "summaryZh": "随着编码代理从监督代码完成转向无人值守、全天候探索，他们的工作从孤立的预测扩展到推理、工具使用和反馈的长轨迹。因此，代币效率对于扩展递归自我改进变得非常重要。我们在线束层采用了受 RSI 启发的方法，在越来越多和多样化的环境中扩展自动研究循环，以进行线束部署。在这种规模上，该过程产生了可重复使用的改进，这些改进超出了其开发环境，将自动化线束发现转向生产级结果。四种机制在选择后形成 SoL-Pi，涵盖动作执行、上下文压缩、观察处理和委托读取。在 51 任务 EdgeBench 评估中，SoL-Pi 在 GPT-5.6 Sol 和 Opus 5 上实现了与 Pi 相当的性能，同时将记录的令牌流量减少了 44.7-49.0%，API 成本减少了约三分之一。换句话说，相对于原生 Codex 和 Claude Code 线束，预计每小时节省 8.75-13.50 美元，相对于 Pi，每小时节省 4.36-5.71 美元。",
+      "titleZh": "SoL-Pi：递归扩展自动研究循环以实现高效的代理利用",
+      "authors": [
+        "Haozhe Liu",
+        "Tian Ye",
+        "Sensen Gao",
+        "Qihang Cao",
+        "Yitong Li",
+        "Mingchen Zhuge",
+        "Duomin Wang",
+        "Ruihua Zhang",
+        "Ping Luo",
+        "Jiawang Bian",
+        "Lei Zhu",
+        "Ligeng Zhu"
+      ],
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-09-18T00:00:00.000Z",
+      "submitter": "Sensen02",
+      "upvotes": 130,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2609.20519",
+        "arxiv": "https://arxiv.org/abs/2609.20519",
+        "pdf": "https://arxiv.org/pdf/2609.20519"
+      }
+    },
+    {
+      "id": "2609.24972",
+      "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
+      "summary": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasingly automate this process by iteratively proposing and selecting component-wise edits of an agent harness, practically establishing a form of recursive self-improvement (RSI) at the agent-system level. However, such recursive evolution may overfit by memorizing the training tasks, showing large in-distribution gains that shrink or even vanish on out-of-distribution benchmarks. We introduce Regularized Recursive Self-Improvement of Agent Harnesses (RRSI), which incorporates the principles of regularizations into harness self-improvement by constraining the evolution candidate proposal and selection. The proposer operates with a temporally annealed budget, limiting how many edits a candidate can bundle, and it encourages unexplored trajectories based on evolution history. The selector is equipped with a critic and a pruner: the critic screens benchmark-specific proposals, while the pruner, removes changes that are too small, too expensive, or no longer useful. Together these constraints favor reusable agent mechanisms over benchmark-specific ones or even noises. Across eight benchmarks spanning coding, agentic workspace and engineering design tasks, RRSI gains up to 14.1 points on the split it evolves against and up to 4.7 points on the five out-of-distribution benchmarks, while producing a harness that runs on 30% fewer policy tokens than the unregularized evolution. Code is available at https://github.com/google-research/rrsi and project page is https://regularized-rsi.com/.",
+      "summaryZh": "LLM 代理的能力在很大程度上通过其工具（即围绕冻结骨干模型的提示、控制流、工具、内存和上下文管理）得到放大。最近的方法通过迭代地提出和选择代理工具的组件级编辑来日益自动化该过程，实际上在代理系统级别建立了一种递归自我改进（RSI）的形式。然而，这种递归进化可能会因记忆训练任务而过度拟合，从而显示出较大的分布内增益，而这些增益在分布外基准上会缩小甚至消失。我们引入了 Agent Harnesses 的正则化递归自我改进（RRSI），它将正则化的原理通过限制进化候选提案和选择来融入到 Harness 的自我改进中。提议者以临时退火的预算运作，限制了候选者可以捆绑的编辑数量，并且它鼓励基于进化历史的未探索的轨迹。选择器配备了批评者和修剪器：批评者筛选特定于基准的建议，而修剪器则删除太小、太昂贵或不再有用的更改。总的来说，这些约束有利于可重用的代理机制，而不是特定于基准的代理机制，甚至噪音。在涵盖编码、代理工作空​​间和工程设计任务的八个基准中，RRSI 在其演变所针对的分割上获得了高达 14.1 分，在五个分布外基准上获得了高达 4.7 分，同时生成的工具比非规范化演变所运行的策略令牌少了 30%。代码可在 https://github.com/google-research/rrsi 获取，项目页面为 https://regularized-rsi.com/。",
+      "titleZh": "RRSI：代理安全带的正则化递归自我改进",
+      "authors": [
+        "Peng Xia",
+        "Rujun Han",
+        "Zifeng Wang",
+        "Yanfei Chen",
+        "Yufan Zhang",
+        "Yoonho Lee",
+        "Chengsong Huang",
+        "Han Yu",
+        "Zhongying CuiZhu",
+        "Yifei Ming",
+        "Huaxiu Yao",
+        "Burak Gokturk"
+      ],
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-09-22T00:00:00.000Z",
+      "submitter": "richardxp888",
+      "upvotes": 202,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2609.24972",
+        "arxiv": "https://arxiv.org/abs/2609.24972",
+        "pdf": "https://arxiv.org/pdf/2609.24972"
+      }
+    },
+    {
+      "id": "2608.16157",
+      "title": "FreeToken: Efficient Edge-Native MoE Serving with Bandwidth-Adaptive Execution",
+      "summary": "Frontier open-weight models are increasingly available, but serving them still largely assumes datacenter infrastructure. We present FreeToken, an edge-native MoE serving system that treats a personal machine not as a small GPU, but as a unified, elastic inference platform. FreeToken co-designs the full serving stack, including model layout and loading, expert residency, CPU--GPU execution, agentic state reuse, and runtime memory management, around two realities of local AI: agent workloads continuously change their execution pattern, and edge hardware exposes heterogeneous resources whose balance differs from machine to machine. Rather than committing to a fixed offloading strategy, FreeToken continuously maps computation and model state onto the resources actually available. FreeToken supports more than 20 MoE models and real coding and tool-using agents across hardware ranging from an 8GB laptop GPU to a single workstation GPU. More importantly, it changes what these machines can practically serve, from a 35B model on a laptop to a 284B model on a gaming desktop and the 753B GLM-5.2 on a single workstation GPU. FreeToken turns open weights into deployable local software, making the machines users already own a practical platform for frontier-scale intelligence. We release the system at flashml.ai.",
+      "summaryZh": "前沿开放权重模型越来越可用，但为它们提供服务仍然很大程度上假设数据中心基础设施。我们推出 FreeToken，这是一种边缘原生 MoE 服务系统，它不会将个人机器视为小型 GPU，而是将其视为统一的弹性推理平台。 FreeToken 围绕本地 AI 的两个现实共同设计了完整的服务堆栈，包括模型布局和加载、专家驻留、CPU-GPU 执行、代理状态重用和运行时内存管理：代理工作负载不断改变其执行模式，边缘硬件公开异构资源，其平衡因机器而异。 FreeToken 没有采用固定的卸载策略，而是不断地将计算和模型状态映射到实际可用的资源上。 FreeToken 支持 20 多种 MoE 模型以及跨硬件（从 8GB 笔记本电脑 GPU 到单个工作站 GPU）的真实编码和工具使用代理。更重要的是，它改变了这些机器的实际服务范围，从笔记本电脑上的 35B 型号到游戏台式机上的 284B 型号以及单个工作站 GPU 上的 753B GLM-5.2。 FreeToken 将开放权重转化为可部署的本地软件，使机器用户已经拥有了一个前沿智能的实用平台。我们在 flashml.ai 上发布了该系统。",
+      "titleZh": "FreeToken：具有带宽自适应执行能力的高效边缘原生 MoE 服务",
+      "authors": [
+        "Shuo Yang",
+        "Xiaoze Fan",
+        "Melissa Pan",
+        "Haocheng Xi",
+        "Zhe Wang",
+        "Shanlin Sun",
+        "Kurt Keutzer",
+        "Song Han",
+        "Matei Zaharia",
+        "Chenfeng Xu",
+        "Ion Stoica"
+      ],
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-08-19T00:00:00.000Z",
+      "submitter": "andy-yang",
+      "upvotes": 112,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2608.16157",
+        "arxiv": "https://arxiv.org/abs/2608.16157",
+        "pdf": "https://arxiv.org/pdf/2608.16157"
+      }
+    },
+    {
+      "id": "2309.06180",
+      "title": "Efficient Memory Management for Large Language Model Serving with\n  PagedAttention",
+      "summary": "High throughput serving of large language models (LLMs) requires batching\nsufficiently many requests at a time. However, existing systems struggle\nbecause the key-value cache (KV cache) memory for each request is huge and\ngrows and shrinks dynamically. When managed inefficiently, this memory can be\nsignificantly wasted by fragmentation and redundant duplication, limiting the\nbatch size. To address this problem, we propose PagedAttention, an attention\nalgorithm inspired by the classical virtual memory and paging techniques in\noperating systems. On top of it, we build vLLM, an LLM serving system that\nachieves (1) near-zero waste in KV cache memory and (2) flexible sharing of KV\ncache within and across requests to further reduce memory usage. Our\nevaluations show that vLLM improves the throughput of popular LLMs by\n2-4times with the same level of latency compared to the state-of-the-art\nsystems, such as FasterTransformer and Orca. The improvement is more pronounced\nwith longer sequences, larger models, and more complex decoding algorithms.\nvLLM's source code is publicly available at\nhttps://github.com/vllm-project/vllm",
+      "summaryZh": "大型语言模型 (LLM) 的高吞吐量服务需要批处理\n一次有足够多的请求。然而，现有系统却举步维艰\n因为每个请求的键值缓存（KV缓存）内存巨大并且\n动态增长和收缩。当管理效率低下时，该内存可能会被\n碎片和冗余重复造成了极大的浪费，限制了\n批量大小。为了解决这个问题，我们提出PagedAttention，一个注意力机制\n算法的灵感来自于经典的虚拟内存和分页技术\n操作系统。在此基础上，我们构建了 vLLM，一个 LLM 服务系统，\n实现 (1) KV 缓存内存近乎零浪费和 (2) KV 灵活共享\n在请求内和请求之间进行缓存，以进一步减少内存使用。我们的\n评估表明，vLLM 通过以下方式提高了流行 LLM 的吞吐量：\n与最先进的技术相比，相同延迟水平下的 2-4 倍\n系统，例如 FasterTransformer 和 Orca。改善效果更加明显\n具有更长的序列、更大的模型和更复杂的解码算法。\nvLLM 的源代码可在以下位置公开获取：\nhttps://github.com/vllm-project/vllm",
+      "titleZh": "大型语言模型的高效内存管理\n  分页注意力",
+      "authors": [
+        "Woosuk Kwon",
+        "Zhuohan Li",
+        "Siyuan Zhuang",
+        "Ying Sheng",
+        "Lianmin Zheng",
+        "Cody Hao Yu",
+        "Joseph E. Gonzalez",
+        "Hao Zhang",
+        "Ion Stoica"
+      ],
+      "publishedAt": "2023-09-12T12:50:04.000Z",
+      "submittedOnDailyAt": "2023-09-13T00:00:00.000Z",
+      "submitter": "akhaliq",
+      "upvotes": 73,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2309.06180",
+        "arxiv": "https://arxiv.org/abs/2309.06180",
+        "pdf": "https://arxiv.org/pdf/2309.06180"
+      }
+    },
+    {
+      "id": "2310.10688",
+      "title": "A decoder-only foundation model for time-series forecasting",
+      "summary": "Motivated by recent advances in large language models for Natural Language\nProcessing (NLP), we design a time-series foundation model for forecasting\nwhose out-of-the-box zero-shot performance on a variety of public datasets\ncomes close to the accuracy of state-of-the-art supervised forecasting models\nfor each individual dataset. Our model is based on pretraining a\npatched-decoder style attention model on a large time-series corpus, and can\nwork well across different forecasting history lengths, prediction lengths and\ntemporal granularities.",
+      "summaryZh": "受自然语言大型语言模型最新进展的推动\n处理（NLP），我们设计了一个用于预测的时间序列基础模型\n其在各种公共数据集上的开箱即用的零样本性能\n接近最先进的监督预测模型的准确性\n对于每个单独的数据集。我们的模型基于预训练\n大型时间序列语料库上的修补解码器式注意力模型，并且可以\n在不同的预测历史长度、预测长度和\n时间粒度。",
+      "titleZh": "用于时间序列预测的仅解码器基础模型",
+      "authors": [
+        "Abhimanyu Das",
+        "Weihao Kong",
+        "Rajat Sen",
+        "Yichen Zhou"
+      ],
+      "publishedAt": "2023-10-14T17:01:37.000Z",
+      "submittedOnDailyAt": "2023-10-14T13:01:37.000Z",
+      "submitter": null,
+      "upvotes": 45,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2310.10688",
+        "arxiv": "https://arxiv.org/abs/2310.10688",
+        "pdf": "https://arxiv.org/pdf/2310.10688"
+      }
+    },
+    {
+      "id": "2609.23038",
+      "title": "Spatial-Interactor: Learning Spatial Reasoning through Interaction with the Observable Physical World",
+      "summary": "Spatial reasoning is essential for vision-language models (VLMs) to understand and act in the physical world. Reasoning in dynamic environments requires VLMs to perceive local state transitions caused by object motion and viewpoint changes and integrate them over long trajectories to maintain an updated spatial state, yet existing VLMs remain limited in both capabilities. Current spatial training primarily focuses on static questions about object attributes and spatial relations, providing limited direct supervision for state transitions; in contrast, interaction trajectories naturally connect a preceding observation, an action, and a subsequent observation, offering direct supervision for local state transitions, while complete trajectories reveal dependencies among consecutive transitions. We therefore introduce Spatial-Interactor, a framework that trains VLMs to model physical-world state transitions through interaction, organizing this learning process into a three-level curriculum covering L1 passive world-state transitions, L2 active self-state transitions, and L3 long-horizon interaction trajectories. Accordingly, we construct the Learning from Spatial Interaction dataset (LSI-108K) from simulated and real interaction trajectories, with tasks aligned with the objective of each level. Our two-stage training strategy applies Supervised Fine-Tuning (SFT) to L1 and L2 for local transition modeling, and On-Policy Distillation (OPD) then uses privileged self-distillation: a teacher branch given segment-level transition descriptions supervises the student's on-policy CoT, helping the student learn to integrate consecutive transitions over L3 long trajectories. Experiments across multiple VLMs and spatial benchmarks show consistent gains in local transition modeling and long-horizon integration.",
+      "summaryZh": "空间推理对于视觉语言模型 (VLM) 理解物理世界并在物理世界中采取行动至关重要。动态环境中的推理需要 VLM 感知由对象运动和视点变化引起的局部状态转换，并将它们整合到长轨迹上以维持更新的空间状态，但现有的 VLM 在这两种能力上仍然有限。目前的空间训练主要关注对象属性和空间关系的静态问题，为状态转换提供有限的直接监督；相比之下，交互轨迹自然地连接先前的观察、动作和随后的观察，为局部状态转换提供直接监督，而完整的轨迹则揭示连续转换之间的依赖关系。因此，我们引入了 Spatial-Interactor，这是一个训练 VLM 通过交互来模拟物理世界状态转换的框架，将这种学习过程组织成一个三级课程，涵盖 L1 被动世界状态转换、L2 主动自我状态转换和 L3 长视野交互轨迹。因此，我们根据模拟和真实的交互轨迹构建了空间交互学习数据集（LSI-108K），任务与每个级别的目标一致。我们的两阶段训练策略将监督微调 (SFT) 应用于 L1 和 L2 进行局部转换建模，然后在策略蒸馏 (OPD) 使用特权自蒸馏：给出段级转换描述的教师分支监督学生的在策略 CoT，帮助学生学习在 L3 长轨迹上集成连续转换。跨多个 VLM 和空间基准的实验表明，局部转换建模和长视野集成取得了一致的成果。",
+      "titleZh": "空间交互器：通过与可观察的物理世界的交互来学习空间推理",
+      "authors": [
+        "Kaixiang Yao",
+        "Xu Wang",
+        "Miao Pan",
+        "Hu Xiyue",
+        "Weishi Wang",
+        "Daniel Dahlmeier",
+        "Jintao Chen",
+        "Yongliang Shen",
+        "Xuhong Zhang",
+        "Wenqi Zhang"
+      ],
+      "publishedAt": "2026-09-19T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-09-24T00:00:00.000Z",
+      "submitter": "zwq2018",
+      "upvotes": 45,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2609.23038",
+        "arxiv": "https://arxiv.org/abs/2609.23038",
+        "pdf": "https://arxiv.org/pdf/2609.23038"
+      }
+    }
+  ]
+}
