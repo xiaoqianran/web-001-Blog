@@ -1,0 +1,418 @@
+{
+  "source": "huggingface.co/api/daily_papers",
+  "attribution": "Data from Hugging Face Daily Papers (community curation). All rights belong to the original authors. Chinese text is machine-translated.",
+  "fetchedAt": "2026-09-30T14:38:04.875Z",
+  "date": "2026-09-30",
+  "sort": "trending",
+  "count": 15,
+  "locale": {
+    "summaryDefault": "zh",
+    "translated": true
+  },
+  "papers": [
+    {
+      "id": "2609.33439",
+      "title": "Raven: The Harness of Harnesses for Composable Agentic Intelligence",
+      "summary": "As large language models advance, AI agents are moving beyond isolated, domain-specific tasks toward long-horizon, cross-domain workflows. This transition exposes two challenges: increasing harness complexity makes manual design difficult to scale, while tighter coupling to specific domains limits the generality of a single harness. The central question thus shifts from how to engineer a stronger harness for one domain to how to autonomously construct specialized harnesses, improve them through experience, and orchestrate them across domains. We introduce Raven, The Harness of Harnesses, an open-source multi-agent ecosystem that automatically constructs and evolves modular harnesses for specific models and domains, treating each executable model--harness pair as a composable unit of intelligence. To support an All-Domain Collaboration Network, its Host Agent decomposes goals, matches subtasks to specialized agents, coordinates execution dependencies, and integrates results, while a host archive and EverOS preserve experience across tasks and Skill Forge makes that experience available as reusable procedures. Our theory establishes sufficient conditions for such composition to expand reliable task coverage beyond that of the available individual agents under a shared resource budget. On complex and long-horizon tasks, Raven significantly outperforms the state-of-the-art agent systems, pushing the frontier of composable agentic intelligence.",
+      "summaryZh": "随着大型语言模型的进步，人工智能代理正在超越孤立的、特定领域的任务，转向长期的、跨领域的工作流程。这种转变暴露了两个挑战：增加线束的复杂性使得手动设计难以扩展，而与特定领域的更紧密的耦合限制了单个线束的通用性。因此，中心问题从如何为一个领域设计更强大的线束，转变为如何自主构建专门的线束，通过经验改进它们，并跨领域编排它们。我们引入了 Raven，即 Harness of Harnesses，这是一个开源多智能体生态系统，可自动构建和发展针对特定模型和领域的模块化线束，将每个可执行模型 - 线束对视为可组合的智能单元。为了支持全域协作网络，其主机代理分解目标、将子任务与专门代理匹配、协调执行依赖性并集成结果，同时主机存档和 EverOS 保留跨任务的经验，而 Skill Forge 使该经验可作为可重用的过程使用。我们的理论为这种组合建立了充分的条件，以将可靠的任务覆盖范围扩大到共享资源预算下可用的单个代理的范围之外。在复杂且长期的任务中，Raven 的性能显着优于最先进的代理系统，推动了可组合代理智能的前沿。",
+      "titleZh": "Raven：可组合代理智能的安全带",
+      "authors": [
+        "EverMind AI"
+      ],
+      "publishedAt": "2026-09-27T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-09-30T00:00:00.000Z",
+      "submitter": "LivXue",
+      "upvotes": 281,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2609.33439",
+        "arxiv": "https://arxiv.org/abs/2609.33439",
+        "pdf": "https://arxiv.org/pdf/2609.33439"
+      }
+    },
+    {
+      "id": "2609.24972",
+      "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
+      "summary": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasingly automate this process by iteratively proposing and selecting component-wise edits of an agent harness, practically establishing a form of recursive self-improvement (RSI) at the agent-system level. However, such recursive evolution may overfit by memorizing the training tasks, showing large in-distribution gains that shrink or even vanish on out-of-distribution benchmarks. We introduce Regularized Recursive Self-Improvement of Agent Harnesses (RRSI), which incorporates the principles of regularizations into harness self-improvement by constraining the evolution candidate proposal and selection. The proposer operates with a temporally annealed budget, limiting how many edits a candidate can bundle, and it encourages unexplored trajectories based on evolution history. The selector is equipped with a critic and a pruner: the critic screens benchmark-specific proposals, while the pruner, removes changes that are too small, too expensive, or no longer useful. Together these constraints favor reusable agent mechanisms over benchmark-specific ones or even noises. Across eight benchmarks spanning coding, agentic workspace and engineering design tasks, RRSI gains up to 14.1 points on the split it evolves against and up to 4.7 points on the five out-of-distribution benchmarks, while producing a harness that runs on 30% fewer policy tokens than the unregularized evolution. Code is available at https://github.com/google-research/rrsi and project page is https://regularized-rsi.com/.",
+      "summaryZh": "LLM 代理的能力在很大程度上通过其工具（即围绕冻结骨干模型的提示、控制流、工具、内存和上下文管理）得到放大。最近的方法通过迭代地提出和选择代理工具的组件级编辑来日益自动化该过程，实际上在代理系统级别建立了一种递归自我改进（RSI）的形式。然而，这种递归进化可能会因记忆训练任务而过度拟合，从而显示出较大的分布内增益，而这些增益在分布外基准上会缩小甚至消失。我们引入了 Agent Harnesses 的正则化递归自我改进（RRSI），它将正则化的原理通过限制进化候选提案和选择来融入到 Harness 的自我改进中。提议者以临时退火的预算运作，限制了候选者可以捆绑的编辑数量，并且它鼓励基于进化历史的未探索的轨迹。选择器配备了批评者和修剪器：批评者筛选特定于基准的建议，而修剪器则删除太小、太昂贵或不再有用的更改。总的来说，这些约束有利于可重用的代理机制，而不是特定于基准的代理机制，甚至噪音。在涵盖编码、代理工作空​​间和工程设计任务的八个基准中，RRSI 在其演变所针对的分割上获得了高达 14.1 分，在五个分布外基准上获得了高达 4.7 分，同时生成的工具比非规范化演变所运行的策略令牌少了 30%。代码可在 https://github.com/google-research/rrsi 获取，项目页面为 https://regularized-rsi.com/。",
+      "titleZh": "RRSI：代理安全带的正则化递归自我改进",
+      "authors": [
+        "Peng Xia",
+        "Rujun Han",
+        "Zifeng Wang",
+        "Yanfei Chen",
+        "Yufan Zhang",
+        "Yoonho Lee",
+        "Chengsong Huang",
+        "Han Yu",
+        "Zhongying CuiZhu",
+        "Yifei Ming",
+        "Huaxiu Yao",
+        "Burak Gokturk"
+      ],
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-09-22T00:00:00.000Z",
+      "submitter": "richardxp888",
+      "upvotes": 218,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2609.24972",
+        "arxiv": "https://arxiv.org/abs/2609.24972",
+        "pdf": "https://arxiv.org/pdf/2609.24972"
+      }
+    },
+    {
+      "id": "2412.20138",
+      "title": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "summary": "Significant progress has been made in automated problem-solving using\nsocieties of agents powered by large language models (LLMs). In finance,\nefforts have largely focused on single-agent systems handling specific tasks or\nmulti-agent frameworks independently gathering data. However, the multi-agent\nsystems' potential to replicate real-world trading firms' collaborative\ndynamics remains underexplored. TradingAgents proposes a novel stock trading\nframework inspired by trading firms, featuring LLM-powered agents in\nspecialized roles such as fundamental analysts, sentiment analysts, technical\nanalysts, and traders with varied risk profiles. The framework includes Bull\nand Bear researcher agents assessing market conditions, a risk management team\nmonitoring exposure, and traders synthesizing insights from debates and\nhistorical data to make informed decisions. By simulating a dynamic,\ncollaborative trading environment, this framework aims to improve trading\nperformance. Detailed architecture and extensive experiments reveal its\nsuperiority over baseline models, with notable improvements in cumulative\nreturns, Sharpe ratio, and maximum drawdown, highlighting the potential of\nmulti-agent LLM frameworks in financial trading. TradingAgents is available at\nhttps://github.com/TauricResearch/TradingAgents.",
+      "summaryZh": "使用自动化解决问题取得了重大进展\n由大型语言模型 (LLM) 提供支持的代理协会。在金融领域，\n工作主要集中在处理特定任务的单代理系统或\n多代理框架独立收集数据。然而，多代理\n系统复制现实世界贸易公司协作的潜力\n动力学仍有待探索。 TradingAgents 提出了一种新颖的股票交易方式\n受贸易公司启发的框架，以法学硕士支持的代理为特色\n专业角色，例如基本面分析师、情绪分析师、技术分析师\n具有不同风险状况的分析师和交易员。该框架包括 Bull\n贝尔斯登研究人员评估市场状况，风险管理团队\n监控风险敞口，交易者从辩论中综合见解\n历史数据以做出明智的决策。通过模拟动态，\n协作交易环境，该框架旨在改善交易\n性能。详细的架构和广泛的实验揭示了它的\n优于基线模型，累积显着改进\n回报率、夏普比率和最大回撤，凸显了\n金融交易中的多代理法学硕士框架。交易代理可在\nhttps://github.com/TauricResearch/TradingAgents。",
+      "titleZh": "TradingAgents：多代理LLM金融交易框架",
+      "authors": [
+        "Yijia Xiao",
+        "Edward Sun",
+        "Di Luo",
+        "Wei Wang"
+      ],
+      "publishedAt": "2024-12-28T12:54:06.000Z",
+      "submittedOnDailyAt": "2024-12-28T07:54:06.000Z",
+      "submitter": null,
+      "upvotes": 148,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2412.20138",
+        "arxiv": "https://arxiv.org/abs/2412.20138",
+        "pdf": "https://arxiv.org/pdf/2412.20138"
+      }
+    },
+    {
+      "id": "2604.09557",
+      "title": "SPEED-Bench: A Unified and Diverse Benchmark for Speculative Decoding",
+      "summary": "Speculative Decoding (SD) has emerged as a critical technique for accelerating Large Language Model (LLM) inference. Unlike deterministic system optimizations, SD performance is inherently data-dependent, meaning that diverse and representative workloads are essential for accurately measuring its effectiveness. Existing benchmarks suffer from limited task diversity, inadequate support for throughput-oriented evaluation, and a reliance on high-level implementations that fail to reflect production environments. To address this, we introduce SPEED-Bench, a comprehensive suite designed to standardize SD evaluation across diverse semantic domains and realistic serving regimes. SPEED-Bench offers a carefully curated Qualitative data split, selected by prioritizing semantic diversity across the data samples. Additionally, it includes a Throughput data split, allowing speedup evaluation across a range of concurrencies, from latency-sensitive low-batch settings to throughput-oriented high-load scenarios. By integrating with production engines like vLLM and TensorRT-LLM, SPEED-Bench allows practitioners to analyze system behaviors often masked by other benchmarks. We highlight this by quantifying how synthetic inputs overestimate real-world throughput, identifying batch-size dependent optimal draft lengths and biases in low-diversity data, and analyzing the caveats of vocabulary pruning in state-of-the-art drafters. We release SPEED-Bench to establish a unified evaluation standard for practical comparisons of SD algorithms.",
+      "summaryZh": "推测解码 (SD) 已成为加速大型语言模型 (LLM) 推理的关键技术。与确定性系统优化不同，SD 性能本质上依赖于数据，这意味着多样化且具有代表性的工作负载对于准确衡量其有效性至关重要。现有的基准测试面临着任务多样性有限、对以吞吐量为导向的评估支持不足以及对无法反映生产环境的高级实现的依赖等问题的困扰。为了解决这个问题，我们引入了 SPEED-Bench，这是一个综合套件，旨在标准化跨不同语义领域和现实服务机制的 SD 评估。 SPEED-Bench 提供精心策划的定性数据分割，通过优先考虑数据样本中的语义多样性来选择。此外，它还包括吞吐量数据分割，允许在一系列并发情况下加速评估，从延迟敏感的低批量设置到面向吞吐量的高负载场景。通过与 vLLM 和 TensorRT-LLM 等生产引擎集成，SPEED-Bench 允许从业者分析经常被其他基准测试掩盖的系统行为。我们通过量化合成输入如何高估现实世界的吞吐量、识别低多样性数据中与批次大小相关的最佳草稿长度和偏差，以及分析最先进的起草者中词汇修剪的注意事项来强调这一点。我们发布SPEED-Bench，为SD算法的实际比较建立统一的评估标准。",
+      "titleZh": "SPEED-Bench：推测解码的统一且多样化的基准",
+      "authors": [
+        "Talor Abramovich",
+        "Maor Ashkenazi",
+        "Carl",
+        "Putterman",
+        "Benjamin Chislett",
+        "Tiyasa Mitra",
+        "Bita Darvish Rouhani",
+        "Ran Zilberstein",
+        "Yonatan Geifman"
+      ],
+      "publishedAt": "2026-02-10T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-04-14T00:00:00.000Z",
+      "submitter": "talor-abr",
+      "upvotes": 16,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2604.09557",
+        "arxiv": "https://arxiv.org/abs/2604.09557",
+        "pdf": "https://arxiv.org/pdf/2604.09557"
+      }
+    },
+    {
+      "id": "2609.05415",
+      "title": "UniMate: One Unified Model to Animate Diverse Skeletons",
+      "summary": "Recent advances in automatic rigging now deliver animation-ready 3D assets at scale, yet generating the motion to drive them remains a bottleneck. Existing learned animators are topology-constrained: they rely on category-specific templates or require per-skeleton fine-tuning and reference motions at inference. We present UniMate, a unified foundation model that synthesizes articulated motion for arbitrary skeletons from a rigged 3D asset and a text prompt, with no test-time optimization or per-skeleton retraining. UniMate introduces a topology-aware diffusion transformer, which integrates skeletal topology into attention via three mechanisms: (1) a graph-aware attention bias from pairwise joint relations and geodesic distances; (2) a spectral rotary position embedding generalizing RoPE to arbitrary kinematic trees via the graph Laplacian; and (3) a global topological conditioner attention-pooled from the rest-pose skeleton. We also curate UniML3D, 13,006 motion sequences spanning bipedal, quadrupedal, avian, marine, insectoid, serpentine, and articulated rigid objects with unified canonicalization and text pairing. Trained on this dataset, UniMate outperforms state-of-the-art baselines in quality, generalization, and efficiency, and supports zero-shot cross-topology transfer, in-betweening, expansion, and text-guided editing. Our project page is available at https://linzhanmou.com/unimate/.",
+      "summaryZh": "自动绑定的最新进展现在可以大规模提供动画就绪的 3D 资源，但生成驱动它们的运动仍然是一个瓶颈。现有的学习动画师受到拓扑约束：它们依赖于特定于类别的模板，或者在推理时需要每个骨架的微调和参考运动。我们提出了 UniMate，这是一个统一的基础模型，可以从已装配的 3D 资源和文本提示中合成任意骨骼的关节运动，无需测试时优化或每个骨骼的重新训练。 UniMate 引入了拓扑感知扩散变压器，它通过三种机制将骨骼拓扑集成到注意力中：（1）来自成对关节关系和测地距离的图感知注意力偏差； (2) 通过图拉普拉斯将 RoPE 泛化到任意运动树中嵌入光谱旋转位置； （3）从休息姿势骨架集中注意力的全局拓扑调节器。我们还通过统一的规范化和文本配对来策划 UniML3D，涵盖双足、四足、鸟类、海洋、昆虫、蛇形和铰接式刚性物体的 13,006 个运动序列。在此数据集上进行训练后，UniMate 在质量、泛化和效率方面优于最先进的基线，并支持零样本跨拓扑传输、中间、扩展和文本引导编辑。我们的项目页面位于 https://linzhanmou.com/unimate/。",
+      "titleZh": "UniMate：一种统一模型来制作不同骨骼的动画",
+      "authors": [
+        "Linzhan Mou",
+        "Jiahui Lei",
+        "Zhiyang Dou",
+        "Chenyue Cai",
+        "Chaoyue Song",
+        "Adam Finkelstein",
+        "Szymon Rusinkiewicz"
+      ],
+      "publishedAt": "2026-09-04T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-09-07T00:00:00.000Z",
+      "submitter": "Linzhan",
+      "upvotes": 16,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2609.05415",
+        "arxiv": "https://arxiv.org/abs/2609.05415",
+        "pdf": "https://arxiv.org/pdf/2609.05415"
+      }
+    },
+    {
+      "id": "2609.34981",
+      "title": "What Makes World Action Models Generalize? An Empirical Study of Test-Time Future Modeling",
+      "summary": "World action models (WAMs) predict the future alongside actions during training. Due to the heavy computation cost of video denoising, whether the future must still be generated during inference is disputed: Explicit WAMs denoise it into clean frames along with every action chunk, whereas Latent WAMs discard it entirely for acceleration. We find that latent WAMs, despite matching explicit ones on in-distribution tasks, fail to retain the generalization benefits that originally motivated WAMs. To demonstrate this, we evaluate generalization along three axes: environmental perturbation, data efficiency, and task generalization. Controlled comparisons with a matched backbone, training data, and budget reveal consistent degradation across all three axes when the action expert no longer conditions on future representations. Further analysis shows that the gap arises almost entirely from the first denoising step: the benefit comes from preparing the future, not generating it. We therefore propose Simple-WAM, which simplifies future modeling into a single forward pass of fully noised video tokens and adapts the training-time noise schedule to this inference behavior. Across simulation and real-world tasks, Simple-WAM achieves the best of both worlds, leading explicit WAMs in generalization performance with efficiency comparable to Latent WAMs. Project Page: https://zrporz.github.io/Simple-WAM-Web/",
+      "summaryZh": "世界行动模型 (WAM) 与训练期间的行动一起预测未来。由于视频去噪的计算成本很高，因此在推理过程中是否仍必须生成未来存在争议：显式 WAM 将其与每个动作块一起去噪为干净的帧，而潜在 WAM 则将其完全丢弃以进行加速。我们发现，尽管潜在的 WAM 与分布任务上的显式 WAM 相匹配，但它无法保留最初激发 WAM 的泛化优势。为了证明这一点，我们沿着三个轴评估泛化：环境扰动、数据效率和任务泛化。当行动专家不再以未来表示为条件时，与匹配的骨干网、训练数据和预算的受控比较揭示了所有三个轴上的一致退化。进一步的分析表明，差距几乎完全来自第一个去噪步骤：好处来自为未来做好准备，而不是创造未来。因此，我们提出 Simple-WAM，它将未来的建模简化为完全噪声视频令牌的单个前向传递，并使训练时噪声计划适应这种推理行为。在模拟和现实世界任务中，Simple-WAM 实现了两全其美，在泛化性能方面领先显式 WAM，效率与潜在 WAM 相当。项目页面：https://zrporz.github.io/Simple-WAM-Web/",
+      "titleZh": "是什么让世界行动模型具有普遍性？测试时未来建模的实证研究",
+      "authors": [
+        "Renping Zhou",
+        "Zanlin Ni",
+        "Zihao Fan",
+        "Guohao Fu",
+        "Zeyu Liu",
+        "Hao Shi",
+        "Jie Zhang",
+        "Chi Bene Chen",
+        "Yang Yue",
+        "Xueyang Fu",
+        "Gao Huang"
+      ],
+      "publishedAt": "2026-09-29T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-09-30T00:00:00.000Z",
+      "submitter": "rpzhou",
+      "upvotes": 60,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2609.34981",
+        "arxiv": "https://arxiv.org/abs/2609.34981",
+        "pdf": "https://arxiv.org/pdf/2609.34981"
+      }
+    },
+    {
+      "id": "2407.16741",
+      "title": "OpenDevin: An Open Platform for AI Software Developers as Generalist\n  Agents",
+      "summary": "Software is one of the most powerful tools that we humans have at our\ndisposal; it allows a skilled programmer to interact with the world in complex\nand profound ways. At the same time, thanks to improvements in large language\nmodels (LLMs), there has also been a rapid development in AI agents that\ninteract with and affect change in their surrounding environments. In this\npaper, we introduce OpenDevin, a platform for the development of powerful and\nflexible AI agents that interact with the world in similar ways to those of a\nhuman developer: by writing code, interacting with a command line, and browsing\nthe web. We describe how the platform allows for the implementation of new\nagents, safe interaction with sandboxed environments for code execution,\ncoordination between multiple agents, and incorporation of evaluation\nbenchmarks. Based on our currently incorporated benchmarks, we perform an\nevaluation of agents over 15 challenging tasks, including software engineering\n(e.g., SWE-Bench) and web browsing (e.g., WebArena), among others. Released\nunder the permissive MIT license, OpenDevin is a community project spanning\nacademia and industry with more than 1.3K contributions from over 160\ncontributors and will improve going forward.",
+      "summaryZh": "软件是我们人类拥有的最强大的工具之一\n处置；它允许熟练的程序员以复杂的方式与世界交互\n和深刻的方法。同时得益于大语言的改进\n模型（法学硕士），人工智能代理也得到了快速发展，\n与周围环境相互作用并影响其变化。在这个\n论文中，我们介绍了 OpenDevin，一个用于开发功能强大且\n灵活的人工智能代理，以类似于人类的方式与世界互动\n人类开发人员：通过编写代码、与命令行交互和浏览\n网络。我们描述了该平台如何允许实施新的\n代理，与沙盒环境安全交互以执行代码，\n多个主体之间的协调以及评估的结合\n基准。根据我们当前纳入的基准，我们执行\n对代理进行超过 15 项挑战性任务的评估，包括软件工程\n（例如，SWE-Bench）和网页浏览（例如，WebArena）等。已发布\n在 MIT 许可下，OpenDevin 是一个社区项目，涵盖\n学术界和工业界超过 160 人做出了超过 1,300 份贡献\n贡献者并将继续改进。",
+      "titleZh": "OpenDevin：面向多面手的人工智能软件开发人员的开放平台\n  代理商",
+      "authors": [
+        "Xingyao Wang",
+        "Boxuan Li",
+        "Yufan Song",
+        "Frank F. Xu",
+        "Xiangru Tang",
+        "Mingchen Zhuge",
+        "Jiayi Pan",
+        "Yueqi Song",
+        "Bowen Li",
+        "Jaskirat Singh",
+        "Hoang H. Tran",
+        "Fuqiang Li"
+      ],
+      "publishedAt": "2024-07-23T17:50:43.000Z",
+      "submittedOnDailyAt": "2024-07-25T00:00:00.000Z",
+      "submitter": "akhaliq",
+      "upvotes": 89,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2407.16741",
+        "arxiv": "https://arxiv.org/abs/2407.16741",
+        "pdf": "https://arxiv.org/pdf/2407.16741"
+      }
+    },
+    {
+      "id": "2309.06180",
+      "title": "Efficient Memory Management for Large Language Model Serving with\n  PagedAttention",
+      "summary": "High throughput serving of large language models (LLMs) requires batching\nsufficiently many requests at a time. However, existing systems struggle\nbecause the key-value cache (KV cache) memory for each request is huge and\ngrows and shrinks dynamically. When managed inefficiently, this memory can be\nsignificantly wasted by fragmentation and redundant duplication, limiting the\nbatch size. To address this problem, we propose PagedAttention, an attention\nalgorithm inspired by the classical virtual memory and paging techniques in\noperating systems. On top of it, we build vLLM, an LLM serving system that\nachieves (1) near-zero waste in KV cache memory and (2) flexible sharing of KV\ncache within and across requests to further reduce memory usage. Our\nevaluations show that vLLM improves the throughput of popular LLMs by\n2-4times with the same level of latency compared to the state-of-the-art\nsystems, such as FasterTransformer and Orca. The improvement is more pronounced\nwith longer sequences, larger models, and more complex decoding algorithms.\nvLLM's source code is publicly available at\nhttps://github.com/vllm-project/vllm",
+      "summaryZh": "大型语言模型 (LLM) 的高吞吐量服务需要批处理\n一次有足够多的请求。然而，现有系统却举步维艰\n因为每个请求的键值缓存（KV缓存）内存巨大并且\n动态增长和收缩。当管理效率低下时，该内存可能会被\n碎片和冗余重复造成了极大的浪费，限制了\n批量大小。为了解决这个问题，我们提出PagedAttention，一个注意力机制\n算法的灵感来自于经典的虚拟内存和分页技术\n操作系统。在此基础上，我们构建了 vLLM，一个 LLM 服务系统，\n实现 (1) KV 缓存内存近乎零浪费和 (2) KV 灵活共享\n在请求内和请求之间进行缓存，以进一步减少内存使用。我们的\n评估表明，vLLM 通过以下方式提高了流行 LLM 的吞吐量：\n与最先进的技术相比，相同延迟水平下的 2-4 倍\n系统，例如 FasterTransformer 和 Orca。改善效果更加明显\n具有更长的序列、更大的模型和更复杂的解码算法。\nvLLM 的源代码可在以下位置公开获取：\nhttps://github.com/vllm-project/vllm",
+      "titleZh": "大型语言模型的高效内存管理\n  分页注意力",
+      "authors": [
+        "Woosuk Kwon",
+        "Zhuohan Li",
+        "Siyuan Zhuang",
+        "Ying Sheng",
+        "Lianmin Zheng",
+        "Cody Hao Yu",
+        "Joseph E. Gonzalez",
+        "Hao Zhang",
+        "Ion Stoica"
+      ],
+      "publishedAt": "2023-09-12T12:50:04.000Z",
+      "submittedOnDailyAt": "2023-09-13T00:00:00.000Z",
+      "submitter": "akhaliq",
+      "upvotes": 75,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2309.06180",
+        "arxiv": "https://arxiv.org/abs/2309.06180",
+        "pdf": "https://arxiv.org/pdf/2309.06180"
+      }
+    },
+    {
+      "id": "2504.19413",
+      "title": "Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory",
+      "summary": "Large Language Models (LLMs) have demonstrated remarkable prowess in\ngenerating contextually coherent responses, yet their fixed context windows\npose fundamental challenges for maintaining consistency over prolonged\nmulti-session dialogues. We introduce Mem0, a scalable memory-centric\narchitecture that addresses this issue by dynamically extracting,\nconsolidating, and retrieving salient information from ongoing conversations.\nBuilding on this foundation, we further propose an enhanced variant that\nleverages graph-based memory representations to capture complex relational\nstructures among conversational elements. Through comprehensive evaluations on\nLOCOMO benchmark, we systematically compare our approaches against six baseline\ncategories: (i) established memory-augmented systems, (ii) retrieval-augmented\ngeneration (RAG) with varying chunk sizes and k-values, (iii) a full-context\napproach that processes the entire conversation history, (iv) an open-source\nmemory solution, (v) a proprietary model system, and (vi) a dedicated memory\nmanagement platform. Empirical results show that our methods consistently\noutperform all existing memory systems across four question categories:\nsingle-hop, temporal, multi-hop, and open-domain. Notably, Mem0 achieves 26%\nrelative improvements in the LLM-as-a-Judge metric over OpenAI, while Mem0 with\ngraph memory achieves around 2% higher overall score than the base\nconfiguration. Beyond accuracy gains, we also markedly reduce computational\noverhead compared to full-context method. In particular, Mem0 attains a 91%\nlower p95 latency and saves more than 90% token cost, offering a compelling\nbalance between advanced reasoning capabilities and practical deployment\nconstraints. Our findings highlight critical role of structured, persistent\nmemory mechanisms for long-term conversational coherence, paving the way for\nmore reliable and efficient LLM-driven AI agents.",
+      "summaryZh": "大型语言模型（LLM）在以下领域表现出了非凡的能力：\n生成上下文连贯的响应，但它们的上下文窗口是固定的\n对长期保持一致性提出了根本性挑战\n多会话对话。我们引入 Mem0，一个可扩展的以内存为中心的\n通过动态提取解决此问题的架构，\n整合并从正在进行的对话中检索重要信息。\n在此基础上，我们进一步提出了一个增强的变体\n利用基于图形的内存表示来捕获复杂的关系\n对话元素之间的结构。通过综合评价\nLOCOMO 基准，我们系统地将我们的方法与六个基准进行比较\n类别：(i) 已建立的记忆增强系统，(ii) 检索增强系统\n具有不同块大小和 k 值的生成（RAG），（iii）完整上下文\n处理整个对话历史记录的方法，（iv）开源\n内存解决方案，(v) 专有模型系统，以及 (vi) 专用内存\n管理平台。实证结果表明我们的方法始终如一\n在四个问题类别上优于所有现有的记忆系统：\n单跳、时间、多跳和开放域。值得注意的是，Mem0 达到了 26%\nLLM-as-a-Judge 指标相对于 OpenAI 的相对改进，而 Mem0 具有\n图形内存的总体得分比基础得分高出约 2%\n配置。除了精度提升之外，我们还显着减少了计算量\n与全上下文方法相比的开销。特别是 Mem0 达到了 91%\n更低的 p95 延迟并节省 90% 以上的代币成本，提供引人注目的\n高级推理能力和实际部署之间的平衡\n限制。我们的研究结果强调了结构化、持久性的关键作用\n长期对话连贯性的记忆机制，为\n更可靠、更高效的法学硕士驱动的人工智能代理。",
+      "titleZh": "Mem0：使用可扩展的长期内存构建可投入生产的 AI 代理",
+      "authors": [
+        "Prateek Chhikara",
+        "Dev Khant",
+        "Saket Aryan",
+        "Taranjeet Singh",
+        "Deshraj Yadav"
+      ],
+      "publishedAt": "2025-04-28T01:46:35.000Z",
+      "submittedOnDailyAt": "2025-04-29T00:00:00.000Z",
+      "submitter": "akhaliq",
+      "upvotes": 72,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2504.19413",
+        "arxiv": "https://arxiv.org/abs/2504.19413",
+        "pdf": "https://arxiv.org/pdf/2504.19413"
+      }
+    },
+    {
+      "id": "2503.11576",
+      "title": "SmolDocling: An ultra-compact vision-language model for end-to-end\n  multi-modal document conversion",
+      "summary": "We introduce SmolDocling, an ultra-compact vision-language model targeting\nend-to-end document conversion. Our model comprehensively processes entire\npages by generating DocTags, a new universal markup format that captures all\npage elements in their full context with location. Unlike existing approaches\nthat rely on large foundational models, or ensemble solutions that rely on\nhandcrafted pipelines of multiple specialized models, SmolDocling offers an\nend-to-end conversion for accurately capturing content, structure and spatial\nlocation of document elements in a 256M parameters vision-language model.\nSmolDocling exhibits robust performance in correctly reproducing document\nfeatures such as code listings, tables, equations, charts, lists, and more\nacross a diverse range of document types including business documents, academic\npapers, technical reports, patents, and forms -- significantly extending beyond\nthe commonly observed focus on scientific papers. Additionally, we contribute\nnovel publicly sourced datasets for charts, tables, equations, and code\nrecognition. Experimental results demonstrate that SmolDocling competes with\nother Vision Language Models that are up to 27 times larger in size, while\nreducing computational requirements substantially. The model is currently\navailable, datasets will be publicly available soon.",
+      "summaryZh": "我们推出 SmolDocling，一种超紧凑的视觉语言模型\n端到端文档转换。我们的模型全面处理整个\n通过生成 DocTags 来创建页面，DocTags 是一种新的通用标记格式，可以捕获所有内容\n页面元素的完整上下文和位置。与现有方法不同\n依赖于大型基础模型，或依赖于集成解决方案\nSmolDocling 提供多种专业模型的手工制作管道\n端到端转换，准确捕捉内容、结构和空间\n256M 参数视觉语言模型中文档元素的位置。\nSmolDocling 在正确复制文档方面表现出强大的性能\n代码清单、表格、方程、图表、列表等功能\n涵盖各种文档类型，包括商业文档、学术文档\n论文、技术报告、专利和表格——大大超出了\n普遍观察到的焦点是科学论文。此外，我们还贡献\n图表、表格、方程和代码的新颖公共数据集\n认可。实验结果表明 SmolDocling 与\n其他视觉语言模型的尺寸最多大 27 倍，而\n大大减少计算需求。目前该型号为\n可用，数据集将很快公开。",
+      "titleZh": "SmolDocling：一种超紧凑的端到端视觉语言模型\n  多模式文档转换",
+      "authors": [
+        "Ahmed Nassar",
+        "Andres Marafioti",
+        "Matteo Omenetti",
+        "Maksym Lysak",
+        "Nikolaos Livathinos",
+        "Christoph Auer",
+        "Lucas Morin",
+        "Rafael Teixeira de Lima",
+        "Yusik Kim",
+        "A. Said Gurbuz",
+        "Michele Dolfi",
+        "Miquel Farré"
+      ],
+      "publishedAt": "2025-03-14T16:44:14.000Z",
+      "submittedOnDailyAt": "2025-03-17T00:00:00.000Z",
+      "submitter": "andito",
+      "upvotes": 177,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2503.11576",
+        "arxiv": "https://arxiv.org/abs/2503.11576",
+        "pdf": "https://arxiv.org/pdf/2503.11576"
+      }
+    },
+    {
+      "id": "2605.23904",
+      "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
+      "summary": "Agent skills today are hand-crafted, generated one-shot, or evolved through loosely controlled self-revision, none of which behaves like a deep-learning optimizer for the skill, and none of which reliably improves over its starting point under feedback. We argue the skill should instead be trained as the external state of a frozen agent, with the same discipline that makes weight-space optimization reproducible. SkillOpt is, to our knowledge, the first systematic controllable text-space optimizer for agent skills: a separate optimizer model turns scored rollouts into bounded add/delete/replace edits on a single skill document, and an edit is accepted only when it strictly improves a held-out validation score. A textual learning-rate budget, rejected-edit buffer, and epoch-wise slow/meta update make skill training stable while adding zero inference-time model calls at deployment. Across six benchmarks, seven target models, and three execution harnesses (direct chat, Codex, Claude Code), SkillOpt is best or tied on all 52 evaluated (model, benchmark, harness) cells and beats every per-cell competitor among human, one-shot LLM, Trace2Skill, TextGrad, GEPA, and EvoSkill skills. On GPT-5.5 it lifts the average no-skill accuracy by +23.5 points in direct chat, by +24.8 inside the Codex agentic loop, and by +19.1 inside Claude Code. Transfer experiments further show that optimized skill artifacts retain value when moved across model scales, between Codex and Claude Code execution environments, and to a nearby math benchmark without further optimization.",
+      "summaryZh": "今天的代理技能是手工制作的、一次性生成的，或者是通过松散控制的自我修订而演变的，其中没有一个表现得像技能的深度学习优化器，也没有一个在反馈下可靠地改进其起点。我们认为，该技能应该作为冻结代理的外部状态进行训练，并采用与权重空间优化可重复的相同规则。据我们所知，SkillOpt 是第一个用于代理技能的系统可控文本空间优化器：一个单独的优化器模型将评分推出转化为对单个技能文档的有界添加/删除/替换编辑，并且只有在严格提高保留的验证分数时才接受编辑。文本学习率预算、拒绝编辑缓冲区和逐年缓慢/元更新使技能训练稳定，同时在部署时添加零推理时间模型调用。在 6 个基准、7 个目标模型和 3 个执行工具（直接聊天、Codex、Claude Code）中，SkillOpt 在所有 52 个评估（模型、基准、工具）单元中表现最好或并列，并且击败了人类一次性 LLM、Trace2Skill、TextGrad、GEPA 和 EvoSkill 技能中的每一个单元竞争对手。在 GPT-5.5 上，它在直接聊天中将平均无技能准确度提高了 +23.5 点，在 Codex 代理循环内提高了 +24.8 点，在 Claude Code 内提高了 +19.1 点。转移实验进一步表明，优化的技能工件在跨模型规模、Codex 和 Claude Code 执行环境之间转移以及转移到附近的数学基准时保留价值，而无需进一步优化。",
+      "titleZh": "SkillOpt：自我进化座席技能的执行策略",
+      "authors": [
+        "Yifan Yang",
+        "Ziyang Gong",
+        "Weiquan Huang",
+        "Qihao Yang",
+        "Ziwei Zhou",
+        "Zisu Huang",
+        "Yan Li",
+        "Xuemei Gao",
+        "Qi Dai",
+        "Bei Liu",
+        "Kai Qiu",
+        "Yuqing Yang"
+      ],
+      "publishedAt": "2026-05-22T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-05-25T00:00:00.000Z",
+      "submitter": "taesiri",
+      "upvotes": 263,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2605.23904",
+        "arxiv": "https://arxiv.org/abs/2605.23904",
+        "pdf": "https://arxiv.org/pdf/2605.23904"
+      }
+    },
+    {
+      "id": "2609.28654",
+      "title": "Training Object Permanence in World Models",
+      "summary": "Object permanence and solidity are hallmarks of human cognitive priors. Recent studies show that video generation models, a paradigmatic class of current world models, have begun to show emerged reasoning abilities, making them ideal candidates for building human-like physical intelligence. Do video models have emerged object permanence in them? If not, could we train them with a core-cognition inspired dataset? We introduce WROP (World Reasoning with Object Permanence), a data infrastructure of 150 hand-designed cognitive science inspired tasks, divided into six cognitive categories. We build Blender generators that randomize speed, lighting, camera angle, and other nuisance parameters while preserving each task's cognitive structure, yielding 10,000+ samples per task. We release a 1.5M-sample training corpus and a 300-question exam. On this exam we evaluate 14 video models: 3 reference-to-video, 7 edit, and 4 continuation, among which PWM-WROP, our 16B world model. In a blind pairwise Elo study, PWM-WROP ranks first among continuation models and third overall, behind only a statistical tie between two reference-to-video models. We release the data, exam, model answers, scores, weights, and PWM, our native-PyTorch training stack on AWS Trainium2.",
+      "summaryZh": "物体的持久性和坚固性是人类认知先验的标志。最近的研究表明，视频生成模型是当前世界模型的典范，已经开始显示出新兴的推理能力，使其成为构建类人物理智能的理想候选者。视频模型是否已经显现出物体的持久性？如果没有，我们可以用核心认知启发的数据集来训练它们吗？我们引入了 WROP（具有对象持久性的世界推理），这是一个由 150 个手工设计的认知科学启发任务组成的数据基础设施，分为六个认知类别。我们构建了 Blender 生成器，可以随机化速度、光照、摄像机角度和其他干扰参数，同时保留每个任务的认知结构，每个任务生成 10,000 多个样本。我们发布了 150 万样本的训练语料库和 300 个问题的考试。在本次考试中，我们评估了 14 个视频模型：3 个视频参考模型、7 个编辑模型和 4 个延续模型，其中包括 PWM-WROP，我们的 16B 世界模型。在一项盲配对 Elo 研究中，PWM-WROP 在连续模型中排名第一，总体排名第三，仅落后于两个参考视频模型之间的统计平局。我们在 AWS Trainium2 上发布了数据、考试、模型答案、分数、权重和 PWM（我们的本机 PyTorch 训练堆栈）。",
+      "titleZh": "在世界模型中训练对象持久性",
+      "authors": [
+        "Haotian Zhang",
+        "Fengyuan Yu",
+        "Dezhi Luo",
+        "Haoran Sun",
+        "Zehong Zhao",
+        "Qingying Gao",
+        "Yihan Li",
+        "Siyuan An",
+        "Huayi Qin",
+        "Yilan Zhang",
+        "Zhengze Jiang",
+        "Pinyuan Feng"
+      ],
+      "publishedAt": "2026-09-23T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-09-25T00:00:00.000Z",
+      "submitter": "Hokin",
+      "upvotes": 237,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2609.28654",
+        "arxiv": "https://arxiv.org/abs/2609.28654",
+        "pdf": "https://arxiv.org/pdf/2609.28654"
+      }
+    },
+    {
+      "id": "2609.08183",
+      "title": "NeoHorse-1: Towards Recursive Self-Improvement via Agentic Post-Training with Routing Harness",
+      "summary": "Recursive self-improvement (RSI) requires a concrete mechanism through which an AI system observes its capabilities and converts that evidence into the next round of learning. We present NeoHorse-1, a family of agent-native models developed to explore this path through agentic post-training. Our system combines a heterogeneous model pool with intelligent routing, recording the predicted capability demand, selected service tier, and subsequent interaction for each user turn. These records are converted into training examples that preserve interleaved reasoning, tool calls, and harness context, and are admitted through structural validation, six-dimensional semantic evaluation, and subscene-level labeling. Routing signals organize supervised fine-tuning into a three-stage curriculum and extend to routing-guided on-policy distillation, where a teacher supervises student-generated responses under the same progression. Capability-guided allocation then converts evaluation feedback into the next training mixture, closing an evaluation-selection-update loop in which what the system learns to do shapes what it learns from next. Across eleven benchmarks covering harness-based agents, tool use, coding, and instruction following, post-training raises the macro-average from 58.94 to 64.87 at 4B and from 65.60 to 69.04 at 9B, substantially narrowing the aggregate gap between the post-trained 4B model and the 9B base model. NeoHorse-1 provides an initial prototype of this feedback-driven process and a path toward harness-mediated RSI across successive iterations.",
+      "summaryZh": "递归自我改进（RSI）需要一种具体的机制，人工智能系统可以通过该机制观察其能力并将该证据转化为下一轮学习。我们推出 NeoHorse-1，这是一系列代理原生模型，旨在通过代理后训练探索这条路径。我们的系统将异构模型池与智能路由相结合，记录每个用户回合的预测能力需求、选择的服务层级以及后续交互。这些记录被转换为保留交错推理、工具调用和利用上下文的训练示例，并通过结构验证、六维语义评估和子场景级标签被接纳。路由信号将监督微调组织成三阶段课程，并扩展到路由引导的策略蒸馏，其中教师监督学生在同一进程下生成的响应。然后，以能力为导向的分配将评估反馈转换为下一个训练混合物，从而形成一个评估-选择-更新循环，在这个循环中，系统学习到的行为决定了它接下来学到的内容。在涵盖基于线束的代理、工具使用、编码和指令遵循的 11 个基准中，训练后将 4B 的宏观平均值从 58.94 提高到 64.87，将 9B 的宏观平均值从 65.60 提高到 69.04，大大缩小了训练后 4B 模型和 9B 基础模型之间的总差距。 NeoHorse-1 提供了这种反馈驱动过程的初始原型，以及通过连续迭代实现利用工具介导的 RSI 的路径。",
+      "titleZh": "NeoHorse-1：通过使用 Routing Harness 的代理后训练实现递归自我改进",
+      "authors": [
+        "NeoHorse Team",
+        "Guoliang Cao",
+        "Guohao Dai",
+        "Tianyu Guo",
+        "Kai Han",
+        "Hailin Hu",
+        "Zihan Jiang",
+        "Xiang Kuang",
+        "Boxun Li",
+        "Yulong Li",
+        "Zehua Pei",
+        "Yuchuan Tian"
+      ],
+      "publishedAt": "2026-09-08T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-09-09T00:00:00.000Z",
+      "submitter": "JarvisPei",
+      "upvotes": 326,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2609.08183",
+        "arxiv": "https://arxiv.org/abs/2609.08183",
+        "pdf": "https://arxiv.org/pdf/2609.08183"
+      }
+    },
+    {
+      "id": "2310.10688",
+      "title": "A decoder-only foundation model for time-series forecasting",
+      "summary": "Motivated by recent advances in large language models for Natural Language\nProcessing (NLP), we design a time-series foundation model for forecasting\nwhose out-of-the-box zero-shot performance on a variety of public datasets\ncomes close to the accuracy of state-of-the-art supervised forecasting models\nfor each individual dataset. Our model is based on pretraining a\npatched-decoder style attention model on a large time-series corpus, and can\nwork well across different forecasting history lengths, prediction lengths and\ntemporal granularities.",
+      "summaryZh": "受自然语言大型语言模型最新进展的推动\n处理（NLP），我们设计了一个用于预测的时间序列基础模型\n其在各种公共数据集上的开箱即用的零样本性能\n接近最先进的监督预测模型的准确性\n对于每个单独的数据集。我们的模型基于预训练\n大型时间序列语料库上的修补解码器式注意力模型，并且可以\n在不同的预测历史长度、预测长度和\n时间粒度。",
+      "titleZh": "用于时间序列预测的仅解码器基础模型",
+      "authors": [
+        "Abhimanyu Das",
+        "Weihao Kong",
+        "Rajat Sen",
+        "Yichen Zhou"
+      ],
+      "publishedAt": "2023-10-14T17:01:37.000Z",
+      "submittedOnDailyAt": "2023-10-14T13:01:37.000Z",
+      "submitter": null,
+      "upvotes": 46,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2310.10688",
+        "arxiv": "https://arxiv.org/abs/2310.10688",
+        "pdf": "https://arxiv.org/pdf/2310.10688"
+      }
+    },
+    {
+      "id": "2609.33757",
+      "title": "YuE2: Unifying Symbolic and Audio Music Generation at Frontier Quality",
+      "summary": "Symbolic models make melody, harmony, rhythm, and form explicit but typically stop before a finished recording; audio models produce complete songs while leaving composition implicit. We introduce YuE2, which unifies symbolic and audio music generation at frontier quality through symbolic planning. A single AR-NAR Mixture-of-Transformers (MoT) first writes a readable score specifying melody and harmony, expands it into semantic music tokens, and realizes it as full-song audio. In comparisons using the same checkpoint, experts prefer symbolic planning for overall quality and musicality, with 49.3% of overall preferences versus 34.6% without planning. Experts also favor the unified model over a separate language model and diffusion Transformer. On WildSongBench, YuE2 scores 6.73 on SongBench Global Avg, exceeding all evaluated public baselines. Selecting from eight candidates (best-of-8), YuE2 reaches 6.96, the highest observed mean among all evaluated systems. Expert listening further establishes its competitiveness with proprietary song generators, favoring best-of-8 over Suno v4.5 and yielding nearly balanced preferences against Suno v5. To learn this generation process from recordings without aligned scores, we introduce MERT2 and SheetSage2 to supply semantic and symbolic supervision. MERT2 sets a new state of the art in music representation learning, surpassing previous best results on 14 of 15 MARBLE metrics; SheetSage2 leads 12 of 15 benchmark-metric pairs in our lead-sheet transcription comparison. The same checkpoint follows score edits while largely preserving unedited musical content and generates zero-shot covers without cover-specific training. Its readable score also enables agentic music editing, with external language models translating user feedback into revisions of the composition.",
+      "summaryZh": "符号模型使旋律、和声、节奏和形式变得清晰，但通常在完成录音之前就停止了；音频模型可以生成完整的歌曲，同时保留隐式的作曲。我们推出 YuE2，它通过符号规划以前沿质量统一符号和音频音乐生成。单个 AR-NAR Mixture-of-Transformers (MoT) 首先编写一个可读的乐谱，指定旋律和和声，将其扩展为语义音乐标记，并将其实现为整首歌曲音频。在使用相同检查点的比较中，专家们更喜欢对整体质量和音乐性进行符号规划，总体偏好的比例为 49.3%，而没有规划的比例为 34.6%。专家们还青睐统一模型而不是单独的语言模型和扩散 Transformer。在 WildSongBench 上，YuE2 在 SongBench Global Avg 上的得分为 6.73，超过了所有评估的公共基线。 YuE2 从 8 个候选系统中进行选择（8 个中最好），达到 6.96，这是所有评估系统中观察到的最高平均值。专家聆听进一步确立了其与专有歌曲生成器的竞争力，与 Suno v4.5 相比，更倾向于 8 局最佳，并且与 Suno v5 相比，产生几乎平衡的偏好。为了从没有对齐分数的录音中学习这个生成过程，我们引入了 MERT2 和 SheetSage2 来提供语义和符号监督。 MERT2 在音乐表征学习方面树立了新的技术水平，在 15 个 MARBLE 指标中的 14 个指标上超越了之前的最佳结果；在我们的主要表转录比较中，SheetSage2 领先 15 个基准指标对中的 12 个。相同的检查点遵循乐谱编辑，同时在很大程度上保留未经编辑的音乐内容，并生成零镜头封面，无需封面特定的培训。其可读的乐谱还可以实现代理音乐编辑，外部语言模型可以将用户反馈转化为乐曲的修订。",
+      "titleZh": "YuE2：以前沿质量统一符号和音频音乐生成",
+      "authors": [
+        "Ruibin Yuan",
+        "Jiahao Pan",
+        "Junyan Jiang",
+        "Zhiyue Wu",
+        "Ziya Zhou",
+        "Jiankai Sun",
+        "Yizhi Li",
+        "Ge Zhang",
+        "Yicheng Gu",
+        "Zeyue Tian",
+        "Junyu Dai",
+        "Hanfeng Lin"
+      ],
+      "publishedAt": "2026-09-27T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-09-29T00:00:00.000Z",
+      "submitter": "a43992899",
+      "upvotes": 217,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2609.33757",
+        "arxiv": "https://arxiv.org/abs/2609.33757",
+        "pdf": "https://arxiv.org/pdf/2609.33757"
+      }
+    }
+  ]
+}
