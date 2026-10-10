@@ -1,0 +1,415 @@
+{
+  "source": "huggingface.co/api/daily_papers",
+  "attribution": "Data from Hugging Face Daily Papers (community curation). All rights belong to the original authors. Chinese text is machine-translated.",
+  "fetchedAt": "2026-10-10T14:14:47.181Z",
+  "date": "2026-10-10",
+  "sort": "trending",
+  "count": 15,
+  "locale": {
+    "summaryDefault": "zh",
+    "translated": true
+  },
+  "papers": [
+    {
+      "id": "2610.08699",
+      "title": "nanoMuse: An Open-Source Personal Agent for Every Device You Own",
+      "summary": "Assistants from 2011 answered and waited, and agents from 2023 did a task and stopped. In September 2026 Meta's Muse showed an agent for one person, with accounts, devices, memory and a conversation that lasts, closed, in a vendor's cloud, in one country. Such an agent is expected to act on a person's accounts and devices, remember them across weeks, speak first when it is worth it, and answer for what it did. It is a kind of software, not a model, and until now had no open counterpart. This report defines the personal agent in five questions and three horizons. It reads how Muse is built from Meta's public record and a copy of its production prompt, each statement marked by its source. It then presents nanoMuse, the open-source counterpart under the GPL-3.0, one agent on every device a person owns, with hands on the phone's screen and the computer's. They share one conversation over a relay anyone can run; every action goes through a Sentinel, memory is files the person can read, and the model is their choice. Its size and cost are given as estimates. What is open, memory with provenance, an evaluation suite for the hands and an open model for them, is set out as a roadmap.",
+      "summaryZh": "2011 年的助理接听并等待，2023 年的客服人员完成任务后停下来。 2026 年 9 月，Meta 的 Muse 展示了一个人的代理，拥有账户、设备、内存和在一个国家的供应商云中持续、封闭的对话。这样的代理应该对一个人的账户和设备采取行动，在数周内记住它们，在值得的时候首先发言，并对其所做的事情负责。它是一种软件，而不是一种模型，并且迄今为止还没有开放的对应产品。本报告从五个问题和三个视野对个人代理人进行了定义。它读取了 Muse 是如何根据 Meta 的公共记录及其生产提示的副本构建的，每个语句都标有其来源。然后介绍了 nanoMuse，这是 GPL-3.0 下的开源对应产品，一个人拥有的每台设备上都有一个代理，可以将手放在手机屏幕和计算机屏幕上。他们通过任何人都可以运行的中继共享一次对话；每个动作都会经过哨兵，内存是人们可以读取的文件，模型是他们的选择。其尺寸和成本仅作为估计值给出。什么是开放的、有来源的记忆、针对双手的评估套件以及针对它们的开放模型，被作为路线图列出。",
+      "titleZh": "nanoMuse：适用于您拥有的每台设备的开源个人代理",
+      "authors": [
+        "Guangyi Liu",
+        "Yong Liu",
+        "Jiangning Zhang"
+      ],
+      "publishedAt": "2026-10-06T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-10-08T00:00:00.000Z",
+      "submitter": "lgy0404",
+      "upvotes": 101,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2610.08699",
+        "arxiv": "https://arxiv.org/abs/2610.08699",
+        "pdf": "https://arxiv.org/pdf/2610.08699"
+      }
+    },
+    {
+      "id": "2609.18063",
+      "title": "The Other Half of the Memory Wall: Serving 35B MoEs from SSD with Trained Routing Prediction",
+      "summary": "Mixture-of-experts (MoE) inference on consumer hardware is bounded by weight memory: a 35B-class model is 19.5GB at 4-bit, and sparsity shrinks the compute per token, not the bytes that must be held. Naive offloading to SSD does not help on its own, because layer N+1's experts must be chosen before layer N's output exists, so the reads cannot start early enough to hide behind compute. We present Edge0, a streaming MoE inference engine that closes the gap with a prerouter: a per-layer head predicts the next layer's routing one token ahead, and the prediction is consumed as the routing itself, so the staged expert set equals the routed set and nothing is dropped. An unmerged recovery LoRA, trained on the student path, pays back the quality lost to int4 quantization and routing replacement. On a single 24GB machine, Edge0\n  serves a 35B MoE at 20tok/s inside 3GiB of peak active memory, within a few points of its fp16 teacher on average across five public benchmarks. An 8B tier runs on the same framework, and the framework, checkpoints, and adapters are open source.",
+      "summaryZh": "消费者硬件上的专家混合 (MoE) 推理受到权重内存的限制：35B 级模型在 4 位时为 19.5GB，稀疏性会缩小每个令牌的计算量，而不是必须保存的字节数。单纯卸载到 SSD 本身并没有什么帮助，因为必须在 N 层输出存在之前选择 N+1 层的专家，因此读取不能太早开始以隐藏在计算后面。我们提出了 Edge0，一个流式 MoE 推理引擎，它缩小了与预路由器的差距：每层头提前一个令牌预测下一层的路由，并且预测被用作路由本身，因此分阶段专家集等于路由集，并且不会丢失任何内容。未合并的恢复 LoRA，在学生路径上进行训练，弥补了 int4 量化和路由替换造成的质量损失。在单个 24GB 机器上，Edge0\n  在 3GiB 峰值活动内存内以 20tok/s 的速度提供 35B MoE，在五个公共基准测试中，其 fp16 老师的平均值仅相差几个点。 8B 层运行在同一框架上，并且框架、检查点和适​​配器都是开源的。",
+      "titleZh": "内存墙的另一半：通过经过训练的路由预测从 SSD 为 35B MoE 提供服务",
+      "authors": [
+        "Yu Lin",
+        "Yiming Wang",
+        "Runyuan Cai",
+        "Hanze Liu",
+        "Xiaodong Zeng"
+      ],
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-09-17T00:00:00.000Z",
+      "submitter": "bupalinyu",
+      "upvotes": 26,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2609.18063",
+        "arxiv": "https://arxiv.org/abs/2609.18063",
+        "pdf": "https://arxiv.org/pdf/2609.18063"
+      }
+    },
+    {
+      "id": "2604.14141",
+      "title": "Geometric Context Transformer for Streaming 3D Reconstruction",
+      "summary": "Streaming 3D reconstruction aims to recover 3D information, such as camera poses and point clouds, from a video stream, which necessitates geometric accuracy, temporal\n  consistency, and computational efficiency. Motivated by the principles of Simultaneous Localization and Mapping (SLAM), we introduce LingBot-Map, a feed-forward 3D foundation\n  model for reconstructing scenes from streaming data, built upon a geometric context transformer (GCT) architecture. A defining aspect of LingBot-Map lies in its carefully\n  designed attention mechanism, which integrates an anchor context, a pose-reference window, and a trajectory memory to address coordinate grounding, dense geometric cues, and\n  long-range drift correction, respectively. This design keeps the streaming state compact while retaining rich geometric context, enabling stable efficient inference at around\n  20 FPS on 518 x 378 resolution inputs over long sequences exceeding 10,000 frames. Extensive evaluations across a variety of benchmarks demonstrate that our approach\n  achieves superior performance compared to both existing streaming and iterative optimization-based approaches.",
+      "summaryZh": "流式 3D 重建旨在从视频流中恢复 3D 信息，例如相机姿态和点云，这需要几何精度、时间精度\n  一致性和计算效率。受同步定位与建图 (SLAM) 原理的启发，我们推出了 LingBot-Map，一种前馈 3D 基础\n  用于从流数据重建场景的模型，建立在几何上下文变换器（GCT）架构之上。 LingBot-Map 的一个决定性方面在于它的精心设计\n  设计了注意力机制，它集成了锚上下文、姿势参考窗口和轨迹记忆来解决坐标基础、密集的几何线索和\n  分别进行长程漂移校正。这种设计保持流状态紧凑，同时保留丰富的几何上下文，从而能够在大约\n  在超过 10,000 帧的长序列上，在 518 x 378 分辨率输入上达到 20 FPS。跨各种基准的广泛评估表明我们的方法\n  与现有的流式传输和基于迭代优化的方法相比，实现了卓越的性能。",
+      "titleZh": "用于流式 3D 重建的几何上下文转换器",
+      "authors": [
+        "Lin-Zhuo Chen",
+        "Jian Gao",
+        "Yihang Chen",
+        "Ka Leong Cheng",
+        "Yipengjing Sun",
+        "Liangxiao Hu",
+        "Nan Xue",
+        "Xing Zhu",
+        "Yujun Shen",
+        "Yao Yao",
+        "Yinghao Xu"
+      ],
+      "publishedAt": "2026-04-15T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-04-16T00:00:00.000Z",
+      "submitter": "nielsr",
+      "upvotes": 39,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2604.14141",
+        "arxiv": "https://arxiv.org/abs/2604.14141",
+        "pdf": "https://arxiv.org/pdf/2604.14141"
+      }
+    },
+    {
+      "id": "2412.20138",
+      "title": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "summary": "Significant progress has been made in automated problem-solving using\nsocieties of agents powered by large language models (LLMs). In finance,\nefforts have largely focused on single-agent systems handling specific tasks or\nmulti-agent frameworks independently gathering data. However, the multi-agent\nsystems' potential to replicate real-world trading firms' collaborative\ndynamics remains underexplored. TradingAgents proposes a novel stock trading\nframework inspired by trading firms, featuring LLM-powered agents in\nspecialized roles such as fundamental analysts, sentiment analysts, technical\nanalysts, and traders with varied risk profiles. The framework includes Bull\nand Bear researcher agents assessing market conditions, a risk management team\nmonitoring exposure, and traders synthesizing insights from debates and\nhistorical data to make informed decisions. By simulating a dynamic,\ncollaborative trading environment, this framework aims to improve trading\nperformance. Detailed architecture and extensive experiments reveal its\nsuperiority over baseline models, with notable improvements in cumulative\nreturns, Sharpe ratio, and maximum drawdown, highlighting the potential of\nmulti-agent LLM frameworks in financial trading. TradingAgents is available at\nhttps://github.com/TauricResearch/TradingAgents.",
+      "summaryZh": "使用自动化解决问题取得了重大进展\n由大型语言模型 (LLM) 提供支持的代理协会。在金融领域，\n工作主要集中在处理特定任务的单代理系统或\n多代理框架独立收集数据。然而，多代理\n系统复制现实世界贸易公司协作的潜力\n动力学仍有待探索。 TradingAgents 提出了一种新颖的股票交易方式\n受贸易公司启发的框架，以法学硕士支持的代理为特色\n专业角色，例如基本面分析师、情绪分析师、技术分析师\n具有不同风险状况的分析师和交易员。该框架包括 Bull\n贝尔斯登研究人员评估市场状况，风险管理团队\n监控风险敞口，交易者从辩论中综合见解\n历史数据以做出明智的决策。通过模拟动态，\n协作交易环境，该框架旨在改善交易\n性能。详细的架构和广泛的实验揭示了它的\n优于基线模型，累积显着改进\n回报率、夏普比率和最大回撤，凸显了\n金融交易中的多代理法学硕士框架。交易代理可在\nhttps://github.com/TauricResearch/TradingAgents。",
+      "titleZh": "TradingAgents：多代理LLM金融交易框架",
+      "authors": [
+        "Yijia Xiao",
+        "Edward Sun",
+        "Di Luo",
+        "Wei Wang"
+      ],
+      "publishedAt": "2024-12-28T12:54:06.000Z",
+      "submittedOnDailyAt": "2024-12-28T07:54:06.000Z",
+      "submitter": null,
+      "upvotes": 150,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2412.20138",
+        "arxiv": "https://arxiv.org/abs/2412.20138",
+        "pdf": "https://arxiv.org/pdf/2412.20138"
+      }
+    },
+    {
+      "id": "2610.05608",
+      "title": "Kandinsky 6.0 Video: Foundation Models for Synchronized Video and Audio Generation",
+      "summary": "We present Kandinsky 6.0 Video, a family of foundation diffusion models for synchronized text-to-audio-video generation, comprising Kandinsky 6.0 Video Lite (3B parameters) and Kandinsky 6.0 Video Pro (29B parameters). Both models generate 5-second video clips with synchronized 44 kHz audio, including lip-sync, in text-to-audio-video (T2AV) and image-to-audio-video (I2AV) modes; a built-in super-resolution model raises the output resolution to Full-HD (1920times1080). Building on the video generation capabilities of Kandinsky 5.0, Kandinsky 6.0 Video employs a dual-stream CrossDiT architecture that connects a pretrained video stream and a newly trained audio stream through bidirectional cross-attention for temporal and semantic alignment. Our continuous pretraining strategy first trains the audio stream from scratch on large-scale audio corpora and then trains both streams jointly on paired audio-video data while preserving unimodal fidelity; pretraining is followed by supervised fine-tuning, reinforcement-learning-based post-training, and distillation. In side-by-side human evaluation, Kandinsky 6.0 Video Pro clearly outperforms its predecessor, Kandinsky 5.0 Video Pro, and remains competitive with leading audio-video generation models, particularly in speech quality. To accelerate open research and deployment in multimedia generation, we release the code, model checkpoints, and diffusers integration under the MIT license.",
+      "summaryZh": "我们提出了 Kandinsky 6.0 Video，这是一个用于同步文本到音频视频生成的基础扩散模型系列，包括 Kandinsky 6.0 Video Lite（3B 参数）和 Kandinsky 6.0 Video Pro（29B 参数）。两种型号均可在文本转音频视频 (T2AV) 和图像转音频视频 (I2AV) 模式下生成带有同步 44 kHz 音频（包括口型同步）的 5 秒视频剪辑；内置超分辨率模型将输出分辨率提高到全高清（1920×1080）。 Kandinsky 6.0 Video 基于 Kandinsky 5.0 的视频生成功能，采用双流 CrossDiT 架构，通过双向交叉注意力连接预训练的视频流和新训练的音频流，以实现时间和语义对齐。我们的连续预训练策略首先在大规模音频语料库上从头开始训练音频流，然后在成对的音频-视频数据上联合训练两个流，同时保持单峰保真度；预训练之后是监督微调、基于强化学习的后训练和蒸馏。在并行人类评估中，Kandinsky 6.0 Video Pro 明显优于其前身 Kandinsky 5.0 Video Pro，并且与领先的音视频生成模型保持竞争力，特别是在语音质量方面。为了加速多媒体生成的开放研究和部署，我们在 MIT 许可下发布了代码、模型检查点和扩散器集成。",
+      "titleZh": "Kandinsky 6.0 视频：同步视频和音频生成的基础模型",
+      "authors": [
+        "Team Kandinsky",
+        "Julia Agafonova",
+        "Bulat Akhmatov",
+        "Mikhail Aksyutin",
+        "Grigorii Alekseenko",
+        "Anastasia Aliaskina",
+        "Olga Androsova",
+        "Vladimir Arkhipkin",
+        "Anna Averchenkova",
+        "Alexander Belykh",
+        "Serafima Bocharova",
+        "Sofiya Bogakovskaya"
+      ],
+      "publishedAt": "2026-10-04T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-10-06T00:00:00.000Z",
+      "submitter": "vvasilev",
+      "upvotes": 162,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2610.05608",
+        "arxiv": "https://arxiv.org/abs/2610.05608",
+        "pdf": "https://arxiv.org/pdf/2610.05608"
+      }
+    },
+    {
+      "id": "2609.33325",
+      "title": "VisionHOPE: Visual Backbones as Self-Modifying Learning Systems",
+      "summary": "Visual backbones have evolved from Convolutional Neural Networks (CNNs) with local aggregation to Vision Transformers (ViTs) with global interactions, State-Space Models (SSMs) with input-dependent state transitions, and Test-Time Training (TTT) layers that adapt an inner learner while processing an image. Across this progression, visual computation has become increasingly adaptive to each input, yet the rules governing that adaptation remain largely prescribed by the trained backbone. We introduce VisionHOPE, the first generic visual backbone formulated as a self-modifying learning system, in which what the model remembers and how it learns co-evolve within an image. Building on the self-referential construction of Nested Learning (NL), VisionHOPE realizes this co-evolution through five coupled memories that store content, generate key and value representations, and govern learning rate and retention. These memories evolve jointly as visual context accumulates along each scan. However, directly applying the unconstrained self-referential update to a visual backbone leads to instability. We therefore derive a stability-matched step-size control scheme that combines a soft cap on self-referential injection with a spectral clamp on the retained memory transition, and prove that the resulting memory dynamics are non-expansive along each scan. For two-dimensional feature maps, we adapt NL's chunk formulation by aligning chunks with image rows and columns across four directional scans. The proposed VisionHOPE achieves competitive results on ImageNet-1K, COCO, and ADE20K, establishing self-modifying learning systems as a practical foundation for general-purpose visual backbones. The code is available at https://github.com/PSRben/VisionHOPE.",
+      "summaryZh": "视觉主干已经从具有局部聚合的卷积神经网络 (CNN) 发展到具有全局交互的视觉变换器 (ViT)、具有依赖于输入的状态转换的状态空间模型 (SSM) 以及在处理图像时适应内部学习器的测试时训练 (TTT) 层。在这一过程中，视觉计算已经变得越来越适应每个输入，但控制这种适应的规则在很大程度上仍然是由受过训练的骨干规定的。我们推出了 VisionHOPE，这是第一个通用视觉主干，被制定为自我修改学习系统，其中模型记住的内容和学习的方式在图像中共同进化。 VisionHOPE 基于嵌套学习 (NL) 的自参照构建，通过五个耦合记忆来存储内容、生成键和值表示以及控制学习率和保留率，从而实现这种共同进化。这些记忆随着每次扫描中视觉背景的积累而共同演变。然而，直接将无约束的自引用更新应用于视觉主干会导致不稳定。因此，我们推导了一种稳定性匹配的步长控制方案，该方案将自引用注入的软上限与保留的内存转换上的频谱钳位相结合，并证明所产生的内存动态在每次扫描中都是非扩展的。对于二维特征图，我们通过将块与四个方向扫描中的图像行和列对齐来调整 NL 的块公式。所提出的 VisionHOPE 在 ImageNet-1K、COCO 和 ADE20K 上取得了有竞争力的结果，建立了自修改学习系统作为通用视觉主干的实用基础。代码可在 https://github.com/PSRben/VisionHOPE 获取。",
+      "titleZh": "VisionHOPE：视觉骨干作为自我修改学习系统",
+      "authors": [
+        "Siran Peng",
+        "Tianshuo Zhang",
+        "Tianyu Fu",
+        "Weisong Zhao",
+        "Haoyuan Zhang",
+        "Jiankuo Zhao",
+        "Minghui Wu",
+        "Ping Jiang",
+        "Xiangyu Zhu",
+        "Chenxu Zhao",
+        "Zhen Lei"
+      ],
+      "publishedAt": "2026-09-27T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-09-29T00:00:00.000Z",
+      "submitter": "PSRben",
+      "upvotes": 277,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2609.33325",
+        "arxiv": "https://arxiv.org/abs/2609.33325",
+        "pdf": "https://arxiv.org/pdf/2609.33325"
+      }
+    },
+    {
+      "id": "2407.16741",
+      "title": "OpenDevin: An Open Platform for AI Software Developers as Generalist\n  Agents",
+      "summary": "Software is one of the most powerful tools that we humans have at our\ndisposal; it allows a skilled programmer to interact with the world in complex\nand profound ways. At the same time, thanks to improvements in large language\nmodels (LLMs), there has also been a rapid development in AI agents that\ninteract with and affect change in their surrounding environments. In this\npaper, we introduce OpenDevin, a platform for the development of powerful and\nflexible AI agents that interact with the world in similar ways to those of a\nhuman developer: by writing code, interacting with a command line, and browsing\nthe web. We describe how the platform allows for the implementation of new\nagents, safe interaction with sandboxed environments for code execution,\ncoordination between multiple agents, and incorporation of evaluation\nbenchmarks. Based on our currently incorporated benchmarks, we perform an\nevaluation of agents over 15 challenging tasks, including software engineering\n(e.g., SWE-Bench) and web browsing (e.g., WebArena), among others. Released\nunder the permissive MIT license, OpenDevin is a community project spanning\nacademia and industry with more than 1.3K contributions from over 160\ncontributors and will improve going forward.",
+      "summaryZh": "软件是我们人类拥有的最强大的工具之一\n处置；它允许熟练的程序员以复杂的方式与世界交互\n和深刻的方法。同时得益于大语言的改进\n模型（法学硕士），人工智能代理也得到了快速发展，\n与周围环境的变化相互作用并影响其变化。在这个\n论文中，我们介绍了 OpenDevin，一个用于开发功能强大且\n灵活的人工智能代理，以类似于人类的方式与世界互动\n人类开发人员：通过编写代码、与命令行交互和浏览\n网络。我们描述了该平台如何允许实施新的\n代理，与沙盒环境安全交互以执行代码，\n多个主体之间的协调以及评估的结合\n基准。根据我们当前纳入的基准，我们执行\n对代理进行超过 15 项挑战性任务的评估，包括软件工程\n（例如，SWE-Bench）和网页浏览（例如，WebArena）等。已发布\n在 MIT 许可下，OpenDevin 是一个社区项目，涵盖\n学术界和工业界超过 160 人做出了超过 1,300 份贡献\n贡献者并将继续改进。",
+      "titleZh": "OpenDevin：面向多面手的人工智能软件开发人员的开放平台\n  代理商",
+      "authors": [
+        "Xingyao Wang",
+        "Boxuan Li",
+        "Yufan Song",
+        "Frank F. Xu",
+        "Xiangru Tang",
+        "Mingchen Zhuge",
+        "Jiayi Pan",
+        "Yueqi Song",
+        "Bowen Li",
+        "Jaskirat Singh",
+        "Hoang H. Tran",
+        "Fuqiang Li"
+      ],
+      "publishedAt": "2024-07-23T17:50:43.000Z",
+      "submittedOnDailyAt": "2024-07-25T00:00:00.000Z",
+      "submitter": "akhaliq",
+      "upvotes": 90,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2407.16741",
+        "arxiv": "https://arxiv.org/abs/2407.16741",
+        "pdf": "https://arxiv.org/pdf/2407.16741"
+      }
+    },
+    {
+      "id": "2309.06180",
+      "title": "Efficient Memory Management for Large Language Model Serving with\n  PagedAttention",
+      "summary": "High throughput serving of large language models (LLMs) requires batching\nsufficiently many requests at a time. However, existing systems struggle\nbecause the key-value cache (KV cache) memory for each request is huge and\ngrows and shrinks dynamically. When managed inefficiently, this memory can be\nsignificantly wasted by fragmentation and redundant duplication, limiting the\nbatch size. To address this problem, we propose PagedAttention, an attention\nalgorithm inspired by the classical virtual memory and paging techniques in\noperating systems. On top of it, we build vLLM, an LLM serving system that\nachieves (1) near-zero waste in KV cache memory and (2) flexible sharing of KV\ncache within and across requests to further reduce memory usage. Our\nevaluations show that vLLM improves the throughput of popular LLMs by\n2-4times with the same level of latency compared to the state-of-the-art\nsystems, such as FasterTransformer and Orca. The improvement is more pronounced\nwith longer sequences, larger models, and more complex decoding algorithms.\nvLLM's source code is publicly available at\nhttps://github.com/vllm-project/vllm",
+      "summaryZh": "大型语言模型 (LLM) 的高吞吐量服务需要批处理\n一次有足够多的请求。然而，现有系统却举步维艰\n因为每个请求的键值缓存（KV缓存）内存巨大并且\n动态增长和收缩。当管理效率低下时，该内存可能会被\n碎片和冗余重复造成了极大的浪费，限制了\n批量大小。为了解决这个问题，我们提出PagedAttention，一个注意力机制\n算法的灵感来自于经典的虚拟内存和分页技术\n操作系统。在此基础上，我们构建了 vLLM，一个 LLM 服务系统，\n实现 (1) KV 缓存内存近乎零浪费和 (2) KV 灵活共享\n在请求内和请求之间进行缓存，以进一步减少内存使用。我们的\n评估表明，vLLM 通过以下方式提高了流行 LLM 的吞吐量：\n与最先进的技术相比，相同延迟水平下的 2-4 倍\n系统，例如 FasterTransformer 和 Orca。改善效果更加明显\n具有更长的序列、更大的模型和更复杂的解码算法。\nvLLM 的源代码可在以下位置公开获取：\nhttps://github.com/vllm-project/vllm",
+      "titleZh": "大型语言模型的高效内存管理\n  分页注意力",
+      "authors": [
+        "Woosuk Kwon",
+        "Zhuohan Li",
+        "Siyuan Zhuang",
+        "Ying Sheng",
+        "Lianmin Zheng",
+        "Cody Hao Yu",
+        "Joseph E. Gonzalez",
+        "Hao Zhang",
+        "Ion Stoica"
+      ],
+      "publishedAt": "2023-09-12T12:50:04.000Z",
+      "submittedOnDailyAt": "2023-09-13T00:00:00.000Z",
+      "submitter": "akhaliq",
+      "upvotes": 76,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2309.06180",
+        "arxiv": "https://arxiv.org/abs/2309.06180",
+        "pdf": "https://arxiv.org/pdf/2309.06180"
+      }
+    },
+    {
+      "id": "2610.12374",
+      "title": "AgentGarten: Code Worlds for Evolving Agents",
+      "summary": "Interactive virtual worlds allow agents to learn through exploration and interaction. What agents can learn is bounded by the environments they practice in, which must be faithful, with consistent state, rules, and dynamics, and realistic, with observations that follow the real-world visual distributions. Achieving both across diverse worlds remains a bottleneck. We introduce AgentGarten, a framework that couples simulators and game engines with a shared neural renderer to build real-time interactive environments. Its simulation backends maintain persistent world state and execute program-defined interaction rules, while the renderer generates visual observations from structured conditions exported through a common interface. To build the neural renderer, we adapt a pretrained video model to geometry conditions, distill it with our proposed Adversarial Forcing, and optimize inference for real-time interaction. Adversarial Forcing makes history prefilling differentiable through exact replay, so that losses on later predictions update how the renderer encodes prior observations, and adds real-data adversarial supervision to improve its visual quality. In AgentGarten, agents perceive the world through visual observations, interact with it in real time, and improve by distilling each round of experience into playbooks that subsequent agents inherit and refine. Our empirical study demonstrates a substantial gain in learning efficiency, with agents learning from just 4 rounds compared with millions for a conventional reinforcement learning counterpart. As new worlds can be written as code and rendered through the same interface, environments can scale in both number and difficulty alongside their agents, a step toward agents that keep evolving through interactive experience.",
+      "summaryZh": "交互式虚拟世界允许代理通过探索和交互来学习。智能体可以学习的内容受到他们所练习的环境的限制，这些环境必须是忠实的，具有一致的状态、规则和动态，并且是现实的，具有遵循现实世界视觉分布的观察结果。在不同的世界中实现这两者仍然是一个瓶颈。我们引入了 AgentGarten，这是一个将模拟器和游戏引擎与共享神经渲染器结合起来以构建实时交互环境的框架。其模拟后端维护持久的世界状态并执行程序定义的交互规则，而渲染器则根据通过通用接口导出的结构化条件生成视觉观察结果。为了构建神经渲染器，我们将预训练的视频模型适应几何条件，使用我们提出的对抗性强迫对其进行提炼，并优化实时交互的推理。对抗性强迫使历史预填充可以通过精确重播进行区分，以便后续预测的损失更新渲染器对先前观察结果的编码方式，并添加真实数据对抗性监督以提高其视觉质量。在 AgentGarten 中，智能体通过视觉观察来感知世界，与其实时交互，并通过将每一轮的经验提炼成后续智能体继承和完善的剧本来进行改进。我们的实证研究表明，学习效率有了显着提高，智能体只需 4 轮学习，而传统强化学习对应的学习轮数为数百万轮。由于新的世界可以编写为代码并通过相同的界面呈现，因此环境可以与代理一起在数量和难度上进行扩展，这是朝着通过交互体验不断发展的代理迈出的一步。",
+      "titleZh": "AgentGarten：不断发展的代理的代码世界",
+      "authors": [
+        "Jiawei Chi",
+        "Shangchen Miao",
+        "Zhiyuan Shi",
+        "Kailu Wu",
+        "Hanyang Wang",
+        "Weiliang Chen",
+        "Qiyu Dai",
+        "Jinshan Ren",
+        "Jun Gao",
+        "Mingsheng Long",
+        "Yueqi Duan",
+        "Jiangran Lyu"
+      ],
+      "publishedAt": "2026-10-08T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-10-09T00:00:00.000Z",
+      "submitter": "chijw",
+      "upvotes": 139,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2610.12374",
+        "arxiv": "https://arxiv.org/abs/2610.12374",
+        "pdf": "https://arxiv.org/pdf/2610.12374"
+      }
+    },
+    {
+      "id": "2610.12126",
+      "title": "SuperNav: An Agentic Navigation System for Any Task in Any Scene",
+      "summary": "General-purpose service robots need navigation systems that can handle diverse human requests in unfamiliar environments, combining task generality with scene generality. Some existing methods fine-tune multimodal large language models (MLLMs) to predict navigation actions, making their behavior dependent on the coverage of navigation training data and potentially limiting generalization to new requests and environments. Our key insight is to let the MLLM focus on interpreting requests, understanding scenes, and making decisions while preserving its general-purpose capabilities and delegating motion execution to navigation tools. To realize this idea, we introduce SuperNav, which equips a pretrained MLLM with a specialized agent harness without navigation-specific fine-tuning of the MLLM. Our harness supports these decisions with Navigation Skills, agent-oriented Tools for physical interaction, and task-progress and context management. A unified visual-point interface connects decision-making to motion by allowing the model to specify destinations directly in images and revise its decisions from execution feedback. Together, these components support sustained navigation across different task requirements and environments. SuperNav outperforms four evaluated baselines on instance-level, multi-object, and demand-driven tasks. Category-level evaluation on HM3D and deployment on a real quadruped robot further demonstrate its applicability across environments. Project Page: https://zju3dv.github.io/SuperNav/",
+      "summaryZh": "通用服务机器人需要导航系统能够在不熟悉的环境中处理不同的人类请求，将任务通用性与场景通用性结合起来。一些现有方法对多模态大语言模型（MLLM）进行微调来预测导航动作，使其行为依赖于导航训练数据的覆盖范围，并可能限制对新请求和环境的泛化。我们的主要见解是让 MLLM 专注于解释请求、理解场景和做出决策，同时保留其通用功能并将运动执行委托给导航工具。为了实现这个想法，我们引入了 SuperNav，它为预训练的 MLLM 配备了专门的代理工具，无需对 MLLM 进行特定于导航的微调。我们的安全带通过导航技能、面向代理的物理交互工具以及任务进度和上下文管理来支持这些决策。统一的视觉点界面允许模型直接在图像中指定目的地并根据执行反馈修改其决策，从而将决策与运动联系起来。这些组件共同支持跨不同任务要求和环境的持续导航。 SuperNav 在实例级、多对象和需求驱动任务方面优于四个评估基准。对 HM3D 的类别级评估以及在真实四足机器人上的部署进一步证明了其跨环境的适用性。项目页面：https://zju3dv.github.io/SuperNav/",
+      "titleZh": "SuperNav：适用于任何场景任何任务的代理导航系统",
+      "authors": [
+        "Jinkai Zhang",
+        "Jingyi Xu",
+        "Yuanhong Yu",
+        "Jiarui Guo",
+        "Ruizhen Hu",
+        "Hujun Bao",
+        "Xiaowei Zhou",
+        "Sida Peng"
+      ],
+      "publishedAt": "2026-10-08T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-10-09T00:00:00.000Z",
+      "submitter": "yyh929",
+      "upvotes": 65,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2610.12126",
+        "arxiv": "https://arxiv.org/abs/2610.12126",
+        "pdf": "https://arxiv.org/pdf/2610.12126"
+      }
+    },
+    {
+      "id": "2508.02739",
+      "title": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "summary": "The success of large-scale pre-training paradigm, exemplified by Large\nLanguage Models (LLMs), has inspired the development of Time Series Foundation\nModels (TSFMs). However, their application to financial candlestick (K-line)\ndata remains limited, often underperforming non-pre-trained architectures.\nMoreover, existing TSFMs often overlook crucial downstream tasks such as\nvolatility prediction and synthetic data generation. To address these\nlimitations, we propose Kronos, a unified, scalable pre-training framework\ntailored to financial K-line modeling. Kronos introduces a specialized\ntokenizer that discretizes continuous market information into token sequences,\npreserving both price dynamics and trade activity patterns. We pre-train Kronos\nusing an autoregressive objective on a massive, multi-market corpus of over 12\nbillion K-line records from 45 global exchanges, enabling it to learn nuanced\ntemporal and cross-asset representations. Kronos excels in a zero-shot setting\nacross a diverse set of financial tasks. On benchmark datasets, Kronos boosts\nprice series forecasting RankIC by 93% over the leading TSFM and 87% over the\nbest non-pre-trained baseline. It also achieves a 9% lower MAE in volatility\nforecasting and a 22% improvement in generative fidelity for synthetic K-line\nsequences. These results establish Kronos as a robust, versatile foundation\nmodel for end-to-end financial time series analysis. Our pre-trained model is\npublicly available at https://github.com/shiyu-coder/Kronos.",
+      "summaryZh": "大规模预训练范式的成功，以 Large 为例\n语言模型（LLM）启发了时间序列基金会的发展\n模型 (TSFM)。然而，它们在金融烛台（K 线）中的应用\n数据仍然有限，通常表现不佳非预先训练的架构。\n此外，现有的 TSFM 常常忽视关键的下游任务，例如\n波动率预测和合成数据生成。为了解决这些\n针对局限性，我们提出了 Kronos，一个统一的、可扩展的预训练框架\n为金融K线建模量身定制。 Kronos 推出了专门的\n标记器将连续的市场信息离散化为标记序列，\n保持价格动态和贸易活动模式。我们预训练 Kronos\n在超过 12 个的庞大、多市场语料库上使用自回归目标\n全球45家交易所十亿K线记录，细致入微\n时间和跨资产表示。 Kronos 擅长零射击设置\n跨越一系列不同的财务任务。在基准数据集上，Kronos 有所提升\n价格系列预测 RankIC 比领先的 TSFM 高 93%，比领先的 TSFM 高 87%\n最佳非预训练基线。它还实现了波动性 MAE 降低 9%\n预测，合成 K 线的生成保真度提高 22%\n序列。这些结果使 Kronos 成为一个强大、多功能的基础\n端到端金融时间序列分析模型。我们的预训练模型是\n可在 https://github.com/shiyu-coder/Kronos 公开获取。",
+      "titleZh": "Kronos：金融市场语言的基础模型",
+      "authors": [
+        "Yu Shi",
+        "Zongliang Fu",
+        "Shuo Chen",
+        "Bohan Zhao",
+        "Wei Xu",
+        "Changshui Zhang",
+        "Jian Li"
+      ],
+      "publishedAt": "2025-08-02T13:15:59.000Z",
+      "submittedOnDailyAt": "2025-08-02T09:15:59.000Z",
+      "submitter": null,
+      "upvotes": 59,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2508.02739",
+        "arxiv": "https://arxiv.org/abs/2508.02739",
+        "pdf": "https://arxiv.org/pdf/2508.02739"
+      }
+    },
+    {
+      "id": "2610.09450",
+      "title": "Iris-3B: Going Beyond the Latent with Pixel-Space Diffusion Training, Conversion and Fine-Tuning",
+      "summary": "Pixel-space diffusion models avoid the lossy VAE of latent models, which suggests an advantage on downstream tasks where fine-grained detail matters. We test this claim along both routes to a pixel-space backbone. We pretrain Iris-3B, a 3B-parameter pixel-space text-to-image transformer, from scratch through a 256to512to1024 curriculum, after first ablating the prediction target and representation alignment at 256^2 to decide what to scale. We also convert a pretrained latent model, FLUX.2 Klein base 4B, to pixel space. We fine-tune both families for monocular depth estimation and for image restoration/super-resolution. We find no significant improvement from using a pixel-space generative prior. Fine-tuned for depth with one matched direct-regression recipe, Iris-3B is level with the latent FLUX.2 Klein and the converted pixel FLUX.2 Klein falls behind it, and on 4times DIV2K restoration neither pixel model beats a latent FLUX.2 Klein fine-tune, the converted one trailing it slightly. We document the recipes, the failure modes and the remaining confounds behind this negative result. Nevertheless, Iris-3B shows that pixel-space pretraining with the pixel-transformer (PiT) head of PixelDiT scales to 3B parameters and to text-to-image quality competitive with latent models, matching Qwen-Image on OneIG under the official evaluators at 1024^2. We release its weights and training code in the hope that they help pave the way for further work on pixel-space generation.",
+      "summaryZh": "像素空间扩散模型避免了潜在模型的有损 VAE，这表明在细粒度细节很重要的下游任务中具有优势。我们沿着通往像素空间主干的两条路线测试了这一说法。我们首先通过 256^2 消除预测目标和表示对齐来决定缩放内容，然后从头开始通过 256to512to1024 课程对 Iris-3B（一种 3B 参数像素空间文本到图像转换器）进行预训练。我们还将预训练的潜在模型 FLUX.2 Klein base 4B 转换为像素空间。我们对这两个系列进行了微调，以进行单目深度估计和图像恢复/超分辨率。我们发现使用像素空间生成先验没有显着的改进。通过匹配的直接回归配方进行深度微调，Iris-3B 与潜在 FLUX.2 Klein 持平，转换后的像素 FLUX.2 Klein 落后于它，并且在 4 次 DIV2K 恢复中，两个像素模型都没有击败潜在 FLUX.2 Klein 微调，转换后的像素模型稍微落后于它。我们记录了这一负面结果背后的秘诀、故障模式和剩余的混杂因素。尽管如此，Iris-3B 表明，使用 PixelDiT 的像素变换器 (PiT) 头进行的像素空间预训练可扩展到 3B 参数，并且文本到图像的质量可与潜在模型相媲美，在官方评估者的 1024^2 下与 OneIG 上的 Qwen-Image 相匹配。我们发布了它的权重和训练代码，希望它们有助于为像素空间生成的进一步工作铺平道路。",
+      "titleZh": "Iris-3B：通过像素空间扩散训练、转换和微调超越潜在因素",
+      "authors": [
+        "Hanqiu Li Cai",
+        "Chema Garabito"
+      ],
+      "publishedAt": "2026-10-07T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-10-08T00:00:00.000Z",
+      "submitter": "chgara",
+      "upvotes": 9,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2610.09450",
+        "arxiv": "https://arxiv.org/abs/2610.09450",
+        "pdf": "https://arxiv.org/pdf/2610.09450"
+      }
+    },
+    {
+      "id": "2610.02054",
+      "title": "UniWAM: Unified World-Action Model",
+      "summary": "Vision-language-action models benefit from the understanding and reasoning capabilities of pretrained vision-language models, but action-only supervision provides limited grounding in world dynamics. Conversely, world-action models inherit spatiotemporal priors from video generation models, yet remain limited in semantic understanding and reasoning under distribution shifts. We introduce UniWAM, a unified architecture that integrates a physical reasoner, a world generator, and an action predictor to jointly learn semantic understanding of the physical world, visual generation, and action prediction. To ensure the quality of the training data, we developed a rigorous data cleaning and annotation pipeline for both human egocentric data and robot data. To adapt the vision-language component to embodied tasks while preserving its inherited language capabilities, we represent low-level actions in natural language and introduce a pre-training recipe that assigns complementary supervision from visual question answering (VQA) data, human egocentric data, and robot demonstrations to the appropriate model components. During post-training, future visual noise augmentation reduces reliance on precise future predictions, while history-conditioned flow matching uses encoded action history to initialize action generation. Together, these designs significantly reduce denoising steps while maintaining performance. UniWAM achieves state-of-the-art (SOTA) performance across multiple evaluations, including in-distribution performance, robustness, generalization, instruction following, and long-horizon task execution. Furthermore, we uncover a log-linear scaling law of unified human-robot co-training, demonstrating the effectiveness of large-scale pre-training on a mixture of human and robot data.",
+      "summaryZh": "视觉-语言-动作模型受益于预训练视觉-语言模型的理解和推理能力，但仅动作监督在世界动态中提供的基础有限。相反，世界动作模型继承了视频生成模型的时空先验，但在分布变化下的语义理解和推理仍然受到限制。我们引入了 UniWAM，这是一个集成了物理推理器、世界生成器和动作预测器的统一架构，可以共同学习物理世界的语义理解、视觉生成和动作预测。为了确保训练数据的质量，我们为人类自我中心数据和机器人数据开发了严格的数据清理和注释管道。为了使视觉语言组件适应具体任务，同时保留其继承的语言功能，我们用自然语言表示低级动作，并引入一种预训练方法，将视觉问答（VQA）数据、人类自我中心数据和机器人演示的补充监督分配给适当的模型组件。在训练后，未来视觉噪声增强减少了对精确未来预测的依赖，而历史条件流匹配使用编码的动作历史来初始化动作生成。这些设计共同显着减少了降噪步骤，同时保持了性能。 UniWAM 在多项评估中实现了最先进的 (SOTA) 性能，包括分布内性能、鲁棒性、泛化性、指令跟踪和长期任务执行。此外，我们发现了统一人机协同训练的对数线性缩放定律，证明了对人类和机器人数据混合进行大规模预训练的有效性。",
+      "titleZh": "UniWAM：统一的世界行动模型",
+      "authors": [
+        "Jiayi Chen",
+        "Wenxuan Song",
+        "Jingbo Wang",
+        "Shuai Zhou",
+        "Xicheng Gong",
+        "Zehua Fan",
+        "Ziyang Zhou",
+        "Junwu E",
+        "Haodong Yan",
+        "Fuhao Li",
+        "Qize Yu",
+        "Xu Huang"
+      ],
+      "publishedAt": "2026-10-01T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-10-08T00:00:00.000Z",
+      "submitter": "Wenxuan123",
+      "upvotes": 54,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2610.02054",
+        "arxiv": "https://arxiv.org/abs/2610.02054",
+        "pdf": "https://arxiv.org/pdf/2610.02054"
+      }
+    },
+    {
+      "id": "2512.14692",
+      "title": "Native and Compact Structured Latents for 3D Generation",
+      "summary": "Recent advancements in 3D generative modeling have significantly improved the generation realism, yet the field is still hampered by existing representations, which struggle to capture assets with complex topologies and detailed appearance. This paper present an approach for learning a structured latent representation from native 3D data to address this challenge. At its core is a new sparse voxel structure called O-Voxel, an omni-voxel representation that encodes both geometry and appearance. O-Voxel can robustly model arbitrary topology, including open, non-manifold, and fully-enclosed surfaces, while capturing comprehensive surface attributes beyond texture color, such as physically-based rendering parameters. Based on O-Voxel, we design a Sparse Compression VAE which provides a high spatial compression rate and a compact latent space. We train large-scale flow-matching models comprising 4B parameters for 3D generation using diverse public 3D asset datasets. Despite their scale, inference remains highly efficient. Meanwhile, the geometry and material quality of our generated assets far exceed those of existing models. We believe our approach offers a significant advancement in 3D generative modeling.",
+      "summaryZh": "3D 生成建模的最新进展显着提高了生成的真实性，但该领域仍然受到现有表示的阻碍，现有表示难以捕获具有复杂拓扑和详细外观的资产。本文提出了一种从原生 3D 数据中学习结构化潜在表示的方法，以应对这一挑战。其核心是一种称为 O-Voxel 的新稀疏体素结构，这是一种对几何和外观进行编码的全体素表示。 O-Voxel 可以对任意拓扑进行稳健建模，包括开放、非流形和全封闭表面，同时捕获纹理颜色之外的全面表面属性，例如基于物理的渲染参数。基于O-Voxel，我们设计了稀疏压缩VAE，它提供了高空间压缩率和紧凑的潜在空间。我们使用不同的公共 3D 资产数据集训练包含 4B 参数的大规模流匹配模型，用于 3D 生成。尽管规模很大，推理仍然非常高效。同时，我们生成的资产的几何形状和材质质量远远超过现有模型。我们相信我们的方法在 3D 生成建模方面取得了重大进步。",
+      "titleZh": "用于 3D 生成的原生紧凑结构化潜在模型",
+      "authors": [
+        "Jianfeng Xiang",
+        "Xiaoxue Chen",
+        "Sicheng Xu",
+        "Ruicheng Wang",
+        "Zelong Lv",
+        "Yu Deng",
+        "Hongyuan Zhu",
+        "Yue Dong",
+        "Hao Zhao",
+        "Nicholas Jing Yuan",
+        "Jiaolong Yang"
+      ],
+      "publishedAt": "2025-12-16T18:58:28.000Z",
+      "submittedOnDailyAt": "2025-12-16T13:58:28.000Z",
+      "submitter": null,
+      "upvotes": 7,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2512.14692",
+        "arxiv": "https://arxiv.org/abs/2512.14692",
+        "pdf": "https://arxiv.org/pdf/2512.14692"
+      }
+    },
+    {
+      "id": "2610.08760",
+      "title": "WorldSonus: Bringing Sound to Worlds",
+      "summary": "Recent advances in world models have enabled increasingly realistic visual synthesis. However, these generated environments remain largely silent. Bringing sound to world models poses three core challenges: real-time generation to keep pace with interactive video streams, interactive control to respond to mid-stream sound instructions, and spatially aligned stereo to reflect scene geometry and camera motion. To address these demands, we introduce WorldSonus, an interactive video-to-audio framework designed for real-time spatial sound synthesis in world models. For real-time generation, WorldSonus employs a streaming causal autoregressive diffusion architecture that synthesizes audio chunks at a low real-time factor (RTF) of 0.41. For interactive control, we incorporate an audio-centric captioning pipeline with chunk-indexed prompt scheduling, enabling dynamic manipulation of sound events during generation. For spatial alignment, we leverage high-quality stereo supervision curated from diverse stereo and ambisonic data. Extensive experiments demonstrate that while tailored for world models, WorldSonus generalizes effectively to open-domain video-to-audio benchmarks, matching or outperforming state-of-the-art bidirectional models in both acoustic quality and spatial alignment. Project page: https://noizai.github.io/WorldSonus/",
+      "summaryZh": "世界模型的最新进展使得视觉合成变得越来越真实。然而，这些生成的环境基本上保持沉默。将声音引入世界模型面临三个核心挑战：实时生成以跟上交互式视频流的步伐，交互式控制以响应中流声音指令，以及空间对齐的立体声以反映场景几何形状和摄像机运动。为了满足这些需求，我们引入了 WorldSonus，这是一种交互式视频到音频框架，专为世界模型中的实时空间声音合成而设计。对于实时生成，WorldSonus 采用流式因果自回归扩散架构，以 0.41 的低实时因子 (RTF) 合成音频块。对于交互式控制，我们将以音频为中心的字幕管道与块索引提示调度相结合，从而在生成过程中动态操作声音事件。对于空间对齐，我们利用从不同的立体声和环绕声数据中策划的高质量立体声监督。大量实验表明，在针对世界模型量身定制的同时，WorldSonus 可以有效地推广到开放域视频到音频基准，在声学质量和空间对齐方面匹配或超越最先进的双向模型。项目页面：https://noizai.github.io/WorldSonus/",
+      "titleZh": "WorldSonus：将声音带入世界",
+      "authors": [
+        "Pengjun Fang",
+        "Jingyi Fa",
+        "Kam Man Wu",
+        "Jiaming Wang",
+        "Haoyuan Huang",
+        "Yaguang Wu",
+        "Xiangjun Huang",
+        "Ziyang Ma",
+        "Weijia Chen",
+        "Hongyu Liu",
+        "Zeyue Tian",
+        "Qifeng Chen"
+      ],
+      "publishedAt": "2026-10-06T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-10-08T00:00:00.000Z",
+      "submitter": "Zeyue7",
+      "upvotes": 33,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2610.08760",
+        "arxiv": "https://arxiv.org/abs/2610.08760",
+        "pdf": "https://arxiv.org/pdf/2610.08760"
+      }
+    }
+  ]
+}
