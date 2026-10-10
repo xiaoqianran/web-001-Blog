@@ -1,20 +1,15 @@
 {
   "source": "content/feeds.json",
   "attribution": "Aggregated headlines/summaries from third-party RSS/Atom feeds for navigation only. All rights belong to original publishers and authors. Chinese text is machine-translated.",
-  "fetchedAt": "2026-10-10T16:47:50.626Z",
+  "fetchedAt": "2026-10-10T21:01:18.065Z",
   "date": "2026-10-10",
   "feedCount": 3,
-  "itemCount": 15,
+  "itemCount": 35,
   "locale": {
     "summaryDefault": "zh",
     "translated": true
   },
-  "errors": [
-    {
-      "id": "hacker-news",
-      "error": "fetch failed"
-    }
-  ],
+  "errors": [],
   "feeds": [
     {
       "id": "hacker-news",
@@ -22,10 +17,230 @@
       "url": "https://hnrss.org/frontpage",
       "home": "https://news.ycombinator.com/",
       "group": "community",
-      "fetchedAt": "2026-10-10T16:47:43.258Z",
-      "count": 0,
-      "items": [],
-      "error": "fetch failed"
+      "fetchedAt": "2026-10-10T21:00:50.232Z",
+      "count": 20,
+      "items": [
+        {
+          "id": "https://news.ycombinator.com/item?id=50036571",
+          "title": "50MB operating system can resurrect your old PC",
+          "titleZh": "50MB操作系统可以让你的旧电脑复活",
+          "link": "https://www.makeuseof.com/this-50mb-operating-system-can-resurrect-your-old-pc/",
+          "summary": "Article URL: https://www.makeuseof.com/this-50mb-operating-system-can-resurrect-your-old-pc/\n\n Comments URL: https://news.ycombinator.com/item?id=50036571\n\n Points: 5\n\n # Comments: 1",
+          "summaryZh": "文章网址：https://www.makeuseof.com/this-50mb-operating-system-can-resurrect-your-old-pc/\n\n 评论网址：https://news.ycombinator.com/item?id=50036571\n\n 积分：5\n\n # 评论: 1",
+          "publishedAt": "2026-10-10T19:59:24.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50036571",
+          "author": "makerdiety"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50036119",
+          "title": "Takeshi's Castle",
+          "titleZh": "武士的城堡",
+          "link": "https://en.wikipedia.org/wiki/Takeshi%27s_Castle",
+          "summary": "Article URL: https://en.wikipedia.org/wiki/Takeshi%27s_Castle\n\n Comments URL: https://news.ycombinator.com/item?id=50036119\n\n Points: 38\n\n # Comments: 19",
+          "summaryZh": "文章网址：https://en.wikipedia.org/wiki/Takeshi%27s_Castle\n\n 评论网址：https://news.ycombinator.com/item?id=50036119\n\n 积分：38\n\n # 评论: 19",
+          "publishedAt": "2026-10-10T19:12:55.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50036119",
+          "author": "tosh"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50035886",
+          "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
+          "titleZh": "英伟达正在洽谈收购美国“开放”模式初创公司 Reflection AI",
+          "link": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+          "summary": "Article URL: https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a\n\n Comments URL: https://news.ycombinator.com/item?id=50035886\n\n Points: 65\n\n # Comments: 40",
+          "summaryZh": "文章网址：https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a\n\n 评论网址：https://news.ycombinator.com/item?id=50035886\n\n 积分：65\n\n # 评论: 40",
+          "publishedAt": "2026-10-10T18:48:35.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50035886",
+          "author": "arkj"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50035561",
+          "title": "Vibe coded browser ports of Halo, The Simpsons: Hit And Run, GTA work well",
+          "titleZh": "Halo、The Simpsons: Hit And Run、GTA 的 Vibe 编码浏览器端口运行良好",
+          "link": "https://kotaku.com/we-might-be-cooked-as-these-vibe-coded-web-browser-ports-of-halo-the-simpsons-hit-and-run-and-gta-vice-city-seem-to-work-perfectly-2000743300",
+          "summary": "Article URL: https://kotaku.com/we-might-be-cooked-as-these-vibe-coded-web-browser-ports-of-halo-the-simpsons-hit-and-run-and-gta-vice-city-seem-to-work-perfectly-2000743300\n\n Comments URL: https://news.ycombinator.com/item?id=50035561\n\n Points: 70\n\n # Comments: 60",
+          "summaryZh": "文章网址：https://kotaku.com/we-might-be-cooked-as-these-vibe-coded-web-browser-ports-of-halo-the-simpsons-hit-and-run-and-gta-vice-city-seem-to-work-perfectly-2000743300\n\n 评论网址：https://news.ycombinator.com/item?id=50035561\n\n 积分：70\n\n # 评论: 60",
+          "publishedAt": "2026-10-10T18:11:58.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50035561",
+          "author": "astlouis44"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50035530",
+          "title": "Why DuckDB 2.0 is faster",
+          "titleZh": "为什么 DuckDB 2.0 更快",
+          "link": "https://motherduck.com/blog/why-duckdb-20-is-faster/",
+          "summary": "Article URL: https://motherduck.com/blog/why-duckdb-20-is-faster/\n\n Comments URL: https://news.ycombinator.com/item?id=50035530\n\n Points: 51\n\n # Comments: 12",
+          "summaryZh": "文章网址：https://motherduck.com/blog/why-duckdb-20-is-faster/\n\n 评论网址：https://news.ycombinator.com/item?id=50035530\n\n 积分：51\n\n # 评论: 12",
+          "publishedAt": "2026-10-10T18:08:49.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50035530",
+          "author": "tosh"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50034081",
+          "title": "Knuth reward check",
+          "titleZh": "高德纳奖励支票",
+          "link": "https://www.thomas-huehn.com/knuth-reward-check/",
+          "summary": "Article URL: https://www.thomas-huehn.com/knuth-reward-check/\n\n Comments URL: https://news.ycombinator.com/item?id=50034081\n\n Points: 102\n\n # Comments: 36",
+          "summaryZh": "文章网址：https://www.thomas-huehn.com/knuth-reward-check/\n\n 评论网址：https://news.ycombinator.com/item?id=50034081\n\n 积分：102\n\n # 评论: 36",
+          "publishedAt": "2026-10-10T15:47:01.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50034081",
+          "author": "Curiositry"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50034008",
+          "title": "How Protein Took over the World",
+          "titleZh": "蛋白质如何占领世界",
+          "link": "https://www.ft.com/content/e26574cf-94cc-40d9-921e-5c7417fc5dbd",
+          "summary": "https://archive.is/CbkfI\n\n Comments URL: https://news.ycombinator.com/item?id=50034008\n\n Points: 39\n\n # Comments: 66",
+          "summaryZh": "https://archive.is/CbkfI\n\n 评论网址：https://news.ycombinator.com/item?id=50034008\n\n 积分：39\n\n # 评论: 66",
+          "publishedAt": "2026-10-10T15:40:06.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50034008",
+          "author": "thm"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50033721",
+          "title": "PVX-001: open-source Covid-19 vaccine starts Phase 1 trial",
+          "titleZh": "PVX-001：开源 Covid-19 疫苗开始第一阶段试验",
+          "link": "https://chronicles.popvax.com/p/popvax-goes-clinical",
+          "summary": "Article URL: https://chronicles.popvax.com/p/popvax-goes-clinical\n\n Comments URL: https://news.ycombinator.com/item?id=50033721\n\n Points: 96\n\n # Comments: 17",
+          "summaryZh": "文章网址：https://chronicles.popvax.com/p/popvax-goes-clinical\n\n 评论网址：https://news.ycombinator.com/item?id=50033721\n\n 积分：96\n\n # 评论: 17",
+          "publishedAt": "2026-10-10T15:10:24.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50033721",
+          "author": "jajoosam"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50033407",
+          "title": "Bitwarden Dual License Model",
+          "titleZh": "Bitwarden 双许可模式",
+          "link": "https://community.bitwarden.com/t/published-version-update-in-app-stores/102750",
+          "summary": "Article URL: https://community.bitwarden.com/t/published-version-update-in-app-stores/102750\n\n Comments URL: https://news.ycombinator.com/item?id=50033407\n\n Points: 291\n\n # Comments: 217",
+          "summaryZh": "文章网址：https://community.bitwarden.com/t/published-version-update-in-app-stores/102750\n\n 评论网址：https://news.ycombinator.com/item?id=50033407\n\n 积分：291\n\n # 评论: 217",
+          "publishedAt": "2026-10-10T14:32:50.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50033407",
+          "author": "Cider9986"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50033357",
+          "title": "Unikernels were hard. key word: were",
+          "titleZh": "Unikernel 很难。关键词： 是",
+          "link": "https://ghuntley.com/unikernels/",
+          "summary": "Article URL: https://ghuntley.com/unikernels/\n\n Comments URL: https://news.ycombinator.com/item?id=50033357\n\n Points: 37\n\n # Comments: 14",
+          "summaryZh": "文章网址：https://ghuntley.com/unikernels/\n\n 评论网址：https://news.ycombinator.com/item?id=50033357\n\n 积分：37\n\n # 评论: 14",
+          "publishedAt": "2026-10-10T14:27:09.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50033357",
+          "author": "ghuntley"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50032758",
+          "title": "I would like the value of my home to rise, while my property taxes fall",
+          "titleZh": "我希望我的房屋价值上升，而我的财产税下降",
+          "link": "https://conversableeconomist.com/2026/09/28/i-would-like-the-value-of-my-home-to-rise-while-my-property-taxes-fall/",
+          "summary": "Article URL: https://conversableeconomist.com/2026/09/28/i-would-like-the-value-of-my-home-to-rise-while-my-property-taxes-fall/\n\n Comments URL: https://news.ycombinator.com/item?id=50032758\n\n Points: 164\n\n # Comments: 373",
+          "summaryZh": "文章网址：https://conversableeconomist.com/2026/09/28/i-would-like-the-value-of-my-home-to-rise-while-my-property-taxes-fall/\n\n 评论网址：https://news.ycombinator.com/item?id=50032758\n\n 积分：164\n\n # 评论: 373",
+          "publishedAt": "2026-10-10T13:29:03.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50032758",
+          "author": "colinprince"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50031653",
+          "title": "Apple/macOS removed from official Unix registry",
+          "titleZh": "Apple/macOS 从官方 Unix 注册表中删除",
+          "link": "https://www.opengroup.org//openbrand/register/",
+          "summary": "Article URL: https://www.opengroup.org//openbrand/register/\n\n Comments URL: https://news.ycombinator.com/item?id=50031653\n\n Points: 196\n\n # Comments: 189",
+          "summaryZh": "文章网址：https://www.opengroup.org//openbrand/register/\n\n 评论网址：https://news.ycombinator.com/item?id=50031653\n\n 积分：196\n\n # 评论：189",
+          "publishedAt": "2026-10-10T10:57:31.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50031653",
+          "author": "john_alan"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50031614",
+          "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+          "titleZh": "Talorys – Cloudflare 免费套餐上的自托管个人 AI 代理",
+          "link": "https://github.com/rociiu/talorys",
+          "summary": "Article URL: https://github.com/rociiu/talorys\n\n Comments URL: https://news.ycombinator.com/item?id=50031614\n\n Points: 208\n\n # Comments: 106",
+          "summaryZh": "文章网址：https://github.com/rociiu/talorys\n\n 评论网址：https://news.ycombinator.com/item?id=50031614\n\n 积分：208\n\n # 评论: 106",
+          "publishedAt": "2026-10-10T10:52:09.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50031614",
+          "author": "rociiu"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50031269",
+          "title": "`123456' password used in Danish CPR data breach",
+          "titleZh": "丹麦 CPR 数据泄露中使用了“123456”密码",
+          "link": "https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/",
+          "summary": "Article URL: https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/\n\n Comments URL: https://news.ycombinator.com/item?id=50031269\n\n Points: 356\n\n # Comments: 183",
+          "summaryZh": "文章网址：https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/\n\n 评论网址：https://news.ycombinator.com/item?id=50031269\n\n 积分：356\n\n # 评论: 183",
+          "publishedAt": "2026-10-10T09:51:49.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50031269",
+          "author": "baal80spam"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50029487",
+          "title": "The Lightbulb Computer",
+          "titleZh": "灯泡电脑",
+          "link": "https://lightbulbcomputer.com/",
+          "summary": "Article URL: https://lightbulbcomputer.com/\n\n Comments URL: https://news.ycombinator.com/item?id=50029487\n\n Points: 58\n\n # Comments: 10",
+          "summaryZh": "文章网址：https://lightbulbcomputer.com/\n\n 评论网址：https://news.ycombinator.com/item?id=50029487\n\n 积分：58\n\n # 评论: 10",
+          "publishedAt": "2026-10-10T04:12:26.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50029487",
+          "author": "oskarth"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50029123",
+          "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
+          "titleZh": "Telegram Desktop 漏洞允许任何用户的文件被盗",
+          "link": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
+          "summary": "Article URL: https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/\n\n Comments URL: https://news.ycombinator.com/item?id=50029123\n\n Points: 370\n\n # Comments: 204",
+          "summaryZh": "文章网址：https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/\n\n 评论网址：https://news.ycombinator.com/item?id=50029123\n\n 积分：370\n\n # 评论: 204",
+          "publishedAt": "2026-10-10T03:02:47.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50029123",
+          "author": "g-b-r"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50028275",
+          "title": "REA Reverse – Engineer Anything",
+          "titleZh": "REA 逆向——设计一切",
+          "link": "https://rea.tools/",
+          "summary": "Article URL: https://rea.tools/\n\n Comments URL: https://news.ycombinator.com/item?id=50028275\n\n Points: 642\n\n # Comments: 273",
+          "summaryZh": "文章网址：https://rea.tools/\n\n 评论网址：https://news.ycombinator.com/item?id=50028275\n\n 积分：642\n\n # 评论：273",
+          "publishedAt": "2026-10-10T00:37:07.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50028275",
+          "author": "modinfo"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50028162",
+          "title": "How strong is the strong interaction?",
+          "titleZh": "强相互作用有多强？",
+          "link": "https://cerncourier.com/how-strong-is-the-strong-interaction/",
+          "summary": "Article URL: https://cerncourier.com/how-strong-is-the-strong-interaction/\n\n Comments URL: https://news.ycombinator.com/item?id=50028162\n\n Points: 30\n\n # Comments: 4",
+          "summaryZh": "文章网址：https://cerncourier.com/how-strong-is-the-strong-interaction/\n\n 评论网址：https://news.ycombinator.com/item?id=50028162\n\n 积分：30\n\n # 评论: 4",
+          "publishedAt": "2026-10-10T00:13:16.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50028162",
+          "author": "EA-3167"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50027257",
+          "title": "Recent AI models struggled to match a human algorithmic innovation",
+          "titleZh": "最近的人工智能模型很难与人类算法创新相媲美",
+          "link": "https://epoch.ai/publications/innovationeval",
+          "summary": "Article URL: https://epoch.ai/publications/innovationeval\n\n Comments URL: https://news.ycombinator.com/item?id=50027257\n\n Points: 27\n\n # Comments: 22",
+          "summaryZh": "文章网址：https://epoch.ai/publications/innovationeval\n\n 评论网址：https://news.ycombinator.com/item?id=50027257\n\n 积分：27\n\n # 评论: 22",
+          "publishedAt": "2026-10-09T22:14:40.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50027257",
+          "author": "merksittich"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50024242",
+          "title": "Rampart: Browser native on-device PII radaction",
+          "titleZh": "Rampart：浏览器本机设备上 PII 辐射",
+          "link": "https://ndstudio.gov/posts/say-hello-to-rampart",
+          "summary": "Article URL: https://ndstudio.gov/posts/say-hello-to-rampart\n\n Comments URL: https://news.ycombinator.com/item?id=50024242\n\n Points: 54\n\n # Comments: 21",
+          "summaryZh": "文章网址：https://ndstudio.gov/posts/say-hello-to-rampart\n\n 评论网址：https://news.ycombinator.com/item?id=50024242\n\n 积分：54\n\n # 评论: 21",
+          "publishedAt": "2026-10-09T17:52:07.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50024242",
+          "author": "nateb2022"
+        }
+      ]
     },
     {
       "id": "arxiv-cs-ai",
@@ -33,7 +248,7 @@
       "url": "https://rss.arxiv.org/rss/cs.AI",
       "home": "https://arxiv.org/list/cs.AI/recent",
       "group": "arxiv",
-      "fetchedAt": "2026-10-10T16:47:44.217Z",
+      "fetchedAt": "2026-10-10T21:00:51.118Z",
       "count": 15,
       "items": [
         {
@@ -209,7 +424,7 @@
       "url": "https://rss.arxiv.org/rss/cs.LG",
       "home": "https://arxiv.org/list/cs.LG/recent",
       "group": "arxiv",
-      "fetchedAt": "2026-10-10T16:47:44.639Z",
+      "fetchedAt": "2026-10-10T21:00:51.540Z",
       "count": 0,
       "items": []
     }
