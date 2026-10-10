@@ -1,15 +1,20 @@
 {
   "source": "content/feeds.json",
   "attribution": "Aggregated headlines/summaries from third-party RSS/Atom feeds for navigation only. All rights belong to original publishers and authors. Chinese text is machine-translated.",
-  "fetchedAt": "2026-10-10T11:45:17.510Z",
+  "fetchedAt": "2026-10-10T16:47:50.626Z",
   "date": "2026-10-10",
   "feedCount": 3,
-  "itemCount": 35,
+  "itemCount": 15,
   "locale": {
     "summaryDefault": "zh",
     "translated": true
   },
-  "errors": [],
+  "errors": [
+    {
+      "id": "hacker-news",
+      "error": "fetch failed"
+    }
+  ],
   "feeds": [
     {
       "id": "hacker-news",
@@ -17,230 +22,10 @@
       "url": "https://hnrss.org/frontpage",
       "home": "https://news.ycombinator.com/",
       "group": "community",
-      "fetchedAt": "2026-10-10T11:44:50.303Z",
-      "count": 20,
-      "items": [
-        {
-          "id": "https://news.ycombinator.com/item?id=50031614",
-          "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
-          "titleZh": "Talorys – Cloudflare 免费套餐上的自托管个人 AI 代理",
-          "link": "https://github.com/rociiu/talorys",
-          "summary": "Article URL: https://github.com/rociiu/talorys\n\n Comments URL: https://news.ycombinator.com/item?id=50031614\n\n Points: 15\n\n # Comments: 1",
-          "summaryZh": "文章网址：https://github.com/rociiu/talorys\n\n 评论网址：https://news.ycombinator.com/item?id=50031614\n\n 积分：15\n\n # 评论: 1",
-          "publishedAt": "2026-10-10T10:52:09.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50031614",
-          "author": "rociiu"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50031269",
-          "title": "`123456' password used in Danish CPR data breach",
-          "titleZh": "丹麦 CPR 数据泄露中使用了“123456”密码",
-          "link": "https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/",
-          "summary": "Article URL: https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/\n\n Comments URL: https://news.ycombinator.com/item?id=50031269\n\n Points: 112\n\n # Comments: 74",
-          "summaryZh": "文章网址：https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/\n\n 评论网址：https://news.ycombinator.com/item?id=50031269\n\n 积分：112\n\n # 评论: 74",
-          "publishedAt": "2026-10-10T09:51:49.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50031269",
-          "author": "baal80spam"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50029982",
-          "title": "Computers Cannot Make Decisions",
-          "titleZh": "计算机无法做出决定",
-          "link": "https://wiki.cateat.fish/art:computers_cannot_make_decisions",
-          "summary": "Article URL: https://wiki.cateat.fish/art:computers_cannot_make_decisions\n\n Comments URL: https://news.ycombinator.com/item?id=50029982\n\n Points: 110\n\n # Comments: 89",
-          "summaryZh": "文章网址：https://wiki.cateat.fish/art:computers_cannot_make_decisions\n\n 评论网址：https://news.ycombinator.com/item?id=50029982\n\n 积分：110\n\n # 评论: 89",
-          "publishedAt": "2026-10-10T05:47:46.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50029982",
-          "author": "heavensteeth"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50029830",
-          "title": "Food processing influences metabolism and brain activity",
-          "titleZh": "食物加工影响新陈代谢和大脑活动",
-          "link": "https://news.vt.edu/articles/2026/10/research_fralinbiomed_upfhutelin.html",
-          "summary": "Article URL: https://news.vt.edu/articles/2026/10/research_fralinbiomed_upfhutelin.html\n\n Comments URL: https://news.ycombinator.com/item?id=50029830\n\n Points: 53\n\n # Comments: 41",
-          "summaryZh": "文章网址：https://news.vt.edu/articles/2026/10/research_fralinbiomed_upfhutelin.html\n\n 评论网址：https://news.ycombinator.com/item?id=50029830\n\n 积分：53\n\n # 评论: 41",
-          "publishedAt": "2026-10-10T05:22:30.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50029830",
-          "author": "gmays"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50029123",
-          "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
-          "titleZh": "Telegram Desktop 漏洞允许任何用户的文件被盗",
-          "link": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
-          "summary": "Article URL: https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/\n\n Comments URL: https://news.ycombinator.com/item?id=50029123\n\n Points: 202\n\n # Comments: 96",
-          "summaryZh": "文章网址：https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/\n\n 评论网址：https://news.ycombinator.com/item?id=50029123\n\n 积分：202\n\n # 评论: 96",
-          "publishedAt": "2026-10-10T03:02:47.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50029123",
-          "author": "g-b-r"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50028275",
-          "title": "REA Reverse – Engineer Anything",
-          "titleZh": "REA 逆向——设计一切",
-          "link": "https://rea.tools/",
-          "summary": "Article URL: https://rea.tools/\n\n Comments URL: https://news.ycombinator.com/item?id=50028275\n\n Points: 463\n\n # Comments: 182",
-          "summaryZh": "文章网址：https://rea.tools/\n\n 评论网址：https://news.ycombinator.com/item?id=50028275\n\n 积分：463\n\n # 评论: 182",
-          "publishedAt": "2026-10-10T00:37:07.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50028275",
-          "author": "modinfo"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50028027",
-          "title": "Clinical trial of a prion disease drug candidate begins enrolling participants",
-          "titleZh": "朊病毒病候选药物的临床试验开始招募参与者",
-          "link": "https://www.broadinstitute.org/news/clinical-trial-prion-disease-drug-candidate-begins-enrolling-participants",
-          "summary": "Article URL: https://www.broadinstitute.org/news/clinical-trial-prion-disease-drug-candidate-begins-enrolling-participants\n\n Comments URL: https://news.ycombinator.com/item?id=50028027\n\n Points: 82\n\n # Comments: 16",
-          "summaryZh": "文章网址：https://www.broadinstitute.org/news/clinical-trial-prion-disease-drug-candidate-begins-enrolling-participants\n\n 评论网址：https://news.ycombinator.com/item?id=50028027\n\n 积分：82\n\n # 评论: 16",
-          "publishedAt": "2026-10-09T23:53:08.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50028027",
-          "author": "luu"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50027853",
-          "title": "Compiling Rust to readable C with Eurydice",
-          "titleZh": "使用 Eurydice 将 Rust 编译为可读的 C",
-          "link": "https://lwn.net/Articles/1055211/",
-          "summary": "Article URL: https://lwn.net/Articles/1055211/\n\n Comments URL: https://news.ycombinator.com/item?id=50027853\n\n Points: 88\n\n # Comments: 21",
-          "summaryZh": "文章网址：https://lwn.net/Articles/1055211/\n\n 评论网址：https://news.ycombinator.com/item?id=50027853\n\n 积分：88\n\n # 评论: 21",
-          "publishedAt": "2026-10-09T23:28:36.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50027853",
-          "author": "peter_d_sherman"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50026555",
-          "title": "YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops",
-          "titleZh": "YouTuber 称，在他制作了一个羊群式摄像机来追踪警察后，警察拜访了他",
-          "link": "https://gizmodo.com/youtuber-says-cops-paid-him-a-visit-after-he-built-flock-style-camera-to-track-cops-2000824306",
-          "summary": "Article URL: https://gizmodo.com/youtuber-says-cops-paid-him-a-visit-after-he-built-flock-style-camera-to-track-cops-2000824306\n\n Comments URL: https://news.ycombinator.com/item?id=50026555\n\n Points: 588\n\n # Comments: 317",
-          "summaryZh": "文章网址：https://gizmodo.com/youtuber-says-cops-paid-him-a-visit-after-he-built-flock-style-camera-to-track-cops-2000824306\n\n 评论网址：https://news.ycombinator.com/item?id=50026555\n\n 积分：588\n\n # 评论: 317",
-          "publishedAt": "2026-10-09T21:06:59.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50026555",
-          "author": "gumby"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50024499",
-          "title": "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
-          "titleZh": "显示 HN：运营商爆炸：iPhone、Pixel 和 Galaxy 运营商设置已解码",
-          "link": "https://carrierexplode.com/",
-          "summary": "Showing off carrier-explode, one of my side projects that continuously archives carrier settings for all major phone brands. carrier-explode also contains decoders and explanations for all the common baseband configurations, etc. There’s still quite a bit of work to be done in checking my assumptions, but the tool has already been proven useful for a few enthusiast groups.\n\n Comments URL: https://news.ycombinator.com/item?id=50024499\n\n Points: 337\n\n # Comments: 43",
-          "summaryZh": "展示运营商爆炸，这是我的副项目之一，它不断存档所有主要手机品牌的运营商设置。 Carrier-explode 还包含所有常见基带配置的解码器和解释等。在检查我的假设方面仍有相当多的工作要做，但该工具已被证明对一些爱好者群体有用。\n\n 评论网址：https://news.ycombinator.com/item?id=50024499\n\n 积分：337\n\n # 评论: 43",
-          "publishedAt": "2026-10-09T18:10:55.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50024499",
-          "author": "simplyalec"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50024090",
-          "title": "What mathematicians should know about the Lean Theorem Prover: reliability & AI",
-          "titleZh": "数学家应该了解精益定理证明器的哪些内容：可靠性和人工智能",
-          "link": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
-          "summary": "Article URL: https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/\n\n Comments URL: https://news.ycombinator.com/item?id=50024090\n\n Points: 130\n\n # Comments: 25",
-          "summaryZh": "文章网址：https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/\n\n 评论网址：https://news.ycombinator.com/item?id=50024090\n\n 积分：130\n\n # 评论: 25",
-          "publishedAt": "2026-10-09T17:42:12.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50024090",
-          "author": "matt_d"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50024055",
-          "title": "Show HN: The rarest tech books and docs you've probably never read",
-          "titleZh": "Show HN：您可能从未读过的最稀有的技术书籍和文档",
-          "link": "https://readrare.com/",
-          "summary": "Article URL: https://readrare.com/\n\n Comments URL: https://news.ycombinator.com/item?id=50024055\n\n Points: 139\n\n # Comments: 51",
-          "summaryZh": "文章网址：https://readrare.com/\n\n 评论网址：https://news.ycombinator.com/item?id=50024055\n\n 积分：139\n\n # 评论: 51",
-          "publishedAt": "2026-10-09T17:39:44.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50024055",
-          "author": "miletus"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50023995",
-          "title": "Scam American companies are using to manipulate ingredient lists",
-          "titleZh": "美国公司正在利用骗局操纵成分列表",
-          "link": "https://twitter.com/WallStreetApes/status/2108594998656807078",
-          "summary": "Article URL: https://twitter.com/WallStreetApes/status/2108594998656807078\n\n Comments URL: https://news.ycombinator.com/item?id=50023995\n\n Points: 127\n\n # Comments: 144",
-          "summaryZh": "文章网址：https://twitter.com/WallStreetApes/status/2108594998656807078\n\n 评论网址：https://news.ycombinator.com/item?id=50023995\n\n 积分：127\n\n # 评论: 144",
-          "publishedAt": "2026-10-09T17:35:40.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50023995",
-          "author": "bilsbie"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50023450",
-          "title": "Typesafe AI raises $870M at $7.5B",
-          "titleZh": "Typesafe AI 以 $7.5B 融资 8.7 亿美元",
-          "link": "https://typesafe.ai/blog/series-ai",
-          "summary": "Article URL: https://typesafe.ai/blog/series-ai\n\n Comments URL: https://news.ycombinator.com/item?id=50023450\n\n Points: 379\n\n # Comments: 284",
-          "summaryZh": "文章网址：https://typesafe.ai/blog/series-ai\n\n 评论网址：https://news.ycombinator.com/item?id=50023450\n\n 积分：379\n\n # 评论：284",
-          "publishedAt": "2026-10-09T17:02:31.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50023450",
-          "author": "tosh"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50022292",
-          "title": "Triple-A Minesweeper",
-          "titleZh": "3A 扫雷游戏",
-          "link": "https://minesweeper.mikelacher.com/",
-          "summary": "Article URL: https://minesweeper.mikelacher.com/\n\n Comments URL: https://news.ycombinator.com/item?id=50022292\n\n Points: 1040\n\n # Comments: 199",
-          "summaryZh": "文章网址：https://minesweeper.mikelacher.com/\n\n 评论网址：https://news.ycombinator.com/item?id=50022292\n\n 积分：1040\n\n # 评论: 199",
-          "publishedAt": "2026-10-09T15:51:05.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50022292",
-          "author": "robin_reala"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50021410",
-          "title": "Can you use autoregressive diffusion to generate market data?",
-          "titleZh": "您可以使用自回归扩散来生成市场数据吗？",
-          "link": "https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data/",
-          "summary": "Article URL: https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data/\n\n Comments URL: https://news.ycombinator.com/item?id=50021410\n\n Points: 100\n\n # Comments: 31",
-          "summaryZh": "文章网址：https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data/\n\n 评论网址：https://news.ycombinator.com/item?id=50021410\n\n 积分：100\n\n # 评论: 31",
-          "publishedAt": "2026-10-09T14:56:13.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50021410",
-          "author": "jsomers"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50020533",
-          "title": "'Wallace and Gromit,' 90% Alone",
-          "titleZh": "《超级无敌掌门狗》，90% 独自一人",
-          "link": "https://animationobsessive.substack.com/p/wallace-and-gromit-90-alone",
-          "summary": "Article URL: https://animationobsessive.substack.com/p/wallace-and-gromit-90-alone\n\n Comments URL: https://news.ycombinator.com/item?id=50020533\n\n Points: 225\n\n # Comments: 29",
-          "summaryZh": "文章网址：https://animationobsessive.substack.com/p/wallace-and-gromit-90-alone\n\n 评论网址：https://news.ycombinator.com/item?id=50020533\n\n 积分：225\n\n # 评论: 29",
-          "publishedAt": "2026-10-09T13:49:31.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50020533",
-          "author": "vinhnx"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50020014",
-          "title": "Our $445M Series D",
-          "titleZh": "我们 4.45 亿美元的 D 轮融资",
-          "link": "https://oxide.computer/blog/our-445m-series-d",
-          "summary": "Article URL: https://oxide.computer/blog/our-445m-series-d\n\n Comments URL: https://news.ycombinator.com/item?id=50020014\n\n Points: 664\n\n # Comments: 298",
-          "summaryZh": "文章网址：https://oxygen.computer/blog/our-445m-series-d\n\n 评论网址：https://news.ycombinator.com/item?id=50020014\n\n 积分：664\n\n # 评论：298",
-          "publishedAt": "2026-10-09T13:12:47.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50020014",
-          "author": "ahlCVA"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50019911",
-          "title": "Cloudflare acquires Deno",
-          "titleZh": "Cloudflare 收购 Deno",
-          "link": "https://deno.com/blog/cloudflare",
-          "summary": "Article URL: https://deno.com/blog/cloudflare\n\n Comments URL: https://news.ycombinator.com/item?id=50019911\n\n Points: 1255\n\n # Comments: 635",
-          "summaryZh": "文章网址：https://deno.com/blog/cloudflare\n\n 评论网址：https://news.ycombinator.com/item?id=50019911\n\n 积分：1255\n\n # 评论: 635",
-          "publishedAt": "2026-10-09T13:03:48.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50019911",
-          "author": "ilreb"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50019499",
-          "title": "100+ reactions to 100+ solutions",
-          "titleZh": "100 多种解决方案的 100 多种反应",
-          "link": "https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/",
-          "summary": "Article URL: https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/\n\n Comments URL: https://news.ycombinator.com/item?id=50019499\n\n Points: 79\n\n # Comments: 73",
-          "summaryZh": "文章网址：https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/\n\n 评论网址：https://news.ycombinator.com/item?id=50019499\n\n 积分：79\n\n # 评论: 73",
-          "publishedAt": "2026-10-09T12:26:12.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50019499",
-          "author": "jacobedawson"
-        }
-      ]
+      "fetchedAt": "2026-10-10T16:47:43.258Z",
+      "count": 0,
+      "items": [],
+      "error": "fetch failed"
     },
     {
       "id": "arxiv-cs-ai",
@@ -248,7 +33,7 @@
       "url": "https://rss.arxiv.org/rss/cs.AI",
       "home": "https://arxiv.org/list/cs.AI/recent",
       "group": "arxiv",
-      "fetchedAt": "2026-10-10T11:44:50.951Z",
+      "fetchedAt": "2026-10-10T16:47:44.217Z",
       "count": 15,
       "items": [
         {
@@ -424,7 +209,7 @@
       "url": "https://rss.arxiv.org/rss/cs.LG",
       "home": "https://arxiv.org/list/cs.LG/recent",
       "group": "arxiv",
-      "fetchedAt": "2026-10-10T11:44:51.364Z",
+      "fetchedAt": "2026-10-10T16:47:44.639Z",
       "count": 0,
       "items": []
     }
