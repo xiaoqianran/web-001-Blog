@@ -1,10 +1,10 @@
 {
   "source": "content/feeds.json",
   "attribution": "Aggregated headlines/summaries from third-party RSS/Atom feeds for navigation only. All rights belong to original publishers and authors. Chinese text is machine-translated.",
-  "fetchedAt": "2026-10-10T03:54:13.915Z",
+  "fetchedAt": "2026-10-10T11:45:17.510Z",
   "date": "2026-10-10",
   "feedCount": 3,
-  "itemCount": 50,
+  "itemCount": 35,
   "locale": {
     "summaryDefault": "zh",
     "translated": true
@@ -17,126 +17,115 @@
       "url": "https://hnrss.org/frontpage",
       "home": "https://news.ycombinator.com/",
       "group": "community",
-      "fetchedAt": "2026-10-10T03:53:35.553Z",
+      "fetchedAt": "2026-10-10T11:44:50.303Z",
       "count": 20,
       "items": [
+        {
+          "id": "https://news.ycombinator.com/item?id=50031614",
+          "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+          "titleZh": "Talorys – Cloudflare 免费套餐上的自托管个人 AI 代理",
+          "link": "https://github.com/rociiu/talorys",
+          "summary": "Article URL: https://github.com/rociiu/talorys\n\n Comments URL: https://news.ycombinator.com/item?id=50031614\n\n Points: 15\n\n # Comments: 1",
+          "summaryZh": "文章网址：https://github.com/rociiu/talorys\n\n 评论网址：https://news.ycombinator.com/item?id=50031614\n\n 积分：15\n\n # 评论: 1",
+          "publishedAt": "2026-10-10T10:52:09.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50031614",
+          "author": "rociiu"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50031269",
+          "title": "`123456' password used in Danish CPR data breach",
+          "titleZh": "丹麦 CPR 数据泄露中使用了“123456”密码",
+          "link": "https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/",
+          "summary": "Article URL: https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/\n\n Comments URL: https://news.ycombinator.com/item?id=50031269\n\n Points: 112\n\n # Comments: 74",
+          "summaryZh": "文章网址：https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/\n\n 评论网址：https://news.ycombinator.com/item?id=50031269\n\n 积分：112\n\n # 评论: 74",
+          "publishedAt": "2026-10-10T09:51:49.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50031269",
+          "author": "baal80spam"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50029982",
+          "title": "Computers Cannot Make Decisions",
+          "titleZh": "计算机无法做出决定",
+          "link": "https://wiki.cateat.fish/art:computers_cannot_make_decisions",
+          "summary": "Article URL: https://wiki.cateat.fish/art:computers_cannot_make_decisions\n\n Comments URL: https://news.ycombinator.com/item?id=50029982\n\n Points: 110\n\n # Comments: 89",
+          "summaryZh": "文章网址：https://wiki.cateat.fish/art:computers_cannot_make_decisions\n\n 评论网址：https://news.ycombinator.com/item?id=50029982\n\n 积分：110\n\n # 评论: 89",
+          "publishedAt": "2026-10-10T05:47:46.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50029982",
+          "author": "heavensteeth"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50029830",
+          "title": "Food processing influences metabolism and brain activity",
+          "titleZh": "食物加工影响新陈代谢和大脑活动",
+          "link": "https://news.vt.edu/articles/2026/10/research_fralinbiomed_upfhutelin.html",
+          "summary": "Article URL: https://news.vt.edu/articles/2026/10/research_fralinbiomed_upfhutelin.html\n\n Comments URL: https://news.ycombinator.com/item?id=50029830\n\n Points: 53\n\n # Comments: 41",
+          "summaryZh": "文章网址：https://news.vt.edu/articles/2026/10/research_fralinbiomed_upfhutelin.html\n\n 评论网址：https://news.ycombinator.com/item?id=50029830\n\n 积分：53\n\n # 评论: 41",
+          "publishedAt": "2026-10-10T05:22:30.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50029830",
+          "author": "gmays"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50029123",
+          "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
+          "titleZh": "Telegram Desktop 漏洞允许任何用户的文件被盗",
+          "link": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
+          "summary": "Article URL: https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/\n\n Comments URL: https://news.ycombinator.com/item?id=50029123\n\n Points: 202\n\n # Comments: 96",
+          "summaryZh": "文章网址：https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/\n\n 评论网址：https://news.ycombinator.com/item?id=50029123\n\n 积分：202\n\n # 评论: 96",
+          "publishedAt": "2026-10-10T03:02:47.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50029123",
+          "author": "g-b-r"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=50028275",
           "title": "REA Reverse – Engineer Anything",
           "titleZh": "REA 逆向——设计一切",
           "link": "https://rea.tools/",
-          "summary": "Article URL: https://rea.tools/\n\n Comments URL: https://news.ycombinator.com/item?id=50028275\n\n Points: 159\n\n # Comments: 38",
-          "summaryZh": "文章网址：https://rea.tools/\n\n 评论网址：https://news.ycombinator.com/item?id=50028275\n\n 积分：159\n\n # 评论: 38",
+          "summary": "Article URL: https://rea.tools/\n\n Comments URL: https://news.ycombinator.com/item?id=50028275\n\n Points: 463\n\n # Comments: 182",
+          "summaryZh": "文章网址：https://rea.tools/\n\n 评论网址：https://news.ycombinator.com/item?id=50028275\n\n 积分：463\n\n # 评论: 182",
           "publishedAt": "2026-10-10T00:37:07.000Z",
           "comments": "https://news.ycombinator.com/item?id=50028275",
           "author": "modinfo"
         },
         {
-          "id": "https://news.ycombinator.com/item?id=50028062",
-          "title": "Has the Autonomous Trucking Revolution Arrived?",
-          "titleZh": "自动卡车运输革命已经到来吗？",
-          "link": "https://phenomenalworld.org/analysis/has-the-autonomous-trucking-revolution-arrived/",
-          "summary": "Article URL: https://phenomenalworld.org/analysis/has-the-autonomous-trucking-revolution-arrived/\n\n Comments URL: https://news.ycombinator.com/item?id=50028062\n\n Points: 12\n\n # Comments: 11",
-          "summaryZh": "文章网址：https://phenomenalworld.org/analysis/has-the-autonomous-trucking-revolution-arrived/\n\n 评论网址：https://news.ycombinator.com/item?id=50028062\n\n 积分：12\n\n # 评论: 11",
-          "publishedAt": "2026-10-09T23:57:12.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50028062",
-          "author": "demonsthenes"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50027884",
-          "title": "The logarithms of rational numbers have irrationality exponent 2 [pdf]",
-          "titleZh": "有理数的对数有无理数指数 2 [pdf]",
-          "link": "https://jdb19937.github.io/log-irrationality-measure/logmeasure.pdf",
-          "summary": "Article URL: https://jdb19937.github.io/log-irrationality-measure/logmeasure.pdf\n\n Comments URL: https://news.ycombinator.com/item?id=50027884\n\n Points: 12\n\n # Comments: 3",
-          "summaryZh": "文章网址：https://jdb19937.github.io/log-irrationality-measure/logmeasure.pdf\n\n 评论网址：https://news.ycombinator.com/item?id=50027884\n\n 积分：12\n\n # 评论: 3",
-          "publishedAt": "2026-10-09T23:32:04.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50027884",
-          "author": "jdb1729"
+          "id": "https://news.ycombinator.com/item?id=50028027",
+          "title": "Clinical trial of a prion disease drug candidate begins enrolling participants",
+          "titleZh": "朊病毒病候选药物的临床试验开始招募参与者",
+          "link": "https://www.broadinstitute.org/news/clinical-trial-prion-disease-drug-candidate-begins-enrolling-participants",
+          "summary": "Article URL: https://www.broadinstitute.org/news/clinical-trial-prion-disease-drug-candidate-begins-enrolling-participants\n\n Comments URL: https://news.ycombinator.com/item?id=50028027\n\n Points: 82\n\n # Comments: 16",
+          "summaryZh": "文章网址：https://www.broadinstitute.org/news/clinical-trial-prion-disease-drug-candidate-begins-enrolling-participants\n\n 评论网址：https://news.ycombinator.com/item?id=50028027\n\n 积分：82\n\n # 评论: 16",
+          "publishedAt": "2026-10-09T23:53:08.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50028027",
+          "author": "luu"
         },
         {
           "id": "https://news.ycombinator.com/item?id=50027853",
           "title": "Compiling Rust to readable C with Eurydice",
           "titleZh": "使用 Eurydice 将 Rust 编译为可读的 C",
           "link": "https://lwn.net/Articles/1055211/",
-          "summary": "Article URL: https://lwn.net/Articles/1055211/\n\n Comments URL: https://news.ycombinator.com/item?id=50027853\n\n Points: 37\n\n # Comments: 3",
-          "summaryZh": "文章网址：https://lwn.net/Articles/1055211/\n\n 评论网址：https://news.ycombinator.com/item?id=50027853\n\n 积分：37\n\n # 评论: 3",
+          "summary": "Article URL: https://lwn.net/Articles/1055211/\n\n Comments URL: https://news.ycombinator.com/item?id=50027853\n\n Points: 88\n\n # Comments: 21",
+          "summaryZh": "文章网址：https://lwn.net/Articles/1055211/\n\n 评论网址：https://news.ycombinator.com/item?id=50027853\n\n 积分：88\n\n # 评论: 21",
           "publishedAt": "2026-10-09T23:28:36.000Z",
           "comments": "https://news.ycombinator.com/item?id=50027853",
           "author": "peter_d_sherman"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50027694",
-          "title": "Rewriting Prime Agent in Rust",
-          "titleZh": "用 Rust 重写 Prime Agent",
-          "link": "https://www.primeintellect.ai/blog/prime-agent-rust",
-          "summary": "Article URL: https://www.primeintellect.ai/blog/prime-agent-rust\n\n Comments URL: https://news.ycombinator.com/item?id=50027694\n\n Points: 30\n\n # Comments: 10",
-          "summaryZh": "文章网址：https://www.primeintellect.ai/blog/prime-agent-rust\n\n 评论网址：https://news.ycombinator.com/item?id=50027694\n\n 积分：30\n\n # 评论: 10",
-          "publishedAt": "2026-10-09T23:06:25.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50027694",
-          "author": "piotrgrabowski"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50027590",
-          "title": "Atari Falcon",
-          "titleZh": "雅达利猎鹰",
-          "link": "https://atarimuseum.nl/atari-falcon/",
-          "summary": "Article URL: https://atarimuseum.nl/atari-falcon/\n\n Comments URL: https://news.ycombinator.com/item?id=50027590\n\n Points: 24\n\n # Comments: 5",
-          "summaryZh": "文章网址：https://atarimuseum.nl/atari-falcon/\n\n 评论网址：https://news.ycombinator.com/item?id=50027590\n\n 积分：24\n\n # 评论: 5",
-          "publishedAt": "2026-10-09T22:54:13.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50027590",
-          "author": "debo_"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50027118",
-          "title": "Anthropic AI model submits false tip on unsolved Philly murder",
-          "titleZh": "人择人工智能模型对未解决的费城谋杀案提交了错误提示",
-          "link": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
-          "summary": "Article URL: https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/\n\n Comments URL: https://news.ycombinator.com/item?id=50027118\n\n Points: 89\n\n # Comments: 77",
-          "summaryZh": "文章网址：https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/\n\n 评论网址：https://news.ycombinator.com/item?id=50027118\n\n 积分：89\n\n # 评论: 77",
-          "publishedAt": "2026-10-09T22:00:35.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50027118",
-          "author": "Zambyte"
         },
         {
           "id": "https://news.ycombinator.com/item?id=50026555",
           "title": "YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops",
           "titleZh": "YouTuber 称，在他制作了一个羊群式摄像机来追踪警察后，警察拜访了他",
           "link": "https://gizmodo.com/youtuber-says-cops-paid-him-a-visit-after-he-built-flock-style-camera-to-track-cops-2000824306",
-          "summary": "Article URL: https://gizmodo.com/youtuber-says-cops-paid-him-a-visit-after-he-built-flock-style-camera-to-track-cops-2000824306\n\n Comments URL: https://news.ycombinator.com/item?id=50026555\n\n Points: 471\n\n # Comments: 260",
-          "summaryZh": "文章网址：https://gizmodo.com/youtuber-says-cops-paid-him-a-visit-after-he-built-flock-style-camera-to-track-cops-2000824306\n\n 评论网址：https://news.ycombinator.com/item?id=50026555\n\n 积分：471\n\n # 评论：260",
+          "summary": "Article URL: https://gizmodo.com/youtuber-says-cops-paid-him-a-visit-after-he-built-flock-style-camera-to-track-cops-2000824306\n\n Comments URL: https://news.ycombinator.com/item?id=50026555\n\n Points: 588\n\n # Comments: 317",
+          "summaryZh": "文章网址：https://gizmodo.com/youtuber-says-cops-paid-him-a-visit-after-he-built-flock-style-camera-to-track-cops-2000824306\n\n 评论网址：https://news.ycombinator.com/item?id=50026555\n\n 积分：588\n\n # 评论: 317",
           "publishedAt": "2026-10-09T21:06:59.000Z",
           "comments": "https://news.ycombinator.com/item?id=50026555",
           "author": "gumby"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50024913",
-          "title": "Microsoft-Decision-1, our model for fast decision-making",
-          "titleZh": "Microsoft-Decision-1，我们的快速决策模型",
-          "link": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/",
-          "summary": "Article URL: https://commandline.microsoft.com/microsoft-decision-1-model-foundry/\n\n Comments URL: https://news.ycombinator.com/item?id=50024913\n\n Points: 162\n\n # Comments: 56",
-          "summaryZh": "文章网址：https://commandline.microsoft.com/microsoft-decision-1-model-foundry/\n\n 评论网址：https://news.ycombinator.com/item?id=50024913\n\n 积分：162\n\n # 评论: 56",
-          "publishedAt": "2026-10-09T18:38:44.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50024913",
-          "author": "lisajaloza"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50024669",
-          "title": "M7.6 Earthquake in Panama",
-          "titleZh": "巴拿马M7.6地震",
-          "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/executive",
-          "summary": "Article URL: https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/executive\n\n Comments URL: https://news.ycombinator.com/item?id=50024669\n\n Points: 141\n\n # Comments: 36",
-          "summaryZh": "文章网址：https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/executive\n\n 评论网址：https://news.ycombinator.com/item?id=50024669\n\n 积分：141\n\n # 评论: 36",
-          "publishedAt": "2026-10-09T18:22:20.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50024669",
-          "author": "gslin"
         },
         {
           "id": "https://news.ycombinator.com/item?id=50024499",
           "title": "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
           "titleZh": "显示 HN：运营商爆炸：iPhone、Pixel 和 Galaxy 运营商设置已解码",
           "link": "https://carrierexplode.com/",
-          "summary": "Showing off carrier-explode, one of my side projects that continuously archives carrier settings for all major phone brands. carrier-explode also contains decoders and explanations for all the common baseband configurations, etc. There’s still quite a bit of work to be done in checking my assumptions, but the tool has already been proven useful for a few enthusiast groups.\n\n Comments URL: https://news.ycombinator.com/item?id=50024499\n\n Points: 233\n\n # Comments: 31",
-          "summaryZh": "展示运营商爆炸，这是我的副项目之一，它不断存档所有主要手机品牌的运营商设置。 Carrier-explode 还包含所有常见基带配置的解码器和解释等。在检查我的假设方面仍有相当多的工作要做，但该工具已经被证明对一些爱好者群体有用。\n\n 评论网址：https://news.ycombinator.com/item?id=50024499\n\n 积分：233\n\n # 评论: 31",
+          "summary": "Showing off carrier-explode, one of my side projects that continuously archives carrier settings for all major phone brands. carrier-explode also contains decoders and explanations for all the common baseband configurations, etc. There’s still quite a bit of work to be done in checking my assumptions, but the tool has already been proven useful for a few enthusiast groups.\n\n Comments URL: https://news.ycombinator.com/item?id=50024499\n\n Points: 337\n\n # Comments: 43",
+          "summaryZh": "展示运营商爆炸，这是我的副项目之一，它不断存档所有主要手机品牌的运营商设置。 Carrier-explode 还包含所有常见基带配置的解码器和解释等。在检查我的假设方面仍有相当多的工作要做，但该工具已被证明对一些爱好者群体有用。\n\n 评论网址：https://news.ycombinator.com/item?id=50024499\n\n 积分：337\n\n # 评论: 43",
           "publishedAt": "2026-10-09T18:10:55.000Z",
           "comments": "https://news.ycombinator.com/item?id=50024499",
           "author": "simplyalec"
@@ -146,8 +135,8 @@
           "title": "What mathematicians should know about the Lean Theorem Prover: reliability & AI",
           "titleZh": "数学家应该了解精益定理证明器的哪些内容：可靠性和人工智能",
           "link": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
-          "summary": "Article URL: https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/\n\n Comments URL: https://news.ycombinator.com/item?id=50024090\n\n Points: 50\n\n # Comments: 6",
-          "summaryZh": "文章网址：https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/\n\n 评论网址：https://news.ycombinator.com/item?id=50024090\n\n 积分：50\n\n # 评论: 6",
+          "summary": "Article URL: https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/\n\n Comments URL: https://news.ycombinator.com/item?id=50024090\n\n Points: 130\n\n # Comments: 25",
+          "summaryZh": "文章网址：https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/\n\n 评论网址：https://news.ycombinator.com/item?id=50024090\n\n 积分：130\n\n # 评论: 25",
           "publishedAt": "2026-10-09T17:42:12.000Z",
           "comments": "https://news.ycombinator.com/item?id=50024090",
           "author": "matt_d"
@@ -157,8 +146,8 @@
           "title": "Show HN: The rarest tech books and docs you've probably never read",
           "titleZh": "Show HN：您可能从未读过的最稀有的技术书籍和文档",
           "link": "https://readrare.com/",
-          "summary": "Article URL: https://readrare.com/\n\n Comments URL: https://news.ycombinator.com/item?id=50024055\n\n Points: 85\n\n # Comments: 25",
-          "summaryZh": "文章网址：https://readrare.com/\n\n 评论网址：https://news.ycombinator.com/item?id=50024055\n\n 积分：85\n\n # 评论: 25",
+          "summary": "Article URL: https://readrare.com/\n\n Comments URL: https://news.ycombinator.com/item?id=50024055\n\n Points: 139\n\n # Comments: 51",
+          "summaryZh": "文章网址：https://readrare.com/\n\n 评论网址：https://news.ycombinator.com/item?id=50024055\n\n 积分：139\n\n # 评论: 51",
           "publishedAt": "2026-10-09T17:39:44.000Z",
           "comments": "https://news.ycombinator.com/item?id=50024055",
           "author": "miletus"
@@ -168,8 +157,8 @@
           "title": "Scam American companies are using to manipulate ingredient lists",
           "titleZh": "美国公司正在利用骗局操纵成分列表",
           "link": "https://twitter.com/WallStreetApes/status/2108594998656807078",
-          "summary": "Article URL: https://twitter.com/WallStreetApes/status/2108594998656807078\n\n Comments URL: https://news.ycombinator.com/item?id=50023995\n\n Points: 68\n\n # Comments: 77",
-          "summaryZh": "文章网址：https://twitter.com/WallStreetApes/status/2108594998656807078\n\n 评论网址：https://news.ycombinator.com/item?id=50023995\n\n 积分：68\n\n # 评论: 77",
+          "summary": "Article URL: https://twitter.com/WallStreetApes/status/2108594998656807078\n\n Comments URL: https://news.ycombinator.com/item?id=50023995\n\n Points: 127\n\n # Comments: 144",
+          "summaryZh": "文章网址：https://twitter.com/WallStreetApes/status/2108594998656807078\n\n 评论网址：https://news.ycombinator.com/item?id=50023995\n\n 积分：127\n\n # 评论: 144",
           "publishedAt": "2026-10-09T17:35:40.000Z",
           "comments": "https://news.ycombinator.com/item?id=50023995",
           "author": "bilsbie"
@@ -179,8 +168,8 @@
           "title": "Typesafe AI raises $870M at $7.5B",
           "titleZh": "Typesafe AI 以 $7.5B 融资 8.7 亿美元",
           "link": "https://typesafe.ai/blog/series-ai",
-          "summary": "Article URL: https://typesafe.ai/blog/series-ai\n\n Comments URL: https://news.ycombinator.com/item?id=50023450\n\n Points: 297\n\n # Comments: 225",
-          "summaryZh": "文章网址：https://typesafe.ai/blog/series-ai\n\n 评论网址：https://news.ycombinator.com/item?id=50023450\n\n 积分：297\n\n # 评论：225",
+          "summary": "Article URL: https://typesafe.ai/blog/series-ai\n\n Comments URL: https://news.ycombinator.com/item?id=50023450\n\n Points: 379\n\n # Comments: 284",
+          "summaryZh": "文章网址：https://typesafe.ai/blog/series-ai\n\n 评论网址：https://news.ycombinator.com/item?id=50023450\n\n 积分：379\n\n # 评论：284",
           "publishedAt": "2026-10-09T17:02:31.000Z",
           "comments": "https://news.ycombinator.com/item?id=50023450",
           "author": "tosh"
@@ -190,8 +179,8 @@
           "title": "Triple-A Minesweeper",
           "titleZh": "3A 扫雷游戏",
           "link": "https://minesweeper.mikelacher.com/",
-          "summary": "Article URL: https://minesweeper.mikelacher.com/\n\n Comments URL: https://news.ycombinator.com/item?id=50022292\n\n Points: 739\n\n # Comments: 144",
-          "summaryZh": "文章网址：https://minesweeper.mikelacher.com/\n\n 评论网址：https://news.ycombinator.com/item?id=50022292\n\n 积分：739\n\n # 评论: 144",
+          "summary": "Article URL: https://minesweeper.mikelacher.com/\n\n Comments URL: https://news.ycombinator.com/item?id=50022292\n\n Points: 1040\n\n # Comments: 199",
+          "summaryZh": "文章网址：https://minesweeper.mikelacher.com/\n\n 评论网址：https://news.ycombinator.com/item?id=50022292\n\n 积分：1040\n\n # 评论: 199",
           "publishedAt": "2026-10-09T15:51:05.000Z",
           "comments": "https://news.ycombinator.com/item?id=50022292",
           "author": "robin_reala"
@@ -201,8 +190,8 @@
           "title": "Can you use autoregressive diffusion to generate market data?",
           "titleZh": "您可以使用自回归扩散来生成市场数据吗？",
           "link": "https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data/",
-          "summary": "Article URL: https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data/\n\n Comments URL: https://news.ycombinator.com/item?id=50021410\n\n Points: 28\n\n # Comments: 11",
-          "summaryZh": "文章网址：https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data/\n\n 评论网址：https://news.ycombinator.com/item?id=50021410\n\n 积分：28\n\n # 评论: 11",
+          "summary": "Article URL: https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data/\n\n Comments URL: https://news.ycombinator.com/item?id=50021410\n\n Points: 100\n\n # Comments: 31",
+          "summaryZh": "文章网址：https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data/\n\n 评论网址：https://news.ycombinator.com/item?id=50021410\n\n 积分：100\n\n # 评论: 31",
           "publishedAt": "2026-10-09T14:56:13.000Z",
           "comments": "https://news.ycombinator.com/item?id=50021410",
           "author": "jsomers"
@@ -212,8 +201,8 @@
           "title": "'Wallace and Gromit,' 90% Alone",
           "titleZh": "《超级无敌掌门狗》，90% 独自一人",
           "link": "https://animationobsessive.substack.com/p/wallace-and-gromit-90-alone",
-          "summary": "Article URL: https://animationobsessive.substack.com/p/wallace-and-gromit-90-alone\n\n Comments URL: https://news.ycombinator.com/item?id=50020533\n\n Points: 171\n\n # Comments: 22",
-          "summaryZh": "文章网址：https://animationobsessive.substack.com/p/wallace-and-gromit-90-alone\n\n 评论网址：https://news.ycombinator.com/item?id=50020533\n\n 积分：171\n\n # 评论: 22",
+          "summary": "Article URL: https://animationobsessive.substack.com/p/wallace-and-gromit-90-alone\n\n Comments URL: https://news.ycombinator.com/item?id=50020533\n\n Points: 225\n\n # Comments: 29",
+          "summaryZh": "文章网址：https://animationobsessive.substack.com/p/wallace-and-gromit-90-alone\n\n 评论网址：https://news.ycombinator.com/item?id=50020533\n\n 积分：225\n\n # 评论: 29",
           "publishedAt": "2026-10-09T13:49:31.000Z",
           "comments": "https://news.ycombinator.com/item?id=50020533",
           "author": "vinhnx"
@@ -223,8 +212,8 @@
           "title": "Our $445M Series D",
           "titleZh": "我们 4.45 亿美元的 D 轮融资",
           "link": "https://oxide.computer/blog/our-445m-series-d",
-          "summary": "Article URL: https://oxide.computer/blog/our-445m-series-d\n\n Comments URL: https://news.ycombinator.com/item?id=50020014\n\n Points: 615\n\n # Comments: 277",
-          "summaryZh": "文章网址：https://oxygen.computer/blog/our-445m-series-d\n\n 评论网址：https://news.ycombinator.com/item?id=50020014\n\n 积分：615\n\n # 评论：277",
+          "summary": "Article URL: https://oxide.computer/blog/our-445m-series-d\n\n Comments URL: https://news.ycombinator.com/item?id=50020014\n\n Points: 664\n\n # Comments: 298",
+          "summaryZh": "文章网址：https://oxygen.computer/blog/our-445m-series-d\n\n 评论网址：https://news.ycombinator.com/item?id=50020014\n\n 积分：664\n\n # 评论：298",
           "publishedAt": "2026-10-09T13:12:47.000Z",
           "comments": "https://news.ycombinator.com/item?id=50020014",
           "author": "ahlCVA"
@@ -234,11 +223,22 @@
           "title": "Cloudflare acquires Deno",
           "titleZh": "Cloudflare 收购 Deno",
           "link": "https://deno.com/blog/cloudflare",
-          "summary": "Article URL: https://deno.com/blog/cloudflare\n\n Comments URL: https://news.ycombinator.com/item?id=50019911\n\n Points: 1108\n\n # Comments: 570",
-          "summaryZh": "文章网址：https://deno.com/blog/cloudflare\n\n 评论网址：https://news.ycombinator.com/item?id=50019911\n\n 积分：1108\n\n # 评论：570",
+          "summary": "Article URL: https://deno.com/blog/cloudflare\n\n Comments URL: https://news.ycombinator.com/item?id=50019911\n\n Points: 1255\n\n # Comments: 635",
+          "summaryZh": "文章网址：https://deno.com/blog/cloudflare\n\n 评论网址：https://news.ycombinator.com/item?id=50019911\n\n 积分：1255\n\n # 评论: 635",
           "publishedAt": "2026-10-09T13:03:48.000Z",
           "comments": "https://news.ycombinator.com/item?id=50019911",
           "author": "ilreb"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50019499",
+          "title": "100+ reactions to 100+ solutions",
+          "titleZh": "100 多种解决方案的 100 多种反应",
+          "link": "https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/",
+          "summary": "Article URL: https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/\n\n Comments URL: https://news.ycombinator.com/item?id=50019499\n\n Points: 79\n\n # Comments: 73",
+          "summaryZh": "文章网址：https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/\n\n 评论网址：https://news.ycombinator.com/item?id=50019499\n\n 积分：79\n\n # 评论: 73",
+          "publishedAt": "2026-10-09T12:26:12.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50019499",
+          "author": "jacobedawson"
         }
       ]
     },
@@ -248,7 +248,7 @@
       "url": "https://rss.arxiv.org/rss/cs.AI",
       "home": "https://arxiv.org/list/cs.AI/recent",
       "group": "arxiv",
-      "fetchedAt": "2026-10-10T03:53:36.290Z",
+      "fetchedAt": "2026-10-10T11:44:50.951Z",
       "count": 15,
       "items": [
         {
@@ -258,7 +258,7 @@
           "link": "https://arxiv.org/abs/2610.10541",
           "summary": "arXiv:2610.10541v1 Announce Type: new\nAbstract: Knowledge Graph (KG) quality depends not only on downstream graph validation, but also on the quality of tabular metadata used before integration. In metadata-only Semantic Table Interpretation (STI), where cell values are unavailable, noisy, or unsuitable, column headers become a critical source of semantic evidence for traceable KG preparation.\n We present an explainable, header-centric framework for metadata-only Column Type Annotation (CTA) and Data Quality Assessment (DQA). The framework maps headers to 39 interpretable FinalFormat types using curated lexical resources and preserves token-level traceability through SourceKeywords. Each assigned type activates validation rules based on a taxonomy of Data Quality Issues (DQIs), producing detections such as missing data, duplicates, domain violations, wrong data type, and temporal mismatch. These detections are aggregated into HeadersIQ, a lightweight, unweighted data source-level quality metric.\n The framework was evaluated across heterogeneous benchmarks, including UCI, Prague, Kaggle, VizNet/Sato, SOTAB, T2Dv2, and the SemTab 2024 Metadata-to-KG track, comprising around 120,000 header columns. The results show broad practical coverage across noisy real-world metadata, while a parallel KG-mapping pathway supports alignment to DBpedia and Schema.org. On the SemTab 2024 Metadata-to-KG track, the official GT-strict evaluation was modest. However, a blinded diagnostic audit indicates that many mismatches reflect benchmark granularity, aliasing, and ontology-selection effects rather than wholly implausible header-centric predictions. We report this audit as diagnostic evidence on disagreement patterns, not as revised benchmark performance. Overall, the paper presents a reusable workflow for metadata-driven semantic annotation, data source-level quality monitoring, and KG-oriented benchmark diagnosis.",
           "summaryZh": "arXiv:2610.10541v1 公告类型：新\n摘要：知识图（KG）质量不仅取决于下游图验证，还取决于集成之前使用的表格元数据的质量。在纯元数据语义表解释 (STI) 中，单元格值不可用、有噪音或不合适，列标题成为可追踪 KG 准备的语义证据的关键来源。\n 我们为纯元数据列类型注释（CTA）和数据质量评估（DQA）提供了一个可解释的、以标题为中心的框架。该框架使用精选的词汇资源将标头映射到 39 个可解释的 FinalFormat 类型，并通过 SourceKeywords 保留标记级可追溯性。每个分配的类型都会根据数据质量问题 (DQI) 的分类激活验证规则，生成数据丢失、重复、域违规、数据类型错误和时间不匹配等检测。这些检测被聚合到 HeadersIQ 中，这是一个轻量级、未加权的数据源级质量指标。\n 该框架在异构基准测试中进行了评估，包括 UCI、Prague、Kaggle、VizNet/Sato、SOTAB、T2Dv2 和 SemTab 2024 Metadata-to-KG track，包含约 120,000 个标题列。结果显示了对嘈杂的现实世界元数据的广泛实际覆盖，而并行 KG 映射路径支持与 DBpedia 和 Schema.org 的对齐。在 SemTab 2024 Metadata-to-KG 赛道上，官方 GT 严格的评估是温和的。然而，盲法诊断审计表明，许多不匹配反映了基准粒度、混叠和本体选择效应，而不是完全不可信的以标头为中心的预测。我们将此次审计报告为分歧模式的诊断证据，而不是修订后的基准绩效。总体而言，本文提出了一种可重用的工作流程，用于元数据驱动的语义标注、数据源级质量监控和面向知识图谱的基准诊断。",
-          "publishedAt": "2026-10-09T04:00:00.000Z",
+          "publishedAt": "2026-10-10T04:00:00.000Z",
           "comments": null,
           "author": "Marcelo Valentim Silva, Hannes Herrmann, Valerie Maxville"
         },
@@ -269,7 +269,7 @@
           "link": "https://arxiv.org/abs/2610.10549",
           "summary": "arXiv:2610.10549v1 Announce Type: new\nAbstract: Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains severely constrained due to business and legal restrictions on enterprise systems, data, and database schemas. Tabular data synthesis offers a natural alternative, but its effectiveness is fundamentally limited by structural validity and schema availability, while procedure-based approaches yield the opposite weakness, typically lacking distributional fidelity without per-domain authoring. We introduce **Synthesis Through Simulation** (STS), a **schema--free** data synthesis paradigm in which an LLM agent generates data by executing operations against policy-enforcing APIs within simulated enterprise environments. Because data is generated through the same environment that defines what is valid, STS guarantees structural validity by construction while decoupling validity enforcement from distribution modeling, allowing each to be addressed independently. The **Generalist Populator** (GP), STS's domain-agnostic agent, addresses the remaining challenges of distributional fidelity and synthesis scalability: GP achieves **0.88** average marginal fidelity and **100\\% constraint satisfaction** across all ten environments *without access to DB schemas*, while statistical synthesizers are inapplicable to seven due to necessary seed data requirements, and schema-privileged agents fail 82\\% of trajectories on airline environment's tightly coupled workflows due to brittle task composition. We open-source the full framework, all ten environments, and generated datasets at https://github.com/SAP/synthesis-through-simulation.",
           "summaryZh": "arXiv:2610.10549v1 公告类型：新\n摘要：工具调用代理已成为企业人工智能的核心，但由于企业系统、数据和数据库模式的业务和法律限制，大规模训练和评估它们仍然受到严重限制。表格数据合成提供了一种自然的替代方案，但其有效性从根本上受到结构有效性和模式可用性的限制，而基于过程的方法则产生相反的弱点，通常缺乏分布式保真度而无需按域创作。我们引入**通过模拟进行合成** (STS)，这是一种**无模式**数据合成范例，其中 LLM 代理通过在模拟企业环境中针对策略执行 API 执行操作来生成数据。由于数据是通过定义有效内容的相同环境生成的，因此 STS 通过构造保证结构有效性，同时将有效性执行与分布建模解耦，从而允许独立处理每个数据。 STS 的领域不可知代理 **Generalist Populator** (GP) 解决了分布式保真度和合成可扩展性方面的剩余挑战：GP 在所有十个环境中实现了 **0.88** 平均边际保真度和 **100\\% 约束满足** *无需访问数据库模式*，而统计合成器由于必要的种子数据要求而不适用于七个环境，并且模式特权代理在航空公司的轨迹中失败了 82%由于任务组合脆弱，环境的工作流程紧密耦合。我们在 https://github.com/SAP/synthesis-through-simulation 上开源了完整的框架、所有十个环境以及生成的数据集。",
-          "publishedAt": "2026-10-09T04:00:00.000Z",
+          "publishedAt": "2026-10-10T04:00:00.000Z",
           "comments": null,
           "author": "Yipeng Li, Ashutosh Hathidara, Jane Lo, Harshavardhan Abichandani, Gunraj Singh, Atin Ghosh"
         },
@@ -279,8 +279,8 @@
           "titleZh": "使用工具的智能体的智能体控制遗忘：实践中的可逆情境管理",
           "link": "https://arxiv.org/abs/2610.10590",
           "summary": "arXiv:2610.10590v1 Announce Type: new\nAbstract: Tool-using agents repeatedly carry observations whose useful content can be much smaller than their original payload. We study agent-controlled forgetting: the acting model selects previously observed tool results, replaces each with a short note at its original position, and retains the exact original in a recoverable archive. A Python harness exposes batch archival and explicit recovery without task-specific model training, while protecting user instructions and assistant messages from these operations. In an exploratory OpenTelemetry debugging case followed by an unrelated implementation task, the method ended with 231,951 provider-reported prompt tokens versus 912,492 under retained history, used 50% fewer cumulative input tokens, and had an estimated API cost of USD 1.28-1.44 versus approximately USD 4.38. Both arms passed the two-case primary behavioral oracle; neither fully satisfied the follow-up evaluation. The method made more requests and took 17% longer. A contrasting application-development pair produced no context or cost saving, and an earlier continuation exhibited lower manually assessed quality despite reduced context. These observations demonstrate substantial resource savings in noisy tool-use trajectories and identify workload dependence as a central consideration for reversible context management.",
-          "summaryZh": "arXiv:2610.10590v1 公告类型：新\n摘要：使用工具的代理反复携带观察结果，其有用内容可能远小于其原始有效负载。我们研究代理控制的遗忘：行为模型选择以前观察到的工具结果，在其原始位置用简短的注释替换每个结果，并将准确的原始内容保留在可恢复的存档中。 Python 工具无需特定于任务的模型训练即可公开批量存档和显式恢复，同时保护用户指令和辅助消息免受这些操作的影响。在一个探索性的 OpenTelemetry 调试案例中，随后执行一个不相关的实施任务，该方法以 231,951 个提供商报告的提示令牌结束，而保留历史记录中的提示令牌为 912,492 个，使用的累积输入令牌减少了 50%，并且估计 API 成本为 1.28-1.44 美元，而约为 4.38 美元。两只手臂都通过了两例主要行为神谕；均未完全满意后续评价。该方法提出了更多请求，并且花费了 17% 的时间。对比鲜明的应用程序开发对没有产生上下文或成本节省，并且尽管上下文减少，但早期的延续仍表现出较低的手动评估质量。这些观察结果表明，在嘈杂的工具使用轨迹中可以节省大量资源，并将工作负载依赖性确定为可逆上下文管理的核心考虑因素。",
-          "publishedAt": "2026-10-09T04:00:00.000Z",
+          "summaryZh": "arXiv:2610.10590v1 公告类型：新\n摘要：使用工具的代理反复携带观察结果，其有用内容可能远小于其原始有效负载。我们研究代理控制的遗忘：行为模型选择以前观察到的工具结果，在其原始位置用简短的注释替换每个结果，并将准确的原始内容保留在可恢复的存档中。 Python 工具无需特定于任务的模型训练即可公开批量存档和显式恢复，同时保护用户指令和辅助消息免受这些操作的影响。在一个探索性的 OpenTelemetry 调试案例中，随后执行一个不相关的实施任务，该方法以 231,951 个提供商报告的提示令牌结束，而保留历史记录中的提示令牌为 912,492 个，使用的累积输入令牌减少了 50%，并且估计 API 成本为 1.28-1.44 美元，而约为 4.38 美元。两只手臂都通过了两例主要行为神谕；均不完全满意后续评价。该方法提出了更多请求，并且花费了 17% 的时间。对比鲜明的应用程序开发对没有产生上下文或成本节省，并且尽管上下文减少，但早期的延续仍表现出较低的手动评估质量。这些观察结果表明，在嘈杂的工具使用轨迹中可以节省大量资源，并将工作负载依赖性确定为可逆上下文管理的核心考虑因素。",
+          "publishedAt": "2026-10-10T04:00:00.000Z",
           "comments": null,
           "author": "Jan-Peter Franke"
         },
@@ -290,8 +290,8 @@
           "titleZh": "代理人工智能的验证和自我完善：基础和局限性",
           "link": "https://arxiv.org/abs/2610.10611",
           "summary": "arXiv:2610.10611v1 Announce Type: new\nAbstract: Agentic AI systems can improve by searching longer, receiving additional support, or modifying how they propose and verify outputs. A performance score does not distinguish these mechanisms. We compare these changes through bounded verification with hidden terminal randomness. A stage specifies admissible transcripts, polynomial bounds, an alternating verification protocol, and a terminal checker. Its native reach uses default support; its closure frontier permits all support already admitted by the interface. Under a uniform pointwise probability gap and task-relative soundness, these are well-defined languages. We prove that independent majority amplification preserves both languages, whereas existential acceptance over random tapes can admit incorrect outputs. Exact verification is the zero-randomness case, with placement and completeness results. The randomized-verifier classes satisfy $\\Sigma_k^{\\mathrm{P}}\\subseteq\\Sigma_k^{\\mathrm{RV}}\\subseteq\\Sigma_{k+1}^{\\mathrm{P}}$; strict enlargement and depth separation require explicit complexity assumptions, while $\\mathrm{BPP}=\\mathrm{P}$ yields exact companions with the same frontiers. Representation analysis separates invariant acceptance from core-versus-support labels that can change under refactoring. For recursive self-improvement, uniformly bounded self-modification under a common sound interpreter and fixed verification protocol remains within the same verification class. A separate conditional-error budget controls false selection across adaptively chosen candidates. A quota-enforced XOR-synthesis family separates unbounded ratios of search success from changes in the accepted languages; exact and probabilistic audits check the resulting evidence requirements. The framework ties self-improvement claims to obligations on correctness, admissible evidence, verification resources, and selection error.",
-          "summaryZh": "arXiv:2610.10611v1 公告类型：新\n摘要：代理人工智能系统可以通过搜索更长的时间、接受额外的支持或修改它们提出和验证输出的方式来改进。性能分数并不能区分这些机制。我们通过有界验证和隐藏终端随机性来比较这些变化。阶段指定可接受的转录本、多项式界限、交替验证协议和终端检查器。其原生范围使用默认支持；它的封闭边界允许接口已经承认的所有支持。在统一的逐点概率差距和任务相关的健全性下，这些是定义良好的语言。我们证明独立多数放大可以保留两种语言，而对随机磁带的存在接受可以承认不正确的输出。精确验证是零随机性情况，具有放置和完整性结果。随机验证者类满足 $\\Sigma_k^{\\mathrm{P}}\\subseteq\\Sigma_k^{\\mathrm{RV}}\\subseteq\\Sigma_{k+1}^{\\mathrm{P}}$；严格的放大和深度分离需要明确的复杂性假设，而 $\\mathrm{BPP}=\\mathrm{P}$ 产生具有相同边界的精确同伴。表示分析将不变的接受与在重构时可能发生变化的核心与支持标签分开。对于递归自我改进，在通用声音解释器和固定验证协议下的统一有界自我修改保持在同一验证类中。单独的条件错误预算控制自适应选择的候选者中的错误选择。配额强制的异或合成系列将无限的搜索成功率与接受语言的变化分开；精确和概率审计检查由此产生的证据要求。该框架将自我改进主张与正确性、可接受的证据、验证资源和选择错误的义务联系起来。",
-          "publishedAt": "2026-10-09T04:00:00.000Z",
+          "summaryZh": "arXiv:2610.10611v1 公告类型：新\n摘要：代理人工智能系统可以通过搜索更长的时间、接受额外的支持或修改它们提出和验证输出的方式来改进。性能分数并不能区分这些机制。我们通过有界验证和隐藏终端随机性来比较这些变化。阶段指定可接受的转录本、多项式界限、交替验证协议和终端检查器。其原生范围使用默认支持；它的封闭边界允许接口已经承认的所有支持。在统一的逐点概率差距和任务相关的健全性下，这些是定义明确的语言。我们证明独立多数放大可以保留两种语言，而对随机磁带的存在接受可以承认不正确的输出。精确验证是零随机性情况，具有放置和完整性结果。随机验证者类满足 $\\Sigma_k^{\\mathrm{P}}\\subseteq\\Sigma_k^{\\mathrm{RV}}\\subseteq\\Sigma_{k+1}^{\\mathrm{P}}$；严格的放大和深度分离需要明确的复杂性假设，而 $\\mathrm{BPP}=\\mathrm{P}$ 产生具有相同边界的精确同伴。表示分析将不变的接受与在重构时可能发生变化的核心与支持标签分开。对于递归自我改进，在通用声音解释器和固定验证协议下的统一有界自我修改保持在同一验证类中。单独的条件错误预算控制自适应选择的候选者中的错误选择。配额强制的异或合成系列将无限的搜索成功率与接受语言的变化分开；精确和概率审计检查由此产生的证据要求。该框架将自我改进主张与正确性、可接受的证据、验证资源和选择错误的义务联系起来。",
+          "publishedAt": "2026-10-10T04:00:00.000Z",
           "comments": null,
           "author": "Chien-Ping Lu"
         },
@@ -302,7 +302,7 @@
           "link": "https://arxiv.org/abs/2610.10629",
           "summary": "arXiv:2610.10629v1 Announce Type: new\nAbstract: Self-improving LLM agents can adapt a credit pipeline to a changed rule, but an agent that rewrites itself destroys the artefact a supervisor reviews: a named change, a recorded test, an approval. We argue that self-evolution is reviewable only if it is confined to the runtime harness (instruction text, tool-call logic and primitive composition) while model weights stay fixed, so that every adaptation is a diff with a cause and a test attached. We give a dual-loop engine built on that bound, with one admission gate that writes a hash-chained record before deployment, and we measure the gate in simulation, with a simulated agent and a seeded-search proposer rather than language models. Across three families of supervisory re-interpretation at three severities, 10 seeds each, the gated loop admitted 144 of 7,449 candidate changes, none of which worsened error on held-out history, and restored the false-positive rate to the oracle level without raising missed flags in every low- and mid-severity cell. With the gate replaced by the check an unbounded system applies (fewer errors visible in recent traces), the same loops admitted 309 harmful changes and left missed flags above 10% in 49 of 90 runs: false positives fell because the screen was loosened. Evaluated on pre-shift labels, the gate rejected every candidate, so a re-interpretation must be encoded as a rule that relabels history. Parametric and scope shifts were repaired locally, a structural one only by primitive replacement; at the highest structural severity the gate's fixed tolerance blocked the correct replacement in half the seeds. We map the mechanisms to the EU AI Act's provisions for high-risk credit scoring and note that the April 2026 US model-risk guidance excludes agentic AI from its scope.",
           "summaryZh": "arXiv:2610.10629v1 公告类型：新\n摘要：自我改进的 LLM 代理可以使信用管道适应更改的规则，但是重写自身的代理会破坏主管审查的人工制品：命名的更改、记录的测试、批准。我们认为，只有当自我进化仅限于运行时工具（指令文本、工具调用逻辑和原始组合）而模型权重保持固定时，自我进化才是可审查的，因此每次适应都是带有原因和附加测试的差异。我们给出了一个基于该边界构建的双循环引擎，其中一个准入门在部署之前写入哈希链记录，并且我们使用模拟代理和种子搜索提议者而不是语言模型来模拟测量该门。在三种严重性的三个监督重新解释系列中，每个系列有 10 个种子，门控循环承认了 7,449 个候选更改中的 144 个，这些更改都没有恶化保留历史记录的错误，并将假阳性率恢复到预言机水平，而不会在每个低和中严重性单元格中提出错过的标志。随着应用无界系统的检查取代了门（最近跟踪中可见的错误更少），相同的循环承认了 309 个有害更改，并在 90 次运行中的 49 次中留下了超过 10% 的错过标志：由于屏幕松动，误报率下降。根据班前标签进行评估，门拒绝了每个候选者，因此必须将重新解释编码为重新标记历史的规则。参数和范围的变化在本地进行了修复，结构性的变化仅通过原始替换进行；在结构最严格的情况下，门的固定公差阻碍了一半种子的正确更换。我们将这些机制映射到《欧盟人工智能法案》中关于高风险信用评分的条款，并注意到 2026 年 4 月的美国模型风险指南将代理人工智能排除在其范围之外。",
-          "publishedAt": "2026-10-09T04:00:00.000Z",
+          "publishedAt": "2026-10-10T04:00:00.000Z",
           "comments": null,
           "author": "Ravil Akhtyamov"
         },
@@ -313,7 +313,7 @@
           "link": "https://arxiv.org/abs/2610.10635",
           "summary": "arXiv:2610.10635v1 Announce Type: new\nAbstract: Aerial vision-and-language navigation (VLN) agents are typically trained on detail-rich, trajectory-aligned commands, whereas users issue short, intent-driven instructions; on a frozen OpenFly navigator, this \\emph{instruction gap} drops success rate (SR) from $31.03\\%$ to $11.33\\%$. To scale translator training, we prompt a language model with human-written style examples to convert original commands into paired, intent-centered Weak commands, which yield $15.27\\%$ SR. We introduce the \\textbf{Trajectory-Grounded Instruction Translator (TGIT)}, a front-end that keeps the navigator frozen and translates Weak inputs into agent-executable commands by learning from its trajectory outcomes. The resulting Weak-trained translator raises Weak-input SR to $37.93\\%$ and transfers zero-shot to real human instructions ($11.33\\%{\\rightarrow}32.51\\%$); it also improves held-out OpenFly ($4.95\\%{\\rightarrow}20.79\\%$) and yields recovery on CityNav and AirVLN.",
           "summaryZh": "arXiv:2610.10635v1 公告类型：新\n摘要：空中视觉和语言导航（VLN）代理通常接受细节丰富、轨迹对齐的命令的训练，而用户则发出简短的、意图驱动的指令；在冻结的 OpenFly 导航器上，此 \\emph{指令间隙} 将成功率 (SR) 从 $31.03\\%$ 降低到 $11.33\\%$。为了扩展翻译训练，我们用人类编写的风格示例提示语言模型，将原始命令转换为成对的、以意图为中心的弱命令，这会产生 15.27\\%$ SR。我们引入了\\textbf{轨迹基础指令翻译器（TGIT）}，这是一个前端，它可以使导航器保持冻结状态，并通过学习其轨迹结果将弱输入转换为代理可执行命令。由此产生的弱训练翻译器将弱输入 SR 提高到 $37.93\\%$ 并将零样本转移到真实的人类指令 ($11.33\\%{\\rightarrow}32.51\\%$)；它还改善了 OpenFly 的滞留（$4.95\\%{\\rightarrow}20.79\\%$）并恢复了 CityNav 和 AirVLN 的产量。",
-          "publishedAt": "2026-10-09T04:00:00.000Z",
+          "publishedAt": "2026-10-10T04:00:00.000Z",
           "comments": null,
           "author": "Xi Chen, Zhe Liu, Xiaogang Xu, Jiafei Xu, Chunyi Zhou, Yuan Su, Rui Zeng, Tianyu Du, Kelu Yao, Chao Li, Shouling Ji"
         },
@@ -324,7 +324,7 @@
           "link": "https://arxiv.org/abs/2610.10786",
           "summary": "arXiv:2610.10786v1 Announce Type: new\nAbstract: Planning is increasingly important for long-horizon agents, where successful execution requires coordinating subgoals, tool use, and intermediate outcomes over many steps. Yet assumptions made during planning may be invalidated by the environment, tools may return unexpected results, or actions may fail. Effective agents must therefore not only generate plans, but also revise them. Such revisions often affect only part of a plan, leaving the preceding and subsequent structure intact. Rather than regenerate the entire plan and risk unnecessary changes, repair can regenerate the affected region conditioned on the preserved prefix and suffix. We introduce Plan-and-Patch, a plan-and-act framework in which a diffusion language model (dLLM) generates a structured, program-like plan through parallel unmasking and repairs it by filling in selected regions while keeping the surrounding steps fixed. We compare DreamReasoner-8B and Qwen3-8B as diffusion and autoregressive (AR) planners. On Natural Plan without task-specific training, diffusion (53.7%) achieves nearly twice the plan repair success rate of AR (27.0%). After task-specific training on agentic benchmarks, ALFWorld and TextCraft, the planners achieve similar observed success in plan generation, while diffusion reduces mean plan-generation latency by 39-46% relative to AR. Our results show that Plan-and-Patch provides a framework for faster plan generation and effective plan repair in long-horizon agents.",
           "summaryZh": "arXiv:2610.10786v1 公告类型：新\n摘要：规划对于长期代理来说越来越重要，成功执行需要协调多个步骤的子目标、工具使用和中间结果。然而，在规划过程中做出的假设可能会因环境而失效，工具可能会返回意外的结果，或者操作可能会失败。因此，有效的代理人不仅必须制定计划，还必须修改计划。这种修改通常只影响计划的一部分，而使前后结构保持不变。修复可以根据保留的前缀和后缀重新生成受影响的区域，而不是重新生成整个计划并冒不必要的更改的风险。我们引入了 Plan-and-Patch，这是一个计划与行动框架，其中扩散语言模型 (dLLM) 通过并行揭露生成结构化的、类似程序的计划，并通过填充选定区域同时保持周围步骤固定来修复它。我们将 DreamReasoner-8B 和 Qwen3-8B 作为扩散和自回归 (AR) 规划器进行比较。在没有特定任务训练的自然计划中，扩散（53.7%）的计划修复成功率几乎是 AR（27.0%）的两倍。在针对代理基准、ALFWorld 和 TextCraft 进行特定任务训练后，规划人员在计划生成方面取得了类似的观察到的成功，而扩散相对于 AR 而言，将平均计划生成延迟减少了 39-46%。我们的结果表明，Plan-and-Patch 为长期代理中更快的计划生成和有效的计划修复提供了一个框架。",
-          "publishedAt": "2026-10-09T04:00:00.000Z",
+          "publishedAt": "2026-10-10T04:00:00.000Z",
           "comments": null,
           "author": "Syamantak Kumar, Jiang Guo, Hassan Hamad, Hideo Kobayashi, Yi Xiang, Yezhou Yang, Yanjun Qi, Daniele Bonadiman, Jiarong Jiang"
         },
@@ -335,7 +335,7 @@
           "link": "https://arxiv.org/abs/2610.10805",
           "summary": "arXiv:2610.10805v1 Announce Type: new\nAbstract: As AI systems increasingly interact with people and make decisions about them, understanding human interpretations becomes an important part of developing human-centered AI. Conventional machine learning and AI systems are largely developed under the assumption that a single definitive ground truth exists, with variability in human annotations often resolved through aggregation or treated as noise. However, for many human-centered tasks, human interpretation is inherently ambiguous, and multiple interpretations of the same input may be simultaneously reasonable and valid. Reducing such ambiguity to a single target risks overlooking meaningful information about the diversity of human perception, judgment, and experience. In this position paper, we call for a shift towards modeling the interpretation space of plausible human judgments, while distinguishing meaningful ambiguity from annotation noise. We argue that this perspective should guide how AI systems are represented, learned, evaluated, deployed, and governed, supporting more human-centered AI that better reflects the diversity of human interpretation.",
           "summaryZh": "arXiv:2610.10805v1 公告类型：新\n摘要：随着人工智能系统越来越多地与人类互动并做出决策，理解人类的解释成为开发以人为中心的人工智能的重要组成部分。传统的机器学习和人工智能系统很大程度上是在存在单一明确的基本事实的假设下开发的，人类注释的可变性通常通过聚合来解决或被视为噪声。然而，对于许多以人为中心的任务，人类的解释本质上是不明确的，并且对同一输入的多种解释可能同时是合理和有效的。将这种模糊性减少到单一目标可能会忽视有关人类感知、判断和经验多样性的有意义的信息。在这篇立场文件中，我们呼吁转向对人类合理判断的解释空间进行建模，同时区分有意义的歧义和注释噪音。我们认为，这种观点应该指导人工智能系统的表示、学习、评估、部署和治理方式，支持更加以人为本的人工智能，更好地反映人类解释的多样性。",
-          "publishedAt": "2026-10-09T04:00:00.000Z",
+          "publishedAt": "2026-10-10T04:00:00.000Z",
           "comments": null,
           "author": "Jingyao Wu, Mohammad Tariqul Islam, Per R{\\aa}dberg Nagb{\\o}l, Julie Gerlings, Giovanni Leoni, Georgiana Fryza, Lars Pilegaard Thomsen, Jakob Mainz"
         },
@@ -346,7 +346,7 @@
           "link": "https://arxiv.org/abs/2610.10833",
           "summary": "arXiv:2610.10833v1 Announce Type: new\nAbstract: We study whether small LLM agents can operate effectively under explicit wall-clock time budgets by both respecting the allocated runtime and using available time productively. We evaluate Qwen3.6-27B on five competitions from MLE-Bench Lite and Qwen3-4B on Zork I (Jericho), two agentic benchmarks where additional computational time can meaningfully improve performance. In the simplest setting, where the budget is stated only in the prompt, agents fail to translate the stated budget into controlled use of time. These failures arise from gaps in time awareness, since the harness provides no timing feedback, but also because they cannot reliably anticipate the duration of actions, and do not have a learned mapping from available time to an appropriate strategy. We investigate two complementary classes of interventions: harness-based mechanisms that expose timing information and enforce deadlines, and reinforcement learning with budget-aware rewards. Injecting timing information through the harness substantially improves budget adherence for Qwen3.6-27B without measurable loss in performance, while enforcement hooks tighten adherence further. RL with GRPO achieves near-perfect budget adherence on Zork I and generalizes to held-out budgets not seen during training, but does not improve task performance over the untrained harness on MLE-Bench. Once agents are made to respect the budget, they still fail to use additional time to improve task performance. RL-trained policies learn when to stop but often fill extra time with repeated actions, and GRPO training on multiple budgets tends to collapse toward the strategy learned for the shortest budget. Our results reveal a gap between time adherence and productive time allocation, which remains a central challenge for budget-conditioned agents.",
           "summaryZh": "arXiv:2610.10833v1 公告类型：新\n摘要：我们研究小型 LLM 代理是否可以通过尊重分配的运行时间并有效地利用可用时间，在明确的挂钟时间预算下有效运行。我们在 Zork I (Jericho) 上的 MLE-Bench Lite 和 Qwen3-4B 的五项竞赛中评估了 Qwen3.6-27B，这两个代理基准测试中，额外的计算时间可以显着提高性能。在最简单的设置中，仅在提示中说明预算，代理无法将规定的预算转化为受控的时间使用。这些失败源于时间意识的差距，因为线束不提供时间反馈，而且还因为它们无法可靠地预测行动的持续时间，并且没有从可用时间到适当策略的学习映射。我们研究了两类互补的干预措施：基于利用的机制，公开时间信息并强制执行最后期限，以及具有预算意识奖励的强化学习。通过线束注入时序信息可显着提高 Qwen3.6-27B 的预算遵守情况，而不会造成明显的性能损失，同时执行挂钩会进一步加强遵守情况。带有 GRPO 的 RL 在 Zork I 上实现了近乎完美的预算遵守，并推广到训练期间未见的保留预算，但与 MLE-Bench 上未经训练的工具相比，并没有提高任务性能。一旦代理人被要求遵守预算，他们仍然无法使用额外的时间来提高任务绩效。 RL 训练的策略学习何时停止，但经常通过重复的操作来填补额外的时间，而针对多个预算的 GRPO 训练往往会崩溃到针对最短预算学习的策略。我们的结果揭示了时间遵守率和生产时间分配之间的差距，这仍然是预算有限的座席面临的主要挑战。",
-          "publishedAt": "2026-10-09T04:00:00.000Z",
+          "publishedAt": "2026-10-10T04:00:00.000Z",
           "comments": null,
           "author": "Aaron Wang, Neelabh Madan, Vlad Sobal, Matthew Trager, Michael Kleinman, Elman Mansimov, Wei Xia, Stefano Soatto"
         },
@@ -357,7 +357,7 @@
           "link": "https://arxiv.org/abs/2610.10857",
           "summary": "arXiv:2610.10857v1 Announce Type: new\nAbstract: Behavior cloning (BC) in non-Markovian environments is a challenging problem because policies have to reason over contextual information over long horizons. Existing policy architectures rely on recurrent or attention-based mechanisms to capture long-term dependencies. However, recurrent models suffer from hidden-state collapse and gradient instability under backpropagation through time, while attention-based models are fundamentally limited by context length. To address these issues, we propose Keyframe Mnemonics, a novel self-supervised method that $\\textit{discovers}$ a set of information-critical observations ($\\textit{mnemonics}$) by learning an objective from randomly sampled past observations and using it as a reward for keyframe selection. We then train a BC policy that conditions on the discovered keyframes to model the action distribution. Under certain task-structure assumptions, our formulation provides context retention guarantees over an infinite horizon, while maintaining a small set of decision-relevant keyframes in the policy's working memory. We evaluate our method on synthetic memory domains, where mnemonic-conditioned BC policies achieve $100$% success rates (SR) and generalize to horizons orders of magnitude beyond training without performance degradation. Additionally, we evaluate on memory-intensive robot manipulation benchmark, achieving a $13.9$% average absolute SR improvement over the strongest baseline across $23$ tasks and retaining $80$% SR at $20\\times$ longer horizons on a real robot. Code and videos are available at https://keyframe-mnemonics.github.io.",
           "summaryZh": "arXiv:2610.10857v1 公告类型：新\n摘要：非马尔可夫环境中的行为克隆（BC）是一个具有挑战性的问题，因为策略必须长期对上下文信息进行推理。现有的策略架构依赖于循环或基于注意力的机制来捕获长期依赖性。然而，循环模型在时间反向传播下会遭受隐藏状态崩溃和梯度不稳定的问题，而基于注意力的模型从根本上受到上下文长度的限制。为了解决这些问题，我们提出了关键帧助记符，这是一种新颖的自监督方法，通过从随机采样的过去观察中学习目标并将其用作关键帧选择的奖励，$\\textit{discovers}$一组信息关键的观察结果（$\\textit{mnemonics}$）。然后，我们训练 BC 策略，以发现的关键帧为条件来对动作分布进行建模。在某些任务结构假设下，我们的公式提供了无限范围内的上下文保留保证，同时在策略的工作记忆中保留一小组与决策相关的关键帧。我们在合成记忆域上评估了我们的方法，其中助记符条件的 BC 策略实现了 100% 的成功率 (SR)，并且可以推广到超出训练数量级的范围，而不会降低性能。此外，我们还对内存密集型机器人操作基准进行了评估，在 23 美元的任务中，与最强基线相比，平均绝对 SR 提高了 13.9 美元%，并且在真实机器人上，在 20 美元的较长时间范围内保留了 80 美元% 的 SR。代码和视频可在 https://keyframe-mnemonics.github.io 获取。",
-          "publishedAt": "2026-10-09T04:00:00.000Z",
+          "publishedAt": "2026-10-10T04:00:00.000Z",
           "comments": null,
           "author": "Prabin Kumar Rath, Omkar Patil, Nakul Gopalan"
         },
@@ -368,7 +368,7 @@
           "link": "https://arxiv.org/abs/2610.10906",
           "summary": "arXiv:2610.10906v1 Announce Type: new\nAbstract: Human communities are governed by normative systems: shared standards that produce \\textit{norms} dictating acceptable behavior, enforced through community sanctioning. Aligning increasingly autonomous AI systems with these norms is a central alignment challenge, complicated by the fact that norms are vast in number, change quickly, and are often arbitrary (e.g., dress or language conventions). Thus, alignment requires \\textit{normative competence}: the ability to discern from interaction alone what norms a community enforces without relying on static pretrained knowledge. We introduce a multi-agent community debate setting, where access to debate is governed by synthetic norms, to study normative competence in isolation from pretraining exposure. We show that baseline LLM agents fail to learn norms even when doing so would improve their accuracy. We then experiment with various \\textit{normative modules} -- architectural components for norm inference -- finding that norm-following is highly sensitive to both the style of norm and the model powering the normative module, suggesting a lack of generalizability. Furthermore, when idiosyncratic, non-normative behaviors accompany the true norm, LLM agents exhibit an unselective attribution failure: they indiscriminately copy idiosyncratic noise alongside enforced rules, a pattern that persists even when imitating unnecessary behaviors is explicitly penalized. To the best of our knowledge, our work is the first to operationalize and evaluate normative competence in LLMs, demonstrating that current AI systems excel at behavioral mimicry but lack the capacity to discern socially enforced order.",
           "summaryZh": "arXiv:2610.10906v1 公告类型：新\n摘要：人类社区受到规范系统的管理：产生 \\textit{norms} 的共享标准规定了可接受的行为，并通过社区制裁来强制执行。让日益自主的人工智能系统与这些规范保持一致是一项核心挑战，由于规范数量庞大、变化迅速且往往是任意的（例如着装或语言约定），这一挑战变得更加复杂。因此，一致性需要 \\textit{规范能力}：能够仅从交互中辨别社区执行的规范，而不依赖于静态的预训练知识。我们引入了多智能体社区辩论设置，其中辩论的访问受到综合规范的控制，以研究与预训练暴露无关的规范能力。我们表明，基线 LLM 代理无法学习规范，即使这样做可以提高其准确性。然后，我们尝试了各种 \\textit{normative module}（规范推理的架构组件），发现规范遵循对规范的风格和规范模块的模型都高度敏感，这表明缺乏普遍性。此外，当特殊的、非规范的行为伴随着真正的规范时，LLM代理表现出非选择性的归因失败：他们不加区别地复制特殊的噪音和强制规则，即使模仿不必要的行为受到明确的惩罚，这种模式仍然存在。据我们所知，我们的工作是第一个对法学硕士的规范能力进行操作和评估的工作，表明当前的人工智能系统擅长行为模仿，但缺乏辨别社会强制秩序的能力。",
-          "publishedAt": "2026-10-09T04:00:00.000Z",
+          "publishedAt": "2026-10-10T04:00:00.000Z",
           "comments": null,
           "author": "Andrea Wynn (Nathan), Harsh Satija (Nathan), Seokhyun (Nathan), Baek, Anqi Liu, Eric Nalisnick, Gillian K. Hadfield"
         },
@@ -379,7 +379,7 @@
           "link": "https://arxiv.org/abs/2610.10942",
           "summary": "arXiv:2610.10942v1 Announce Type: new\nAbstract: Reinforcement learning environments are now a primary lever for improving large language model (LLM) capabilities in post-training, yet most agentic benchmarks remain static: the world moves only when the agent acts, the reward is a terminal verdict, and the pass bar is set arbitrarily. We introduce StoreBench, a live-commerce environment in which an agent runs a mid-size online apparel store on a production-grade commerce backend, testing long-horizon planning and economic judgment under uncertainty. Customers order around the clock, suppliers reprice and fail, and market shocks arrive with partial or no warning. The agent acts through the same 29 merchant tools a human operator would use, under a windowed operation budget that makes simulated time a function of actions taken, so model latency cannot influence simulated time. Pass thresholds are calibrated against scripted anchor policies, the reward is hardened against a catalogue of reward hacks, and every episode replays identically given a sequence of actions. We evaluate seven frontier LLMs on 11 scenarios of 30 to 45 days and a full simulated year, over three world seeds at matched reasoning effort. No model matches the scripted smart-triage policy on average: the best, DeepSeek-V4-Pro, passes 49% of task-seed cells against the heuristic's 97%. Human experts working through the same tools and budgets outscore every model (mean composite 0.708 vs. 0.700). Over a full simulated year under the Claude Code harness, most models show dramatic performance improvement. In a GRPO post-training run, Qwen3.5-27B trained on only five disjoint tasks raises its mean composite on the held-out evaluation tasks from 0.136 to 0.373. We release five example training-split tasks, ten sample trajectories, and the scoring and verification tooling; the full environment and evaluation suite are withheld to keep the benchmark uncontaminated.",
           "summaryZh": "arXiv:2610.10942v1 公告类型：新\n摘要：强化学习环境现在是提高训练后大语言模型（LLM）能力的主要杠杆，但大多数代理基准仍然是静态的：只有当代理行动时世界才会移动，奖励是最终判决，并且通过标准是任意设置的。我们介绍 StoreBench，这是一个实时商务环境，代理商在生产级商务后端上运营一家中型在线服装商店，在不确定性下测试长期规划和经济判断。客户全天候订购，供应商重新定价并失败，市场冲击在部分或没有警告的情况下到来。代理通过人类操作员使用的相同 29 个商业工具进行操作，在窗口化操作预算下，使模拟时间成为所采取操作的函数，因此模型延迟不会影响模拟时间。通过阈值根据脚本化的锚定策略进行校准，奖励针对一系列奖励黑客进行强化，并且在给定一系列操作的情况下，每个情节都会以相同的方式重播。我们在 30 至 45 天的 11 个场景和一个完整的模拟年中评估了七个前沿法学硕士，超过三个世界种子在匹配的推理努力。平均而言，没有一个模型与脚本化的智能分类策略相匹配：最好的 DeepSeek-V4-Pro 通过了 49% 的任务种子单元，而启发式的通过率为 97%。使用相同工具和预算工作的人类专家的得分超过了每个模型（平均综合得分 0.708 与 0.700）。在 Claude Code 利用下进行的完整模拟一年中，大多数模型都显示出显着的性能改进。在 GRPO 训练后运行中，仅接受五个不相交任务训练的 Qwen3.5-27B 将其在保留评估任务上的平均复合值从 0.136 提高到 0.373。我们发布了五个示例训练分割任务、十个样本轨迹以及评分和验证工具；完整的环境和评估套件被保留，以保持基准不受污染。",
-          "publishedAt": "2026-10-09T04:00:00.000Z",
+          "publishedAt": "2026-10-10T04:00:00.000Z",
           "comments": null,
           "author": "Daksh Raghuvanshi, Ved Vedere, Yifan Wang"
         },
@@ -389,8 +389,8 @@
           "titleZh": "学习如何搜索空间呈指数级减少的计划",
           "link": "https://arxiv.org/abs/2610.10954",
           "summary": "arXiv:2610.10954v1 Announce Type: new\nAbstract: Heuristic search for a plan can store exponentially many states, even when its heuristic is almost perfect. We instead learn search control, one specification per domain, written as an indexical policy: a generalized policy with registers that hold objects and modes that sequence its rules. We add the choose rule, which loads an object into a register and marks a backtracking point, where one candidate suffices; every other rule must work for all of its outcomes and needs no search. Our main result is that structural termination, which rules out infinite executions, also bounds every execution by a polynomial in the number of objects. A depth-first procedure then finds a plan in polynomial space, however large the state space, with no list of visited states. The cost is time, exponential only in the choice depth, the number of real choices along an execution. Any class that such a policy solves therefore lies in NP, and in P at constant choice depth. We learn these policies with a language model in a counterexample-guided loop that certifies termination, verifies the training tasks, and keeps the choice depth small. With the learned policies, the procedure solves 1,709 of 1,890 test tasks of the IPC 2023 Learning Track and the Autoscale Agile suite, more than LAMA, BFWS, and Levitron, and most of them within one second and 100 MiB.",
-          "summaryZh": "arXiv:2610.10954v1 公告类型：新\n摘要：计划的启发式搜索可以存储指数级的多个状态，即使其启发式几乎是完美的。相反，我们学习搜索控制，每个域一个规范，编写为索引策略：一种通用策略，其寄存器保存对象和对其规则进行排序的模式。我们添加了选择规则，该规则将一个对象加载到寄存器中并标记一个回溯点，其中一个候选就足够了；其他所有规则都必须适用于其所有结果，并且无需搜索。我们的主要结果是结构终止，它排除了无限执行，也通过对象数量的多项式来限制每次执行。然后，深度优先过程在多项式空间中找到一个计划，无论状态空间有多大，并且没有访问过的状态列表。成本是时间，仅在选择深度（执行过程中实际选择的数量）上呈指数级增长。因此，这种策略解决的任何类别都位于 NP 中，并且位于恒定选择深度的 P 中。我们在反例引导的循环中使用语言模型来学习这些策略，该循环证明终止、验证训练任务并保持较小的选择深度。通过学习的策略，该过程解决了 IPC 2023 Learning Track 和 Autoscale Agile 套件的 1,890 个测试任务中的 1,709 个，超过了 LAMA、BFWS 和 Levitron，并且大多数任务在一秒和 100 MiB 内完成。",
-          "publishedAt": "2026-10-09T04:00:00.000Z",
+          "summaryZh": "arXiv:2610.10954v1 公告类型：新\n摘要：计划的启发式搜索可以存储指数级的多个状态，即使其启发式几乎是完美的。相反，我们学习搜索控制，每个域一个规范，编写为索引策略：一种通用策略，其寄存器保存对象和对其规则进行排序的模式。我们添加了选择规则，该规则将一个对象加载到寄存器中并标记一个回溯点，其中一个候选就足够了；其他所有规则都必须适用于其所有结果，并且无需搜索。我们的主要结果是结构终止，它排除了无限执行，也通过对象数量的多项式来限制每次执行。然后，深度优先过程在多项式空间中找到一个计划，无论状态空间有多大，都没有访问过的状态列表。成本是时间，仅在选择深度（执行过程中实际选择的数量）上呈指数级增长。因此，这种策略解决的任何类别都位于 NP 中，并且位于恒定选择深度的 P 中。我们在反例引导的循环中使用语言模型来学习这些策略，该循环证明终止、验证训练任务并保持较小的选择深度。通过学习的策略，该过程解决了 IPC 2023 Learning Track 和 Autoscale Agile 套件的 1,890 个测试任务中的 1,709 个，超过了 LAMA、BFWS 和 Levitron，并且大多数任务在一秒和 100 MiB 内完成。",
+          "publishedAt": "2026-10-10T04:00:00.000Z",
           "comments": null,
           "author": "Dominik Drexler, Simon St{\\aa}hlberg, Markus Fritzsche, Blai Bonet"
         },
@@ -401,7 +401,7 @@
           "link": "https://arxiv.org/abs/2610.11005",
           "summary": "arXiv:2610.11005v1 Announce Type: new\nAbstract: Safety-aligned language models often refuse a harmful request stated directly but answer the same request inside a role-play or narrative wrapper. We measure this vulnerability across languages and registers: attack success on Qwen3-1.7B is already 89.4% in English and 93.0% in modern Chinese, and reaches 95.7% in Classical Chinese. We build GUISE, a benchmark for systematically studying this vulnerability. It includes parallel requests in English, modern Chinese, and Classical Chinese, matched harmful and benign pairs, wrapper types held out for evaluation, and a stricter criterion that counts warn-then-answer responses as attack successes. Representation analysis shows that language and register move harmful-request representations only slightly away from the model's refusal direction, whereas narrative wrappers move them much farther away. We propose AXIS, which combines preference optimisation with a rotation objective that aligns harmful-request representations with the refusal direction and a commitment objective that trains the model to refuse completely rather than produce a warn-then-answer response. Across Qwen3-1.7B, Qwen3-4B and GLM-4-9B, AXIS achieves the highest combined safety and usability score among the compared methods.",
           "summaryZh": "arXiv:2610.11005v1 公告类型：新\n摘要：安全一致的语言模型通常会拒绝直接提出的有害请求，但会在角色扮演或叙事包装中回答相同的请求。我们跨语言和跨寄存器测量该漏洞：Qwen3-1.7B 的攻击成功率在英语中已经达到 89.4%，在现代汉语中达到 93.0%，在文言文中达到 95.7%。我们构建了 GUISE，这是系统研究此漏洞的基准。它包括英语、现代汉语和古典汉语的并行请求、匹配的有害和良性对、用于评估的包装类型，以及将先警告后回答响应视为攻击成功的更严格标准。表征分析表明，语言和语域仅使有害请求表征稍微远离模型的拒绝方向，而叙事包装则使它们远离模型的拒绝方向。我们提出了 AXIS，它将偏好优化与轮换目标相结合，该轮换目标将有害请求表示与拒绝方向对齐，以及训练模型完全拒绝而不是产生先警告然后回答响应的承诺目标。在 Qwen3-1.7B、Qwen3-4B 和 GLM-4-9B 中，AXIS 在比较方法中获得了最高的综合安全性和可用性得分。",
-          "publishedAt": "2026-10-09T04:00:00.000Z",
+          "publishedAt": "2026-10-10T04:00:00.000Z",
           "comments": null,
           "author": "Zhankai Ye, Yanning Wang, Yukai Jin, Bo Mei, Fangyi Li, Wei Wang, Shangqian Gao, Xin Liu"
         },
@@ -412,7 +412,7 @@
           "link": "https://arxiv.org/abs/2610.11007",
           "summary": "arXiv:2610.11007v1 Announce Type: new\nAbstract: At the start of every session, LLM agents load a fixed context file, such as $\\texttt{AGENTS.md}$. Each loaded token in the file is charged again in every later round of the session, and these files can degrade performance as they grow in size. However, in practice, human or automated curators usually grow these files by appending.\n We formulate context curation as a capacitated assortment problem. Instructions consume tokens under a finite attention capacity; adding an instruction never raises the compliance of the others, while retained instructions incur a per-session setup cost.\n We prove an upper bound on the optimal file size, regardless of the number of available candidate instructions, and that appending every instruction with positive standalone value can be arbitrarily worse in net value than selecting an optimal subset. A token budget also limits the loss when the token price is underestimated.\n We then examine what can be learned from past sessions and how this information can guide decisions to add or remove instructions. Feedback is inherently censored: the benefits and harms of loaded instructions are observable, whereas missing instructions generate feedback only when their absence causes harm.\n In this setting, we show that deleting instructions ignored by agents can inevitably remove helpful ones. We characterize how much evidence should be collected before adding an instruction. Besides, we bound regret when human reviewers can inspect only a limited number of edits per period. Empirical experiments further show that irrelevant rules drawn from real context files reduce language-model compliance.",
           "summaryZh": "arXiv:2610.11007v1 公告类型：新\n摘要：在每个会话开始时，LLM 代理会加载固定的上下文文件，例如 $\\texttt{AGENTS.md}$。文件中加载的每个令牌在会话的每一轮中都会再次收费，并且这些文件会随着大小的增长而降低性能。然而，在实践中，人类或自动化管理员通常通过附加来增长这些文件。\n 我们将上下文管理表述为一个有能力的分类问题。指令在有限的注意力容量下消耗代币；添加指令永远不会提高其他指令的合规性，而保留的指令会产生每个会话的设置成本。\n 我们证明了最佳文件大小的上限，无论可用候选指令的数量如何，并且为每个指令附加正独立值可能比选择最佳子集的净值更差。代币预算还可以限制代币价格被低估时的损失。\n 然后，我们研究可以从过去的会话中学到什么，以及这些信息如何指导添加或删除指令的决策。反馈本质上是经过审查的：加载指令的好处和坏处是可以观察到的，而缺失的指令只有在它们的缺失造成损害时才会产生反馈。\n 在这种情况下，我们表明删除被代理忽略的指令不可避免地会删除有用的指令。我们描述了在添加指令之前应该收集多少证据。此外，当人类审稿人只能检查每个时期有限数量的编辑时，我们一定会感到遗憾。实证实验进一步表明，从真实上下文文件中提取的不相关规则会降低语言模型的合规性。",
-          "publishedAt": "2026-10-09T04:00:00.000Z",
+          "publishedAt": "2026-10-10T04:00:00.000Z",
           "comments": null,
           "author": "Zexuan Liu, Yuning Yang, Tiancheng Zhao"
         }
@@ -424,175 +424,9 @@
       "url": "https://rss.arxiv.org/rss/cs.LG",
       "home": "https://arxiv.org/list/cs.LG/recent",
       "group": "arxiv",
-      "fetchedAt": "2026-10-10T03:53:36.735Z",
-      "count": 15,
-      "items": [
-        {
-          "id": "oai:arXiv.org:2610.10552v1",
-          "title": "Freeze the Decoder, Heal the Encoder: Parameter-Efficient Adaptation for SVD-Based KV-Cache Compression",
-          "titleZh": "冻结解码器，修复编码器：基于 SVD 的 KV 缓存压缩的参数高效适应",
-          "link": "https://arxiv.org/abs/2610.10552",
-          "summary": "arXiv:2610.10552v1 Announce Type: new\nAbstract: Comparing parameter-efficient fine-tuning recipes under a single, shared learning rate is a common but flawed practice: when the arms being compared have very different trainable-parameter counts, a shared rate can simultaneously depress the larger arms' means and inflate their variance, manufacturing a large, seemingly multi-seed-significant advantage for the smallest arm that is not a real effect. We document this confound in a concrete setting: post-hoc SVD-based KV-cache compression, where an already-pretrained model is converted to a low-rank (multi-head-latent-attention-style) cache by factorizing its key/value weights into a down-projection (\"encoder\") and an up-projection (\"decoder\"), after which a short fine-tune (\"healing\") recovers the accuracy lost to truncation. Under a shared learning rate, freezing the decoder and healing only the encoder looks like a clear win over healing the decoder or both factors; once every arm is given its own tuned learning rate, that apparent advantage disappears, and encoder-only healing instead reaches parity with the alternatives, at a real, measured saving of 3x fewer trainable parameters and 3x less optimizer-state memory. We verify this parity with per-arm learning-rate tuning and three seeds per configuration on a vision-language model (Qwen2.5-VL-3B-Instruct), at the one compression ratio this protocol covers, and replicate it on a text-only testbed across two backbones. Encoder-only healing is therefore a lower-memory drop-in recipe for retrofitting low-rank KV-cache compression at training time, and the shared-learning-rate pitfall we document and correct is a cautionary result for comparing any fine-tuning recipes whose arms differ in trainable-parameter count.",
-          "summaryZh": "arXiv:2610.10552v1 公告类型：新\n摘要：在单一共享学习率下比较参数有效的微调方法是一种常见但有缺陷的做法：当被比较的臂具有非常不同的可训练参数计数时，共享速率可以同时抑制较大臂的均值并扩大其方差，为最小臂制造一个巨大的、看似多种子的显着优势，但并非真正的效果。我们在一个具体的设置中记录了这一混淆：基于事后 SVD 的 KV 缓存压缩，其中通过将其键/值权重分解为下投影（“编码器”）和上投影（“解码器”），将已经预训练的模型转换为低秩（多头潜在注意力样式）缓存，之后进行短暂的微调（“修复”）恢复截断损失的准确性。在共享学习率下，冻结解码器并仅修复编码器看起来明显优于修复解码器或同时修复这两个因素；一旦每个手臂都被赋予了自己调整的学习率，这种明显的优势就会消失，而仅编码器的修复反而会达到与替代方案相同的水平，实际测量的可训练参数节省量减少了 3 倍，优化器状态内存减少了 3 倍。我们通过视觉语言模型（Qwen2.5-VL-3B-Instruct）上的每臂学习率调整和每个配置三个种子来验证这种奇偶性，以该协议涵盖的一个压缩比，并将其复制到跨两个骨干网的纯文本测试台上。因此，仅编码器修复是一种在训练时改造低阶 KV 缓存压缩的低内存插入方案，而我们记录并纠正的共享学习率陷阱是比较可训练参数计数不同的任何微调方案的一个警示结果。",
-          "publishedAt": "2026-10-09T04:00:00.000Z",
-          "comments": null,
-          "author": "Yufeng Wang"
-        },
-        {
-          "id": "oai:arXiv.org:2610.10571v1",
-          "title": "SPERA: Spherical Prior EEG Foundation Model with Geometry- and Frequency-Aware Latent Prediction",
-          "titleZh": "SPERA：具有几何和频率感知潜在预测的球形先验脑电图基础模型",
-          "link": "https://arxiv.org/abs/2610.10571",
-          "summary": "arXiv:2610.10571v1 Announce Type: new\nAbstract: Electroencephalography (EEG) provides a non-invasive measure of ongoing neural activity, but building general-purpose EEG models remains challenging due to the heterogeneity of subjects, devices, and electrode montages. Existing EEG foundation models predominantly rely on reconstruction-based objectives defined on the observed signal, which contains both neural and non-neural components. We introduce SPERA (Spherical Prior EEG Representation Architecture), an EEG foundation model that adopts the joint-embedding predictive architecture (JEPA) to predict in latent space. SPERA introduces a Legendre-polynomial spatial prior, incorporated into attention to encode varying scalp electrode geometries. Two further components adapt the model to EEG: factorized temporal and spatial attention interleaved with periodic full-attention blocks, and a relational spectral regularizer aligning latent similarity structure with spectral views. Pretrained on approximately 80,000 hours of EEG from 29,048 subjects across 106 datasets, SPERA achieves the highest average balanced accuracy across nine downstream tasks spanning clinical, cognitive, and BCI applications. SPERA further exhibits strong parameter efficiency under linear probing and robustness across varying recording conditions, suggesting its potential as a general-purpose backbone for diverse EEG analyses.",
-          "summaryZh": "arXiv:2610.10571v1 公告类型：新\n摘要：脑电图（EEG）提供了一种持续神经活动的非侵入性测量方法，但由于受试者、设备和电极蒙太奇的异质性，构建通用脑电图模型仍然具有挑战性。现有的脑电图基础模型主要依赖于根据观察到的信号定义的基于重建的目标，其中包含神经和非神经成分。我们引入了 SPERA（球形先验脑电图表示架构），这是一种采用联合嵌入预测架构（JEPA）在潜在空间中进行预测的脑电图基础模型。 SPERA 引入了勒让德多项式空间先验，将其纳入注意力以编码不同的头皮电极几何形状。另外两个组件使模型适应脑电图：与周期性全注意力块交织的因式分解时间和空间注意力，以及将潜在相似性结构与频谱视图对齐的关系频谱正则化器。 SPERA 对来自 106 个数据集的 29,048 名受试者的约 80,000 小时的脑电图进行了预训练，在涵盖临床、认知和 BCI 应用的九个下游任务中实现了最高的平均平衡精度。 SPERA 在线性探测下进一步表现出强大的参数效率，并在不同的记录条件下表现出鲁棒性，这表明其作为各种脑电图分析的通用骨干的潜力。",
-          "publishedAt": "2026-10-09T04:00:00.000Z",
-          "comments": null,
-          "author": "Minsu Kim, Ye-Sung Kim, Hyeseong Jeon, Wooseok Hyung, Joshua Lee, Chang-Hwan Im"
-        },
-        {
-          "id": "oai:arXiv.org:2610.10594v1",
-          "title": "Coverage, Not Difficulty, Sets How Much Synthetic Data an Activation Probe Needs",
-          "titleZh": "覆盖范围而不是难度决定了激活探针需要多少合成数据",
-          "link": "https://arxiv.org/abs/2610.10594",
-          "summary": "arXiv:2610.10594v1 Announce Type: new\nAbstract: Activation probes that monitor deployed language models are trained on synthetic conversations, and how many a probe needs is open. We trace learning curves over 10-590 synthetic samples for three monitoring concepts, high-stakes situations, replies harmful to a person, and replies that do not follow the user's instruction, on fourteen held-out evaluation distributions and four probe models, varying the generator LLM and the prompt's detail. The need is set by what is monitored: probes for high-stakes and harmful are within a few hundredths of their plateau from 80 samples on Gemma-3-27B-IT, instruction probes need several times as many, and the ordering holds on three smaller probe models and on real samples (from dev set). Prior work advises spending a generation budget on breadth, more kinds of data, over depth, more of each kind. We read the depth a concept needs as the half-gain size of a fitted curve, the number of samples at which half the gain is in hand. Concept and distribution account for 42-45% of its variance, the generator, probe model, and prompt detail for under 10%. What sets the value of the half-gain size is coverage, not per-kind difficulty: the number of samples of its own kind a distribution needs to saturate. Every kind, one per evaluation distribution, has a median half-gain size of 7-11 own-kind synthetic samples under all three concepts alike. What differs is how far samples of one kind transfer to the concept's other kinds, almost fully under high-stakes, less under harmful, and least under instruction, which accounts for most of the gap between concepts on generated and real samples. Breadth therefore pays differently by concept: many kinds are necessary under instruction, where no kind covers another, and nearly redundant under high-stakes, where one kind covers the rest. We release the evaluation suites, dev sets, and generated sets.",
-          "summaryZh": "arXiv:2610.10594v1 公告类型：新\n摘要：监控已部署语言模型的激活探针是在合成对话上进行训练的，并且探针需要多少个是开放的。我们针对三种监控概念、高风险情况、对人有害的回复以及不遵循用户指令的回复，在 14 个保留的评估分布和四个探测模型上跟踪 10-590 个合成样本的学习曲线，改变生成器 LLM 和提示的细节。需求由监控的内容决定：高风险和有害的探针与 Gemma-3-27B-IT 上的 80 个样本相比，其稳定水平在百分之几以内，指令探针需要的数量是其数倍，并且订购适用于三个较小的探针模型和真实样本（来自开发集）。之前的工作建议将一代预算花在广度、更多类型的数据上，而不是深度、更多类型的数据上。我们将概念所需的深度理解为拟合曲线的半增益大小，即掌握一半增益的样本数量。概念和分布占其方差的 42-45%，生成器、探测模型和提示细节占 10% 以下。设置半增益大小值的是覆盖范围，而不是每种难度：分布需要饱和的同类样本数量。在所有三个概念下，每种评估分布都有一个中值半增益大小，为 7-11 个同类合成样本。不同之处在于一种样本转移到该概念的其他类型的程度，几乎完全处于高风险、较少有害和最少指导的情况下，这解释了生成样本和真实样本上的概念之间的大部分差距。因此，广度根据概念的不同而付出不同的代价：在指导下，多种类型是必要的，其中没有一种类型涵盖另一种类型，而在高风险情况下，多种类型几乎是多余的，其中一种类型涵盖了其余的类型。我们发布了评估套件、开发集和生成集。",
-          "publishedAt": "2026-10-09T04:00:00.000Z",
-          "comments": null,
-          "author": "Ankush Checkervarty"
-        },
-        {
-          "id": "oai:arXiv.org:2610.10613v1",
-          "title": "Temporal transformer CAN encoder with federated lightweight heads for anomaly detection",
-          "titleZh": "具有用于异常检测的联合轻量级头的时间转换器 CAN 编码器",
-          "link": "https://arxiv.org/abs/2610.10613",
-          "summary": "arXiv:2610.10613v1 Announce Type: new\nAbstract: Modern vehicles rely on large numbers of Electronic Control Units (ECUs) that constantly exchange information over the Controller Area Network (CAN) bus. Due to the rapidity, structure, and repetition of this communication, even slight variations in timing, payload values, or message patterns can point to unusual activity. Whether due to errors, malfunctions, or deliberate interference, these anomalies are frequently subtle and challenging to identify with conventional methods that handle messages separately or rely on manually created rules. Motivated by this gap, we present a privacy-preserving framework for anomaly detection in in-vehicle networks, based on a Temporal Transformer CAN Encoder with Federated Lightweight Heads, to better capture these irregularities. The detection of subtle temporal and contextual anomalies is made possible by a lightweight Transformer encoder that learns how these signals evolve over time, while a federated learning mechanism enables several vehicles or ECUs to work together to improve a shared model without exchanging raw CAN data. This combination of federated learning and temporal sequence modeling provides robust anomaly detection performance while maintaining efficiency and privacy, according to experiments conducted on open-source datasets.",
-          "summaryZh": "arXiv:2610.10613v1 公告类型：新\n摘要：现代车辆依赖大量的电子控制单元（ECU），它们通过控制器局域网（CAN）总线不断交换信息。由于这种通信的快速性、结构和重复性，即使时间、有效负载值或消息模式的微小变化也可能表明异常活动。无论是由于错误、故障还是故意干扰，这些异常通常都很微妙，很难用单独处理消息或依赖手动创建规则的传统方法来识别。受这一差距的启发，我们提出了一种用于车载网络中异常检测的隐私保护框架，该框架基于具有联合轻量级头的时间变换器 CAN 编码器，以更好地捕获这些异常情况。轻量级 Transformer 编码器可以学习这些信号如何随时间演变，从而可以检测细微的时间和上下文异常，而联合学习机制使多个车辆或 ECU 能够协同工作以改进共享模型，而无需交换原始 CAN 数据。根据在开源数据集上进行的实验，联邦学习和时间序列建模的结合提供了强大的异常检测性能，同时保持了效率和隐私。",
-          "publishedAt": "2026-10-09T04:00:00.000Z",
-          "comments": null,
-          "author": "Konstantinos Gyftodimos, Kyriakos Chiotis, Elena Politi, George Dimitrakopoulos, Eirini Liotou"
-        },
-        {
-          "id": "oai:arXiv.org:2610.10616v1",
-          "title": "When Routing Reveals Membership: Privacy Leakage from MoE Router Telemetry",
-          "titleZh": "当路由泄露成员身份时：MoE 路由器遥测导致的隐私泄露",
-          "link": "https://arxiv.org/abs/2610.10616",
-          "summary": "arXiv:2610.10616v1 Announce Type: new\nAbstract: Mixture-of-Experts (MoE) language models produce routing information during inference that may be logged or exposed for monitoring, debugging, load analysis, and safety auditing. Unlike ordinary model outputs, this telemetry reveals a view of the model's internal computation, raising a privacy question: can it reveal whether an example was used to fine-tune the deployed model? We introduce a router-augmented membership inference attack that combines conventional output-side signals with aggregated routing features and applies a membership classifier learned from independently fine-tuned shadow models to the target model. Across three MoE architectures and three data domains, router telemetry consistently improves membership inference over a strong output-signal ensemble, increasing TPR at 1\\% FPR by 2.7--9.4 percentage points across all nine settings. The leakage persists across full fine-tuning, frozen-router training, LoRA, and instruction tuning, and remains observable with only discrete expert selections, restricted telemetry, or a single shadow model. Mechanistic analysis further shows that the leakage does not require router-specific memorization: fine-tuning introduces membership information into hidden representations, while the router exposes a projection of this signal even when its parameters are frozen. Perturbing the telemetry reduces this additional leakage only as its fidelity degrades. Our results show that router telemetry can turn an operational signal into an additional privacy surface for fine-tuned MoE models.",
-          "summaryZh": "arXiv:2610.10616v1 公告类型：新\n摘要：专家混合 (MoE) 语言模型在推理过程中生成路由信息，这些信息可能会被记录或公开以用于监控、调试、负载分析和安全审计。与普通模型输出不同，这种遥测揭示了模型内部计算的视图，从而引发了隐私问题：它能否揭示示例是否用于微调已部署的模型？我们引入了一种路由器增强的成员推理攻击，它将传统的输出侧信号与聚合路由特征相结合，并将从独立微调的影子模型中学习到的成员分类器应用于目标模型。在三个 MoE 架构和三个数据域中，路由器遥测持续改进了强大的输出信号集合的成员推理，在所有九个设置中将 TPR 在 1\\% FPR 下提高了 2.7--9.4 个百分点。泄漏在完整的微调、冻结路由器训练、LoRA 和指令调整中持续存在，并且仅通过离散专家选择、受限遥测或单个影子模型仍然可以观察到。机制分析进一步表明，泄漏不需要特定于路由器的记忆：微调将成员信息引入隐藏表示，而路由器即使在其参数被冻结时也会暴露该信号的投影。仅当保真度降低时，干扰遥测才会减少这种额外的泄漏。我们的结果表明，路由器遥测可以将操作信号转变为微调 MoE 模型的额外隐私表面。",
-          "publishedAt": "2026-10-09T04:00:00.000Z",
-          "comments": null,
-          "author": "Yixin Tan, Jiayang Liu, Lu Sun, Yuke Hu, Zheng Li, Rui Wen"
-        },
-        {
-          "id": "oai:arXiv.org:2610.10621v1",
-          "title": "Self-Organization from Constrained Geometric Radiation",
-          "titleZh": "受约束几何辐射的自组织",
-          "link": "https://arxiv.org/abs/2610.10621",
-          "summary": "arXiv:2610.10621v1 Announce Type: new\nAbstract: How does dynamic order emerge spontaneously in closed systems without external driving? Existing paradigms all require external energy flows, temperature quenching, or slow driving. Here we report constraint-induced self-organization via geometric radiation in coupled metric evolution systems. Simulations reveal a universal four-stage cycle: stress accumulation, super-exponential radiation, chaotic collapse, and convergence to a fractal limit cycle, a novel attractor topology we term the wedge-shaped attractor, with five quantized curvature states and fractal micro-fluctuations. We identify four jointly sufficient conditions: an irreversible geometric horizon, persistent stress injection from quantum coherence, endogenous geometric tension between incompatible curvatures, and effective fluctuations. Their synergy triggers a critical avalanche at the horizon boundary. We prove three theorems: the Geometric Horizon Theorem, the Geometric Energy Dissipation Theorem (implying wave-like entropy evolution in closed systems), and the Radiation as Phase Transition Channel Theorem. We further establish the Constraint-Induced Self-Organization Theorem: these conditions guarantee the complete cycle with probability one. Systematic scans reveal a critical noise threshold and power-law scaling of radiation onset. We verify universality across 12 configurations, multiple noise types, and three geometric flows. This work establishes a new paradigm for closed-system self-organization, forging an exact mathematical duality between classical nonlinear constraints and gravitational horizons.",
-          "summaryZh": "arXiv:2610.10621v1 公告类型：新\n摘要：在没有外部驱动的封闭系统中，动态秩序是如何自发产生的？现有的范例都需要外部能量流、温度淬火或缓慢驱动。在这里，我们报告了耦合度量演化系统中通过几何辐射约束诱导的自组织。模拟揭示了一个普遍的四阶段循环：应力积累、超指数辐射、混沌崩溃和收敛到分形极限循环，这是一种新的吸引子拓扑，我们称之为楔形吸引子，具有五种量子化曲率状态和分形微涨落。我们确定了四个联合充分条件：不可逆的几何视界、量子相干性的持续应力注入、不相容曲率之间的内生几何张力以及有效涨落。它们的协同作用在地平线边界引发了严重的雪崩。我们证明了三个定理：几何地平线定理、几何能量耗散定理（意味着封闭系统中的波状熵演化）和辐射作为相变通道定理。我们进一步建立了约束诱导自组织定理：这些条件保证了概率为1的完整循环。系统扫描揭示了辐射起始的临界噪声阈值和幂律缩放。我们验证了 12 种配置、多种噪声类型和三种几何流的通用性。这项工作为封闭系统自组织建立了一个新的范式，在经典非线性约束和引力视界之间形成了精确的数学对偶性。",
-          "publishedAt": "2026-10-09T04:00:00.000Z",
-          "comments": null,
-          "author": "Ming Lei"
-        },
-        {
-          "id": "oai:arXiv.org:2610.10623v1",
-          "title": "Recurrent Self-Improvement: Dynamic Cross-Loop On-Policy Distillation for Looped Language Models",
-          "titleZh": "循环自我改进：循环语言模型的动态跨循环同策略蒸馏",
-          "link": "https://arxiv.org/abs/2610.10623",
-          "summary": "arXiv:2610.10623v1 Announce Type: new\nAbstract: Looped Language Models (LoopLMs) offer a parameter efficient approach to scaling reasoning by reusing shared parameters across recurrent computation steps. Despite their promise, effective post-training of LoopLMs remains challenging. Existing approaches either provide reward based supervision that is sparse or costly to extend across loops, or rely on external teachers or privileged information, leading to limited teacher availability or teacher-student context mismatch. To address these limitations, we introduce LoopOPD, a cross-loop on-policy distillation framework that uses additional recurrent computation within a LoopLM as its own source of supervision. LoopOPD uses a frozen terminal loop policy as a compute privileged teacher for an intermediate loop student on student generated rollouts, providing dense supervision without an external teacher or privileged information. We further propose Dynamic LoopOPD (D-LoopOPD), which continually refreshes the terminal loop teacher as the shared model parameters are updated, enabling recurrent self-improvement. We characterize how distillation updates propagate across loop depths and derive sufficient conditions under which a single update yields simultaneous local improvement at both loop depths. Experiments on Ouro-Thinking models show that LoopOPD improves mathematical reasoning, while D-LoopOPD yields further gains through dynamic teacher updates. Despite being trained only on mathematical data, the resulting models also improve on general reasoning and code generation benchmarks, demonstrating that recurrent computation can serve as an effective source of supervision for LoopLMs. Our code and model checkpoints will be released upon acceptance.",
-          "summaryZh": "arXiv:2610.10623v1 公告类型：新\n摘要：循环语言模型（LoopLM）通过在循环计算步骤中重用共享参数，提供了一种参数有效的扩展推理方法。尽管他们做出了承诺，但 LoopLM 的有效后训练仍然具有挑战性。现有的方法要么提供基于奖励的监督，这种监督稀疏或跨循环扩展成本高昂，要么依赖外部教师或特权信息，导致教师可用性有限或师生上下文不匹配。为了解决这些限制，我们引入了 LoopOPD，这是一种跨循环同策略蒸馏框架，它使用 LoopLM 内的额外循环计算作为其自己的监督源。 LoopOPD 使用冻结终端循环策略作为学生生成的部署中的中间循环学生的计算特权教师，无需外部教师或特权信息即可提供密集监督。我们进一步提出动态 LoopOPD（D-LoopOPD），它随着共享模型参数的更新而不断刷新终端循环教师，从而实现循环的自我改进。我们描述了蒸馏更新如何在循环深度上传播，并得出了单个更新在两个循环深度上同时产生局部改进的充分条件。 Ouro-Thinking 模型的实验表明，LoopOPD 改善了数学推理，而 D-LoopOPD 通过动态教师更新获得了进一步的收益。尽管只接受了数学数据的训练，但生成的模型也改进了一般推理和代码生成基准，证明循环计算可以作为 LoopLM 的有效监督来源。我们的代码和模型检查点将在接受后发布。",
-          "publishedAt": "2026-10-09T04:00:00.000Z",
-          "comments": null,
-          "author": "Yi Wang, Rui Qian, Yu Li, Haoyang Yao, Wenjie Wang"
-        },
-        {
-          "id": "oai:arXiv.org:2610.10626v1",
-          "title": "Exact SO(3)-Equivariant Isotropic Kernels for Rotation-Robust Neural Dynamics",
-          "titleZh": "用于旋转鲁棒神经动力学的精确 SO(3)-等变各向同性核",
-          "link": "https://arxiv.org/abs/2610.10626",
-          "summary": "arXiv:2610.10626v1 Announce Type: new\nAbstract: Neural surrogates for vector-valued partial differential equations can fit training data yet change their predictions when the same physical state is expressed in a rotated coordinate frame. We study this failure on three-dimensional Navier--Stokes dynamics observed at irregularly placed points. We introduce the Invariant-Conditioned Isotropic Kernel Neural Operator (IKNO), a compact graph model that builds local interactions from scalar quantities unchanged by rotation and vector directions that rotate with the data. Consequently, rotating the positions and velocities rotates the predicted velocity change in exactly the same way. On a held-out test set fixed after model design, training unconstrained graph models on randomly rotated examples reduces but does not eliminate their coordinate dependence. In contrast, IKNO is consistent to numerical precision, matches the forecasting accuracy of a general rotation-aware Tensor Field Network with $5.6$ times fewer parameters, and outperforms a parameter-matched graph simulator. These results show that a compact, PDE-specialized model can remove coordinate dependence without sacrificing forecasting accuracy.",
-          "summaryZh": "arXiv:2610.10626v1 公告类型：新\n摘要：向量值偏微分方程的神经代理可以拟合训练数据，但当在旋转坐标系中表达相同的物理状态时，可以改变其预测。我们通过在不规则放置的点处观察到的三维纳维-斯托克斯动力学来研究这种失效。我们引入了不变条件各向同性核神经算子（IKNO），这是一种紧凑的图模型，它根据旋转不变的标量和随数据旋转的矢量方向构建局部交互。因此，旋转位置和速度会以完全相同的方式旋转预测的速度变化。在模型设计后固定的保留测试集上，在随机旋转的示例上训练无约束图模型会减少但不会消除它们的坐标依赖性。相比之下，IKNO 的数值精度一致，与通用旋转感知张量场网络的预测精度相匹配，参数数量减少了 5.6 倍，并且性能优于参数匹配的图模拟器。这些结果表明，紧凑的偏微分方程专用模型可以消除坐标依赖性，而不会牺牲预测精度。",
-          "publishedAt": "2026-10-09T04:00:00.000Z",
-          "comments": null,
-          "author": "Ridham Patel"
-        },
-        {
-          "id": "oai:arXiv.org:2610.10627v1",
-          "title": "Sample-Efficiency of Kolmogorov-Arnold Networks",
-          "titleZh": "Kolmogorov-Arnold 网络的样本效率",
-          "link": "https://arxiv.org/abs/2610.10627",
-          "summary": "arXiv:2610.10627v1 Announce Type: new\nAbstract: Deep reinforcement learning has achieved substantial performance gains over classical control approaches. Yet, a central challenge to learning in real-world applications is acquiring costly samples. Kolmogorov-Arnold Networks are a recently proposed architecture that can learn physical relationships in control problems effectively, with significantly higher parameter efficiency and interpretability when compared to Multi-Layer-Perceptron architectures. In this work, we systematically study sample-efficiency using computational experiments, covering the Feynman dataset and the Gymnasium RL benchmark. The results show that similar performance can be achieved with 40% fewer samples using the Kolmogorov-Arnold architecture, and that relative performance improvements up to 50% occur during the training process. The observed gains are robust to varying levels of noise in rewards. These results highlight the potential of the Kolmogorov-Arnold architectures for more sample-efficient reinforcement learning. Code: https://github.com/DerKevinRiehl/neurips26_kan_training",
-          "summaryZh": "arXiv:2610.10627v1 公告类型：新\n摘要：深度强化学习比经典控制方法取得了显着的性能提升。然而，在现实应用中学习的一个主要挑战是获取昂贵的样本。柯尔莫哥洛夫-阿诺德网络是最近提出的一种架构，它可以有效地学习控制问题中的物理关系，与多层感知器架构相比，具有显着更高的参数效率和可解释性。在这项工作中，我们使用计算实验系统地研究样本效率，涵盖 Feynman 数据集和 Gymnasium RL 基准。结果表明，使用 Kolmogorov-Arnold 架构，可以通过减少 40% 的样本来实现类似的性能，并且在训练过程中相对性能提高高达 50%。观察到的收益对于奖励中不同水平的噪音来说是稳健的。这些结果凸显了 Kolmogorov-Arnold 架构在提高样本效率的强化学习方面的潜力。代码：https://github.com/DerKevinRiehl/neurips26_kan_training",
-          "publishedAt": "2026-10-09T04:00:00.000Z",
-          "comments": null,
-          "author": "Kevin Riehl, Shaimaa K. El-Baklish, Fan Wu, Anastasios Kouvelas"
-        },
-        {
-          "id": "oai:arXiv.org:2610.10630v1",
-          "title": "Phase-HDC: Replacing Optimizer History with Gradient Thresholds in Discrete Phase Learning",
-          "titleZh": "Phase-HDC：在离散阶段学习中用梯度阈值替换优化器历史",
-          "link": "https://arxiv.org/abs/2610.10630",
-          "summary": "arXiv:2610.10630v1 Announce Type: new\nAbstract: Training a compact model often needs far more memory than storing it, because the optimizer keeps its own records of past gradients. For a hyperdimensional classifier whose learned parameters are low-bit angles, which we call a \\emph{phase memory}, these records take several times more memory than the model itself. We ask whether such a model can be trained while storing nothing but the model. The proposed method, Phase-HDC, turns each stored angle by at most one step per update, against the sign of its current gradient, and only when that gradient is large enough. We show that this simple rule is the exact solution of a first-order loss model in which every changed parameter pays a fixed cost. When everything except the update rule is held fixed, Phase-HDC matches the accuracy of Adam with 6-bit moments while storing three times less. Across eleven image, tabular, and text datasets, it stores 16--23$\\times$ less than standard float32 Adam and 4--6$\\times$ less than 8-bit Adam. The price is an average loss of about five accuracy points against float32 Adam, while Phase-HDC is more accurate than 8-bit Adam on six of the eleven datasets, including byte-level text prediction, where 8-bit Adam collapses. Instrumented training runs explain these outcomes. Once parameters must sit on a discrete grid, Adam's moments mainly decide whether a parameter moves at all, a decision that a threshold on the current gradient can make without memory, and coarse quantization of the moments breaks this decision for inputs that the data rarely contain. The storage savings are logical state rather than measured hardware memory.",
-          "summaryZh": "arXiv:2610.10630v1 公告类型：新\n摘要：训练紧凑模型通常需要比存储它更多的内存，因为优化器会保存自己的过去梯度记录。对于学习参数为低位角的超维分类器，我们称之为\\emph{相位记忆}，这些记录占用的内存比模型本身多几倍。我们询问是否可以在只存储模型的情况下训练这样的模型。所提出的方法 Phase-HDC 在每次更新时最多将每个存储的角度相对于其当前梯度的符号转动一步，并且仅当该梯度足够大时。我们证明这个简单的规则是一阶损失模型的精确解，其中每个改变的参数都会付出固定的成本。当除更新规则之外的所有内容都保持固定时，Phase-HDC 可以与 Adam 的 6 位矩精度相匹配，同时存储量减少三倍。在 11 个图像、表格和文本数据集中，它的存储量比标准 float32 Adam 少 16--23$\\times$，比 8 位 Adam 少 4--6$\\times$。代价是相对于 float32 Adam 平均损失了大约 5 个精度点，而 Phase-HDC 在 11 个数据集中的 6 个数据集上比 8 位 Adam 更准确，包括字节级文本预测，其中 8 位 Adam 崩溃了。仪器化训练可以解释这些结果。一旦参数必须位于离散网格上，亚当矩主要决定参数是否移动，当前梯度的阈值可以在没有记忆的情况下做出决定，而矩的粗量化会破坏数据很少包含的输入的这一决定。存储节省是逻辑状态而不是测量的硬件内存。",
-          "publishedAt": "2026-10-09T04:00:00.000Z",
-          "comments": null,
-          "author": "Ahmed Nebli"
-        },
-        {
-          "id": "oai:arXiv.org:2610.10636v1",
-          "title": "D-SLR: The Disjoint Row-Sparse plus Low-Rank Decomposition",
-          "titleZh": "D-SLR：不相交行稀疏加低阶分解",
-          "link": "https://arxiv.org/abs/2610.10636",
-          "summary": "arXiv:2610.10636v1 Announce Type: new\nAbstract: Compressing a matrix for reconstruction still defaults to the truncated SVD, approximating the data with a single low-rank structure. It is common to reduce the residual further by adding an overlapping row-sparse component, but methods that solve this joint problem often require iterative solvers and tuning of regularization parameters. We propose the Disjoint Row-Sparse plus Low-Rank (D-SLR) decomposition, a closed-form drop-in for the truncated SVD that improves or exactly matches it. D-SLR restricts rows to either being stored verbatim or approximated by the low-rank fit, never both. Under squared error this restriction costs nothing: the joint optimum is attainable disjointly with fewer parameters at every non-trivial rank and stored row count (shape). With zero stored rows D-SLR reduces to the truncated SVD, so it never does worse at equal cost. The algorithm scores the entire error-versus-parameters tradeoff, and the solution is chosen afterwards by a supplied error target or parameter count, or by a selection rule. The grid and solution together cost three SVDs, with no tuning or regularization. We derive an assumption-free, a-posteriori lower bound on the error at every shape, giving each solution a computable certificate on the potential gain of any other choice of rank and stored rows. Experiments on synthetic and real data (LLM embedding tables, network traffic, hyperspectral images) confirm the gains and quantify the certificate.",
-          "summaryZh": "arXiv:2610.10636v1 公告类型：新\n摘要：压缩重构矩阵仍然默认使用截断的 SVD，用单个低秩结构逼近数据。通常通过添加重叠的行稀疏组件来进一步减少残差，但解决此联合问题的方法通常需要迭代求解器和调整正则化参数。我们提出了不相交行稀疏加低秩 (D-SLR) 分解，这是截断 SVD 的封闭形式插入，可改进或完全匹配它。 D-SLR 将行限制为要么逐字存储，要么通过低秩拟合近似存储，而不是两者兼而有之。在平方误差下，这种限制没有任何成本：在每个非平凡的等级和存储的行数（形状）上，用更少的参数可以不相交地实现联合最优。由于存储行数为零，D-SLR 简化为截断的 SVD，因此在同等成本下它永远不会做得更糟。该算法对整个误差与参数的权衡进行评分，然后通过提供的误差目标或参数计数或选择规则来选择解决方案。网格和解决方案总共花费三个 SVD，并且没有调整或正则化。我们得出每个形状的误差的无假设的后验下限，为每个解决方案提供关于任何其他排名和存储行选择的潜在增益的可计算证书。对合成数据和真实数据（LLM 嵌入表、网络流量、高光谱图像）的实验确认了收益并量化了证书。",
-          "publishedAt": "2026-10-09T04:00:00.000Z",
-          "comments": null,
-          "author": "Vincent Szolnoky"
-        },
-        {
-          "id": "oai:arXiv.org:2610.10639v1",
-          "title": "Visible Reasoning Is Not a Universal Optimizer: Persona- and Thinking-Dependent Effects in Analytics Code Generation",
-          "titleZh": "可见推理不是通用优化器：分析代码生成中角色和思维相关的影响",
-          "link": "https://arxiv.org/abs/2610.10639",
-          "summary": "arXiv:2610.10639v1 Announce Type: new\nAbstract: Visible Chain-of-Thought (CoT) is often treated as a broadly useful reasoning instruction, yet analytics code generation combines natural-language ambiguity, schema grounding, target-language constraints, and model-specific inference behavior. Because the same analytics request can be expressed in two distinct target languages-SQL and Python (pandas)-this setting provides a natural test of a common but under-examined assumption: that visible reasoning is more effective when its representation matches the requested target, as in \"think in SQL\" or \"think in Python.\" Together with generic instructions such as \"think step-by-step,\" such recommendations remain insufficiently evaluated under controlled, execution-based comparisons. We study a query matched SQL-pandas benchmark that crosses persona phrasing, target language, visible-CoT format, control prefixes, direct generation, and internal-reasoning configurations. The results do not support either a universal accuracy advantage from visible CoT or a consistent benefit from matching the reasoning representation to the target language. Instead, the effects depend on the persona, target, model configuration, and internal-reasoning setting. The control ablations further distinguish effects of reasoning content from those of prompt format. These findings indicate that reasoning strategies should be selected jointly for the model, persona, target, and internal-reasoning configuration rather than adopted as universal defaults. More broadly, the study provides a controlled framework for identifying when visible reasoning improves executable generation, when it primarily perturbs model behavior, and when the internal-reasoning configuration is the more consequential factor.",
-          "summaryZh": "arXiv:2610.10639v1 公告类型：新\n摘要：可见的思想链（CoT）通常被视为一种广泛有用的推理指令，但分析代码生成结合了自然语言歧义、模式基础、目标语言约束和特定于模型的推理行为。因为相同的分析请求可以用两种不同的目标语言（SQL 和 Python（pandas））表达，所以此设置提供了对常见但未经充分检验的假设的自然测试：当其表示与请求的目标匹配时，可见推理会更有效，如“用 SQL 思考”或“用 Python 思考”。与“逐步思考”等通用指令一起，在受控的、基于执行的比较下，此类建议仍然没有得到充分的评估。我们研究了一个查询匹配的 SQL-pandas 基准测试，该基准测试跨越角色短语、目标语言、可见 CoT 格式、控制前缀、直接生成和内部推理配置。结果既不支持可见 CoT 的普遍准确性优势，也不支持将推理表示与目标语言匹配所带来的一致优势。相反，效果取决于角色、目标、模型配置和内部推理设置。控制消融进一步区分推理内容的效果和提示格式的效果。这些发现表明，推理策略应该针对模型、角色、目标和内部推理配置共同选择，而不是采用通用默认值。更广泛地说，该研究提供了一个受控框架，用于识别可见推理何时改善可执行文件的生成、何时主要扰乱模型行为以及何时内部推理配置是更重要的因素。",
-          "publishedAt": "2026-10-09T04:00:00.000Z",
-          "comments": null,
-          "author": "Bhawani Shankar Leelar, Pawan Chorasiya, Davin Hill, Robert E. Tillman, Tamer Soliman"
-        },
-        {
-          "id": "oai:arXiv.org:2610.10641v1",
-          "title": "Coverage-Aware Reasoning with Medical Tokens for Diagnosis Prediction",
-          "titleZh": "使用医疗令牌进行覆盖感知推理以进行诊断预测",
-          "link": "https://arxiv.org/abs/2610.10641",
-          "summary": "arXiv:2610.10641v1 Announce Type: new\nAbstract: Large language models (LLMs) offer promising potential for next-visit diagnosis prediction, owing to their ability to integrate longitudinal clinical evidence and reason over it in natural language. However, reinforcement learning for LLM reasoning commonly rewards each trajectory according to the correctness of its final answer. In next-visit diagnosis prediction, multiple diagnoses can be simultaneously valid, but independently rewarding one diagnosis per trajectory does not distinguish repeated hits from coverage of different diagnoses. The policy can therefore concentrate on a few correct diagnoses, leaving others uncovered. Meanwhile, LLM tokenizers can split ICD codes into several generic tokens with limited clinical meaning, requiring multiple decoding steps to predict each diagnosis and hindering reasoning over a large disease vocabulary. To address both challenges, we propose CARing, a framework that represents diagnoses with compositional Semantic IDs (SIDs) and optimizes reasoning trajectories for multi-label coverage. Concretely, we first encode ontology-enriched disease semantics into compact SIDs through residual quantization, and ground the resulting SID tokens in natural language and longitudinal EHR contexts through multi-task alignment and reasoning-enriched training to unlock transferable LLM reasoning. CARing further improves unordered multi-label prediction through a coverage reward for reinforcement learning and multi-positive supervision. At inference time, the model supports both efficient direct constrained decoding and multi-chain reasoning with rank fusion. On MIMIC-III and MIMIC-IV, CARing exceeds all EHR-trained baselines in weighted F1 and attains the highest top-k recall at every reported cutoff, including R@30 of 46.04% and 46.52% in reasoning mode. Our codes and logs are available at https://github.com/zmlxzyh/CARing-Codes-Logs.",
-          "summaryZh": "arXiv:2610.10641v1 公告类型：新\n摘要：大语言模型（LLM）由于能够整合纵向临床证据并以自然语言进行推理，因此为下次就诊诊断预测提供了广阔的前景。然而，LLM 推理的强化学习通常会根据最终答案的正确性来奖励每个轨迹。在下次访问诊断预测中，多个诊断可以同时有效，但每个轨迹独立奖励一个诊断并不能区分重复命中和不同诊断的覆盖范围。因此，该策略可以集中于一些正确的诊断，而忽略其他诊断。同时，LLM 标记器可以将 ICD 代码拆分为多个临床意义有限的通用标记，需要多个解码步骤来预测每个诊断，并阻碍对大量疾病词汇的推理。为了应对这两个挑战，我们提出了 CARing，这是一个用组合语义 ID (SID) 表示诊断并优化多标签覆盖的推理轨迹的框架。具体来说，我们首先通过残差量化将本体丰富的疾病语义编码为紧凑的 SID，并通过多任务对齐和推理丰富的训练将所得的 SID 标记置于自然语言和纵向 EHR 上下文中，以解锁可转移的 LLM 推理。 CARing 通过强化学习和多重正向监督的覆盖奖励进一步改进了无序多标签预测。在推理时，该模型支持高效的直接约束解码和具有秩融合的多链推理。在 MIMIC-III 和 MIMIC-IV 上，CARing 超过了加权 F1 中所有 EHR 训练的基线，并在每个报告的截止点上获得了最高的 top-k 召回率，包括推理模式下的 R@30 为 46.04% 和 46.52%。我们的代码和日志可在 https://github.com/zmlxzyh/CARing-Codes-Logs 上获取。",
-          "publishedAt": "2026-10-09T04:00:00.000Z",
-          "comments": null,
-          "author": "Kaisong Zhang, Haotian Fang, Junmeng Zhou, Hang Lv, Yulan Pan, Yanchao Tan"
-        },
-        {
-          "id": "oai:arXiv.org:2610.10648v1",
-          "title": "Leakage-Controlled Multimodal Learning for Diagnosis and Progression Prediction in Alzheimer's Disease Research",
-          "titleZh": "用于阿尔茨海默病研究中诊断和进展预测的泄漏控制多模态学习",
-          "link": "https://arxiv.org/abs/2610.10648",
-          "summary": "arXiv:2610.10648v1 Announce Type: new\nAbstract: Alzheimer's disease prediction involves irregular visits, heterogeneous measurements and incomplete modalities. This study presents a multimodal multitask framework combining an adapted SFCN MRI encoder, four causal clinical Transformers, shared fusion and task-specific ODE-GRU dynamics. Fine-tuning and LoRA adapt the final two MRI blocks. Task-DRO balances task losses, while Group-CVaR targets cohort and comorbidity strata. Branch-specific input controls, subject-grouped partitions and empirical causality checks support longitudinal evaluation. Across 2,649 subjects and 17,317 visits from ADNI, OASIS-2 and MIRIAD, internal validation yields diagnosis, stage-1 progression and first-stage-1-visit progression AUROCs of 0.935 +/- 0.002, 0.884 +/- 0.003 and 0.870 +/- 0.005, respectively (mean +/- SD across three seeds). Corresponding hybrid AUROCs are 0.951, 0.909 and 0.896. Next-visit MMSE mean absolute error (MAE) is 1.61 points; worst-stratum diagnosis AUROC is 0.827 +/- 0.008. Sampled ADNI explanations identify task-specific input dependence. OASIS-3 external validation yields network and hybrid diagnosis AUROCs of 0.763 and 0.767, hybrid next-visit progression AUROC of 0.764, diagnosis calibration error decreasing from 0.197 to 0.052, and next-visit MMSE MAE of 0.86. Seed-42 paired ablations of six components yield pooled diagnosis and progression AUROC differences between -0.004 and +0.004; removing clinical encoder inputs lowers diagnosis AUROC by 0.272. The framework integrates longitudinal prediction, missing-modality handling, auxiliary comorbidity modelling and subgroup evaluation within a common pipeline.",
-          "summaryZh": "arXiv:2610.10648v1 公告类型：新\n摘要：阿尔茨海默病的预测涉及不规则的就诊、异质的测量和不完整的方式。这项研究提出了一个多模态多任务框架，结合了改编的 SFCN MRI 编码器、四个因果临床 Transformer、共享融合和特定任务的 ODE-GRU 动力学。微调和 LoRA 调整最后两个 MRI 块。 Task-DRO 平衡任务损失，而 Group-CVaR 针对队列和合并症层。特定于部门的输入控制、主题分组分区和实证因果关系检查支持纵向评估。在 ADNI、OASIS-2 和 MIRIAD 的 2,649 名受试者和 17,317 次就诊中，内部验证得出的诊断、1 期进展和第一期 1 就诊进展 AUROC 分别为 0.935 +/- 0.002、0.884 +/- 0.003 和 0.870 +/- 0.005（三个种子的平均值 +/- SD）。相应的混合 AUROC 为 0.951、0.909 和 0.896。下次访问 MMSE 平均绝对误差 (MAE) 为 1.61 分；最差层诊断 AUROC 为 0.827 +/- 0.008。采样的 ADNI 解释可识别特定于任务的输入依赖性。 OASIS-3 外部验证产生的网络和混合诊断 AUROC 分别为 0.763 和 0.767，混合下次访问进展 AUROC 为 0.764，诊断校准误差从 0.197 下降到 0.052，下次访问 MMSE MAE 为 0.86。六种成分的 Seed-42 配对消融产生的汇总诊断和进展 AUROC 差异在 -0.004 和 +0.004 之间；删除临床编码器输入会使诊断 AUROC 降低 0.272。该框架将纵向预测、缺失模态处理、辅助合并症建模和亚组评估集成在一个通用流程中。",
-          "publishedAt": "2026-10-09T04:00:00.000Z",
-          "comments": null,
-          "author": "Akeem Temitope Otapo, Ghazaleh Khodabandelou, Zuheng Ming, Alice Othmani"
-        },
-        {
-          "id": "oai:arXiv.org:2610.10651v1",
-          "title": "Beyond the Ergodic Wall: A Discrete Geometric Physics Sandbox for Analysing AI Scaling Limits and Complexity Collapse",
-          "titleZh": "超越遍历墙：用于分析 AI 扩展限制和复杂性崩溃的离散几何物理沙箱",
-          "link": "https://arxiv.org/abs/2610.10651",
-          "summary": "arXiv:2610.10651v1 Announce Type: new\nAbstract: This paper exposes the ergodic ceiling and thermodynamic inefficiency of current deep learning, which converges to a statistical average of historic human knowledge. True semantic novelty requires a path-dependent, spatiotemporally bounded observer (a Data LifeCone) to inject non-ergodic insight, achieving KL divergence and avoiding manifold lock-in. AI Safety must recognise that a mature Artificial Superintelligence (ASI) would regard human-AI symbiosis as a thermodynamic necessity to avoid model collapse. We therefore propose hard physical containment via a digital physics sandbox powered by a Holographic E8 Projection Engine to verify models against real-world constraints. Spacetime is modeled as an information substrate of nested face-centered cubic (FCC) lattices of oscillating Planck-scale spheres maximizing local information and entropy density. Cut-and-project methods from the E8 root lattice produce a quasi-crystalline geometry where tetrahedral voids support SU chiral structure and elastic-shear eigenvalues generate candidate mass spectra. Rest mass is treated as discrete, integer microstate counts on local holographic boundaries (Bekenstein bound), replacing floating-point approximations with strict integer arithmetic to provide an information-theoretic definition of matter. Stable particles emerge as recurring lattice dislocations, and continuum recovery proceeds via variational renormalisation-group flows and Fourier Neural Operators that learn continuous spectral operators to recover the Schr\\\"odinger equation as an emergent statistical description. Crucially, these top-down topological constraints offer a mechanism for \"NP-to-P\" complexity collapse: by restricting an algorithm's proposal space to physically conserved causal trajectories, the sandbox prunes the combinatorial tree to deterministic, polynomial-time paths.",
-          "summaryZh": "arXiv:2610.10651v1 公告类型：新\n摘要：本文揭示了当前深度学习的遍历上限和热力学低效率，其收敛于人类历史知识的统计平均值。真正的语义新颖性需要一个路径依赖的、时空有界的观察者（Data LifeCone）来注入非遍历洞察力，实现 KL 散度并避免流形锁定。人工智能安全必须认识到，成熟的人工智能（ASI）会将人类与人工智能的共生视为避免模型崩溃的热力学必要性。因此，我们建议通过由全息 E8 投影引擎提供支持的数字物理沙箱进行硬物理遏制，以根据现实世界的约束验证模型。时空被建模为振荡普朗克尺度球体的嵌套面心立方 (FCC) 晶格的信息基底，最大化局部信息和熵密度。 E8 根晶格的切割和投影方法产生准晶体几何结构，其中四面体空隙支持 SU 手性结构，弹性剪切特征值生成候选质谱。静止质量被视为局部全息边界（贝肯斯坦边界）上的离散整数微状态计数，用严格的整数算术取代浮点近似，以提供物质的信息论定义。稳定粒子以反复出现的晶格位错的形式出现，连续体恢复通过变分重正化群流和傅里叶神经算子进行，傅里叶神经算子学习连续谱算子以将薛定格方程恢复为新兴的统计描述。至关重要的是，这些自上而下的拓扑约束提供了“NP到P”复杂性崩溃的机制：通过将算法的建议空间限制为物理上守恒的因果轨迹，沙箱修剪了组合树确定性的多项式时间路径。",
-          "publishedAt": "2026-10-09T04:00:00.000Z",
-          "comments": null,
-          "author": "Simon Richard Daniel"
-        }
-      ]
+      "fetchedAt": "2026-10-10T11:44:51.364Z",
+      "count": 0,
+      "items": []
     }
   ]
 }
