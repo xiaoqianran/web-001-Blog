@@ -1,0 +1,425 @@
+{
+  "source": "huggingface.co/api/daily_papers",
+  "attribution": "Data from Hugging Face Daily Papers (community curation). All rights belong to the original authors. Chinese text is machine-translated.",
+  "fetchedAt": "2026-10-11T14:39:49.676Z",
+  "date": "2026-10-11",
+  "sort": "trending",
+  "count": 15,
+  "locale": {
+    "summaryDefault": "zh",
+    "translated": true
+  },
+  "papers": [
+    {
+      "id": "2609.18063",
+      "title": "The Other Half of the Memory Wall: Serving 35B MoEs from SSD with Trained Routing Prediction",
+      "summary": "Mixture-of-experts (MoE) inference on consumer hardware is bounded by weight memory: a 35B-class model is 19.5GB at 4-bit, and sparsity shrinks the compute per token, not the bytes that must be held. Naive offloading to SSD does not help on its own, because layer N+1's experts must be chosen before layer N's output exists, so the reads cannot start early enough to hide behind compute. We present Edge0, a streaming MoE inference engine that closes the gap with a prerouter: a per-layer head predicts the next layer's routing one token ahead, and the prediction is consumed as the routing itself, so the staged expert set equals the routed set and nothing is dropped. An unmerged recovery LoRA, trained on the student path, pays back the quality lost to int4 quantization and routing replacement. On a single 24GB machine, Edge0\n  serves a 35B MoE at 20tok/s inside 3GiB of peak active memory, within a few points of its fp16 teacher on average across five public benchmarks. An 8B tier runs on the same framework, and the framework, checkpoints, and adapters are open source.",
+      "summaryZh": "消费者硬件上的专家混合 (MoE) 推理受到权重内存的限制：35B 级模型在 4 位时为 19.5GB，稀疏性会缩小每个令牌的计算量，而不是必须保存的字节数。单纯卸载到 SSD 本身并没有什么帮助，因为必须在 N 层输出存在之前选择 N+1 层的专家，因此读取不能太早开始以隐藏在计算后面。我们提出了 Edge0，一个流式 MoE 推理引擎，它缩小了与预路由器的差距：每层头提前一个令牌预测下一层的路由，并且预测被用作路由本身，因此分阶段专家集等于路由集，并且不会丢失任何内容。未合并的恢复 LoRA，在学生路径上进行训练，弥补了 int4 量化和路由替换造成的质量损失。在单个 24GB 机器上，Edge0\n  在 3GiB 峰值活动内存内以 20tok/s 的速度提供 35B MoE，在五个公共基准测试中，其 fp16 老师的平均值仅相差几个点。 8B 层运行在同一框架上，并且框架、检查点和适​​配器都是开源的。",
+      "titleZh": "内存墙的另一半：通过经过训练的路由预测从 SSD 为 35B MoE 提供服务",
+      "authors": [
+        "Yu Lin",
+        "Yiming Wang",
+        "Runyuan Cai",
+        "Hanze Liu",
+        "Xiaodong Zeng"
+      ],
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-09-17T00:00:00.000Z",
+      "submitter": "bupalinyu",
+      "upvotes": 26,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2609.18063",
+        "arxiv": "https://arxiv.org/abs/2609.18063",
+        "pdf": "https://arxiv.org/pdf/2609.18063"
+      }
+    },
+    {
+      "id": "2610.08699",
+      "title": "nanoMuse: An Open-Source Personal Agent for Every Device You Own",
+      "summary": "Assistants from 2011 answered and waited, and agents from 2023 did a task and stopped. In September 2026 Meta's Muse showed an agent for one person, with accounts, devices, memory and a conversation that lasts, closed, in a vendor's cloud, in one country. Such an agent is expected to act on a person's accounts and devices, remember them across weeks, speak first when it is worth it, and answer for what it did. It is a kind of software, not a model, and until now had no open counterpart. This report defines the personal agent in five questions and three horizons. It reads how Muse is built from Meta's public record and a copy of its production prompt, each statement marked by its source. It then presents nanoMuse, the open-source counterpart under the GPL-3.0, one agent on every device a person owns, with hands on the phone's screen and the computer's. They share one conversation over a relay anyone can run; every action goes through a Sentinel, memory is files the person can read, and the model is their choice. Its size and cost are given as estimates. What is open, memory with provenance, an evaluation suite for the hands and an open model for them, is set out as a roadmap.",
+      "summaryZh": "2011 年的助理接听并等待，2023 年的客服人员完成任务后停下来。 2026 年 9 月，Meta 的 Muse 展示了一个人的代理，拥有账户、设备、内存和在一个国家的供应商云中持续、封闭的对话。这样的代理应该对一个人的账户和设备采取行动，在数周内记住它们，在值得的时候首先发言，并对其所做的事情负责。它是一种软件，而不是一种模型，并且迄今为止还没有开放的对应产品。本报告从五个问题和三个视野对个人代理人进行了定义。它读取了 Muse 是如何根据 Meta 的公共记录及其生产提示的副本构建的，每个语句都标有其来源。然后介绍了 nanoMuse，这是 GPL-3.0 下的开源对应产品，一个人拥有的每台设备上都有一个代理，可以将手放在手机屏幕和计算机屏幕上。他们通过任何人都可以运行的中继共享一次对话；每个动作都会经过哨兵，内存是人们可以读取的文件，模型是他们的选择。其尺寸和成本仅作为估计值给出。什么是开放的、有来源的记忆、针对双手的评估套件以及针对它们的开放模型，被作为路线图列出。",
+      "titleZh": "nanoMuse：适用于您拥有的每台设备的开源个人代理",
+      "authors": [
+        "Guangyi Liu",
+        "Yong Liu",
+        "Jiangning Zhang"
+      ],
+      "publishedAt": "2026-10-06T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-10-08T00:00:00.000Z",
+      "submitter": "lgy0404",
+      "upvotes": 101,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2610.08699",
+        "arxiv": "https://arxiv.org/abs/2610.08699",
+        "pdf": "https://arxiv.org/pdf/2610.08699"
+      }
+    },
+    {
+      "id": "2604.14141",
+      "title": "Geometric Context Transformer for Streaming 3D Reconstruction",
+      "summary": "Streaming 3D reconstruction aims to recover 3D information, such as camera poses and point clouds, from a video stream, which necessitates geometric accuracy, temporal\n  consistency, and computational efficiency. Motivated by the principles of Simultaneous Localization and Mapping (SLAM), we introduce LingBot-Map, a feed-forward 3D foundation\n  model for reconstructing scenes from streaming data, built upon a geometric context transformer (GCT) architecture. A defining aspect of LingBot-Map lies in its carefully\n  designed attention mechanism, which integrates an anchor context, a pose-reference window, and a trajectory memory to address coordinate grounding, dense geometric cues, and\n  long-range drift correction, respectively. This design keeps the streaming state compact while retaining rich geometric context, enabling stable efficient inference at around\n  20 FPS on 518 x 378 resolution inputs over long sequences exceeding 10,000 frames. Extensive evaluations across a variety of benchmarks demonstrate that our approach\n  achieves superior performance compared to both existing streaming and iterative optimization-based approaches.",
+      "summaryZh": "流式 3D 重建旨在从视频流中恢复 3D 信息，例如相机姿态和点云，这需要几何精度、时间精度\n  一致性和计算效率。受同步定位与建图 (SLAM) 原理的启发，我们推出了 LingBot-Map，一种前馈 3D 基础\n  用于从流数据重建场景的模型，建立在几何上下文变换器（GCT）架构之上。 LingBot-Map 的一个决定性方面在于它的精心设计\n  设计了注意力机制，它集成了锚上下文、姿势参考窗口和轨迹记忆来解决坐标基础、密集的几何线索和\n  分别进行长程漂移校正。这种设计保持流状态紧凑，同时保留丰富的几何上下文，从而能够在大约\n  在超过 10,000 帧的长序列上，在 518 x 378 分辨率输入上达到 20 FPS。跨各种基准的广泛评估表明我们的方法\n  与现有的流式传输和基于迭代优化的方法相比，实现了卓越的性能。",
+      "titleZh": "用于流式 3D 重建的几何上下文转换器",
+      "authors": [
+        "Lin-Zhuo Chen",
+        "Jian Gao",
+        "Yihang Chen",
+        "Ka Leong Cheng",
+        "Yipengjing Sun",
+        "Liangxiao Hu",
+        "Nan Xue",
+        "Xing Zhu",
+        "Yujun Shen",
+        "Yao Yao",
+        "Yinghao Xu"
+      ],
+      "publishedAt": "2026-04-15T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-04-16T00:00:00.000Z",
+      "submitter": "nielsr",
+      "upvotes": 39,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2604.14141",
+        "arxiv": "https://arxiv.org/abs/2604.14141",
+        "pdf": "https://arxiv.org/pdf/2604.14141"
+      }
+    },
+    {
+      "id": "1910.03771",
+      "title": "HuggingFace's Transformers: State-of-the-art Natural Language Processing",
+      "summary": "Recent progress in natural language processing has been driven by advances in\nboth model architecture and model pretraining. Transformer architectures have\nfacilitated building higher-capacity models and pretraining has made it\npossible to effectively utilize this capacity for a wide variety of tasks.\nTransformers is an open-source library with the goal of opening up\nthese advances to the wider machine learning community. The library consists of\ncarefully engineered state-of-the art Transformer architectures under a unified\nAPI. Backing this library is a curated collection of pretrained models made by\nand available for the community. Transformers is designed to be\nextensible by researchers, simple for practitioners, and fast and robust in\nindustrial deployments. The library is available at\nhttps://github.com/huggingface/transformers.",
+      "summaryZh": "自然语言处理的最新进展是由以下方面的进步推动的\n模型架构和模型预训练。 Transformer 架构有\n促进构建更高容量的模型，预训练使其成为可能\n可以有效地利用这种能力来完成各种任务。\nTransformers 是一个开源库，目标是开放\n这些进步将惠及更广泛的机器学习社区。图书馆包括\n在统一的架构下精心设计最先进的 Transformer 架构\nAPI。支持该库的是由以下人员制作的精选预训练模型集合\n并可供社区使用。变压器的设计目的是\n可由研究人员扩展，对实践者来说简单，并且快速且稳健\n产业部署。该图书馆位于\nhttps://github.com/huggingface/transformers。",
+      "titleZh": "HuggingFace 的 Transformers：最先进的自然语言处理",
+      "authors": [
+        "Thomas Wolf",
+        "Lysandre Debut",
+        "Victor Sanh",
+        "Julien Chaumond",
+        "Clement Delangue",
+        "Anthony Moi",
+        "Pierric Cistac",
+        "Tim Rault",
+        "Rémi Louf",
+        "Morgan Funtowicz",
+        "Joe Davison",
+        "Sam Shleifer"
+      ],
+      "publishedAt": "2019-10-09T03:23:22.000Z",
+      "submittedOnDailyAt": "2019-10-08T23:23:22.000Z",
+      "submitter": null,
+      "upvotes": 33,
+      "urls": {
+        "hf": "https://huggingface.co/papers/1910.03771",
+        "arxiv": "https://arxiv.org/abs/1910.03771",
+        "pdf": "https://arxiv.org/pdf/1910.03771"
+      }
+    },
+    {
+      "id": "2609.33757",
+      "title": "YuE2: Unifying Symbolic and Audio Music Generation at Frontier Quality",
+      "summary": "Symbolic models make melody, harmony, rhythm, and form explicit but typically stop before a finished recording; audio models produce complete songs while leaving composition implicit. We introduce YuE2, which unifies symbolic and audio music generation at frontier quality through symbolic planning. A single AR-NAR Mixture-of-Transformers (MoT) first writes a readable score specifying melody and harmony, expands it into semantic music tokens, and realizes it as full-song audio. In comparisons using the same checkpoint, experts prefer symbolic planning for overall quality and musicality, with 49.3% of overall preferences versus 34.6% without planning. Experts also favor the unified model over a separate language model and diffusion Transformer. On WildSongBench, YuE2 scores 6.73 on SongBench Global Avg, exceeding all evaluated public baselines. Selecting from eight candidates (best-of-8), YuE2 reaches 6.96, the highest observed mean among all evaluated systems. Expert listening further establishes its competitiveness with proprietary song generators, favoring best-of-8 over Suno v4.5 and yielding nearly balanced preferences against Suno v5. To learn this generation process from recordings without aligned scores, we introduce MERT2 and SheetSage2 to supply semantic and symbolic supervision. MERT2 sets a new state of the art in music representation learning, surpassing previous best results on 14 of 15 MARBLE metrics; SheetSage2 leads 12 of 15 benchmark-metric pairs in our lead-sheet transcription comparison. The same checkpoint follows score edits while largely preserving unedited musical content and generates zero-shot covers without cover-specific training. Its readable score also enables agentic music editing, with external language models translating user feedback into revisions of the composition.",
+      "summaryZh": "符号模型使旋律、和声、节奏和形式变得清晰，但通常在完成录音之前就停止了；音频模型生成完整的歌曲，同时隐式地保留作曲。我们推出 YuE2，它通过符号规划以前沿质量统一符号和音频音乐生成。单个 AR-NAR Mixture-of-Transformers (MoT) 首先编写一个可读的乐谱，指定旋律和和声，将其扩展为语义音乐标记，并将其实现为整首歌曲音频。在使用相同检查点的比较中，专家们更喜欢对整体质量和音乐性进行符号规划，总体偏好的比例为 49.3%，而没有规划的比例为 34.6%。专家们还青睐统一模型而不是单独的语言模型和扩散 Transformer。在 WildSongBench 上，YuE2 在 SongBench Global Avg 上的得分为 6.73，超过了所有评估的公共基线。 YuE2 从 8 个候选系统中进行选择（8 个中最好），达到 6.96，这是所有评估系统中观察到的最高平均值。专家聆听进一步确立了其与专有歌曲生成器的竞争力，与 Suno v4.5 相比，更倾向于 8 局最佳，并且与 Suno v5 相比，产生几乎平衡的偏好。为了从没有对齐分数的录音中学习这个生成过程，我们引入了 MERT2 和 SheetSage2 来提供语义和符号监督。 MERT2 在音乐表征学习方面树立了新的技术水平，在 15 个 MARBLE 指标中的 14 个指标上超越了之前的最佳结果；在我们的主要表转录比较中，SheetSage2 领先 15 个基准指标对中的 12 个。相同的检查点遵循乐谱编辑，同时在很大程度上保留未经编辑的音乐内容，并生成零镜头封面，无需封面特定的训练。其可读的乐谱还可以实现代理音乐编辑，外部语言模型可以将用户反馈转化为乐曲的修订。",
+      "titleZh": "YuE2：以前沿质量统一符号和音频音乐生成",
+      "authors": [
+        "Ruibin Yuan",
+        "Jiahao Pan",
+        "Junyan Jiang",
+        "Zhiyue Wu",
+        "Ziya Zhou",
+        "Jiankai Sun",
+        "Yizhi Li",
+        "Ge Zhang",
+        "Yicheng Gu",
+        "Zeyue Tian",
+        "Junyu Dai",
+        "Hanfeng Lin"
+      ],
+      "publishedAt": "2026-09-27T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-09-29T00:00:00.000Z",
+      "submitter": "a43992899",
+      "upvotes": 233,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2609.33757",
+        "arxiv": "https://arxiv.org/abs/2609.33757",
+        "pdf": "https://arxiv.org/pdf/2609.33757"
+      }
+    },
+    {
+      "id": "2412.20138",
+      "title": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "summary": "Significant progress has been made in automated problem-solving using\nsocieties of agents powered by large language models (LLMs). In finance,\nefforts have largely focused on single-agent systems handling specific tasks or\nmulti-agent frameworks independently gathering data. However, the multi-agent\nsystems' potential to replicate real-world trading firms' collaborative\ndynamics remains underexplored. TradingAgents proposes a novel stock trading\nframework inspired by trading firms, featuring LLM-powered agents in\nspecialized roles such as fundamental analysts, sentiment analysts, technical\nanalysts, and traders with varied risk profiles. The framework includes Bull\nand Bear researcher agents assessing market conditions, a risk management team\nmonitoring exposure, and traders synthesizing insights from debates and\nhistorical data to make informed decisions. By simulating a dynamic,\ncollaborative trading environment, this framework aims to improve trading\nperformance. Detailed architecture and extensive experiments reveal its\nsuperiority over baseline models, with notable improvements in cumulative\nreturns, Sharpe ratio, and maximum drawdown, highlighting the potential of\nmulti-agent LLM frameworks in financial trading. TradingAgents is available at\nhttps://github.com/TauricResearch/TradingAgents.",
+      "summaryZh": "使用自动化解决问题取得了重大进展\n由大型语言模型 (LLM) 提供支持的代理协会。在金融领域，\n工作主要集中在处理特定任务的单代理系统或\n多代理框架独立收集数据。然而，多代理\n系统复制现实世界贸易公司协作的潜力\n动力学仍有待探索。 TradingAgents 提出了一种新颖的股票交易方式\n受贸易公司启发的框架，以法学硕士支持的代理为特色\n专业角色，例如基本面分析师、情绪分析师、技术分析师\n具有不同风险状况的分析师和交易员。该框架包括 Bull\n贝尔斯登研究人员评估市场状况，风险管理团队\n监控风险敞口，交易者从辩论中综合见解\n历史数据以做出明智的决策。通过模拟动态，\n协作交易环境，该框架旨在改善交易\n性能。详细的架构和广泛的实验揭示了它的\n优于基线模型，累积显着改进\n回报率、夏普比率和最大回撤，凸显了\n金融交易中的多代理法学硕士框架。交易代理可在\nhttps://github.com/TauricResearch/TradingAgents。",
+      "titleZh": "TradingAgents：多代理LLM金融交易框架",
+      "authors": [
+        "Yijia Xiao",
+        "Edward Sun",
+        "Di Luo",
+        "Wei Wang"
+      ],
+      "publishedAt": "2024-12-28T12:54:06.000Z",
+      "submittedOnDailyAt": "2024-12-28T07:54:06.000Z",
+      "submitter": null,
+      "upvotes": 151,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2412.20138",
+        "arxiv": "https://arxiv.org/abs/2412.20138",
+        "pdf": "https://arxiv.org/pdf/2412.20138"
+      }
+    },
+    {
+      "id": "2006.15704",
+      "title": "PyTorch Distributed: Experiences on Accelerating Data Parallel Training",
+      "summary": "This paper presents the design, implementation, and evaluation of the PyTorch\ndistributed data parallel module. PyTorch is a widely-adopted scientific\ncomputing package used in deep learning research and applications. Recent\nadvances in deep learning argue for the value of large datasets and large\nmodels, which necessitates the ability to scale out model training to more\ncomputational resources. Data parallelism has emerged as a popular solution for\ndistributed training thanks to its straightforward principle and broad\napplicability. In general, the technique of distributed data parallelism\nreplicates the model on every computational resource to generate gradients\nindependently and then communicates those gradients at each iteration to keep\nmodel replicas consistent. Despite the conceptual simplicity of the technique,\nthe subtle dependencies between computation and communication make it\nnon-trivial to optimize the distributed training efficiency. As of v1.5,\nPyTorch natively provides several techniques to accelerate distributed data\nparallel, including bucketing gradients, overlapping computation with\ncommunication, and skipping gradient synchronization. Evaluations show that,\nwhen configured appropriately, the PyTorch distributed data parallel module\nattains near-linear scalability using 256 GPUs.",
+      "summaryZh": "本文介绍了 PyTorch 的设计、实现和评估\n分布式数据并行模块。 PyTorch 是一种广泛采用的科学工具\n用于深度学习研究和应用的计算包。最近\n深度学习的进步证明了大数据集和大数据的价值\n模型，这需要能够将模型训练扩展到更多\n计算资源。数据并行已成为一种流行的解决方案\n分布式训练由于其简单的原理和广泛的\n适用性。总的来说，分布式数据并行技术\n在每个计算资源上复制模型以生成梯度\n独立地，然后在每次迭代时传达这些梯度以保持\n模型复制品一致。尽管该技术的概念很简单，\n计算和通信之间微妙的依赖关系使得\n优化分布式训练效率并非易事。从 v1.5 开始，\nPyTorch 本身提供了多种加速分布式数据的技术\n并行，包括分桶梯度、重叠计算\n通信和跳过梯度同步。评价表明，\n当配置正确时，PyTorch 分布式数据并行模块\n使用 256 个 GPU 实现近线性可扩展性。",
+      "titleZh": "PyTorch分布式：加速数据并行训练的经验",
+      "authors": [
+        "Shen Li",
+        "Yanli Zhao",
+        "Rohan Varma",
+        "Omkar Salpekar",
+        "Pieter Noordhuis",
+        "Teng Li",
+        "Adam Paszke",
+        "Jeff Smith",
+        "Brian Vaughan",
+        "Pritam Damania",
+        "Soumith Chintala"
+      ],
+      "publishedAt": "2020-06-28T20:39:45.000Z",
+      "submittedOnDailyAt": "2020-06-28T16:39:45.000Z",
+      "submitter": null,
+      "upvotes": 13,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2006.15704",
+        "arxiv": "https://arxiv.org/abs/2006.15704",
+        "pdf": "https://arxiv.org/pdf/2006.15704"
+      }
+    },
+    {
+      "id": "2407.16741",
+      "title": "OpenDevin: An Open Platform for AI Software Developers as Generalist\n  Agents",
+      "summary": "Software is one of the most powerful tools that we humans have at our\ndisposal; it allows a skilled programmer to interact with the world in complex\nand profound ways. At the same time, thanks to improvements in large language\nmodels (LLMs), there has also been a rapid development in AI agents that\ninteract with and affect change in their surrounding environments. In this\npaper, we introduce OpenDevin, a platform for the development of powerful and\nflexible AI agents that interact with the world in similar ways to those of a\nhuman developer: by writing code, interacting with a command line, and browsing\nthe web. We describe how the platform allows for the implementation of new\nagents, safe interaction with sandboxed environments for code execution,\ncoordination between multiple agents, and incorporation of evaluation\nbenchmarks. Based on our currently incorporated benchmarks, we perform an\nevaluation of agents over 15 challenging tasks, including software engineering\n(e.g., SWE-Bench) and web browsing (e.g., WebArena), among others. Released\nunder the permissive MIT license, OpenDevin is a community project spanning\nacademia and industry with more than 1.3K contributions from over 160\ncontributors and will improve going forward.",
+      "summaryZh": "软件是我们人类拥有的最强大的工具之一\n处置；它允许熟练的程序员以复杂的方式与世界互动\n和深刻的方法。同时得益于大语言的改进\n模型（法学硕士），人工智能代理也得到了快速发展，\n与周围环境相互作用并影响其变化。在这\n论文中，我们介绍了 OpenDevin，一个用于开发功能强大且\n灵活的人工智能代理，以类似于人类的方式与世界互动\n人类开发人员：通过编写代码、与命令行交互和浏览\n网络。我们描述了该平台如何允许实施新的\n代理，与沙盒环境安全交互以执行代码，\n多个主体之间的协调以及评估的结合\n基准。根据我们当前纳入的基准，我们执行\n对代理进行超过 15 项挑战性任务的评估，包括软件工程\n（例如，SWE-Bench）和网页浏览（例如，WebArena）等。已发布\n在 MIT 许可下，OpenDevin 是一个社区项目，涵盖\n学术界和工业界超过 160 人做出了超过 1,300 份贡献\n贡献者并将继续改进。",
+      "titleZh": "OpenDevin：面向多面手的人工智能软件开发人员的开放平台\n  代理商",
+      "authors": [
+        "Xingyao Wang",
+        "Boxuan Li",
+        "Yufan Song",
+        "Frank F. Xu",
+        "Xiangru Tang",
+        "Mingchen Zhuge",
+        "Jiayi Pan",
+        "Yueqi Song",
+        "Bowen Li",
+        "Jaskirat Singh",
+        "Hoang H. Tran",
+        "Fuqiang Li"
+      ],
+      "publishedAt": "2024-07-23T17:50:43.000Z",
+      "submittedOnDailyAt": "2024-07-25T00:00:00.000Z",
+      "submitter": "akhaliq",
+      "upvotes": 90,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2407.16741",
+        "arxiv": "https://arxiv.org/abs/2407.16741",
+        "pdf": "https://arxiv.org/pdf/2407.16741"
+      }
+    },
+    {
+      "id": "2309.06180",
+      "title": "Efficient Memory Management for Large Language Model Serving with\n  PagedAttention",
+      "summary": "High throughput serving of large language models (LLMs) requires batching\nsufficiently many requests at a time. However, existing systems struggle\nbecause the key-value cache (KV cache) memory for each request is huge and\ngrows and shrinks dynamically. When managed inefficiently, this memory can be\nsignificantly wasted by fragmentation and redundant duplication, limiting the\nbatch size. To address this problem, we propose PagedAttention, an attention\nalgorithm inspired by the classical virtual memory and paging techniques in\noperating systems. On top of it, we build vLLM, an LLM serving system that\nachieves (1) near-zero waste in KV cache memory and (2) flexible sharing of KV\ncache within and across requests to further reduce memory usage. Our\nevaluations show that vLLM improves the throughput of popular LLMs by\n2-4times with the same level of latency compared to the state-of-the-art\nsystems, such as FasterTransformer and Orca. The improvement is more pronounced\nwith longer sequences, larger models, and more complex decoding algorithms.\nvLLM's source code is publicly available at\nhttps://github.com/vllm-project/vllm",
+      "summaryZh": "大型语言模型 (LLM) 的高吞吐量服务需要批处理\n一次有足够多的请求。然而，现有系统却举步维艰\n因为每个请求的键值缓存（KV缓存）内存巨大并且\n动态增长和收缩。当管理效率低下时，该内存可能会被\n碎片和冗余重复造成了极大的浪费，限制了\n批量大小。为了解决这个问题，我们提出PagedAttention，一个注意力机制\n算法的灵感来自于经典的虚拟内存和分页技术\n操作系统。在此基础上，我们构建了 vLLM，一个 LLM 服务系统，\n实现 (1) KV 缓存内存近乎零浪费和 (2) KV 灵活共享\n在请求内和请求之间进行缓存，以进一步减少内存使用。我们的\n评估表明，vLLM 通过以下方式提高了流行 LLM 的吞吐量：\n与最先进的技术相比，相同延迟水平下的 2-4 倍\n系统，例如 FasterTransformer 和 Orca。改善效果更加明显\n具有更长的序列、更大的模型和更复杂的解码算法。\nvLLM 的源代码可在以下位置公开获取：\nhttps://github.com/vllm-project/vllm",
+      "titleZh": "大型语言模型的高效内存管理\n  分页注意力",
+      "authors": [
+        "Woosuk Kwon",
+        "Zhuohan Li",
+        "Siyuan Zhuang",
+        "Ying Sheng",
+        "Lianmin Zheng",
+        "Cody Hao Yu",
+        "Joseph E. Gonzalez",
+        "Hao Zhang",
+        "Ion Stoica"
+      ],
+      "publishedAt": "2023-09-12T12:50:04.000Z",
+      "submittedOnDailyAt": "2023-09-13T00:00:00.000Z",
+      "submitter": "akhaliq",
+      "upvotes": 77,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2309.06180",
+        "arxiv": "https://arxiv.org/abs/2309.06180",
+        "pdf": "https://arxiv.org/pdf/2309.06180"
+      }
+    },
+    {
+      "id": "2609.33325",
+      "title": "VisionHOPE: Visual Backbones as Self-Modifying Learning Systems",
+      "summary": "Visual backbones have evolved from Convolutional Neural Networks (CNNs) with local aggregation to Vision Transformers (ViTs) with global interactions, State-Space Models (SSMs) with input-dependent state transitions, and Test-Time Training (TTT) layers that adapt an inner learner while processing an image. Across this progression, visual computation has become increasingly adaptive to each input, yet the rules governing that adaptation remain largely prescribed by the trained backbone. We introduce VisionHOPE, the first generic visual backbone formulated as a self-modifying learning system, in which what the model remembers and how it learns co-evolve within an image. Building on the self-referential construction of Nested Learning (NL), VisionHOPE realizes this co-evolution through five coupled memories that store content, generate key and value representations, and govern learning rate and retention. These memories evolve jointly as visual context accumulates along each scan. However, directly applying the unconstrained self-referential update to a visual backbone leads to instability. We therefore derive a stability-matched step-size control scheme that combines a soft cap on self-referential injection with a spectral clamp on the retained memory transition, and prove that the resulting memory dynamics are non-expansive along each scan. For two-dimensional feature maps, we adapt NL's chunk formulation by aligning chunks with image rows and columns across four directional scans. The proposed VisionHOPE achieves competitive results on ImageNet-1K, COCO, and ADE20K, establishing self-modifying learning systems as a practical foundation for general-purpose visual backbones. The code is available at https://github.com/PSRben/VisionHOPE.",
+      "summaryZh": "视觉主干已经从具有局部聚合的卷积神经网络 (CNN) 发展到具有全局交互的视觉变换器 (ViT)、具有依赖于输入的状态转换的状态空间模型 (SSM) 以及在处理图像时适应内部学习器的测试时训练 (TTT) 层。在这一过程中，视觉计算已经变得越来越适应每个输入，但控制这种适应的规则在很大程度上仍然是由受过训练的骨干规定的。我们推出了 VisionHOPE，这是第一个通用视觉主干，被制定为自我修改学习系统，其中模型记住的内容和学习的方式在图像中共同进化。 VisionHOPE 基于嵌套学习 (NL) 的自参照构建，通过五个耦合记忆来存储内容、生成键和值表示以及控制学习率和保留率，从而实现这种共同进化。这些记忆随着每次扫描中视觉背景的积累而共同演变。然而，直接将无约束的自引用更新应用于视觉主干会导致不稳定。因此，我们推导了一种稳定性匹配的步长控制方案，该方案将自引用注入的软上限与保留的内存转换上的频谱钳位相结合，并证明所产生的内存动态在每次扫描中都是非扩展的。对于二维特征图，我们通过将块与四个方向扫描中的图像行和列对齐来调整 NL 的块公式。所提出的 VisionHOPE 在 ImageNet-1K、COCO 和 ADE20K 上取得了有竞争力的结果，建立了自修改学习系统作为通用视觉主干的实用基础。代码可在 https://github.com/PSRben/VisionHOPE 获取。",
+      "titleZh": "VisionHOPE：视觉骨干作为自我修改学习系统",
+      "authors": [
+        "Siran Peng",
+        "Tianshuo Zhang",
+        "Tianyu Fu",
+        "Weisong Zhao",
+        "Haoyuan Zhang",
+        "Jiankuo Zhao",
+        "Minghui Wu",
+        "Ping Jiang",
+        "Xiangyu Zhu",
+        "Chenxu Zhao",
+        "Zhen Lei"
+      ],
+      "publishedAt": "2026-09-27T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-09-29T00:00:00.000Z",
+      "submitter": "PSRben",
+      "upvotes": 341,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2609.33325",
+        "arxiv": "https://arxiv.org/abs/2609.33325",
+        "pdf": "https://arxiv.org/pdf/2609.33325"
+      }
+    },
+    {
+      "id": "2508.02739",
+      "title": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "summary": "The success of large-scale pre-training paradigm, exemplified by Large\nLanguage Models (LLMs), has inspired the development of Time Series Foundation\nModels (TSFMs). However, their application to financial candlestick (K-line)\ndata remains limited, often underperforming non-pre-trained architectures.\nMoreover, existing TSFMs often overlook crucial downstream tasks such as\nvolatility prediction and synthetic data generation. To address these\nlimitations, we propose Kronos, a unified, scalable pre-training framework\ntailored to financial K-line modeling. Kronos introduces a specialized\ntokenizer that discretizes continuous market information into token sequences,\npreserving both price dynamics and trade activity patterns. We pre-train Kronos\nusing an autoregressive objective on a massive, multi-market corpus of over 12\nbillion K-line records from 45 global exchanges, enabling it to learn nuanced\ntemporal and cross-asset representations. Kronos excels in a zero-shot setting\nacross a diverse set of financial tasks. On benchmark datasets, Kronos boosts\nprice series forecasting RankIC by 93% over the leading TSFM and 87% over the\nbest non-pre-trained baseline. It also achieves a 9% lower MAE in volatility\nforecasting and a 22% improvement in generative fidelity for synthetic K-line\nsequences. These results establish Kronos as a robust, versatile foundation\nmodel for end-to-end financial time series analysis. Our pre-trained model is\npublicly available at https://github.com/shiyu-coder/Kronos.",
+      "summaryZh": "大规模预训练范式的成功，以 Large 为例\n语言模型（LLM）启发了时间序列基金会的发展\n模型 (TSFM)。然而，它们在金融烛台（K 线）中的应用\n数据仍然有限，通常表现不佳非预先训练的架构。\n此外，现有的 TSFM 常常忽视关键的下游任务，例如\n波动率预测和合成数据生成。为了解决这些\n针对局限性，我们提出了 Kronos，一个统一的、可扩展的预训练框架\n为金融K线建模量身定制。 Kronos 推出了专门的\n标记器将连续的市场信息离散化为标记序列，\n保持价格动态和贸易活动模式。我们预训练 Kronos\n在超过 12 个的庞大、多市场语料库上使用自回归目标\n全球45家交易所十亿K线记录，细致入微\n时间和跨资产表示。 Kronos 擅长零射击设置\n跨越一系列不同的财务任务。在基准数据集上，Kronos 有所提升\n价格系列预测 RankIC 比领先的 TSFM 高 93%，比领先的 TSFM 高 87%\n最佳非预训练基线。它还实现了波动性 MAE 降低 9%\n预测，合成 K 线的生成保真度提高 22%\n序列。这些结果使 Kronos 成为一个强大、多功能的基础\n端到端金融时间序列分析模型。我们的预训练模型是\n可在 https://github.com/shiyu-coder/Kronos 公开获取。",
+      "titleZh": "Kronos：金融市场语言的基础模型",
+      "authors": [
+        "Yu Shi",
+        "Zongliang Fu",
+        "Shuo Chen",
+        "Bohan Zhao",
+        "Wei Xu",
+        "Changshui Zhang",
+        "Jian Li"
+      ],
+      "publishedAt": "2025-08-02T13:15:59.000Z",
+      "submittedOnDailyAt": "2025-08-02T09:15:59.000Z",
+      "submitter": null,
+      "upvotes": 59,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2508.02739",
+        "arxiv": "https://arxiv.org/abs/2508.02739",
+        "pdf": "https://arxiv.org/pdf/2508.02739"
+      }
+    },
+    {
+      "id": "2512.14692",
+      "title": "Native and Compact Structured Latents for 3D Generation",
+      "summary": "Recent advancements in 3D generative modeling have significantly improved the generation realism, yet the field is still hampered by existing representations, which struggle to capture assets with complex topologies and detailed appearance. This paper present an approach for learning a structured latent representation from native 3D data to address this challenge. At its core is a new sparse voxel structure called O-Voxel, an omni-voxel representation that encodes both geometry and appearance. O-Voxel can robustly model arbitrary topology, including open, non-manifold, and fully-enclosed surfaces, while capturing comprehensive surface attributes beyond texture color, such as physically-based rendering parameters. Based on O-Voxel, we design a Sparse Compression VAE which provides a high spatial compression rate and a compact latent space. We train large-scale flow-matching models comprising 4B parameters for 3D generation using diverse public 3D asset datasets. Despite their scale, inference remains highly efficient. Meanwhile, the geometry and material quality of our generated assets far exceed those of existing models. We believe our approach offers a significant advancement in 3D generative modeling.",
+      "summaryZh": "3D 生成建模的最新进展显着提高了生成的真实性，但该领域仍然受到现有表示的阻碍，现有表示难以捕获具有复杂拓扑和详细外观的资产。本文提出了一种从原生 3D 数据中学习结构化潜在表示的方法，以应对这一挑战。其核心是一种称为 O-Voxel 的新稀疏体素结构，这是一种对几何和外观进行编码的全体素表示。 O-Voxel 可以对任意拓扑进行稳健建模，包括开放、非流形和全封闭表面，同时捕获纹理颜色之外的全面表面属性，例如基于物理的渲染参数。基于O-Voxel，我们设计了稀疏压缩VAE，它提供了高空间压缩率和紧凑的潜在空间。我们使用不同的公共 3D 资产数据集训练包含 4B 参数的大规模流匹配模型，用于 3D 生成。尽管规模很大，推理仍然非常高效。同时，我们生成的资产的几何形状和材质质量远远超过现有模型。我们相信我们的方法在 3D 生成建模方面取得了重大进步。",
+      "titleZh": "用于 3D 生成的原生紧凑结构化潜在模型",
+      "authors": [
+        "Jianfeng Xiang",
+        "Xiaoxue Chen",
+        "Sicheng Xu",
+        "Ruicheng Wang",
+        "Zelong Lv",
+        "Yu Deng",
+        "Hongyuan Zhu",
+        "Yue Dong",
+        "Hao Zhao",
+        "Nicholas Jing Yuan",
+        "Jiaolong Yang"
+      ],
+      "publishedAt": "2025-12-16T18:58:28.000Z",
+      "submittedOnDailyAt": "2025-12-16T13:58:28.000Z",
+      "submitter": null,
+      "upvotes": 7,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2512.14692",
+        "arxiv": "https://arxiv.org/abs/2512.14692",
+        "pdf": "https://arxiv.org/pdf/2512.14692"
+      }
+    },
+    {
+      "id": "2502.11880",
+      "title": "Bitnet.cpp: Efficient Edge Inference for Ternary LLMs",
+      "summary": "The advent of 1-bit large language models (LLMs), led by BitNet b1.58, has\nspurred interest in ternary LLMs. Despite this, research and practical\napplications focusing on efficient edge inference for ternary LLMs remain\nscarce. To bridge this gap, we introduce Bitnet.cpp, an inference system\noptimized for BitNet b1.58 and ternary LLMs. Given that mixed-precision matrix\nmultiplication (mpGEMM) constitutes the bulk of inference time in ternary LLMs,\nBitnet.cpp incorporates a novel mpGEMM library to facilitate\nsub-2-bits-per-weight, efficient and lossless inference. The library features\ntwo core solutions: Ternary Lookup Table (TL), which addresses spatial\ninefficiencies of previous bit-wise methods, and Int2 with a Scale (I2_S),\nwhich ensures lossless edge inference, both enabling high-speed inference. Our\nexperiments show that Bitnet.cpp achieves up to a 6.25x increase in speed over\nfull-precision baselines and up to 2.32x over low-bit baselines, setting new\nbenchmarks in the field. Additionally, we expand TL to element-wise lookup\ntable (ELUT) for low-bit LLMs in the appendix, presenting both theoretical and\nempirical evidence of its considerable potential. Bitnet.cpp is publicly\navailable at https://github.com/microsoft/BitNet/tree/paper , offering a\nsophisticated solution for the efficient and practical deployment of edge LLMs.",
+      "summaryZh": "以 BitNet b1.58 为首的 1 位大型语言模型 (LLM) 的出现，\n激发了人们对三元法学硕士的兴趣。尽管如此，研究和实践\n专注于三元法学硕士有效边缘推理的应用仍然存在\n稀缺。为了弥补这一差距，我们引入了 Bitnet.cpp，一个推理系统\n针对 BitNet b1.58 和三元 LLM 进行了优化。考虑到混合精度矩阵\n乘法 (mpGEMM) 构成了三元 LLM 中的大部分推理时间，\nBitnet.cpp 包含一个新颖的 mpGEMM 库，以方便\n每个权重低于 2 位，高效且无损的推理。图书馆特色\n两个核心解决方案： 三元查找表（TL），它解决空间问题\n以前的逐位方法和带刻度的 Int2 (I2_S) 效率低下，\n保证无损边缘推理，同时实现高速推理。我们的\n实验表明 Bitnet.cpp 的速度比之前提高了 6.25 倍\n全精度基线，比低位基线高出 2.32 倍，创下新纪录\n领域的基准。此外，我们将 TL 扩展为逐元素查找\n附录中低位法学硕士的表（ELUT），展示了理论和\n经验证据表明其巨大潜力。 Bitnet.cpp 是公开的\n可在 https://github.com/microsoft/BitNet/tree/paper 获取，提供\n用于高效实用地部署边缘法学硕士的复杂解决方案。",
+      "titleZh": "Bitnet.cpp：三元 LLM 的高效边缘推理",
+      "authors": [
+        "Jinheng Wang",
+        "Hansong Zhou",
+        "Ting Song",
+        "Shijie Cao",
+        "Yan Xia",
+        "Ting Cao",
+        "Jianyu Wei",
+        "Shuming Ma",
+        "Hongyu Wang",
+        "Furu Wei"
+      ],
+      "publishedAt": "2025-02-17T15:06:28.000Z",
+      "submittedOnDailyAt": "2025-02-17T10:06:28.000Z",
+      "submitter": null,
+      "upvotes": 18,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2502.11880",
+        "arxiv": "https://arxiv.org/abs/2502.11880",
+        "pdf": "https://arxiv.org/pdf/2502.11880"
+      }
+    },
+    {
+      "id": "2608.23552",
+      "title": "Prime Agent: A Self-Improving RLM Harness",
+      "summary": "Language models are sequential processors, but long-horizon agency requires external information and computation beyond model weights and active context. Prime Agent is an open-source harness for long-horizon evaluation and coding-agent workflows. A persistent IPython REPL follows the Recursive Language Model abstraction for programmatic context processing and test-time compute, while Continual Harness preserves histories, memories, skills, prompts, and subagent specifications across trajectories. Recursive subagents coordinate through direct agent-to-agent communication, and the Agents View lets humans inspect and manage daemon-backed sessions. Prime Agent standardizes execution, recovery, verification, and resource accounting while leaving strategy construction to the model. This low-friction, expressive membrane prevents harness failures from becoming model failures and pushes measurement toward the model's true maximal underlying capability. Prime Agent raises ARC-AGI-3 RHAE Best@1 from 30% to 95.5% and matches or exceeds native and popular harnesses across long-context coding, GPU-kernel generation, emulator construction, and autonomous nanoGPT speedruns. On Factorio, we find refinement allows for continuous technology progression and dedicated subagents enable parallelized work. Code is available at https://github.com/PrimeIntellect-ai/prime-agent.",
+      "summaryZh": "语言模型是顺序处理器，但长期代理需要模型权重和活动上下文之外的外部信息和计算。 Prime Agent 是一个用于长期评估和编码代理工作流程的开源工具。持久性 IPython REPL 遵循用于编程上下文处理和测试时计算的递归语言模型抽象，而持续利用则保留跨轨迹的历史、记忆、技能、提示和子代理规范。递归子代理通过直接代理到代理通信进行协调，代理视图允许人们检查和管理守护程序支持的会话。 Prime Agent 标准化执行、恢复、验证和资源核算，同时将策略构建留给模型。这种低摩擦、富有表现力的薄膜可防止线束故障变成模型故障，并将测量推向模型真正的最大基础能力。 Prime Agent 将 ARC-AGI-3 RHAE Best@1 从 30% 提高到 95.5%，并且在长上下文编码、GPU 内核生成、模拟器构建和自主 nanoGPT 速度运行方面匹配或超过了本地和流行的工具。在异星工厂中，我们发现细化可以实现持续的技术进步，而专用的子代理可以实现并行工作。代码可在 https://github.com/PrimeIntellect-ai/prime-agent 获取。",
+      "titleZh": "Prime Agent：自我改进的 RLM 安全带",
+      "authors": [
+        "Seth Karten",
+        "Alex L. Zhang",
+        "Kevin Thomas",
+        "Sebastian Müller",
+        "Elie Bakouch",
+        "Daniel Auras",
+        "Mika Senghaas",
+        "Fares Obeid",
+        "Konstantin Dunas",
+        "Johannes Hagemann",
+        "Sami Jaghouar"
+      ],
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-08-25T00:00:00.000Z",
+      "submitter": "milkkarten",
+      "upvotes": 58,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2608.23552",
+        "arxiv": "https://arxiv.org/abs/2608.23552",
+        "pdf": "https://arxiv.org/pdf/2608.23552"
+      }
+    },
+    {
+      "id": "2610.05608",
+      "title": "Kandinsky 6.0 Video: Foundation Models for Synchronized Video and Audio Generation",
+      "summary": "We present Kandinsky 6.0 Video, a family of foundation diffusion models for synchronized text-to-audio-video generation, comprising Kandinsky 6.0 Video Lite (3B parameters) and Kandinsky 6.0 Video Pro (29B parameters). Both models generate 5-second video clips with synchronized 44 kHz audio, including lip-sync, in text-to-audio-video (T2AV) and image-to-audio-video (I2AV) modes; a built-in super-resolution model raises the output resolution to Full-HD (1920times1080). Building on the video generation capabilities of Kandinsky 5.0, Kandinsky 6.0 Video employs a dual-stream CrossDiT architecture that connects a pretrained video stream and a newly trained audio stream through bidirectional cross-attention for temporal and semantic alignment. Our continuous pretraining strategy first trains the audio stream from scratch on large-scale audio corpora and then trains both streams jointly on paired audio-video data while preserving unimodal fidelity; pretraining is followed by supervised fine-tuning, reinforcement-learning-based post-training, and distillation. In side-by-side human evaluation, Kandinsky 6.0 Video Pro clearly outperforms its predecessor, Kandinsky 5.0 Video Pro, and remains competitive with leading audio-video generation models, particularly in speech quality. To accelerate open research and deployment in multimedia generation, we release the code, model checkpoints, and diffusers integration under the MIT license.",
+      "summaryZh": "我们提出了 Kandinsky 6.0 Video，这是一个用于同步文本到音频视频生成的基础扩散模型系列，包括 Kandinsky 6.0 Video Lite（3B 参数）和 Kandinsky 6.0 Video Pro（29B 参数）。两种型号均可在文本转音频视频 (T2AV) 和图像转音频视频 (I2AV) 模式下生成带有同步 44 kHz 音频（包括口型同步）的 5 秒视频剪辑；内置超分辨率模型将输出分辨率提高到全高清（1920×1080）。 Kandinsky 6.0 Video 基于 Kandinsky 5.0 的视频生成功能，采用双流 CrossDiT 架构，通过双向交叉注意力连接预训练的视频流和新训练的音频流，以实现时间和语义对齐。我们的连续预训练策略首先在大规模音频语料库上从头开始训练音频流，然后在成对的音频-视频数据上联合训练两个流，同时保持单峰保真度；预训练之后是监督微调、基于强化学习的后训练和蒸馏。在并行人类评估中，Kandinsky 6.0 Video Pro 明显优于其前身 Kandinsky 5.0 Video Pro，并且与领先的音视频生成模型保持竞争力，特别是在语音质量方面。为了加速多媒体生成的开放研究和部署，我们在 MIT 许可下发布了代码、模型检查点和扩散器集成。",
+      "titleZh": "Kandinsky 6.0 视频：同步视频和音频生成的基础模型",
+      "authors": [
+        "Team Kandinsky",
+        "Julia Agafonova",
+        "Bulat Akhmatov",
+        "Mikhail Aksyutin",
+        "Grigorii Alekseenko",
+        "Anastasia Aliaskina",
+        "Olga Androsova",
+        "Vladimir Arkhipkin",
+        "Anna Averchenkova",
+        "Alexander Belykh",
+        "Serafima Bocharova",
+        "Sofiya Bogakovskaya"
+      ],
+      "publishedAt": "2026-10-04T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-10-06T00:00:00.000Z",
+      "submitter": "vvasilev",
+      "upvotes": 165,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2610.05608",
+        "arxiv": "https://arxiv.org/abs/2610.05608",
+        "pdf": "https://arxiv.org/pdf/2610.05608"
+      }
+    }
+  ]
+}
