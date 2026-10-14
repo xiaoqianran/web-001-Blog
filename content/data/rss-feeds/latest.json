@@ -1,7 +1,7 @@
 {
   "source": "content/feeds.json",
   "attribution": "Aggregated headlines/summaries from third-party RSS/Atom feeds for navigation only. All rights belong to original publishers and authors. Chinese text is machine-translated.",
-  "fetchedAt": "2026-10-14T11:01:29.531Z",
+  "fetchedAt": "2026-10-14T16:21:04.551Z",
   "date": "2026-10-14",
   "feedCount": 3,
   "itemCount": 50,
@@ -17,104 +17,214 @@
       "url": "https://hnrss.org/frontpage",
       "home": "https://news.ycombinator.com/",
       "group": "community",
-      "fetchedAt": "2026-10-14T11:00:18.063Z",
+      "fetchedAt": "2026-10-14T16:20:13.375Z",
       "count": 20,
       "items": [
         {
-          "id": "https://news.ycombinator.com/item?id=50085332",
-          "title": "Show HN: Building an LLM from Scratch in TypeScript",
-          "titleZh": "Show HN：用 TypeScript 从头开始​​构建法学硕士",
-          "link": "https://book.humanexperiences.io/",
-          "summary": "I wanted to understand transformers at a level where nothing is magic, so I'm building a ChatGPT-style model from first principles in TypeScript. Why not Python? I've found that reimplementing concepts in a different language forces me to grasp the nuance of the implementation. Chapters cover dataloaders, embeddings, and the attention mechanism so far. Feedback welcome if anything's unclear.\n\n Comments URL: https://news.ycombinator.com/item?id=50085332\n\n Points: 7\n\n # Comments: 0",
-          "summaryZh": "我想在没有什么神奇的层面上理解 Transformer，所以我根据 TypeScript 的第一原理构建了一个 ChatGPT 风格的模型。为什么不是Python？我发现用不同的语言重新实现概念迫使我掌握实现的细微差别。到目前为止，章节涵盖了数据加载器、嵌入和注意力机制。如果有任何不清楚的地方欢迎反馈。\n\n 评论网址：https://news.ycombinator.com/item?id=50085332\n\n 积分：7\n\n # 评论: 0",
-          "publishedAt": "2026-10-14T10:29:56.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50085332",
-          "author": "baraa_"
+          "id": "https://news.ycombinator.com/item?id=50089624",
+          "title": "Shit Flow Diagram",
+          "titleZh": "Shit Flow Diagram",
+          "link": "https://en.wikipedia.org/wiki/Shit_flow_diagram",
+          "summary": "Article URL: https://en.wikipedia.org/wiki/Shit_flow_diagram\n\n Comments URL: https://news.ycombinator.com/item?id=50089624\n\n Points: 6\n\n # Comments: 0",
+          "summaryZh": "Article URL: https://en.wikipedia.org/wiki/Shit_flow_diagram\n\n Comments URL: https://news.ycombinator.com/item?id=50089624\n\n Points: 6\n\n # Comments: 0",
+          "publishedAt": "2026-10-14T15:51:40.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50089624",
+          "author": "ldite"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50089395",
+          "title": "Character.ai's Bankruptcy Documents Show the Economics of AI Don't Work",
+          "titleZh": "Character.ai's Bankruptcy Documents Show the Economics of AI Don't Work",
+          "link": "https://www.404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work/",
+          "summary": "Article URL: https://www.404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work/\n\n Comments URL: https://news.ycombinator.com/item?id=50089395\n\n Points: 14\n\n # Comments: 5",
+          "summaryZh": "Article URL: https://www.404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work/\n\n Comments URL: https://news.ycombinator.com/item?id=50089395\n\n Points: 14\n\n # Comments: 5",
+          "publishedAt": "2026-10-14T15:39:45.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50089395",
+          "author": "Luc"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50089229",
+          "title": "Submarine Cable Resilience",
+          "titleZh": "Submarine Cable Resilience",
+          "link": "https://blog.apnic.net/2026/10/14/submarine-cable-resilience/",
+          "summary": "Article URL: https://blog.apnic.net/2026/10/14/submarine-cable-resilience/\n\n Comments URL: https://news.ycombinator.com/item?id=50089229\n\n Points: 3\n\n # Comments: 0",
+          "summaryZh": "Article URL: https://blog.apnic.net/2026/10/14/submarine-cable-resilience/\n\n Comments URL: https://news.ycombinator.com/item?id=50089229\n\n Points: 3\n\n # Comments: 0",
+          "publishedAt": "2026-10-14T15:31:15.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50089229",
+          "author": "speckx"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50088935",
+          "title": "Passkeys Are Not a Trap",
+          "titleZh": "Passkeys Are Not a Trap",
+          "link": "https://scotthelme.co.uk/passkeys-are-not-a-trap/",
+          "summary": "Article URL: https://scotthelme.co.uk/passkeys-are-not-a-trap/\n\n Comments URL: https://news.ycombinator.com/item?id=50088935\n\n Points: 188\n\n # Comments: 236",
+          "summaryZh": "Article URL: https://scotthelme.co.uk/passkeys-are-not-a-trap/\n\n Comments URL: https://news.ycombinator.com/item?id=50088935\n\n Points: 188\n\n # Comments: 236",
+          "publishedAt": "2026-10-14T15:15:45.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50088935",
+          "author": "speckx"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50088713",
+          "title": "Show HN: Graphicle, a Rust port of Graphify with memory for coding agents",
+          "titleZh": "Show HN: Graphicle, a Rust port of Graphify with memory for coding agents",
+          "link": "https://github.com/graphicle-ai/graphicle",
+          "summary": "Article URL: https://github.com/graphicle-ai/graphicle\n\n Comments URL: https://news.ycombinator.com/item?id=50088713\n\n Points: 3\n\n # Comments: 0",
+          "summaryZh": "Article URL: https://github.com/graphicle-ai/graphicle\n\n Comments URL: https://news.ycombinator.com/item?id=50088713\n\n Points: 3\n\n # Comments: 0",
+          "publishedAt": "2026-10-14T15:00:41.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50088713",
+          "author": "KarLexAI"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50088643",
+          "title": "Running Windows desktop tests from Linux with disposable VMs",
+          "titleZh": "Running Windows desktop tests from Linux with disposable VMs",
+          "link": "https://www.qawolf.com/blog/how-we-solved-windows-desktop-automation",
+          "summary": "Article URL: https://www.qawolf.com/blog/how-we-solved-windows-desktop-automation\n\n Comments URL: https://news.ycombinator.com/item?id=50088643\n\n Points: 23\n\n # Comments: 7",
+          "summaryZh": "Article URL: https://www.qawolf.com/blog/how-we-solved-windows-desktop-automation\n\n Comments URL: https://news.ycombinator.com/item?id=50088643\n\n Points: 23\n\n # Comments: 7",
+          "publishedAt": "2026-10-14T14:55:19.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50088643",
+          "author": "jadenlemmon"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50088534",
+          "title": "AI is mass decompiling games. That's both awesome and scary",
+          "titleZh": "AI is mass decompiling games. That's both awesome and scary",
+          "link": "https://popcar.bearblog.dev/ai-is-mass-decompiling-games-thats-both-awesome-and-scary/",
+          "summary": "Article URL: https://popcar.bearblog.dev/ai-is-mass-decompiling-games-thats-both-awesome-and-scary/\n\n Comments URL: https://news.ycombinator.com/item?id=50088534\n\n Points: 46\n\n # Comments: 21",
+          "summaryZh": "Article URL: https://popcar.bearblog.dev/ai-is-mass-decompiling-games-thats-both-awesome-and-scary/\n\n Comments URL: https://news.ycombinator.com/item?id=50088534\n\n Points: 46\n\n # Comments: 21",
+          "publishedAt": "2026-10-14T14:47:44.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50088534",
+          "author": "popcar2"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50088447",
+          "title": "Strands Decider: Why Not an Encoder?",
+          "titleZh": "Strands Decider: Why Not an Encoder?",
+          "link": "https://brooker.co.za:443/blog/2026/10/04/encoders.html",
+          "summary": "Article URL: https://brooker.co.za:443/blog/2026/10/04/encoders.html\n\n Comments URL: https://news.ycombinator.com/item?id=50088447\n\n Points: 4\n\n # Comments: 0",
+          "summaryZh": "Article URL: https://brooker.co.za:443/blog/2026/10/04/encoders.html\n\n Comments URL: https://news.ycombinator.com/item?id=50088447\n\n Points: 4\n\n # Comments: 0",
+          "publishedAt": "2026-10-14T14:40:03.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50088447",
+          "author": "surprisetalk"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50088430",
+          "title": "ASML's strong orders ease fears AI spending boom is running out of steam",
+          "titleZh": "ASML's strong orders ease fears AI spending boom is running out of steam",
+          "link": "https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/",
+          "summary": "Article URL: https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/\n\n Comments URL: https://news.ycombinator.com/item?id=50088430\n\n Points: 83\n\n # Comments: 67",
+          "summaryZh": "Article URL: https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/\n\n Comments URL: https://news.ycombinator.com/item?id=50088430\n\n Points: 83\n\n # Comments: 67",
+          "publishedAt": "2026-10-14T14:38:55.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50088430",
+          "author": "tartoran"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50087524",
+          "title": "Apple Keynote now showing ads in its UI",
+          "titleZh": "Apple Keynote now showing ads in its UI",
+          "link": "https://mastodon.social/@marioguzman/117436264149891011",
+          "summary": "Article URL: https://mastodon.social/@marioguzman/117436264149891011\n\n Comments URL: https://news.ycombinator.com/item?id=50087524\n\n Points: 62\n\n # Comments: 13",
+          "summaryZh": "Article URL: https://mastodon.social/@marioguzman/117436264149891011\n\n Comments URL: https://news.ycombinator.com/item?id=50087524\n\n Points: 62\n\n # Comments: 13",
+          "publishedAt": "2026-10-14T13:31:27.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50087524",
+          "author": "jervant"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50087044",
+          "title": "RIP Eric Binnion",
+          "titleZh": "RIP Eric Binnion",
+          "link": "https://ma.tt/2026/10/rip-eric/",
+          "summary": "Article URL: https://ma.tt/2026/10/rip-eric/\n\n Comments URL: https://news.ycombinator.com/item?id=50087044\n\n Points: 71\n\n # Comments: 32",
+          "summaryZh": "Article URL: https://ma.tt/2026/10/rip-eric/\n\n Comments URL: https://news.ycombinator.com/item?id=50087044\n\n Points: 71\n\n # Comments: 32",
+          "publishedAt": "2026-10-14T12:58:32.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50087044",
+          "author": "speckx"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50086363",
+          "title": "Nvidia's first GPU: GeForce 256",
+          "titleZh": "Nvidia's first GPU: GeForce 256",
+          "link": "https://dfarq.homeip.net/nvidias-first-gpu-geforce-256/",
+          "summary": "Article URL: https://dfarq.homeip.net/nvidias-first-gpu-geforce-256/\n\n Comments URL: https://news.ycombinator.com/item?id=50086363\n\n Points: 8\n\n # Comments: 1",
+          "summaryZh": "Article URL: https://dfarq.homeip.net/nvidias-first-gpu-geforce-256/\n\n Comments URL: https://news.ycombinator.com/item?id=50086363\n\n Points: 8\n\n # Comments: 1",
+          "publishedAt": "2026-10-14T12:05:44.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50086363",
+          "author": "ibobev"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50086165",
+          "title": "Pg_vectorsearch: An index that is faster than pgvector's IVFFlat and HNSW",
+          "titleZh": "Pg_vectorsearch: An index that is faster than pgvector's IVFFlat and HNSW",
+          "link": "https://github.com/timescale/pg_vectorsearch",
+          "summary": "Article URL: https://github.com/timescale/pg_vectorsearch\n\n Comments URL: https://news.ycombinator.com/item?id=50086165\n\n Points: 118\n\n # Comments: 35",
+          "summaryZh": "Article URL: https://github.com/timescale/pg_vectorsearch\n\n Comments URL: https://news.ycombinator.com/item?id=50086165\n\n Points: 118\n\n # Comments: 35",
+          "publishedAt": "2026-10-14T11:47:53.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50086165",
+          "author": "jascha_eng"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50085323",
+          "title": "TV4 postpones show after AI agent erases edited material",
+          "titleZh": "TV4 postpones show after AI agent erases edited material",
+          "link": "https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage",
+          "summary": "Article URL: https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage\n\n Comments URL: https://news.ycombinator.com/item?id=50085323\n\n Points: 92\n\n # Comments: 56",
+          "summaryZh": "Article URL: https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage\n\n Comments URL: https://news.ycombinator.com/item?id=50085323\n\n Points: 92\n\n # Comments: 56",
+          "publishedAt": "2026-10-14T10:28:26.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50085323",
+          "author": "tobr"
         },
         {
           "id": "https://news.ycombinator.com/item?id=50085306",
           "title": "Pulsar at ESUG 2026 (new Smalltalk IDE)",
-          "titleZh": "ESUG 2026 上的 Pulsar（新的 Smalltalk IDE）",
+          "titleZh": "Pulsar at ESUG 2026 (new Smalltalk IDE)",
           "link": "https://blog.lorenzano.eu/pulsar-at-esug-2026/",
-          "summary": "Article URL: https://blog.lorenzano.eu/pulsar-at-esug-2026/\n\n Comments URL: https://news.ycombinator.com/item?id=50085306\n\n Points: 3\n\n # Comments: 0",
-          "summaryZh": "文章网址：https://blog.lorenzano.eu/pulsar-at-esug-2026/\n\n 评论网址：https://news.ycombinator.com/item?id=50085306\n\n 积分：3\n\n # 评论: 0",
+          "summary": "Article URL: https://blog.lorenzano.eu/pulsar-at-esug-2026/\n\n Comments URL: https://news.ycombinator.com/item?id=50085306\n\n Points: 61\n\n # Comments: 11",
+          "summaryZh": "Article URL: https://blog.lorenzano.eu/pulsar-at-esug-2026/\n\n Comments URL: https://news.ycombinator.com/item?id=50085306\n\n Points: 61\n\n # Comments: 11",
           "publishedAt": "2026-10-14T10:26:53.000Z",
           "comments": "https://news.ycombinator.com/item?id=50085306",
           "author": "mpweiher"
         },
         {
-          "id": "https://news.ycombinator.com/item?id=50085302",
-          "title": "AI Laser Locking for Quantum Computers: How QuEra Automates It",
-          "titleZh": "用于量子计算机的 AI 激光锁定：QuEra 如何实现自动化",
-          "link": "https://www.quera.com/blog-posts/holding-the-light-teaching-an-ai-to-lock-and-tune-our-quantum-computers-lasers",
-          "summary": "Article URL: https://www.quera.com/blog-posts/holding-the-light-teaching-an-ai-to-lock-and-tune-our-quantum-computers-lasers\n\n Comments URL: https://news.ycombinator.com/item?id=50085302\n\n Points: 3\n\n # Comments: 0",
-          "summaryZh": "文章网址：https://www.quera.com/blog-posts/holding-the-light-teaching-an-ai-to-lock-and-tune-our-quantum-computers-lasers\n\n 评论网址：https://news.ycombinator.com/item?id=50085302\n\n 积分：3\n\n # 评论: 0",
-          "publishedAt": "2026-10-14T10:26:24.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50085302",
-          "author": "EvgeniyZh"
+          "id": "https://news.ycombinator.com/item?id=50085022",
+          "title": "Show HN: A guided 3D Leonardo da Vinci museum, built in code",
+          "titleZh": "Show HN: A guided 3D Leonardo da Vinci museum, built in code",
+          "link": "https://museumofages.org/w/vinci",
+          "summary": "Hello HN, I am the founder of a small nonprofit which built Museum of Ages. We opened its first wing last week, a digital Leonardo da Vinci museum. It is a virtual tour with 17 stops, his works and then his last house in Amboise. The entrance is free. At the different stops you can see for example his paintings close to their real size, or 15 of his machines rebuilt in code, and you can have a look at 29 of his anatomy sheets. We also selected 207 of his manuscript pages which you can read in a virtual reading table, mirror the view to read his writing and 131 of the 207 are translated. We also rebuilt his last house in Amboise on the later stops of the walk. The museum is available in seven languages. Each stop has one of four grades as a label, documented, reconstructed, conjectural and not known. In a detailed view the user can have a closer look at the sources. The materials of the rooms and machines are created in Three.js. The museum runs with WebGPU. If the browser doesn’t support it, the fallback is WebGL2. To create the textures we used Creative Commons Zero photo scans (CC0) and for a few small objects we use free 3D models (CC0). Our mission is to create digital museums you can walk as not everyone can get to a museum, because illness or disability keeps them away. Some cannot afford the trip or just reside far away. So our goal is also to make our digital museums as accessible as possible. Therefore we also pre-rendered the walk so that it also works on older phones and is easy to use for older people. We released the code under AGPL-3.0. The texts and pictures are CC BY-SA 4.0. Reproductions have their own licenses.\n https://github.com/chipmates/museumofages We put a lot of time and passion into the museum and hope you like it. We are happy about any feedback. Which digital museum would you like to see next?\n\n Comments URL: https://news.ycombinator.com/item?id=50085022\n\n Points: 63\n\n # Comments: 30",
+          "summaryZh": "Hello HN, I am the founder of a small nonprofit which built Museum of Ages. We opened its first wing last week, a digital Leonardo da Vinci museum. It is a virtual tour with 17 stops, his works and then his last house in Amboise. The entrance is free. At the different stops you can see for example his paintings close to their real size, or 15 of his machines rebuilt in code, and you can have a look at 29 of his anatomy sheets. We also selected 207 of his manuscript pages which you can read in a virtual reading table, mirror the view to read his writing and 131 of the 207 are translated. We also rebuilt his last house in Amboise on the later stops of the walk. The museum is available in seven languages. Each stop has one of four grades as a label, documented, reconstructed, conjectural and not known. In a detailed view the user can have a closer look at the sources. The materials of the rooms and machines are created in Three.js. The museum runs with WebGPU. If the browser doesn’t support it, the fallback is WebGL2. To create the textures we used Creative Commons Zero photo scans (CC0) and for a few small objects we use free 3D models (CC0). Our mission is to create digital museums you can walk as not everyone can get to a museum, because illness or disability keeps them away. Some cannot afford the trip or just reside far away. So our goal is also to make our digital museums as accessible as possible. Therefore we also pre-rendered the walk so that it also works on older phones and is easy to use for older people. We released the code under AGPL-3.0. The texts and pictures are CC BY-SA 4.0. Reproductions have their own licenses.\n https://github.com/chipmates/museumofages We put a lot of time and passion into the museum and hope you like it. We are happy about any feedback. Which digital museum would you like to see next?\n\n Comments URL: https://news.ycombinator.com/item?id=50085022\n\n Points: 63\n\n # Comments: 30",
+          "publishedAt": "2026-10-14T10:00:24.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50085022",
+          "author": "micstradev"
         },
         {
-          "id": "https://news.ycombinator.com/item?id=50085296",
-          "title": "I let an AI run my startup for a week",
-          "titleZh": "我让人工智能运行我的初创公司一周",
-          "link": "https://daily.tinyprojects.dev/221",
-          "summary": "Article URL: https://daily.tinyprojects.dev/221\n\n Comments URL: https://news.ycombinator.com/item?id=50085296\n\n Points: 23\n\n # Comments: 5",
-          "summaryZh": "文章网址：https://daily.tinyprojects.dev/221\n\n 评论网址：https://news.ycombinator.com/item?id=50085296\n\n 积分：23\n\n # 评论: 5",
-          "publishedAt": "2026-10-14T10:25:48.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50085296",
-          "author": "tinyprojects"
+          "id": "https://news.ycombinator.com/item?id=50084838",
+          "title": "Who Is Planting Backdoors in Ledger Crypto Wallets?",
+          "titleZh": "Who Is Planting Backdoors in Ledger Crypto Wallets?",
+          "link": "https://www.zetter-zeroday.com/who-is-planting-backdoors-in-ledger-crypto-wallets/",
+          "summary": "Article URL: https://www.zetter-zeroday.com/who-is-planting-backdoors-in-ledger-crypto-wallets/\n\n Comments URL: https://news.ycombinator.com/item?id=50084838\n\n Points: 110\n\n # Comments: 108",
+          "summaryZh": "Article URL: https://www.zetter-zeroday.com/who-is-planting-backdoors-in-ledger-crypto-wallets/\n\n Comments URL: https://news.ycombinator.com/item?id=50084838\n\n Points: 110\n\n # Comments: 108",
+          "publishedAt": "2026-10-14T09:37:24.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50084838",
+          "author": "hacb"
         },
         {
-          "id": "https://news.ycombinator.com/item?id=50085259",
-          "title": "Agent erased full season of \"The Challenge Swe\": \"Hundreds of days of work gone\"",
-          "titleZh": "经纪人删除了《The Challenge Swe》整季节目：“数百天的工作消失了”",
-          "link": "https://www.aviaduct.com/?l=og+en&u=https%3A%2F%2Fwww.aftonbladet.se%2Fnojesbladet%2Fa%2F31oE8A%2Fthe-challenge-sverige-raderad-av-ai-bara-veckor-innan-premiaren",
-          "summary": "Article URL: https://www.aviaduct.com/?l=og+en&u=https%3A%2F%2Fwww.aftonbladet.se%2Fnojesbladet%2Fa%2F31oE8A%2Fthe-challenge-sverige-raderad-av-ai-bara-veckor-innan-premiaren\n\n Comments URL: https://news.ycombinator.com/item?id=50085259\n\n Points: 12\n\n # Comments: 3",
-          "summaryZh": "文章网址：https://www.aviaduct.com/?l=og+en&u=https%3A%2F%2Fwww.aftonbladet.se%2Fnojesbladet%2Fa%2F31oE8A%2Fthe-challenge-sverige-raderad-av-ai-bara-veckor-innan-premiaren\n\n 评论网址：https://news.ycombinator.com/item?id=50085259\n\n 积分：12\n\n # 评论: 3",
-          "publishedAt": "2026-10-14T10:21:13.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50085259",
-          "author": "lensecat"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50085112",
-          "title": "Apple: Switch to Safari (From Chrome)",
-          "titleZh": "Apple：切换到 Safari（从 Chrome）",
-          "link": "https://www.apple.com/safari/switch/",
-          "summary": "Article URL: https://www.apple.com/safari/switch/\n\n Comments URL: https://news.ycombinator.com/item?id=50085112\n\n Points: 21\n\n # Comments: 25",
-          "summaryZh": "文章网址：https://www.apple.com/safari/switch/\n\n 评论网址：https://news.ycombinator.com/item?id=50085112\n\n 积分：21\n\n # 评论: 25",
-          "publishedAt": "2026-10-14T10:08:57.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50085112",
-          "author": "signa11"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50084969",
-          "title": "Ask HN: What is the current trajectory of a senior engineer?",
-          "titleZh": "问HN：高级工程师目前的发展轨迹是怎样的？",
-          "link": "https://news.ycombinator.com/item?id=50084969",
-          "summary": "Been recently thinking about this more and more: When the need for a human in the design loop ceases? Given that LLMs are RL'd to the max with everything that can be given a wrong/right answer (code/maths), what currently is stopping Anthropic, OpenAI et al. from internally building (and maybe buying) datasets of good and bad architecture, and RL'ing that? Given that LLMs were a fancy autocomplete back in 2024, and now people are talking about building \"software factories\" with the agents, what in your mind is the stop to this development? Why software architecture would be hard for agents still in a year or two? Just thinking because I see more and more examples of software developers ignoring this and saying \"humans still have a place in guiding the agents and designing the architecture\". I think (businesswise) the need for actual software programmer skills is 90% out in a few years I think, and product lead etc people will be favored more as they have more people skills. it was a good run.\n\n Comments URL: https://news.ycombinator.com/item?id=50084969\n\n Points: 13\n\n # Comments: 9",
-          "summaryZh": "最近越来越多地思考这个问题：当设计循环中不再需要人类时？鉴于法学硕士对所有可能给出错误/正确答案（代码/数学）的事物进行了最大程度的强化学习，目前正在阻止 Anthropic、OpenAI 等人。从内部构建（也许购买）好坏架构的数据集，然后进行强化学习？鉴于法学硕士在 2024 年是一种奇特的自动完成技术，现在人们正在谈论与代理一起构建“软件工厂”，您认为这种发展的停止是什么？为什么在一两年内软件架构对于代理商来说仍然很困难？只是想，因为我看到越来越多的软件开发人员忽略这一点并说“人类在指导代理和设计架构方面仍然占有一席之地”的例子。我认为（商业方面）对实际软件程序员技能的需求在几年内就会达到 90%，而产品负责人等人将受到更多青睐，因为他们拥有更多的人际交往能力。跑得很好。\n\n 评论网址：https://news.ycombinator.com/item?id=50084969\n\n 积分：13\n\n # 评论: 9",
-          "publishedAt": "2026-10-14T09:54:23.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50084969",
-          "author": "guitarlimeo"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50084416",
-          "title": "What agents mean for Rust (and vice versa)",
-          "titleZh": "代理对于 Rust 意味着什么（反之亦然）",
-          "link": "https://smallcultfollowing.com/babysteps/blog/2026/10/14/agentic-dev-and-rust/",
-          "summary": "Article URL: https://smallcultfollowing.com/babysteps/blog/2026/10/14/agentic-dev-and-rust/\n\n Comments URL: https://news.ycombinator.com/item?id=50084416\n\n Points: 17\n\n # Comments: 13",
-          "summaryZh": "文章网址：https://smallcultfollowing.com/babysteps/blog/2026/10/14/agentic-dev-and-rust/\n\n 评论网址：https://news.ycombinator.com/item?id=50084416\n\n 积分：17\n\n # 评论: 13",
-          "publishedAt": "2026-10-14T08:49:06.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50084416",
-          "author": "mfrw"
+          "id": "https://news.ycombinator.com/item?id=50084757",
+          "title": "Amazon pushes up prices across the Internet",
+          "titleZh": "Amazon pushes up prices across the Internet",
+          "link": "https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/",
+          "summary": "Article URL: https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/\n\n Comments URL: https://news.ycombinator.com/item?id=50084757\n\n Points: 417\n\n # Comments: 401",
+          "summaryZh": "Article URL: https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/\n\n Comments URL: https://news.ycombinator.com/item?id=50084757\n\n Points: 417\n\n # Comments: 401",
+          "publishedAt": "2026-10-14T09:28:17.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50084757",
+          "author": "sighborg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=50084240",
           "title": "Iosevka is an open-source, sans-serif and slab-serif, monospace font",
-          "titleZh": "Iosevka 是一种开源、无衬线和板衬线、等宽字体",
+          "titleZh": "Iosevka is an open-source, sans-serif and slab-serif, monospace font",
           "link": "https://typeof.net/Iosevka/",
-          "summary": "Article URL: https://typeof.net/Iosevka/\n\n Comments URL: https://news.ycombinator.com/item?id=50084240\n\n Points: 134\n\n # Comments: 42",
-          "summaryZh": "文章网址：https://typeof.net/Iosevka/\n\n 评论网址：https://news.ycombinator.com/item?id=50084240\n\n 积分：134\n\n # 评论: 42",
+          "summary": "Article URL: https://typeof.net/Iosevka/\n\n Comments URL: https://news.ycombinator.com/item?id=50084240\n\n Points: 465\n\n # Comments: 190",
+          "summaryZh": "Article URL: https://typeof.net/Iosevka/\n\n Comments URL: https://news.ycombinator.com/item?id=50084240\n\n Points: 465\n\n # Comments: 190",
           "publishedAt": "2026-10-14T08:27:59.000Z",
           "comments": "https://news.ycombinator.com/item?id=50084240",
           "author": "otobrglez"
@@ -122,123 +232,13 @@
         {
           "id": "https://news.ycombinator.com/item?id=50083130",
           "title": "AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs",
-          "titleZh": "AOSP 源代码发布太晚了，开发人员拆解库来报告错误",
+          "titleZh": "AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs",
           "link": "https://github.com/android/ndk/issues/2260",
-          "summary": "Article URL: https://github.com/android/ndk/issues/2260\n\n Comments URL: https://news.ycombinator.com/item?id=50083130\n\n Points: 286\n\n # Comments: 127",
-          "summaryZh": "文章网址：https://github.com/android/ndk/issues/2260\n\n 评论网址：https://news.ycombinator.com/item?id=50083130\n\n 积分：286\n\n # 评论: 127",
+          "summary": "Article URL: https://github.com/android/ndk/issues/2260\n\n Comments URL: https://news.ycombinator.com/item?id=50083130\n\n Points: 435\n\n # Comments: 208",
+          "summaryZh": "Article URL: https://github.com/android/ndk/issues/2260\n\n Comments URL: https://news.ycombinator.com/item?id=50083130\n\n Points: 435\n\n # Comments: 208",
           "publishedAt": "2026-10-14T06:18:01.000Z",
           "comments": "https://news.ycombinator.com/item?id=50083130",
           "author": "tharen"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50083028",
-          "title": "Why is every rationalist blog post way too long?",
-          "titleZh": "为什么每一篇理性主义者的博客文章都太长？",
-          "link": "https://alexwennerberg.com/blog/2026-10-13-long.html",
-          "summary": "Article URL: https://alexwennerberg.com/blog/2026-10-13-long.html\n\n Comments URL: https://news.ycombinator.com/item?id=50083028\n\n Points: 16\n\n # Comments: 15",
-          "summaryZh": "文章网址：https://alexwennerberg.com/blog/2026-10-13-long.html\n\n 评论网址：https://news.ycombinator.com/item?id=50083028\n\n 积分：16\n\n # 评论: 15",
-          "publishedAt": "2026-10-14T06:02:16.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50083028",
-          "author": "epestr"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50082470",
-          "title": "Felix Rieseberg Homepage",
-          "titleZh": "菲利克斯·里塞伯格主页",
-          "link": "https://felixrieseberg.com/",
-          "summary": "Article URL: https://felixrieseberg.com/\n\n Comments URL: https://news.ycombinator.com/item?id=50082470\n\n Points: 199\n\n # Comments: 78",
-          "summaryZh": "文章网址：https://felixrieseberg.com/\n\n 评论网址：https://news.ycombinator.com/item?id=50082470\n\n 积分：199\n\n # 评论: 78",
-          "publishedAt": "2026-10-14T04:42:33.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50082470",
-          "author": "rglover"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50082021",
-          "title": "Strafe: A new open-source, E2E Encrypted, and federated alternative to Discord",
-          "titleZh": "Strafe：Discord 的新开源、端到端加密和联合替代方案",
-          "link": "https://strafe.chat/",
-          "summary": "Article URL: https://strafe.chat/\n\n Comments URL: https://news.ycombinator.com/item?id=50082021\n\n Points: 34\n\n # Comments: 13",
-          "summaryZh": "文章网址：https://strafe.chat/\n\n 评论网址：https://news.ycombinator.com/item?id=50082021\n\n 积分：34\n\n # 评论: 13",
-          "publishedAt": "2026-10-14T03:28:00.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50082021",
-          "author": "brydencalaway"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50080007",
-          "title": "Grace Hopper Celebration Cancelled",
-          "titleZh": "格蕾丝·霍珀庆祝活动取消",
-          "link": "https://anitab.org/press-release",
-          "summary": "Article URL: https://anitab.org/press-release\n\n Comments URL: https://news.ycombinator.com/item?id=50080007\n\n Points: 198\n\n # Comments: 144",
-          "summaryZh": "文章网址：https://anitab.org/press-release\n\n 评论网址：https://news.ycombinator.com/item?id=50080007\n\n 积分：198\n\n # 评论: 144",
-          "publishedAt": "2026-10-13T22:46:49.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50080007",
-          "author": "mooreds"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50079865",
-          "title": "Recreational Programming",
-          "titleZh": "休闲节目",
-          "link": "https://www.cphiri.dev/presentations/recreational-programming",
-          "summary": "Article URL: https://www.cphiri.dev/presentations/recreational-programming\n\n Comments URL: https://news.ycombinator.com/item?id=50079865\n\n Points: 201\n\n # Comments: 79",
-          "summaryZh": "文章网址：https://www.cphiri.dev/presentations/recreational-programming\n\n 评论网址：https://news.ycombinator.com/item?id=50079865\n\n 积分：201\n\n # 评论: 79",
-          "publishedAt": "2026-10-13T22:33:33.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50079865",
-          "author": "jslakro"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50079464",
-          "title": "AlphaNIST",
-          "titleZh": "阿尔法国家标准技术研究所",
-          "link": "https://alpha-nist.github.io/",
-          "summary": "Article URL: https://alpha-nist.github.io/\n\n Comments URL: https://news.ycombinator.com/item?id=50079464\n\n Points: 79\n\n # Comments: 26",
-          "summaryZh": "文章网址：https://alpha-nist.github.io/\n\n 评论网址：https://news.ycombinator.com/item?id=50079464\n\n 积分：79\n\n # 评论: 26",
-          "publishedAt": "2026-10-13T21:57:29.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50079464",
-          "author": "jasonjmcghee"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50078686",
-          "title": "PostEra (YC W20) Is Hiring AI Researchers for Drug Discovery",
-          "titleZh": "PostEra (YC W20) 正在聘请人工智能研究人员进行药物发现",
-          "link": "https://jobs.lever.co/postera/c7d50a36-db0a-4574-bfe4-8700b74a22c0",
-          "summary": "Article URL: https://jobs.lever.co/postera/c7d50a36-db0a-4574-bfe4-8700b74a22c0\n\n Comments URL: https://news.ycombinator.com/item?id=50078686\n\n Points: 0\n\n # Comments: 0",
-          "summaryZh": "文章网址：https://jobs.lever.co/postera/c7d50a36-db0a-4574-bfe4-8700b74a22c0\n\n 评论网址：https://news.ycombinator.com/item?id=50078686\n\n 积分：0\n\n # 评论: 0",
-          "publishedAt": "2026-10-13T21:01:12.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50078686",
-          "author": "morraa"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50077020",
-          "title": "Show HN: Guitoro, a virtual guitar you strum with your keyboard",
-          "titleZh": "显示 HN：Guitoro，您可以用键盘弹奏的虚拟吉他",
-          "link": "https://guitoro.com/",
-          "summary": "Guitoro is a free browser guitar using recordings of real instruments. You can strum with your keyboard, mouse, or touchscreen, choose acoustic, classical, electric guitar or bass, and see chord fingering and each stroke. Song practice can be slowed to 20%, and there are free chord tools and tuners. No signup or download. 1 minute video demo: https://youtu.be/DtcluMLdSgs I would love feedback on how the strumming feels and sounds.\n\n Comments URL: https://news.ycombinator.com/item?id=50077020\n\n Points: 448\n\n # Comments: 115",
-          "summaryZh": "Guitoro 是一款免费的浏览器吉他，使用真实乐器的录音。您可以使用键盘、鼠标或触摸屏弹奏，选择原声吉他、古典吉他、电吉他或贝斯，并查看和弦指法和每次敲击。歌曲练习可以放慢至20%，并且有免费的和弦工具和调音器。无需注册或下载。 1 分钟视频演示：https://youtu.be/DtcluMLdSgs 我希望得到有关扫弦感觉和声音的反馈。\n\n 评论网址：https://news.ycombinator.com/item?id=50077020\n\n 积分：448\n\n # 评论: 115",
-          "publishedAt": "2026-10-13T19:11:48.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50077020",
-          "author": "talccc"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50074909",
-          "title": "Show HN: How random are you?",
-          "titleZh": "Show HN：你有多随机？",
-          "link": "https://lab.specr.net/rigged-draw/",
-          "summary": "Article URL: https://lab.specr.net/rigged-draw/\n\n Comments URL: https://news.ycombinator.com/item?id=50074909\n\n Points: 158\n\n # Comments: 80",
-          "summaryZh": "文章网址：https://lab.specr.net/rigged-draw/\n\n 评论网址：https://news.ycombinator.com/item?id=50074909\n\n 积分：158\n\n # 评论: 80",
-          "publishedAt": "2026-10-13T16:57:57.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50074909",
-          "author": "vunderba"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50073879",
-          "title": "Gemini 4 Argon",
-          "titleZh": "双子座 4 氩",
-          "link": "https://deepmind.google/models/gemini/",
-          "summary": "See also: Gemini 4 Argon for Robotics - https://news.ycombinator.com/item?id=50074869\n\n Comments URL: https://news.ycombinator.com/item?id=50073879\n\n Points: 1328\n\n # Comments: 923",
-          "summaryZh": "另请参阅：Gemini 4 Argon 机器人 - https://news.ycombinator.com/item?id=50074869\n\n 评论网址：https://news.ycombinator.com/item?id=50073879\n\n 积分：1328\n\n #评论：923",
-          "publishedAt": "2026-10-13T16:03:16.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50073879",
-          "author": "737max"
         }
       ]
     },
@@ -248,16 +248,16 @@
       "url": "https://rss.arxiv.org/rss/cs.AI",
       "home": "https://arxiv.org/list/cs.AI/recent",
       "group": "arxiv",
-      "fetchedAt": "2026-10-14T11:00:18.642Z",
+      "fetchedAt": "2026-10-14T16:20:13.971Z",
       "count": 15,
       "items": [
         {
           "id": "oai:arXiv.org:2610.14005v1",
           "title": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
-          "titleZh": "Artificiality 的第一次考试：法学硕士参考的超级智能 C 测试",
+          "titleZh": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
           "link": "https://arxiv.org/abs/2610.14005",
           "summary": "arXiv:2610.14005v1 Announce Type: new\nAbstract: Under the accelerated pace of AI development, any benchmark whose difficulty is calibrated with humans or current AI systems becomes circular, or saturates soon. How can we then evaluate machines that may become more capable than the current machines and the people who write the tests? One answer to the question hinges on inverse problems, inductive inference questions for which difficulty depends on the complexity of the underlying mechanism, given the observations and the previous knowledge. Levin's Kt, a computable variant of Kolmogorov complexity, puts a theoretical upper bound to that difficulty, balancing the simplest representation encoding for the mechanism and the logarithm of the time steps to run that mechanism. Previous tests derived from Levin's Kt, such as the original C-test, are based on minimalistic Universal Turing Machines (UTM), capable of very limited representations and no previous knowledge. Reasoning large language models (LLM) are UTMs that capture a compendium of human culture as knowledge, using prompts as natural language programs. This paper presents the first test based on Levin's Kt with LLMs as representational machines. Fresh test items can be produced at high difficulties, estimated in a ratio scale measured in bits, before any human or frontier model can solve them. We formalise the measure, devise a lightweight generation and certification pipeline, explore the effect of the power of the reference machine and the gap between examiner and examinee. We produce a first battery of certified items administered to twelve LLMs. The resulting agent characteristic curves decrease with difficulty, down to the uncharted high-difficulty region, the supra-intelligence window of items we can certify, yet beyond generations of frontier intelligence.",
-          "summaryZh": "arXiv:2610.14005v1 公告类型：新\n摘要：在人工智能发展步伐加快的情况下，任何用人类或现有人工智能系统来校准难度的基准都会变得循环，或者很快就会饱和。那么我们如何评估可能比当前机器和编写测试的人员能力更强的机器呢？该问题的一个答案取决于逆问题，即归纳推理问题，其难度取决于给定观察结果和先前知识的基础机制的复杂性。 Levin 的 Kt 是柯尔莫哥洛夫复杂度的可计算变体，它为该难度设置了理论上的上限，平衡了机制的最简单表示编码和运行该机制的时间步长的对数。以前从 Levin 的 Kt 派生的测试（例如原始的 C 测试）基于简约的通用图灵机 (UTM)，能够进行非常有限的表示，并且没有先验知识。推理大语言模型 (LLM) 是一种 UTM，它捕获人类文化概要作为知识，使用提示作为自然语言程序。本文提出了第一个基于 Levin's Kt 的测试，以 LLM 作为代表性机器。新的测试项目可以在很高的难度下产生，在任何人类或前沿模型能够解决它们之前，以比特测量的比率尺度进行估计。我们将措施形式化，设计轻量级生成和认证管道，探索参考机功率的影响以及考官和考生之间的差距。我们生产了第一批由 12 名法学硕士管理的认证项目。由此产生的智能体特征曲线随着难度下降，下降到未知的高难度区域，即我们可以证明的项目的超智能窗口，但超出了几代人的前沿智能。",
+          "summaryZh": "arXiv:2610.14005v1 Announce Type: new\nAbstract: Under the accelerated pace of AI development, any benchmark whose difficulty is calibrated with humans or current AI systems becomes circular, or saturates soon. How can we then evaluate machines that may become more capable than the current machines and the people who write the tests? One answer to the question hinges on inverse problems, inductive inference questions for which difficulty depends on the complexity of the underlying mechanism, given the observations and the previous knowledge. Levin's Kt, a computable variant of Kolmogorov complexity, puts a theoretical upper bound to that difficulty, balancing the simplest representation encoding for the mechanism and the logarithm of the time steps to run that mechanism. Previous tests derived from Levin's Kt, such as the original C-test, are based on minimalistic Universal Turing Machines (UTM), capable of very limited representations and no previous knowledge. Reasoning large language models (LLM) are UTMs that capture a compendium of human culture as knowledge, using prompts as natural language programs. This paper presents the first test based on Levin's Kt with LLMs as representational machines. Fresh test items can be produced at high difficulties, estimated in a ratio scale measured in bits, before any human or frontier model can solve them. We formalise the measure, devise a lightweight generation and certification pipeline, explore the effect of the power of the reference machine and the gap between examiner and examinee. We produce a first battery of certified items administered to twelve LLMs. The resulting agent characteristic curves decrease with difficulty, down to the uncharted high-difficulty region, the supra-intelligence window of items we can certify, yet beyond generations of frontier intelligence.",
           "publishedAt": "2026-10-14T04:00:00.000Z",
           "comments": null,
           "author": "Jose Hernandez-Orallo"
@@ -265,10 +265,10 @@
         {
           "id": "oai:arXiv.org:2610.14115v1",
           "title": "The Silent Failures in Agentic Data Science",
-          "titleZh": "代理数据科学中的无声失败",
+          "titleZh": "The Silent Failures in Agentic Data Science",
           "link": "https://arxiv.org/abs/2610.14115",
           "summary": "arXiv:2610.14115v1 Announce Type: new\nAbstract: Large language models have significantly lowered the barrier to writing code. Naturally, this has also led to the development of data science agents that promise automating the design and execution of data science from task formulation to model development. Existing evaluations of agentic data science (agentic DS) assess downstream predictive performance and code correctness, providing preliminary insight in agentic DS capabilities. We argue that these evaluations overlook the fundamental principles of data science: methodological data science- and domain knowledge. As such, only assessing downstream performance masks methodological failures such as data leakage and inappropriate validation, limiting the development of robust agentic DS systems. In this paper, we evaluate agentic DS beyond accuracy from three different angles: 1) a large-scale analysis of failure modes in common agentic DS frameworks and models across 220 data science tasks, 2) a reusable and extensible test suite with curated data science tasks that test for six specific failures in a controlled manner, and 3) a qualitative assessment of agentic DS pipelines against expert solutions on Kaggle competitions. We find that the majority of agentic solutions contain at least one failure mode despite the complexity of agentic harness or model capacity. Moreover, we identify a positive correlation between the occurrence of data leakage failures and predictive performance, confirming the necessity to evaluate agents beyond accuracy. Our qualitative analysis shows that DS agents generally lack problem solving creativity and domain knowledge, compared to competition-winning data scientists. We believe that principled failure mode analysis, as presented here, should be integral part of agentic DS evaluations, and that the insights we surface will be key in developing trustworthy agentic DS pipelines.",
-          "summaryZh": "arXiv:2610.14115v1 公告类型：新\n摘要：大型语言模型显着降低了编写代码的门槛。当然，这也导致了数据科学代理的发展，这些代理有望实现从任务制定到模型开发的数据科学设计和执行的自动化。代理数据科学（代理 DS）的现有评估评估下游预测性能和代码正确性，提供对代理 DS 功能的初步见解。我们认为这些评估忽视了数据科学的基本原则：数据科学方法论和领域知识。因此，仅评估下游性能会掩盖数据泄漏和不适当验证等方法上的失败，从而限制了强大的代理 DS 系统的开发。在本文中，我们从三个不同角度评估代理 DS 的准确性：1）对 220 个数据科学任务中常见代理 DS 框架和模型中的故障模式进行大规模分析，2）可重用且可扩展的测试套件，其中包含精心策划的数据科学任务，以受控方式测试六个特定故障，3）根据 Kaggle 竞赛上的专家解决方案对代理 DS 管道进行定性评估。我们发现，尽管代理工具或模型容量很复杂，但大多数代理解决方案都至少包含一种故障模式。此外，我们发现数据泄漏失败的发生与预测性能之间存在正相关性，证实了评估代理超出准确性的必要性。我们的定性分析表明，与赢得竞争的数据科学家相比，DS 代理普遍缺乏解决问题的创造力和领域知识。我们相信，如此处所介绍的原则性故障模式分析应该是代理 DS 评估不可或缺的一部分，并且我们提出的见解将是开发值得信赖的代理 DS 管道的关键。",
+          "summaryZh": "arXiv:2610.14115v1 Announce Type: new\nAbstract: Large language models have significantly lowered the barrier to writing code. Naturally, this has also led to the development of data science agents that promise automating the design and execution of data science from task formulation to model development. Existing evaluations of agentic data science (agentic DS) assess downstream predictive performance and code correctness, providing preliminary insight in agentic DS capabilities. We argue that these evaluations overlook the fundamental principles of data science: methodological data science- and domain knowledge. As such, only assessing downstream performance masks methodological failures such as data leakage and inappropriate validation, limiting the development of robust agentic DS systems. In this paper, we evaluate agentic DS beyond accuracy from three different angles: 1) a large-scale analysis of failure modes in common agentic DS frameworks and models across 220 data science tasks, 2) a reusable and extensible test suite with curated data science tasks that test for six specific failures in a controlled manner, and 3) a qualitative assessment of agentic DS pipelines against expert solutions on Kaggle competitions. We find that the majority of agentic solutions contain at least one failure mode despite the complexity of agentic harness or model capacity. Moreover, we identify a positive correlation between the occurrence of data leakage failures and predictive performance, confirming the necessity to evaluate agents beyond accuracy. Our qualitative analysis shows that DS agents generally lack problem solving creativity and domain knowledge, compared to competition-winning data scientists. We believe that principled failure mode analysis, as presented here, should be integral part of agentic DS evaluations, and that the insights we surface will be key in developing trustworthy agentic DS pipelines.",
           "publishedAt": "2026-10-14T04:00:00.000Z",
           "comments": null,
           "author": "Xue Li, Hongqian Xia, Daniel Gomm, A\\'ecio Santos, Cornelius Wolff, Madelon Hulsebos"
@@ -276,10 +276,10 @@
         {
           "id": "oai:arXiv.org:2610.14118v1",
           "title": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
-          "titleZh": "ClawLoop：通过 Harness-Native 训练循环自我改进代理",
+          "titleZh": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
           "link": "https://arxiv.org/abs/2610.14118",
           "summary": "arXiv:2610.14118v1 Announce Type: new\nAbstract: The rapid advancement of Large Language Models (LLMs) has driven their deployment toward general-purpose harness environments, where LLM-based agents operate in sandbox workspaces and interact directly with file systems and shells. While numerous post-training pipelines exist for tool-use agents, their counterparts for harness-based agents remain scarce and are predominantly one-shot and teacher-dependent: a stronger external model synthesizes tasks and collects trajectories, the target agent is trained once, and evaluation results are consumed by human researchers rather than fed back into the loop. Such pipelines are inherently bounded by the capability of the external model and the scope of human prior, leaving no room for self-improvement. To address these limitations, we propose ClawLoop, a framework that enables self-improving without any external teacher model and with minimal prior dependencies. ClawLoop composes three phases into a self-sustaining cycle: Task Synthesis, which generates a diverse pool of training tasks via two complementary construction routines, applies diagnosis-conditioned difficulty growth followed by both agent-free and agent-based task validation; Training, which updates the agent via SFT and/or RL; and Diagnosis and Feedback, which analyzes the agent's rollout behaviors to produce a capability analysis report that will be used as feedback for task synthesis in the next iteration. Using Qwen3.6-27B as the loop model, ClawLoop yields consistent improvements on SkillsBench, Claw-Eval-Live, and ClawGym-Bench. The iteratively refined tasks are further transferred to smaller-scale Qwen3.5-4B and 9B models with gains across all benchmarks, validating data quality independently of the loop model.",
-          "summaryZh": "arXiv:2610.14118v1 公告类型：新\n摘要：大型语言模型 (LLM) 的快速发展推动了其向通用利用环境的部署，其中基于 LLM 的代理在沙箱工作区中运行，并直接与文件系统和 shell 交互。虽然工具使用智能体存在大量的训练后管道，但基于工具的智能体的对应管道仍然稀缺，并且主要是一次性的和依赖于教师的：更强大的外部模型合成任务并收集轨迹，目标智能体经过一次训练，评估结果由人类研究人员使用，而不是反馈到循环中。这种管道本质上受到外部模型能力和人类先验范围的限制，没有自我改进的空间。为了解决这些限制，我们提出了 ClawLoop，这是一个无需任何外部教师模型且具有最小先验依赖性的自我改进框架。 ClawLoop 将三个阶段组成一个自我维持的循环：任务综合，通过两个互补的构建例程生成多样化的训练任务池，应用诊断条件的难度增长，然后进行无代理和基于代理的任务验证；训练，通过 SFT 和/或 RL 更新代理；诊断和反馈，分析代理的推出行为以生成能力分析报告，该报告将用作下一次迭代中任务合成的反馈。使用 Qwen3.6-27B 作为循环模型，ClawLoop 在 SkillsBench、Claw-Eval-Live 和 ClawGym-Bench 上产生了一致的改进。迭代细化的任务进一步转移到较小规模的 Qwen3.5-4B 和 9B 模型，在所有基准测试中都有增益，独立于循环模型验证数据质量。",
+          "summaryZh": "arXiv:2610.14118v1 Announce Type: new\nAbstract: The rapid advancement of Large Language Models (LLMs) has driven their deployment toward general-purpose harness environments, where LLM-based agents operate in sandbox workspaces and interact directly with file systems and shells. While numerous post-training pipelines exist for tool-use agents, their counterparts for harness-based agents remain scarce and are predominantly one-shot and teacher-dependent: a stronger external model synthesizes tasks and collects trajectories, the target agent is trained once, and evaluation results are consumed by human researchers rather than fed back into the loop. Such pipelines are inherently bounded by the capability of the external model and the scope of human prior, leaving no room for self-improvement. To address these limitations, we propose ClawLoop, a framework that enables self-improving without any external teacher model and with minimal prior dependencies. ClawLoop composes three phases into a self-sustaining cycle: Task Synthesis, which generates a diverse pool of training tasks via two complementary construction routines, applies diagnosis-conditioned difficulty growth followed by both agent-free and agent-based task validation; Training, which updates the agent via SFT and/or RL; and Diagnosis and Feedback, which analyzes the agent's rollout behaviors to produce a capability analysis report that will be used as feedback for task synthesis in the next iteration. Using Qwen3.6-27B as the loop model, ClawLoop yields consistent improvements on SkillsBench, Claw-Eval-Live, and ClawGym-Bench. The iteratively refined tasks are further transferred to smaller-scale Qwen3.5-4B and 9B models with gains across all benchmarks, validating data quality independently of the loop model.",
           "publishedAt": "2026-10-14T04:00:00.000Z",
           "comments": null,
           "author": "Hansi Yang, Linji Hao, Hongyan Hao, An Wang, Han Wu, Qi Gu, Xunliang Cai"
@@ -287,10 +287,10 @@
         {
           "id": "oai:arXiv.org:2610.14136v1",
           "title": "Correction Training for Diffusion Models",
-          "titleZh": "扩散模型的校正训练",
+          "titleZh": "Correction Training for Diffusion Models",
           "link": "https://arxiv.org/abs/2610.14136",
           "summary": "arXiv:2610.14136v1 Announce Type: new\nAbstract: Iterative sampling in diffusion models can lead to error accumulation due to exposure bias. The denoiser is trained on real images interpolated with noise, but at inference its inputs are constructed from its own imperfect predictions from the earlier steps, something it has never seen at training time. This might be one reason diffusion models often struggle without additional help, such as CFG. We introduce a correction step for diffusion models which attempts to reduce this training-inference gap. The corrector takes the base model's prediction as input and is trained against the same ground-truth target. This makes correction an explicit learning task, with training inputs provided by the base model. During sampling, at each denoising step, we iteratively refine the denoiser's clean-sample prediction. This allows us to correct predictions at intermediate denoising steps, preventing early artifacts from persisting into the final sample. Although the corrector is trained only on predictions from the base denoiser, it can be applied repeatedly to its own outputs at inference for better results. This simple framework leads to substantial improvement in sample quality while largely preserving diversity. We evaluate our method across DiT, SiT, and JiT. Our method substantially improves upon previously reported FID scores for unguided generation and, notably, unconditional generation, where producing high-quality samples without guidance has been particularly challenging. Our method achieves performance competitive with classifier-free guidance (CFG), and combining correction with CFG further improves diversity and reduces oversaturation typical of CFG. Finally, we show that the additional inference cost of correction can be amortized by distilling the refined predictions back into the base diffusion model, retaining the quality gains without additional inference-time overhead.",
-          "summaryZh": "arXiv:2610.14136v1 公告类型：新\n摘要：扩散模型中的迭代采样可能会因曝光偏差而导致误差累积。降噪器是在插有噪声的真实图像上进行训练的，但在推理时，它的输入是根据其自己在早期步骤中的不完美预测构建的，这是它在训练时从未见过的。这可能是扩散模型在没有额外帮助（例如 CFG）的情况下经常陷入困境的原因之一。我们引入了扩散模型的校正步骤，试图减少这种训练与推理的差距。校正器将基本模型的预测作为输入，并针对相同的地面实况目标进行训练。这使得校正成为一项明确的学习任务，并由基础模型提供训练输入。在采样期间，在每个去噪步骤中，我们迭代地细化去噪器的干净样本预测。这使我们能够纠正中间去噪步骤的预测，防止早期伪影持续到最终样本中。尽管校正器仅根据基础降噪器的预测进行训练，但它可以在推理时重复应用于其自己的输出，以获得更好的结果。这个简单的框架可以显着提高样本质量，同时很大程度上保留多样性。我们通过 DiT、SiT 和 JiT 评估我们的方法。我们的方法大大改进了之前报告的无引导生成（尤其是无条件生成）的 FID 分数，在无引导生成高质量样本的情况下尤其具有挑战性。我们的方法实现了与无分类器引导 (CFG) 相媲美的性能，并且将校正与 CFG 相结合进一步提高了多样性并减少了 CFG 典型的过饱和现象。最后，我们表明，可以通过将精炼的预测提炼回基础扩散模型来摊销校正的额外推理成本，从而在不增加推理时间开销的情况下保留质量增益。",
+          "summaryZh": "arXiv:2610.14136v1 Announce Type: new\nAbstract: Iterative sampling in diffusion models can lead to error accumulation due to exposure bias. The denoiser is trained on real images interpolated with noise, but at inference its inputs are constructed from its own imperfect predictions from the earlier steps, something it has never seen at training time. This might be one reason diffusion models often struggle without additional help, such as CFG. We introduce a correction step for diffusion models which attempts to reduce this training-inference gap. The corrector takes the base model's prediction as input and is trained against the same ground-truth target. This makes correction an explicit learning task, with training inputs provided by the base model. During sampling, at each denoising step, we iteratively refine the denoiser's clean-sample prediction. This allows us to correct predictions at intermediate denoising steps, preventing early artifacts from persisting into the final sample. Although the corrector is trained only on predictions from the base denoiser, it can be applied repeatedly to its own outputs at inference for better results. This simple framework leads to substantial improvement in sample quality while largely preserving diversity. We evaluate our method across DiT, SiT, and JiT. Our method substantially improves upon previously reported FID scores for unguided generation and, notably, unconditional generation, where producing high-quality samples without guidance has been particularly challenging. Our method achieves performance competitive with classifier-free guidance (CFG), and combining correction with CFG further improves diversity and reduces oversaturation typical of CFG. Finally, we show that the additional inference cost of correction can be amortized by distilling the refined predictions back into the base diffusion model, retaining the quality gains without additional inference-time overhead.",
           "publishedAt": "2026-10-14T04:00:00.000Z",
           "comments": null,
           "author": "Donghoon Ahn, Runqian Wang, Alexei A. Efros, Taesung Park, Yash Belhe"
@@ -298,10 +298,10 @@
         {
           "id": "oai:arXiv.org:2610.14146v1",
           "title": "Long-Horizon-Terminal-Bench 2.0: Automating Diverse Task Construction and Measuring Sustained Agent Progress",
-          "titleZh": "Long-Horizo​​n-Terminal-Bench 2.0：自动化多样化任务构建并衡量持续的智能体进度",
+          "titleZh": "Long-Horizon-Terminal-Bench 2.0: Automating Diverse Task Construction and Measuring Sustained Agent Progress",
           "link": "https://arxiv.org/abs/2610.14146",
           "summary": "arXiv:2610.14146v1 Announce Type: new\nAbstract: Long-horizon terminal benchmarks measure whether an agent can sustain progress through extended workflows with process rewards, not only whether its final state passes a binary check. We present Long-Horizon-Terminal-Bench 2.0 (LHTB 2.0), an extension of Long-Horizon-Terminal-Bench that preserves its 46 original tasks while correcting task and evaluation-infrastructure defects and extending 31 tasks. LHTB 2.0 contains 77 tasks across 13 domains and eight task types. The extended tasks are produced through a systematic reconstruction-task pipeline. We start from a working scientific or engineering artifact, then use a parameterized reference implementation to generate multiple scenarios, reveal six as behavioral evidence, hold out three for evaluation, and use dense progress ladders to reward partial progress while preventing memorization of public outputs. We also extend the evaluation horizon from 90 minutes to three hours and record verifier checkpoints every 30 minutes, enabling direct measurement of sustained progress within a run. Across 1,145 scored model-task runs from 15 frontier models, GPT-6-astra leads with dense mean reward 0.69 and 37 tasks at R at least 0.95, followed by GPT-5.6-sol with dense mean reward 0.67 and 32 tasks at the same threshold. On the 30 reconstruction tasks, binary verifier scores average 0.221, whereas dense ladder scores average 0.653, showing that outcome-only evaluation discards substantial intermediate progress. LHTB 2.0 provides a broader, hardened, and process-aware testbed for studying reliable agent execution over hours.",
-          "summaryZh": "arXiv:2610.14146v1 公告类型：新\n摘要：长期终端基准衡量代理是否可以通过具有过程奖励的扩展工作流程来维持进度，而不仅仅是其最终状态是否通过二进制检查。我们提出了 Long-Horizo​​n-Terminal-Bench 2.0 (LHTB 2.0)，它是 Long-Horizo​​n-Terminal-Bench 的扩展，保留了 46 个原始任务，同时纠正了任务和评估基础设施缺陷并扩展了 31 个任务。 LHTB 2.0 包含跨 13 个领域和 8 种任务类型的 77 项任务。扩展任务是通过系统的重建任务管道产生的。我们从一个有效的科学或工程工件开始，然后使用参数化参考实现来生成多个场景，揭示六个作为行为证据，保留三个用于评估，并使用密集的进度阶梯来奖励部分进展，同时防止公共输出的记忆。我们还将评估范围从 90 分钟延长到三个小时，并每 30 分钟记录一次验证者检查点，从而能够直接测量运行中的持续进展。在来自 15 个前沿模型的 1,145 个评分模型任务运行中，GPT-6-astra 领先，密集平均奖励为 0.69，R 至少为 0.95 的 37 个任务，其次是 GPT-5.6-sol，密集平均奖励为 0.67，并且在相同阈值下有 32 个任务。在 30 个重建任务中，二元验证器的平均得分为 0.221，而密集阶梯的平均得分为 0.653，这表明仅结果评估丢弃了实质性的中间进展。 LHTB 2.0 提供了更广泛、强化且具有流程感知能力的测试平台，用于研究代理在数小时内的可靠执行情况。",
+          "summaryZh": "arXiv:2610.14146v1 Announce Type: new\nAbstract: Long-horizon terminal benchmarks measure whether an agent can sustain progress through extended workflows with process rewards, not only whether its final state passes a binary check. We present Long-Horizon-Terminal-Bench 2.0 (LHTB 2.0), an extension of Long-Horizon-Terminal-Bench that preserves its 46 original tasks while correcting task and evaluation-infrastructure defects and extending 31 tasks. LHTB 2.0 contains 77 tasks across 13 domains and eight task types. The extended tasks are produced through a systematic reconstruction-task pipeline. We start from a working scientific or engineering artifact, then use a parameterized reference implementation to generate multiple scenarios, reveal six as behavioral evidence, hold out three for evaluation, and use dense progress ladders to reward partial progress while preventing memorization of public outputs. We also extend the evaluation horizon from 90 minutes to three hours and record verifier checkpoints every 30 minutes, enabling direct measurement of sustained progress within a run. Across 1,145 scored model-task runs from 15 frontier models, GPT-6-astra leads with dense mean reward 0.69 and 37 tasks at R at least 0.95, followed by GPT-5.6-sol with dense mean reward 0.67 and 32 tasks at the same threshold. On the 30 reconstruction tasks, binary verifier scores average 0.221, whereas dense ladder scores average 0.653, showing that outcome-only evaluation discards substantial intermediate progress. LHTB 2.0 provides a broader, hardened, and process-aware testbed for studying reliable agent execution over hours.",
           "publishedAt": "2026-10-14T04:00:00.000Z",
           "comments": null,
           "author": "Zongxia Li, Zhongzhi Li, Yucheng Shi, Ruhan Wang, Junyao Yang, Chengsong Huang, Zhichao Liu, Xiyang Wu, Anhao Li, Yue Yu, Ergan Shang, Fuxiao Liu, Tong Zheng, Ninghao Liu, Lichao Sun, Haitao Mi, Leowei Liang"
@@ -309,10 +309,10 @@
         {
           "id": "oai:arXiv.org:2610.14149v1",
           "title": "VETNET: Assembling Benchmark Datasets for AI-Driven Veterinary Innovation",
-          "titleZh": "VETNET：为人工智能驱动的兽医创新组装基准数据集",
+          "titleZh": "VETNET: Assembling Benchmark Datasets for AI-Driven Veterinary Innovation",
           "link": "https://arxiv.org/abs/2610.14149",
           "summary": "arXiv:2610.14149v1 Announce Type: new\nAbstract: VETNET represents an ecosystem of live benchmark datasets and evaluation frameworks designed to accelerate AI-driven innovation in animal science and veterinary medicine through standardized, high-quality datasets and multi-institutional collaboration across academic and non-academic sectors. This framework addresses the gap between AI advances in human medicine and the fragmented state of veterinary AI development.",
-          "summaryZh": "arXiv:2610.14149v1 公告类型：新\n摘要：VETNET 代表了一个由实时基准数据集和评估框架组成的生态系统，旨在通过标准化、高质量的数据集以及学术和非学术领域的多机构合作，加速动物科学和兽医领域人工智能驱动的创新。该框架解决了人类医学人工智能进步与兽医人工智能发展的分散状态之间的差距。",
+          "summaryZh": "arXiv:2610.14149v1 Announce Type: new\nAbstract: VETNET represents an ecosystem of live benchmark datasets and evaluation frameworks designed to accelerate AI-driven innovation in animal science and veterinary medicine through standardized, high-quality datasets and multi-institutional collaboration across academic and non-academic sectors. This framework addresses the gap between AI advances in human medicine and the fragmented state of veterinary AI development.",
           "publishedAt": "2026-10-14T04:00:00.000Z",
           "comments": null,
           "author": "Katherine J. Koebel, Renata Ivanek, Parminder Basran, Jennifer Sun, Casey Cazer, Gayatri Anil, Tommaso Banzato, Liz Barton, Dottie Cimino Brown, Leszek Bukowski, Marta Castelhano, Simon Coghlan, Christopher De Sa, Nikki Dutta, Hala Ghali, Julio Giordano, Joshua Glass, David C. Hogg, Nicholas Hollingshead, Adam Kiehl, Ziang Liu, Monica Meduri, Param Mohapatra, Kim Nayyer, Amelia Nelson, Peter-John Mantyla Noble, Christopher Pinard, Beryl Rabindran, Scott Ross, Ron Seccia, Moira Sheehan, Fei Wang, Tracy L. Webb, Kilian Q. Weinberger, Heather M. Whitney, Chen Xin"
@@ -320,10 +320,10 @@
         {
           "id": "oai:arXiv.org:2610.14180v1",
           "title": "Unconstrained CTI-REALM with Open-Weights",
-          "titleZh": "具有开放权重的无约束 CTI-REALM",
+          "titleZh": "Unconstrained CTI-REALM with Open-Weights",
           "link": "https://arxiv.org/abs/2610.14180",
           "summary": "arXiv:2610.14180v1 Announce Type: new\nAbstract: Organisations that want language-model agents for security work face a choice between open-weight models, which they can run and audit themselves, and far more expensive closed frontier models. We study that choice on CTI-REALM (arXiv:2603.13517), a benchmark in which an agent turns a threat-intelligence report into a working detection by querying a live telemetry store. We evaluate twenty-six models, nineteen open-weight and seven closed, under a common harness, scorer and panel of LLM judges. Our main finding is that an open-weight model can match the strongest closed models at less than a tenth of their cost, provided it is given enough turns. The benchmark's published limit on agent messages is a confound: a task that exhausts the limit scores zero on every checkpoint, including those it had already passed, so results at that limit partly measure which models finish in time. At the published limit the leading open-weight and closed models cannot be distinguished. With the limit relaxed, the models it was truncating recover, and the highest rewards belong to open-weight models. Among the leading models, price is a poor guide to capability: models with similar rewards differ in cost by more than an order of magnitude. Because the benchmark's checkpoint scores largely record what an agent did or mentioned, we also introduce stage-level metrics that score what the agent submits, by executing its detection queries in the telemetry store and judging its outputs against the answer key. Rather than combining them into one more overall reward, we show that different models lead different stages, which suggests routing each stage of the workflow to the model that performs it best rather than choosing a single model by its overall score. We also report how many tokens each model generates, and find that the share of output spent on thinking does not track the reward.",
-          "summaryZh": "arXiv:2610.14180v1 公告类型：新\n摘要：需要语言模型代理来进行安全工作的组织面临着一个选择：开放权重模型（可以自行运行和审核）和昂贵得多的封闭边界模型。我们在 CTI-REALM (arXiv:2603.13517) 上研究了这一选择，这是一个基准，代理通过查询实时遥测存储将威胁情报报告转化为有效检测。我们评估了 26 个模型，其中 19 个是开放式的，7 个是封闭式的，在共同的工具、记分员和法学硕士评委小组的指导下。我们的主要发现是，只要给予足够的轮数，开放重量模型可以以不到十分之一的成本与最强大的封闭模型相匹配。该基准公布的对代理消息的限制令人困惑：耗尽限制的任务在每个检查点（包括它已经通过的检查点）得分为零，因此该限制的结果部分衡量了哪些模型及时完成。在公布的限制下，无法区分领先的开放式重量和封闭式模型。随着限制的放宽，被截断的模型会恢复，最高的奖励属于开放权重模型。在领先的模型中，价格对于能力来说是一个糟糕的指导：具有相似奖励的模型在成本上的差异超过一个数量级。由于基准测试的检查点分数主要记录了代理所做或提及的内容，因此我们还引入了阶段级指标，通过在遥测存储中执行其检测查询并根据答案键判断其输出，对代理提交的内容进行评分。我们没有将它们组合成一个整体奖励，而是表明不同的模型会引导不同的阶段，这建议将工作流程的每个阶段路由到性能最佳的模型，而不是根据总体得分选择单个模型。我们还报告了每个模型生成了多少代币，并发现用于思考的输出份额并不跟踪奖励。",
+          "summaryZh": "arXiv:2610.14180v1 Announce Type: new\nAbstract: Organisations that want language-model agents for security work face a choice between open-weight models, which they can run and audit themselves, and far more expensive closed frontier models. We study that choice on CTI-REALM (arXiv:2603.13517), a benchmark in which an agent turns a threat-intelligence report into a working detection by querying a live telemetry store. We evaluate twenty-six models, nineteen open-weight and seven closed, under a common harness, scorer and panel of LLM judges. Our main finding is that an open-weight model can match the strongest closed models at less than a tenth of their cost, provided it is given enough turns. The benchmark's published limit on agent messages is a confound: a task that exhausts the limit scores zero on every checkpoint, including those it had already passed, so results at that limit partly measure which models finish in time. At the published limit the leading open-weight and closed models cannot be distinguished. With the limit relaxed, the models it was truncating recover, and the highest rewards belong to open-weight models. Among the leading models, price is a poor guide to capability: models with similar rewards differ in cost by more than an order of magnitude. Because the benchmark's checkpoint scores largely record what an agent did or mentioned, we also introduce stage-level metrics that score what the agent submits, by executing its detection queries in the telemetry store and judging its outputs against the answer key. Rather than combining them into one more overall reward, we show that different models lead different stages, which suggests routing each stage of the workflow to the model that performs it best rather than choosing a single model by its overall score. We also report how many tokens each model generates, and find that the share of output spent on thinking does not track the reward.",
           "publishedAt": "2026-10-14T04:00:00.000Z",
           "comments": null,
           "author": "Sahil Garg, Ruhi Gottumukkala, Vishal Agarwal, Shubham Vishwakarma"
@@ -331,10 +331,10 @@
         {
           "id": "oai:arXiv.org:2610.14186v1",
           "title": "Visualizing the World Model in an Agent's Value Function",
-          "titleZh": "在代理的价值函数中可视化世界模型",
+          "titleZh": "Visualizing the World Model in an Agent's Value Function",
           "link": "https://arxiv.org/abs/2610.14186",
           "summary": "arXiv:2610.14186v1 Announce Type: new\nAbstract: Could model-free reinforcement learning algorithms actually be learning a model of the environment? In this work, we apply counterfactual interventions which hold everything about a state fixed, besides a targeted change, to explore if the value function of a Proximal Policy Optimization agent forms a world model of the Crafter environment. Despite only being trained to optimize reward, we discover that the value function learns concepts such as the rules governing when a diamond is collectible, water and food having an impact on health, heuristics regarding inventory, and more. Finally, we discuss the safety implications of our visualizations and some shortcomings of current reinforcement learning agents that will prevent us from building truly advanced machine intelligence.",
-          "summaryZh": "arXiv:2610.14186v1 公告类型：新\n摘要：无模型强化学习算法实际上可以学习环境模型吗？在这项工作中，我们应用反事实干预措施，除了有针对性的变化之外，还固定状态的所有内容，以探索近端策略优化代理的价值函数是否形成 Crafter 环境的世界模型。尽管只接受了优化奖励的训练，但我们发现价值函数学习了一些概念，例如管理钻石何时可收藏的规则、对健康有影响的水和食物、有关库存的启发法等等。最后，我们讨论了可视化的安全影响以及当前强化学习代理的一些缺点，这些缺点将阻止我们构建真正先进的机器智能。",
+          "summaryZh": "arXiv:2610.14186v1 Announce Type: new\nAbstract: Could model-free reinforcement learning algorithms actually be learning a model of the environment? In this work, we apply counterfactual interventions which hold everything about a state fixed, besides a targeted change, to explore if the value function of a Proximal Policy Optimization agent forms a world model of the Crafter environment. Despite only being trained to optimize reward, we discover that the value function learns concepts such as the rules governing when a diamond is collectible, water and food having an impact on health, heuristics regarding inventory, and more. Finally, we discuss the safety implications of our visualizations and some shortcomings of current reinforcement learning agents that will prevent us from building truly advanced machine intelligence.",
           "publishedAt": "2026-10-14T04:00:00.000Z",
           "comments": null,
           "author": "Shawheen Naderi, Fatemeh Akherati, Yubei Chen"
@@ -342,10 +342,10 @@
         {
           "id": "oai:arXiv.org:2610.14190v1",
           "title": "Cross-Modal Latent Influence: Patch-Level Training Sample Attribution for Vision-Language Models",
-          "titleZh": "跨模式潜在影响：视觉语言模型的补丁级训练样本归因",
+          "titleZh": "Cross-Modal Latent Influence: Patch-Level Training Sample Attribution for Vision-Language Models",
           "link": "https://arxiv.org/abs/2610.14190",
           "summary": "arXiv:2610.14190v1 Announce Type: new\nAbstract: Explaining a vision--language model (VLM) prediction requires tracing training-example influence to the multimodal evidence that mediates it, yet existing attribution methods largely operate only at the sample level. Recent latent-mediated influence methods provide feature-level attribution in language models, but lack the multimodal and spatial structure needed to ground influence in VLMs. We introduce MOSAIC (Multimodal Orthogonalized Sparse Autoencoders for Influence Characterization). It learns a shared sparse image--text latent space whose concepts are 1) sparse within each modality, 2) supported on contiguous image regions, 3) aligned to the phrases that describe them, and 4) approximately decorrelated. It then applies EK-FAC to decompose training-example influence through these concepts and localize their contributions to specific text phrases and image regions. We evaluate MOSAIC on Qwen and Gemma across captioning, chest X-ray understanding, and visual question answering. The learned features are more localized and coherent without degrading task behavior, and ablating influence-ranked latents changes model outputs more than ablating latents ranked by activation or frequency. We find that visual evidence can substantially reorganize training-data attribution while preserving more of the shared latent structure. MOSAIC thus connects where model behavior comes from with what multimodal evidence carries that influence.",
-          "summaryZh": "arXiv:2610.14190v1 公告类型：新\n摘要：解释视觉语言模型（VLM）预测需要追踪训练示例对调解它的多模态证据的影响，但现有的归因方法很大程度上仅在样本级别上运行。最近的潜在介导影响方法在语言模型中提供了特征级归因，但缺乏在 VLM 中发挥影响力所需的多模态和空间结构。我们介绍 MOSAIC（用于影响表征的多模态正交稀疏自动编码器）。它学习一个共享的稀疏图​​像-文本潜在空间，其概念是：1）每种模态内稀疏，2）支持连续图像区域，3）与描述它们的短语对齐，4）近似去相关。然后，它应用 EK-FAC 通过这些概念分解训练示例的影响，并将它们的贡献定位到特定的文本短语和图像区域。我们在字幕、胸部 X 光理解和视觉问答方面评估了 Qwen 和 Gemma 上的 MOSAIC。学习到的特征更加本地化和连贯，而不会降低任务行为，并且消除按影响力排名的潜在因素比消除按激活或频率排名的潜在因素更能改变模型输出。我们发现视觉证据可以极大地重新组织训练数据归因，同时保留更多共享的潜在结构。因此，MOSAIC 将模型行为的来源与具有这种影响的多模态证据联系起来。",
+          "summaryZh": "arXiv:2610.14190v1 Announce Type: new\nAbstract: Explaining a vision--language model (VLM) prediction requires tracing training-example influence to the multimodal evidence that mediates it, yet existing attribution methods largely operate only at the sample level. Recent latent-mediated influence methods provide feature-level attribution in language models, but lack the multimodal and spatial structure needed to ground influence in VLMs. We introduce MOSAIC (Multimodal Orthogonalized Sparse Autoencoders for Influence Characterization). It learns a shared sparse image--text latent space whose concepts are 1) sparse within each modality, 2) supported on contiguous image regions, 3) aligned to the phrases that describe them, and 4) approximately decorrelated. It then applies EK-FAC to decompose training-example influence through these concepts and localize their contributions to specific text phrases and image regions. We evaluate MOSAIC on Qwen and Gemma across captioning, chest X-ray understanding, and visual question answering. The learned features are more localized and coherent without degrading task behavior, and ablating influence-ranked latents changes model outputs more than ablating latents ranked by activation or frequency. We find that visual evidence can substantially reorganize training-data attribution while preserving more of the shared latent structure. MOSAIC thus connects where model behavior comes from with what multimodal evidence carries that influence.",
           "publishedAt": "2026-10-14T04:00:00.000Z",
           "comments": null,
           "author": "Laura Yao, Shixing Yu, Jie Peng, Promit Ghosal, Kyra Gan, Tianlong Chen"
@@ -353,10 +353,10 @@
         {
           "id": "oai:arXiv.org:2610.14209v1",
           "title": "Should SLMs be in the Driver's Seat? A Study of Local Models as Interpreters in Cloud-Written Agent Programs",
-          "titleZh": "SLM 应该占据主导地位吗？云编写代理程序中本地模型作为解释器的研究",
+          "titleZh": "Should SLMs be in the Driver's Seat? A Study of Local Models as Interpreters in Cloud-Written Agent Programs",
           "link": "https://arxiv.org/abs/2610.14209",
           "summary": "arXiv:2610.14209v1 Announce Type: new\nAbstract: The most accurate agents executing user-provided tasks are driven by large, cloud-hosted models, which solve them by reading the private data of the user. Agents powered by models small enough to run on edge devices keep that data local, but yield far worse results. A third option is to have cloud models write a program that devices execute: the data stays local, but as the program is written before any data is seen, it fails whenever a step depends on interpreting content that appears only at run time. We explore an intermediate architecture, in which the cloud-written program defers bounded questions over user data to a small local model through an ordinary function call. On AppWorld this improves the success rate of a code-only agent in all six combinations of backbone model and test partition we evaluate, by up to 14.9pp, recovering a substantial part of the gap to a cloud-hosted ReAct loop while keeping user data on the device.",
-          "summaryZh": "arXiv:2610.14209v1 公告类型：新\n摘要：执行用户提供的任务的最准确的代理是由大型云托管模型驱动的，这些模型通过读取用户的私有数据来解决这些问题。由足够小以在边缘设备上运行的模型提供支持的代理将数据保留在本地，但产生的结果要差得多。第三种选择是让云模型编写设备执行的程序：数据保留在本地，但由于程序是在看到任何数据之前编写的，因此每当步骤依赖于解释仅在运行时出现的内容时，它就会失败。我们探索了一种中间架构，其中云编写的程序通过普通函数调用将用户数据的有界问题推迟到小型本地模型。在 AppWorld 上，这将我们评估的主干模型和测试分区的所有六种组合中纯代码代理的成功率提高了 14.9 个百分点，恢复了云托管 ReAct 循环的大部分差距，同时将用户数据保留在设备上。",
+          "summaryZh": "arXiv:2610.14209v1 Announce Type: new\nAbstract: The most accurate agents executing user-provided tasks are driven by large, cloud-hosted models, which solve them by reading the private data of the user. Agents powered by models small enough to run on edge devices keep that data local, but yield far worse results. A third option is to have cloud models write a program that devices execute: the data stays local, but as the program is written before any data is seen, it fails whenever a step depends on interpreting content that appears only at run time. We explore an intermediate architecture, in which the cloud-written program defers bounded questions over user data to a small local model through an ordinary function call. On AppWorld this improves the success rate of a code-only agent in all six combinations of backbone model and test partition we evaluate, by up to 14.9pp, recovering a substantial part of the gap to a cloud-hosted ReAct loop while keeping user data on the device.",
           "publishedAt": "2026-10-14T04:00:00.000Z",
           "comments": null,
           "author": "Boris Radovi\\v{c}, Marco Canini, Veljko Pejovi\\'c"
@@ -364,10 +364,10 @@
         {
           "id": "oai:arXiv.org:2610.14224v1",
           "title": "Harness^2: Recursive Agent Harnessing for an Open World",
-          "titleZh": "Harness^2：开放世界的递归代理利用",
+          "titleZh": "Harness^2: Recursive Agent Harnessing for an Open World",
           "link": "https://arxiv.org/abs/2610.14224",
           "summary": "arXiv:2610.14224v1 Announce Type: new\nAbstract: LLM agents' capabilities depend not only on their underlying models but also on their execution harnesses. Recursive self-improvement (RSI) offers a promising approach to automatically evolve these harnesses. However, deploying RSI in open-world settings still faces two critical challenges. First, open-world tasks are typically unseen during the harness design phase and novel at test time, leaving no ground-truth verifiers to reliably guide online harness edits. Second, the RSI process remains highly task-specific and fails to generalize to novel scenarios. We introduce Harness^2, a plug-and-play, recursive agent harnessing framework that addresses these challenges through two connected levels of recursion. Task-level recursion refines the current task's harness using a contrastive Propose-Probe-Compose step that reliably guides edits without ground-truth verifiers, and can be scaled further via parallel or sequential recursion. Harnessing-level recursion then extracts experience from these edits to update a continual improvement harness, enabling the agent to better adapt to future tasks. Across three professional benchmarks and four model-harness configurations, a single step consistently improves GLM-5 and Gemini 3.5 Flash over their base harnesses, yielding gains of up to 11.5 points on WorkBuddy-Bench, 4.5 points on JobBench, and 11.8 percentage points on LAB, with further gains as the task-level recursion budget increases.",
-          "summaryZh": "arXiv:2610.14224v1 公告类型：新\n摘要：LLM 代理的能力不仅取决于其底层模型，还取决于其执行工具。递归自我改进（RSI）提供了一种有前途的方法来自动改进这些工具。然而，在开放世界环境中部署 RSI 仍然面临两个关键挑战。首先，开放世界任务通常在线束设计阶段是看不见的，并且在测试时是新颖的，因此没有真实的验证者来可靠地指导在线线束编辑。其次，RSI 过程仍然高度特定于任务，无法推广到新场景。我们引入了 Harness^2，这是一个即插即用的递归代理利用框架，它通过两个连接的递归级别来解决这些挑战。任务级递归使用对比性的 Propose-Probe-Compose 步骤来细化当前任务的控制，该步骤可以在没有真实验证器的情况下可靠地指导编辑，并且可以通过并行或顺序递归进一步扩展。然后，利用级递归从这些编辑中提取经验，以更新持续改进的利用，使代理能够更好地适应未来的任务。在三个专业基准测试和四种模型线束配置中，一步即可持续改进 GLM-5 和 Gemini 3.5 Flash 的基本线束，在 WorkBuddy-Bench 上获得高达 11.5 个百分点的收益，在 JobBench 上获得 4.5 个百分点，在 LAB 上获得 11.8 个百分点，并且随着任务级递归预算的增加，收益还会进一步增加。",
+          "summaryZh": "arXiv:2610.14224v1 Announce Type: new\nAbstract: LLM agents' capabilities depend not only on their underlying models but also on their execution harnesses. Recursive self-improvement (RSI) offers a promising approach to automatically evolve these harnesses. However, deploying RSI in open-world settings still faces two critical challenges. First, open-world tasks are typically unseen during the harness design phase and novel at test time, leaving no ground-truth verifiers to reliably guide online harness edits. Second, the RSI process remains highly task-specific and fails to generalize to novel scenarios. We introduce Harness^2, a plug-and-play, recursive agent harnessing framework that addresses these challenges through two connected levels of recursion. Task-level recursion refines the current task's harness using a contrastive Propose-Probe-Compose step that reliably guides edits without ground-truth verifiers, and can be scaled further via parallel or sequential recursion. Harnessing-level recursion then extracts experience from these edits to update a continual improvement harness, enabling the agent to better adapt to future tasks. Across three professional benchmarks and four model-harness configurations, a single step consistently improves GLM-5 and Gemini 3.5 Flash over their base harnesses, yielding gains of up to 11.5 points on WorkBuddy-Bench, 4.5 points on JobBench, and 11.8 percentage points on LAB, with further gains as the task-level recursion budget increases.",
           "publishedAt": "2026-10-14T04:00:00.000Z",
           "comments": null,
           "author": "Ruiyao Xu, Yanfei Chen, Zhongying CuiZhu, Bhavana Dalvi Mishra, Yifei Ming, Han Yu, Rujun Han, Chen-Yu Lee, Tomas Pfister"
@@ -375,10 +375,10 @@
         {
           "id": "oai:arXiv.org:2610.14277v1",
           "title": "Echo: Error-Compensated 4-Bit Tensor-Parallel Communication for LLM Training and Inference",
-          "titleZh": "Echo：用于 LLM 训练和推理的误差补偿 4 位张量并行通信",
+          "titleZh": "Echo: Error-Compensated 4-Bit Tensor-Parallel Communication for LLM Training and Inference",
           "link": "https://arxiv.org/abs/2610.14277",
           "summary": "arXiv:2610.14277v1 Announce Type: new\nAbstract: Tensor parallelism ends every layer with an all-reduce that sits between two dependent matrix multiplications, so its cost cannot be hidden and grows as compute outpaces interconnect bandwidth. Sending 4-bit instead of 16-bit values would cut this cost by nearly 4x, but the all-reduce must add the values it carries, and rounding the sum injects an error at every call. Model quality depends on how these errors accumulate over layers, yet existing methods treat each call on its own. We present Echo, a 4-bit all-reduce for training and inference that controls the accumulated error. Echo moves data in 4 bits and sums in high precision, so each value is quantized at most twice per call for any number of GPUs. The summation reveals each injected error, and Echo feeds it back into later calls, so old errors cancel instead of accumulating. We prove that the accumulated error stays bounded independently of depth. On A100 GPUs, Echo is 2.09x faster than the 16-bit NCCL all-reduce on 1 GB messages. It speeds up the time to first token by up to 1.16x and the training step by up to 1.09x on an idle interconnect, and by up to 1.44x and 1.38x as background traffic grows. It keeps the average accuracy over seven benchmarks within 0.4 points of 16-bit inference on Qwen3-8B. In 10B-token pretraining, its final loss is less than 0.9% above that of 16-bit training. Echo needs no FP8 or FP4 hardware.",
-          "summaryZh": "arXiv:2610.14277v1 公告类型：新\n摘要：张量并行性以位于两个相关矩阵乘法之间的全归约结束每一层，因此其成本无法隐藏，并且随着计算速度超过互连带宽而增长。发送 4 位而不是 16 位值会将成本降低近 4 倍，但 all-reduce 必须将其携带的值相加，并且对总和进行舍入会在每次调用时注入错误。模型质量取决于这些错误如何在各层上累积，但现有方法会单独处理每个调用。我们推出了 Echo，一个用于训练和推理的 4 位全归约，可控制累积误差。 Echo 以 4 位移动数据并以高精度求和，因此对于任意数量的 GPU，每次调用每个值最多量化两次。总和揭示了每个注入的错误，Echo 将其反馈到以后的调用中，因此旧的错误会被取消而不是累积。我们证明累积误差与深度无关。在 A100 GPU 上，Echo 比 1 GB 消息上的 16 位 NCCL all-reduce 快 2.09 倍。它在空闲互连上将第一个令牌的时间加快了高达 1.16 倍，将训练步骤加快了高达 1.09 倍，随着后台流量的增长，速度加快了高达 1.44 倍和 1.38 倍。它使 Qwen3-8B 上 7 个基准测试的平均准确度保持在 16 位推理的 0.4 分之内。在10B代币预训练中，其最终损失比16位训练低不到0.9%。 Echo 不需要 FP8 或 FP4 硬件。",
+          "summaryZh": "arXiv:2610.14277v1 Announce Type: new\nAbstract: Tensor parallelism ends every layer with an all-reduce that sits between two dependent matrix multiplications, so its cost cannot be hidden and grows as compute outpaces interconnect bandwidth. Sending 4-bit instead of 16-bit values would cut this cost by nearly 4x, but the all-reduce must add the values it carries, and rounding the sum injects an error at every call. Model quality depends on how these errors accumulate over layers, yet existing methods treat each call on its own. We present Echo, a 4-bit all-reduce for training and inference that controls the accumulated error. Echo moves data in 4 bits and sums in high precision, so each value is quantized at most twice per call for any number of GPUs. The summation reveals each injected error, and Echo feeds it back into later calls, so old errors cancel instead of accumulating. We prove that the accumulated error stays bounded independently of depth. On A100 GPUs, Echo is 2.09x faster than the 16-bit NCCL all-reduce on 1 GB messages. It speeds up the time to first token by up to 1.16x and the training step by up to 1.09x on an idle interconnect, and by up to 1.44x and 1.38x as background traffic grows. It keeps the average accuracy over seven benchmarks within 0.4 points of 16-bit inference on Qwen3-8B. In 10B-token pretraining, its final loss is less than 0.9% above that of 16-bit training. Echo needs no FP8 or FP4 hardware.",
           "publishedAt": "2026-10-14T04:00:00.000Z",
           "comments": null,
           "author": "Xingyu Xie, Xiaoyong Xie, Zhouchen Lin, Kim-Chuan Toh"
@@ -386,10 +386,10 @@
         {
           "id": "oai:arXiv.org:2610.14294v1",
           "title": "Controllable Diverse Sampling through Pullback Directions",
-          "titleZh": "通过回拉方向可控多样化采样",
+          "titleZh": "Controllable Diverse Sampling through Pullback Directions",
           "link": "https://arxiv.org/abs/2610.14294",
           "summary": "arXiv:2610.14294v1 Announce Type: new\nAbstract: Conditional diffusion models can generate high-quality images that align closely with a given prompt. However, samples generated from different random seeds may remain visually similar, limiting creative exploration. Existing approaches can increase variation, but often require additional optimization or sampling overhead, while stronger perturbations may introduce distortions that degrade image quality or prompt alignment. We propose a training-free method that leverages the local pullback geometry induced by the mapping from the conditioning-embedding space to the image space to identify directions of maximal output sensitivity. By steering different sampling trajectories along these directions, we encourage distinct generations while maintaining consistency with the conditioning signal. Experiments on MS-COCO and BrushNet show the efficacy of the method in improving diversity on prompt-conditioned image generation and inpainting.",
-          "summaryZh": "arXiv:2610.14294v1 公告类型：新\n摘要：条件扩散模型可以生成与给定提示紧密结合的高质量图像。然而，从不同随机种子生成的样本可能在视觉上保持相似，从而限制了创造性探索。现有方法可以增加变化，但通常需要额外的优化或采样开销，而更强的扰动可能会引入失真，从而降低图像质量或提示对齐。我们提出了一种免训练的方法，利用从条件嵌入空间到图像空间的映射引起的局部回拉几何来识别最大输出灵敏度的方向。通过沿着这些方向引导不同的采样轨迹，我们鼓励不同的世代，同时保持与调节信号的一致性。 MS-COCO 和 BrushNet 上的实验表明了该方法在提高即时条件图像生成和修复多样性方面的功效。",
+          "summaryZh": "arXiv:2610.14294v1 Announce Type: new\nAbstract: Conditional diffusion models can generate high-quality images that align closely with a given prompt. However, samples generated from different random seeds may remain visually similar, limiting creative exploration. Existing approaches can increase variation, but often require additional optimization or sampling overhead, while stronger perturbations may introduce distortions that degrade image quality or prompt alignment. We propose a training-free method that leverages the local pullback geometry induced by the mapping from the conditioning-embedding space to the image space to identify directions of maximal output sensitivity. By steering different sampling trajectories along these directions, we encourage distinct generations while maintaining consistency with the conditioning signal. Experiments on MS-COCO and BrushNet show the efficacy of the method in improving diversity on prompt-conditioned image generation and inpainting.",
           "publishedAt": "2026-10-14T04:00:00.000Z",
           "comments": null,
           "author": "Sylvain Dehayem Kenfouo, Aaron Zweig, Mingxuan Zhang, Elham Azizi"
@@ -397,10 +397,10 @@
         {
           "id": "oai:arXiv.org:2610.14307v1",
           "title": "ConicFlow: constrained Inference-time optimal control for flow matching models",
-          "titleZh": "ConicFlow：流匹配模型的约束推理时间最优控制",
+          "titleZh": "ConicFlow: constrained Inference-time optimal control for flow matching models",
           "link": "https://arxiv.org/abs/2610.14307",
           "summary": "arXiv:2610.14307v1 Announce Type: new\nAbstract: We propose ConicFlow, which frames constrained sampling from a flow matching model at inference time as an optimal control problem that balances deviation from the pretrained trajectory against reward, subject to hard terminal constraints. We discretize this problem and adapt receding-horizon control, optimizing only a short window of the trajectory at each step for computational tractability. We address the resulting sequence of receding-horizon subproblems with a receding-horizon primal-dual algorithm. Its dual multipliers capture the difficulty of satisfying each constraint and are refined throughout sampling, steering generation toward feasible final samples. We further propose a terminal-estimate variant that avoids accumulating local truncation errors by evaluating the reward and constraints at the predicted terminal point rather than at the end of the current horizon. Under standard regularity assumptions, we establish finite-horizon guarantees on suboptimality. Under convex-affine structure, we derive a sharper bound that scales linearly with omitted horizon length, and we show that the terminal-estimate variant is provably tighter when the flow dynamics change slowly. Experiments in both low- and high-dimensional settings with a recent large-scale flow matching model show that ConicFlow achieves high reward and strong constraint satisfaction while deviating less from the pretrained flow than recent baselines.",
-          "summaryZh": "arXiv:2610.14307v1 公告类型：新\n摘要：我们提出了 ConicFlow，它将推理时从流匹配模型中进行约束采样构建为一个最优控制问题，在硬终端约束下平衡预训练轨迹的偏差与奖励。我们离散化这个问题并采用后退水平控制，在每一步仅优化轨迹的短窗口以实现计算的易处理性。我们用后退地平线原始对偶算法解决了后退地平线子问题的结果序列。它的双乘数捕获了满足每个约束的难度，并在整个采样过程中进行细化，引导生成可行的最终样本。我们进一步提出了一种终端估计变体，通过评估预测终端点而不是当前范围末尾的奖励和约束来避免累积局部截断误差。在标准正则性假设下，我们建立了次优性的有限范围保证。在凸仿射结构下，我们得出了一个更尖锐的界限，它与省略的水平长度成线性比例，并且我们表明，当流动动力学变化缓慢时，最终估计变体可证明更紧。使用最近的大规模流匹配模型在低维和高维设置中进行的实验表明，ConicFlow 实现了高奖励和强约束满足，同时与预训练流的偏差比最近的基线要小。",
+          "summaryZh": "arXiv:2610.14307v1 Announce Type: new\nAbstract: We propose ConicFlow, which frames constrained sampling from a flow matching model at inference time as an optimal control problem that balances deviation from the pretrained trajectory against reward, subject to hard terminal constraints. We discretize this problem and adapt receding-horizon control, optimizing only a short window of the trajectory at each step for computational tractability. We address the resulting sequence of receding-horizon subproblems with a receding-horizon primal-dual algorithm. Its dual multipliers capture the difficulty of satisfying each constraint and are refined throughout sampling, steering generation toward feasible final samples. We further propose a terminal-estimate variant that avoids accumulating local truncation errors by evaluating the reward and constraints at the predicted terminal point rather than at the end of the current horizon. Under standard regularity assumptions, we establish finite-horizon guarantees on suboptimality. Under convex-affine structure, we derive a sharper bound that scales linearly with omitted horizon length, and we show that the terminal-estimate variant is provably tighter when the flow dynamics change slowly. Experiments in both low- and high-dimensional settings with a recent large-scale flow matching model show that ConicFlow achieves high reward and strong constraint satisfaction while deviating less from the pretrained flow than recent baselines.",
           "publishedAt": "2026-10-14T04:00:00.000Z",
           "comments": null,
           "author": "Shervin Khalafi, Kasra Fallah, Sung Cho, Dongsheng Ding, James Anderson, Alejandro Ribeiro"
@@ -408,10 +408,10 @@
         {
           "id": "oai:arXiv.org:2610.14334v1",
           "title": "Which Metadata Matters for LLM Tool Selection in MCP? Evidence from Controlled Factor-Level Interventions",
-          "titleZh": "哪些元数据对于 MCP 中的 LLM 工具选择很重要？来自受控因素水平干预的证据",
+          "titleZh": "Which Metadata Matters for LLM Tool Selection in MCP? Evidence from Controlled Factor-Level Interventions",
           "link": "https://arxiv.org/abs/2610.14334",
           "summary": "arXiv:2610.14334v1 Announce Type: new\nAbstract: In Model Context Protocol (MCP) systems, LLMs select tools from metadata rather than from their implementations. Names and descriptions summarize what a tool does, while the parameter schema specifies the fields a tool accepts and how they are organized. Our analysis of metadata for 367,174 MCP tools reveals substantial schema variation among functionally similar tools. Many of these tools share names and similar descriptions but expose different parameter schemas. This raises a key question: can parameter-schema differences influence tool selection before any call is made? We study this question through controlled metadata interventions across five LLMs and five tasks. Each comparison changes exactly one metadata factor (server name, tool name, description, or parameter schema) while keeping the others fixed. We balance tool positions and use conditional logistic regression to estimate position-adjusted effects. We find that: (1) parameter-schema changes produce the largest and most consistent selection shifts among the tested interventions. Models tend to favor separate top-level parameters over grouped or composite forms. (2) Descriptions that explain parameters also tend to increase selection, while name effects are weaker and less consistent. (3) Targeted comparisons show that schema effects depend on the specific parameter names and on how the request represents the same information. When only one schema satisfies an explicit request requirement, all five models select the compatible tool despite position preferences. These results show that parameter schemas influence not only how tools are called, but also whether they are selected. For MCP developers and evaluators, schema design and tool ordering can therefore affect which implementation is invoked even when functionality is unchanged.",
-          "summaryZh": "arXiv:2610.14334v1 公告类型：新\n摘要：在模型上下文协议（MCP）系统中，法学硕士从元数据而不是从其实现中选择工具。名称和描述总结了工具的功能，而参数架构则指定工具接受的字段以及它们的组织方式。我们对 367,174 个 MCP 工具的元数据分析揭示了功能相似的工具之间存在显着的模式差异。其中许多工具共享名称和相似的描述，但公开不同的参数模式。这就提出了一个关键问题：参数模式差异是否会影响进行任何调用之前的工具选择？我们通过五个法学硕士和五个任务的受控元数据干预来研究这个问题。每次比较只更改一个元数据因素（服务器名称、工具名称、描述或参数模式），同时保持其他因素固定。我们平衡工具位置并使用条件逻辑回归来估计位置调整效应。我们发现：（1）参数模式的变化在测试的干预措施中产生最大且最一致的选择变化。模型倾向于使用单独的顶级参数而不是分组或复合形式。 (2) 解释参数的描述也往往会增加选择，而名称效应则较弱且不太一致。 (3) 有针对性的比较表明，模式效果取决于具体的参数名称以及请求如何表示相同信息。当只有一种模式满足明确的请求要求时，无论位置偏好如何，所有五个模型都会选择兼容的工具。这些结果表明，参数模式不仅影响工具的调用方式，还影响是否选择工具。因此，对于 MCP 开发人员和评估人员来说，即使功能未更改，模式设计和工具排序也会影响调用哪个实现。",
+          "summaryZh": "arXiv:2610.14334v1 Announce Type: new\nAbstract: In Model Context Protocol (MCP) systems, LLMs select tools from metadata rather than from their implementations. Names and descriptions summarize what a tool does, while the parameter schema specifies the fields a tool accepts and how they are organized. Our analysis of metadata for 367,174 MCP tools reveals substantial schema variation among functionally similar tools. Many of these tools share names and similar descriptions but expose different parameter schemas. This raises a key question: can parameter-schema differences influence tool selection before any call is made? We study this question through controlled metadata interventions across five LLMs and five tasks. Each comparison changes exactly one metadata factor (server name, tool name, description, or parameter schema) while keeping the others fixed. We balance tool positions and use conditional logistic regression to estimate position-adjusted effects. We find that: (1) parameter-schema changes produce the largest and most consistent selection shifts among the tested interventions. Models tend to favor separate top-level parameters over grouped or composite forms. (2) Descriptions that explain parameters also tend to increase selection, while name effects are weaker and less consistent. (3) Targeted comparisons show that schema effects depend on the specific parameter names and on how the request represents the same information. When only one schema satisfies an explicit request requirement, all five models select the compatible tool despite position preferences. These results show that parameter schemas influence not only how tools are called, but also whether they are selected. For MCP developers and evaluators, schema design and tool ordering can therefore affect which implementation is invoked even when functionality is unchanged.",
           "publishedAt": "2026-10-14T04:00:00.000Z",
           "comments": null,
           "author": "Xiaofan Li, Fengchun Qiao, Xing Gao"
@@ -424,16 +424,16 @@
       "url": "https://rss.arxiv.org/rss/cs.LG",
       "home": "https://arxiv.org/list/cs.LG/recent",
       "group": "arxiv",
-      "fetchedAt": "2026-10-14T11:00:19.152Z",
+      "fetchedAt": "2026-10-14T16:20:14.468Z",
       "count": 15,
       "items": [
         {
           "id": "oai:arXiv.org:2610.13956v1",
           "title": "MDN-VJEPA: Multimodal Probabilistic Joint-Embedding World Models",
-          "titleZh": "MDN-VJEPA：多模态概率联合嵌入世界模型",
+          "titleZh": "MDN-VJEPA: Multimodal Probabilistic Joint-Embedding World Models",
           "link": "https://arxiv.org/abs/2610.13956",
           "summary": "arXiv:2610.13956v1 Announce Type: new\nAbstract: Joint-Embedding Predictive Architectures (JEPAs) learn world models by predicting future representations rather than reconstructing observations. Variational JEPA (VJEPA) gives this prediction probabilistic semantics and permits flexible conditional predictive families. We propose MDN-VJEPA, a multimodal probabilistic JEPA that instantiates the latent predictor as a mixture density network (MDN), representing future states with a Gaussian mixture whose components encode alternative futures, their probabilities, and within-mode uncertainty. For sequential prediction, we address two additional structural requirements: multi-modal futures should remain temporally coherent across a trajectory, and predictive beliefs should remain consistent when propagated to the same horizon through different temporal path compositions, as motivated by the Chapman--Kolmogorov equation. Together, these considerations define a three-level hierarchy of multimodal prediction, coherent multimodal trajectories, and compositionally consistent multimodal dynamics. Controlled experiments show that MDN-VJEPA closely recovers known branching predictive laws, that retaining the complete multimodal belief rather than its conditional mean can lead to materially different and substantially better planning decisions under branching futures, and that trajectory-level coupling and distributional consistency improve temporal coherence and multi-horizon agreement. These results support a simple principle: a probabilistic JEPA should preserve not only how uncertain the future is, but which distinct futures constitute that uncertainty, how they form coherent trajectories, and how those beliefs compose through time.",
-          "summaryZh": "arXiv:2610.13956v1 公告类型：新\n摘要：联合嵌入预测架构（JEPA）通过预测未来表示而不是重建观察来学习世界模型。变分 JEPA (VJEPA) 提供了这种预测概率语义并允许灵活的条件预测族。我们提出 MDN-VJEPA，一种多模态概率 JEPA，它将潜在预测器实例化为混合密度网络 (MDN)，用高斯混合表示未来状态，其组件编码替代未来、它们的概率和模式内不确定性。对于顺序预测，我们解决了两个额外的结构要求：多模态未来应该在整个轨迹上保持时间连贯性，并且当通过不同的时间路径组合传播到同一地平线时，预测信念应该保持一致，正如查普曼-柯尔莫哥洛夫方程所激发的那样。这些考虑因素共同定义了多模态预测、相干多模态轨迹和成分一致的多模态动力学的三级层次结构。对照实验表明，MDN-VJEPA 紧密地恢复了已知的分支预测定律，保留完整的多模态信念而不是其条件均值可以在分支未来下导致实质上不同且更好的规划决策，并且轨迹级耦合和分布一致性提高了时间相干性和多水平一致性。这些结果支持一个简单的原则：概率 JEPA 不仅应该保留未来的不确定性，还应该保留哪些不同的未来构成了这种不确定性，它们如何形成连贯的轨迹，以及这些信念如何随着时间的推移而组合。",
+          "summaryZh": "arXiv:2610.13956v1 Announce Type: new\nAbstract: Joint-Embedding Predictive Architectures (JEPAs) learn world models by predicting future representations rather than reconstructing observations. Variational JEPA (VJEPA) gives this prediction probabilistic semantics and permits flexible conditional predictive families. We propose MDN-VJEPA, a multimodal probabilistic JEPA that instantiates the latent predictor as a mixture density network (MDN), representing future states with a Gaussian mixture whose components encode alternative futures, their probabilities, and within-mode uncertainty. For sequential prediction, we address two additional structural requirements: multi-modal futures should remain temporally coherent across a trajectory, and predictive beliefs should remain consistent when propagated to the same horizon through different temporal path compositions, as motivated by the Chapman--Kolmogorov equation. Together, these considerations define a three-level hierarchy of multimodal prediction, coherent multimodal trajectories, and compositionally consistent multimodal dynamics. Controlled experiments show that MDN-VJEPA closely recovers known branching predictive laws, that retaining the complete multimodal belief rather than its conditional mean can lead to materially different and substantially better planning decisions under branching futures, and that trajectory-level coupling and distributional consistency improve temporal coherence and multi-horizon agreement. These results support a simple principle: a probabilistic JEPA should preserve not only how uncertain the future is, but which distinct futures constitute that uncertainty, how they form coherent trajectories, and how those beliefs compose through time.",
           "publishedAt": "2026-10-14T04:00:00.000Z",
           "comments": null,
           "author": "Yongchao Huang"
@@ -441,10 +441,10 @@
         {
           "id": "oai:arXiv.org:2610.13959v1",
           "title": "LACRM: LLM-Guided Mining of Directed Advertiser Competition Relationships in E-Commerce Advertising",
-          "titleZh": "LACRM：法学硕士引导的电子商务广告中定向广告商竞争关系的挖掘",
+          "titleZh": "LACRM: LLM-Guided Mining of Directed Advertiser Competition Relationships in E-Commerce Advertising",
           "link": "https://arxiv.org/abs/2610.13959",
           "summary": "arXiv:2610.13959v1 Announce Type: new\nAbstract: In e-commerce advertising, ad platforms typically fail to model the externalities among advertisers when making optimization decisions: an advertiser's actual performance is largely shaped by rivals competing for the same users; these rivals typically operate in overlapping product categories and at comparable budget scales. However, capturing this rivalry as an explicit, reusable signal is challenging because it is directed, multi-faceted, and partially observable. Existing paradigms such as interaction graphs, taxonomy rules, and single-embedding models do not fully capture these properties. In this paper, we propose LACRM (LLM-driven Advertiser Competition Relationship Mining), a novel framework that constructs directed competition graphs with continuous edge intensities via a three-stage pipeline. LACRM moves beyond symmetric similarity through LLM-driven role-separated profiling, which enables asymmetric multi-route retrieval to uncover both realized and latent rivals. The framework further incorporates listwise learning-to-rank aligned with temporal auction behavior to accurately model directed competition intensity. In offline retrieval experiments on an industrial benchmark, LACRM outperforms strong directed GNN baselines and ablation variants. Multi-LLM and human studies provide complementary evidence that the recovered latent rivals reflect meaningful market competition rather than merely model-generated artifacts. In production A/B tests, LACRM-guided bidding and incentive allocation increase advertising revenue by 1.73% and 1.14%, respectively. The results demonstrate the practical value of explicit competition modeling in large-scale advertising systems.",
-          "summaryZh": "arXiv:2610.13959v1 公告类型：新\n摘要：在电子商务广告中，广告平台在做出优化决策时通常无法对广告主之间的外部性进行建模：广告主的实际表现很大程度上取决于竞争对手对相同用户的竞争；这些竞争对手通常经营重叠的产品类别和类似的预算规模。然而，将这种竞争捕获为明确的、可重复使用的信号具有挑战性，因为它是定向的、多方面的且部分可观察的。交互图、分类规则和单嵌入模型等现有范例并没有完全捕获这些属性。在本文中，我们提出了 LACRM（LLM 驱动的广告商竞争关系挖掘），这是一种新颖的框架，通过三阶段管道构建具有连续边缘强度的有向竞争图。 LACRM 通过 LLM 驱动的角色分离分析超越了对称相似性，这使得非对称多路径检索能够发现已实现的和潜在的竞争对手。该框架进一步结合了与时间拍卖行为相一致的列表学习排名，以准确地模拟定向竞争强度。在工业基准的离线检索实验中，LACRM 优于强定向 GNN 基线和消融变体。多法学硕士和人类研究提供了补充证据，表明恢复的潜在竞争对手反映了有意义的市场竞争，而不仅仅是模型生成的产物。在生产A/B测试中，LACRM引导的竞价和激励分配分别使广告收入增加了1.73%和1.14%。结果证明了显式竞争建模在大规模广告系统中的实用价值。",
+          "summaryZh": "arXiv:2610.13959v1 Announce Type: new\nAbstract: In e-commerce advertising, ad platforms typically fail to model the externalities among advertisers when making optimization decisions: an advertiser's actual performance is largely shaped by rivals competing for the same users; these rivals typically operate in overlapping product categories and at comparable budget scales. However, capturing this rivalry as an explicit, reusable signal is challenging because it is directed, multi-faceted, and partially observable. Existing paradigms such as interaction graphs, taxonomy rules, and single-embedding models do not fully capture these properties. In this paper, we propose LACRM (LLM-driven Advertiser Competition Relationship Mining), a novel framework that constructs directed competition graphs with continuous edge intensities via a three-stage pipeline. LACRM moves beyond symmetric similarity through LLM-driven role-separated profiling, which enables asymmetric multi-route retrieval to uncover both realized and latent rivals. The framework further incorporates listwise learning-to-rank aligned with temporal auction behavior to accurately model directed competition intensity. In offline retrieval experiments on an industrial benchmark, LACRM outperforms strong directed GNN baselines and ablation variants. Multi-LLM and human studies provide complementary evidence that the recovered latent rivals reflect meaningful market competition rather than merely model-generated artifacts. In production A/B tests, LACRM-guided bidding and incentive allocation increase advertising revenue by 1.73% and 1.14%, respectively. The results demonstrate the practical value of explicit competition modeling in large-scale advertising systems.",
           "publishedAt": "2026-10-14T04:00:00.000Z",
           "comments": null,
           "author": "Xiang Shi, Yitian Kou, Bing Li, Shengsheng Niu, Chun Gan, Linghui Meng, Jie He, Zhangang Lin, Ching Law"
@@ -452,10 +452,10 @@
         {
           "id": "oai:arXiv.org:2610.13966v1",
           "title": "MRFlow: Mechanism-Structured Residual Flow Matching for Virtual Cell Perturbation Prediction",
-          "titleZh": "MRFlow：用于虚拟细胞扰动预测的机制结构残余流匹配",
+          "titleZh": "MRFlow: Mechanism-Structured Residual Flow Matching for Virtual Cell Perturbation Prediction",
           "link": "https://arxiv.org/abs/2610.13966",
           "summary": "arXiv:2610.13966v1 Announce Type: new\nAbstract: Predicting cellular responses to chemical and genetic perturbations is a central test for AI virtual cells, yet many single-cell models reduce each condition to an average expression shift. This target is misaligned with perturbation biology: rare states, resistant subpopulations, and context-dependent effect sizes may coexist under the same intervention. MRFlow treats virtual-cell prediction as conditional transport between empirical single-cell measures. Control and perturbed cells are embedded in a variational latent state space, greedy low-cost supervision is constructed over detached minibatch states, and a conditional flow-matching vector field transports control populations toward perturbed populations. The field decomposes into a mechanism-structured affine dictionary, which recombines shared latent response operators with a low-rank condition-specific correction, and a spectrally controlled residual field for nonlinear cell-level variation. Genetic perturbations are encoded through a regulatory-graph GCN, chemical perturbations through Morgan fingerprints, and both enter the same conditional dynamics interface. Across eight gene and drug perturbation benchmarks, MRFlow attains the highest composite score while preserving competitive raw performance on differential-expression and distributional metrics. The results support latent distribution transport as a principled and empirically effective formulation for perturbation-aware virtual cell modeling.",
-          "summaryZh": "arXiv:2610.13966v1 公告类型：新\n摘要：预测细胞对化学和遗传扰动的反应是 AI 虚拟细胞的核心测试，但许多单细胞模型将每种条件简化为平均表达变化。这个目标与微扰生物学不一致：稀有状态、抵抗亚群和上下文相关的效应大小可能在相同的干预下共存。 MRFlow 将虚拟细胞预测视为经验单细胞测量之间的条件传输。控制和扰动细胞嵌入到变化的潜在状态空间中，在分离的小批量状态上构建贪婪的低成本监督，并且条件流匹配向量场将控制群体传输到扰动群体。该场分解为机制结构的仿射字典，它将共享潜在响应算子与低阶条件特定校正以及用于非线性单元级变化的频谱控制残差场重新组合。遗传扰动通过调控图 GCN 编码，化学扰动通过摩根指纹编码，并且两者都进入相同的条件动力学接口。在八个基因和药物扰动基准中，MRFlow 获得了最高的综合得分，同时在差异表达和分布指标上保持了有竞争力的原始性能。结果支持潜在分布传输作为扰动感知虚拟细胞建模的原则上和经验上有效的公式。",
+          "summaryZh": "arXiv:2610.13966v1 Announce Type: new\nAbstract: Predicting cellular responses to chemical and genetic perturbations is a central test for AI virtual cells, yet many single-cell models reduce each condition to an average expression shift. This target is misaligned with perturbation biology: rare states, resistant subpopulations, and context-dependent effect sizes may coexist under the same intervention. MRFlow treats virtual-cell prediction as conditional transport between empirical single-cell measures. Control and perturbed cells are embedded in a variational latent state space, greedy low-cost supervision is constructed over detached minibatch states, and a conditional flow-matching vector field transports control populations toward perturbed populations. The field decomposes into a mechanism-structured affine dictionary, which recombines shared latent response operators with a low-rank condition-specific correction, and a spectrally controlled residual field for nonlinear cell-level variation. Genetic perturbations are encoded through a regulatory-graph GCN, chemical perturbations through Morgan fingerprints, and both enter the same conditional dynamics interface. Across eight gene and drug perturbation benchmarks, MRFlow attains the highest composite score while preserving competitive raw performance on differential-expression and distributional metrics. The results support latent distribution transport as a principled and empirically effective formulation for perturbation-aware virtual cell modeling.",
           "publishedAt": "2026-10-14T04:00:00.000Z",
           "comments": null,
           "author": "Haojie Yang, Ran Su"
@@ -463,10 +463,10 @@
         {
           "id": "oai:arXiv.org:2610.13982v1",
           "title": "PRIME: Frequency-Aware Unified Pruning and Merging for MoE Compression",
-          "titleZh": "PRIME：用于 MoE 压缩的频率感知统一修剪和合并",
+          "titleZh": "PRIME: Frequency-Aware Unified Pruning and Merging for MoE Compression",
           "link": "https://arxiv.org/abs/2610.13982",
           "summary": "arXiv:2610.13982v1 Announce Type: new\nAbstract: Mixture-of-Experts (MoE) models have emerged as an effective paradigm for scaling large language models, yet their massive parameter footprint poses severe memory challenges for deployment. Existing compression methods typically treat expert pruning and merging as disjoint operations and rely on greedy heuristics, often leading to irreversible information loss or representational pollution. In this paper, we propose PRIME, a unified optimization framework for MoE compression via adaptive PRunIng and MErging. PRIME casts the discrete prune-merge assignment step as a global Integer Linear Programming over a frequency-weighted surrogate objective, jointly selecting pruning and merging decisions while accounting for expert usage. We motivate the frequency-aware objective through an error-bound analysis under fixed representative assignments, and show that the formulation favors high-frequency experts as centroids, promoting routing stability. Extensive experiments on Qwen3-30B-A3B and Qwen3.5-122B-A10B demonstrate that PRIME achieves strong accuracy retention across knowledge, coding, math, and long-context tasks, while serving benchmarks of merged models quantify the memory and throughput benefits of expert compression in vLLM.",
-          "summaryZh": "arXiv:2610.13982v1 公告类型：新\n摘要：专家混合（MoE）模型已成为扩展大型语言模型的有效范例，但其庞大的参数占用量给部署带来了严峻的内存挑战。现有的压缩方法通常将专家修剪和合并视为不相交的操作，并依赖于贪婪的启发式算法，通常会导致不可逆的信息丢失或表征污染。在本文中，我们提出了 PRIME，这是一种通过自适应 PRunIng 和 MERging 进行 MoE 压缩的统一优化框架。 PRIME 将离散剪枝合并分配步骤作为基于频率加权代理目标的全局整数线性规划，在考虑专家使用的同时联合选择剪枝和合并决策。我们通过固定代表性分配下的误差界限分析来激发频率感知目标，并表明该公式有利于高频专家作为质心，从而提高路由稳定​​性。在 Qwen3-30B-A3B 和 Qwen3.5-122B-A10B 上进行的大量实验表明，PRIME 在知识、编码、数学和长上下文任务中实现了强大的准确性保留，同时提供合并模型的基准，量化了 vLLM 中专家压缩的内存和吞吐量优势。",
+          "summaryZh": "arXiv:2610.13982v1 Announce Type: new\nAbstract: Mixture-of-Experts (MoE) models have emerged as an effective paradigm for scaling large language models, yet their massive parameter footprint poses severe memory challenges for deployment. Existing compression methods typically treat expert pruning and merging as disjoint operations and rely on greedy heuristics, often leading to irreversible information loss or representational pollution. In this paper, we propose PRIME, a unified optimization framework for MoE compression via adaptive PRunIng and MErging. PRIME casts the discrete prune-merge assignment step as a global Integer Linear Programming over a frequency-weighted surrogate objective, jointly selecting pruning and merging decisions while accounting for expert usage. We motivate the frequency-aware objective through an error-bound analysis under fixed representative assignments, and show that the formulation favors high-frequency experts as centroids, promoting routing stability. Extensive experiments on Qwen3-30B-A3B and Qwen3.5-122B-A10B demonstrate that PRIME achieves strong accuracy retention across knowledge, coding, math, and long-context tasks, while serving benchmarks of merged models quantify the memory and throughput benefits of expert compression in vLLM.",
           "publishedAt": "2026-10-14T04:00:00.000Z",
           "comments": null,
           "author": "Shanfeng Huang, Rongqian Zhang, Zhou Fang, Song Xiao, Hai Du"
@@ -474,10 +474,10 @@
         {
           "id": "oai:arXiv.org:2610.13990v1",
           "title": "DoSA: Dots Sparse Attention",
-          "titleZh": "DoSA：点稀疏注意力",
+          "titleZh": "DoSA: Dots Sparse Attention",
           "link": "https://arxiv.org/abs/2610.13990",
           "summary": "arXiv:2610.13990v1 Announce Type: new\nAbstract: Sparse attention visits few keys, yet finding them can still require scoring every key with every indexer head. We introduce DoSA (Dots Sparse Attention), a lossless method for making this computation conditional while preserving exact token selection. Its central observation is that Top-K selection requires sufficient evidence to reject a candidate, not necessarily its full score. A seed set supplies a lower bound on the winning threshold. Nonnegative head projections and joint residual bounds upper-bound positive contributions, while activation-informed aggregation bounds the magnitude subtracted by negative heads. The certificate directs full scoring toward candidates that remain eligible; exact-score filtering further reduces writeback and selection work. We establish the certificate and its exact-selection conditions, and analyze how geometry and selection margins govern its effectiveness. Our GPU implementation accelerates the complete Indexer by up to 2.74 times over SGLang and 1.69 times over LiteTopK across English, Chinese, and code workloads. End-to-end evaluation on GLM-5.2 and DeepSeek-V3.2 achieves up to 1.94 times and 1.50 times time-to-first-token speedups over the two baselines, respectively.",
-          "summaryZh": "arXiv:2610.13990v1 公告类型：新\n摘要：稀疏注意力访问很少的键，但找到它们仍然需要用每个索引器头对每个键进行评分。我们引入了 DoSA（点稀疏注意力），这是一种无损方法，可以使计算成为有条件的，同时保留精确的标记选择。其核心观察是，Top-K 选择需要足够的证据来拒绝候选人，而不一定是其满分。种子集提供了获胜阈值的下限。非负头部投影和联合残差界限限制了正贡献的上限，而激活通知聚合限制了负头部减去的幅度。该证书将满分计分给仍然符合资格的候选人；精确分数过滤进一步减少了写回和选择工作。我们建立证书及其精确选择条件，并分析几何形状和选择裕度如何控制其有效性。我们的 GPU 实现在英语、中文和代码工作负载上将整个索引器的速度比 SGLang 提高了 2.74 倍，比 LiteTopK 提高了 1.69 倍。 GLM-5.2 和 DeepSeek-V3.2 的端到端评估在两个基线上分别实现了高达 1.94 倍和 1.50 倍的首次令牌时间加速。",
+          "summaryZh": "arXiv:2610.13990v1 Announce Type: new\nAbstract: Sparse attention visits few keys, yet finding them can still require scoring every key with every indexer head. We introduce DoSA (Dots Sparse Attention), a lossless method for making this computation conditional while preserving exact token selection. Its central observation is that Top-K selection requires sufficient evidence to reject a candidate, not necessarily its full score. A seed set supplies a lower bound on the winning threshold. Nonnegative head projections and joint residual bounds upper-bound positive contributions, while activation-informed aggregation bounds the magnitude subtracted by negative heads. The certificate directs full scoring toward candidates that remain eligible; exact-score filtering further reduces writeback and selection work. We establish the certificate and its exact-selection conditions, and analyze how geometry and selection margins govern its effectiveness. Our GPU implementation accelerates the complete Indexer by up to 2.74 times over SGLang and 1.69 times over LiteTopK across English, Chinese, and code workloads. End-to-end evaluation on GLM-5.2 and DeepSeek-V3.2 achieves up to 1.94 times and 1.50 times time-to-first-token speedups over the two baselines, respectively.",
           "publishedAt": "2026-10-14T04:00:00.000Z",
           "comments": null,
           "author": "Fanxu Meng, Taosong Fang"
@@ -485,10 +485,10 @@
         {
           "id": "oai:arXiv.org:2610.13991v1",
           "title": "Predict Before You Modify: Learning Improvement Dynamics for Self-Evolving Agents",
-          "titleZh": "修改前预测：自我进化智能体的学习改进动态",
+          "titleZh": "Predict Before You Modify: Learning Improvement Dynamics for Self-Evolving Agents",
           "link": "https://arxiv.org/abs/2610.13991",
           "summary": "arXiv:2610.13991v1 Announce Type: new\nAbstract: Self-evolving agents improve through repeated cycles of modification and evaluation. However, existing methods receive feedback on modifications only after costly evaluations, and aggregate scores may obscure distinctions between failures that require different repairs. We introduce predictive self-evolution through an editable Improvement Dynamics Model (IDM). Before evaluation, the IDM predicts task-level outcomes of a proposed modification and guides an optional revision. After evaluation, past modifications and their observed outcomes are used to improve the IDM, allowing predictive knowledge to accumulate across generations. The system can thus improve how it solves tasks, proposes modifications, and predicts their effects. Building on HyperAgents, we evaluate this approach across multilingual coding, paper review, robotics reward design, and Olympiad-level mathematical grading. Our approach outperforms HyperAgents across all four domains, with up to 46% higher average performance over generations. Gains also persist under matched token budgets that include both agent evolution and task evaluation, and extend to held-out tasks. Forecast accuracy improves as the IDM evolves, and the learned predictive knowledge transfers to improve evolution in a new domain.",
-          "summaryZh": "arXiv:2610.13991v1 公告类型：新\n摘要：自我进化代理通过反复的修改和评估循环来改进。然而，现有的方法只有在昂贵的评估之后才会收到有关修改的反馈，并且总分可能会模糊需要不同修复的故障之间的区别。我们通过可编辑的改进动态模型（IDM）引入预测性自我进化。在评估之前，IDM 会预测拟议修改的任务级结果并指导可选的修订。评估后，过去的修改及其观察到的结果将用于改进 IDM，从而使预测知识能够跨代积累。因此，系统可以改进解决任务、提出修改建议并预测其效果的方式。在 HyperAgents 的基础上，我们通过多语言编码、论文评审、机器人奖励设计和奥林匹克级别的数学评分来评估这种方法。我们的方法在所有四个领域都优于 HyperAgents，几代人的平均性能提高了 46%。在匹配的代币预算下，包括代理进化和任务评估，收益也会持续存在，并扩展到保留的任务。预测准确性随着 IDM 的发展而提高，并且学习到的预测知识会转移以改进新领域的发展。",
+          "summaryZh": "arXiv:2610.13991v1 Announce Type: new\nAbstract: Self-evolving agents improve through repeated cycles of modification and evaluation. However, existing methods receive feedback on modifications only after costly evaluations, and aggregate scores may obscure distinctions between failures that require different repairs. We introduce predictive self-evolution through an editable Improvement Dynamics Model (IDM). Before evaluation, the IDM predicts task-level outcomes of a proposed modification and guides an optional revision. After evaluation, past modifications and their observed outcomes are used to improve the IDM, allowing predictive knowledge to accumulate across generations. The system can thus improve how it solves tasks, proposes modifications, and predicts their effects. Building on HyperAgents, we evaluate this approach across multilingual coding, paper review, robotics reward design, and Olympiad-level mathematical grading. Our approach outperforms HyperAgents across all four domains, with up to 46% higher average performance over generations. Gains also persist under matched token budgets that include both agent evolution and task evaluation, and extend to held-out tasks. Forecast accuracy improves as the IDM evolves, and the learned predictive knowledge transfers to improve evolution in a new domain.",
           "publishedAt": "2026-10-14T04:00:00.000Z",
           "comments": null,
           "author": "Zixuan Xie, Chang Xu, Yuhua Jiang, Li Zhao"
@@ -496,10 +496,10 @@
         {
           "id": "oai:arXiv.org:2610.13994v1",
           "title": "Posterior Flow Matching",
-          "titleZh": "后流匹配",
+          "titleZh": "Posterior Flow Matching",
           "link": "https://arxiv.org/abs/2610.13994",
           "summary": "arXiv:2610.13994v1 Announce Type: new\nAbstract: Flow matching learns how to transport noise toward data, but its mean prediction does not directly report the endpoint uncertainty remaining at an intermediate state. This paper introduces Posterior Flow Matching (PFM), a general generative modeling framework that learns conditional velocity means and componentwise variances with a Gaussian posterior model. The same model evaluation supplies both a transport prediction and endpoint uncertainty, making posterior diagnostics available throughout generation. These learned moments support a mean-driven ordinary differential equation (ODE) and a posterior-driven stochastic differential equation (SDE), whose local noise scales adapt to the predicted uncertainty. Across image, point-cloud, molecular, and action generation, PFM improves generation quality and provides endpoint-posterior readouts throughout generation.",
-          "summaryZh": "arXiv:2610.13994v1 公告类型：新\n摘要：流匹配学习如何将噪声传输到数据，但其平均预测并不直接报告处于中间状态的端点不确定性。本文介绍了后验流匹配 (PFM)，这是一种通用生成建模框架，可通过高斯后验模型学习条件速度均值和分量方差。相同的模型评估提供传输预测和终点不确定性，使后诊断在整个一代中可用。这些学习矩支持均值驱动的常微分方程 (ODE) 和后验驱动的随机微分方程 (SDE)，其局部噪声尺度适应预测的不确定性。在图像、点云、分子和动作生成中，PFM 提高了生成质量并在整个生成过程中提供端点后读数。",
+          "summaryZh": "arXiv:2610.13994v1 Announce Type: new\nAbstract: Flow matching learns how to transport noise toward data, but its mean prediction does not directly report the endpoint uncertainty remaining at an intermediate state. This paper introduces Posterior Flow Matching (PFM), a general generative modeling framework that learns conditional velocity means and componentwise variances with a Gaussian posterior model. The same model evaluation supplies both a transport prediction and endpoint uncertainty, making posterior diagnostics available throughout generation. These learned moments support a mean-driven ordinary differential equation (ODE) and a posterior-driven stochastic differential equation (SDE), whose local noise scales adapt to the predicted uncertainty. Across image, point-cloud, molecular, and action generation, PFM improves generation quality and provides endpoint-posterior readouts throughout generation.",
           "publishedAt": "2026-10-14T04:00:00.000Z",
           "comments": null,
           "author": "Chenrui Ma, Xi Xiao, Lin Zhao, Xinru Jiang, Tianyang Wang, Yanning Shen, Ferdinando Fioretto"
@@ -507,10 +507,10 @@
         {
           "id": "oai:arXiv.org:2610.13995v1",
           "title": "GameSmith: Scaling Zero-Sum Self-Play with Synthesised Games",
-          "titleZh": "GameSmith：通过综合游戏扩展零和自我博弈",
+          "titleZh": "GameSmith: Scaling Zero-Sum Self-Play with Synthesised Games",
           "link": "https://arxiv.org/abs/2610.13995",
           "summary": "arXiv:2610.13995v1 Announce Type: new\nAbstract: Post-training large language models (LLMs) on two-player zero-sum games provides a verifiable reward, and the gains have been shown to transfer to general reasoning. Existing pipelines, however, rely on a handful of hand-written games and on advantage estimators tied to them, so both the supply of games and the advantage estimate on a large corpus limit scaling. We present GameSmith, which scales both. An LLM synthesises games inside templates whose reward, observation, and hidden-information code is fixed. Each game is verified by seed-paired replay and by an independent re-implementation of its specification, then expanded into encoding, rule, and size variants, giving 26 new games in 29 families and 336 verified variants from the three SPIRAL templates. The model is distilled from the self-play of a larger teacher (Qwen3-32B) on these games and then trained by self-play reinforcement learning with CRAB, an advantage estimator that credits each decision against a shrinkage estimate of the expected return of its position and is defined on every variant. On Qwen3-4B-Base, distillation raises the 13-benchmark mean pass@1 from 45.5 to 62.5, above the three SPIRAL games at the same budget, and self-play with CRAB reaches 64.9. The ordering holds across models, and transfer grows with the number of game families.",
-          "summaryZh": "arXiv:2610.13995v1 公告类型：新\n摘要：在两人零和游戏上进行大语言模型（LLM）的后训练提供了可验证的奖励，并且这种收益已被证明可以转移到一般推理。然而，现有的管道依赖于少数手写游戏以及与其相关的优势估计器，因此游戏的供应和对大型语料库的优势估计都限制了扩展。我们推出了 GameSmith，它可以同时扩展两者。 LLM 在模板内综合游戏，其奖励、观察和隐藏信息代码是固定的。每个游戏都通过种子配对重放和对其规范的独立重新实现进行验证，然后扩展到编码、规则和大小变体，从而提供 29 个系列的 26 个新游戏以及来自三个 SPIRAL 模板的 336 个经过验证的变体。该模型是从较大教师 (Qwen3-32B) 在这些游戏中的自我对弈中提炼出来的，然后通过 CRAB 的自我对弈强化学习进行训练，CRAB 是一种优势估计器，将每个决策归功于其位置预期回报的收缩估计，并在每个变体上进行定义。在 Qwen3-4B-Base 上，蒸馏将 13 个基准的平均 pass@1 从 45.5 提高到 62.5，高于相同预算的三款 SPIRAL 游戏，并且与 CRAB 的自我对战达到 64.9。排序适用于不同型号，并且转移随着游戏系列数量的增加而增长。",
+          "summaryZh": "arXiv:2610.13995v1 Announce Type: new\nAbstract: Post-training large language models (LLMs) on two-player zero-sum games provides a verifiable reward, and the gains have been shown to transfer to general reasoning. Existing pipelines, however, rely on a handful of hand-written games and on advantage estimators tied to them, so both the supply of games and the advantage estimate on a large corpus limit scaling. We present GameSmith, which scales both. An LLM synthesises games inside templates whose reward, observation, and hidden-information code is fixed. Each game is verified by seed-paired replay and by an independent re-implementation of its specification, then expanded into encoding, rule, and size variants, giving 26 new games in 29 families and 336 verified variants from the three SPIRAL templates. The model is distilled from the self-play of a larger teacher (Qwen3-32B) on these games and then trained by self-play reinforcement learning with CRAB, an advantage estimator that credits each decision against a shrinkage estimate of the expected return of its position and is defined on every variant. On Qwen3-4B-Base, distillation raises the 13-benchmark mean pass@1 from 45.5 to 62.5, above the three SPIRAL games at the same budget, and self-play with CRAB reaches 64.9. The ordering holds across models, and transfer grows with the number of game families.",
           "publishedAt": "2026-10-14T04:00:00.000Z",
           "comments": null,
           "author": "Weixian Waylon Li, Jiaxin Zhang, Han Zhou, Chengzu Li, Ke Wang, Fengxiang He, Yiwen Guo"
@@ -518,10 +518,10 @@
         {
           "id": "oai:arXiv.org:2610.13996v1",
           "title": "Splicing Hints into Reasoning Traces: Learning from Demonstrator Failures",
-          "titleZh": "将提示拼接到推理轨迹中：从演示失败中学习",
+          "titleZh": "Splicing Hints into Reasoning Traces: Learning from Demonstrator Failures",
           "link": "https://arxiv.org/abs/2610.13996",
           "summary": "arXiv:2610.13996v1 Announce Type: new\nAbstract: Reinforcement learning with verifiable rewards improves mathematical reasoning when a final answer can be checked, but a correct answer does not certify the derivation behind it, and proof problems offer no answer to check. Replacing the check with a reasoning model as an in-loop verifier faces a fundamental obstacle: the policy must already produce occasional correct attempts for any reward to exist, which it may never do at olympiad level. We instead move verification and repair out of the training loop and into offline data generation with SPLICE, a workflow in which a second model, given only a reference solution, edits a reasoning model's traces as they are generated: it verifies progress, truncates a failed trace at its last verified step, and splices in an adaptively strengthened hint until progress resumes. The resulting dataset includes repaired examples whose sampled unaided trajectory failed, with failed continuations removed and progress repeatedly checked against the reference solution. A model finetuned on SPLICE traces outperforms the same model distilled from the reasoning model's unedited traces on AIME and, under a grading protocol validated against human grades, on olympiad proofs. The trained model's own traces show a corresponding behavioral signature: at difficult points it announces a branch in the style of the spliced hints and takes riskier steps, with predictive entropy rising there and just after, a pattern absent from the model trained on unedited traces.",
-          "summaryZh": "arXiv:2610.13996v1 公告类型：新\n摘要：当最终答案可以检查时，具有可验证奖励的强化学习可以改善数学推理，但正确答案不能证明其背后的推导，并且证明问题无法提供可供检查的答案。用推理模型代替检查作为循环验证者面临着一个根本性的障碍：该策略必须已经产生偶尔的正确尝试才能使任何奖励存在，而在奥林匹克级别上它可能永远不会这样做。相反，我们将验证和修复从训练循环中移出，并使用 SPLICE 进行离线数据生成，在该工作流程中，仅给定参考解决方案的第二个模型在生成推理模型的跟踪时对其进行编辑：它验证进度，在最后一个验证步骤中截断失败的跟踪，并拼接自适应增强的提示，直到进度恢复。生成的数据集包括采样的无辅助轨迹失败的修复示例，删除了失败的延续，并根据参考解决方案反复检查进度。在 SPLICE 跟踪上进行微调的模型优于从 AIME 上的推理模型未经编辑的跟踪中提取的相同模型，以及根据针对人类成绩验证的评分协议和奥林匹克证明上的结果。经过训练的模型自己的痕迹显示出相应的行为特征：在困难点，它会以拼接提示的方式宣布一个分支，并采取更危险的步骤，预测熵在那里上升，紧接着，在未经编辑的痕迹上训练的模型中没有这种模式。",
+          "summaryZh": "arXiv:2610.13996v1 Announce Type: new\nAbstract: Reinforcement learning with verifiable rewards improves mathematical reasoning when a final answer can be checked, but a correct answer does not certify the derivation behind it, and proof problems offer no answer to check. Replacing the check with a reasoning model as an in-loop verifier faces a fundamental obstacle: the policy must already produce occasional correct attempts for any reward to exist, which it may never do at olympiad level. We instead move verification and repair out of the training loop and into offline data generation with SPLICE, a workflow in which a second model, given only a reference solution, edits a reasoning model's traces as they are generated: it verifies progress, truncates a failed trace at its last verified step, and splices in an adaptively strengthened hint until progress resumes. The resulting dataset includes repaired examples whose sampled unaided trajectory failed, with failed continuations removed and progress repeatedly checked against the reference solution. A model finetuned on SPLICE traces outperforms the same model distilled from the reasoning model's unedited traces on AIME and, under a grading protocol validated against human grades, on olympiad proofs. The trained model's own traces show a corresponding behavioral signature: at difficult points it announces a branch in the style of the spliced hints and takes riskier steps, with predictive entropy rising there and just after, a pattern absent from the model trained on unedited traces.",
           "publishedAt": "2026-10-14T04:00:00.000Z",
           "comments": null,
           "author": "Hamed Mahdavi (Pennsylvania State University), Pouria Mahdavinia (Pennsylvania State University), Majid Farhadi (Google), Vasant Honavar (Pennsylvania State University)"
@@ -529,10 +529,10 @@
         {
           "id": "oai:arXiv.org:2610.13998v1",
           "title": "Enhanced Trading Systems with Intelligent Market Analysis",
-          "titleZh": "具有智能市场分析功能的增强型交易系统",
+          "titleZh": "Enhanced Trading Systems with Intelligent Market Analysis",
           "link": "https://arxiv.org/abs/2610.13998",
           "summary": "arXiv:2610.13998v1 Announce Type: new\nAbstract: This paper proposes a hybrid reinforcement learning trading framework integrating intraday market data with transformer-based financial sentiment signals. The system extracts sentiment dynamics and semantic event clusters from financial news and incorporates them into a PPO-based trading agent. Experiments on intraday NSE data demonstrate improved risk-adjusted returns compared to price-only baselines.",
-          "summaryZh": "arXiv:2610.13998v1 公告类型：新\n摘要：本文提出了一种混合强化学习交易框架，将日内市场数据与基于变压器的金融情绪信号相结合。该系统从财经新闻中提取情绪动态和语义事件集群，并将它们合并到基于 PPO 的交易代理中。日内 NSE 数据的实验表明，与仅考虑价格的基准相比，风险调整后的回报率有所提高。",
+          "summaryZh": "arXiv:2610.13998v1 Announce Type: new\nAbstract: This paper proposes a hybrid reinforcement learning trading framework integrating intraday market data with transformer-based financial sentiment signals. The system extracts sentiment dynamics and semantic event clusters from financial news and incorporates them into a PPO-based trading agent. Experiments on intraday NSE data demonstrate improved risk-adjusted returns compared to price-only baselines.",
           "publishedAt": "2026-10-14T04:00:00.000Z",
           "comments": null,
           "author": "Vedanth Padmaraman, Shreen Anand, Vamshi Vishruth J, Vineet V Pai, Arvind Srinath K. T, Subramanyam Natarajan, Shylaja S S"
@@ -540,10 +540,10 @@
         {
           "id": "oai:arXiv.org:2610.13999v1",
           "title": "SemTree: Judge-Aware Semantic Decision Trees for Inspectable and Repairable Rule Decisions",
-          "titleZh": "SemTree：用于可检查和可修复规则决策的法官感知语义决策树",
+          "titleZh": "SemTree: Judge-Aware Semantic Decision Trees for Inspectable and Repairable Rule Decisions",
           "link": "https://arxiv.org/abs/2610.13999",
           "summary": "arXiv:2610.13999v1 Announce Type: new\nAbstract: Rule decisions such as content moderation, advertising compliance, and eligibility checks combine several conditions, exemptions, and missing-information cases, and an error can be fixed only once the failing condition is known. We introduce SemTree, a framework that represents a rule decision as a semantic decision tree: each node is a natural-language question with explicit Yes/No/Unknown criteria, a pluggable semantic judge answers it, and the branching structure is compiled on the answers that this judge actually gives. The executed path is the reasoning behind every decision, so errors are repaired where they occur: a reviewer corrects a single node and replays the rule, corrected nodes become training labels for the judge, and a tool-using LLM editor revises questions and subtrees while observing execution results. On all 8,276 ShARC test cases, a tree executed by a hosted judge reaches 67.70% accuracy with 2.99 questions per case, on par with asking the same judge for the final label (68.23%); an earlier tree compiled for a different judge scores 47.87% when executed by this judge, while a new tree compiled on this judge's answers to a 12-question initial pool already scores 64.39%. Node-level repair raises BANKING77 accuracy from 82.04% to 86.16%, an explicit exemption node cuts the false positives of a Chinese e-commerce moderation clause from 24 to 5, and a trained editor raises the development accuracy of edited trees from 64.47% to 73.35%.",
-          "summaryZh": "arXiv:2610.13999v1 公告类型：新\n摘要：内容审核、广告合规性和资格检查等规则决策结合了多个条件、豁免和信息缺失情况，只有在知道失败条件后才能修复错误。我们引入 SemTree，一个将规则决策表示为语义决策树的框架：每个节点都是一个具有明确是/否/未知标准的自然语言问题，一个可插入的语义法官回答它，并且分支结构是根据该法官实际给出的答案进行编译的。执行的路径是每个决策背后的推理，因此错误发生时会被修复：审阅者纠正单个节点并重播规则，纠正的节点成为法官的训练标签，使用工具的LLM编辑器在观察执行结果的同时修改问题和子树。在所有 8,276 个 ShaARC 测试用例中，由托管法官执行的树的准确率达到 67.70%，每个案例 2.99 个问题，与向同一法官询问最终标签 (68.23%) 相当；为不同法官编译的早期树在由该法官执行时得分为 47.87%，而根据该法官对 12 个问题初始池的答案编译的新树已得分 64.39%。节点级修复将 BANKING77 的准确率从 82.04% 提高到 86.16%，明确的豁免节点将中国电子商务审核条款的误报从 24 个减少到 5 个，训练有素的编辑将编辑树的开发准确度从 64.47% 提高到 73.35%。",
+          "summaryZh": "arXiv:2610.13999v1 Announce Type: new\nAbstract: Rule decisions such as content moderation, advertising compliance, and eligibility checks combine several conditions, exemptions, and missing-information cases, and an error can be fixed only once the failing condition is known. We introduce SemTree, a framework that represents a rule decision as a semantic decision tree: each node is a natural-language question with explicit Yes/No/Unknown criteria, a pluggable semantic judge answers it, and the branching structure is compiled on the answers that this judge actually gives. The executed path is the reasoning behind every decision, so errors are repaired where they occur: a reviewer corrects a single node and replays the rule, corrected nodes become training labels for the judge, and a tool-using LLM editor revises questions and subtrees while observing execution results. On all 8,276 ShARC test cases, a tree executed by a hosted judge reaches 67.70% accuracy with 2.99 questions per case, on par with asking the same judge for the final label (68.23%); an earlier tree compiled for a different judge scores 47.87% when executed by this judge, while a new tree compiled on this judge's answers to a 12-question initial pool already scores 64.39%. Node-level repair raises BANKING77 accuracy from 82.04% to 86.16%, an explicit exemption node cuts the false positives of a Chinese e-commerce moderation clause from 24 to 5, and a trained editor raises the development accuracy of edited trees from 64.47% to 73.35%.",
           "publishedAt": "2026-10-14T04:00:00.000Z",
           "comments": null,
           "author": "Jincheng Gao, Wei Ding, Shuo Sun"
@@ -551,10 +551,10 @@
         {
           "id": "oai:arXiv.org:2610.14000v1",
           "title": "VH-GPO: Verified Handoff for LLM Agent Reinforcement Learning",
-          "titleZh": "VH-GPO：LLM 代理强化学习的验证切换",
+          "titleZh": "VH-GPO: Verified Handoff for LLM Agent Reinforcement Learning",
           "link": "https://arxiv.org/abs/2610.14000",
           "summary": "arXiv:2610.14000v1 Announce Type: new\nAbstract: Group-relative reinforcement learning methods such as GRPO train large language model (LLM) agents by comparing rollouts for the same task. When every trajectory in a group fails with the same reward, relative advantages collapse toward zero, leaving no useful learning signal. A frozen teacher can recover from a student-visited state, but letting it complete the task makes the recovered suffix entirely teacher-generated. We ask: after repairing a student failure, when should control return to the student? We propose outcome-verified teacher-student handoff, instantiated in Verified Handoff for Group Policy Optimization (VH-GPO). The teacher provides enough support to reach a state from which the student can succeed, then returns control so that successful experience is again student-generated. Given an environment-verified teacher recovery, VH-GPO selects the earliest independently confirmed handoff point found within a bounded search budget. With Qwen2.5-1.5B, VH-GPO increases success rates over GRPO from 59.38% to 94.79% on ALFWorld and from 71.62% to 77.34% on WebShop. Improvements also hold with the 7B student, for which additional teacher and student output tokens amount to 1.77% and 2.61% of regular student rollout output tokens on ALFWorld and WebShop, respectively. Ablation studies demonstrate the effectiveness of the key components. These results support using verified teacher assistance to repair failures while reinforcing the student's ability to complete tasks independently.",
-          "summaryZh": "arXiv:2610.14000v1 公告类型：新\n摘要：GRPO 等与组相关的强化学习方法通过比较同一任务的推出来训练大型语言模型（LLM）代理。当一个群体中的每条轨迹都以相同的奖励失败时，相对优势就会趋向于零，从而不会留下有用的学习信号。冻结的教师可以从学生访问状态中恢复，但让它完成任务会使恢复的后缀完全由教师生成。我们问：修复学生故障后，控制权何时应返回给学生？我们提出了结果验证的师生切换，在组策略优化验证切换（VH-GPO）中进行了实例化。教师提供足够的支持，使学生达到能够成功的状态，然后归还控制权，以便成功的经验再次由学生产生。考虑到经过环境验证的教师恢复，VH-GPO 选择在有限搜索预算内找到的最早独立确认的切换点。借助 Qwen2.5-1.5B，VH-GPO 在 ALFWorld 上将 GRPO 的成功率从 59.38% 提高到 94.79%，在 WebShop 上将成功率从 71.62% 提高到 77.34%。 7B 学生也得到了改进，额外的教师和学生输出代币分别相当于 ALFWorld 和 WebShop 上常规学生推出输出代币的 1.77% 和 2.61%。消融研究证明了关键组成部分的有效性。这些结果支持使用经过验证的教师协助来修复故障，同时增强学生独立完成任务的能力。",
+          "summaryZh": "arXiv:2610.14000v1 Announce Type: new\nAbstract: Group-relative reinforcement learning methods such as GRPO train large language model (LLM) agents by comparing rollouts for the same task. When every trajectory in a group fails with the same reward, relative advantages collapse toward zero, leaving no useful learning signal. A frozen teacher can recover from a student-visited state, but letting it complete the task makes the recovered suffix entirely teacher-generated. We ask: after repairing a student failure, when should control return to the student? We propose outcome-verified teacher-student handoff, instantiated in Verified Handoff for Group Policy Optimization (VH-GPO). The teacher provides enough support to reach a state from which the student can succeed, then returns control so that successful experience is again student-generated. Given an environment-verified teacher recovery, VH-GPO selects the earliest independently confirmed handoff point found within a bounded search budget. With Qwen2.5-1.5B, VH-GPO increases success rates over GRPO from 59.38% to 94.79% on ALFWorld and from 71.62% to 77.34% on WebShop. Improvements also hold with the 7B student, for which additional teacher and student output tokens amount to 1.77% and 2.61% of regular student rollout output tokens on ALFWorld and WebShop, respectively. Ablation studies demonstrate the effectiveness of the key components. These results support using verified teacher assistance to repair failures while reinforcing the student's ability to complete tasks independently.",
           "publishedAt": "2026-10-14T04:00:00.000Z",
           "comments": null,
           "author": "Haoze Li, Peng Zhou, Peiyuan Wu, Weijie Zhao, Yinan Xin"
@@ -562,10 +562,10 @@
         {
           "id": "oai:arXiv.org:2610.14001v1",
           "title": "PreSO: Privileged Representation Isolation for On-Policy Self-Distillation",
-          "titleZh": "PreSO：用于策略自蒸馏的特权表示隔离",
+          "titleZh": "PreSO: Privileged Representation Isolation for On-Policy Self-Distillation",
           "link": "https://arxiv.org/abs/2610.14001",
           "summary": "arXiv:2610.14001v1 Announce Type: new\nAbstract: On-policy self-distillation (OPSD) uses a self-teacher conditioned on privileged information to turn the sparse outcome signal of reinforcement learning with verifiable rewards (RLVR) into dense token-level supervision. Yet the teacher's advantage may depend on information unavailable to the student at inference, raising a central question: which privileged changes are worth distilling? We use cross-problem recurrence as an empirical cue for potentially reusable guidance. Comparing the representation shifts induced by full solutions and compact hints, we find that hint-induced shifts are more concentrated and directionally consistent across problems, and yield more sustained downstream gains despite revealing less information. Motivated by this association, we propose Privileged Representation Isolation for On-Policy Self-Distillation (PreSO). At the source, PreSO uses compact hints to limit the solution-specific detail entering the privileged shift. At the target, it estimates a leading low-rank subspace from shifts pooled across related problems, projects the privilege-induced correction onto this subspace, and adds it to the student's unprivileged representation to form the representation-level distillation target. The selected subspace serves as an operational proxy for recurring structure, rather than a guaranteed separation of transferable and instance-specific information. On five competition-level mathematics benchmarks, PreSO consistently outperforms strong baselines across Qwen3-1.7B, 4B, and 8B, improving average accuracy over the base model by 6.8, 9.0, and 10.0 points. Beyond peak accuracy, PreSO attains the highest final-checkpoint average at every model scale, with improvements that persist through the end of training.",
-          "summaryZh": "arXiv:2610.14001v1 公告类型：新\n摘要：在策略自蒸馏（OPSD）使用以特权信息为条件的自教师，将具有可验证奖励的强化学习（RLVR）的稀疏结果信号转变为密集的代币级监督。然而，教师的优势可能取决于学生在推理时无法获得的信息，这就提出了一个核心问题：哪些特权变化值得提炼？我们使用交叉问题重现作为潜在可重用指导的经验线索。比较完整解决方案和紧凑提示引起的表示变化，我们发现提示引起的变化在问题之间更加集中和方向一致，并且尽管揭示的信息较少，但会产生更持续的下游收益。受这种关联的推动，我们提出了针对策略自蒸馏的特权表示隔离（PreSO）。从源头来看，PreSO 使用紧凑提示来限制特定于解决方案的细节进入特权转变。在目标处，它根据相关问题汇集的移位估计领先的低秩子空间，将特权引起的校正投影到该子空间上，并将其添加到学生的非特权表示中以形成表示级蒸馏目标。选定的子空间充当重复结构的操作代理，而不是保证可传输信息和特定于实例的信息的分离。在五个竞赛级别的数学基准测试中，PreSO 始终优于 Qwen3-1.7B、4B 和 8B 的强大基线，将基本模型的平均准确度提高了 6.8、9.0 和 10.0 分。除了峰值准确度之外，PreSO 在每个模型规模上都达到了最高的最终检查点平均值，并且改进一直持续到训练结束。",
+          "summaryZh": "arXiv:2610.14001v1 Announce Type: new\nAbstract: On-policy self-distillation (OPSD) uses a self-teacher conditioned on privileged information to turn the sparse outcome signal of reinforcement learning with verifiable rewards (RLVR) into dense token-level supervision. Yet the teacher's advantage may depend on information unavailable to the student at inference, raising a central question: which privileged changes are worth distilling? We use cross-problem recurrence as an empirical cue for potentially reusable guidance. Comparing the representation shifts induced by full solutions and compact hints, we find that hint-induced shifts are more concentrated and directionally consistent across problems, and yield more sustained downstream gains despite revealing less information. Motivated by this association, we propose Privileged Representation Isolation for On-Policy Self-Distillation (PreSO). At the source, PreSO uses compact hints to limit the solution-specific detail entering the privileged shift. At the target, it estimates a leading low-rank subspace from shifts pooled across related problems, projects the privilege-induced correction onto this subspace, and adds it to the student's unprivileged representation to form the representation-level distillation target. The selected subspace serves as an operational proxy for recurring structure, rather than a guaranteed separation of transferable and instance-specific information. On five competition-level mathematics benchmarks, PreSO consistently outperforms strong baselines across Qwen3-1.7B, 4B, and 8B, improving average accuracy over the base model by 6.8, 9.0, and 10.0 points. Beyond peak accuracy, PreSO attains the highest final-checkpoint average at every model scale, with improvements that persist through the end of training.",
           "publishedAt": "2026-10-14T04:00:00.000Z",
           "comments": null,
           "author": "Yuhang Yang, Mingxuan Xia, Chao Ye, Shuai Zhu, Shouqing Yang, Haobo Wang, Shenzhi Yang, Zhengqing Zang, Chenglong Wang"
@@ -573,10 +573,10 @@
         {
           "id": "oai:arXiv.org:2610.14004v1",
           "title": "Showing versus Doing: Teaching by Demonstration",
-          "titleZh": "展示与实践：示范教学",
+          "titleZh": "Showing versus Doing: Teaching by Demonstration",
           "link": "https://arxiv.org/abs/2610.14004",
           "summary": "arXiv:2610.14004v1 Announce Type: new\nAbstract: People often learn from others' demonstrations, and inverse reinforcement learning (IRL) techniques have realized this capacity in machines. In contrast, teaching by demonstration has been less well studied computationally. Here, we develop a Bayesian model for teaching by demonstration. Stark differences arise when demonstrators are intentionally teaching (i.e. showing) a task versus simply performing (i.e. doing) a task. In two experiments, we show that human participants modify their teaching behavior consistent with the predictions of our model. Further, we show that even standard IRL algorithms benefit when learning from showing versus doing.",
-          "summaryZh": "arXiv:2610.14004v1 公告类型：新\n摘要：人们经常从他人的演示中学习，而逆向强化学习（IRL）技术已经在机器中实现了这种能力。相比之下，演示教学在计算方面的研究较少。在这里，我们开发了一个用于演示教学的贝叶斯模型。当示威者有意教导（即展示）一项任务与简单地执行（即做）一项任务时，就会出现明显的差异。在两个实验中，我们表明人类参与者改变了他们的教学行为，与我们模型的预测一致。此外，我们还表明，即使是标准的 IRL 算法，在从展示中学习与从实践中学习时也会受益。",
+          "summaryZh": "arXiv:2610.14004v1 Announce Type: new\nAbstract: People often learn from others' demonstrations, and inverse reinforcement learning (IRL) techniques have realized this capacity in machines. In contrast, teaching by demonstration has been less well studied computationally. Here, we develop a Bayesian model for teaching by demonstration. Stark differences arise when demonstrators are intentionally teaching (i.e. showing) a task versus simply performing (i.e. doing) a task. In two experiments, we show that human participants modify their teaching behavior consistent with the predictions of our model. Further, we show that even standard IRL algorithms benefit when learning from showing versus doing.",
           "publishedAt": "2026-10-14T04:00:00.000Z",
           "comments": null,
           "author": "Mark K. Ho, Michael L. Littman, James MacGlashan, Fiery Cushman, Joseph L. Austerweil"
@@ -584,10 +584,10 @@
         {
           "id": "oai:arXiv.org:2610.14006v1",
           "title": "Coding LLMs Can Be Harnessed to Learn Interpretable Models from Data",
-          "titleZh": "可以利用编码法学硕士从数据中学习可解释的模型",
+          "titleZh": "Coding LLMs Can Be Harnessed to Learn Interpretable Models from Data",
           "link": "https://arxiv.org/abs/2610.14006",
           "summary": "arXiv:2610.14006v1 Announce Type: new\nAbstract: Since compact, interpretable classifiers correspond to simple programs, it is natural to ask if LLM-based coding agents can be used to learn interpretable models from data. In this paper we present a simple harness that repeatedly prompts a coding LLM to produce the next rule in a rule set, given a sample of labeled examples. We show that this approach is competitive with, and often superior to, state-of-the-art rule-learning methods on tabular data, especially with small training sets, and wins by large margins on text, including against another LLM-based rule learner; that this approach outperforms standard harnesses, and that the approach immediately leads to new kinds of interpretable models, since coding agents are not restricted to search a highly restricted hypothesis space. In addition to the advances made in learning interpretable models, these results are of interest because they introduce a new class of coding benchmarks - construction of interpretable classifiers - which includes quantitative measurements of output quality (i.e., test-set error) and existing mature ``specialist coding algorithms'' (i.e., existing learning methods).",
-          "summaryZh": "arXiv:2610.14006v1 公告类型：新\n摘要：由于紧凑、可解释的分类器对应于简单的程序，因此很自然地会问基于 LLM 的编码代理是否可以用于从数据中学习可解释的模型。在本文中，我们提出了一个简单的工具，在给定标记示例的样本的情况下，反复提示编码 LLM 生成规则集中的下一个规则。我们表明，这种方法与表格数据上最先进的规则学习方法具有竞争力，并且通常优于表格数据，特别是在小型训练集上，并且在文本上以很大优势获胜，包括与另一个基于 LLM 的规则学习器相比；这种方法优于标准工具，并且该方法立即导致新型可解释模型，因为编码代理不限于搜索高度受限的假设空间。除了在学习可解释模型方面取得的进步之外，这些结果也很有趣，因为它们引入了一类新的编码基准——可解释分类器的构建——其中包括输出质量的定量测量（即测试集误差）和现有成熟的“专业编码算法”（即现有的学习方法）。",
+          "summaryZh": "arXiv:2610.14006v1 Announce Type: new\nAbstract: Since compact, interpretable classifiers correspond to simple programs, it is natural to ask if LLM-based coding agents can be used to learn interpretable models from data. In this paper we present a simple harness that repeatedly prompts a coding LLM to produce the next rule in a rule set, given a sample of labeled examples. We show that this approach is competitive with, and often superior to, state-of-the-art rule-learning methods on tabular data, especially with small training sets, and wins by large margins on text, including against another LLM-based rule learner; that this approach outperforms standard harnesses, and that the approach immediately leads to new kinds of interpretable models, since coding agents are not restricted to search a highly restricted hypothesis space. In addition to the advances made in learning interpretable models, these results are of interest because they introduce a new class of coding benchmarks - construction of interpretable classifiers - which includes quantitative measurements of output quality (i.e., test-set error) and existing mature ``specialist coding algorithms'' (i.e., existing learning methods).",
           "publishedAt": "2026-10-14T04:00:00.000Z",
           "comments": null,
           "author": "Aditya Kumar, Cassandra A. Cohen, William W. Cohen"
