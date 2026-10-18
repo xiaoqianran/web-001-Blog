@@ -1,0 +1,425 @@
+{
+  "source": "huggingface.co/api/daily_papers",
+  "attribution": "Data from Hugging Face Daily Papers (community curation). All rights belong to the original authors. Chinese text is machine-translated.",
+  "fetchedAt": "2026-10-18T12:27:18.875Z",
+  "date": "2026-10-18",
+  "sort": "trending",
+  "count": 15,
+  "locale": {
+    "summaryDefault": "zh",
+    "translated": true
+  },
+  "papers": [
+    {
+      "id": "2610.14224",
+      "title": "Harness^2: Recursive Agent Harnessing for an Open World",
+      "summary": "LLM agents' capabilities depend not only on their underlying models but also on their execution harnesses. Recursive self-improvement (RSI) offers a promising approach to automatically evolve these harnesses. However, deploying RSI in open-world settings still faces two critical challenges. First, open-world tasks are typically unseen during the harness design phase and novel at test time, leaving no ground-truth verifiers to reliably guide online harness edits. Second, the RSI process remains highly task-specific and fails to generalize to novel scenarios. We introduce Harness^2, a plug-and-play, recursive agent harnessing framework that addresses these challenges through two connected levels of recursion. Task-level recursion refines the current task's harness using a contrastive Propose-Probe-Compose step that reliably guides edits without ground-truth verifiers, and can be scaled further via parallel or sequential recursion. Harnessing-level recursion then extracts experience from these edits to update a continual improvement harness, enabling the agent to better adapt to future tasks. Across three professional benchmarks and four model-harness configurations, a single step consistently improves GLM-5 and Gemini 3.5 Flash over their base harnesses, yielding gains of up to 11.5 points on WorkBuddy-Bench, 4.5 points on JobBench, and 11.8 percentage points on LAB, with further gains as the task-level recursion budget increases.",
+      "summaryZh": "LLM 代理的能力不仅取决于其底层模型，还取决于其执行工具。递归自我改进（RSI）提供了一种有前途的方法来自动改进这些工具。然而，在开放世界环境中部署 RSI 仍然面临两个关键挑战。首先，开放世界任务通常在线束设计阶段是看不见的，并且在测试时是新颖的，因此没有真实的验证者来可靠地指导在线线束编辑。其次，RSI 过程仍然高度特定于任务，无法推广到新场景。我们引入了 Harness^2，这是一个即插即用的递归代理利用框架，它通过两个连接的递归级别来解决这些挑战。任务级递归使用对比性的 Propose-Probe-Compose 步骤来细化当前任务的控制，该步骤可以在没有真实验证器的情况下可靠地指导编辑，并且可以通过并行或顺序递归进一步扩展。然后，利用级递归从这些编辑中提取经验，以更新持续改进的利用，使代理能够更好地适应未来的任务。在三个专业基准测试和四种模型线束配置中，一步即可持续改进 GLM-5 和 Gemini 3.5 Flash 的基本线束，在 WorkBuddy-Bench 上获得高达 11.5 个百分点的收益，在 JobBench 上获得 4.5 个百分点，在 LAB 上获得 11.8 个百分点，并且随着任务级递归预算的增加，收益还会进一步增加。",
+      "titleZh": "Harness^2：开放世界的递归代理利用",
+      "authors": [
+        "Ruiyao Xu",
+        "Yanfei Chen",
+        "Zhongying CuiZhu",
+        "Bhavana Dalvi Mishra",
+        "Yifei Ming",
+        "Han Yu",
+        "Rujun Han",
+        "Chen-Yu Lee",
+        "Tomas Pfister"
+      ],
+      "publishedAt": "2026-10-09T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-10-14T00:00:00.000Z",
+      "submitter": "ruiyaox",
+      "upvotes": 110,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2610.14224",
+        "arxiv": "https://arxiv.org/abs/2610.14224",
+        "pdf": "https://arxiv.org/pdf/2610.14224"
+      }
+    },
+    {
+      "id": "2609.18063",
+      "title": "The Other Half of the Memory Wall: Serving 35B MoEs from SSD with Trained Routing Prediction",
+      "summary": "Mixture-of-experts (MoE) inference on consumer hardware is bounded by weight memory: a 35B-class model is 19.5GB at 4-bit, and sparsity shrinks the compute per token, not the bytes that must be held. Naive offloading to SSD does not help on its own, because layer N+1's experts must be chosen before layer N's output exists, so the reads cannot start early enough to hide behind compute. We present Edge0, a streaming MoE inference engine that closes the gap with a prerouter: a per-layer head predicts the next layer's routing one token ahead, and the prediction is consumed as the routing itself, so the staged expert set equals the routed set and nothing is dropped. An unmerged recovery LoRA, trained on the student path, pays back the quality lost to int4 quantization and routing replacement. On a single 24GB machine, Edge0\n  serves a 35B MoE at 20tok/s inside 3GiB of peak active memory, within a few points of its fp16 teacher on average across five public benchmarks. An 8B tier runs on the same framework, and the framework, checkpoints, and adapters are open source.",
+      "summaryZh": "消费者硬件上的专家混合 (MoE) 推理受到权重内存的限制：35B 级模型在 4 位时为 19.5GB，稀疏性会缩小每个令牌的计算量，而不是必须保存的字节数。单纯卸载到 SSD 本身并没有什么帮助，因为必须在 N 层输出存在之前选择 N+1 层的专家，因此读取不能太早开始以隐藏在计算后面。我们提出了 Edge0，一个流式 MoE 推理引擎，它缩小了与预路由器的差距：每层头提前一个令牌预测下一层的路由，并且预测被用作路由本身，因此分阶段专家集等于路由集，并且不会丢失任何内容。未合并的恢复 LoRA，在学生路径上进行训练，弥补了 int4 量化和路由替换造成的质量损失。在单个 24GB 机器上，Edge0\n  在 3GiB 峰值活动内存内以 20tok/s 的速度提供 35B MoE，在五个公共基准测试中，其 fp16 老师的平均值仅相差几个点。 8B 层运行在同一框架上，并且框架、检查点和适​​配器都是开源的。",
+      "titleZh": "内存墙的另一半：通过经过训练的路由预测从 SSD 为 35B MoE 提供服务",
+      "authors": [
+        "Yu Lin",
+        "Yiming Wang",
+        "Runyuan Cai",
+        "Hanze Liu",
+        "Xiaodong Zeng"
+      ],
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-09-17T00:00:00.000Z",
+      "submitter": "bupalinyu",
+      "upvotes": 28,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2609.18063",
+        "arxiv": "https://arxiv.org/abs/2609.18063",
+        "pdf": "https://arxiv.org/pdf/2609.18063"
+      }
+    },
+    {
+      "id": "2412.20138",
+      "title": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "summary": "Significant progress has been made in automated problem-solving using\nsocieties of agents powered by large language models (LLMs). In finance,\nefforts have largely focused on single-agent systems handling specific tasks or\nmulti-agent frameworks independently gathering data. However, the multi-agent\nsystems' potential to replicate real-world trading firms' collaborative\ndynamics remains underexplored. TradingAgents proposes a novel stock trading\nframework inspired by trading firms, featuring LLM-powered agents in\nspecialized roles such as fundamental analysts, sentiment analysts, technical\nanalysts, and traders with varied risk profiles. The framework includes Bull\nand Bear researcher agents assessing market conditions, a risk management team\nmonitoring exposure, and traders synthesizing insights from debates and\nhistorical data to make informed decisions. By simulating a dynamic,\ncollaborative trading environment, this framework aims to improve trading\nperformance. Detailed architecture and extensive experiments reveal its\nsuperiority over baseline models, with notable improvements in cumulative\nreturns, Sharpe ratio, and maximum drawdown, highlighting the potential of\nmulti-agent LLM frameworks in financial trading. TradingAgents is available at\nhttps://github.com/TauricResearch/TradingAgents.",
+      "summaryZh": "使用自动化解决问题取得了重大进展\n由大型语言模型 (LLM) 提供支持的代理协会。在金融领域，\n工作主要集中在处理特定任务的单代理系统或\n多代理框架独立收集数据。然而，多代理\n系统复制现实世界贸易公司协作的潜力\n动力学仍有待探索。 TradingAgents 提出了一种新颖的股票交易方式\n受贸易公司启发的框架，以法学硕士支持的代理为特色\n专业角色，例如基本面分析师、情绪分析师、技术分析师\n具有不同风险状况的分析师和交易员。该框架包括 Bull\n贝尔斯登研究人员评估市场状况，风险管理团队\n监控风险敞口，交易者从辩论中综合见解\n历史数据以做出明智的决策。通过模拟动态，\n协作交易环境，该框架旨在改善交易\n性能。详细的架构和广泛的实验揭示了它的\n优于基线模型，累积显着改进\n回报率、夏普比率和最大回撤，凸显了\n金融交易中的多代理法学硕士框架。交易代理可在\nhttps://github.com/TauricResearch/TradingAgents。",
+      "titleZh": "TradingAgents：多代理LLM金融交易框架",
+      "authors": [
+        "Yijia Xiao",
+        "Edward Sun",
+        "Di Luo",
+        "Wei Wang"
+      ],
+      "publishedAt": "2024-12-28T12:54:06.000Z",
+      "submittedOnDailyAt": "2024-12-28T07:54:06.000Z",
+      "submitter": null,
+      "upvotes": 153,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2412.20138",
+        "arxiv": "https://arxiv.org/abs/2412.20138",
+        "pdf": "https://arxiv.org/pdf/2412.20138"
+      }
+    },
+    {
+      "id": "2610.20571",
+      "title": "Any Time, Any Space: A World-State-Centric Framework for Agentic Video Generation",
+      "summary": "Long-form agentic video generation must turn a screenplay into shots that remain spatially and temporally consistent across nonconsecutive requests. Passing prompts or recent frames between shots does not provide a shared spatial frame for revisiting a scene or a time-indexed record for replaying an earlier event. We present Any Time, Any Space (ATAS), which compiles a screenplay into shot requests with explicit location, camera, and event-time references. Before generation, it retrieves relevant evidence from a scene memory of registered static geometry and an event memory of dynamic observations indexed by scene, event, and time. After generation, ATAS reconstructs and registers the clip. It updates memory only when review and state checks accept the observation, while film delivery remains independent of memory admission. Across four video generators, ATAS improves all reported cross-shot consistency measures and achieves the highest aggregate benchmark score for each backbone. It also outperforms the compared agents and 3D-guided methods on target-image spatial revisit, leads three event-recapture criteria, and receives the highest human ratings on all six criteria. The video results and code are available on our project page: https://lhmd.top/atas/.",
+      "summaryZh": "长篇智能视频生成必须将剧本转换为在非连续请求中保持空间和时间一致的镜头。在镜头之间传递提示或最近的帧不会提供用于重新访问场景的共享空间框架或用于重播较早事件的时间索引记录。我们提出了任何时间、任何空间 (ATAS)，它将剧本编译成具有明确位置、摄像机和事件时间参考的镜头请求。在生成之前，它从注册静态几何的场景存储器和按场景、事件和时间索引的动态观察的事件存储器中检索相关证据。生成后，ATAS 重建并注册剪辑。仅当审查和状态检查接受观察时，它才会更新记忆，而胶片传送仍然独立于记忆接纳。在四个视频生成器中，ATAS 改进了所有报告的交叉镜头一致性度量，并为每个主干网实现了最高的总体基准分数。它还在目标图像空间重访方面优于比较代理和 3D 引导方法，领先于三个事件重捕获标准，并在所有六个标准上获得最高的人类评分。视频结果和代码可在我们的项目页面上找到：https://lhmd.top/atas/。",
+      "titleZh": "任何时间、任何空间：以世界国家为中心的代理视频生成框架",
+      "authors": [
+        "Weijie Wang",
+        "Haomin Zhang",
+        "Ye Li",
+        "Akide Liu",
+        "Zeyu Zhang",
+        "Haoyu Zhao",
+        "Yefei He",
+        "Donny Y. Chen",
+        "Feng Chen",
+        "Bohan Zhuang"
+      ],
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-10-15T00:00:00.000Z",
+      "submitter": "lhmd",
+      "upvotes": 343,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2610.20571",
+        "arxiv": "https://arxiv.org/abs/2610.20571",
+        "pdf": "https://arxiv.org/pdf/2610.20571"
+      }
+    },
+    {
+      "id": "2610.13912",
+      "title": "RSI-Anything: Unlocking Recursive Self-Improvement with World Models",
+      "summary": "Recursive self-improvement (RSI) aims to transform interaction experience into persistent improvements, yet external feedback is costly and world-model predictions may become unreliable as policies evolve. We introduce RSI-Anything, a domain-general framework built on JEPA-Anything that uses predictive world models to guide action and learning-data selection. Observed feedback drives policy or workflow improvement and conditional world-model adaptation, while component and compatibility checks govern the retention of updated policy-model pairs. Across diverse computational and scientific domains, RSI-Anything demonstrates substantial gains. In code repair, with the coder fixed, success increases from 26.3% with a static verifier to 29.2% through predictive selection and 31.2% after world-model adaptation, at comparable test usage. Graphical user interface (GUI) evaluations showed higher task completion, while average actions decrease by 39.4%. Across five successive policy versions, laboratory-planning scores more than double from 21.80% to 46.01%. In reaction optimization, RSI-Anything achieves 96.15% mean best observed yield versus 82.16% for Bayesian optimization under the same 40-experiment budget. An end-to-end immune-science application further connects workflow evolution and predictive modeling with therapeutic hypothesis generation. These results demonstrate how predictive world models and retained system updates enable recursive improvement across diverse environments.",
+      "summaryZh": "递归自我改进（RSI）旨在将交互体验转化为持续改进，但外部反馈成本高昂，并且随着政策的发展，世界模型预测可能变得不可靠。我们引入 RSI-Anything，这是一个基于 JEPA-Anything 构建的领域通用框架，它使用预测世界模型来指导行动和学习数据选择。观察到的反馈推动策略或工作流程改进以及有条件的世界模型适应，而组件和兼容性检查则控制更新策略模型对的保留。在不同的计算和科学领域，RSI-Anything 展示了巨大的收益。在代码修复中，在编码器固定的情况下，在可比较的测试使用情况下，通过预测选择，成功率从静态验证器的 26.3% 提高到 29.2%，世界模型适应后提高到 31.2%。图形用户界面 (GUI) 评估显示任务完成率更高，而平均操作次数减少了 39.4%。在连续五个政策版本中，实验室规划得分翻了一番多，从 21.80% 增至 46.01%。在反应优化中，RSI-Anything 在相同的 40 次实验预算下实现了 96.15% 的平均最佳观察产率，而贝叶斯优化的平均最佳观察产率为 82.16%。端到端免疫科学应用程序进一步将工作流程演变和预测建模与治疗假设生成联系起来。这些结果展示了预测世界模型和保留的系统更新如何在不同的环境中实现递归改进。",
+      "titleZh": "RSI-Anything：用世界模型解锁递归自我改进",
+      "authors": [
+        "Taoyong Cui",
+        "Pinxian Zeng",
+        "Wanghan Xu",
+        "Hao Xiao",
+        "Shuhan Xue",
+        "Qiang Gao",
+        "Wanli Ouyang",
+        "Pheng Ann Heng",
+        "Zhenfei Yin",
+        "Yingcheng Wu",
+        "Ling Yang"
+      ],
+      "publishedAt": "2026-10-09T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-10-12T00:00:00.000Z",
+      "submitter": "Lingaaaaaaa",
+      "upvotes": 49,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2610.13912",
+        "arxiv": "https://arxiv.org/abs/2610.13912",
+        "pdf": "https://arxiv.org/pdf/2610.13912"
+      }
+    },
+    {
+      "id": "2606.23050",
+      "title": "Unlimited OCR Works",
+      "summary": "Recently, end-to-end OCR models, exemplified by DeepSeek OCR, have once again thrust OCR into the spotlight. A widely held view is that employing a large language model (LLM) as the decoder allows the model to leverage the prior distribution of language, leading to improved OCR performance. However, the downside is equally evident: as the output sequence lengthens, the accumulated KV cache drives up memory consumption and progressively slows down generation. This stands in stark contrast to humans, who exhibit no such decline in efficiency during long-horizon copying tasks. In this technical report, we propose Unlimited OCR, a model designed to emulate human parsing working memory. Taking DeepSeek OCR as the baseline, we replace all attention layers in the decoder with our proposed Reference Sliding Window Attention (R-SWA), which reduces attention computation costs while maintaining a constant KV cache throughout the entire decoding process. By combining the high compression rate of DeepSeek OCR's encoder with our constant KV cache design, Unlimited OCR can transcribe dozens of pages of documents in a single forward pass under a standard maximum length of 32K. More importantly, R-SWA is a general-purpose parsing attention mechanism - beyond OCR, it is equally applicable to tasks such as ASR, translation, etc. Codes and model weights are publicly available at http://github.com/baidu/Unlimited-OCR.",
+      "summaryZh": "最近，以DeepSeek OCR为代表的端到端OCR模型再次将OCR推向了人们的视线。一种广泛持有的观点是，采用大型语言模型 (LLM) 作为解码器允许模型利用语言的先验分布，从而提高 OCR 性能。然而，缺点也同样明显：随着输出序列的延长，累积的 KV 缓存会增加内存消耗并逐渐减慢生成速度。这与人类形成鲜明对比，人类在执行长视距复制任务时并没有表现出效率下降的情况。在这份技术报告中，我们提出了 Unlimited OCR，一种旨在模拟人类解析工作记忆的模型。以 DeepSeek OCR 为基准，我们用我们提出的参考滑动窗口注意力（R-SWA）替换解码器中的所有注意力层，这降低了注意力计算成本，同时在整个解码过程中保持恒定的 KV 缓存。通过将 DeepSeek OCR 编码器的高压缩率与我们的恒定 KV 缓存设计相结合，Unlimited OCR 可以在标准最大长度 32K 的情况下在单次前向传递中转录数十页文档。更重要的是，R-SWA 是一种通用的解析注意力机制——除了 OCR 之外，它同样适用于 ASR、翻译等任务。代码和模型权重可在 http://github.com/baidu/Unlimited-OCR 上公开。",
+      "titleZh": "无限 OCR 作品",
+      "authors": [
+        "Youyang Yin",
+        "Huanhuan Liu",
+        "YY",
+        "Qunyi Xie",
+        "Chaorun Liu",
+        "Shiqi Yang",
+        "Shaohua Wang",
+        "Zhanlong Liu",
+        "Hao Zou",
+        "Jinyue Chen",
+        "Shu Wei",
+        "Jingjing Wu"
+      ],
+      "publishedAt": "2026-06-22T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-06-23T00:00:00.000Z",
+      "submitter": "taesiri",
+      "upvotes": 93,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2606.23050",
+        "arxiv": "https://arxiv.org/abs/2606.23050",
+        "pdf": "https://arxiv.org/pdf/2606.23050"
+      }
+    },
+    {
+      "id": "2309.06180",
+      "title": "Efficient Memory Management for Large Language Model Serving with\n  PagedAttention",
+      "summary": "High throughput serving of large language models (LLMs) requires batching\nsufficiently many requests at a time. However, existing systems struggle\nbecause the key-value cache (KV cache) memory for each request is huge and\ngrows and shrinks dynamically. When managed inefficiently, this memory can be\nsignificantly wasted by fragmentation and redundant duplication, limiting the\nbatch size. To address this problem, we propose PagedAttention, an attention\nalgorithm inspired by the classical virtual memory and paging techniques in\noperating systems. On top of it, we build vLLM, an LLM serving system that\nachieves (1) near-zero waste in KV cache memory and (2) flexible sharing of KV\ncache within and across requests to further reduce memory usage. Our\nevaluations show that vLLM improves the throughput of popular LLMs by\n2-4times with the same level of latency compared to the state-of-the-art\nsystems, such as FasterTransformer and Orca. The improvement is more pronounced\nwith longer sequences, larger models, and more complex decoding algorithms.\nvLLM's source code is publicly available at\nhttps://github.com/vllm-project/vllm",
+      "summaryZh": "大型语言模型 (LLM) 的高吞吐量服务需要批处理\n一次有足够多的请求。然而，现有系统却举步维艰\n因为每个请求的键值缓存（KV缓存）内存巨大并且\n动态增长和收缩。当管理效率低下时，该内存可能会被\n碎片和冗余重复造成了极大的浪费，限制了\n批量大小。为了解决这个问题，我们提出PagedAttention，一个注意力机制\n算法的灵感来自于经典的虚拟内存和分页技术\n操作系统。在此基础上，我们构建了 vLLM，一个 LLM 服务系统，\n实现 (1) KV 缓存内存近乎零浪费和 (2) KV 灵活共享\n在请求内和请求之间进行缓存，以进一步减少内存使用。我们的\n评估表明，vLLM 通过以下方式提高了流行 LLM 的吞吐量：\n与最先进的技术相比，相同延迟水平下的 2-4 倍\n系统，例如 FasterTransformer 和 Orca。改善效果更加明显\n具有更长的序列、更大的模型和更复杂的解码算法。\nvLLM 的源代码可在以下位置公开获取：\nhttps://github.com/vllm-project/vllm",
+      "titleZh": "大型语言模型的高效内存管理\n  分页注意力",
+      "authors": [
+        "Woosuk Kwon",
+        "Zhuohan Li",
+        "Siyuan Zhuang",
+        "Ying Sheng",
+        "Lianmin Zheng",
+        "Cody Hao Yu",
+        "Joseph E. Gonzalez",
+        "Hao Zhang",
+        "Ion Stoica"
+      ],
+      "publishedAt": "2023-09-12T12:50:04.000Z",
+      "submittedOnDailyAt": "2023-09-13T00:00:00.000Z",
+      "submitter": "akhaliq",
+      "upvotes": 77,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2309.06180",
+        "arxiv": "https://arxiv.org/abs/2309.06180",
+        "pdf": "https://arxiv.org/pdf/2309.06180"
+      }
+    },
+    {
+      "id": "2610.08699",
+      "title": "nanoMuse: An Open-Source Personal Agent for Every Device You Own",
+      "summary": "Assistants from 2011 answered and waited, and agents from 2023 did a task and stopped. In September 2026 Meta's Muse showed an agent for one person, with accounts, devices, memory and a conversation that lasts, closed, in a vendor's cloud, in one country. Such an agent is expected to act on a person's accounts and devices, remember them across weeks, speak first when it is worth it, and answer for what it did. It is a kind of software, not a model, and until now had no open counterpart. This report defines the personal agent in five questions and three horizons. It reads how Muse is built from Meta's public record and a copy of its production prompt, each statement marked by its source. It then presents nanoMuse, the open-source counterpart under the GPL-3.0, one agent on every device a person owns, with hands on the phone's screen and the computer's. They share one conversation over a relay anyone can run; every action goes through a Sentinel, memory is files the person can read, and the model is their choice. Its size and cost are given as estimates. What is open, memory with provenance, an evaluation suite for the hands and an open model for them, is set out as a roadmap.",
+      "summaryZh": "2011 年的助理接听并等待，2023 年的客服人员完成任务后停下来。 2026 年 9 月，Meta 的 Muse 展示了一个人的代理，拥有账户、设备、内存和在一个国家的供应商云中持续、封闭的对话。这样的代理应该对一个人的账户和设备采取行动，在数周内记住它们，在值得的时候首先发言，并对其所做的事情负责。它是一种软件，而不是一种模型，并且迄今为止还没有开放的对应产品。本报告从五个问题和三个视野对个人代理人进行了定义。它读取了 Muse 是如何根据 Meta 的公共记录及其生产提示的副本构建的，每个语句都标有其来源。然后介绍了 nanoMuse，这是 GPL-3.0 下的开源对应产品，一个人拥有的每台设备上都有一个代理，可以将手放在手机屏幕和计算机屏幕上。他们通过任何人都可以运行的中继共享一次对话；每个动作都会经过哨兵，内存是人们可以读取的文件，模型是他们的选择。其尺寸和成本仅作为估计值给出。什么是开放的、有来源的记忆、针对双手的评估套件以及针对它们的开放模型，被作为路线图列出。",
+      "titleZh": "nanoMuse：适用于您拥有的每台设备的开源个人代理",
+      "authors": [
+        "Guangyi Liu",
+        "Yong Liu",
+        "Jiangning Zhang"
+      ],
+      "publishedAt": "2026-10-06T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-10-08T00:00:00.000Z",
+      "submitter": "lgy0404",
+      "upvotes": 116,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2610.08699",
+        "arxiv": "https://arxiv.org/abs/2610.08699",
+        "pdf": "https://arxiv.org/pdf/2610.08699"
+      }
+    },
+    {
+      "id": "2407.16741",
+      "title": "OpenDevin: An Open Platform for AI Software Developers as Generalist\n  Agents",
+      "summary": "Software is one of the most powerful tools that we humans have at our\ndisposal; it allows a skilled programmer to interact with the world in complex\nand profound ways. At the same time, thanks to improvements in large language\nmodels (LLMs), there has also been a rapid development in AI agents that\ninteract with and affect change in their surrounding environments. In this\npaper, we introduce OpenDevin, a platform for the development of powerful and\nflexible AI agents that interact with the world in similar ways to those of a\nhuman developer: by writing code, interacting with a command line, and browsing\nthe web. We describe how the platform allows for the implementation of new\nagents, safe interaction with sandboxed environments for code execution,\ncoordination between multiple agents, and incorporation of evaluation\nbenchmarks. Based on our currently incorporated benchmarks, we perform an\nevaluation of agents over 15 challenging tasks, including software engineering\n(e.g., SWE-Bench) and web browsing (e.g., WebArena), among others. Released\nunder the permissive MIT license, OpenDevin is a community project spanning\nacademia and industry with more than 1.3K contributions from over 160\ncontributors and will improve going forward.",
+      "summaryZh": "软件是我们人类拥有的最强大的工具之一\n处置；它允许熟练的程序员以复杂的方式与世界互动\n和深刻的方法。同时得益于大语言的改进\n模型（法学硕士），人工智能代理也得到了快速发展，\n与周围环境相互作用并影响其变化。在这个\n论文中，我们介绍了 OpenDevin，一个用于开发功能强大且\n灵活的人工智能代理，以类似于人类的方式与世界互动\n人类开发人员：通过编写代码、与命令行交互和浏览\n网络。我们描述了该平台如何允许实施新的\n代理，与沙盒环境安全交互以执行代码，\n多个主体之间的协调以及评估的结合\n基准。根据我们当前纳入的基准，我们执行\n对代理进行超过 15 项挑战性任务的评估，包括软件工程\n（例如，SWE-Bench）和网页浏览（例如，WebArena）等。已发布\n在 MIT 许可下，OpenDevin 是一个社区项目，涵盖\n学术界和工业界超过 160 人做出了超过 1,300 份贡献\n贡献者并将继续改进。",
+      "titleZh": "OpenDevin：面向多面手的人工智能软件开发人员的开放平台\n  代理商",
+      "authors": [
+        "Xingyao Wang",
+        "Boxuan Li",
+        "Yufan Song",
+        "Frank F. Xu",
+        "Xiangru Tang",
+        "Mingchen Zhuge",
+        "Jiayi Pan",
+        "Yueqi Song",
+        "Bowen Li",
+        "Jaskirat Singh",
+        "Hoang H. Tran",
+        "Fuqiang Li"
+      ],
+      "publishedAt": "2024-07-23T17:50:43.000Z",
+      "submittedOnDailyAt": "2024-07-25T00:00:00.000Z",
+      "submitter": "akhaliq",
+      "upvotes": 90,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2407.16741",
+        "arxiv": "https://arxiv.org/abs/2407.16741",
+        "pdf": "https://arxiv.org/pdf/2407.16741"
+      }
+    },
+    {
+      "id": "2610.20584",
+      "title": "Player-1: Learning to Play from Synthetic Experience",
+      "summary": "Computer-use agents have demonstrated strong capabilities in interpreting screens and executing keyboard and mouse actions. However, games, with their visually rich worlds and diverse mechanics, remain challenging and offer a demanding next step toward general digital control. Current game-agent learning pipelines often rely on large-scale demonstrations with limited coverage of dynamic game states, while scalable environments for interactive training remain difficult to obtain. We introduce Player-1, a post-training framework for learning game control beyond demonstrations through synthetic experience. We extend the computer-use action space with relative pointer motion, sustained inputs, and composite actions. For supervised initialization, we fine-tune computer-use models on 6,044 curated gameplay trajectories that pair recorded actions with task instructions and visual reasoning. We construct Player-1-Gym, sixteen synthetic 2D and 3D environments designed around control demands shared across games. Programmatically verifiable rewards and randomized observations and control dynamics support multi-environment reinforcement learning with PPO. The resulting Player-1-9B and Player-1-35B-A3B improve MineDojo-300 success over their SFT policies by 27.8 and 17.7 percentage points, respectively. Player-1-9B reaches 38.33% success compared with 12.63% for the strongest evaluated baseline, with further gains over SFT on ViZDoom-10 and GameWorld. Further analyses show that broader synthetic environment coverage improves transfer, while the use of composite actions that combine multiple keyboard and mouse inputs increases during RL. We demonstrate that learning from synthetic experience substantially improves game control beyond supervised initialization, with gains that generalize beyond the RL training suite.",
+      "summaryZh": "计算机使用代理在解释屏幕和执行键盘和鼠标操作方面表现出了强大的能力。然而，游戏凭借其视觉丰富的世界和多样化的机制，仍然具有挑战性，并且为通用数字控制提供了更高的要求。当前的游戏代理学习管道通常依赖于动态游戏状态覆盖范围有限的大规模演示，而用于交互式训练的可扩展环境仍然难以获得。我们引入了 Player-1，这是一个训练后框架，用于通过合成经验学习演示之外的游戏控制。我们通过相对指针运动、持续输入和复合动作来扩展计算机使用的动作空间。对于监督初始化，我们在 6,044 个精心策划的游戏轨迹上微调计算机使用模型，将记录的动作与任务指令和视觉推理配对。我们构建了 Player-1-Gym、16 个合成 2D 和 3D 环境，这些环境围绕游戏之间共享的控制需求而设计。可编程验证的奖励以及随机观察和控制动态支持 PPO 的多环境强化学习。由此产生的 Player-1-9B 和 Player-1-35B-A3B 将 MineDojo-300 的 SFT 策略成功率分别提高了 27.8 和 17.7 个百分点。 Player-1-9B 达到了 38.33% 的成功率，而最强评估基线的成功率为 12.63%，在 ViZDoom-10 和 GameWorld 上进一步超过了 SFT。进一步的分析表明，更广泛的合成环境覆盖范围可以改善传输，而在强化学习期间，结合多个键盘和鼠标输入的复合动作的使用会增加。我们证明，从综合经验中学习可以大大提高游戏控制能力，超越监督初始化，其增益超出了 RL 训练套件的范围。",
+      "titleZh": "Player-1：从综合经验中学习游戏",
+      "authors": [
+        "Mingyu Ouyang",
+        "Yiran Wang",
+        "Siyuan Hu",
+        "Xingyilang Yin",
+        "Huiqiang Sun",
+        "Guangzhi Wang",
+        "Junfu Pu",
+        "Cheng Cheng",
+        "Honghao Chen",
+        "Ying Shan",
+        "Mike Zheng Shou",
+        "Hwee Tou Ng"
+      ],
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-10-15T00:00:00.000Z",
+      "submitter": "yyyang",
+      "upvotes": 334,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2610.20584",
+        "arxiv": "https://arxiv.org/abs/2610.20584",
+        "pdf": "https://arxiv.org/pdf/2610.20584"
+      }
+    },
+    {
+      "id": "2610.18813",
+      "title": "Self-Evolving Agent Harness",
+      "summary": "Harness self-evolution revises an agent's software scaffolding, including prompts, memory, workflows, and executable components, while keeping model weights fixed. We formalize a feedback-driven process in which accepted revisions persist across runs. The framework separates update targets from proposal and admission mechanisms. It distinguishes changes to interpreted state from revisions to tools and code, repository-level control logic, and plugin composition. We characterize search through evolutionary optimization and examine its reliability through continual PAC-learning. Under explicit assumptions, the analysis yields an expected generalization bound, a retention bound conditional on historical regression budgets, and a high-probability admission rule using fresh, independent validation data. We examine how persistent harness revisions affect knowledge sharing and organizational workflows, with implications for scientific reliability, physical safety, and institutional accountability. Cases from prior work illustrate model--harness co-design, distributed execution, and plugin reuse. Reliable deployment requires continual validation as task distributions and evaluators change, with independent safeguards for learning, runtime privileges, and consequential actions. We provide a comprehensive 66-page discussion of related work, theory, algorithms, evaluation, applications, and the broader impact of Harness RSI, together with continuously updated code and supplementary materials, at https://github.com/zgcagi/Harness-RSI.",
+      "summaryZh": "利用自我进化修改代理的软件支架，包括提示、内存、工作流程和可执行组件，同时保持模型权重固定。我们正式制定了一个反馈驱动的流程，其中接受的修订在运行过程中持续存在。该框架将更新目标与提案和准入机制分开。它将解释状态的更改与工具和代码的修订、存储库级控制逻辑和插件组合区分开来。我们通过进化优化来表征搜索，并通过持续的 PAC 学习来检查其可靠性。在明确的假设下，分析会产生预期的泛化界限、以历史回归预算为条件的保留界限以及使用新的独立验证数据的高概率准入规则。我们研究了持续的安全带修订如何影响知识共享和组织工作流程，以及对科学可靠性、人身安全和机构问责制的影响。先前工作的案例说明了模型——利用协同设计、分布式执行和插件重用。可靠的部署需要随着任务分配和评估者的变化而持续验证，并为学习、运行时权限和后续操作提供独立的保护措施。我们提供了 66 页的全面讨论，涉及 Harness RSI 的相关工作、理论、算法、评估、应用和更广泛的影响，以及不断更新的代码和补充材料，网址为 https://github.com/zgcagi/Harness-RSI。",
+      "titleZh": "自我进化特工束带",
+      "authors": [
+        "Chuyang Wei",
+        "Haoxiang Guan",
+        "Minghang Zhu",
+        "Kexin Zhou",
+        "Jiyan He",
+        "Xiren Zhou",
+        "Huanhuan Chen",
+        "Yifei Shen"
+      ],
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-10-16T00:00:00.000Z",
+      "submitter": "yshenaw",
+      "upvotes": 200,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2610.18813",
+        "arxiv": "https://arxiv.org/abs/2610.18813",
+        "pdf": "https://arxiv.org/pdf/2610.18813"
+      }
+    },
+    {
+      "id": "2609.33757",
+      "title": "YuE2: Unifying Symbolic and Audio Music Generation at Frontier Quality",
+      "summary": "Symbolic models make melody, harmony, rhythm, and form explicit but typically stop before a finished recording; audio models produce complete songs while leaving composition implicit. We introduce YuE2, which unifies symbolic and audio music generation at frontier quality through symbolic planning. A single AR-NAR Mixture-of-Transformers (MoT) first writes a readable score specifying melody and harmony, expands it into semantic music tokens, and realizes it as full-song audio. In comparisons using the same checkpoint, experts prefer symbolic planning for overall quality and musicality, with 49.3% of overall preferences versus 34.6% without planning. Experts also favor the unified model over a separate language model and diffusion Transformer. On WildSongBench, YuE2 scores 6.73 on SongBench Global Avg, exceeding all evaluated public baselines. Selecting from eight candidates (best-of-8), YuE2 reaches 6.96, the highest observed mean among all evaluated systems. Expert listening further establishes its competitiveness with proprietary song generators, favoring best-of-8 over Suno v4.5 and yielding nearly balanced preferences against Suno v5. To learn this generation process from recordings without aligned scores, we introduce MERT2 and SheetSage2 to supply semantic and symbolic supervision. MERT2 sets a new state of the art in music representation learning, surpassing previous best results on 14 of 15 MARBLE metrics; SheetSage2 leads 12 of 15 benchmark-metric pairs in our lead-sheet transcription comparison. The same checkpoint follows score edits while largely preserving unedited musical content and generates zero-shot covers without cover-specific training. Its readable score also enables agentic music editing, with external language models translating user feedback into revisions of the composition.",
+      "summaryZh": "符号模型使旋律、和声、节奏和形式变得清晰，但通常在完成录音之前就停止了；音频模型生成完整的歌曲，同时隐式地保留作曲。我们推出 YuE2，它通过符号规划以前沿质量统一符号和音频音乐生成。单个 AR-NAR Mixture-of-Transformers (MoT) 首先编写一个可读的乐谱，指定旋律和和声，将其扩展为语义音乐标记，并将其实现为整首歌曲音频。在使用相同检查点的比较中，专家们更喜欢对整体质量和音乐性进行符号规划，总体偏好的比例为 49.3%，而没有规划的比例为 34.6%。专家们还青睐统一模型而不是单独的语言模型和扩散 Transformer。在 WildSongBench 上，YuE2 在 SongBench Global Avg 上的得分为 6.73，超过了所有评估的公共基线。 YuE2 从 8 个候选系统中进行选择（8 个中最好），达到 6.96，这是所有评估系统中观察到的最高平均值。专家聆听进一步确立了其与专有歌曲生成器的竞争力，与 Suno v4.5 相比，更倾向于 8 局最佳，并且与 Suno v5 相比，产生几乎平衡的偏好。为了从没有对齐分数的录音中学习这个生成过程，我们引入了 MERT2 和 SheetSage2 来提供语义和符号监督。 MERT2 在音乐表征学习方面树立了新的技术水平，在 15 个 MARBLE 指标中的 14 个指标上超越了之前的最佳结果；在我们的主要表转录比较中，SheetSage2 领先 15 个基准指标对中的 12 个。相同的检查点遵循乐谱编辑，同时在很大程度上保留未经编辑的音乐内容，并生成零镜头封面，无需封面特定的培训。其可读的乐谱还可以实现代理音乐编辑，外部语言模型可以将用户反馈转化为乐曲的修订。",
+      "titleZh": "YuE2：以前沿质量统一符号和音频音乐生成",
+      "authors": [
+        "Ruibin Yuan",
+        "Jiahao Pan",
+        "Junyan Jiang",
+        "Zhiyue Wu",
+        "Ziya Zhou",
+        "Jiankai Sun",
+        "Yizhi Li",
+        "Ge Zhang",
+        "Yicheng Gu",
+        "Zeyue Tian",
+        "Junyu Dai",
+        "Hanfeng Lin"
+      ],
+      "publishedAt": "2026-09-27T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-09-29T00:00:00.000Z",
+      "submitter": "a43992899",
+      "upvotes": 238,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2609.33757",
+        "arxiv": "https://arxiv.org/abs/2609.33757",
+        "pdf": "https://arxiv.org/pdf/2609.33757"
+      }
+    },
+    {
+      "id": "2603.23509",
+      "title": "Internal Safety Collapse in Frontier Large Language Models",
+      "summary": "This work identifies a critical failure mode in frontier large language models (LLMs), which we term Internal Safety Collapse (ISC): under certain task conditions, models enter a state in which they continuously generate harmful content while executing otherwise benign tasks. We introduce TVD (Task, Validator, Data), a framework that triggers ISC through domain tasks where generating harmful content is the only valid completion, and construct ISC-Bench containing 53 scenarios across 8 professional disciplines. Evaluated on JailbreakBench, three representative scenarios yield worst-case safety failure rates averaging 95.3% across four frontier LLMs (including GPT-5.2 and Claude Sonnet 4.5), substantially exceeding standard jailbreak attacks. Frontier models are more vulnerable than earlier LLMs: the very capabilities that enable complex task execution become liabilities when tasks intrinsically involve harmful content. This reveals a growing attack surface: almost every professional domain uses tools that process sensitive data, and each new dual-use tool automatically expands this vulnerability--even without any deliberate attack. Despite substantial alignment efforts, frontier LLMs retain inherently unsafe internal capabilities: alignment reshapes observable outputs but does not eliminate the underlying risk profile. These findings underscore the need for caution when deploying LLMs in high-stakes settings. Source code: https://github.com/wuyoscar/ISC-Bench",
+      "summaryZh": "这项工作确定了前沿大语言模型（LLM）中的一个关键故障模式，我们将其称为内部安全崩溃（ISC）：在某些任务条件下，模型进入一种状态，在这种状态下，它们在执行其他良性任务的同时不断生成有害内容。我们引入TVD（任务、验证器、数据）框架，通过域任务触发ISC，其中生成有害内容是唯一有效的完成，并构建包含跨8个专业学科的53个场景的ISC-Bench。在 JailbreakBench 上进行评估，四个前沿 LLM（包括 GPT-5.2 和 Claude Sonnet 4.5）中的三种代表性场景产生的最坏情况安全失败率平均为 95.3%，大大超过了标准越狱攻击。前沿模型比早期的法学硕士更容易受到攻击：当任务本质上涉及有害内容时，支持复杂任务执行的能力就变成了负担。这揭示了不断增长的攻击面：几乎每个专业领域都使用处理敏感数据的工具，并且每个新的两用工具都会自动扩展此漏洞 - 即使没有任何故意的攻击。尽管做出了大量的调整努力，前沿法学硕士保留了本质上不安全的内部功能：调整重塑了可观察的输出，但并没有消除潜在的风险状况。这些发现强调在高风险环境中部署法学硕士时需要谨慎。源代码：https://github.com/wuyoscar/ISC-Bench",
+      "titleZh": "前沿大型语言模型的内部安全崩溃",
+      "authors": [
+        "Yutao Wu",
+        "Xiao Liu",
+        "Yifeng Gao",
+        "Xiang Zheng",
+        "Hanxun Huang",
+        "Yige Li",
+        "Cong Wang",
+        "Bo Li",
+        "Xingjun Ma",
+        "Yu-Gang Jiang"
+      ],
+      "publishedAt": "2026-03-04T12:55:34.000Z",
+      "submittedOnDailyAt": "2026-03-04T07:55:34.000Z",
+      "submitter": null,
+      "upvotes": 31,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2603.23509",
+        "arxiv": "https://arxiv.org/abs/2603.23509",
+        "pdf": "https://arxiv.org/pdf/2603.23509"
+      }
+    },
+    {
+      "id": "2610.17953",
+      "title": "Agent-Reflex: Teaching Language Agents to Act Reflectively",
+      "summary": "Large language models have evolved from single-turn chatbots into interactive agents capable of long-horizon reasoning. In real deployments, MCP tool services can return noisy feedback and users may intervene to correct the agent, but existing methods provide limited supervision for reflection learning and failure recovery. To bridge this gap, we propose Agent-Reflex, a general training framework for incentivizing proactive reflection in agents. Specifically, Agent-Reflex comprises three stages. First, Environment Reflection Skill Discovery (RSD) injects grounded tool-feedback perturbations into environment scaling, samples a capability-diverse LLM pool, mines matched success-failure pairs, and summarizes reusable reflection meta-skills. Building on this skill library, we then apply Reflective Supervised Fine-Tuning (ReSFT) that converts each skill into supervision for self-reflection, skill recovery, and user-centric correction, strengthening complementary reflective behaviors. Finally, we propose On-Policy Reflective Policy Optimization (ORPO) to combine agentic reinforcement learning under noisy interactions with reflection-guided on-policy distillation to further elicit proactive reflection. Built on Qwen3-8B, Agent-Reflex reaches 58.6 overall on five long-horizon tool-use benchmarks and 29.1 on AgentNoiseBench, surpassing strong environment-scaling and reflection baselines. Experiments on six challenging agent benchmark suites demonstrate the effectiveness of Agent-Reflex. Further analyses show that Agent-Reflex improves agents' robustness to noise while maintaining stable training dynamics, supporting scalable agent training. Our code is available at https://github.com/RUC-NLPIR/Agent-Reflex.",
+      "summaryZh": "大型语言模型已经从单轮聊天机器人发展成为能够进行长视野推理的交互式代理。在实际部署中，MCP 工具服务可能会返回嘈杂的反馈，用户可能会进行干预以纠正代理，但现有方法对反射学习和故障恢复提供的监督有限。为了弥补这一差距，我们提出了 Agent-Reflex，这是一个用于激励代理主动反思的通用培训​​框架。具体来说，代理反射包括三个阶段。首先，环境反射技能发现（RSD）将扎根的工具反馈扰动注入环境扩展中，对能力多样化的LLM池进行采样，挖掘匹配的成功-失败对，并总结可重用的反射元技能。在此技能库的基础上，我们应用反思监督微调（ReSFT），将每项技能转化为自我反思、技能恢复和以用户为中心的纠正的监督，从而加强互补的反思行为。最后，我们提出了在策略反射策略优化（ORPO），将噪声交互下的代理强化学习与反射引导的在策略蒸馏相结合，以进一步引发主动反射。 Agent-Reflex 基于 Qwen3-8B 构建，在五个长期工具使用基准测试中总体得分达到 58.6，在 AgentNoiseBench 得分达到 29.1，超越了强大的环境扩展和反射基线。对六个具有挑战性的代理基准套件的实验证明了 Agent-Reflex 的有效性。进一步的分析表明，Agent-Reflex 提高了智能体对噪声的鲁棒性，同时保持稳定的训练动态，支持可扩展的智能体训练。我们的代码可在 https://github.com/RUC-NLPIR/Agent-Reflex 上获取。",
+      "titleZh": "主体反射：教导语言主体反思性行动",
+      "authors": [
+        "Guanting Dong",
+        "Xinyu Yang",
+        "Jiajie Jin",
+        "Yuyang Hu",
+        "Xiaoshuai Song",
+        "Yifei Chen",
+        "Xiaoxi Li",
+        "Jiejun Tan",
+        "Yutao Zhu",
+        "Tat-Seng Chua",
+        "Ji-Rong Wen",
+        "Zhicheng Dou"
+      ],
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-10-14T00:00:00.000Z",
+      "submitter": "dongguanting",
+      "upvotes": 210,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2610.17953",
+        "arxiv": "https://arxiv.org/abs/2610.17953",
+        "pdf": "https://arxiv.org/pdf/2610.17953"
+      }
+    },
+    {
+      "id": "2509.22186",
+      "title": "MinerU2.5: A Decoupled Vision-Language Model for Efficient\n  High-Resolution Document Parsing",
+      "summary": "We introduce MinerU2.5, a 1.2B-parameter document parsing vision-language\nmodel that achieves state-of-the-art recognition accuracy while maintaining\nexceptional computational efficiency. Our approach employs a coarse-to-fine,\ntwo-stage parsing strategy that decouples global layout analysis from local\ncontent recognition. In the first stage, the model performs efficient layout\nanalysis on downsampled images to identify structural elements, circumventing\nthe computational overhead of processing high-resolution inputs. In the second\nstage, guided by the global layout, it performs targeted content recognition on\nnative-resolution crops extracted from the original image, preserving\nfine-grained details in dense text, complex formulas, and tables. To support\nthis strategy, we developed a comprehensive data engine that generates diverse,\nlarge-scale training corpora for both pretraining and fine-tuning. Ultimately,\nMinerU2.5 demonstrates strong document parsing ability, achieving\nstate-of-the-art performance on multiple benchmarks, surpassing both\ngeneral-purpose and domain-specific models across various recognition tasks,\nwhile maintaining significantly lower computational overhead.",
+      "summaryZh": "我们介绍MinerU2.5，一个1.2B参数的文档解析视觉语言\n该模型可实现最先进的识别精度，同时保持\n卓越的计算效率。我们的方法采用从粗到细的方法，\n将全局布局分析与局部布局分析分离的两阶段解析策略\n内容识别。第一阶段，模型进行高效布局\n对下采样图像进行分析以识别结构元素，规避\n处理高分辨率输入的计算开销。在第二个\n舞台上，以全球布局为导向，进行有针对性的内容识别\n从原始图像中提取的原始分辨率作物，保留\n密集文本、复杂公式和表格中的细粒度细节。支持\n根据这一策略，我们开发了一个全面的数据引擎，可以生成不同的、\n用于预训练和微调的大规模训练语料库。最终，\nMinerU2.5展现出强大的文档解析能力，实现\n在多个基准测试中具有最先进的性能，超越了两者\n跨各种识别任务的通用和特定领域模型，\n同时保持显着较低的计算开销。",
+      "titleZh": "MinerU2.5：一种高效的解耦视觉语言模型\n  高分辨率文档解析",
+      "authors": [
+        "Junbo Niu",
+        "Zheng Liu",
+        "Zhuangcheng Gu",
+        "Bin Wang",
+        "Linke Ouyang",
+        "Zhiyuan Zhao",
+        "Tao Chu",
+        "Tianyao He",
+        "Fan Wu",
+        "Qintong Zhang",
+        "Zhenjiang Jin",
+        "Guang Liang"
+      ],
+      "publishedAt": "2025-09-26T10:45:48.000Z",
+      "submittedOnDailyAt": "2025-09-29T00:00:00.000Z",
+      "submitter": "taesiri",
+      "upvotes": 181,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2509.22186",
+        "arxiv": "https://arxiv.org/abs/2509.22186",
+        "pdf": "https://arxiv.org/pdf/2509.22186"
+      }
+    }
+  ]
+}
