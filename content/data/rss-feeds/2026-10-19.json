@@ -1,0 +1,266 @@
+{
+  "source": "content/feeds.json",
+  "attribution": "Aggregated headlines/summaries from third-party RSS/Atom feeds for navigation only. All rights belong to original publishers and authors. Chinese text is machine-translated.",
+  "fetchedAt": "2026-10-19T02:51:43.038Z",
+  "date": "2026-10-19",
+  "feedCount": 3,
+  "itemCount": 20,
+  "locale": {
+    "summaryDefault": "zh",
+    "translated": true
+  },
+  "errors": [],
+  "feeds": [
+    {
+      "id": "hacker-news",
+      "title": "Hacker News",
+      "url": "https://hnrss.org/frontpage",
+      "home": "https://news.ycombinator.com/",
+      "group": "community",
+      "fetchedAt": "2026-10-19T02:51:25.878Z",
+      "count": 20,
+      "items": [
+        {
+          "id": "https://news.ycombinator.com/item?id=50147455",
+          "title": "Footage of the Flock search that a judge ruled was uncosntitutional",
+          "titleZh": "法官裁定羊群搜查的视频违宪",
+          "link": "https://www.404media.co/watch-footage-of-the-flock-search-a-judge-ruled-unconstitutional/",
+          "summary": "Article URL: https://www.404media.co/watch-footage-of-the-flock-search-a-judge-ruled-unconstitutional/\n\n Comments URL: https://news.ycombinator.com/item?id=50147455\n\n Points: 11\n\n # Comments: 4",
+          "summaryZh": "文章网址：https://www.404media.co/watch-footage-of-the-flock-search-a-judge-ruled-unconstitutional/\n\n 评论网址：https://news.ycombinator.com/item?id=50147455\n\n 积分：11\n\n # 评论: 4",
+          "publishedAt": "2026-10-19T01:55:03.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50147455",
+          "author": "anigbrowl"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50147233",
+          "title": "Starcraft: Ashfall",
+          "titleZh": "星际争霸：灰烬坠落",
+          "link": "https://starcraft-shooter-2026.pages.dev/",
+          "summary": "Article URL: https://starcraft-shooter-2026.pages.dev/\n\n Comments URL: https://news.ycombinator.com/item?id=50147233\n\n Points: 6\n\n # Comments: 1",
+          "summaryZh": "文章网址：https://starcraft-shooter-2026.pages.dev/\n\n 评论网址：https://news.ycombinator.com/item?id=50147233\n\n 积分：6\n\n # 评论: 1",
+          "publishedAt": "2026-10-19T01:18:02.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50147233",
+          "author": "debo_"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50146625",
+          "title": "William Gibson and the trademarking of cyberspace",
+          "titleZh": "威廉·吉布森和网络空间的商标",
+          "link": "https://colo.to/cyberspace.html",
+          "summary": "Article URL: https://colo.to/cyberspace.html\n\n Comments URL: https://news.ycombinator.com/item?id=50146625\n\n Points: 79\n\n # Comments: 5",
+          "summaryZh": "文章网址：https://colo.to/cyberspace.html\n\n 评论网址：https://news.ycombinator.com/item?id=50146625\n\n 积分：79\n\n # 评论: 5",
+          "publishedAt": "2026-10-18T23:37:57.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50146625",
+          "author": "Eric_Gullichsen"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50146624",
+          "title": "How Quickly Can the DoD Rebuild and Recast the Munitions Industrial Base?",
+          "titleZh": "国防部能够多快重建和重塑军火工业基地？",
+          "link": "https://www.csis.org/analysis/how-quickly-can-dod-rebuild-and-recast-munitions-industrial-base",
+          "summary": "Article URL: https://www.csis.org/analysis/how-quickly-can-dod-rebuild-and-recast-munitions-industrial-base\n\n Comments URL: https://news.ycombinator.com/item?id=50146624\n\n Points: 8\n\n # Comments: 0",
+          "summaryZh": "文章网址：https://www.csis.org/analysis/how-quickly-can-dod-rebuild-and-recast-munitions-industrial-base\n\n 评论网址：https://news.ycombinator.com/item?id=50146624\n\n 积分：8\n\n # 评论: 0",
+          "publishedAt": "2026-10-18T23:37:54.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50146624",
+          "author": "gmays"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50145715",
+          "title": "Show HN: WhatsApp MCP running free on Cloudflare",
+          "titleZh": "显示 HN：WhatsApp MCP 在 Cloudflare 上免费运行",
+          "link": "https://github.com/finereli/whatsapp-mcp",
+          "summary": "I wanted my humble Claude on mobile to access my WhatsApp messages but the only options I could find either required WhatsApp Business or an actual server to run Baileys on. I wanted to run it for free on ClaudeFlare and with my personal WhatsApp account, so I built this. Important feature - it connects to your Google account as well as WhatsApp to grab the names of all your WhatsApp contacts, otherwise you get only phone numbers for many of them and search doesn't work properly. This is a single user install because it's both gray area and very private - so point your agent at the repo and let it set things up.\n\n Comments URL: https://news.ycombinator.com/item?id=50145715\n\n Points: 48\n\n # Comments: 35",
+          "summaryZh": "我想让谦虚的 Claude 在移动设备上访问我的 WhatsApp 消息，但我能找到的唯一选择要么是 WhatsApp Business，要么是运行百利甜酒的实际服务器。我想在 ClaudeFlare 上和我的个人 WhatsApp 帐户上免费运行它，所以我构建了这个。重要功能 - 它连接到您的 Google 帐户以及 WhatsApp，以获取您所有 WhatsApp 联系人的姓名，否则您只能获得其中许多联系人的电话号码，并且搜索无法正常工作。这是单用户安装，因为它既是灰色区域，又非常私密——因此请将您的代理指向存储库并让它进行设置。\n\n 评论网址：https://news.ycombinator.com/item?id=50145715\n\n 积分：48\n\n # 评论: 35",
+          "publishedAt": "2026-10-18T21:36:10.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50145715",
+          "author": "zoozla"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50145507",
+          "title": "If you don't run your own LLM proxy, how do you know whats going on?",
+          "titleZh": "如果您不运行自己的 LLM 代理，您怎么知道发生了什么？",
+          "link": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
+          "summary": "Article URL: https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/\n\n Comments URL: https://news.ycombinator.com/item?id=50145507\n\n Points: 48\n\n # Comments: 37",
+          "summaryZh": "文章网址：https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/\n\n 评论网址：https://news.ycombinator.com/item?id=50145507\n\n 积分：48\n\n # 评论: 37",
+          "publishedAt": "2026-10-18T21:09:12.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50145507",
+          "author": "amrrs"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50145337",
+          "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+          "titleZh": "混合推理代理：LLM 代理在潜在空间中思考，通过文本行动",
+          "link": "https://arxiv.org/abs/2610.18861",
+          "summary": "https://x.com/Jiaru_Zou/status/2110400256647340476 https://github.com/togethercomputer/HybridAgent https://huggingface.co/collections/togethercomputer/hybridag... Evaluations: https://arxiv.org/html/2610.18861v1#S5\n\n Comments URL: https://news.ycombinator.com/item?id=50145337\n\n Points: 238\n\n # Comments: 142",
+          "summaryZh": "https://x.com/Jiaru_Zou/status/2110400256647340476 https://github.com/togethercomputer/HybridAgent https://huggingface.co/collections/togethercomputer/hybridag... 评估：https://arxiv.org/html/2610.18861v1#S5\n\n 评论网址：https://news.ycombinator.com/item?id=50145337\n\n 积分：238\n\n # 评论: 142",
+          "publishedAt": "2026-10-18T20:48:14.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50145337",
+          "author": "allinonai"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50144175",
+          "title": "Personal software factories are a waste of time",
+          "titleZh": "个人软件工厂是浪费时间",
+          "link": "https://www.peterp.me/articles/personal-software-factories-are-a-waste-of-time/",
+          "summary": "Article URL: https://www.peterp.me/articles/personal-software-factories-are-a-waste-of-time/\n\n Comments URL: https://news.ycombinator.com/item?id=50144175\n\n Points: 58\n\n # Comments: 59",
+          "summaryZh": "文章网址：https://www.peterp.me/articles/personal-software-factories-are-a-waste-of-time/\n\n 评论网址：https://news.ycombinator.com/item?id=50144175\n\n 积分：58\n\n # 评论: 59",
+          "publishedAt": "2026-10-18T19:02:11.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50144175",
+          "author": "thegreatpeter"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50144066",
+          "title": "Free Pascal compiler now supports dynamic packages",
+          "titleZh": "Free Pascal 编译器现在支持动态包",
+          "link": "https://www.getlazarus.org/dynamic/",
+          "summary": "Article URL: https://www.getlazarus.org/dynamic/\n\n Comments URL: https://news.ycombinator.com/item?id=50144066\n\n Points: 116\n\n # Comments: 23",
+          "summaryZh": "文章网址：https://www.getlazarus.org/dynamic/\n\n 评论网址：https://news.ycombinator.com/item?id=50144066\n\n 积分：116\n\n # 评论: 23",
+          "publishedAt": "2026-10-18T18:48:04.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50144066",
+          "author": "sysrpl"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50143536",
+          "title": "PalmOS Lemmings",
+          "titleZh": "PalmOS 旅鼠",
+          "link": "https://github.com/ardiri/palmos-lemmings",
+          "summary": "Article URL: https://github.com/ardiri/palmos-lemmings\n\n Comments URL: https://news.ycombinator.com/item?id=50143536\n\n Points: 99\n\n # Comments: 23",
+          "summaryZh": "文章网址：https://github.com/ardiri/palmos-lemmings\n\n 评论网址：https://news.ycombinator.com/item?id=50143536\n\n 积分：99\n\n # 评论: 23",
+          "publishedAt": "2026-10-18T17:56:59.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50143536",
+          "author": "memalign"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50143154",
+          "title": "What the heck is /pkg?",
+          "titleZh": "/pkg 到底是什么？",
+          "link": "https://anderegg.ca/2026/10/18/what-the-heck-is-pkg",
+          "summary": "Article URL: https://anderegg.ca/2026/10/18/what-the-heck-is-pkg\n\n Comments URL: https://news.ycombinator.com/item?id=50143154\n\n Points: 22\n\n # Comments: 9",
+          "summaryZh": "文章网址：https://anderegg.ca/2026/10/18/what-the-heck-is-pkg\n\n 评论网址：https://news.ycombinator.com/item?id=50143154\n\n 积分：22\n\n # 评论: 9",
+          "publishedAt": "2026-10-18T17:21:23.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50143154",
+          "author": "GavinAnderegg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50142866",
+          "title": "Namecheap just seized and disabled all my domains",
+          "titleZh": "Namecheap 刚刚查封并禁用了我的所有域名",
+          "link": "https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/",
+          "summary": "Article URL: https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/\n\n Comments URL: https://news.ycombinator.com/item?id=50142866\n\n Points: 452\n\n # Comments: 215",
+          "summaryZh": "文章网址：https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/\n\n 评论网址：https://news.ycombinator.com/item?id=50142866\n\n 积分：452\n\n # 评论：215",
+          "publishedAt": "2026-10-18T16:56:56.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50142866",
+          "author": "sashk"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50142573",
+          "title": "Someone behind the software",
+          "titleZh": "软件背后有人",
+          "link": "https://karrisaarinen.com/posts/someone-behind-the-software/",
+          "summary": "Article URL: https://karrisaarinen.com/posts/someone-behind-the-software/\n\n Comments URL: https://news.ycombinator.com/item?id=50142573\n\n Points: 330\n\n # Comments: 138",
+          "summaryZh": "文章网址：https://karrisaarinen.com/posts/someone-behind-the-software/\n\n 评论网址：https://news.ycombinator.com/item?id=50142573\n\n 积分：330\n\n # 评论: 138",
+          "publishedAt": "2026-10-18T16:32:00.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50142573",
+          "author": "tosh"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50142449",
+          "title": "The Intel 8087 chip: floating-point addition and subtraction",
+          "titleZh": "Intel 8087芯片：浮点加法和减法",
+          "link": "https://www.righto.com/2026/10/8087-addition-subtraction-microcode.html",
+          "summary": "Article URL: https://www.righto.com/2026/10/8087-addition-subtraction-microcode.html\n\n Comments URL: https://news.ycombinator.com/item?id=50142449\n\n Points: 91\n\n # Comments: 33",
+          "summaryZh": "文章网址：https://www.righto.com/2026/10/8087-addition-subtraction-microcode.html\n\n 评论网址：https://news.ycombinator.com/item?id=50142449\n\n 积分：91\n\n # 评论: 33",
+          "publishedAt": "2026-10-18T16:20:27.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50142449",
+          "author": "pwg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50141579",
+          "title": "Java sealed classes and exhaustive pattern matching",
+          "titleZh": "Java 密封类和详尽的模式匹配",
+          "link": "https://neilmadden.blog/2026/04/24/java-sealed-classes-and-exhaustive-pattern-matching/",
+          "summary": "Article URL: https://neilmadden.blog/2026/04/24/java-sealed-classes-and-exhaustive-pattern-matching/\n\n Comments URL: https://news.ycombinator.com/item?id=50141579\n\n Points: 143\n\n # Comments: 105",
+          "summaryZh": "文章网址：https://neilmadden.blog/2026/04/24/java-sealed-classes-and-exhaustive-pattern-matching/\n\n 评论网址：https://news.ycombinator.com/item?id=50141579\n\n 积分：143\n\n # 评论: 105",
+          "publishedAt": "2026-10-18T14:47:37.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50141579",
+          "author": "hnisjafx40"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50141076",
+          "title": "RepRapMicron",
+          "titleZh": "复制RapMicron",
+          "link": "https://github.com/VikOlliver/RepRapMicron/wiki",
+          "summary": "Article URL: https://github.com/VikOlliver/RepRapMicron/wiki\n\n Comments URL: https://news.ycombinator.com/item?id=50141076\n\n Points: 336\n\n # Comments: 55",
+          "summaryZh": "文章网址：https://github.com/VikOlliver/RepRapMicron/wiki\n\n 评论网址：https://news.ycombinator.com/item?id=50141076\n\n 积分：336\n\n # 评论: 55",
+          "publishedAt": "2026-10-18T13:48:48.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50141076",
+          "author": "RobotToaster"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50140383",
+          "title": "A new way to think about borrow checking (in reverse)",
+          "titleZh": "思考借用检查的新方法（相反）",
+          "link": "https://verdagon.dev/blog/reverse-borrow-checking",
+          "summary": "Article URL: https://verdagon.dev/blog/reverse-borrow-checking\n\n Comments URL: https://news.ycombinator.com/item?id=50140383\n\n Points: 26\n\n # Comments: 4",
+          "summaryZh": "文章网址：https://verdagon.dev/blog/reverse-borrow-checking\n\n 评论网址：https://news.ycombinator.com/item?id=50140383\n\n 积分：26\n\n # 评论: 4",
+          "publishedAt": "2026-10-18T12:11:13.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50140383",
+          "author": "verdagon"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50140001",
+          "title": "Open MicroManipulator – A sub-micrometer 3D motion control plattform",
+          "titleZh": "Open MicroManipulator – 亚微米 3D 运动控制平台",
+          "link": "https://github.com/0x23/MicroManipulatorStepper",
+          "summary": "Article URL: https://github.com/0x23/MicroManipulatorStepper\n\n Comments URL: https://news.ycombinator.com/item?id=50140001\n\n Points: 176\n\n # Comments: 13",
+          "summaryZh": "文章网址：https://github.com/0x23/MicroManipulatorStepper\n\n 评论网址：https://news.ycombinator.com/item?id=50140001\n\n 积分：176\n\n # 评论: 13",
+          "publishedAt": "2026-10-18T11:16:22.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50140001",
+          "author": "_Microft"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50136979",
+          "title": "Dogs seem to agree with humans that 'bouba' is round and 'kiki' is spiky",
+          "titleZh": "狗似乎同意人类的观点，即“布巴”是圆的，“琪琪”是尖的",
+          "link": "https://www.sciencealert.com/dogs-seem-to-agree-with-humans-that-bouba-is-round-and-kiki-is-spiky",
+          "summary": "Article URL: https://www.sciencealert.com/dogs-seem-to-agree-with-humans-that-bouba-is-round-and-kiki-is-spiky\n\n Comments URL: https://news.ycombinator.com/item?id=50136979\n\n Points: 142\n\n # Comments: 86",
+          "summaryZh": "文章网址：https://www.sciencealert.com/dogs-seem-to-agree-with- humans-that-bouba-is-round-and-kiki-is-spiky\n\n 评论网址：https://news.ycombinator.com/item?id=50136979\n\n 积分：142\n\n # 评论: 86",
+          "publishedAt": "2026-10-18T01:38:08.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50136979",
+          "author": "gmays"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50136150",
+          "title": "There's never been a better time to go into math (by: 3blue1brown) [video]",
+          "titleZh": "现在是学习数学的最佳时机（作者：3blue1brown）[视频]",
+          "link": "https://www.youtube.com/watch?v=LKrwhjOI8Nc",
+          "summary": "Article URL: https://www.youtube.com/watch?v=LKrwhjOI8Nc\n\n Comments URL: https://news.ycombinator.com/item?id=50136150\n\n Points: 196\n\n # Comments: 192",
+          "summaryZh": "文章网址：https://www.youtube.com/watch?v=LKrwhjOI8Nc\n\n 评论网址：https://news.ycombinator.com/item?id=50136150\n\n 积分：196\n\n # 评论: 192",
+          "publishedAt": "2026-10-17T23:26:35.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50136150",
+          "author": "mdp2021"
+        }
+      ]
+    },
+    {
+      "id": "arxiv-cs-ai",
+      "title": "arXiv cs.AI",
+      "url": "https://rss.arxiv.org/rss/cs.AI",
+      "home": "https://arxiv.org/list/cs.AI/recent",
+      "group": "arxiv",
+      "fetchedAt": "2026-10-19T02:51:26.373Z",
+      "count": 0,
+      "items": []
+    },
+    {
+      "id": "arxiv-cs-lg",
+      "title": "arXiv cs.LG",
+      "url": "https://rss.arxiv.org/rss/cs.LG",
+      "home": "https://arxiv.org/list/cs.LG/recent",
+      "group": "arxiv",
+      "fetchedAt": "2026-10-19T02:51:26.788Z",
+      "count": 0,
+      "items": []
+    }
+  ]
+}
