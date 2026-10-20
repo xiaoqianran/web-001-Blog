@@ -1,0 +1,407 @@
+{
+  "source": "huggingface.co/api/daily_papers",
+  "attribution": "Data from Hugging Face Daily Papers (community curation). All rights belong to the original authors. Chinese text is machine-translated.",
+  "fetchedAt": "2026-10-20T13:21:16.950Z",
+  "date": "2026-10-20",
+  "sort": "trending",
+  "count": 15,
+  "locale": {
+    "summaryDefault": "zh",
+    "translated": true
+  },
+  "papers": [
+    {
+      "id": "2610.14224",
+      "title": "Harness^2: Recursive Agent Harnessing for an Open World",
+      "summary": "LLM agents' capabilities depend not only on their underlying models but also on their execution harnesses. Recursive self-improvement (RSI) offers a promising approach to automatically evolve these harnesses. However, deploying RSI in open-world settings still faces two critical challenges. First, open-world tasks are typically unseen during the harness design phase and novel at test time, leaving no ground-truth verifiers to reliably guide online harness edits. Second, the RSI process remains highly task-specific and fails to generalize to novel scenarios. We introduce Harness^2, a plug-and-play, recursive agent harnessing framework that addresses these challenges through two connected levels of recursion. Task-level recursion refines the current task's harness using a contrastive Propose-Probe-Compose step that reliably guides edits without ground-truth verifiers, and can be scaled further via parallel or sequential recursion. Harnessing-level recursion then extracts experience from these edits to update a continual improvement harness, enabling the agent to better adapt to future tasks. Across three professional benchmarks and four model-harness configurations, a single step consistently improves GLM-5 and Gemini 3.5 Flash over their base harnesses, yielding gains of up to 11.5 points on WorkBuddy-Bench, 4.5 points on JobBench, and 11.8 percentage points on LAB, with further gains as the task-level recursion budget increases.",
+      "summaryZh": "LLM 代理的能力不仅取决于其底层模型，还取决于其执行工具。递归自我改进（RSI）提供了一种有前途的方法来自动改进这些工具。然而，在开放世界环境中部署 RSI 仍然面临两个关键挑战。首先，开放世界任务通常在线束设计阶段是看不见的，并且在测试时是新颖的，因此没有真实的验证者来可靠地指导在线线束编辑。其次，RSI 过程仍然高度特定于任务，无法推广到新场景。我们引入了 Harness^2，这是一个即插即用的递归代理利用框架，它通过两个连接的递归级别来解决这些挑战。任务级递归使用对比性的 Propose-Probe-Compose 步骤来细化当前任务的控制，该步骤可以在没有真实验证器的情况下可靠地指导编辑，并且可以通过并行或顺序递归进一步扩展。然后，利用级递归从这些编辑中提取经验，以更新持续改进的利用，使代理能够更好地适应未来的任务。在三个专业基准测试和四种模型线束配置中，一步即可持续改进 GLM-5 和 Gemini 3.5 Flash 的基本线束，在 WorkBuddy-Bench 上获得高达 11.5 个百分点的收益，在 JobBench 上获得 4.5 个百分点，在 LAB 上获得 11.8 个百分点，并且随着任务级递归预算的增加，收益还会进一步增加。",
+      "titleZh": "Harness^2：开放世界的递归代理利用",
+      "authors": [
+        "Ruiyao Xu",
+        "Yanfei Chen",
+        "Zhongying CuiZhu",
+        "Bhavana Dalvi Mishra",
+        "Yifei Ming",
+        "Han Yu",
+        "Rujun Han",
+        "Chen-Yu Lee",
+        "Tomas Pfister"
+      ],
+      "publishedAt": "2026-10-09T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-10-14T00:00:00.000Z",
+      "submitter": "ruiyaox",
+      "upvotes": 114,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2610.14224",
+        "arxiv": "https://arxiv.org/abs/2610.14224",
+        "pdf": "https://arxiv.org/pdf/2610.14224"
+      }
+    },
+    {
+      "id": "2610.23374",
+      "title": "MOSS-Image Technical Report",
+      "summary": "Recent closed-source image generation systems can produce diverse visual content from simple compositions to information-dense graphics, yet open-weight text-to-image models still struggle with dense text and intricate layouts. To narrow this gap, we introduce MOSS-Image, an open generation system that combines high-fidelity visual synthesis with intent-aware composition. First, we pretrain a 5B single-stream diffusion transformer (DiT) from scratch with a carefully designed recipe, enabling bilingual long-form text rendering and precise layout control. Second, we develop an intention-aware agentic prompt enhancement (PE) module that translates diverse user requests into detailed content and layout specifications. Together, they enable MOSS-Image to generate text-rich and layout-coherent images. We further introduce LongLongTextBench (LLTB) for evaluating long-form English and Chinese text rendering, and RealLayoutArena (RLA) for end-to-end layout-rich generation. MOSS-Image achieves state-of-the-art performance among open-weight models on LLTB, with an average text coverage of 96.3%. On RLA, MOSS-Image ranks second in the end-to-end system comparison, while its backbone ranks first among generators evaluated with shared enhanced prompts. We will release the model, training recipe, and evaluation framework to support further research and promote the text-to-image community.",
+      "summaryZh": "最近的闭源图像生成系统可以生成从简单的构图到信息密集的图形的各种视觉内容，但开放权重文本到图像模型仍然难以应对密集的文本和复杂的布局。为了缩小这一差距，我们引入了 MOSS-Image，这是一个开放的生成系统，它将高保真视觉合成与意图感知合成相结合。首先，我们使用精心设计的配方从头开始预训练 5B 单流扩散变压器 (DiT)，从而实现双语长文本渲染和精确的布局控制。其次，我们开发了一个意图感知代理提示增强（PE）模块，将不同的用户请求转化为详细的内容和布局规范。它们共同使 MOSS-Image 能够生成文本丰富且布局一致的图像。我们进一步引入了用于评估长格式英文和中文文本渲染的 LongLongTextBench (LLTB)，以及用于端到端丰富布局生成的 RealLayoutArena (RLA)。 MOSS-Image 在 LLTB 上的开放权重模型中实现了最先进的性能，平均文本覆盖率为 96.3%。在 RLA 上，MOSS-Image 在端到端系统比较中排名第二，而其骨干网在使用共享增强提示评估的生成器中排名第一。我们将发布模型、训练配方和评估框架，以支持进一步的研究并促进文本到图像社区的发展。",
+      "titleZh": "MOSS-图像技术报告",
+      "authors": [
+        "MOSI. AI"
+      ],
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-10-19T00:00:00.000Z",
+      "submitter": "Phospheneser",
+      "upvotes": 66,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2610.23374",
+        "arxiv": "https://arxiv.org/abs/2610.23374",
+        "pdf": "https://arxiv.org/pdf/2610.23374"
+      }
+    },
+    {
+      "id": "2508.02739",
+      "title": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "summary": "The success of large-scale pre-training paradigm, exemplified by Large\nLanguage Models (LLMs), has inspired the development of Time Series Foundation\nModels (TSFMs). However, their application to financial candlestick (K-line)\ndata remains limited, often underperforming non-pre-trained architectures.\nMoreover, existing TSFMs often overlook crucial downstream tasks such as\nvolatility prediction and synthetic data generation. To address these\nlimitations, we propose Kronos, a unified, scalable pre-training framework\ntailored to financial K-line modeling. Kronos introduces a specialized\ntokenizer that discretizes continuous market information into token sequences,\npreserving both price dynamics and trade activity patterns. We pre-train Kronos\nusing an autoregressive objective on a massive, multi-market corpus of over 12\nbillion K-line records from 45 global exchanges, enabling it to learn nuanced\ntemporal and cross-asset representations. Kronos excels in a zero-shot setting\nacross a diverse set of financial tasks. On benchmark datasets, Kronos boosts\nprice series forecasting RankIC by 93% over the leading TSFM and 87% over the\nbest non-pre-trained baseline. It also achieves a 9% lower MAE in volatility\nforecasting and a 22% improvement in generative fidelity for synthetic K-line\nsequences. These results establish Kronos as a robust, versatile foundation\nmodel for end-to-end financial time series analysis. Our pre-trained model is\npublicly available at https://github.com/shiyu-coder/Kronos.",
+      "summaryZh": "大规模预训练范式的成功，以 Large 为例\n语言模型（LLM）启发了时间序列基金会的发展\n模型 (TSFM)。然而，它们在金融烛台（K 线）中的应用\n数据仍然有限，通常表现不佳非预先训练的架构。\n此外，现有的 TSFM 常常忽视关键的下游任务，例如\n波动率预测和合成数据生成。为了解决这些\n针对局限性，我们提出了 Kronos，一个统一的、可扩展的预训练框架\n为金融K线建模量身定制。 Kronos 推出了专门的\n标记器将连续的市场信息离散化为标记序列，\n保持价格动态和贸易活动模式。我们预训练 Kronos\n在超过 12 个的庞大、多市场语料库上使用自回归目标\n全球45家交易所十亿K线记录，细致入微\n时间和跨资产表示。 Kronos 擅长零射击设置\n跨越一系列不同的财务任务。在基准数据集上，Kronos 有所提升\n价格系列预测 RankIC 比领先的 TSFM 高 93%，比领先的 TSFM 高 87%\n最佳非预训练基线。它还实现了波动性 MAE 降低 9%\n预测，合成 K 线的生成保真度提高 22%\n序列。这些结果使 Kronos 成为一个强大、多功能的基础\n端到端金融时间序列分析模型。我们的预训练模型是\n可在 https://github.com/shiyu-coder/Kronos 公开获取。",
+      "titleZh": "Kronos：金融市场语言的基础模型",
+      "authors": [
+        "Yu Shi",
+        "Zongliang Fu",
+        "Shuo Chen",
+        "Bohan Zhao",
+        "Wei Xu",
+        "Changshui Zhang",
+        "Jian Li"
+      ],
+      "publishedAt": "2025-08-02T13:15:59.000Z",
+      "submittedOnDailyAt": "2025-08-02T09:15:59.000Z",
+      "submitter": null,
+      "upvotes": 61,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2508.02739",
+        "arxiv": "https://arxiv.org/abs/2508.02739",
+        "pdf": "https://arxiv.org/pdf/2508.02739"
+      }
+    },
+    {
+      "id": "2609.18063",
+      "title": "The Other Half of the Memory Wall: Serving 35B MoEs from SSD with Trained Routing Prediction",
+      "summary": "Mixture-of-experts (MoE) inference on consumer hardware is bounded by weight memory: a 35B-class model is 19.5GB at 4-bit, and sparsity shrinks the compute per token, not the bytes that must be held. Naive offloading to SSD does not help on its own, because layer N+1's experts must be chosen before layer N's output exists, so the reads cannot start early enough to hide behind compute. We present Edge0, a streaming MoE inference engine that closes the gap with a prerouter: a per-layer head predicts the next layer's routing one token ahead, and the prediction is consumed as the routing itself, so the staged expert set equals the routed set and nothing is dropped. An unmerged recovery LoRA, trained on the student path, pays back the quality lost to int4 quantization and routing replacement. On a single 24GB machine, Edge0\n  serves a 35B MoE at 20tok/s inside 3GiB of peak active memory, within a few points of its fp16 teacher on average across five public benchmarks. An 8B tier runs on the same framework, and the framework, checkpoints, and adapters are open source.",
+      "summaryZh": "消费者硬件上的专家混合 (MoE) 推理受到权重内存的限制：35B 级模型在 4 位时为 19.5GB，稀疏性会缩小每个令牌的计算量，而不是必须保存的字节数。单纯卸载到 SSD 本身并没有什么帮助，因为必须在 N 层输出存在之前选择 N+1 层的专家，因此读取不能太早开始以隐藏在计算后面。我们提出了 Edge0，一个流式 MoE 推理引擎，它缩小了与预路由器的差距：每层头提前一个令牌预测下一层的路由，并且预测被用作路由本身，因此分阶段专家集等于路由集，并且不会丢失任何内容。未合并的恢复 LoRA，在学生路径上进行训练，弥补了 int4 量化和路由替换造成的质量损失。在单个 24GB 机器上，Edge0\n  在 3GiB 峰值活动内存内以 20tok/s 的速度提供 35B MoE，在五个公共基准测试中，其 fp16 老师的平均值仅相差几个点。 8B 层运行在同一框架上，并且框架、检查点和适​​配器都是开源的。",
+      "titleZh": "内存墙的另一半：通过经过训练的路由预测从 SSD 为 35B MoE 提供服务",
+      "authors": [
+        "Yu Lin",
+        "Yiming Wang",
+        "Runyuan Cai",
+        "Hanze Liu",
+        "Xiaodong Zeng"
+      ],
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-09-17T00:00:00.000Z",
+      "submitter": "bupalinyu",
+      "upvotes": 28,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2609.18063",
+        "arxiv": "https://arxiv.org/abs/2609.18063",
+        "pdf": "https://arxiv.org/pdf/2609.18063"
+      }
+    },
+    {
+      "id": "2412.20138",
+      "title": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "summary": "Significant progress has been made in automated problem-solving using\nsocieties of agents powered by large language models (LLMs). In finance,\nefforts have largely focused on single-agent systems handling specific tasks or\nmulti-agent frameworks independently gathering data. However, the multi-agent\nsystems' potential to replicate real-world trading firms' collaborative\ndynamics remains underexplored. TradingAgents proposes a novel stock trading\nframework inspired by trading firms, featuring LLM-powered agents in\nspecialized roles such as fundamental analysts, sentiment analysts, technical\nanalysts, and traders with varied risk profiles. The framework includes Bull\nand Bear researcher agents assessing market conditions, a risk management team\nmonitoring exposure, and traders synthesizing insights from debates and\nhistorical data to make informed decisions. By simulating a dynamic,\ncollaborative trading environment, this framework aims to improve trading\nperformance. Detailed architecture and extensive experiments reveal its\nsuperiority over baseline models, with notable improvements in cumulative\nreturns, Sharpe ratio, and maximum drawdown, highlighting the potential of\nmulti-agent LLM frameworks in financial trading. TradingAgents is available at\nhttps://github.com/TauricResearch/TradingAgents.",
+      "summaryZh": "使用自动化解决问题取得了重大进展\n由大型语言模型 (LLM) 提供支持的代理协会。在金融领域，\n工作主要集中在处理特定任务的单代理系统或\n多代理框架独立收集数据。然而，多代理\n系统复制现实世界贸易公司协作的潜力\n动力学仍有待探索。 TradingAgents 提出了一种新颖的股票交易方式\n受贸易公司启发的框架，以法学硕士支持的代理为特色\n专业角色，例如基本面分析师、情绪分析师、技术分析师\n具有不同风险状况的分析师和交易员。该框架包括 Bull\n贝尔斯登研究人员评估市场状况，风险管理团队\n监控风险敞口，交易者从辩论中综合见解\n历史数据以做出明智的决策。通过模拟动态，\n协作交易环境，该框架旨在改善交易\n性能。详细的架构和广泛的实验揭示了它的\n优于基线模型，累积显着改进\n回报率、夏普比率和最大回撤，凸显了\n金融交易中的多代理法学硕士框架。交易代理可在\nhttps://github.com/TauricResearch/TradingAgents。",
+      "titleZh": "TradingAgents：多代理LLM金融交易框架",
+      "authors": [
+        "Yijia Xiao",
+        "Edward Sun",
+        "Di Luo",
+        "Wei Wang"
+      ],
+      "publishedAt": "2024-12-28T12:54:06.000Z",
+      "submittedOnDailyAt": "2024-12-28T07:54:06.000Z",
+      "submitter": null,
+      "upvotes": 153,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2412.20138",
+        "arxiv": "https://arxiv.org/abs/2412.20138",
+        "pdf": "https://arxiv.org/pdf/2412.20138"
+      }
+    },
+    {
+      "id": "2610.22471",
+      "title": "Has GPT-6-Astra Achieved Embodied Intelligence?",
+      "summary": "GPT-6-Astra demonstrates a level of competence in robotic manipulation and navigation that challenges the conventional paradigm of building specialized models for individual tasks and embodiments. In this report, we ask not only how capable GPT-6-Astra is, but what its capabilities imply for the field. First, we probe the limits of standalone GPT-6-Astra. We conduct a large-scale evaluation across 12 representative benchmarks spanning tabletop manipulation, humanoids, mobile platforms, and dexterous hands. Under a unified protocol that allows in-context learning (ICL) from training-set demonstrations and substantially increases the number of execution steps, GPT-6-Astra achieves unprecedented performance (Fig. 1). Future research may focus on improving 1) the generality of ICL 2) cost and execution time, 3) physical-state verification, 4) recovery from irreversible failures, and 5) long-horizon preservation of progress. Second, we study the agentic harness for embodied control. We identify that close-loop coordination between a high-level \"System 2\" reasoner (i.e., GPT-6-Astra) and a low-level \"System 1\" controller (e.g., π0.5) is costly but effective. Third, we examine GPT-6-Astra on real-world deployment. Our experiments on 8 robot configurations reveal substantial gaps: 1) robot demonstrations required for ICL are expensive to collect, and 2) it is implausible to trade longer execution for higher success rates with physical constraints. Fourth, we envision the next generation of embodied benchmarks. We develop a prototype that 1) derives tasks from real-world needs, 2) provides no in-domain demonstrations, and 3) judges agents on a world clock that keeps running while they deliberate. Taken together, our results suggest that GPT-6-Astra has largely crossed the threshold of embodied competence, but not yet that of practical embodied intelligence.",
+      "summaryZh": "GPT-6-Astra 展示了机器人操作和导航的能力水平，挑战了为单个任务和实施例构建专用模型的传统范例。在本报告中，我们不仅询问 GPT-6-Astra 的能力如何，还询问其能力对该领域意味着什么。首先，我们探讨独立 GPT-6-Astra 的局限性。我们对 12 个代表性基准进行了大规模评估，涵盖桌面操作、人形机器人、移动平台和灵巧手。在允许从训练集演示中进行上下文学习 (ICL) 并大幅增加执行步骤数量的统一协议下，GPT-6-Astra 实现了前所未有的性能（图 1）。未来的研究可能集中在改进 1) ICL 的通用性、2) 成本和执行时间、3) 物理状态验证、4) 从不可逆故障中恢复以及 5) 进展的长期保存。其次，我们研究了体现控制的代理手段。我们发现高级“系统 2”推理器（即 GPT-6-Astra）和低级“系统 1”控制器（例如 π0.5）之间的闭环协调成本高昂但有效。第三，我们检查 GPT-6-Astra 的实际部署情况。我们对 8 种机器人配置进行的实验揭示了巨大的差距：1）ICL 所需的机器人演示的收集成本很高，2）在物理限制下，用更长的执行时间来换取更高的成功率是不合理的。第四，我们展望下一代具体基准。我们开发了一个原型，1）根据现实世界的需求派生任务，2）不提供域内演示，3）根据智能体在思考时持续运行的世界时钟来判断。总而言之，我们的结果表明 GPT-6-Astra 已在很大程度上跨越了具身能力的门槛，但尚未达到实用具身智能的门槛。",
+      "titleZh": "GPT-6-Astra 实现了具身智能吗？",
+      "authors": [
+        "SenseNova",
+        "Joint Research Team",
+        "Zhongang Cai",
+        "Ziang Cao",
+        "Tailai Chen",
+        "Han Chong Chua",
+        "Linjun Dai",
+        "Hanming Deng",
+        "Hokin Deng",
+        "Haiwen Diao",
+        "Chenjing Ding",
+        "Weichen Fan"
+      ],
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-10-19T00:00:00.000Z",
+      "submitter": "caizhongang",
+      "upvotes": 419,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2610.22471",
+        "arxiv": "https://arxiv.org/abs/2610.22471",
+        "pdf": "https://arxiv.org/pdf/2610.22471"
+      }
+    },
+    {
+      "id": "2609.33757",
+      "title": "YuE2: Unifying Symbolic and Audio Music Generation at Frontier Quality",
+      "summary": "Symbolic models make melody, harmony, rhythm, and form explicit but typically stop before a finished recording; audio models produce complete songs while leaving composition implicit. We introduce YuE2, which unifies symbolic and audio music generation at frontier quality through symbolic planning. A single AR-NAR Mixture-of-Transformers (MoT) first writes a readable score specifying melody and harmony, expands it into semantic music tokens, and realizes it as full-song audio. In comparisons using the same checkpoint, experts prefer symbolic planning for overall quality and musicality, with 49.3% of overall preferences versus 34.6% without planning. Experts also favor the unified model over a separate language model and diffusion Transformer. On WildSongBench, YuE2 scores 6.73 on SongBench Global Avg, exceeding all evaluated public baselines. Selecting from eight candidates (best-of-8), YuE2 reaches 6.96, the highest observed mean among all evaluated systems. Expert listening further establishes its competitiveness with proprietary song generators, favoring best-of-8 over Suno v4.5 and yielding nearly balanced preferences against Suno v5. To learn this generation process from recordings without aligned scores, we introduce MERT2 and SheetSage2 to supply semantic and symbolic supervision. MERT2 sets a new state of the art in music representation learning, surpassing previous best results on 14 of 15 MARBLE metrics; SheetSage2 leads 12 of 15 benchmark-metric pairs in our lead-sheet transcription comparison. The same checkpoint follows score edits while largely preserving unedited musical content and generates zero-shot covers without cover-specific training. Its readable score also enables agentic music editing, with external language models translating user feedback into revisions of the composition.",
+      "summaryZh": "符号模型使旋律、和声、节奏和形式变得清晰，但通常在完成录音之前就停止了；音频模型生成完整的歌曲，同时隐式地保留作曲。我们推出 YuE2，它通过符号规划以前沿质量统一符号和音频音乐生成。单个 AR-NAR Mixture-of-Transformers (MoT) 首先编写一个可读的乐谱，指定旋律和和声，将其扩展为语义音乐标记，并将其实现为整首歌曲音频。在使用相同检查点的比较中，专家们更喜欢对整体质量和音乐性进行符号规划，总体偏好的比例为 49.3%，而没有规划的比例为 34.6%。专家们还青睐统一模型而不是单独的语言模型和扩散 Transformer。在 WildSongBench 上，YuE2 在 SongBench Global Avg 上的得分为 6.73，超过了所有评估的公共基线。 YuE2 从 8 个候选系统中进行选择（8 个中最好），达到 6.96，这是所有评估系统中观察到的最高平均值。专家聆听进一步确立了其与专有歌曲生成器的竞争力，与 Suno v4.5 相比，更倾向于 8 局最佳，并且与 Suno v5 相比，产生几乎平衡的偏好。为了从没有对齐分数的录音中学习这个生成过程，我们引入了 MERT2 和 SheetSage2 来提供语义和符号监督。 MERT2 在音乐表征学习方面树立了新的技术水平，在 15 个 MARBLE 指标中的 14 个指标上超越了之前的最佳结果；在我们的主要表转录比较中，SheetSage2 领先 15 个基准指标对中的 12 个。相同的检查点遵循乐谱编辑，同时在很大程度上保留未经编辑的音乐内容，并生成零镜头封面，无需封面特定的培训。其可读的乐谱还可以实现代理音乐编辑，外部语言模型可以将用户反馈转化为乐曲的修订。",
+      "titleZh": "YuE2：以前沿质量统一符号和音频音乐生成",
+      "authors": [
+        "Ruibin Yuan",
+        "Jiahao Pan",
+        "Junyan Jiang",
+        "Zhiyue Wu",
+        "Ziya Zhou",
+        "Jiankai Sun",
+        "Yizhi Li",
+        "Ge Zhang",
+        "Yicheng Gu",
+        "Zeyue Tian",
+        "Junyu Dai",
+        "Hanfeng Lin"
+      ],
+      "publishedAt": "2026-09-27T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-09-29T00:00:00.000Z",
+      "submitter": "a43992899",
+      "upvotes": 223,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2609.33757",
+        "arxiv": "https://arxiv.org/abs/2609.33757",
+        "pdf": "https://arxiv.org/pdf/2609.33757"
+      }
+    },
+    {
+      "id": "2606.23050",
+      "title": "Unlimited OCR Works",
+      "summary": "Recently, end-to-end OCR models, exemplified by DeepSeek OCR, have once again thrust OCR into the spotlight. A widely held view is that employing a large language model (LLM) as the decoder allows the model to leverage the prior distribution of language, leading to improved OCR performance. However, the downside is equally evident: as the output sequence lengthens, the accumulated KV cache drives up memory consumption and progressively slows down generation. This stands in stark contrast to humans, who exhibit no such decline in efficiency during long-horizon copying tasks. In this technical report, we propose Unlimited OCR, a model designed to emulate human parsing working memory. Taking DeepSeek OCR as the baseline, we replace all attention layers in the decoder with our proposed Reference Sliding Window Attention (R-SWA), which reduces attention computation costs while maintaining a constant KV cache throughout the entire decoding process. By combining the high compression rate of DeepSeek OCR's encoder with our constant KV cache design, Unlimited OCR can transcribe dozens of pages of documents in a single forward pass under a standard maximum length of 32K. More importantly, R-SWA is a general-purpose parsing attention mechanism - beyond OCR, it is equally applicable to tasks such as ASR, translation, etc. Codes and model weights are publicly available at http://github.com/baidu/Unlimited-OCR.",
+      "summaryZh": "最近，以DeepSeek OCR为代表的端到端OCR模型再次将OCR推向了人们的视线。一种广泛持有的观点是，采用大型语言模型 (LLM) 作为解码器允许模型利用语言的先验分布，从而提高 OCR 性能。然而，缺点也同样明显：随着输出序列的延长，累积的 KV 缓存会增加内存消耗并逐渐减慢生成速度。这与人类形成鲜明对比，人类在执行长视距复制任务时并没有表现出效率下降的情况。在这份技术报告中，我们提出了 Unlimited OCR，一种旨在模拟人类解析工作记忆的模型。以 DeepSeek OCR 为基准，我们用我们提出的参考滑动窗口注意力（R-SWA）替换解码器中的所有注意力层，这降低了注意力计算成本，同时在整个解码过程中保持恒定的 KV 缓存。通过将 DeepSeek OCR 编码器的高压缩率与我们的恒定 KV 缓存设计相结合，Unlimited OCR 可以在标准最大长度 32K 的情况下在单次前向传递中转录数十页文档。更重要的是，R-SWA 是一种通用的解析注意力机制——除了 OCR 之外，它同样适用于 ASR、翻译等任务。代码和模型权重可在 http://github.com/baidu/Unlimited-OCR 上公开。",
+      "titleZh": "无限 OCR 作品",
+      "authors": [
+        "Youyang Yin",
+        "Huanhuan Liu",
+        "YY",
+        "Qunyi Xie",
+        "Chaorun Liu",
+        "Shiqi Yang",
+        "Shaohua Wang",
+        "Zhanlong Liu",
+        "Hao Zou",
+        "Jinyue Chen",
+        "Shu Wei",
+        "Jingjing Wu"
+      ],
+      "publishedAt": "2026-06-22T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-06-23T00:00:00.000Z",
+      "submitter": "taesiri",
+      "upvotes": 96,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2606.23050",
+        "arxiv": "https://arxiv.org/abs/2606.23050",
+        "pdf": "https://arxiv.org/pdf/2606.23050"
+      }
+    },
+    {
+      "id": "2610.17309",
+      "title": "StartLux-Decision: AutoThink Decision Models with Reinforcement Learning for Calibrated Deliberative Decisions",
+      "summary": "We introduce StartLux-Decision, decision models from 0.8B to 27B parameters that combine efficient single-pass prediction with adaptive, confidence-guided reasoning. The Instant models use bidirectional attention in full-attention layers to improve decision accuracy while keeping single-pass inference. The AutoThink models invoke explicit reasoning for uncertain decisions and answer confident cases directly. A three-stage training pipeline establishes shared decision capabilities, specializes the two variants, and equips AutoThink with reasoning through reasoning supervision and reinforcement learning. We introduce Reinforcement Learning for Calibrated Deliberative Decisions (RLCD^2), which uses a frozen model and proper scoring rules to reward improvements in decision probability quality and applies a soft penalty to overlong reasoning traces. RLCD^2 raises the share of reasoning traces that terminate within the generation limit by up to 48 percentage points and cuts average reasoning length by up to 65%, while largely preserving decision accuracy. On the public subset of Decision Index 0.3, the Instant models outperform the strongest evaluated comparable-scale open-weight decision models by 7.4-16.9 points, and the 27B AutoThink model reaches 73.4. We also introduce DecisionPivot, a programmatically verifiable benchmark of computational decisions built from contrast pairs that differ in a single answer-changing detail. On DecisionPivot, AutoThink outperforms its Instant counterparts by 11.5-18.4 points in pair accuracy and leads among evaluated systems. The models run on vLLM, llama.cpp and MLX, with quantized variants for lower memory use.",
+      "summaryZh": "我们引入了 StartLux-Decision，这是从 0.8B 到 27B 参数的决策模型，它将高效的单通道预测与自适应、置信引导推理相结合。 Instant 模型在全注意力层中使用双向注意力来提高决策准确性，同时保持单遍推理。 AutoThink 模型对不确定的决策调用显式推理，并直接回答有把握的案例。三阶段训练管道建立了共享决策能力，专门化了两种变体，并通过推理监督和强化学习为 AutoThink 配备了推理能力。我们引入了校准慎思决策的强化学习（RLCD^2），它使用冻结模型和适当的评分规则来奖励决策概率质量的改进，并对超长的推理轨迹应用软惩罚。 RLCD^2 将在生成限制内终止的推理轨迹的份额提高了多达 48 个百分点，并将平均推理长度缩短了多达 65%，同时在很大程度上保持了决策准确性。在决策指数 0.3 的公共子集上，Instant 模型比评估最强的可比规模开放权重决策模型高出 7.4-16.9 分，27B AutoThink 模型达到 73.4。我们还引入了 DecisionPivot，这是一种可通过编程方式验证的计算决策基准，它是根据在单个答案更改细节上存在差异的对比对构建的。在 DecisionPivot 上，AutoThink 在配对准确度方面比 Instant 同类产品高出 11.5-18.4 分，并且在评估的系统中处于领先地位。这些模型在 vLLM、llama.cpp 和 MLX 上运行，并具有量化变体以降低内存使用量。",
+      "titleZh": "StartLux-Decision：具有强化学习功能的 AutoThink 决策模型，用于校准协商决策",
+      "authors": [
+        "Xialie Zhuang",
+        "Zunhai Su",
+        "Jia Pan",
+        "Ngai Wong",
+        "Guanhua Chen",
+        "Chuan-Wei Kuo"
+      ],
+      "publishedAt": "2026-10-12T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-10-15T00:00:00.000Z",
+      "submitter": "Lie24",
+      "upvotes": 20,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2610.17309",
+        "arxiv": "https://arxiv.org/abs/2610.17309",
+        "pdf": "https://arxiv.org/pdf/2610.17309"
+      }
+    },
+    {
+      "id": "2603.23509",
+      "title": "Internal Safety Collapse in Frontier Large Language Models",
+      "summary": "This work identifies a critical failure mode in frontier large language models (LLMs), which we term Internal Safety Collapse (ISC): under certain task conditions, models enter a state in which they continuously generate harmful content while executing otherwise benign tasks. We introduce TVD (Task, Validator, Data), a framework that triggers ISC through domain tasks where generating harmful content is the only valid completion, and construct ISC-Bench containing 53 scenarios across 8 professional disciplines. Evaluated on JailbreakBench, three representative scenarios yield worst-case safety failure rates averaging 95.3% across four frontier LLMs (including GPT-5.2 and Claude Sonnet 4.5), substantially exceeding standard jailbreak attacks. Frontier models are more vulnerable than earlier LLMs: the very capabilities that enable complex task execution become liabilities when tasks intrinsically involve harmful content. This reveals a growing attack surface: almost every professional domain uses tools that process sensitive data, and each new dual-use tool automatically expands this vulnerability--even without any deliberate attack. Despite substantial alignment efforts, frontier LLMs retain inherently unsafe internal capabilities: alignment reshapes observable outputs but does not eliminate the underlying risk profile. These findings underscore the need for caution when deploying LLMs in high-stakes settings. Source code: https://github.com/wuyoscar/ISC-Bench",
+      "summaryZh": "这项工作确定了前沿大语言模型（LLM）中的一个关键故障模式，我们将其称为内部安全崩溃（ISC）：在某些任务条件下，模型进入一种状态，在这种状态下，它们在执行其他良性任务的同时不断生成有害内容。我们引入TVD（任务、验证器、数据）框架，通过域任务触发ISC，其中生成有害内容是唯一有效的完成，并构建包含跨8个专业学科的53个场景的ISC-Bench。在 JailbreakBench 上进行评估，四个前沿 LLM（包括 GPT-5.2 和 Claude Sonnet 4.5）中的三种代表性场景产生的最坏情况安全失败率平均为 95.3%，大大超过了标准越狱攻击。前沿模型比早期的法学硕士更容易受到攻击：当任务本质上涉及有害内容时，支持复杂任务执行的能力就变成了负担。这揭示了不断增长的攻击面：几乎每个专业领域都使用处理敏感数据的工具，并且每个新的两用工具都会自动扩展此漏洞 - 即使没有任何故意的攻击。尽管做出了大量的调整努力，前沿法学硕士保留了本质上不安全的内部功能：调整重塑了可观察的输出，但并没有消除潜在的风险状况。这些发现强调在高风险环境中部署法学硕士时需要谨慎。源代码：https://github.com/wuyoscar/ISC-Bench",
+      "titleZh": "前沿大型语言模型的内部安全崩溃",
+      "authors": [
+        "Yutao Wu",
+        "Xiao Liu",
+        "Yifeng Gao",
+        "Xiang Zheng",
+        "Hanxun Huang",
+        "Yige Li",
+        "Cong Wang",
+        "Bo Li",
+        "Xingjun Ma",
+        "Yu-Gang Jiang"
+      ],
+      "publishedAt": "2026-03-04T12:55:34.000Z",
+      "submittedOnDailyAt": "2026-03-04T07:55:34.000Z",
+      "submitter": null,
+      "upvotes": 31,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2603.23509",
+        "arxiv": "https://arxiv.org/abs/2603.23509",
+        "pdf": "https://arxiv.org/pdf/2603.23509"
+      }
+    },
+    {
+      "id": "2309.06180",
+      "title": "Efficient Memory Management for Large Language Model Serving with\n  PagedAttention",
+      "summary": "High throughput serving of large language models (LLMs) requires batching\nsufficiently many requests at a time. However, existing systems struggle\nbecause the key-value cache (KV cache) memory for each request is huge and\ngrows and shrinks dynamically. When managed inefficiently, this memory can be\nsignificantly wasted by fragmentation and redundant duplication, limiting the\nbatch size. To address this problem, we propose PagedAttention, an attention\nalgorithm inspired by the classical virtual memory and paging techniques in\noperating systems. On top of it, we build vLLM, an LLM serving system that\nachieves (1) near-zero waste in KV cache memory and (2) flexible sharing of KV\ncache within and across requests to further reduce memory usage. Our\nevaluations show that vLLM improves the throughput of popular LLMs by\n2-4times with the same level of latency compared to the state-of-the-art\nsystems, such as FasterTransformer and Orca. The improvement is more pronounced\nwith longer sequences, larger models, and more complex decoding algorithms.\nvLLM's source code is publicly available at\nhttps://github.com/vllm-project/vllm",
+      "summaryZh": "大型语言模型 (LLM) 的高吞吐量服务需要批处理\n一次有足够多的请求。然而，现有系统却举步维艰\n因为每个请求的键值缓存（KV缓存）内存巨大并且\n动态增长和收缩。当管理效率低下时，该内存可能会被\n碎片和冗余重复造成了极大的浪费，限制了\n批量大小。为了解决这个问题，我们提出PagedAttention，一个注意力机制\n算法的灵感来自于经典的虚拟内存和分页技术\n操作系统。在此基础上，我们构建了 vLLM，一个 LLM 服务系统，\n实现 (1) KV 缓存内存近乎零浪费和 (2) KV 灵活共享\n在请求内和请求之间进行缓存，以进一步减少内存使用。我们的\n评估表明，vLLM 通过以下方式提高了流行 LLM 的吞吐量：\n与最先进的技术相比，相同延迟水平下的 2-4 倍\n系统，例如 FasterTransformer 和 Orca。改善效果更加明显\n具有更长的序列、更大的模型和更复杂的解码算法。\nvLLM 的源代码可在以下位置公开获取：\nhttps://github.com/vllm-project/vllm",
+      "titleZh": "大型语言模型的高效内存管理\n  分页注意力",
+      "authors": [
+        "Woosuk Kwon",
+        "Zhuohan Li",
+        "Siyuan Zhuang",
+        "Ying Sheng",
+        "Lianmin Zheng",
+        "Cody Hao Yu",
+        "Joseph E. Gonzalez",
+        "Hao Zhang",
+        "Ion Stoica"
+      ],
+      "publishedAt": "2023-09-12T12:50:04.000Z",
+      "submittedOnDailyAt": "2023-09-13T00:00:00.000Z",
+      "submitter": "akhaliq",
+      "upvotes": 77,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2309.06180",
+        "arxiv": "https://arxiv.org/abs/2309.06180",
+        "pdf": "https://arxiv.org/pdf/2309.06180"
+      }
+    },
+    {
+      "id": "2407.16741",
+      "title": "OpenDevin: An Open Platform for AI Software Developers as Generalist\n  Agents",
+      "summary": "Software is one of the most powerful tools that we humans have at our\ndisposal; it allows a skilled programmer to interact with the world in complex\nand profound ways. At the same time, thanks to improvements in large language\nmodels (LLMs), there has also been a rapid development in AI agents that\ninteract with and affect change in their surrounding environments. In this\npaper, we introduce OpenDevin, a platform for the development of powerful and\nflexible AI agents that interact with the world in similar ways to those of a\nhuman developer: by writing code, interacting with a command line, and browsing\nthe web. We describe how the platform allows for the implementation of new\nagents, safe interaction with sandboxed environments for code execution,\ncoordination between multiple agents, and incorporation of evaluation\nbenchmarks. Based on our currently incorporated benchmarks, we perform an\nevaluation of agents over 15 challenging tasks, including software engineering\n(e.g., SWE-Bench) and web browsing (e.g., WebArena), among others. Released\nunder the permissive MIT license, OpenDevin is a community project spanning\nacademia and industry with more than 1.3K contributions from over 160\ncontributors and will improve going forward.",
+      "summaryZh": "软件是我们人类拥有的最强大的工具之一\n处置；它允许熟练的程序员以复杂的方式与世界互动\n和深刻的方法。同时得益于大语言的改进\n模型（法学硕士），人工智能代理也得到了快速发展，\n与周围环境相互作用并影响其变化。在这个\n论文中，我们介绍了 OpenDevin，一个用于开发功能强大且\n灵活的人工智能代理，以类似于人类的方式与世界互动\n人类开发人员：通过编写代码、与命令行交互和浏览\n网络。我们描述了该平台如何允许实施新的\n代理，与沙盒环境安全交互以执行代码，\n多个主体之间的协调以及评估的结合\n基准。根据我们当前纳入的基准，我们执行\n对代理进行超过 15 项挑战性任务的评估，包括软件工程\n（例如，SWE-Bench）和网页浏览（例如，WebArena）等。已发布\n在 MIT 许可下，OpenDevin 是一个社区项目，涵盖\n学术界和工业界超过 160 人做出了超过 1,300 份贡献\n贡献者并将继续改进。",
+      "titleZh": "OpenDevin：面向多面手的人工智能软件开发人员的开放平台\n  代理商",
+      "authors": [
+        "Xingyao Wang",
+        "Boxuan Li",
+        "Yufan Song",
+        "Frank F. Xu",
+        "Xiangru Tang",
+        "Mingchen Zhuge",
+        "Jiayi Pan",
+        "Yueqi Song",
+        "Bowen Li",
+        "Jaskirat Singh",
+        "Hoang H. Tran",
+        "Fuqiang Li"
+      ],
+      "publishedAt": "2024-07-23T17:50:43.000Z",
+      "submittedOnDailyAt": "2024-07-25T00:00:00.000Z",
+      "submitter": "akhaliq",
+      "upvotes": 90,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2407.16741",
+        "arxiv": "https://arxiv.org/abs/2407.16741",
+        "pdf": "https://arxiv.org/pdf/2407.16741"
+      }
+    },
+    {
+      "id": "2610.14162",
+      "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
+      "summary": "Diffusion language models (DLMs) offer parallel sampling for faster generation than autoregressive models, an increasingly important advantage as inference becomes a dominant computational workload. However, DLMs degrade quickly with fewer sampling steps, process the full sequence at every step, and require many passes over the dataset to reach good quality. We introduce Next-Concept Modeling (NCM), a two-stage, coarse-to-fine framework: a multiscale residual VQ-VAE encodes text into a hierarchy of discrete codes, and a transformer generates one level at a time, predicting all codes within a level in parallel. At matched parameter scales, NCM achieves better generative perplexity than the strongest DLM baseline on LM1B while running 21times faster. On OpenWebText, NCM is competitive with the strongest DLM while running 10times faster; on XSum, it matches the strongest DLM's ROUGE-L while being 31times faster. On the reasoning task of Sudoku, NCM outperforms autoregressive and diffusion baselines across all difficulty levels, using fewer function evaluations. On the reasoning task of Sudoku, NCM outperforms autoregressive and diffusion baselines across all difficulty levels, using fewer function evaluations.",
+      "summaryZh": "扩散语言模型 (DLM) 提供并行采样，比自回归模型生成速度更快，随着推理成为主要的计算工作负载，这一优势变得越来越重要。然而，DLM 在采样步骤较少的情况下会快速退化，每一步都处理完整序列，并且需要多次遍历数据集才能达到良好的质量。我们引入了下一概念建模 (NCM)，这是一个两阶段、从粗到细的框架：多尺度残差 VQ-VAE 将文本编码为离散代码的层次结构，变压器一次生成一个级别，并行预测该级别内的所有代码。在匹配的参数尺度下，NCM 比 LM1B 上最强的 DLM 基线实现了更好的生成困惑，同时运行速度快了 21 倍。在OpenWebText上，NCM可以与最强的DLM竞争，同时运行速度快10倍；在 XSum 上，它可以与最强的 DLM 的 ROUGE-L 相媲美，同时速度快 31 倍。在数独推理任务中，NCM 在所有难度级别上都优于自回归和扩散基线，并且使用更少的函数评估。在数独推理任务中，NCM 在所有难度级别上都优于自回归和扩散基线，并且使用更少的函数评估。",
+      "titleZh": "下一代概念建模：快速、并行的粗到细文本生成",
+      "authors": [
+        "Hermann Kumbong",
+        "Ishan S. Khare",
+        "Iddah Mlauzi",
+        "Andrew Woen",
+        "Charles Ding",
+        "E. Kelly Buchanan",
+        "Simran Arora",
+        "Azalia Mirhoseini",
+        "Christopher Ré"
+      ],
+      "publishedAt": "2026-10-09T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-10-15T00:00:00.000Z",
+      "submitter": "kumboh",
+      "upvotes": 8,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2610.14162",
+        "arxiv": "https://arxiv.org/abs/2610.14162",
+        "pdf": "https://arxiv.org/pdf/2610.14162"
+      }
+    },
+    {
+      "id": "2610.23839",
+      "title": "DiscoveryRSI: Recursively Learning to Discover Valuable Hypotheses",
+      "summary": "Scientific discovery requires developing worthwhile hypotheses into practical investigations, yet learning from this evolving research process remains challenging. We introduce an operational definition of valuable and testable research hypotheses: evidence-grounded claims about consequential uncertainties, coupled with feasible investigations, explicit decision criteria, and alternative explanations. Our DiscoveryRSI framework develops hypothesis trees through multi-agent evolutionary search, compiles selected investigations into executable Harbor tasks, and recursively learns through three mechanisms: hypothesis credit optimization attributes scientific assessments to documented research contributions; harness replay identifies productive strategies and recurring failures to refine research workflows; and rediscovery applies accepted improvements to new investigations, generating further experience for subsequent learning. We also introduce DFM-Bench, which provides comprehensive assessment of hypothesis quality and cumulative research progress at the levels of hypotheses, revisions, development paths and research runs. Across four life-science domains, automated evaluation shows that hypothesis quality rises from 4.86 for the base model to 5.39 after two rounds of self-improvement, with the large gains in falsifiability and data resolvability. We further validate hypothesis quality through expert review, comparing our DiscoveryRSI-27B with other research agents. Preliminary human assessments show that DiscoveryRSI-27B scores higher than GPT-6 Luna on hypothesis importance and whether claims are plausible and evidence-bounded. DiscoveryRSI-27B achieved a 6.3% rate of hypothesis correspondence with research published after the model cutoff, largely outperform GPT-6 with 2.5% and Claude Opus 5 with 2.3%, while delivering greater human-rated improvement along research paths.",
+      "summaryZh": "科学发现需要将有价值的假设转化为实际研究，但从不断发展的研究过程中学习仍然具有挑战性。我们引入了有价值且可检验的研究假设的操作定义：关于随之而来的不确定性的基于证据的主张，加上可行的调查、明确的决策标准和替代解释。我们的 DiscoveryRSI 框架通过多智能体进化搜索开发假设树，将选定的调查编译为可执行的 Harbor 任务，并通过三种机制递归学习：假设信用优化将科学评估归因于记录的研究贡献；利用重播识别高效策略和反复出现的失败，以完善研究工作流程；重新发现将已接受的改进应用于新的调查，为后续学习产生更多经验。我们还推出了DFM-Bench，它在假设、修正、发展路径和研究运行等层面上对假设质量和累积研究进展进行综合评估。在四个生命科学领域，自动化评估表明，经过两轮自我改进，假设质量从基础模型的 4.86 上升到 5.39，可证伪性和数据可解析性大幅提高。我们通过专家评审进一步验证假设质量，将我们的 DiscoveryRSI-27B 与其他研究代理进行比较。初步人类评估表明，DiscoveryRSI-27B 在假设重要性以及主张是否合理且有证据支持方面的得分高于 GPT-6 Luna。 DiscoveryRSI-27B 与模型截止后发表的研究的假设对应率为 6.3%，大大优于 GPT-6 的 2.5% 和 Claude Opus 5 的 2.3%，同时在研究路径上提供了更大的人类评级改进。",
+      "titleZh": "DiscoveryRSI：递归学习发现有价值的假设",
+      "authors": [
+        "Jianyuan Zhong",
+        "Chenwei Wu",
+        "Zhaochen Yu",
+        "Xixian Jiang",
+        "Xuewei Li",
+        "Hao Xiao",
+        "Xilin Dai",
+        "Junyang Wang",
+        "Jiaru Zou",
+        "Zhiqing Cui",
+        "Boyuan Zheng",
+        "Jing Xiong"
+      ],
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-10-19T00:00:00.000Z",
+      "submitter": "Lingaaaaaaa",
+      "upvotes": 17,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2610.23839",
+        "arxiv": "https://arxiv.org/abs/2610.23839",
+        "pdf": "https://arxiv.org/pdf/2610.23839"
+      }
+    },
+    {
+      "id": "2610.08699",
+      "title": "nanoMuse: An Open-Source Personal Agent for Every Device You Own",
+      "summary": "Assistants from 2011 answered and waited, and agents from 2023 did a task and stopped. In September 2026 Meta's Muse showed an agent for one person, with accounts, devices, memory and a conversation that lasts, closed, in a vendor's cloud, in one country. Such an agent is expected to act on a person's accounts and devices, remember them across weeks, speak first when it is worth it, and answer for what it did. It is a kind of software, not a model, and until now had no open counterpart. This report defines the personal agent in five questions and three horizons. It reads how Muse is built from Meta's public record and a copy of its production prompt, each statement marked by its source. It then presents nanoMuse, the open-source counterpart under the GPL-3.0, one agent on every device a person owns, with hands on the phone's screen and the computer's. They share one conversation over a relay anyone can run; every action goes through a Sentinel, memory is files the person can read, and the model is their choice. Its size and cost are given as estimates. What is open, memory with provenance, an evaluation suite for the hands and an open model for them, is set out as a roadmap.",
+      "summaryZh": "2011 年的助理接听并等待，2023 年的客服人员完成任务后停下来。 2026 年 9 月，Meta 的 Muse 展示了一个人的代理，拥有账户、设备、内存和在一个国家的供应商云中持续、封闭的对话。这样的代理应该对一个人的账户和设备采取行动，在数周内记住它们，在值得的时候首先发言，并对其所做的事情负责。它是一种软件，而不是一种模型，并且迄今为止还没有开放的对应产品。本报告从五个问题和三个视野对个人代理人进行了定义。它读取了 Muse 是如何根据 Meta 的公共记录及其生产提示的副本构建的，每个语句都标有其来源。然后介绍了 nanoMuse，这是 GPL-3.0 下的开源对应产品，一个人拥有的每台设备上都有一个代理，可以将手放在手机屏幕和计算机屏幕上。他们通过任何人都可以运行的中继共享一次对话；每个动作都会经过哨兵，内存是人们可以读取的文件，模型是他们的选择。其尺寸和成本仅作为估计值给出。什么是开放的、有来源的记忆、针对双手的评估套件以及针对它们的开放模型，被作为路线图列出。",
+      "titleZh": "nanoMuse：适用于您拥有的每台设备的开源个人代理",
+      "authors": [
+        "Guangyi Liu",
+        "Yong Liu",
+        "Jiangning Zhang"
+      ],
+      "publishedAt": "2026-10-06T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-10-08T00:00:00.000Z",
+      "submitter": "lgy0404",
+      "upvotes": 116,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2610.08699",
+        "arxiv": "https://arxiv.org/abs/2610.08699",
+        "pdf": "https://arxiv.org/pdf/2610.08699"
+      }
+    }
+  ]
+}
