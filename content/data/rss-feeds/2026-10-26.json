@@ -1,0 +1,266 @@
+{
+  "source": "content/feeds.json",
+  "attribution": "Aggregated headlines/summaries from third-party RSS/Atom feeds for navigation only. All rights belong to original publishers and authors. Chinese text is machine-translated.",
+  "fetchedAt": "2026-10-26T02:46:10.145Z",
+  "date": "2026-10-26",
+  "feedCount": 3,
+  "itemCount": 20,
+  "locale": {
+    "summaryDefault": "zh",
+    "translated": true
+  },
+  "errors": [],
+  "feeds": [
+    {
+      "id": "hacker-news",
+      "title": "Hacker News",
+      "url": "https://hnrss.org/frontpage",
+      "home": "https://news.ycombinator.com/",
+      "group": "community",
+      "fetchedAt": "2026-10-26T02:45:54.628Z",
+      "count": 20,
+      "items": [
+        {
+          "id": "https://news.ycombinator.com/item?id=50237896",
+          "title": "iPhone Duo Teardown",
+          "titleZh": "iPhone Duo 拆解",
+          "link": "https://www.ifixit.com/News/119895/iphone-duo-teardown",
+          "summary": "Article URL: https://www.ifixit.com/News/119895/iphone-duo-teardown\n\n Comments URL: https://news.ycombinator.com/item?id=50237896\n\n Points: 23\n\n # Comments: 2",
+          "summaryZh": "文章网址：https://www.ifixit.com/News/119895/iphone-duo-teardown\n\n 评论网址：https://news.ycombinator.com/item?id=50237896\n\n 积分：23\n\n # 评论: 2",
+          "publishedAt": "2026-10-26T01:23:24.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50237896",
+          "author": "kripy"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50237379",
+          "title": "Steal My Bitcoin CTF PoC",
+          "titleZh": "窃取我的比特币 CTF PoC",
+          "link": "https://github.com/KillaBoi/StealMyBitcoin-PoC",
+          "summary": "Article URL: https://github.com/KillaBoi/StealMyBitcoin-PoC\n\n Comments URL: https://news.ycombinator.com/item?id=50237379\n\n Points: 11\n\n # Comments: 1",
+          "summaryZh": "文章网址：https://github.com/KillaBoi/StealMyBitcoin-PoC\n\n 评论网址：https://news.ycombinator.com/item?id=50237379\n\n 积分：11\n\n # 评论: 1",
+          "publishedAt": "2026-10-26T00:15:17.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50237379",
+          "author": "davikr"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50237224",
+          "title": "Attention Is Not What You Need (2025)",
+          "titleZh": "注意力不是你所需要的 (2025)",
+          "link": "https://arxiv.org/abs/2512.19428",
+          "summary": "Article URL: https://arxiv.org/abs/2512.19428\n\n Comments URL: https://news.ycombinator.com/item?id=50237224\n\n Points: 30\n\n # Comments: 13",
+          "summaryZh": "文章网址：https://arxiv.org/abs/2512.19428\n\n 评论网址：https://news.ycombinator.com/item?id=50237224\n\n 积分：30\n\n # 评论: 13",
+          "publishedAt": "2026-10-25T23:52:05.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50237224",
+          "author": "westurner"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50237078",
+          "title": "F-Zero X on Nintendo 3DS",
+          "titleZh": "任天堂 3DS 上的《F-零 X》",
+          "link": "https://hypnotize.works/gdx-3ds/postmortem/index.html",
+          "summary": "Article URL: https://hypnotize.works/gdx-3ds/postmortem/index.html\n\n Comments URL: https://news.ycombinator.com/item?id=50237078\n\n Points: 56\n\n # Comments: 32",
+          "summaryZh": "文章网址：https://hypnotize.works/gdx-3ds/postmortem/index.html\n\n 评论网址：https://news.ycombinator.com/item?id=50237078\n\n 积分：56\n\n # 评论: 32",
+          "publishedAt": "2026-10-25T23:27:30.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50237078",
+          "author": "bpierre"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50236748",
+          "title": "Proton Flock Camera Map",
+          "titleZh": "Proton Flock 相机地图",
+          "link": "https://proton.me/flock-camera-map",
+          "summary": "Article URL: https://proton.me/flock-camera-map\n\n Comments URL: https://news.ycombinator.com/item?id=50236748\n\n Points: 69\n\n # Comments: 8",
+          "summaryZh": "文章网址：https://proton.me/flock-camera-map\n\n 评论网址：https://news.ycombinator.com/item?id=50236748\n\n 积分：69\n\n # 评论: 8",
+          "publishedAt": "2026-10-25T22:39:42.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50236748",
+          "author": "cdrnsf"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50236102",
+          "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+          "titleZh": "OpenAI 和 Anthropic 在几个月内将其 LLM 价格削减了高达 80%。为什么？",
+          "link": "https://minimaxir.com/2026/10/cheap-llms/",
+          "summary": "Article URL: https://minimaxir.com/2026/10/cheap-llms/\n\n Comments URL: https://news.ycombinator.com/item?id=50236102\n\n Points: 166\n\n # Comments: 195",
+          "summaryZh": "文章网址：https://minimaxir.com/2026/10/cheap-llms/\n\n 评论网址：https://news.ycombinator.com/item?id=50236102\n\n 积分：166\n\n # 评论: 195",
+          "publishedAt": "2026-10-25T21:11:31.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50236102",
+          "author": "minimaxir"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50235780",
+          "title": "The State of Context Engineering",
+          "titleZh": "情境工程的现状",
+          "link": "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
+          "summary": "Article URL: https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html\n\n Comments URL: https://news.ycombinator.com/item?id=50235780\n\n Points: 89\n\n # Comments: 24",
+          "summaryZh": "文章网址：https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html\n\n 评论网址：https://news.ycombinator.com/item?id=50235780\n\n 积分：89\n\n # 评论: 24",
+          "publishedAt": "2026-10-25T20:32:31.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50235780",
+          "author": "pchristensen"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50235738",
+          "title": "What goes into making an animated film?",
+          "titleZh": "制作一部动画电影需要什么？",
+          "link": "https://www.disneyanimation.com/process/",
+          "summary": "Article URL: https://www.disneyanimation.com/process/\n\n Comments URL: https://news.ycombinator.com/item?id=50235738\n\n Points: 98\n\n # Comments: 40",
+          "summaryZh": "文章网址：https://www.disneyanimation.com/process/\n\n 评论网址：https://news.ycombinator.com/item?id=50235738\n\n 积分：98\n\n # 评论: 40",
+          "publishedAt": "2026-10-25T20:27:09.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50235738",
+          "author": "embedding-shape"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50235316",
+          "title": "Eunice is almost here",
+          "titleZh": "尤妮斯快到了",
+          "link": "https://armincat.com/articles/eunice-is-almost-here",
+          "summary": "Article URL: https://armincat.com/articles/eunice-is-almost-here\n\n Comments URL: https://news.ycombinator.com/item?id=50235316\n\n Points: 64\n\n # Comments: 58",
+          "summaryZh": "文章网址：https://armincat.com/articles/eunice-is-almost-here\n\n 评论网址：https://news.ycombinator.com/item?id=50235316\n\n 积分：64\n\n # 评论: 58",
+          "publishedAt": "2026-10-25T19:40:27.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50235316",
+          "author": "armcat"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50235017",
+          "title": "Why I Am a Programmer",
+          "titleZh": "为什么我是一名程序员",
+          "link": "https://www.alfie.wtf/programming/why-i-am-a-programmer.html",
+          "summary": "Article URL: https://www.alfie.wtf/programming/why-i-am-a-programmer.html\n\n Comments URL: https://news.ycombinator.com/item?id=50235017\n\n Points: 145\n\n # Comments: 54",
+          "summaryZh": "文章网址：https://www.alfie.wtf/programming/why-i-am-a-programmer.html\n\n 评论网址：https://news.ycombinator.com/item?id=50235017\n\n 积分：145\n\n # 评论: 54",
+          "publishedAt": "2026-10-25T19:11:31.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50235017",
+          "author": "jruohonen"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50234879",
+          "title": "Where the Romans Fought (interactive map)",
+          "titleZh": "罗马人战斗的地方（互动地图）",
+          "link": "https://iosiflazaridis.github.io/battles-of-the-romans/",
+          "summary": "Article URL: https://iosiflazaridis.github.io/battles-of-the-romans/\n\n Comments URL: https://news.ycombinator.com/item?id=50234879\n\n Points: 54\n\n # Comments: 22",
+          "summaryZh": "文章网址：https://iosiflazaridis.github.io/battles-of-the-romans/\n\n 评论网址：https://news.ycombinator.com/item?id=50234879\n\n 积分：54\n\n # 评论: 22",
+          "publishedAt": "2026-10-25T18:58:14.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50234879",
+          "author": "endorphine"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50234474",
+          "title": "Dolly Parton's Imagination Library",
+          "titleZh": "多莉帕顿的想象力图书馆",
+          "link": "https://imaginationlibrary.com/",
+          "summary": "With today's news, I thought I'd share this great program: “When I was growing up in the hills of East Tennessee, I knew my dreams would come true. I know there are children in your community with their own dreams. They dream of becoming a doctor or an inventor or a minister. Who knows, maybe there is a little girl whose dream is to be a writer and singer. The seeds of these dreams are often found in books and the seeds you help plant in your community can grow across the world.”\n\n Comments URL: https://news.ycombinator.com/item?id=50234474\n\n Points: 407\n\n # Comments: 71",
+          "summaryZh": "通过今天的新闻，我想分享这个伟大的节目：“当我在田纳西州东部的山上长大时，我知道我的梦想会实现。我知道你们社区里有一些孩子有自己的梦想。他们梦想成为一名医生、发明家或牧师。谁知道呢，也许有一个小女孩的梦想是成为一名作家和歌手。这些梦想的种子经常在书中找到，而你帮助在社区种下的种子可以在世界各地生长。”\n\n 评论网址：https://news.ycombinator.com/item?id=50234474\n\n 积分：407\n\n # 评论: 71",
+          "publishedAt": "2026-10-25T18:23:54.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50234474",
+          "author": "jumploops"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50234232",
+          "title": "Oregon Police Are Charging a Local News Outlet $2.5M for Records About One Cop",
+          "titleZh": "俄勒冈州警方因一名警察的记录向一家当地新闻媒体收取 250 万美元的费用",
+          "link": "https://theintercept.com/2026/10/01/oregon-police-misconduct-public-records-cost-fee/",
+          "summary": "Article URL: https://theintercept.com/2026/10/01/oregon-police-misconduct-public-records-cost-fee/\n\n Comments URL: https://news.ycombinator.com/item?id=50234232\n\n Points: 404\n\n # Comments: 106",
+          "summaryZh": "文章网址：https://theintercept.com/2026/10/01/oregon-police-misconduct-public-records-cost-fee/\n\n 评论网址：https://news.ycombinator.com/item?id=50234232\n\n 积分：404\n\n # 评论: 106",
+          "publishedAt": "2026-10-25T18:04:11.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50234232",
+          "author": "tdeck"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50233929",
+          "title": "I refuse to accept a censored Internet. Join Me at FOSDEM 27",
+          "titleZh": "我拒绝接受经过审查的互联网。和我一起参加 FOSDEM 27",
+          "link": "https://talkweb.eu/openweb/4558/",
+          "summary": "Article URL: https://talkweb.eu/openweb/4558/\n\n Comments URL: https://news.ycombinator.com/item?id=50233929\n\n Points: 401\n\n # Comments: 202",
+          "summaryZh": "文章网址：https://talkweb.eu/openweb/4558/\n\n 评论网址：https://news.ycombinator.com/item?id=50233929\n\n 积分：401\n\n # 评论: 202",
+          "publishedAt": "2026-10-25T17:30:55.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50233929",
+          "author": "Tomte"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50233779",
+          "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+          "titleZh": "10 年历史的 CNN 在皮肤癌诊断方面优于前沿法学硕士",
+          "link": "https://lynchlab.net/llm-skin-cancer",
+          "summary": "Article URL: https://lynchlab.net/llm-skin-cancer\n\n Comments URL: https://news.ycombinator.com/item?id=50233779\n\n Points: 454\n\n # Comments: 215",
+          "summaryZh": "文章网址：https://lynchlab.net/llm-skin-cancer\n\n 评论网址：https://news.ycombinator.com/item?id=50233779\n\n 积分：454\n\n # 评论：215",
+          "publishedAt": "2026-10-25T17:15:38.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50233779",
+          "author": "sungam"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50233438",
+          "title": "UTS #39: Unicode Security Mechanisms",
+          "titleZh": "UTS #39：Unicode 安全机制",
+          "link": "https://unicode.org/reports/tr39/",
+          "summary": "Article URL: https://unicode.org/reports/tr39/\n\n Comments URL: https://news.ycombinator.com/item?id=50233438\n\n Points: 34\n\n # Comments: 19",
+          "summaryZh": "文章网址：https://unicode.org/reports/tr39/\n\n 评论网址：https://news.ycombinator.com/item?id=50233438\n\n 积分：34\n\n # 评论: 19",
+          "publishedAt": "2026-10-25T16:40:37.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50233438",
+          "author": "robin_reala"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50231166",
+          "title": "Active incident at Dreamhost forcing password reset",
+          "titleZh": "Dreamhost 发生强制密码重置事件",
+          "link": "https://www.dreamhoststatus.com/",
+          "summary": "Article URL: https://www.dreamhoststatus.com/\n\n Comments URL: https://news.ycombinator.com/item?id=50231166\n\n Points: 125\n\n # Comments: 53",
+          "summaryZh": "文章网址：https://www.dreamhoststatus.com/\n\n 评论网址：https://news.ycombinator.com/item?id=50231166\n\n 积分：125\n\n # 评论: 53",
+          "publishedAt": "2026-10-25T13:09:16.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50231166",
+          "author": "greenchair"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50227330",
+          "title": "Show HN: Hurston-1 open source TTS that speak Southern American and Afro-English",
+          "titleZh": "显示 HN：Hurston-1 开源 TTS，讲南美语和非洲英语",
+          "link": "https://huggingface.co/destined/hurston-1",
+          "summary": "Hey HN, I’m open sourcing my Hurston-1 narrowband TTS model (Apache-2.0). It is very good with American English and does especially well with Southern American and Regional African English accents. Destined AI is based in Atlanta, and I built this because I’m amazed by what AI can do, and I wanted to help introduce and welcome more people to feel comfortable using and interacting with AI. Since 2021, I’ve been collecting fully consented voice data from over 20,000 people, 1M audio recordings, and over 1,800 hrs of audio captured to date. For this model, I used a small part of the data, 136 hrs, to finetune Maya1 and expand it’s capabilities. Hurston-1 is a narrowband TTS model that focuses the output on telephone use because that is still where most of these voices will be heard. I’ve used it to support customers such as Amazon and Salesforce and generated over half-mill revenue with it. Now I’m open sourcing it to help unlock opportunities for others as well. Limitations: this model doesn’t maintain the exact same voice across prompts and doesn’t support voice cloning. For many use cases, this is fine but maybe not so - if you’re creating podcasts. This is the first release - I’m already working on the next version with improvements. I would appreciate, if anyone is interested in this space, download the model from huggingface, check it out and let me know any feedback. Also, open to connecting with others in this space as well.\n\n Comments URL: https://news.ycombinator.com/item?id=50227330\n\n Points: 48\n\n # Comments: 23",
+          "summaryZh": "嘿 HN，我正在开源我的 Hurston-1 窄带 TTS 模型 (Apache-2.0)。它非常适合美式英语，尤其适合南美和非洲地区英语口音。 Destined AI 总部位于亚特兰大，我之所以创建这个项目，是因为我对人工智能的能力感到惊讶，我想帮助介绍并欢迎更多的人能够轻松地使用人工智能并与人工智能互动。自 2021 年以来，我一直在收集超过 20,000 人完全同意的语音数据、100 万条录音以及迄今为止捕获的超过 1,800 小时的音频。对于这个模型，我使用了一小部分数据（136 小时）来微调 Maya1 并扩展其功能。 Hurston-1 是一种窄带 TTS 模型，它将输出集中在电话使用上，因为大多数声音仍然是在电话使用中听到的。我用它来支持 Amazon 和 Salesforce 等客户，并通过它创造了超过一半的收入。现在我将其开源，以帮助为其他人释放机会。限制：该模型无法在提示之间保持完全相同的语音，并且不支持语音克隆。对于许多用例来说，这很好，但如果您正在创建播客，则可能并非如此。这是第一个版本 - 我已经在开发下一个版本并进行改进。如果有人对这个空间感兴趣，请从 Huggingface 下载模型，检查一下并让我知道任何反馈，我将不胜感激。此外，也愿意与这个领域的其他人建立联系。\n\n 评论网址：https://news.ycombinator.com/item?id=50227330\n\n 积分：48\n\n # 评论: 23",
+          "publishedAt": "2026-10-25T01:30:13.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50227330",
+          "author": "Gcarter08"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50227041",
+          "title": "Show HN: ADRs for AI – Deliberation records for human–AI work, versioned in Git",
+          "titleZh": "Show HN：AI 的 ADR – 人类与人工智能工作的审议记录，在 Git 中版本化",
+          "link": "https://adrs.systems",
+          "summary": "Why is this worth your time? Essentially, this solves two problems of AI-assisted programming: (a) the first problem is how to do oversight and what do oversight of and this is solved through the ORRCF (for Options, Recommendation, Rationale, Confidence, Falsifier) question format (in which models are supposed to surface all their doubts with fully fleshed out recommendations, with falsifier, to be approved or overridden) (b) the second problem is how to scaffold sustainable AI-written code; the ADRs (Architectural Deliberation Records, after Nygard's decision records) written by the models, summarize all the thought process involved in any design decision and provides the blueprint for the code. In tandem, the records provide both the reason why certain non-obvious design choices were made, from a constant, to a library choice, to an ordering in an operation; and also under what conditions different decisions would be made, for instance, in a different platform, or under different latency requirements, or for a different audience, and so on. This is a framework I've been working for over a year, that is the starting point of all my projects. It involves a lot of moving parts and my challenge is figuring out onboarding. I'm hoping the plugin, ADRs4AI/plugins, just created and now also submitted to Anthropic's marketplace, will make it easier. I am also in the process of recording introductory videos. I would like feedback on the onboarding, on what you make of the currently online materials, and how I could make any of this clearer. Thanks!\n\n Comments URL: https://news.ycombinator.com/item?id=50227041\n\n Points: 5\n\n # Comments: 5",
+          "summaryZh": "为什么这值得您花时间？从本质上讲，这解决了人工智能辅助编程的两个问题：（a）第一个问题是如何进行监督以及监督什么，这是通过 ORRCF（选项、推荐、基本原理、置信度、伪造者）问题格式解决的（其中模型应该通过充分充实的建议来表达所有疑虑，并带有伪造者，以供批准或覆盖）（b）第二个问题是如何构建可持续的人工智能编写的代码；模型编写的 ADR（架构审议记录，以尼加德的决策记录命名）总结了任何设计决策所涉及的所有思维过程，并提供了代码的蓝图。同时，这些记录还提供了做出某些非显而易见的设计选择的原因，从常数到库选择，再到操作中的排序；以及在什么条件下会做出不同的决策，例如，在不同的平台中，或在不同的延迟要求下，或针对不同的受众，等等。这是我工作了一年多的框架，这是我所有项目的起点。它涉及很多活动部件，我的挑战是弄清楚入职。我希望刚刚创建并且现在也提交到 Anthropic 市场的插件 ADRs4AI/plugins 能够让这一切变得更容易。我也在录制介绍视频。我想要关于入职、您对当前在线材料的看法以及我如何使这些内容更清晰的反馈。谢谢！\n\n 评论网址：https://news.ycombinator.com/item?id=50227041\n\n 积分：5\n\n # 评论: 5",
+          "publishedAt": "2026-10-25T00:43:47.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50227041",
+          "author": "lumbroso"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50225695",
+          "title": "We should be more ambitious with the software we build",
+          "titleZh": "我们应该对我们构建的软件更加雄心勃勃",
+          "link": "https://danluu.com/ambitious/",
+          "summary": "Article URL: https://danluu.com/ambitious/\n\n Comments URL: https://news.ycombinator.com/item?id=50225695\n\n Points: 752\n\n # Comments: 695",
+          "summaryZh": "文章网址：https://danluu.com/ambitious/\n\n 评论网址：https://news.ycombinator.com/item?id=50225695\n\n 积分：752\n\n # 评论: 695",
+          "publishedAt": "2026-10-24T21:47:31.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50225695",
+          "author": "ltratt"
+        }
+      ]
+    },
+    {
+      "id": "arxiv-cs-ai",
+      "title": "arXiv cs.AI",
+      "url": "https://rss.arxiv.org/rss/cs.AI",
+      "home": "https://arxiv.org/list/cs.AI/recent",
+      "group": "arxiv",
+      "fetchedAt": "2026-10-26T02:45:55.118Z",
+      "count": 0,
+      "items": []
+    },
+    {
+      "id": "arxiv-cs-lg",
+      "title": "arXiv cs.LG",
+      "url": "https://rss.arxiv.org/rss/cs.LG",
+      "home": "https://arxiv.org/list/cs.LG/recent",
+      "group": "arxiv",
+      "fetchedAt": "2026-10-26T02:45:55.525Z",
+      "count": 0,
+      "items": []
+    }
+  ]
+}
