@@ -1,15 +1,20 @@
 {
   "source": "content/feeds.json",
   "attribution": "Aggregated headlines/summaries from third-party RSS/Atom feeds for navigation only. All rights belong to original publishers and authors. Chinese text is machine-translated.",
-  "fetchedAt": "2026-10-27T17:15:30.767Z",
+  "fetchedAt": "2026-10-27T21:43:14.628Z",
   "date": "2026-10-27",
   "feedCount": 3,
-  "itemCount": 50,
+  "itemCount": 30,
   "locale": {
     "summaryDefault": "zh",
     "translated": true
   },
-  "errors": [],
+  "errors": [
+    {
+      "id": "hacker-news",
+      "error": "fetch failed"
+    }
+  ],
   "feeds": [
     {
       "id": "hacker-news",
@@ -17,230 +22,10 @@
       "url": "https://hnrss.org/frontpage",
       "home": "https://news.ycombinator.com/",
       "group": "community",
-      "fetchedAt": "2026-10-27T17:14:59.895Z",
-      "count": 20,
-      "items": [
-        {
-          "id": "https://news.ycombinator.com/item?id=50261819",
-          "title": "Police Are Using AI to Pull over Drivers for 'Suspicious' Behavior",
-          "titleZh": "警方正在使用人工智能来拦截行为“可疑”的司机",
-          "link": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
-          "summary": "Article URL: https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220\n\n Comments URL: https://news.ycombinator.com/item?id=50261819\n\n Points: 20\n\n # Comments: 2",
-          "summaryZh": "文章网址：https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220\n\n 评论网址：https://news.ycombinator.com/item?id=50261819\n\n 积分：20\n\n # 评论: 2",
-          "publishedAt": "2026-10-27T16:40:15.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50261819",
-          "author": "gumby"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50261784",
-          "title": "A 28-Year-Old DOGE Operative Gutted USAID. HR Had No Record of Him Working There",
-          "titleZh": "一名 28 岁的 DOGE 特工将美国国际开发署掏空。 HR 没有他在那里工作的记录",
-          "link": "https://www.wired.com/story/a-28-year-old-doge-operative-gutted-usaid-hr-had-no-record-of-him-working-there/",
-          "summary": "Article URL: https://www.wired.com/story/a-28-year-old-doge-operative-gutted-usaid-hr-had-no-record-of-him-working-there/\n\n Comments URL: https://news.ycombinator.com/item?id=50261784\n\n Points: 45\n\n # Comments: 4",
-          "summaryZh": "文章网址：https://www.wired.com/story/a-28-year-old-doge-operative-gutted-usaid-hr-had-no-record-of-him-working-there/\n\n 评论网址：https://news.ycombinator.com/item?id=50261784\n\n 积分：45\n\n # 评论: 4",
-          "publishedAt": "2026-10-27T16:38:08.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50261784",
-          "author": "ck2"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50261647",
-          "title": "Classification of Finite Simple Groups Formalized in Lean",
-          "titleZh": "Lean 形式化的有限简单群分类",
-          "link": "https://cfsg.axiommath.ai/",
-          "summary": "Article URL: https://cfsg.axiommath.ai/\n\n Comments URL: https://news.ycombinator.com/item?id=50261647\n\n Points: 20\n\n # Comments: 9",
-          "summaryZh": "文章网址：https://cfsg.axiommath.ai/\n\n 评论网址：https://news.ycombinator.com/item?id=50261647\n\n 积分：20\n\n # 评论: 9",
-          "publishedAt": "2026-10-27T16:29:02.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50261647",
-          "author": "pfdietz"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50261623",
-          "title": "Vicious Cycles: Theses on a philosophy of news",
-          "titleZh": "恶性循环：新闻哲学论文",
-          "link": "https://harpers.org/archive/2020/01/vicious-cycles-theses-on-a-philosophy-of-news/",
-          "summary": "Article URL: https://harpers.org/archive/2020/01/vicious-cycles-theses-on-a-philosophy-of-news/\n\n Comments URL: https://news.ycombinator.com/item?id=50261623\n\n Points: 4\n\n # Comments: 0",
-          "summaryZh": "文章网址：https://harpers.org/archive/2020/01/vicious-cycles-theses-on-a-philosophy-of-news/\n\n 评论网址：https://news.ycombinator.com/item?id=50261623\n\n 积分：4\n\n # 评论: 0",
-          "publishedAt": "2026-10-27T16:27:29.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50261623",
-          "author": "eustoria"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50261584",
-          "title": "We let our cloud agents query prod (with OIDC, not secrets)",
-          "titleZh": "我们让我们的云代理查询产品（使用 OIDC，而不是秘密）",
-          "link": "https://www.formal.ai/blog/cloud-agents-oidc-infrastructure/",
-          "summary": "Article URL: https://www.formal.ai/blog/cloud-agents-oidc-infrastructure/\n\n Comments URL: https://news.ycombinator.com/item?id=50261584\n\n Points: 9\n\n # Comments: 1",
-          "summaryZh": "文章网址：https://www.formal.ai/blog/cloud-agents-oidc-infrastruct/\n\n 评论网址：https://news.ycombinator.com/item?id=50261584\n\n 积分：9\n\n # 评论: 1",
-          "publishedAt": "2026-10-27T16:25:12.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50261584",
-          "author": "saligrama"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50261583",
-          "title": "PHP2Shell, LiteLLM, GitLab: Find What You Need to Patch",
-          "titleZh": "PHP2Shell、LiteLLM、GitLab：查找您需要修补的内容",
-          "link": "https://cloudsleuth.io/blog/php2shell-litellm-gitlab-find-what-you-run/",
-          "summary": "Article URL: https://cloudsleuth.io/blog/php2shell-litellm-gitlab-find-what-you-run/\n\n Comments URL: https://news.ycombinator.com/item?id=50261583\n\n Points: 10\n\n # Comments: 0",
-          "summaryZh": "文章网址：https://cloudsleuth.io/blog/php2shell-litellm-gitlab-find-what-you-run/\n\n 评论网址：https://news.ycombinator.com/item?id=50261583\n\n 积分：10\n\n # 评论: 0",
-          "publishedAt": "2026-10-27T16:25:12.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50261583",
-          "author": "bigfish2026"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50261579",
-          "title": "Antique Fonts Collection – Restored 19th Century Typefaces",
-          "titleZh": "古董字体系列 – 修复的 19 世纪字体",
-          "link": "https://centurylibrary.com/collection/antique-fonts/",
-          "summary": "Article URL: https://centurylibrary.com/collection/antique-fonts/\n\n Comments URL: https://news.ycombinator.com/item?id=50261579\n\n Points: 5\n\n # Comments: 0",
-          "summaryZh": "文章网址：https:// centurylibrary.com/collection/antique-fonts/\n\n 评论网址：https://news.ycombinator.com/item?id=50261579\n\n 积分：5\n\n # 评论: 0",
-          "publishedAt": "2026-10-27T16:24:59.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50261579",
-          "author": "eustoria"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50261544",
-          "title": "Reducibility Among Combinatorial Problems (1972) [pdf]",
-          "titleZh": "组合问题的可约性 (1972) [pdf]",
-          "link": "https://cgi.di.uoa.gr/~sgk/teaching/grad/handouts/karp.pdf",
-          "summary": "Article URL: https://cgi.di.uoa.gr/~sgk/teaching/grad/handouts/karp.pdf\n\n Comments URL: https://news.ycombinator.com/item?id=50261544\n\n Points: 4\n\n # Comments: 0",
-          "summaryZh": "文章网址：https://cgi.di.uoa.gr/~sgk/teaching/grad/handouts/karp.pdf\n\n 评论网址：https://news.ycombinator.com/item?id=50261544\n\n 积分：4\n\n # 评论: 0",
-          "publishedAt": "2026-10-27T16:21:55.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50261544",
-          "author": "liamswayne"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50261352",
-          "title": "Apple introduces the new 14‑inch MacBook Pro with M6",
-          "titleZh": "Apple 推出配备 M6 的全新 14 英寸 MacBook Pro",
-          "link": "https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
-          "summary": "Article URL: https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/\n\n Comments URL: https://news.ycombinator.com/item?id=50261352\n\n Points: 41\n\n # Comments: 29",
-          "summaryZh": "文章网址：https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/\n\n 评论网址：https://news.ycombinator.com/item?id=50261352\n\n 积分：41\n\n # 评论：29",
-          "publishedAt": "2026-10-27T16:08:32.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50261352",
-          "author": "beex"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50261319",
-          "title": "Genie 4",
-          "titleZh": "精灵4",
-          "link": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-          "summary": "Article URL: https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/\n\n Comments URL: https://news.ycombinator.com/item?id=50261319\n\n Points: 182\n\n # Comments: 92",
-          "summaryZh": "文章网址：https://deepmind.google/blog/genie-4-a-new- Generation-of-world-simulation/\n\n 评论网址：https://news.ycombinator.com/item?id=50261319\n\n 积分：182\n\n #评论：92",
-          "publishedAt": "2026-10-27T16:06:01.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50261319",
-          "author": "acossta"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50260960",
-          "title": "Data Recovery CEO Indicted for Allegedly Scamming Ransomware Victims",
-          "titleZh": "Data Recovery首席执行官因涉嫌诈骗勒索软件受害者而被起诉",
-          "link": "https://www.propublica.org/article/zohar-pinhasi-monstercloud-ransomware-indictment",
-          "summary": "Article URL: https://www.propublica.org/article/zohar-pinhasi-monstercloud-ransomware-indictment\n\n Comments URL: https://news.ycombinator.com/item?id=50260960\n\n Points: 31\n\n # Comments: 5",
-          "summaryZh": "文章网址：https://www.propublica.org/article/zohar-pinhasi-monstercloud-ransomware-indictment\n\n 评论网址：https://news.ycombinator.com/item?id=50260960\n\n 积分：31\n\n # 评论: 5",
-          "publishedAt": "2026-10-27T15:39:29.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50260960",
-          "author": "hn_acker"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50260814",
-          "title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
-          "titleZh": "人类训练克劳德学习非法获得的斯坦福大学教授的书籍",
-          "link": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
-          "summary": "Article URL: https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/\n\n Comments URL: https://news.ycombinator.com/item?id=50260814\n\n Points: 90\n\n # Comments: 38",
-          "summaryZh": "文章网址：https://stanforddaily.com/2026/10/27/professors-books-pierated-to-train-claude/\n\n 评论网址：https://news.ycombinator.com/item?id=50260814\n\n 积分：90\n\n # 评论: 38",
-          "publishedAt": "2026-10-27T15:28:26.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50260814",
-          "author": "car"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50260571",
-          "title": "Show HN: Specification First Agentic Development Plugin and Prove",
-          "titleZh": "显示 HN：规范第一代理开发插件并证明",
-          "link": "https://spec-first.dev/",
-          "summary": "Implemented agent smith since start 2026 with over 1000 specifications which lead to about 500k lines of code. The procedure with that spec-first works well. How do you do it?\n\n Comments URL: https://news.ycombinator.com/item?id=50260571\n\n Points: 10\n\n # Comments: 1",
-          "summaryZh": "自 2026 年开始实施 Agent smith，有超过 1000 个规范，导致大约 50 万行代码。该规范优先的过程效果很好。你怎么做？\n\n 评论网址：https://news.ycombinator.com/item?id=50260571\n\n 积分：10\n\n # 评论: 1",
-          "publishedAt": "2026-10-27T15:12:20.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50260571",
-          "author": "hleichsenring"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50260526",
-          "title": "A $300B 'Debt Wall' Is Looming over Private-Equity Backed Companies",
-          "titleZh": "300B 美元的“债务墙”正在逼近私募股权支持的公司",
-          "link": "https://www.wsj.com/finance/investing/a-300-billion-debt-wall-is-looming-over-private-equity-backed-companies-d6359497",
-          "summary": "Article URL: https://www.wsj.com/finance/investing/a-300-billion-debt-wall-is-looming-over-private-equity-backed-companies-d6359497\n\n Comments URL: https://news.ycombinator.com/item?id=50260526\n\n Points: 43\n\n # Comments: 8",
-          "summaryZh": "文章网址：https://www.wsj.com/finance/investing/a-300-billion-debt-wall-is-looming-over-private-equity-backed-companies-d6359497\n\n 评论网址：https://news.ycombinator.com/item?id=50260526\n\n 积分：43\n\n # 评论: 8",
-          "publishedAt": "2026-10-27T15:09:27.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50260526",
-          "author": "JumpCrisscross"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50259604",
-          "title": "The US government is hiding secret court ruling about how it spies on Americans",
-          "titleZh": "美国政府正在隐瞒秘密法院关于其如何监视美国人的裁决",
-          "link": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/",
-          "summary": "Article URL: https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/\n\n Comments URL: https://news.ycombinator.com/item?id=50259604\n\n Points: 347\n\n # Comments: 97",
-          "summaryZh": "文章网址：https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/\n\n 评论网址：https://news.ycombinator.com/item?id=50259604\n\n 积分：347\n\n #评论：97",
-          "publishedAt": "2026-10-27T14:06:42.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50259604",
-          "author": "helterskelter2"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50259406",
-          "title": "Is my data used for model training?",
-          "titleZh": "我的数据用于模型训练吗？",
-          "link": "https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training",
-          "summary": "Article URL: https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training\n\n Comments URL: https://news.ycombinator.com/item?id=50259406\n\n Points: 164\n\n # Comments: 75",
-          "summaryZh": "文章网址：https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training\n\n 评论网址：https://news.ycombinator.com/item?id=50259406\n\n 积分：164\n\n # 评论: 75",
-          "publishedAt": "2026-10-27T13:56:15.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50259406",
-          "author": "jonpizza"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50259343",
-          "title": "PHP2Shell: Exploitation attempts and remediation trends",
-          "titleZh": "PHP2Shell：利用尝试和修复趋势",
-          "link": "https://www.wiz.io/blog/php2shell-exploitation-so-far",
-          "summary": "Article URL: https://www.wiz.io/blog/php2shell-exploitation-so-far\n\n Comments URL: https://news.ycombinator.com/item?id=50259343\n\n Points: 149\n\n # Comments: 50",
-          "summaryZh": "文章网址：https://www.wiz.io/blog/php2shell-exploitation-so-far\n\n 评论网址：https://news.ycombinator.com/item?id=50259343\n\n 积分：149\n\n # 评论: 50",
-          "publishedAt": "2026-10-27T13:52:12.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50259343",
-          "author": "acossta"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50258868",
-          "title": "Here be monsters: What do you still need to know when agents do the work?",
-          "titleZh": "怪物来了：当代理进行工作时，您还需要知道什么？",
-          "link": "https://blog.adrq.dev/here-be-monsters-what-do-you-still-need-to-know-when-agents-do-the-work",
-          "summary": "Article URL: https://blog.adrq.dev/here-be-monsters-what-do-you-still-need-to-know-when-agents-do-the-work\n\n Comments URL: https://news.ycombinator.com/item?id=50258868\n\n Points: 91\n\n # Comments: 21",
-          "summaryZh": "文章网址：https://blog.adrq.dev/here-be-monsters-what-do-you-still-need-to-know-when-agents-do-the-work\n\n 评论网址：https://news.ycombinator.com/item?id=50258868\n\n 积分：91\n\n # 评论: 21",
-          "publishedAt": "2026-10-27T13:23:22.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50258868",
-          "author": "adrq"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50258538",
-          "title": "New iMac with M6",
-          "titleZh": "配备 M6 的新款 iMac",
-          "link": "https://www.apple.com/imac/",
-          "summary": "Article URL: https://www.apple.com/imac/\n\n Comments URL: https://news.ycombinator.com/item?id=50258538\n\n Points: 167\n\n # Comments: 160",
-          "summaryZh": "文章网址：https://www.apple.com/imac/\n\n 评论网址：https://news.ycombinator.com/item?id=50258538\n\n 积分：167\n\n # 评论: 160",
-          "publishedAt": "2026-10-27T13:02:02.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50258538",
-          "author": "notfried"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50258521",
-          "title": "New 14‑inch MacBook Pro with M6",
-          "titleZh": "配备 M6 的全新 14 英寸 MacBook Pro",
-          "link": "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
-          "summary": "Article URL: https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/\n\n Comments URL: https://news.ycombinator.com/item?id=50258521\n\n Points: 132\n\n # Comments: 144",
-          "summaryZh": "文章网址：https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/\n\n 评论网址：https://news.ycombinator.com/item?id=50258521\n\n 积分：132\n\n # 评论: 144",
-          "publishedAt": "2026-10-27T13:01:07.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50258521",
-          "author": "meetpateltech"
-        }
-      ]
+      "fetchedAt": "2026-10-27T21:42:40.447Z",
+      "count": 0,
+      "items": [],
+      "error": "fetch failed"
     },
     {
       "id": "arxiv-cs-ai",
@@ -248,7 +33,7 @@
       "url": "https://rss.arxiv.org/rss/cs.AI",
       "home": "https://arxiv.org/list/cs.AI/recent",
       "group": "arxiv",
-      "fetchedAt": "2026-10-27T17:15:00.416Z",
+      "fetchedAt": "2026-10-27T21:42:41.070Z",
       "count": 15,
       "items": [
         {
@@ -257,7 +42,7 @@
           "titleZh": "权衡意识区域设计：企业客户到卖家分配的多目标决策系统",
           "link": "https://arxiv.org/abs/2610.31701",
           "summary": "arXiv:2610.31701v1 Announce Type: new\nAbstract: Enterprise customer journeys are shaped not only by product experiences and marketing, but also by recurring resource-allocation decisions. In B2B go-to-market (GTM) organizations, territory carving determines which accounts receive seller coverage, which seller-account relationships are preserved, and how limited field capacity is distributed. Yet the process often remains manual, making it difficult to compare opportunities, value continuity, and evaluate tradeoffs among growth, balance, capacity, and feasibility.\n We present a production decision system for tradeoff-aware customer-to-seller allocation in enterprise GTM planning. It integrates three components: a multidimensional account-value layer that combines predictive signals to score opportunity; an observational continuity-valuation layer that estimates the cost of breaking seller-account relationships using a synthetic-control-style counterfactual framework; and a multi-objective optimization layer that allocates coverage to high-value accounts while considering continuity, opportunity balance, and operational constraints.\n Deployed as a scenario-based decision-support system, the framework enables planners to inspect and compare allocation tradeoffs. Historical backtesting shows that optimizer-generated scenarios substantially improve assignment compliance while maintaining comparable seller-level opportunity distribution. In production planning, adopted scenarios improved both assignment compliance and opportunity balance relative to the previous baseline. Directing scarce seller capacity toward higher-value accounts also offers incremental revenue potential at enterprise scale. The key contribution is an integrated, inspectable framework that turns territory carving into a governable decision process.",
-          "summaryZh": "arXiv:2610.31701v1 公告类型：新\n摘要：企业客户旅程不仅取决于产品体验和营销，还取决于反复出现的资源分配决策。在 B2B 进入市场 (GTM) 组织中，地域划分决定了哪些账户接受卖家覆盖、保留哪些卖家与账户关系以及如何分配有限的现场能力。然而，该过程通常仍然是手动的，因此很难比较机会、价值连续性以及评估增长、平衡、容量和可行性之间的权衡。\n 我们提出了一个生产决策系统，用于企业 GTM 规划中具有权衡意识的客户到卖方分配。它集成了三个组件：多维账户价值层，结合预测信号来获得机会；观察连续性评估层，使用综合控制式反事实框架来估计破坏卖家帐户关系的成本；多目标优化层，在考虑连续性、机会平衡和运营约束的同时，将覆盖范围分配给高价值账户。\n 该框架作为基于场景的决策支持系统进行部署，使规划者能够检查和比较分配权衡。历史回测表明，优化器生成的场景极大地提高了分配合规性，同时保持了可比较的卖方级别机会分配。在生产计划中，所采用的方案相对于之前的基准提高了分配合规性和机会平衡。将稀缺的卖家能力引向更高价值的账户还可以在企业规模上提供增量收入潜力。关键的贡献是一个集成的、可检查的框架，它将领土划分转变为可治理的决策过程。",
+          "summaryZh": "arXiv:2610.31701v1 公告类型：新\n摘要：企业客户旅程不仅取决于产品体验和营销，还取决于反复出现的资源分配决策。在 B2B 进入市场 (GTM) 组织中，地域划分决定了哪些账户接受卖家覆盖、保留哪些卖家与账户关系以及如何分配有限的现场能力。然而，该过程通常仍然是手动的，因此很难比较机会、价值连续性以及评估增长、平衡、容量和可行性之间的权衡。\n 我们提出了一个生产决策系统，用于企业 GTM 规划中具有权衡意识的客户到卖方分配。它集成了三个组件：多维账户价值层，结合预测信号来获得机会；观察连续性评估层，使用综合控制式反事实框架来估计破坏卖家帐户关系的成本；多目标优化层，在考虑连续性、机会平衡和运营约束的同时，将覆盖范围分配给高价值账户。\n 该框架作为基于场景的决策支持系统进行部署，使规划者能够检查和比较分配权衡。历史回测表明，优化器生成的场景极大地提高了分配合规性，同时保持了可比较的卖方级别机会分布。在生产计划中，所采用的方案相对于之前的基准提高了分配合规性和机会平衡。将稀缺的卖家能力引向更高价值的账户还可以在企业规模上提供增量收入潜力。关键的贡献是一个集成的、可检查的框架，它将领土划分转变为可治理的决策过程。",
           "publishedAt": "2026-10-27T04:00:00.000Z",
           "comments": null,
           "author": "Nan Wang, Mitchell Turiel"
@@ -268,7 +53,7 @@
           "titleZh": "Phronix：以能力为中心的智能体学习范式",
           "link": "https://arxiv.org/abs/2610.31789",
           "summary": "arXiv:2610.31789v1 Announce Type: new\nAbstract: Scientific computing increasingly relies on large language model-based agents for performance engineering tasks such as instrumentation, analysis, and workflow porting. However, agent effectiveness depends heavily on the surrounding harness, which typically relies on manually written skills and curated memory. This limits autonomous learning, forcing agents to repeatedly rediscover solutions rather than retain and reuse knowledge from prior executions. We introduce Phronix, a capability-centric learning paradigm that enables agentic harnesses to acquire, validate, and refine reusable capabilities from their own executions. Phronix operates through a predictor-validator-corrector loop: MCP tools and associated skills propose solutions, tool executions validate them, and observed outcomes refine the stored capabilities. It distills every observed interaction into a capability store and researches a failing task rather than abandoning it. First, such learned capabilities solve a recurring task on the first attempt in 93-95% of cases across every model, significantly reducing solution non-determinism and improving reliability. Second, Phronix turns an agent's own execution into 7.6-30.8 durable capabilities per task without user instruction, and creation falls below two once the needed capability exists. Third, warm-start runs consume only 0.38-0.40 million tokens per task, which is three to four times less than a single baseline attempt, while a cold-start costs no more than the baseline. On the 1000 Genome Pegasus workflow, instrumenting a production application for I/O performance analysis, Phronix passes all 11 correctness checks against six for the baseline harness, and also lifts the task solving rates of two cheaper models from 29% and 27% of SWE-bench tasks solved to 91% and 87%, respectively, matching the performance of the most expensive evaluated model.",
-          "summaryZh": "arXiv:2610.31789v1 公告类型：新\n摘要：科学计算越来越依赖于基于大型语言模型的代理来执行性能工程任务，例如仪表、分析和工作流移植。然而，代理的有效性在很大程度上取决于周围的工具，这通常依赖于手动编写的技能和策划的记忆。这限制了自主学习，迫使智能体反复重新发现解决方案，而不是保留和重用先前执行中的知识。我们引入了 Phronix，这是一种以能力为中心的学习范式，使代理工具能够从自己的执行中获取、验证和完善可重用的能力。 Phronix 通过预测器-验证器-校正器循环进行操作：MCP 工具和相关技能提出解决方案，工具执行验证它们，观察到的结果完善存储的功能。它将每一个观察到的交互提炼到能力存储中，并研究失败的任务而不是放弃它。首先，这种学习能力在每个模型的 93-95% 的情况下第一次尝试就解决了重复性任务，从而显着减少了解决方案的不确定性并提高了可靠性。其次，Phronix 将代理自身的执行能力转变为每个任务 7.6-30.8 个持久能力，无需用户指令，一旦所需能力存在，创建能力就会降至 2 以下。第三，热启动运行每个任务仅消耗 0.38-040 万个令牌，这比单个基线尝试少三到四倍，而冷启动成本不超过基线。在 1000 Genome Pegasus 工作流程中，对生产应用程序进行 I/O 性能分析，Phronix 通过了全部 11 项正确性检查，对照基线线束的 6 项正确性检查，还将两个较便宜模型的任务解决率从 SWE 基准任务的 29% 和 27% 分别提高到 91% 和 87%，与最昂贵的评估模型的性能相匹配。",
+          "summaryZh": "arXiv:2610.31789v1 公告类型：新\n摘要：科学计算越来越依赖于基于大型语言模型的代理来执行性能工程任务，例如仪表、分析和工作流移植。然而，代理的有效性在很大程度上取决于周围的工具，这通常依赖于手动编写的技能和策划的记忆。这限制了自主学习，迫使代理反复重新发现解决方案，而不是保留和重用先前执行中的知识。我们引入了 Phronix，这是一种以能力为中心的学习范式，使代理工具能够从自己的执行中获取、验证和完善可重用的能力。 Phronix 通过预测器-验证器-校正器循环进行操作：MCP 工具和相关技能提出解决方案，工具执行验证它们，观察到的结果完善存储的功能。它将每一个观察到的交互提炼到能力存储中，并研究失败的任务而不是放弃它。首先，这种学习能力在每个模型的 93-95% 的情况下第一次尝试就解决了重复性任务，从而显着减少了解决方案的不确定性并提高了可靠性。其次，Phronix 将代理自身的执行能力转变为每个任务 7.6-30.8 个持久能力，无需用户指令，一旦所需能力存在，创建能力就会降至 2 以下。第三，热启动运行每个任务仅消耗 0.38-040 万个令牌，这比单个基线尝试少三到四倍，而冷启动成本不超过基线。在 1000 Genome Pegasus 工作流程中，对生产应用程序进行 I/O 性能分析，Phronix 通过了全部 11 项正确性检查，对照基线线束的 6 项正确性检查，还将两个较便宜模型的任务解决率从 SWE 基准任务的 29% 和 27% 分别提高到 91% 和 87%，与最昂贵的评估模型的性能相匹配。",
           "publishedAt": "2026-10-27T04:00:00.000Z",
           "comments": null,
           "author": "Hariharan Devarajan, Neeraj Rajesh, Aniruddha Marathe, Nikoli Dryden, Kin Ng, Michela Taufer"
@@ -323,7 +108,7 @@
           "titleZh": "重试权限：AI 代理工作流程中的授权和恢复研究",
           "link": "https://arxiv.org/abs/2610.31916",
           "summary": "arXiv:2610.31916v1 Announce Type: new\nAbstract: A durable agent can resume a consequential action while its authority changes and the action's external outcome remains uncertain. We study execution-time reliability of tool-using AI agents, isolating recovery decisions from language-model behavior. Checkpoint state, permission to dispatch, evidence of an external effect and permission to reconcile are distinct obligations. We present a finite conformance study that checks these obligations through histories scored against a provider effect ledger hidden from the recovering application. A prospectively frozen campaign executes 336 histories on native LangGraph and Temporal hosts, crossing 14 schedules, three provider contracts and four matched application policies. All 168 paired host cells have identical checked outcomes. Per host, retained-ledger reconciliation passes all 42 histories: 21 checked completions, 15 denials and six unknown outcomes with reservations retained. Cached retry, revalidation before retry and stable-key retry pass 30, 36 and 31 histories respectively. A separate 16-case component study of InfinityOS, an enterprise AI platform developed by Arya.ai, exercises exported authority, worker, recovery and settlement code over repository fakes. The results isolate the roles of current authority, provider contracts and retained observations in recovery, with safety, completion and unresolved obligations reported separately for the declared application profile.",
-          "summaryZh": "arXiv:2610.31916v1 公告类型：新\n摘要：持久代理可以在其权限发生变化并且该操作的外部结果仍然不确定的情况下恢复相应的操作。我们研究使用工具的人工智能代理的执行时间可靠性，将恢复决策与语言模型行为分开。检查点状态、调度许可、外部影响的证据以及协调许可是不同的义务。我们提出了一项有限一致性研究，通过针对恢复应用程序隐藏的提供商效应分类账进行评分的历史记录来检查这些义务。预期冻结的活动在本地 LangGraph 和 Temporal 主机上执行 336 个历史记录，跨越 14 个计划、三个提供商合同和四个匹配的应用程序策略。所有 168 个配对的宿主细胞都具有相同的检查结果。对于每个主机，保留账本核对会通过所有 42 个历史记录：21 个已检查完成、15 个拒绝和 6 个保留保留的未知结果。缓存重试、重试前重新验证和稳定密钥重试分别经过 30、36 和 31 个历史记录。 InfinityOS（Arya.ai 开发的企业人工智能平台）的一项单独的 16 个案例组件研究针对存储库伪造品执行了导出权限、工作人员、恢复和结算代码。结果隔离了当前当局、提供商合同和恢复中保留的观察结果的角色，并针对所声明的应用程序概况单独报告了安全性、完成度和未解决的义务。",
+          "summaryZh": "arXiv:2610.31916v1 公告类型：新\n摘要：持久代理可以在其权限发生变化并且该操作的外部结果仍然不确定的情况下恢复相应的操作。我们研究使用工具的人工智能代理的执行时间可靠性，将恢复决策与语言模型行为分开。检查点状态、调度许可、外部影响的证据以及协调许可是不同的义务。我们提出了一项有限一致性研究，通过针对恢复应用程序隐藏的提供商效应分类账进行评分的历史记录来检查这些义务。预期冻结的活动在本地 LangGraph 和 Temporal 主机上执行 336 个历史记录，跨越 14 个计划、三个提供商合同和四个匹配的应用程序策略。所有 168 个配对的宿主细胞都具有相同的检查结果。对于每个主机，保留账本核对会通过所有 42 个历史记录：21 个已检查完成、15 个拒绝和 6 个保留保留的未知结果。缓存重试、重试前重新验证和稳定密钥重试分别经过 30、36 和 31 次历史记录。 InfinityOS（Arya.ai 开发的企业人工智能平台）的一项单独的 16 个案例组件研究针对存储库伪造品执行了导出权限、工作人员、恢复和结算代码。结果隔离了当前当局、提供商合同和恢复中保留的观察结果的角色，并针对所声明的应用程序概况单独报告了安全性、完成度和未解决的义务。",
           "publishedAt": "2026-10-27T04:00:00.000Z",
           "comments": null,
           "author": "Deekshith Marla, Kushagra Bhatnagar"
@@ -424,7 +209,7 @@
       "url": "https://rss.arxiv.org/rss/cs.LG",
       "home": "https://arxiv.org/list/cs.LG/recent",
       "group": "arxiv",
-      "fetchedAt": "2026-10-27T17:15:00.845Z",
+      "fetchedAt": "2026-10-27T21:42:41.531Z",
       "count": 15,
       "items": [
         {
@@ -455,7 +240,7 @@
           "titleZh": "LeWorldModel 是否保留局部动作几何形状？",
           "link": "https://arxiv.org/abs/2610.31716",
           "summary": "arXiv:2610.31716v1 Announce Type: new\nAbstract: We examine how closely pretrained LeWorldModel (LeWM) reproduces the effects of small action changes. Using matched simulator and model responses, we measure action sensitivity with Gram matrices at three perturbation scales. Across nearly a thousand states from Reacher and OGBench Cube, the most sensitive action directions differ by median angles of about $36^\\circ$ and $42^\\circ$, respectively, at the smallest scale. Increasing the perturbation tenfold reduces median normalized Gram discrepancy by roughly 70\\% on Reacher and 47\\% on Cube. Geometry measured in pixels and embeddings varies more across scales than the chosen physical-state geometry. On held-out directions, environment Grams achieve median embedding response errors of 17\\% and 28\\%, compared with 26\\% and 38\\% for an isotropic reference with the same trace. LeWM's errors are higher at this scale. These findings support scale-specific evaluation of action sensitivity; its effect on control remains an open question.",
-          "summaryZh": "arXiv:2610.31716v1 公告类型：新\n摘要：我们研究了经过严格预训练的 LeWorldModel (LeWM) 如何再现微小动作变化的影响。使用匹配的模拟器和模型响应，我们用格拉姆矩阵在三个扰动尺度上测量动作敏感性。在 Reacher 和 OGBench Cube 的近千个状态中，最敏感的动作方向在最小尺度上的中位角分别约为 $36^\\circ$ 和 $42^\\circ$。将扰动增加十倍可将 Reacher 上的中值归一化 Gram 差异减少约 70\\%，在 Cube 上减少约 47\\%。以像素和嵌入测量的几何形状比所选的物理状态几何形状在尺度上变化更大。在保留方向上，环境 Gram 实现的中值嵌入响应误差为 17\\% 和 28\\%，而具有相同迹线的各向同性参考的中值嵌入响应误差为 26\\% 和 38\\%。 LeWM 在此规模上的误差较高。这些发现支持对行动敏感性进行特定量表的评估；它对控制的影响仍然是一个悬而未决的问题。",
+          "summaryZh": "arXiv:2610.31716v1 公告类型：新\n摘要：我们研究了经过严格预训练的 LeWorldModel (LeWM) 如何再现微小动作变化的影响。使用匹配的模拟器和模型响应，我们用格拉姆矩阵在三个扰动尺度上测量动作敏感性。在 Reacher 和 OGBench Cube 的近千个状态中，最敏感的动作方向在最小尺度上的中位角分别约为 $36^\\circ$ 和 $42^\\circ$。将扰动增加十倍可将 Reacher 上的中值归一化 Gram 差异减少约 70\\%，在 Cube 上减少约 47\\%。以像素和嵌入测量的几何形状在不同尺度上的变化比所选择的物理状态几何形状更大。在保留方向上，环境 Gram 实现的中值嵌入响应误差为 17\\% 和 28\\%，而具有相同迹线的各向同性参考的中值嵌入响应误差为 26\\% 和 38\\%。 LeWM 在此规模上的误差较高。这些发现支持对行动敏感性进行特定量表的评估；它对控制的影响仍然是一个悬而未决的问题。",
           "publishedAt": "2026-10-27T04:00:00.000Z",
           "comments": null,
           "author": "Vasil Vasilev, Siddharth Nayak"
@@ -532,7 +317,7 @@
           "titleZh": "学习被监控：思想链监控的因果界限和干预意识培训后秘诀",
           "link": "https://arxiv.org/abs/2610.31733",
           "summary": "arXiv:2610.31733v1 Announce Type: new\nAbstract: Chain-of-thought (CoT) monitoring aims to detect potentially harmful behaviors in large language models (LLMs) from their CoTs. Intervention-based evaluations measure this property by asking whether a monitor can detect the role of an intervention from the CoT when the targeted behavior occurs, typically using minimal-criterion sensitivity ($\\mathsf{TPR_{mc}}$) proposed by~\\citep{guan2025monitoring}. However, a target behavior observed under intervention is not necessarily caused by it, and we show that this metric can overestimate how often a monitor detects target behaviors actually caused by the intervention. Specifically, we establish $\\mathsf{TPR_{mc}}$ as an upper bound on this causal detection rate and derive a complementary lower bound, which provides a tighter evaluation framework for CoT monitorability. With this framework, we study whether LLMs can be trained to make their CoTs easier to monitor. We first construct a training dataset of paired control--intervention tasks spanning multiple intervention types. Using the dataset, we design and apply three intervention-specific training methods based on off-policy self-distillation, reinforcement learning, and on-policy self-distillation to train separate variants of each base model. Across various model-monitor configurations, all three methods generally improve CoT monitorability over the corresponding base models under our extended evaluation framework. Our code is available at https://github.com/xinyue-lxy/learning-to-be-monitored.",
-          "summaryZh": "arXiv:2610.31733v1 公告类型：新\n摘要：思想链 (CoT) 监控旨在从大语言模型 (LLM) 的 CoT 中检测潜在的有害行为。基于干预的评估通过询问监控器是否可以在目标行为发生时检测到 CoT 干预的作用来衡量此属性，通常使用 ~\\citep{guan2025monitoring} 提出的最小标准敏感性 ($\\mathsf{TPR_{mc}}$)。然而，在干预下观察到的目标行为不一定是由干预引起的，而且我们表明，该指标可能高估了监控器检测到干预实际引起的目标行为的频率。具体来说，我们建立 $\\mathsf{TPR_{mc}}$ 作为因果检测率的上限，并得出互补的下限，这为 CoT 可监控性提供了更严格的评估框架。通过这个框架，我们研究是否可以对法学硕士进行培训，使其 CoT 更容易监控。我们首先构建涵盖多种干预类型的配对控制干预任务的训练数据集。使用该数据集，我们设计并应用三种基于离策略自蒸馏、强化学习和在策略自蒸馏的特定干预训练方法来训练每个基本模型的单独变体。在各种模型监控配置中，所有三种方法通常都可以在我们的扩展评估框架下提高相应基础模型的 CoT 可监控性。我们的代码可在 https://github.com/xinyue-lxy/learning-to-be-monitored 获取。",
+          "summaryZh": "arXiv:2610.31733v1 公告类型：新\n摘要：思想链 (CoT) 监控旨在从大语言模型 (LLM) 的 CoT 中检测潜在的有害行为。基于干预的评估通过询问监控器是否可以在目标行为发生时检测到 CoT 干预的作用来衡量此属性，通常使用 ~\\citep{guan2025monitoring} 提出的最小标准敏感性 ($\\mathsf{TPR_{mc}}$)。然而，在干预下观察到的目标行为不一定是由干预引起的，而且我们表明，该指标可能高估了监控器检测到干预实际引起的目标行为的频率。具体来说，我们建立 $\\mathsf{TPR_{mc}}$ 作为因果检测率的上限，并得出互补的下限，这为 CoT 可监控性提供了更严格的评估框架。通过这个框架，我们研究是否可以对法学硕士进行培训，使其 CoT 更容易监控。我们首先构建一个跨越多种干预类型的配对控制干预任务的训练数据集。使用该数据集，我们设计并应用三种基于离策略自蒸馏、强化学习和在策略自蒸馏的特定干预训练方法来训练每个基本模型的单独变体。在各种模型监控配置中，所有三种方法通常都可以在我们的扩展评估框架下提高相应基础模型的 CoT 可监控性。我们的代码可在 https://github.com/xinyue-lxy/learning-to-be-monitored 获取。",
           "publishedAt": "2026-10-27T04:00:00.000Z",
           "comments": null,
           "author": "Qiang Fu, Xinyue Li, Andre Wibisono, Arman Cohan"
@@ -543,7 +328,7 @@
           "titleZh": "通过每次查询模态选择进行高效的全模态大型语言模型推理",
           "link": "https://arxiv.org/abs/2610.31768",
           "summary": "arXiv:2610.31768v1 Announce Type: new\nAbstract: Omni-modal large language models (Omni-LLMs) can jointly process a broad range of modalities, such as text, audio, and video, enabling stronger multimodal understanding and reasoning capabilities, but often at substantial inference cost. We observe that the benefit of additional modalities varies across queries, indicating that a fixed modality configuration can be inefficient. Motivated by this, we study query-wise modality selection, which keeps the underlying Omni-LLM fixed while adaptively selecting which modalities to provide for each query. We formulate the problem as an accuracy-cost optimization problem and develop a cost-sensitive learning approach for modality selection. We evaluate our approach on WorldSense using Qwen2.5-Omni and Qwen3-Omni under three inference-cost measures: input tokens, latency, and monetary cost. Across both models, query-wise modality selection consistently improves the accuracy-cost trade-off and can even outperform the standard setting in which all available modalities are provided to the Omni-LLM. For Qwen2.5-Omni, our cost-sensitive approach matches or exceeds this full-modality accuracy while requiring only approximately 41% of the input tokens, 39% of the latency, and 61% of the monetary cost.",
-          "summaryZh": "arXiv:2610.31768v1 公告类型：新\n摘要：全模态大语言模型（Omni-LLM）可以联合处理多种模态，例如文本、音频和视频，从而实现更强的多模态理解和推理能力，但通常会带来巨大的推理成本。我们观察到，附加模态的好处因查询而异，这表明固定模态配置可能效率低下。受此启发，我们研究了查询方式的模态选择，这保持了底层 Omni-LLM 的固定，同时自适应地选择为每个查询提供哪些模态。我们将该问题表述为准确性成本优化问题，并开发一种用于模态选择的成本敏感学习方法。我们使用 Qwen2.5-Omni 和 Qwen3-Omni 在三种推理成本指标下评估我们在 WorldSense 上的方法：输入令牌、延迟和货币成本。在这两个模型中，查询方式的模态选择始终改善了准确性与成本的权衡，甚至可以超越向 Omni-LLM 提供所有可用模态的标准设置。对于 Qwen2.5-Omni，我们的成本敏感方法匹配或超过了这种全模态准确性，同时仅需要大约 41% 的输入令牌、39% 的延迟和 61% 的货币成本。",
+          "summaryZh": "arXiv:2610.31768v1 公告类型：新\n摘要：全模态大语言模型（Omni-LLM）可以联合处理多种模态，例如文本、音频和视频，从而实现更强的多模态理解和推理能力，但通常会带来巨大的推理成本。我们观察到，附加模态的好处因查询而异，这表明固定模态配置可能效率低下。受此启发，我们研究了查询方式的模态选择，这保持了底层 Omni-LLM 的固定，同时自适应地选择为每个查询提供哪些模态。我们将该问题表述为准确性成本优化问题，并开发了一种用于模态选择的成本敏感学习方法。我们使用 Qwen2.5-Omni 和 Qwen3-Omni 在三种推理成本指标下评估我们在 WorldSense 上的方法：输入令牌、延迟和货币成本。在这两个模型中，查询方式的模态选择始终改善了准确性与成本的权衡，甚至可以超越向 Omni-LLM 提供所有可用模态的标准设置。对于 Qwen2.5-Omni，我们的成本敏感方法匹配或超过了这种全模态准确性，同时仅需要大约 41% 的输入令牌、39% 的延迟和 61% 的货币成本。",
           "publishedAt": "2026-10-27T04:00:00.000Z",
           "comments": null,
           "author": "Shuqi Liu, Yuzhou Cao, Luke Ong"
@@ -576,7 +361,7 @@
           "titleZh": "PaperScorer：论文接受的可预测性如何？",
           "link": "https://arxiv.org/abs/2610.31791",
           "summary": "arXiv:2610.31791v1 Announce Type: new\nAbstract: Automated research is largely evaluated by benchmark performance, but the value of research rarely reduces to a single score. Humans judge a work's holistic contribution through peer review, which is hard to model because it is noisy and depends on many factors. However, what if, given only the paper, we could predict its peer-review decision directly? We introduce PaperScorer, a family of models that predict a paper's accept or reject decision from its extracted text or page screenshots, training only on the decision after removing author identity and formatting shortcuts. Vision models are the most predictive (68% accuracy on ICLR papers and 77% on ML papers from arXiv), beating text-only and frontier reasoning models. Unlike plain text, page images retain figures, layout, and presentation. This signal is robust, surviving smaller models and even compressing the whole paper into a single image. But accurate predictions are not evenly spread. PaperScorer is strongest on the lowest and highest rated papers, while papers rated in the middle stay unpredictable for our models and frontier systems alike. Additionally, its confidence is calibrated, so its most confident predictions are also its most accurate. Overall, PaperScorer shows how much of the decision a paper carries on its own, marking a first step toward AI-driven research evaluation.",
-          "summaryZh": "arXiv:2610.31791v1 公告类型：新\n摘要：自动化研究主要通过基准性能来评估，但研究的价值很少降低到单一分数。人类通过同行评审来判断作品的整体贡献，这很难建模，因为它充满噪音并且取决于许多因素。然而，如果仅给出论文，我们就可以直接预测其同行评审决定怎么办？我们引入了 PaperScorer，这是一系列模型，可以根据提取的文本或页面屏幕截图来预测论文的接受或拒绝决策，仅在删除作者身份和格式化快捷方式后对决策进行训练。视觉模型是最具预测性的（ICLR 论文的准确率为 68%，arXiv 的 ML 论文的准确率为 77%），击败了纯文本模型和前沿推理模型。与纯文本不同，页面图像保留图形、布局和演示。该信号非常强大，可以在较小的模型中幸存下来，甚至可以将整篇论文压缩成单个图像。但准确的预测分布并不均匀。 PaperScorer 在评分最低和最高的论文中表现最强，而评分居中的论文对于我们的模型和前沿系统来说仍然是不可预测的。此外，它的置信度是经过校准的，因此它最有信心的预测也是最准确的。总体而言，PaperScorer 显示了论文自行做出的决定有多少，标志着人工智能驱动的研究评估迈出了第一步。",
+          "summaryZh": "arXiv:2610.31791v1 公告类型：新\n摘要：自动化研究主要通过基准性能来评估，但研究的价值很少降低到单一分数。人类通过同行评审来判断作品的整体贡献，这很难建模，因为它充满噪音并且取决于许多因素。然而，如果仅给出论文，我们就可以直接预测其同行评审决定怎么办？我们引入了 PaperScorer，这是一系列模型，可以根据提取的文本或页面屏幕截图来预测论文的接受或拒绝决策，仅在删除作者身份和格式化快捷方式后对决策进行训练。视觉模型是最具预测性的（ICLR 论文的准确率为 68%，arXiv 的 ML 论文的准确率为 77%），击败了纯文本模型和前沿推理模型。与纯文本不同，页面图像保留图形、布局和演示。该信号非常强大，可以在较小的模型中幸存下来，甚至可以将整篇论文压缩成单个图像。但准确的预测分布并不均匀。 PaperScorer 在评分最低和最高的论文中表现最强，而评分居中的论文对于我们的模型和前沿系统来说仍然是不可预测的。此外，它的置信度是经过校准的，因此它最有信心的预测也是最准确的。总体而言，PaperScorer 显示了论文自行做出的决策有多少，标志着人工智能驱动的研究评估迈出了第一步。",
           "publishedAt": "2026-10-27T04:00:00.000Z",
           "comments": null,
           "author": "Sachin Konan, Jonathan Liu, Zhuang Liu"
@@ -587,7 +372,7 @@
           "titleZh": "CuraLoc：通过计划代码检查进行存储库级故障定位",
           "link": "https://arxiv.org/abs/2610.31809",
           "summary": "arXiv:2610.31809v1 Announce Type: new\nAbstract: A bug report describes what went wrong, but rarely where the code should change. Existing repository-level localization methods often let language models iteratively decide what code to inspect next, requiring repeated model calls and substantial token usage. We investigate whether these inspection decisions can instead be planned before source retrieval. In this research, we introduce CuraLoc, which first selects candidate files and represents their symbols using compact behavioral and structural descriptions. In a single planning decision, the model jointly selects starting symbols, chooses code relationships to inspect from each, and forms hypotheses about likely edits. Deterministic retrieval collects the requested source for a final ranking informed by those hypotheses, concentrating model reasoning on choosing and comparing code rather than directing each retrieval step. We demonstrate the efficacy of our proposed approach on the SWE-Bench Lite and Verified datasets. On SWE Bench Verified with GPT-5.2, CuraLoc raises Func@1 from LocAgent's 53.8% to 59.3% while using 90.3% fewer recorded tokens, and also outperforms RepoSearcher (56.2%) and Agentless (39.6%) on Func@1. On SWE-bench Lite, CuraLoc achieves a high 83.8% Func@5 accuracy improving on Agentless by more than 15% in relative accuracy. Additionally, CuraLoc supports different model backbones, with strong localization accuracy demonstrated using both GPT-5.2 and GPT-6 Astra. These results provide evidence that repository-level code inspection can be planned effectively without iterative model-controlled navigation.",
-          "summaryZh": "arXiv:2610.31809v1 公告类型：新\n摘要：错误报告描述了出了什么问题，但很少描述代码应该更改的地方。现有的存储库级本地化方法通常让语言模型迭代地决定接下来要检查的代码，需要重复的模型调用和大量的令牌使用。我们研究是否可以在源检索之前计划这些检查决策。在这项研究中，我们引入了 CuraLoc，它首先选择候选文件并使用紧凑的行为和结构描述来表示它们的符号。在单个规划决策中，模型联合选择起始符号，选择要检查的代码关系，并形成有关可能编辑的假设。确定性检索收集所请求的来源，以根据这些假设进行最终排名，将模型推理集中在选择和比较代码上，而不是指导每个检索步骤。我们在 SWE-Bench Lite 和 Verified 数据集上证明了我们提出的方法的有效性。在使用 GPT-5.2 进行的 SWE Bench Verified 上，CuraLoc 将 Func@1 从 LocAgent 的 53.8% 提高到 59.3%，同时使用的记录令牌减少了 90.3%，并且在 Func@1 上的表现也优于 RepoSearcher (56.2%) 和 Agentless (39.6%)。在 SWE-bench Lite 上，CuraLoc 实现了高达 83.8% Func@5 的准确度，比 Agentless 的相对准确度提高了 15% 以上。此外，CuraLoc 支持不同的模型主干，并使用 GPT-5.2 和 GPT-6 Astra 证明了强大的定位精度。这些结果证明，无需迭代模型控制的导航即可有效地规划存储库级代码检查。",
+          "summaryZh": "arXiv:2610.31809v1 公告类型：新\n摘要：错误报告描述了出了什么问题，但很少描述代码应该更改的地方。现有的存储库级本地化方法通常让语言模型迭代地决定接下来要检查的代码，需要重复的模型调用和大量的令牌使用。我们研究是否可以在源检索之前计划这些检查决策。在这项研究中，我们引入了 CuraLoc，它首先选择候选文件并使用紧凑的行为和结构描述来表示它们的符号。在单个规划决策中，模型联合选择起始符号，选择要检查的代码关系，并形成有关可能编辑的假设。确定性检索收集所请求的来源，以根据这些假设进行最终排名，将模型推理集中在选择和比较代码上，而不是指导每个检索步骤。我们在 SWE-Bench Lite 和 Verified 数据集上展示了我们提出的方法的有效性。在使用 GPT-5.2 进行的 SWE Bench Verified 上，CuraLoc 将 Func@1 从 LocAgent 的 53.8% 提高到 59.3%，同时使用的记录令牌减少了 90.3%，并且在 Func@1 上的表现也优于 RepoSearcher (56.2%) 和 Agentless (39.6%)。在 SWE-bench Lite 上，CuraLoc 实现了高达 83.8% Func@5 的准确度，比 Agentless 的相对准确度提高了 15% 以上。此外，CuraLoc 支持不同的模型主干，并使用 GPT-5.2 和 GPT-6 Astra 证明了强大的定位精度。这些结果证明，无需迭代模型控制的导航即可有效地规划存储库级代码检查。",
           "publishedAt": "2026-10-27T04:00:00.000Z",
           "comments": null,
           "author": "Sangeeta Warrier, Anush Sankaran, Ryen White"
