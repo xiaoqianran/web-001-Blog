@@ -1,0 +1,432 @@
+{
+  "source": "content/feeds.json",
+  "attribution": "Aggregated headlines/summaries from third-party RSS/Atom feeds for navigation only. All rights belong to original publishers and authors. Chinese text is machine-translated.",
+  "fetchedAt": "2026-10-30T03:58:37.925Z",
+  "date": "2026-10-30",
+  "feedCount": 3,
+  "itemCount": 35,
+  "locale": {
+    "summaryDefault": "zh",
+    "translated": true
+  },
+  "errors": [],
+  "feeds": [
+    {
+      "id": "hacker-news",
+      "title": "Hacker News",
+      "url": "https://hnrss.org/frontpage",
+      "home": "https://news.ycombinator.com/",
+      "group": "community",
+      "fetchedAt": "2026-10-30T03:58:04.999Z",
+      "count": 20,
+      "items": [
+        {
+          "id": "https://news.ycombinator.com/item?id=50299182",
+          "title": "CVE-2026-98432: Linux TCP Use-After-Free Risk and Patch Validation",
+          "titleZh": "CVE-2026-98432：Linux TCP 释放后使用风险和补丁验证",
+          "link": "https://www.penligent.ai/hackinglabs/cve-2026-98432/",
+          "summary": "Article URL: https://www.penligent.ai/hackinglabs/cve-2026-98432/\n\n Comments URL: https://news.ycombinator.com/item?id=50299182\n\n Points: 8\n\n # Comments: 2",
+          "summaryZh": "文章网址：https://www.penligent.ai/hackinglabs/cve-2026-98432/\n\n 评论网址：https://news.ycombinator.com/item?id=50299182\n\n 积分：8\n\n # 评论: 2",
+          "publishedAt": "2026-10-30T02:33:04.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50299182",
+          "author": "cobychapple"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50299004",
+          "title": "Show HN: Lasm – Write formally verified webapps in Lean for Node/serverless/edge",
+          "titleZh": "Show HN：Lasm – 在精益中为 Node/serverless/edge 编写经过正式验证的 Web 应用程序",
+          "link": "https://github.com/Millillion/lasm",
+          "summary": "Lasm has been my dream for a good part of 2026.\nI firmly believe that formal verification is the next evolution of software engineering and programming languages. This next wave will largely be enabled by the incredibly intelligent LLMs that understand formal verification and its programming languages. Lean is one of the most popular languages that allow for formal verification, and to me is incredibly powerful because it is a general purpose programming language with formal verification built directly into it. You can build general purpose software in Lean, and formally verify it in Lean. Amazing. Lasm brings Lean to the browser, Node, serverless, and edge environments (and more). The idea is that you can now write web apps, frontend to backend, in Lean and formally verify these apps. Imagine an Express server or Hono server, running on Cloudflare Workers, with formal verification of its specification. I'm an agentic engineer with an emphasis in software engineering, and Lasm was built mostly by Claude Opus 5.5 with my high-level direction.\n\n Comments URL: https://news.ycombinator.com/item?id=50299004\n\n Points: 10\n\n # Comments: 0",
+          "summaryZh": "Lasm has been my dream for a good part of 2026.\n我坚信形式验证是软件工程和编程语言的下一个发展。下一波浪潮将在很大程度上由非常聪明的法学硕士推动，他们了解形式验证及其编程语言。精益是允许形式验证的最流行的语言之一，对我来说它非常强大，因为它是一种通用编程语言，直接内置形式验证。您可以在精益中构建通用软件，并在精益中对其进行正式验证。惊人的。 Lasm 将精益引入浏览器、Node、无服务器和边缘环境（等等）。这个想法是，您现在可以以精益方式从前端到后端编写 Web 应用程序，并正式验证这些应用程序。想象一下在 Cloudflare Workers 上运行的 Express 服务器或 Hono 服务器，并对其规范进行了正式验证。我是一名代理工程师，重点是软件工程，Lasm 主要是由 Claude Opus 5.5 在我的高级指导下构建的。\n\n 评论网址：https://news.ycombinator.com/item?id=50299004\n\n 积分：10\n\n # 评论: 0",
+          "publishedAt": "2026-10-30T02:05:41.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50299004",
+          "author": "lastmjs"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50298964",
+          "title": "Pico CSS is no longer maintained",
+          "titleZh": "Pico CSS 不再维护",
+          "link": "https://github.com/picocss/pico/discussions/754",
+          "summary": "Article URL: https://github.com/picocss/pico/discussions/754\n\n Comments URL: https://news.ycombinator.com/item?id=50298964\n\n Points: 54\n\n # Comments: 18",
+          "summaryZh": "文章网址：https://github.com/picocss/pico/discussions/754\n\n 评论网址：https://news.ycombinator.com/item?id=50298964\n\n Points: 54\n\n # Comments: 18",
+          "publishedAt": "2026-10-30T01:58:44.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50298964",
+          "author": "henrid"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50298436",
+          "title": "Herdr has released native app",
+          "titleZh": "Herdr 发布了原生应用",
+          "link": "https://github.com/herdrdev/herdr-app",
+          "summary": "Article URL: https://github.com/herdrdev/herdr-app\n\n Comments URL: https://news.ycombinator.com/item?id=50298436\n\n Points: 51\n\n # Comments: 41",
+          "summaryZh": "文章网址：https://github.com/herdrdev/herdr-app\n\n 评论网址：https://news.ycombinator.com/item?id=50298436\n\n 积分：51\n\n # 评论: 41",
+          "publishedAt": "2026-10-30T00:42:41.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50298436",
+          "author": "cherioo"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50298318",
+          "title": "Cormac McCarthy's Library",
+          "titleZh": "科马克·麦卡锡图书馆",
+          "link": "https://cormacmccarthy.lib.utk.edu/",
+          "summary": "Article URL: https://cormacmccarthy.lib.utk.edu/\n\n Comments URL: https://news.ycombinator.com/item?id=50298318\n\n Points: 26\n\n # Comments: 11",
+          "summaryZh": "文章网址：https://cormacmccarthy.lib.utk.edu/\n\n 评论网址：https://news.ycombinator.com/item?id=50298318\n\n 积分：26\n\n # 评论: 11",
+          "publishedAt": "2026-10-30T00:31:00.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50298318",
+          "author": "maitland"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50297697",
+          "title": "Show HN: I Turned DOOM into a Transformer",
+          "titleZh": "Show HN：我把《DOOM》变成了变形金刚",
+          "link": "https://github.com/mottopanikeiku/doomformer",
+          "summary": "Instead of trying to run DOOM on things, I have instead decided to use DOOM (many, many, many doom games actually) to create a transformer. For a lot of the math required I essentially had to use DOOM game mechanics and voodoo dolls (DOOM is turing complete btw) and exchange them with the actual operations, essentially creating an alternative to NumPy (a 65000x slower one). Thus, I am proud to present DOOMFORMER. Here are a list of things DOOMFORMER can do : It can classify MNIST digits, even if you write these digits on the map! It can talk(kinda) You can use it to make decisions, so, it can play DOOM. Yes! You can play DOOM with thousands of DOOM games now! The marine's mind can be controlled by DOOM, playing on a map generated by DOOMFORMER. Truly, the possibilities are endless, and even larger-scale training of DOOMFORMER could be done on a measly T4. If anyone would like to help me scale this up and make crazier things, I'd love to work together.\n\n Comments URL: https://news.ycombinator.com/item?id=50297697\n\n Points: 55\n\n # Comments: 12",
+          "summaryZh": "我没有尝试在事物上运行《DOOM》，而是决定使用《DOOM》（实际上是很多很多末日游戏）来创建一个变压器。对于所需的大量数学运算，我基本上必须使用《DOOM》游戏机制和巫毒娃娃（顺便说一句，《DOOM》是图灵完备的），并将它们与实际操作进行交换，本质上是创建 NumPy 的替代方案（速度慢 65000 倍）。因此，我很自豪地推出《DOOMFORMER》。以下是 DOOMFORMER 可以做的事情：它可以对 MNIST 数字进行分类，即使您将这些数字写在地图上！它可以说话（有点），你可以用它来做决定，所以，它可以玩《DOOM》。是的！您现在可以玩《DOOM》数千款《DOOM》游戏！海军陆战队员的思想可以被《DOOM》控制，在《DOOMFORMER》生成的地图上进行游戏。确实，可能性是无限的，甚至更大规模的《DOOMFORMER》训练也可以在一台微不足道的 T4 上完成。如果有人愿意帮助我扩大规模并做出更疯狂的事情，我很乐意一起工作。\n\n 评论网址：https://news.ycombinator.com/item?id=50297697\n\n 积分：55\n\n # 评论: 12",
+          "publishedAt": "2026-10-29T23:25:46.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50297697",
+          "author": "falperc"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50297089",
+          "title": "A Pig, the State, and War: Porco Rosso (Kurenai No Buta) (2014)",
+          "titleZh": "一头猪、国家和战争：红猪 (Kurenai No Buta) (2014)",
+          "link": "https://journal.animationstudies.org/article/id/66/",
+          "summary": "Article URL: https://journal.animationstudies.org/article/id/66/\n\n Comments URL: https://news.ycombinator.com/item?id=50297089\n\n Points: 69\n\n # Comments: 10",
+          "summaryZh": "文章网址：https://journal.animationstudies.org/article/id/66/\n\n 评论网址：https://news.ycombinator.com/item?id=50297089\n\n 积分：69\n\n # 评论: 10",
+          "publishedAt": "2026-10-29T22:26:38.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50297089",
+          "author": "simonebrunozzi"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50296947",
+          "title": "The Great American Rascal: Tom Sawyer at 150",
+          "titleZh": "伟大的美国流氓：汤姆·索亚 150 岁",
+          "link": "https://claremontreviewofbooks.com/the-great-american-rascal/",
+          "summary": "Article URL: https://claremontreviewofbooks.com/the-great-american-rascal/\n\n Comments URL: https://news.ycombinator.com/item?id=50296947\n\n Points: 49\n\n # Comments: 20",
+          "summaryZh": "文章网址：https://claremontreviewofbooks.com/the-great-american-rascal/\n\n 评论网址：https://news.ycombinator.com/item?id=50296947\n\n 积分：49\n\n # 评论: 20",
+          "publishedAt": "2026-10-29T22:14:23.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50296947",
+          "author": "beatstop"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50296920",
+          "title": "Should a medical diagnosis reshape the past? (2025)",
+          "titleZh": "医学诊断是否应该重塑过去？ (2025)",
+          "link": "https://chengela.substack.com/p/should-a-medical-diagnosis-reshape",
+          "summary": "Article URL: https://chengela.substack.com/p/should-a-medical-diagnosis-reshape\n\n Comments URL: https://news.ycombinator.com/item?id=50296920\n\n Points: 21\n\n # Comments: 0",
+          "summaryZh": "文章网址：https://chenela.substack.com/p/should-a-medical-diagnosis-reshape\n\n 评论网址：https://news.ycombinator.com/item?id=50296920\n\n 积分：21\n\n # 评论: 0",
+          "publishedAt": "2026-10-29T22:12:29.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50296920",
+          "author": "wyndham"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50296486",
+          "title": "We ran AI agent swarms in Minecraft and Mindustry",
+          "titleZh": "我们在 Minecraft 和 Mindustry 中运行 AI 代理群",
+          "link": "https://labs.ycombinator.com/projects/games/index.html",
+          "summary": "Article URL: https://labs.ycombinator.com/projects/games/index.html\n\n Comments URL: https://news.ycombinator.com/item?id=50296486\n\n Points: 211\n\n # Comments: 69",
+          "summaryZh": "文章网址：https://labs.ycombinator.com/projects/games/index.html\n\n 评论网址：https://news.ycombinator.com/item?id=50296486\n\n 积分：211\n\n # 评论: 69",
+          "publishedAt": "2026-10-29T21:40:28.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50296486",
+          "author": "sandslash"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50296470",
+          "title": "Binance-hacker-1029 – $5.6B stolen from Binance",
+          "titleZh": "Binance-hacker-1029 – Binance 被盗 5.6B 美元",
+          "link": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
+          "summary": "Article URL: https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8\n\n Comments URL: https://news.ycombinator.com/item?id=50296470\n\n Points: 890\n\n # Comments: 518",
+          "summaryZh": "文章网址：https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8\n\n 评论网址：https://news.ycombinator.com/item?id=50296470\n\n 积分：890\n\n # 评论: 518",
+          "publishedAt": "2026-10-29T21:38:59.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50296470",
+          "author": "Tiberium"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50295868",
+          "title": "Sylphide OS: a general-purpose OS for microcontroller-based computers",
+          "titleZh": "Sylphide OS：适用于基于微控制器的计算机的通用操作系统",
+          "link": "https://projects.freehackers.org/sylphide-os/",
+          "summary": "Article URL: https://projects.freehackers.org/sylphide-os/\n\n Comments URL: https://news.ycombinator.com/item?id=50295868\n\n Points: 46\n\n # Comments: 13",
+          "summaryZh": "文章网址：https://projects.freehackers.org/sylphide-os/\n\n 评论网址：https://news.ycombinator.com/item?id=50295868\n\n 积分：46\n\n # 评论: 13",
+          "publishedAt": "2026-10-29T20:59:55.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50295868",
+          "author": "iamnothere"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50295821",
+          "title": "ElementaryUI – Swift, in the Browser",
+          "titleZh": "ElementaryUI – Swift，在浏览器中",
+          "link": "https://elementary.codes",
+          "summary": "Article URL: https://elementary.codes\n\n Comments URL: https://news.ycombinator.com/item?id=50295821\n\n Points: 73\n\n # Comments: 16",
+          "summaryZh": "文章网址：https://elementary.codes\n\n 评论网址：https://news.ycombinator.com/item?id=50295821\n\n 积分：73\n\n # 评论: 16",
+          "publishedAt": "2026-10-29T20:56:39.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50295821",
+          "author": "frizlab"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50295450",
+          "title": "A tiny world model running games on a Raspberry Pi Pico 2 W",
+          "titleZh": "在 Raspberry Pi Pico 2 W 上运行游戏的微型世界模型",
+          "link": "https://github.com/SheepSeb/tinyworldformer",
+          "summary": "Article URL: https://github.com/SheepSeb/tinyworldformer\n\n Comments URL: https://news.ycombinator.com/item?id=50295450\n\n Points: 161\n\n # Comments: 8",
+          "summaryZh": "文章网址：https://github.com/SheepSeb/tinyworldformer\n\n 评论网址：https://news.ycombinator.com/item?id=50295450\n\n 积分：161\n\n # 评论: 8",
+          "publishedAt": "2026-10-29T20:32:28.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50295450",
+          "author": "airinei"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50294702",
+          "title": "Patrick Stewart has died",
+          "titleZh": "帕特里克·斯图尔特去世",
+          "link": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
+          "summary": "https://archive.ph/y4Egm https://en.wikipedia.org/wiki/Patrick_Stewart\n\n Comments URL: https://news.ycombinator.com/item?id=50294702\n\n Points: 2556\n\n # Comments: 543",
+          "summaryZh": "https://archive.ph/y4Egm https://en.wikipedia.org/wiki/Patrick_Stewart\n\n 评论网址：https://news.ycombinator.com/item?id=50294702\n\n 积分：2556\n\n #评论：543",
+          "publishedAt": "2026-10-29T19:41:39.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50294702",
+          "author": "j4mie"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50294506",
+          "title": "Show HN: Auto Dismiss Mac OS \"Allow to find devices on local networks?\"",
+          "titleZh": "显示 HN：自动关闭 Mac OS“允许在本地网络上查找设备吗？”",
+          "link": "https://github.com/johncassil/dontallow",
+          "summary": "This popup has been a constant gripe of mine for years. I almost NEVER want to allow this permission and there is no system setting to disable it globally and prevent the popup from interrupting your typing, etc. This tiny swift app I built will autoclose it in 1/4th of a second and leave behind a little notification that it did so. Would love to hear feedback!\n\n Comments URL: https://news.ycombinator.com/item?id=50294506\n\n Points: 109\n\n # Comments: 83",
+          "summaryZh": "多年来，这个弹出窗口一直困扰着我。我几乎不想允许此权限，并且没有系统设置可以全局禁用它并防止弹出窗口中断您的打字等。我构建的这个微小的快速应用程序将在 1/4 秒内自动关闭它，并留下一个小通知，表明它这样做了。很想听到反馈！\n\n 评论网址：https://news.ycombinator.com/item?id=50294506\n\n 积分：109\n\n # 评论: 83",
+          "publishedAt": "2026-10-29T19:27:44.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50294506",
+          "author": "johncassil"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50291116",
+          "title": "Launch HN: Simantic (YC F26) – Firmware Simulation for AI Agents",
+          "titleZh": "推出 HN：Simantic (YC F26) – AI 代理的固件模拟",
+          "link": "https://news.ycombinator.com/item?id=50291116",
+          "summary": "Hi HN, we're Ahnaf and Seungmin from Simantic ( https://simantic.com ). We are building the simulation layer that lets engineers and AI agents test and validate firmware without hardware. Before Simantic, we were ex-firmware engineers at companies like Neuralink and Tesla. We’ve worked on some of the coolest projects, like the Cybertruck and Roadster, back when they were still early prototypes. We started working on firmware back when ChatGPT didn’t exist yet, but over the years, we saw how much of the engineering and development work has been automated as the frontier models improved to this point. In software, AI can run and test code inside your computer in a matter of seconds. But as firmware engineers, we didn’t have that luxury. An AI agent can write firmware in seconds, but in order to test it, we had to flash a physical board, then manually run tests using expensive and clunky tools with software made over a decade ago. To speed up the validation loop, we built the simulation layer that lets AI agents test the firmware and make decisions based on evidence, instead of waiting for the engineer to run tests for them. We used to spend hours testing our firmware manually on devboards, but now we use our own simulation to validate firmware in seconds. What we offer:\n- Virtual devboards you can program and run with a single API call, without leaving your terminal.\n- An AI code reviewer for firmware, that makes informed decisions based on evidence, using our simulation as a verification engine.\n- A CI/CD pipeline for your hardware projects that validates your firmware against a simulated version of the microcontroller on every commit. Here is a demo of our simulation used in an AI code review session: https://www.youtube.com/watch?v=kBK1ZjGWWbQ Our users are using Simantic for bare-metal and RTOS development for applications like flight controllers, electric vehicles, robotics, and satellites. For safety critical systems like avionics and automotives, a robust simulation system is incredibly important, because every change in the firmware puts a human life at stake, especially for machines that cost hundreds of thousands to millions of dollars. We recently helped an early stage space startup building satellites, to test their firmware on hardware that they don't yet have. Even the development modules for those satellites costs over $100k, and we helped them do that at just a hundredth of the cost and time. Early on in our journey, we established our idea to make better simulation but didn’t have a clear idea of how we would do it, we considered developing our software around open source emulation frameworks like Renode ( https://github.com/renode/renode ) and QEMU ( https://www.qemu.org/ ), because they were tools already used within the firmware industry. We built our MVP that was essentially a wrapper around Renode, but we quickly realized there were a lot of limitations to doing this. 1. We were bottlenecked by the development speed of Renode themselves. We tried making contributions on Github to fix issues we came across, but the speed in which we could merge our features in was not fast enough for a startup like us trying to move fast. 2. Renode is built using Dotnet, and it was proving itself to be slower than we would have liked. Renode was released in 2017, which was when all code was still being written by hand, so I think it made sense looking back, but there were limitations because of the language itself. 3. The open source tools were bloated, with features that we would never use. Yes, there were a breadth of features, but we had a lot of things we had to work around just because we couldn’t remove or change them.\nUsers were complaining about simulation accuracy. Renode is an emulator at the core, but our users, especially those who are building systems where timing accuracy is crucial did not find the accuracy good enough to validate their firmware. Because of these issues, we made our own simulation engine from ",
+          "summaryZh": "您好，HN，我们是来自 Simantic ( https://simantic.com ) 的 Ahnaf 和 Seungmin。我们正在构建模拟层，让工程师和人工智能代理无需硬件即可测试和验证固件。在加入 Simantic 之前，我们曾是 Neuralink 和 Tesla 等公司的固件工程师。我们曾参与过一些最酷的项目，例如 Cyber​​truck 和 Roadster，当时它们还是早期原型。当 ChatGPT 还不存在时，我们就开始研究固件，但多年来，我们看到随着前沿模型的改进，有多少工程和开发工作已经实现了自动化。在软件方面，人工智能可以在几秒钟内运行和测试计算机内的代码。但作为固件工程师，我们并没有那么奢侈。人工智能代理可以在几秒钟内编写固件，但为了测试它，我们必须刷新物理板，然后使用昂贵且笨重的工具和十多年前制作的软件手动运行测试。为了加速验证循环，我们构建了模拟层，让人工智能代理测试固件并根据证据做出决策，而不是等待工程师为它们运行测试。我们过去常常花费数小时在开发板上手动测试固件，但现在我们使用自己的模拟在几秒钟内验证固件。我们提供什么：\n- 虚拟开发板，您可以通过单个 API 调用进行编程和运行，而无需离开终端。\n- 固件的人工智能代码审查器，使用我们的模拟作为验证引擎，根据证据做出明智的决策。\n- 适用于您的硬件项目的 CI/CD 管道，可在每次提交时根据微控制器的模拟版本验证您的固件。以下是我们在 AI 代码审查会议中使用的模拟演示：https://www.youtube.com/watch?v=kBK1ZjGWWbQ 我们的用户正在使用 Simantic 进行裸机和 RTOS 开发，用于飞行控制器、电动汽车、机器人和卫星等应用。对于航空电子设备和汽车等安全关键系统来说，强大的仿真系统非常重要，因为固件的每一次变化都会危及人的生命，特别是对于价值数十万至数百万美元的机器。我们最近帮助一家早期太空初创公司建造卫星，在他们还没有的硬件上测试他们的固件。即使是这些卫星的开发模块成本也超过 10 万美元，而我们帮助他们只花费了百分之一的成本和时间。在我们旅程的早期，我们就确立了我们的想法",
+          "publishedAt": "2026-10-29T15:56:32.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50291116",
+          "author": "shong0504"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50291054",
+          "title": "H.264 Is Magic (2016)",
+          "titleZh": "H.264 是魔法 (2016)",
+          "link": "https://sidbala.com/h-264-is-magic/",
+          "summary": "Article URL: https://sidbala.com/h-264-is-magic/\n\n Comments URL: https://news.ycombinator.com/item?id=50291054\n\n Points: 357\n\n # Comments: 130",
+          "summaryZh": "文章网址：https://sidbala.com/h-264-is-magic/\n\n 评论网址：https://news.ycombinator.com/item?id=50291054\n\n 积分：357\n\n # 评论：130",
+          "publishedAt": "2026-10-29T15:53:03.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50291054",
+          "author": "ea016"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50290177",
+          "title": "LLM Voice",
+          "titleZh": "法学硕士语音",
+          "link": "https://martinfowler.com/bliki/LLM-Voice.html",
+          "summary": "Article URL: https://martinfowler.com/bliki/LLM-Voice.html\n\n Comments URL: https://news.ycombinator.com/item?id=50290177\n\n Points: 374\n\n # Comments: 200",
+          "summaryZh": "文章网址：https://martinfowler.com/bliki/LLM-Voice.html\n\n 评论网址：https://news.ycombinator.com/item?id=50290177\n\n 积分：374\n\n # 评论：200",
+          "publishedAt": "2026-10-29T14:57:55.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50290177",
+          "author": "ibobev"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50289418",
+          "title": "We're releasing the weights of Mistral Large 4",
+          "titleZh": "我们正在发布 Mistral Large 4 的重量",
+          "link": "https://mistral.ai/news/mistral-large-4-oss/",
+          "summary": "Article URL: https://mistral.ai/news/mistral-large-4-oss/\n\n Comments URL: https://news.ycombinator.com/item?id=50289418\n\n Points: 1257\n\n # Comments: 353",
+          "summaryZh": "文章网址：https://mistral.ai/news/mistral-large-4-oss/\n\n 评论网址：https://news.ycombinator.com/item?id=50289418\n\n 积分：1257\n\n # 评论: 353",
+          "publishedAt": "2026-10-29T14:13:21.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50289418",
+          "author": "kuberwastaken"
+        }
+      ]
+    },
+    {
+      "id": "arxiv-cs-ai",
+      "title": "arXiv cs.AI",
+      "url": "https://rss.arxiv.org/rss/cs.AI",
+      "home": "https://arxiv.org/list/cs.AI/recent",
+      "group": "arxiv",
+      "fetchedAt": "2026-10-30T03:58:05.521Z",
+      "count": 15,
+      "items": [
+        {
+          "id": "oai:arXiv.org:2610.35942v1",
+          "title": "Counting the Bandages: On measuring the time that AI saves",
+          "titleZh": "计算绷带：测量人工智能节省的时间",
+          "link": "https://arxiv.org/abs/2610.35942",
+          "summary": "arXiv:2610.35942v1 Announce Type: new\nAbstract: I consider what it means for AI assistance to save time. I contrast a stopwatch view, on which time saved is whatever the clock records, with a ledger view, on which it is a counterfactual that has to be read next to the errors the work lets through, and I argue for the latter. The argument has four parts. I define a model-free pair of quantities, time saved and excess escaped defects, and one decision number built from them: the break-even defect cost. I give a baseline model of checking in which, until the model is good enough not to check, a calibrated worker's escaped-defect rate does not depend on how good the model is; checking time grows with the logarithm of the model's error rate; and over-trust buys minutes on the clock at a larger cost in total minutes. I show what randomized studies can and cannot identify, and I replicate METR's developer study from its public data: the same 246 issues support a slowdown of 19% or 24% depending on the estimand (34% without adjusting for a chance imbalance), and AI helped on somewhere between 3% and 82% of them. Finally, I restate the published record, with stated bounds in place of imported point assumptions. In GDPval's own review-every-output workflow, review time alone caps GPT-5's speedup at 3.6x; the consultants outside the frontier were faster, and more often wrong. Last, I test two of the model's predictions in a small pre-specified experiment on AI reviewers checking AI drafts of the same kind of brief, built from SEC filings made after the models' training data were collected. Told the drafter's true error rate, the reviewer checked more as it rose, but all-or-nothing, switching near where its prompt's costs break even. Told that the drafter erred ten times less often than it did, it checked 7 fewer of 9 figures and let a wrong figure through in 22.5% of briefs instead of none: faster and worse, entirely through reduced effort.",
+          "summaryZh": "arXiv:2610.35942v1 公告类型：新\n摘要：我思考人工智能辅助对于节省时间意味着什么。我将秒表视图与分类帐视图进行了对比，在秒表视图中节省的时间是时钟记录的任何内容，在分类帐视图中，必须在工作中出现的错误旁边阅读反事实，我主张后者。论证有四个部分。我定义了一对无模型的数量、节省的时间和多余的逃逸缺陷，以及根据它们构建的一个决策数：盈亏平衡缺陷成本。我给出了一个检查的基线模型，其中，在模型足够好而无需检查之前，经过校准的工人的逃逸缺陷率并不取决于模型的好坏；检查时间随着模型错误率的对数而增长；过度信任会以更高的总分钟成本购买分钟。我展示了随机研究可以识别什么和不能识别什么，并从其公开数据中复制了 METR 的开发人员研究：同样的 246 个问题支持 19% 或 24% 的放缓，具体取决于估计值（34% 没有调整机会不平衡），而人工智能帮助了其中 3% 到 82% 的问题。最后，我重申已发布的记录，并用规定的界限代替导入的点假设。在 GDPval 自己的对每个输出进行审查的工作流程中，仅审查时间就将 GPT-5 的加速速度限制在 3.6 倍；国外的顾问速度更快，但也更容易出错。最后，我在一个预先指定的小型实验中测试了模型的两个预测，让人工智能审阅者检查同类摘要的人工智能草稿，这些草稿是根据收集模型训练数据后提交的 SEC 文件构建的。告知起草者真实的错误率后，审稿人随着错误率的上升进行了更多检查，但要么全有要么全无，在提示成本收支平衡的地方切换。当被告知起草者犯错的频率比实际少十倍时，它检查了 9 个数字中的 7 个，并在 22.5% 的简报中漏掉了一个错误的数字，而不是没有：更快、更糟，完全是因为减少了工作量。",
+          "publishedAt": "2026-10-29T04:00:00.000Z",
+          "comments": null,
+          "author": "Solomon Shalom Lijo"
+        },
+        {
+          "id": "oai:arXiv.org:2610.35984v1",
+          "title": "Enhancing Deep Learning Model Performance through Data Generation Strategies: Classification of Olive Tree Diseases",
+          "titleZh": "通过数据生成策略增强深度学习模型性能：橄榄树疾病分类",
+          "link": "https://arxiv.org/abs/2610.35984",
+          "summary": "arXiv:2610.35984v1 Announce Type: new\nAbstract: Deep learning models are highly effective in a wide range of domains, particu larly in plant disease diagnosis. However, their performance is often limited by challenges such as insufficient data and class imbalance. In our work, we propose a comprehensive data generation strategy to overcome these limitations. First, we apply various data generation techniques, including traditional augmentation methods, CutMix, MixUp, and synthetic image generation using Deep Convolu tional Generative Adversarial Networks (DCGANs), to create new data samples. Second, we exploit this generated data in three scenarios: (S1) balancing class distribution in the original dataset, (S2) increasing the number of samples per class, and (S3) expanding the dataset while maintaining balanced classes. Third, we evaluate the impact of these data distributions (S1, S2, S3) on model perfor mance using the EfficientNetV2B0 architecture with pre-trained and fine-tuned weights. The experimental results show a substantial improvement in classifica tion accuracy, emphasizing the critical role of data diversity and class balance. These findings highlight the effectiveness and adaptability of the proposed strat egy of data generation and distribution for enhancing dataset quality, offering promising applications in plant disease detection and precision agriculture.",
+          "summaryZh": "arXiv:2610.35984v1 公告类型：新\n摘要：深度学习模型在许多领域都非常有效，特别是在植物病害诊断方面。然而，他们的表现往往受到数据不足和类别不平衡等挑战的限制。在我们的工作中，我们提出了一种全面的数据生成策略来克服这些限制。首先，我们应用各种数据生成技术，包括传统的增强方法、CutMix、MixUp 以及使用深度卷积生成对抗网络 (DCGAN) 的合成图像生成，来创建新的数据样本。其次，我们在三种情况下利用生成的数据：（S1）平衡原始数据集中的类分布，（S2）增加每个类的样本数量，以及（S3）在保持平衡类的同时扩展数据集。第三，我们使用带有预训练和微调权重的 EfficientNetV2B0 架构来评估这些数据分布（S1、S2、S3）对模型性能的影响。实验结果表明分类精度有了显着提高，强调了数据多样性和类别平衡的关键作用。这些发现凸显了所提出的数据生成和分发策略在提高数据集质量方面的有效性和适应性，为植物病害检测和精准农业提供了有前景的应用。",
+          "publishedAt": "2026-10-29T04:00:00.000Z",
+          "comments": null,
+          "author": "Hicham El Akhal, Abderrahim Waga, Aissa Ben Yahya, Abdelbaki El Belrhiti El Alaoui"
+        },
+        {
+          "id": "oai:arXiv.org:2610.36077v1",
+          "title": "The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents",
+          "titleZh": "三位一体：能力驱动的多模式代理递归自我改进",
+          "link": "https://arxiv.org/abs/2610.36077",
+          "summary": "arXiv:2610.36077v1 Announce Type: new\nAbstract: Multimodal intelligence can be viewed as human-guided co-evolution between worlds and agents through interaction. However, scaling this process faces two bottlenecks: constructing heterogeneous, verifiable environments is costly, and manual Harness iteration cannot keep pace with growing task diversity and complexity. A key insight is that tasks with different modalities and surface forms can share the same underlying capability requirements. We therefore introduce The Trinity, a recursive self-improvement framework coupling world generation with Harness evolution through three roles: Creator, Explorer, and Evolver. Drawing on verified execution trajectories, Evolver shifts the basis of task organization from surface categories to shared requirements, reorganizing the original task tree into a hierarchical capability tree. We introduce Capability-Driven Real2Sim2Real: for heterogeneous tasks at the same node, Creator abstracts their common requirements into simplified, verifiable simulated worlds for capability learning, while evaluation on original tasks measures transfer. Along this capability tree, Explorer progressively evolves reusable capability modules through selective inheritance, forming a Harness tree whose validated updates accumulate across iterations within a fixed topology. The resulting Harnesses specialize in different capabilities, motivating a Capability-Aware Harness Router that uses public task information to select compatible module configurations from the tree. Our evolved Harnesses improve mean performance by 34 points across 28 training benchmarks and 26 points across 18 unseen benchmarks, including two real-world embodied tasks.",
+          "summaryZh": "arXiv:2610.36077v1 公告类型：新\n摘要：多模态智能可以被视为人类引导的世界和智能体之间通过交互进行的共同进化。然而，扩展这个过程面临两个瓶颈：构建异构、可验证的环境成本高昂，并且手动 Harness 迭代无法跟上不断增长的任务多样性和复杂性。一个关键的见解是，具有不同模式和表面形式的任务可以共享相同的底层能力要求。因此，我们引入了三位一体，一个递归的自我完善框架，通过三个角色将世界生成与利用进化结合起来：创造者、探索者和进化者。借助经过验证的执行轨迹，Evolver 将任务组织的基础从表面类别转变为共享需求，将原始任务树重新组织为分层能力树。我们引入Capability-Driven Real2Sim2Real：对于同一节点的异构任务，Creator将其共同需求抽象为简化的、可验证的模拟世界以进行能力学习，同时对原始任务的评估衡量迁移。沿着这个能力树，Explorer 通过选择性继承逐步发展可重用的能力模块，形成一个 Harness 树，其经过验证的更新在固定拓扑内的迭代中累积。由此产生的线束专注于不同的功能，激发能力感知线束路由器使用公共任务信息从树中选择兼容的模块配置。我们改进的安全带在 28 个训练基准中将平均性能提高了 34 点，在 18 个未见过的基准中将平均性能提高了 26 点，其中包括两项现实世界的具体任务。",
+          "publishedAt": "2026-10-29T04:00:00.000Z",
+          "comments": null,
+          "author": "Weidong Tang, Ruiheng Wang, Jingxuan Zhang, Hexin Wang, Haoyuan Chen, Zhengfeiyang Zhang, Yixing Ma, Zichen Jiang, Ziyu Guo, Haodong Li, Zhengbo Jiao, Zhiqing Cui, Xinxiang Yin, Shuo Liang, Zhenglin Wan, Hongzhan Lin, Wangbo Zhao Kaipeng Zhang, Pengfei Zhou, Odin Zhang, Yang You"
+        },
+        {
+          "id": "oai:arXiv.org:2610.36100v1",
+          "title": "CohortFlow: A Steerable Clinical Cohort Curation Agent with Localized Semantic Correction",
+          "titleZh": "CohortFlow：具有局部语义校正功能的可操纵临床队列管理代理",
+          "link": "https://arxiv.org/abs/2610.36100",
+          "summary": "arXiv:2610.36100v1 Announce Type: new\nAbstract: Language model agents for clinical cohort curation should accommodate evolving eligibility criteria without repeatedly processing unchanged requirements. We introduce CohortFlow, a steerable agent that represents natural language corrections as localized updates to a structured cohort specification and reconciles them with a persistent execution graph. Explicitly recorded semantic dependencies enable affected computations to be selectively invalidated while preserving valid prior results. On 100 scenarios derived from clinical-trial eligibility criteria, comprising 126 correction turns, localized steering achieves 77.0% requirement micro-F1 versus 76.4% for full regeneration using the same 8B model, a small numerical advantage that is not statistically significant ($p=0.493$). It reduces mean correction latency by 64.8% after completion and 44.3% during execution, with 38.1% fewer model calls. In a separate proof-of-concept evaluation over MIMIC, all 13 cohort states execute successfully, while correction trajectories demonstrate selective preservation of unaffected computations and recomputation of changed or dependent nodes. Together, these results show that localized semantic steering can substantially reduce correction latency and model calls while maintaining strong requirement-level accuracy.",
+          "summaryZh": "arXiv:2610.36100v1 公告类型：新\n摘要：用于临床队列管理的语言模型代理应适应不断变化的资格标准，而不重复处理不变的要求。我们引入了 CohortFlow，这是一种可操纵的代理，它将自然语言校正表示为对结构化队列规范的本地化更新，并将它们与持久执行图进行协调。显式记录的语义依赖性使得受影响的计算能够选择性地失效，同时保留有效的先前结果。在源自临床试验资格标准的 100 个场景中，包括 126 个校正转弯，局部转向实现了 77.0% 的微 F1 要求，而使用相同 8B 模型的完全再生则达到了 76.4%，这是一个很小的数值优势，但在统计上并不显着 ($p=0.493$)。完成后平均校正延迟减少了 64.8%，执行期间平均校正延迟减少了 44.3%，模型调用减少了 38.1%。在 MIMIC 的单独概念验证评估中，所有 13 个队列状态均成功执行，而校正轨迹表明选择性保留未受影响的计算以及更改或依赖节点的重新计算。总之，这些结果表明，本地化语义引导可以显着减少校正延迟和模型调用，同时保持强大的需求级别准确性。",
+          "publishedAt": "2026-10-29T04:00:00.000Z",
+          "comments": null,
+          "author": "Neil Chen, Adrian Serapio, Hanxue Gu, Evan Lee, Kang Wang, Yang Yang"
+        },
+        {
+          "id": "oai:arXiv.org:2610.36116v1",
+          "title": "Why and How to Do Science When AI Is Better at It: A Framework Grounded in Human Understanding and Direction",
+          "titleZh": "当人工智能更擅长时为什么以及如何进行科学研究：一个基于人类理解和指导的框架",
+          "link": "https://arxiv.org/abs/2610.36116",
+          "summary": "arXiv:2610.36116v1 Announce Type: new\nAbstract: As AI begins to match or exceed human researchers at core scientific tasks, two questions become pressing: \\emph{why} should humans keep doing science, and \\emph{how} should they use AI when they do? This paper argues that the second can be answered only by answering the first. It holds that one indispensable aim of science is \\emph{durable, collective human understanding of the world, pursued in service of human ends and values}. From this principle it derives a two-part test for when a research task can be delegated to AI. The first part, \\emph{human understanding}, requires that the scientific community remain able to explain, defend and contest the resulting claims, and retain the skills to do so. The second, \\emph{human direction}, requires that judgments about which questions matter and what findings mean stay with accountable humans. Applying the test to each phase of research in the Contributor Roles Taxonomy (CRediT) yields recommendations that fields can tailor to their questions and methods. The framework differs from existing guidance in three ways. It rests on an account of what science is for rather than on integrity norms. It holds even if AI outperforms human researchers, rather than depending on AI's current limitations. And it judges each use of AI by its effects on human understanding and direction rather than by the type of tool, across every phase of research, including peer review and the training of new researchers. It closes with the reforms needed to keep science aimed at human understanding and direction.",
+          "summaryZh": "arXiv:2610.36116v1 公告类型：新\n摘要：随着人工智能在核心科学任务上开始赶上或超过人类研究人员，两个问题变得紧迫：\\emph{为什么}人类应该继续从事科学研究，\\emph{当他们这样做时应该如何使用人工智能？本文认为，只有回答第一个问题才能回答第二个问题。它认为科学的一个不可或缺的目标是\\emph{人类对世界的持久的、集体的理解，为人类的目的和价值观服务而追求}。根据这一原则，它派生出一个由两部分组成的测试，用于测试何时可以将研究任务委托给人工智能。第一部分，\\emph{人类理解}，要求科学界仍然能够解释、捍卫和质疑由此产生的主张，并保留这样做的技能。第二个，\\emph{人类方向}，要求对哪些问题重要以及研究结果意味着什么的判断由负责任的人类来决定。将测试应用于贡献者角色分类法 (CRediT) 中研究的每个阶段都会产生建议，各领域可以根据其问题和方法进行定制。该框架在三个方面与现有指南不同。它基于对科学用途的解释，而不是基于诚信规范。即使人工智能超越人类研究人员，它仍然成立，而不是取决于人工智能当前的局限性。它在研究的每个阶段（包括同行评审和新研究人员的培训）中根据其对人类理解和方向的影响而不是工具类型来判断人工智能的每次使用。它以保持科学旨在人类理解和指导为目标所需的改革结束。",
+          "publishedAt": "2026-10-29T04:00:00.000Z",
+          "comments": null,
+          "author": "Hoda Heidari, Aydin Mohseni"
+        },
+        {
+          "id": "oai:arXiv.org:2610.36146v1",
+          "title": "From Structural Feedback to Prompt Policies: Learning Faithful Text-to-Image Prompt Editors",
+          "titleZh": "从结构反馈到提示策略：学习忠实的文本到图像提示编辑器",
+          "link": "https://arxiv.org/abs/2610.36146",
+          "summary": "arXiv:2610.36146v1 Announce Type: new\nAbstract: Prompt optimization should improve the image a user receives without changing the scene the user requested. Yet stylistic rewriting can weaken object attributes and relations even when global text--image similarity remains high. We propose StruPO, a structure-aware prompt editor that uses a calibrated scene graph as a shared representation for policy conditioning and image-grounded supervision. The graph exposes what should be preserved, while deletion, reordering, and insertion provide a token-aligned way to modify the prompt. This turns structural feedback from an external critique into a training signal for a reusable editing policy. Learning from that signal requires handling both uncertain grounding and stochastic image generation. StruPO retains grounding confidence through smooth reward shaping and averages multiple images for each edit before computing group-relative advantages. Experiments span three disjoint 2K-prompt test sets and four frozen generation backbones, with comparisons to learned prompt optimizers, iterative structural feedback, diffusion-model fine-tuning, and inference-time attention control. StruPO improves the faithfulness--aesthetics trade-off, with consistent gains in relational fidelity. Independent automatic evaluators and a 15-annotator study provide complementary evidence, and human preference margins increase with relation complexity. Controlled ablations connect these gains to graph conditioning, local editing, and image-grounded learning. The resulting policy produces reusable optimized text in one pass after graph calibration, without an iterative critique--rewrite loop.",
+          "summaryZh": "arXiv:2610.36146v1 公告类型：新\n摘要：即时优化应该在不改变用户请求的场景的情况下改善用户接收到的图像。然而，即使全局文本-图像相似性仍然很高，文体重写也会削弱对象属性和关系。我们提出了 StruPO，一种结构感知提示编辑器，它使用校准的场景图作为策略调节和基于图像的监督的共享表示。该图公开了应保留的内容，而删除、重新排序和插入提供了一种标记对齐的方式来修改提示。这将来自外部批评的结构反馈转变为可重复使用的编辑策略的训练信号。从该信号中学习需要处理不确定的接地和随机图像生成。 StruPO 通过平滑的奖励塑造来保留基础信心，并在计算群体相对优势之前对每次编辑的多个图像进行平均。实验跨越三个不相交的 2K 提示测试集和四个冻结生成主干，并与学习提示优化器、迭代结构反馈、扩散模型微调和推理时间注意力控制进行比较。 StruPO 改善了忠诚度——美学权衡，在关系保真度方面持续获得收益。独立的自动评估者和 15 名注释者的研究提供了补充证据，人类的偏好幅度随着关系复杂性的增加而增加。受控消融将这些增益与图形调节、本地编辑和基于图像的学习联系起来。由此产生的策略在图形校准后一次性生成可重用的优化文本，无需迭代批判-重写循环。",
+          "publishedAt": "2026-10-29T04:00:00.000Z",
+          "comments": null,
+          "author": "Wentao Ye, Yali Ye, Zhiqing Xiao, Ru Peng, Xinpeng Ti, Liyao Li, Zhanming Shen, Peng Lu, Jie Zhang, Haobo Wang"
+        },
+        {
+          "id": "oai:arXiv.org:2610.36169v1",
+          "title": "Don't Pick a Winner: Knowledge Conflicts Need a Prior, Not a Rule",
+          "titleZh": "不要选择获胜者：知识冲突需要先决条件，而不是规则",
+          "link": "https://arxiv.org/abs/2610.36169",
+          "summary": "arXiv:2610.36169v1 Announce Type: new\nAbstract: A retrieval-augmented language model answers from two sources, the retrieved context and its own knowledge, and the two disagree whenever the context is incomplete or wrong. Existing methods settle the disagreement with a rule fixed at design time: follow the context, amplify it in proportion to how far it moves the model, or trust the model's memory. Each rule is confidently wrong in some deployment. In a decision-theoretic model of two sources, the score of any fixed rule is linear in the share of reliable contexts while the best attainable score is convex, so every fixed rule is beaten wherever it is not exactly optimal; and a symmetric divergence between the two sources, the signal adaptive decoding uses, carries no information about which one is right. Resolving a conflict therefore needs two inputs that no existing method keeps: evidence about each source separately, and a prior on how often the context is right. We test these claims on GRACE, a benchmark that intervenes on the knowledge-graph context of a fixed question, so that what the model knows, what the context says and what is true are measured separately. There, every baseline from four families is strong on right contexts or on wrong ones, never on both. We then build the two inputs: the model states its knowledge as notes, a small policy voices each note with a calibrated confidence, a reader answers in two voices, and a selector commits or abstains under a prior $\\pi$ applied as an exact prior shift. With $\\pi$ set to the true share of right contexts, the system is above the best baseline at every mixture of GRACE contexts, by up to 26 points. Its overall score is 45.3 and 35.0 (Qwen3.5-35B-A3B, Llama-3.1-8B), against 29.4 and 27.5 for the best baseline. On preregistered ClashEval it beats same-backbone CK-PLUG and TCR by 12 and 26 points. Where the model lacks the knowledge, the gains vanish, as the theory predicts.",
+          "summaryZh": "arXiv:2610.36169v1 公告类型：新\n摘要：检索增强语言模型的答案有两个来源：检索到的上下文和它自己的知识，只要上下文不完整或错误，两者就会不一致。现有的方法用设计时固定的规则来解决分歧：遵循上下文，根据模型移动的距离按比例放大它，或者信任模型的记忆。在某些部署中，每条规则都肯定是错误的。在两个来源的决策理论模型中，任何固定规则的分数与可靠上下文的份额是线性的，而可获得的最佳分数是凸的，因此每个固定规则在不完全最优的地方都会被击败；信号自适应解码所使用的两个源之间的对称散度不携带关于哪一个是正确的信息。因此，解决冲突需要现有方法所保留的两个输入：分别有关每个来源的证据，以及上下文正确的频率的先验信息。我们在 GRACE 上测试这些说法，GRACE 是一个干预固定问题的知识图谱上下文的基准，以便模型知道什么、上下文所说的内容以及真实的内容分别进行测量。在那里，四个家庭的每条基线在正确的背景或错误的背景下都很强，但从来没有两者兼而有之。然后，我们构建两个输入：模型以注释的形式陈述其知识，一个小策略以校准的置信度表达每个注释，读者以两种声音回答，选择器在作为精确先前转变应用的先前 $\\pi$ 下提交或弃权。将 $\\pi$ 设置为正确上下文的真实份额后，系统在每种 GRACE 上下文混合中都高于最佳基线，最高可达 26 个点。其总体得分为 45.3 和 35.0（Qwen3.5-35B-A3B、Llama-3.1-8B），而最佳基线得分为 29.4 和 27.5。在预先注册的 ClashEval 上，它分别击败了相同主干的 CK-PLUG 和 TCR 12 点和 26 点。正如理论预测的那样，如果模型缺乏知识，收益就会消失。",
+          "publishedAt": "2026-10-29T04:00:00.000Z",
+          "comments": null,
+          "author": "Minh Pham Van, Cong Tran"
+        },
+        {
+          "id": "oai:arXiv.org:2610.36183v1",
+          "title": "Learning Human Sports Motion Feasibility via Quantile Regression on Tracking Data",
+          "titleZh": "通过跟踪数据的分位数回归学习人类运动运动的可行性",
+          "link": "https://arxiv.org/abs/2610.36183",
+          "summary": "arXiv:2610.36183v1 Announce Type: new\nAbstract: We study time-to-arrival (TTA) in sports: the shortest plausible time a player needs to reach an arbitrary location on the pitch given their current kinematic state, estimated as the lower envelope of observed locomotion times. Rather than modeling space ownership through position density estimation or closed-form physics-based models, we cast TTA as a conditional quantile regression problem, estimating the lower quantile of locomotion time so the model learns a player's lower-envelope arrival time. We train the model on optical tracking data from all 64 matches of the PFF FC FIFA World Cup 2022 dataset, and evaluate a lightweight multilayer perceptron against six player-motion models from the literature, re-expressed as TTA predictors, and a learned reachable- hull baseline. Across our evaluation metrics, the MLP consistently outperforms every physics-based baseline. To probe the generality of the learned locomotion model, we further evaluate it on basketball tracking data and a single-game NFL tracking dataset, analyzing the transferability of player motion dynamics across sports. Our project is available at https://github.com/mguti97/TTA-Quantile.",
+          "summaryZh": "arXiv:2610.36183v1 公告类型：新\n摘要：我们研究体育运动中的到达时间（TTA）：在给定球员当前运动状态的情况下，球员到达球场上任意位置所需的最短合理时间，估计为观察到的运动时间的下限。我们没有通过位置密度估计或基于物理的封闭式模型来对空间所有权进行建模，而是将 TTA 视为条件分位数回归问题，估计运动时间的下分位数，以便模型了解玩家的下包络到达时间。我们使用来自 PFF FC FIFA 2022 世界杯数据集的所有 64 场比赛的光学跟踪数据来训练模型，并根据文献中的六个球员运动模型（重新表示为 TTA 预测器）和学习的可达船体基线来评估轻量级多层感知器。在我们的评估指标中，MLP 始终优于所有基于物理的基线。为了探讨所学习的运动模型的通用性，我们进一步在篮球跟踪数据和单场 NFL 跟踪数据集上对其进行评估，分析运动员运动动态在不同运动项目中的可转移性。我们的项目位于 https://github.com/mguti97/TTA-Quantile。",
+          "publishedAt": "2026-10-29T04:00:00.000Z",
+          "comments": null,
+          "author": "Marc Guti\\'errez-P\\'erez, Antonio Agudo"
+        },
+        {
+          "id": "oai:arXiv.org:2610.36188v1",
+          "title": "Skill Dreaming: Evolving Repository Skills through Pull Request Streams",
+          "titleZh": "技能梦想：通过拉取请求流发展存储库技能",
+          "link": "https://arxiv.org/abs/2610.36188",
+          "summary": "arXiv:2610.36188v1 Announce Type: new\nAbstract: Large language model (LLM) agents increasingly rely on reusable skills for complex software engineering tasks, making skill libraries essential for repository development and maintenance. However, repository-specific skills must evolve with changing code structures, implementation conventions, and maintenance requirements. Pull requests (PRs) provide a natural source of such knowledge by recording how repositories evolve through implementation and review. Meanwhile, new PRs must follow repository-specific implementation patterns, modify related components consistently, and ensure that existing tests continue to pass while adding coverage for new functionality. This creates a mutually reinforcing cycle: PRs provide knowledge for updating skills, while these skills improve future PRs, maintain repositories, and support further skill evolution. To enable this co-evolution of PRs, repositories, and skills, we propose Skill Dreaming, a framework that learns from PR streams to guide continuous repository development and maintenance. Given a repository and its PR history, Skill Dreaming builds a repository-specific skill library by extracting executable knowledge from validated PRs and continuously refines the skills as new PR information becomes available. These skills guide coding agents not only in implementing requested features but also in maintaining associated tests, documentation, compatibility, and repository conventions. By integrating PR analysis, skill management, code execution, and continuous integration, Skill Dreaming provides an end-to-end workflow for applying learned skills to repository changes and incorporating subsequent PR outcomes into future skill updates.",
+          "summaryZh": "arXiv:2610.36188v1 公告类型：新\n摘要：大型语言模型（LLM）代理越来越依赖可重用的技能来完成复杂的软件工程任务，这使得技能库对于存储库开发和维护至关重要。然而，特定于存储库的技能必须随着代码结构、实现约定和维护要求的变化而发展。拉取请求 (PR) 通过记录存储库如何通过实施和审查而演变，从而提供了此类知识的自然来源。同时，新的 PR 必须遵循存储库特定的实现模式，一致地修改相关组件，并确保现有测试继续通过，同时增加新功能的覆盖范围。这就形成了一个相辅相成的循环：PR 提供更新技能的知识，而这些技能则改进未来的 PR、维护存储库并支持进一步的技能发展。为了实现 PR、存储库和技能的共同进化，我们提出了 Skill Dreaming，这是一个从 PR 流中学习以指导持续存储库开发和维护的框架。给定存储库及其 PR 历史记录，Skill Dreaming 通过从经过验证的 PR 中提取可执行知识来构建特定于存储库的技能库，并在新的 PR 信息可用时不断完善技能。这些技能不仅指导编码代理实现所请求的功能，而且指导维护相关的测试、文档、兼容性和存储库约定。通过集成 PR 分析、技能管理、代码执行和持续集成，Skill Dreaming 提供了一个端到端的工作流程，用于将学到的技能应用于存储库更改，并将后续的 PR 结果合并到未来的技能更新中。",
+          "publishedAt": "2026-10-29T04:00:00.000Z",
+          "comments": null,
+          "author": "Xinyuan Song, Hasibul Haque, Jay Somasundaram, Ryan Turner, Bowen Zhu, Liang Zhao"
+        },
+        {
+          "id": "oai:arXiv.org:2610.36234v1",
+          "title": "MARQ: A Modular, LLM-Agnostic Requirement Quality Assessor Infused with Systems Engineering Knowledge",
+          "titleZh": "MARQ：注入系统工程知识的模块化、与法学硕士无关的需求质量评估器",
+          "link": "https://arxiv.org/abs/2610.36234",
+          "summary": "arXiv:2610.36234v1 Announce Type: new\nAbstract: Requirements engineering (RE) is foundational to systems engineering (SE), as requirement defects can propagate downstream and adversely affect development outcomes. Although large language models (LLMs) are promising for requirement quality assessment, prior work shows that off-the-shelf models miss a large share of expert-identified defects, perform unevenly across quality criteria, and vary across executions. This study investigates whether infusing expert-derived SE knowledge can improve LLM-based requirement quality evaluation beyond off-the-shelf capability. We present MARQ, a modular, LLM-agnostic prototype that supplements LLMs with a criterion-specific knowledge stack operationalizing INCOSE requirement quality criteria and evaluated against off-the-shelf baselines on an expert-labeled NASA requirement set using Claude Opus 5, GPT-5.6 Sol, and the open-weight Gemma 3 12B, with 100 executions per model. MARQ achieves median F1 scores of 0.80 for Claude Opus 5, 0.62 for GPT-5.6 Sol, and 0.53 for Gemma 3 12B, compared with off-the-shelf baselines of 0.55, 0.52, and 0.18, respectively. However, the nature of these gains is model-dependent. Claude Opus 5 improves defect detection and false-alarm control; GPT-5.6 Sol gains detection and better execution-level consistency at the cost of more false alarms; and Gemma 3 12B reaches the performance of off-the-shelf proprietary models, although it remains highly variable. Criterion-level analysis shows gains concentrated in Correctness and Conformance, trade-offs between misses and false alarms within individual criteria, and model-dependent responses across several criteria. These findings position SE knowledge infusion as a promising model-agnostic pathway for strengthening trustworthy LLM-based RE support while underscoring the need for criterion-specific interventions and human-in-the-loop review.",
+          "summaryZh": "arXiv:2610.36234v1 公告类型：新\n摘要：需求工程 (RE) 是系统工程 (SE) 的基础，因为需求缺陷可能会向下游传播并对开发结果产生不利影响。尽管大型语言模型 (LLM) 在需求质量评估方面很有前景，但之前的研究表明，现成的模型遗漏了大部分专家识别的缺陷，在质量标准方面表现不均匀，并且在执行过程中存在差异。本研究调查了注入专家衍生的 SE 知识是否可以改进基于 LLM 的需求质量评估，超越现成的能力。我们提出了 MARQ，一个与法学硕士无关的模块化原型，它通过特定标准的知识堆栈补充了法学硕士，该知识堆栈可操作 INCOSE 需求质量标准，并使用 Claude Opus 5、GPT-5.6 Sol 和开放权重 Gemma 3 12B 根据专家标记的 NASA 需求集的现成基线进行评估，每个模型执行 100 次。 MARQ 的 Claude Opus 5 的 F1 中值分数为 0.80，GPT-5.6 Sol 的中值 F1 分数为 0.62，Gemma 3 12B 的中值 F1 分数为 0.53，而现成的基线分别为 0.55、0.52 和 0.18。然而，这些增益的性质取决于模型。 Claude Opus 5 改进了缺陷检测和误报控制； GPT-5.6 Sol 以更多误报为代价获得了检测和更好的执行级别一致性； Gemma 3 12B 达到了现成专有型号的性能，尽管它仍然存在很大的变化。标准级分析显示，收益集中在正确性和一致性、单个标准内漏报和误报之间的权衡，以及跨多个标准的模型相关响应。这些发现将 SE 知识注入视为一种有前途的模型不可知途径，用于加强值得信赖的基于 LLM 的 RE 支持，同时强调需要针对特定​​标准的干预措施和人在环审查。",
+          "publishedAt": "2026-10-29T04:00:00.000Z",
+          "comments": null,
+          "author": "Jannatul Shefa, Alejandro Salado, Paul Wach, Taylan G. Topcu"
+        },
+        {
+          "id": "oai:arXiv.org:2610.36239v1",
+          "title": "BehaveRec: When Does Long-Term Behavioral History Help Sequential Recommendation? A Study with Session, History, and Community Signals",
+          "titleZh": "BehaveRec：长期行为历史何时有助于顺序推荐？一项关于会话、历史和社区信号的研究",
+          "link": "https://arxiv.org/abs/2610.36239",
+          "summary": "arXiv:2610.36239v1 Announce Type: new\nAbstract: Sequential recommendation models typically predict a user's next action from recent session interactions, which limits personalization when short-term signals are weak or ambiguous. Rather than assuming that incorporating longer-term history and community signals is universally beneficial, we study when it actually helps. We propose BehaveRec, a three-signal framework combining a causal session transformer, a bidirectional User History Encoder over a 90-day window, and a GraphSAGE module over a user-user graph built from behavioral embedding similarity rather than item co-occurrence; a learned gate blends the three signals per user. On an industrial dataset of 137M sequences from 12.6M users, BehaveRec improves R@5 by +3.2% over SASRec, with a larger-capacity SASRec baseline (more parameters than BehaveRec) still trailing by +2.5%, ruling out capacity as the explanation. More importantly, a user-level stratification by history length reveals a clear dose-response relationship: BehaveRec's advantage is negligible below roughly 10 interactions and grows monotonically with history richness, reaching +0.017 R@5 for users with 101+ events. This pattern is corroborated across one industrial and three public datasets spanning history-rich to history-sparse regimes, where session-only models remain preferable. These headline results, and the resulting deployment threshold, are established for category-level intent prediction; a preliminary, single-run check on the full item-level vocabulary yields a directionally mixed result and is scoped as an open question rather than a claim. We use these results to derive a practical deployment rule -- roughly 20 interactions per user -- for when long-term history and behavioral-graph signals are worth their added complexity. Despite this added complexity, BehaveRec remains lightweight: it uses 5.67M parameters and trains on a single GPU in under two days.",
+          "summaryZh": "arXiv:2610.36239v1 公告类型：新\n摘要：顺序推荐模型通常根据最近的会话交互来预测用户的下一步行动，当短期信号微弱或模糊时，这会限制个性化。我们并没有假设整合长期历史和社区信号是普遍有益的，而是研究它何时真正有帮助。我们提出了 BehaveRec，一个三信号框架，结合了因果会话转换器、90 天窗口上的双向用户历史编码器以及基于行为嵌入相似性而不是项目共现构建的用户-用户图上的 GraphSAGE 模块；学习门将每个用户的三个信号混合在一起。在来自 1260 万用户的 1.37 亿序列的工业数据集上，BehaveRec 将 R@5 比 SASRec 提高了 +3.2%，而更大容量的 SASRec 基线（比 BehaveRec 更多的参数）仍然落后 +2.5%，排除了容量作为解释的可能性。更重要的是，按历史长度进行的用户级别分层揭示了清晰的剂量反应关系：BehaveRec 的优势在大约 10 次交互以下可以忽略不计，并且随着历史丰富度单调增长，对于具有 101 个以上事件的用户达到 +0.017 R@5。这一模式在一个工业数据集和三个公共数据集上得到了证实，这些数据集涵盖了历史丰富和历史稀疏的政权，其中仅会话模型仍然更可取。这些标题结果以及由此产生的部署阈值是为类别级意图预测而建立的；对完整项目级词汇表进行初步、单次检查会产生定向混合结果，并将其范围界定为开放性问题而不是主张。我们使用这些结果得出一个实用的部署规则——每个用户大约 20 次交互——当长期历史和行为图信号值得增加复杂性时。尽管增加了复杂性，BehaveRec 仍然是轻量级的：它使用 567 万个参数，并在不到两天的时间内在单个 GPU 上进行训练。",
+          "publishedAt": "2026-10-29T04:00:00.000Z",
+          "comments": null,
+          "author": "Aysenur Inan, Reza Yousefi Maragheh, Jayesh Uddhav Kudase, Selene Xu, Kaushiki Nag, Jianpeng Xu, Sushant Kumar"
+        },
+        {
+          "id": "oai:arXiv.org:2610.36287v1",
+          "title": "A Smart Instant Book Filter Model based on Dual-Objective Optimization",
+          "titleZh": "基于双目标优化的智能即时图书过滤模型",
+          "link": "https://arxiv.org/abs/2610.36287",
+          "summary": "arXiv:2610.36287v1 Announce Type: new\nAbstract: Hospitality service in online marketplaces has become increasingly popular over the past few years, not only because it helps people easily rent short-term lodging but also because it empowers travelers to connect with locals and feel belonging. A typical pattern of these industries is a central platform mediating the economic interactions between guests and hosts, where a successful booking experience is the key to user satisfaction. However, one of the biggest challenges is the possible delay of response and chance of rejection when guests try to book a request-to-book listing. Previously, we enabled the instant book feature to allow hosts to instantly accept qualified guests and guests to confirm bookings immediately. Yet the symptom has not been alleviated given mixed request-to-book and instant book listing supply in search results. One possible solution is to promote all instant book listings in search results; however, booking rate will be damaged due to some improperly promoted low quality listings.\n In this paper, we present a novel smart instant book filter system that applies the instant book filter intelligently and shifts request-to-book to instant book without hurting booking rate. Compared with traditional two-sided markets research that targets finding strategies to maximize a single overall social welfare goal, our proposed system aims to maximize the instant book rate with the constraint that booking rate should not decrease, forming a dual-objective optimization problem.\n We show A/B testing results for our system exposed to global users, demonstrating that our model performs better than previous human-expert-tuned models in terms of both instant book rate and overall booking rate. We also achieved improved metrics such as the host instant book adoption rate. The proposed system has been deployed to production and is serving millions of users every day.",
+          "summaryZh": "arXiv:2610.36287v1 公告类型：新\n摘要：过去几年，在线市场上的酒店服务变得越来越受欢迎，不仅因为它可以帮助人们轻松租用短期住宿，还因为它使旅行者能够与当地人建立联系并感受到归属感。这些行业的典型模式是中介客人和主人之间经济互动的中心平台，其中成功的预订体验是用户满意度的关键。然而，最大的挑战之一是，当房客尝试预订请求预订房源时，可能会出现响应延迟和被拒绝的可能性。此前，我们启用了即时预订功能，让房东可以立即接受符合资格的房客，并让房客立即确认预订。然而，由于搜索结果中混合了预订请求和即时图书列表供应，这一症状并未得到缓解。一种可能的解决方案是在搜索结果中推广所有即时图书列表；然而，由于一些不当推广的低质量房源，预订率将会受到损害。\n 在本文中，我们提出了一种新颖的智能即时预订过滤系统，该系统智能地应用即时预订过滤器，并将预订请求转移到即时预订，而不会影响预订率。与传统的双边市场研究旨在寻找最大化单一总体社会福利目标的策略相比，我们提出的系统旨在最大化即时预订率，同时约束预订率不应下降，形成双目标优化问题。\n 我们向全球用户展示了我们的系统的 A/B 测试结果，表明我们的模型在即时预订率和整体预订率方面都比之前的人类专家调整的模型表现更好。我们还实现了改进的指标，例如主机即时图书采用率。拟议的系统已部署到生产环境，每天为数百万用户提供服务。",
+          "publishedAt": "2026-10-29T04:00:00.000Z",
+          "comments": null,
+          "author": "Yi Hou, Li Fan, Huizhong Duan"
+        },
+        {
+          "id": "oai:arXiv.org:2610.36298v1",
+          "title": "Spiking Neural Networks Are Harder to Steal: A Benchmark Study of Model Stealing Attacks",
+          "titleZh": "尖峰神经网络更难窃取：模型窃取攻击的基准研究",
+          "link": "https://arxiv.org/abs/2610.36298",
+          "summary": "arXiv:2610.36298v1 Announce Type: new\nAbstract: Machine learning models deployed behind query interfaces expose more than their predictions, because an adversary can use those predictions to rebuild the model itself. Model stealing attacks (MSAs) exploit this exposure by training a surrogate model that replicates the decision behavior of a target through black-box queries alone, without access to its parameters or training data. These attacks are well characterized for conventional artificial neural networks (ANNs), yet spiking neural networks (SNNs) process information in a fundamentally different way. SNNs communicate through sparse, discrete spikes, and their outputs depend on membrane potentials that evolve over time rather than on a static mapping from input to output. This temporal mode of computation suggests that the decision behavior of an SNN may be harder to reconstruct from its responses. This work tests that possibility by benchmarking four representative MSAs, namely the Papernot, Tram\\`er, T-RND, and color perturbation attacks, against SNNs and their ANN counterparts on MNIST, Fashion-MNIST, and CIFAR-10. Across every attack and dataset, SNNs prove consistently more difficult to steal. Surrogates of SNNs achieve 10% to 20% lower agreement with the target model and 15% to 25% lower adversarial transferability than surrogates of ANNs. We attribute this resistance to the way SNNs compute, as their spike-based and time-dependent dynamics yield decision boundaries that ANN-based surrogates struggle to approximate, even under large query budgets. These findings extend the known resilience of SNNs beyond attacks on training data to the replication of model functionality, strengthening the case for neuromorphic architectures in security-sensitive applications.",
+          "summaryZh": "arXiv:2610.36298v1 公告类型：新\n摘要：部署在查询接口后面的机器学习模型暴露的不仅仅是它们的预测，因为对手可以使用这些预测来重建模型本身。模型窃取攻击 (MSA) 通过训练代理模型来利用这种暴露，该代理模型仅通过黑盒查询来复制目标的决策行为，而无需访问其参数或训练数据。这些攻击对于传统人工神经网络 (ANN) 来说具有很好的特征，但尖峰神经网络 (SNN) 以完全不同的方式处理信息。 SNN 通过稀疏、离散的尖峰进行通信，其输出取决于随时间变化的膜电位，而不是从输入到输出的静态映射。这种时间计算模式表明 SNN 的决策行为可能更难从其响应中重建。这项工作通过对 MNIST、Fashion-MNIST 和 CIFAR-10 上的 SNN 及其 ANN 对应物进行基准测试，测试了四种代表性 MSA（即 Papernot、Tram\\`er、T-RND 和颜色扰动攻击）的可能性。在每一次攻击和数据集中，SNN 都被证明始终更难以窃取。与 ANN 替代品相比，SNN 替代品与目标模型的一致性降低 10% 到 20%，对抗性可转移性降低 15% 到 25%。我们将这种阻力归因于 SNN 的计算方式，因为它们基于峰值和时间相关的动态产生了基于 ANN 的代理难以近似的决策边界，即使在大量查询预算下也是如此。这些发现将 SNN 的已知弹性扩展到了对训练数据的攻击之外，扩展到模型功能的复制，从而强化了神经形态架构在安全敏感应用中的应用。",
+          "publishedAt": "2026-10-29T04:00:00.000Z",
+          "comments": null,
+          "author": "Ayana Moshruba, Maryam Parsa"
+        },
+        {
+          "id": "oai:arXiv.org:2610.36308v1",
+          "title": "When Retrieval Is Not Enough: Obsolete Facts in Agent Memory",
+          "titleZh": "当检索不够时：代理内存中过时的事实",
+          "link": "https://arxiv.org/abs/2610.36308",
+          "summary": "arXiv:2610.36308v1 Announce Type: new\nAbstract: Memory-agent benchmarks often collapse retrieval and answer generation into one score, making it hard to tell whether a failure comes from missing an update or from not using an update that was already retrieved. We examine this distinction on the single-hop FactConsolidation task of MemoryAgentBench. With Qwen2.5-7B-Instruct on 6K-history BM25 accuracy drops from 45% to 32% when the retrieved evidence budget grows from 64 to 512 tokens, even though a gold-assisted post-hoc audit finds the newest statement in every retrieved set. Most of the errors occur on questions that also contain an obsolete statement version. Under a frozen prompt and equal four-statement evidence size, replacing one unrelated statement with the obsolete competing statement reduces accuracy from 100% to 44.6% for Qwen2.5 and from 100% to 87.8% for Qwen3-14B, with all 50 harmful paired flips classified as stale. A 32K-history replication likewise favors BM25-64 over BM25-512 (69% versus 58%). These results suggest that retrieving the correct fact is not enough. An obsolete competing statement can be more harmful than an unrelated piece of evidence of the same size.",
+          "summaryZh": "arXiv:2610.36308v1 公告类型：新\n摘要：内存代理基准测试通常将检索和答案生成合并为一个分数，这使得很难判断失败是由于错过更新还是由于未使用已检索到的更新。我们在 MemoryAgentBench 的单跳 FactConsolidation 任务上检查了这种区别。使用 Qwen2.5-7B-Instruct 在 6K 历史记录上，当检索到的证据预算从 64 个令牌增加到 512 个令牌时，BM25 的准确性从 45% 下降到 32%，即使黄金辅助的事后审计在每个检索到的集合中找到了最新的语句。大多数错误发生在也包含过时语句版本的问题上。在冻结提示和相等的四语句证据大小下，用过时的竞争语句替换一个不相关的语句会使 Qwen2.5 的准确性从 100% 降低到 44.6%，Qwen3-14B 的准确性从 100% 降低到 87.8%，所有 50 个有害的配对翻转都被归类为过时的。 32K 历史记录复制同样有利于 BM25-64 而不是 BM25-512（69% 对 58%）。这些结果表明，检索正确的事实是不够的。过时的竞争性陈述可能比相同规模的不相关证据更具危害性。",
+          "publishedAt": "2026-10-29T04:00:00.000Z",
+          "comments": null,
+          "author": "Oleeviya Babu Poikarayil, Tony Basil Babu, Abdulrahman Nahhas, Het Darshan Mehta, Jawid Ahmad Baktash, Ernesto William De Luca, Klaus Turowski"
+        },
+        {
+          "id": "oai:arXiv.org:2610.36325v1",
+          "title": "Ontology-guided multi-agent reasoning for explainable differential diagnosis",
+          "titleZh": "本体引导的多主体推理用于可解释的鉴别诊断",
+          "link": "https://arxiv.org/abs/2610.36325",
+          "summary": "arXiv:2610.36325v1 Announce Type: new\nAbstract: Effective differential diagnosis depends on well structured and unambiguous patient case descriptions, since incomplete or ambiguous clinical information readily leads to diagnostic errors and inconsistent reasoning. Large Language Models (LLMs) have recently shown promising capabilities in medical question answering and clinical reasoning; however, even when achieving competitive performance on medical benchmarks, they often rely on pattern recognition learned from training data rather than grounded clinical evidence, and can generate plausible yet unsupported diagnostic conclusions. Their reasoning remains largely opaque, making it difficult for clinicians to assess the evidence and rationale behind a given recommendation. To address this gap, we propose an ontology-guided, multiagent differential diagnosis framework that replicates the iterative reasoning process of physicians. The framework grounds diagnostic inference in a structured, expert-curated medical knowledge base, enabling interpretation of symptoms, clinical findings, or disease relationships, while decomposing diagnosis into explicit, auditable reasoning steps. This ontology-based grounding constrains inference to evidence-backed associations, reducing hallucination and improving diagnostic transparency, traceability, and consistency. The system then identifies the most discriminative missing symptoms and generates targeted follow-up questions to reduce uncertainty through a process that mirrors to clinical inquiry. Together, these components improve the reliability, explainability, and diagnostic accuracy of AI-assisted differential diagnosis. The source code is publicly available.",
+          "summaryZh": "arXiv:2610.36325v1 公告类型：新\n摘要：有效的鉴别诊断取决于结构良好且明确的患者病例描述，因为不完整或模糊的临床信息很容易导致诊断错误和不一致的推理。大型语言模型（LLM）最近在医学问答和临床推理方面表现出了有前途的能力；然而，即使在医疗基准上取得了有竞争力的表现，他们也常常依赖于从训练数据中学到的模式识别，而不是有根据的临床证据，并且可以生成看似合理但未经支持的诊断结论。他们的推理在很大程度上仍然不透明，使得临床医生很难评估给定建议背后的证据和理由。为了解决这一差距，我们提出了一个本体引导的多主体鉴别诊断框架，该框架复制了医生的迭代推理过程。该框架将诊断推理建立在结构化的、专家策划的医学知识库中，从而能够解释症状、临床发现或疾病关系，同时将诊断分解为明确的、可审计的推理步骤。这种基于本体论的基础限制了对有证据支持的关联的推理，减少了幻觉并提高了诊断的透明度、可追溯性和一致性。然后，该系统会识别最具辨别力的缺失症状，并生成有针对性的后续问题，以通过反映临床询问的过程减少不确定性。这些组件共同提高了人工智能辅助鉴别诊断的可靠性、可解释性和诊断准确性。源代码是公开的。",
+          "publishedAt": "2026-10-29T04:00:00.000Z",
+          "comments": null,
+          "author": "Roxana Ramona Szomiu, George Ursu, Adrian Groza"
+        }
+      ]
+    },
+    {
+      "id": "arxiv-cs-lg",
+      "title": "arXiv cs.LG",
+      "url": "https://rss.arxiv.org/rss/cs.LG",
+      "home": "https://arxiv.org/list/cs.LG/recent",
+      "group": "arxiv",
+      "fetchedAt": "2026-10-30T03:58:05.925Z",
+      "count": 0,
+      "items": []
+    }
+  ]
+}
