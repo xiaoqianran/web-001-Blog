@@ -1,15 +1,20 @@
 {
   "source": "content/feeds.json",
   "attribution": "Aggregated headlines/summaries from third-party RSS/Atom feeds for navigation only. All rights belong to original publishers and authors. Chinese text is machine-translated.",
-  "fetchedAt": "2026-10-31T11:33:28.143Z",
+  "fetchedAt": "2026-10-31T16:40:56.702Z",
   "date": "2026-10-31",
   "feedCount": 3,
-  "itemCount": 35,
+  "itemCount": 15,
   "locale": {
     "summaryDefault": "zh",
     "translated": true
   },
-  "errors": [],
+  "errors": [
+    {
+      "id": "hacker-news",
+      "error": "fetch failed"
+    }
+  ],
   "feeds": [
     {
       "id": "hacker-news",
@@ -17,230 +22,10 @@
       "url": "https://hnrss.org/frontpage",
       "home": "https://news.ycombinator.com/",
       "group": "community",
-      "fetchedAt": "2026-10-31T11:33:02.131Z",
-      "count": 20,
-      "items": [
-        {
-          "id": "https://news.ycombinator.com/item?id=50314666",
-          "title": "Molly(Signal fork) has not been updated since 3 months and is vulnerable",
-          "titleZh": "Molly(信号叉) 3个月没有更新，存在漏洞",
-          "link": "https://piefed.world/post/1503394",
-          "summary": "Article URL: https://piefed.world/post/1503394\n\n Comments URL: https://news.ycombinator.com/item?id=50314666\n\n Points: 6\n\n # Comments: 1",
-          "summaryZh": "文章网址：https://piefed.world/post/1503394\n\n 评论网址：https://news.ycombinator.com/item?id=50314666\n\n 积分：6\n\n # 评论: 1",
-          "publishedAt": "2026-10-31T10:23:41.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50314666",
-          "author": "DeepLogin"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50314654",
-          "title": "Serbia just elected the world's brainiest parliament",
-          "titleZh": "塞尔维亚刚刚选出了世界上最聪明的议会",
-          "link": "https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament",
-          "summary": "Article URL: https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament\n\n Comments URL: https://news.ycombinator.com/item?id=50314654\n\n Points: 138\n\n # Comments: 86",
-          "summaryZh": "文章网址：https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament\n\n 评论网址：https://news.ycombinator.com/item?id=50314654\n\n 积分：138\n\n # 评论: 86",
-          "publishedAt": "2026-10-31T10:21:30.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50314654",
-          "author": "input_sh"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50314243",
-          "title": "How long do you need to hold down the power button to turn off a PC?",
-          "titleZh": "您需要按住电源按钮多长时间才能关闭电脑？",
-          "link": "https://www.osnews.com/story/146273/how-long-do-you-need-to-hold-down-the-power-button-to-turn-off-a-pc/",
-          "summary": "Article URL: https://www.osnews.com/story/146273/how-long-do-you-need-to-hold-down-the-power-button-to-turn-off-a-pc/\n\n Comments URL: https://news.ycombinator.com/item?id=50314243\n\n Points: 27\n\n # Comments: 2",
-          "summaryZh": "文章网址：https://www.osnews.com/story/146273/how-long-do-you-need-to-hold-down-the-power-button-to-turn-off-a-pc/\n\n 评论网址：https://news.ycombinator.com/item?id=50314243\n\n 积分：27\n\n # 评论: 2",
-          "publishedAt": "2026-10-31T08:43:32.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50314243",
-          "author": "Arodex"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50314085",
-          "title": "Switch Lowering in GCC",
-          "titleZh": "GCC 中的开关降低",
-          "link": "https://xoranth.net/gcc-switch/",
-          "summary": "Article URL: https://xoranth.net/gcc-switch/\n\n Comments URL: https://news.ycombinator.com/item?id=50314085\n\n Points: 74\n\n # Comments: 7",
-          "summaryZh": "文章网址：https://xoranth.net/gcc-switch/\n\n 评论网址：https://news.ycombinator.com/item?id=50314085\n\n 积分：74\n\n # 评论: 7",
-          "publishedAt": "2026-10-31T08:02:26.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50314085",
-          "author": "signa11"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50313661",
-          "title": "Digital Minimalism",
-          "titleZh": "数字极简主义",
-          "link": "https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html",
-          "summary": "Article URL: https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html\n\n Comments URL: https://news.ycombinator.com/item?id=50313661\n\n Points: 72\n\n # Comments: 41",
-          "summaryZh": "文章网址：https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html\n\n 评论网址：https://news.ycombinator.com/item?id=50313661\n\n 积分：72\n\n # 评论: 41",
-          "publishedAt": "2026-10-31T06:16:36.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50313661",
-          "author": "wilbertliu"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50312756",
-          "title": "Tell HN: Scribd Breached",
-          "titleZh": "告诉 HN：Scribd 被破坏",
-          "link": "https://news.ycombinator.com/item?id=50312756",
-          "summary": "Not seeing anything posted about this anywhere, received on Monday, 26th of Oct 2026: Subject: Notice of Security Incident This notice is being sent on behalf of Scribd, Inc., the parent company of Scribd, Slideshare, Everand, and Fable, by Epiq, Scribd Inc.’s notification partner. Hello, We are writing to let you know that Scribd, Inc. recently experienced a security incident that may have affected your data. We detected that an unauthorized third party may have gained access to certain user data in one of our systems. After investigating this activity, we found that the third party may have accessed your email address and the following of your information: last 4 digits of your credit card and country, credit card issuer, credit card expiry date, payment history (not including credit card details). We have no evidence that this data has been misused, but we are notifying you out of an abundance of caution so that you can take steps to protect your information. Watch for phishing We encourage you to stay vigilant for phishing attempts by bad actors pretending to be Scribd, Inc. or Scribd, Slideshare, Everand or Fable. Remember that Scribd, Inc. will never ask you for your username and password or other sensitive information via email or text. If you did receive a message like that: Don't click on any links in it. Instead type scribd.com, slideshare.net, everand.com, or fable.co directly into your browser.\n Call us at: +1-877-361-9887. Hours of operation are Monday-Friday, 11:00 a.m.-11:00 p.m., Central European Time.\n Report it through Scribd, Inc.'s Help Center.\n\nFor more information We regret that this incident occurred and any concern it may cause you. If you have additional questions, contact the dedicated call center at +1-877-361-9887. Hours of operation are Monday-Friday, 11:00 a.m.-11:00 p.m. Central European Time. The National Cyber Security Center has helpful guidance on how to recognize and avoid phishing scams here. What Scribd, Inc. is doing We have secured the affected system and ended the unauthorized access.\n We have notified law enforcement as well as the relevant data protection authorities.\n We are working with an expert third party cybersecurity firm to strengthen our access controls and monitoring.\n\nWe value the trust you place in us with your information, and don’t take that lightly. We are deeply sorry this happened and will keep you updated if anything further changes. Scribd, Inc.\n\n Comments URL: https://news.ycombinator.com/item?id=50312756\n\n Points: 235\n\n # Comments: 95",
-          "summaryZh": "在 2026 年 10 月 26 日星期一收到的任何地方都没有看到与此相关的任何内容：主题：安全事件通知 此通知由 Scribd Inc. 的通知合作伙伴 Epiq 代表 Scribd, Inc.（Scribd、Slideshare、Everand 和 Fable 的母公司）发送。您好，我们写信是为了通知您，Scribd, Inc. 最近经历了一次可能影响您的数据的安全事件。我们检测到未经授权的第三方可能已经访问了我们系统之一中的某些用户数据。调查此活动后，我们发现第三方可能访问了您的电子邮件地址和以下信息：您的信用卡和国家/地区的最后 4 位数字、信用卡发卡机构、信用卡到期日、付款历史记录（不包括信用卡详细信息）。我们没有证据表明这些数据被滥用，但出于谨慎考虑，我们通知您，以便您可以采取措施保护您的信息。警惕网络钓鱼 我们鼓励您对不良行为者冒充 Scribd, Inc. 或 Scribd、Slideshare、Everand 或 Fable 进行的网络钓鱼尝试保持警惕。请记住，Scribd, Inc. 绝不会通过电子邮件或短信询问您的用户名和密码或其他敏感信息。如果您确实收到了这样的消息：请勿单击其中的任何链接。而是直接在浏览器中输入 scribd.com、slideshare.net、everand.com 或 fable.co。\n 请致电：+1-877-361-9887。工作时间为欧洲中部时间周一至周五上午 11:00 至晚上 11:00。\n 通过 Scribd, Inc. 的帮助中心报告该问题。\n\n如需了解更多信息，我们对此次事件的发生以及由此可能给您带来的任何担忧表示遗憾。如果您还有其他问题，请联系专门的呼叫中心：+1-877-361-9887。工作时间为周一至周五，上午 11:00 至晚上 11:00。中欧时间。国家网络安全中心提供了有关如何识别和避免网络钓鱼诈骗的有用指南。 Scribd, Inc. 正在做什么 我们已保护受影响的系统并结束了未经授权的访问。\n 我们已通知执法部门以及相关数据保护机构。\n 我们正在与专业的第三方网络安全公司合作，以加强我们的访问控制和监控。\n\n我们重视您对我们的信息的信任，并且不会掉以轻心。我们对发生的事情深感抱歉，如果有任何进一步的变化，我们会及时通知您。斯克里布德公司\n\n 评论网址：https://news.ycombinator.com/item?",
-          "publishedAt": "2026-10-31T02:46:36.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50312756",
-          "author": "x______________"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50311686",
-          "title": "Show HN: To Honor Sir Patrick Stewart, Enjoy the TNG Episode Guessing Game",
-          "titleZh": "Show HN：为了纪念帕特里克·斯图尔特爵士，享受 TNG 剧集猜谜游戏",
-          "link": "https://tng.episodle.com/",
-          "summary": "Article URL: https://tng.episodle.com/\n\n Comments URL: https://news.ycombinator.com/item?id=50311686\n\n Points: 197\n\n # Comments: 55",
-          "summaryZh": "文章网址：https://tng.episodle.com/\n\n 评论网址：https://news.ycombinator.com/item?id=50311686\n\n 积分：197\n\n # 评论: 55",
-          "publishedAt": "2026-10-30T23:51:24.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50311686",
-          "author": "francisofascii"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50310398",
-          "title": "Sanstun: A sans-IO, parallel-friendly WireGuard implementation in Rust",
-          "titleZh": "Sanstun：Rust 中的无 IO、并行友好的 WireGuard 实现",
-          "link": "https://www.firezone.dev/blog/introducing-sanstun",
-          "summary": "Article URL: https://www.firezone.dev/blog/introducing-sanstun\n\n Comments URL: https://news.ycombinator.com/item?id=50310398\n\n Points: 137\n\n # Comments: 27",
-          "summaryZh": "文章网址：https://www.firezone.dev/blog/introducing-sanstun\n\n 评论网址：https://news.ycombinator.com/item?id=50310398\n\n 积分：137\n\n # 评论: 27",
-          "publishedAt": "2026-10-30T21:30:00.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50310398",
-          "author": "wh33zle"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50309314",
-          "title": "Jules Verne's Lost Novel",
-          "titleZh": "儒勒·凡尔纳失落的小说",
-          "link": "https://blue-continuum.com/verne-paris",
-          "summary": "Article URL: https://blue-continuum.com/verne-paris\n\n Comments URL: https://news.ycombinator.com/item?id=50309314\n\n Points: 120\n\n # Comments: 28",
-          "summaryZh": "文章网址：https://blue-continuum.com/verne-paris\n\n 评论网址：https://news.ycombinator.com/item?id=50309314\n\n 积分：120\n\n # 评论: 28",
-          "publishedAt": "2026-10-30T19:55:10.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50309314",
-          "author": "dnetesn"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50309266",
-          "title": "The oldest ice disappears and the Stone Age emerges from it",
-          "titleZh": "最古老的冰消失了，石器时代从中出现",
-          "link": "https://www.sciencenorway.no/archaeology-climate-culture/the-oldest-ice-is-disappearing-the-stone-age-is-emerging-from-the-melting-ice/2713921",
-          "summary": "Article URL: https://www.sciencenorway.no/archaeology-climate-culture/the-oldest-ice-is-disappearing-the-stone-age-is-emerging-from-the-melting-ice/2713921\n\n Comments URL: https://news.ycombinator.com/item?id=50309266\n\n Points: 156\n\n # Comments: 60",
-          "summaryZh": "文章网址：https://www.sciencenorway.no/archaeology-climate-culture/the-oldest-ice-is-disappearing-the-stone-age-is-emerging-from-the-melting-ice/2713921\n\n 评论网址：https://news.ycombinator.com/item?id=50309266\n\n 积分：156\n\n # 评论: 60",
-          "publishedAt": "2026-10-30T19:51:33.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50309266",
-          "author": "dxs"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50309029",
-          "title": "Infinite Mac: BeOS",
-          "titleZh": "无限 Mac：BeOS",
-          "link": "https://blog.persistent.info/2026/10/infinite-mac-beos.html",
-          "summary": "Article URL: https://blog.persistent.info/2026/10/infinite-mac-beos.html\n\n Comments URL: https://news.ycombinator.com/item?id=50309029\n\n Points: 164\n\n # Comments: 81",
-          "summaryZh": "文章网址：https://blog.persistent.info/2026/10/infinite-mac-beos.html\n\n 评论网址：https://news.ycombinator.com/item?id=50309029\n\n 积分：164\n\n # 评论: 81",
-          "publishedAt": "2026-10-30T19:30:09.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50309029",
-          "author": "ecliptik"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50307190",
-          "title": "My favourite PowerMac is a Nintendo Wii",
-          "titleZh": "我最喜欢的 PowerMac 是 Nintendo Wii",
-          "link": "https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/",
-          "summary": "Article URL: https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/\n\n Comments URL: https://news.ycombinator.com/item?id=50307190\n\n Points: 314\n\n # Comments: 90",
-          "summaryZh": "文章网址：https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/\n\n 评论网址：https://news.ycombinator.com/item?id=50307190\n\n 积分：314\n\n # 评论: 90",
-          "publishedAt": "2026-10-30T17:25:15.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50307190",
-          "author": "DHowett"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50306442",
-          "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
-          "titleZh": "Show HN：一台可用的任天堂，重量约为 1GB Qwen",
-          "link": "https://github.com/dbreunig/nesformer",
-          "summary": "Article URL: https://github.com/dbreunig/nesformer\n\n Comments URL: https://news.ycombinator.com/item?id=50306442\n\n Points: 256\n\n # Comments: 122",
-          "summaryZh": "文章网址：https://github.com/dbreunig/nesformer\n\n 评论网址：https://news.ycombinator.com/item?id=50306442\n\n 积分：256\n\n # 评论: 122",
-          "publishedAt": "2026-10-30T16:40:22.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50306442",
-          "author": "dbreunig"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50305637",
-          "title": "Florilegium: Procedural Flowers in LaTeX",
-          "titleZh": "Florilegium：LaTeX 中的程序花",
-          "link": "https://github.com/kevinraymond/florilegium",
-          "summary": "Article URL: https://github.com/kevinraymond/florilegium\n\n Comments URL: https://news.ycombinator.com/item?id=50305637\n\n Points: 295\n\n # Comments: 47",
-          "summaryZh": "文章网址：https://github.com/kevinraymond/florilegium\n\n 评论网址：https://news.ycombinator.com/item?id=50305637\n\n 积分：295\n\n # 评论: 47",
-          "publishedAt": "2026-10-30T15:48:12.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50305637",
-          "author": "nanna"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50305573",
-          "title": "The federated code forge",
-          "titleZh": "联合代码伪造",
-          "link": "https://tangled.org/blog/forge/",
-          "summary": "Article URL: https://tangled.org/blog/forge/\n\n Comments URL: https://news.ycombinator.com/item?id=50305573\n\n Points: 295\n\n # Comments: 85",
-          "summaryZh": "文章网址：https://tangled.org/blog/forge/\n\n 评论网址：https://news.ycombinator.com/item?id=50305573\n\n 积分：295\n\n # 评论: 85",
-          "publishedAt": "2026-10-30T15:44:29.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50305573",
-          "author": "zlliang"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50305025",
-          "title": "Northflank Breached",
-          "titleZh": "北翼突破",
-          "link": "https://status.northflank.com",
-          "summary": "Article URL: https://status.northflank.com\n\n Comments URL: https://news.ycombinator.com/item?id=50305025\n\n Points: 444\n\n # Comments: 317",
-          "summaryZh": "文章网址：https://status.northflank.com\n\n 评论网址：https://news.ycombinator.com/item?id=50305025\n\n 积分：444\n\n # 评论: 317",
-          "publishedAt": "2026-10-30T15:10:31.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50305025",
-          "author": "js4ever"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50304122",
-          "title": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
-          "titleZh": "思科为工程师提供无限的人工智能代币来重写遗留代码",
-          "link": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
-          "summary": "Article URL: https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/\n\n Comments URL: https://news.ycombinator.com/item?id=50304122\n\n Points: 205\n\n # Comments: 238",
-          "summaryZh": "文章网址：https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/\n\n 评论网址：https://news.ycombinator.com/item?id=50304122\n\n 积分：205\n\n # 评论：238",
-          "publishedAt": "2026-10-30T14:08:20.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50304122",
-          "author": "taubek"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50303172",
-          "title": "The $6.3B Binance hack was pulled off in just 20 minutes",
-          "titleZh": "价值 6.3B 美元的 Binance 黑客攻击仅用了 20 分钟就完成了",
-          "link": "https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/",
-          "summary": "Article URL: https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/\n\n Comments URL: https://news.ycombinator.com/item?id=50303172\n\n Points: 469\n\n # Comments: 321",
-          "summaryZh": "文章网址：https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/\n\n 评论网址：https://news.ycombinator.com/item?id=50303172\n\n 积分：469\n\n # 评论: 321",
-          "publishedAt": "2026-10-30T12:50:01.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50303172",
-          "author": "domhudson"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50301854",
-          "title": "Azure's Weakest Link – Five Full Cross-Tenant Compromises",
-          "titleZh": "Azure 最薄弱的环节 – 五个完整的跨租户妥协",
-          "link": "https://www.binarysecurity.no/posts/2026/10/one-root-case",
-          "summary": "Article URL: https://www.binarysecurity.no/posts/2026/10/one-root-case\n\n Comments URL: https://news.ycombinator.com/item?id=50301854\n\n Points: 313\n\n # Comments: 58",
-          "summaryZh": "文章网址：https://www.binarysecurity.no/posts/2026/10/one-root-case\n\n 评论网址：https://news.ycombinator.com/item?id=50301854\n\n 积分：313\n\n # 评论: 58",
-          "publishedAt": "2026-10-30T10:06:15.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50301854",
-          "author": "swq115"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50300683",
-          "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
-          "titleZh": "Cursor Marketplace 上用于 VS Code 扩展的 Claude Code 中的后门",
-          "link": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
-          "summary": "https://cursor.com/blog/claude-code-extension-security-notic...\n\n Comments URL: https://news.ycombinator.com/item?id=50300683\n\n Points: 908\n\n # Comments: 533",
-          "summaryZh": "https://cursor.com/blog/claude-code-extension-security-notic...\n\n 评论网址：https://news.ycombinator.com/item?id=50300683\n\n 积分：908\n\n # 评论: 533",
-          "publishedAt": "2026-10-30T07:09:12.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50300683",
-          "author": "_chall"
-        }
-      ]
+      "fetchedAt": "2026-10-31T16:40:47.933Z",
+      "count": 0,
+      "items": [],
+      "error": "fetch failed"
     },
     {
       "id": "arxiv-cs-ai",
@@ -248,7 +33,7 @@
       "url": "https://rss.arxiv.org/rss/cs.AI",
       "home": "https://arxiv.org/list/cs.AI/recent",
       "group": "arxiv",
-      "fetchedAt": "2026-10-31T11:33:02.681Z",
+      "fetchedAt": "2026-10-31T16:40:48.725Z",
       "count": 15,
       "items": [
         {
@@ -424,7 +209,7 @@
       "url": "https://rss.arxiv.org/rss/cs.LG",
       "home": "https://arxiv.org/list/cs.LG/recent",
       "group": "arxiv",
-      "fetchedAt": "2026-10-31T11:33:03.089Z",
+      "fetchedAt": "2026-10-31T16:40:49.136Z",
       "count": 0,
       "items": []
     }
