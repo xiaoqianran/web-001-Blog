@@ -1,7 +1,7 @@
 {
   "source": "content/feeds.json",
   "attribution": "Aggregated headlines/summaries from third-party RSS/Atom feeds for navigation only. All rights belong to original publishers and authors. Chinese text is machine-translated.",
-  "fetchedAt": "2026-10-31T16:40:56.702Z",
+  "fetchedAt": "2026-10-31T20:53:23.539Z",
   "date": "2026-10-31",
   "feedCount": 3,
   "itemCount": 15,
@@ -22,7 +22,7 @@
       "url": "https://hnrss.org/frontpage",
       "home": "https://news.ycombinator.com/",
       "group": "community",
-      "fetchedAt": "2026-10-31T16:40:47.933Z",
+      "fetchedAt": "2026-10-31T20:53:09.228Z",
       "count": 0,
       "items": [],
       "error": "fetch failed"
@@ -33,7 +33,7 @@
       "url": "https://rss.arxiv.org/rss/cs.AI",
       "home": "https://arxiv.org/list/cs.AI/recent",
       "group": "arxiv",
-      "fetchedAt": "2026-10-31T16:40:48.725Z",
+      "fetchedAt": "2026-10-31T20:53:09.873Z",
       "count": 15,
       "items": [
         {
@@ -53,7 +53,7 @@
           "titleZh": "用于模型校准的摊销局部后验推理及其在海洋湍流闭合中的应用",
           "link": "https://arxiv.org/abs/2610.37731",
           "summary": "arXiv:2610.37731v1 Announce Type: new\nAbstract: Model discrepancy may prevent a single calibration parameter from reproducing a physical response across the context domain. In addition, uncertainties in observations and contexts affect calibration and must be accounted for and quantified. We construct a family of localized posteriors by weighting observation likelihoods according to their proximity to a target context. Gaussian localization weights incorporate context uncertainty through covariance inflation, with reflection at domain boundaries and an optional correction for uneven context sampling. A conditional normalizing flow approximates the family of posteriors through amortized variational inference. Integrating the localized posteriors under a prescribed context measure gives the marginalized parameter distribution. In a twin experiment with the Branin-Hoo model, we compare global and localized inference under uniform and skewed context distributions. Localization reduces the reported aggregate predictive errors relative to the global posterior. An application to the k-$\\epsilon$ turbulence closure in a single-column ocean model, with atmospheric surface forcing as context, shows that localized posterior calibration reduces temperature and zonal-velocity errors relative to deterministic and global-posterior calibration. Both twin experiments are constructed to admit local compensation.",
-          "summaryZh": "arXiv:2610.37731v1 公告类型：新\n摘要：模型差异可能会阻止单个校准参数在上下文域中再现物理响应。此外，观测和背景的不确定性会影响校准，必须予以考虑和量化。我们通过根据观察可能性与目标上下文的接近程度来加权，构建了一系列局部后验。高斯定位权重通过协方差膨胀合并上下文不确定性，并在域边界处进行反射，并对不均匀的上下文采样进行可选的校正。条件归一化流通过摊销变分推理来近似后验家族。在规定的上下文测量下积分局部后验给出边缘化参数分布。在 Branin-Hoo 模型的孪生实验中，我们比较了均匀和倾斜上下文分布下的全局和局部推理。本地化减少了报告的相对于全局后验的总体预测误差。以大气表面强迫为背景的单柱海洋模型中 k-$\\epsilon$ 湍流闭合的应用表明，相对于确定性和全局后验校准，局部后验校准减少了温度和纬向速度误差。这两个双胞胎实验都是为了接受局部补偿而构建的。",
+          "summaryZh": "arXiv:2610.37731v1 公告类型：新\n摘要：模型差异可能会阻止单个校准参数在上下文域中再现物理响应。此外，观测和背景的不确定性会影响校准，必须予以考虑和量化。我们通过根据观察可能性与目标上下文的接近程度对观察可能性进行加权来构建一系列局部后验。高斯定位权重通过协方差膨胀合并上下文不确定性，并在域边界处进行反射，并对不均匀的上下文采样进行可选的校正。条件归一化流通过摊销变分推理来近似后验家族。在规定的上下文测量下积分局部后验给出边缘化参数分布。在 Branin-Hoo 模型的孪生实验中，我们比较了均匀和倾斜上下文分布下的全局和局部推理。本地化减少了报告的相对于全局后验的总体预测误差。以大气表面强迫为背景的单柱海洋模型中 k-$\\epsilon$ 湍流闭合的应用表明，相对于确定性和全局后验校准，局部后验校准减少了温度和纬向速度误差。这两个双胞胎实验都是为了接受局部补偿而构建的。",
           "publishedAt": "2026-10-31T04:00:00.000Z",
           "comments": null,
           "author": "Exauc\\'e Luweh Adjim Ngarti (AIRSEA), \\'Elise Arnaud (AIRSEA), L\\'eo Nicoletti (Mines Saint-\\'Etienne MSE, LIMOS, FAYOL-ENSMSE, FAYOL-ENSMSE), Victor Trappler (Mines Saint-\\'Etienne MSE, LIMOS, FAYOL-ENSMSE, FAYOL-ENSMSE), Arthur Vidard (AIRSEA)"
@@ -86,7 +86,7 @@
           "titleZh": "WebAnything：从狂野的网络到可扩展的代理环境",
           "link": "https://arxiv.org/abs/2610.37786",
           "summary": "arXiv:2610.37786v1 Announce Type: new\nAbstract: Web agents require diverse, executable, and resettable website environments for reproducible training and evaluation. Human-assisted mirrors demand per-site engineering, while generative construction can diverge from specified real websites. Capture-and-replay preserves observations, with interaction coverage constrained by captured content and replay capabilities.\n We present WebAnything, a fully automated framework that reconstructs source-grounded, reusable Web environments from real URLs without per-site manual implementation or repair after initial setup and authorization. An Explorer-Builder collects browser-observable structures, resources, and interaction outcomes; an independent verifier checks frozen candidates and guides local repair or targeted source recapture.\n We construct 244 website artifacts across 14 application domains and 53 categories, supporting 12,984 executed and accepted tasks. Compared with human-assisted WebHarbor, WebAnything achieves higher aggregate scores on three fidelity metrics, with 12 wins, two ties, and no losses in a blind audit. Fine-tuning Qwen3.5-9B on 5,856 interaction trajectories improves REAL success by 9.9 percentage points, Odysseys-Easy Rubric Avg and Task Avg by 6.25 and 6.32 percentage points, and WebArena-Verified Overall success by 13.33 percentage points under the fixed harness. Code: https://github.com/china-qijizhifeng/Web-Anything",
-          "summaryZh": "arXiv:2610.37786v1 公告类型：新\n摘要：Web 代理需要多样化、可执行且可重置的网站环境来进行可重复的培训和评估。人工辅助镜子需要针对每个站点进行工程设计，而生成式构建可能与指定的真实网站有所不同。捕获和重放保留了观察结果，交互范围受到捕获的内容和重放功能的限制。\n 我们推出了 WebAnything，这是一个完全自动化的框架，它可以从真实的 URL 重建基于源代码的、可重用的 Web 环境，无需在初始设置和授权后针对每个站点进行手动实施或修复。 Explorer-Builder 收集浏览器可观察的结构、资源和交互结果；独立验证者检查冻结的候选者并指导本地修复或有针对性的源重新捕获。\n 我们构建了 14 个应用程序域和 53 个类别的 244 个网站工件，支持 12,984 个执行和接受的任务。与人工辅助的 WebHarbor 相比，WebAnything 在三个保真度指标上取得了更高的总分，在盲审中取得了 12 胜、2 平、无失分的成绩。对 5,856 个交互轨迹进行微调 Qwen3.5-9B 将 REAL 成功率提高了 9.9 个百分点，Odysseys-Easy Rubric Avg 和 Task Avg 提高了 6.25 和 6.32 个百分点，WebArena-Verified 总体成功率在固定控制下提高了 13.33 个百分点。代码：https://github.com/china-qijizhifeng/Web-Anything",
+          "summaryZh": "arXiv:2610.37786v1 公告类型：新\n摘要：Web 代理需要多样化、可执行且可重置的网站环境来进行可重复的培训和评估。人工辅助镜像需要针对每个站点进行工程设计，而生成式构建可能与指定的真实网站有所不同。捕获和重放保留了观察结果，交互范围受到捕获的内容和重放功能的限制。\n 我们推出了 WebAnything，这是一个完全自动化的框架，它可以从真实的 URL 重建基于源代码的、可重用的 Web 环境，无需在初始设置和授权后针对每个站点进行手动实施或修复。 Explorer-Builder 收集浏览器可观察的结构、资源和交互结果；独立验证者检查冻结的候选者并指导本地修复或有针对性的源重新捕获。\n 我们构建了 14 个应用程序域和 53 个类别的 244 个网站工件，支持 12,984 个执行和接受的任务。与人工辅助的 WebHarbor 相比，WebAnything 在三个保真度指标上取得了更高的总分，在盲审中取得了 12 胜、2 平、无失分的成绩。对 5,856 个交互轨迹进行微调 Qwen3.5-9B 将 REAL 成功率提高了 9.9 个百分点，Odysseys-Easy Rubric Avg 和 Task Avg 提高了 6.25 和 6.32 个百分点，WebArena-Verified 总体成功率在固定控制下提高了 13.33 个百分点。代码：https://github.com/china-qijizhifeng/Web-Anything",
           "publishedAt": "2026-10-31T04:00:00.000Z",
           "comments": null,
           "author": "Tianci Xie, Zikun Cai, Chaoyun Zhang, Pinxue Guo, Bingxuan Li, Rui Zheng, Hang Yan"
@@ -209,7 +209,7 @@
       "url": "https://rss.arxiv.org/rss/cs.LG",
       "home": "https://arxiv.org/list/cs.LG/recent",
       "group": "arxiv",
-      "fetchedAt": "2026-10-31T16:40:49.136Z",
+      "fetchedAt": "2026-10-31T20:53:10.289Z",
       "count": 0,
       "items": []
     }
