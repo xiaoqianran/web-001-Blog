@@ -1,8 +1,8 @@
 {
   "source": "content/feeds.json",
   "attribution": "Aggregated headlines/summaries from third-party RSS/Atom feeds for navigation only. All rights belong to original publishers and authors. Chinese text is machine-translated.",
-  "fetchedAt": "2026-10-31T20:53:23.539Z",
-  "date": "2026-10-31",
+  "fetchedAt": "2026-11-01T03:51:32.962Z",
+  "date": "2026-11-01",
   "feedCount": 3,
   "itemCount": 15,
   "locale": {
@@ -22,7 +22,7 @@
       "url": "https://hnrss.org/frontpage",
       "home": "https://news.ycombinator.com/",
       "group": "community",
-      "fetchedAt": "2026-10-31T20:53:09.228Z",
+      "fetchedAt": "2026-11-01T03:51:16.045Z",
       "count": 0,
       "items": [],
       "error": "fetch failed"
@@ -33,7 +33,7 @@
       "url": "https://rss.arxiv.org/rss/cs.AI",
       "home": "https://arxiv.org/list/cs.AI/recent",
       "group": "arxiv",
-      "fetchedAt": "2026-10-31T20:53:09.873Z",
+      "fetchedAt": "2026-11-01T03:51:16.664Z",
       "count": 15,
       "items": [
         {
@@ -53,7 +53,7 @@
           "titleZh": "用于模型校准的摊销局部后验推理及其在海洋湍流闭合中的应用",
           "link": "https://arxiv.org/abs/2610.37731",
           "summary": "arXiv:2610.37731v1 Announce Type: new\nAbstract: Model discrepancy may prevent a single calibration parameter from reproducing a physical response across the context domain. In addition, uncertainties in observations and contexts affect calibration and must be accounted for and quantified. We construct a family of localized posteriors by weighting observation likelihoods according to their proximity to a target context. Gaussian localization weights incorporate context uncertainty through covariance inflation, with reflection at domain boundaries and an optional correction for uneven context sampling. A conditional normalizing flow approximates the family of posteriors through amortized variational inference. Integrating the localized posteriors under a prescribed context measure gives the marginalized parameter distribution. In a twin experiment with the Branin-Hoo model, we compare global and localized inference under uniform and skewed context distributions. Localization reduces the reported aggregate predictive errors relative to the global posterior. An application to the k-$\\epsilon$ turbulence closure in a single-column ocean model, with atmospheric surface forcing as context, shows that localized posterior calibration reduces temperature and zonal-velocity errors relative to deterministic and global-posterior calibration. Both twin experiments are constructed to admit local compensation.",
-          "summaryZh": "arXiv:2610.37731v1 公告类型：新\n摘要：模型差异可能会阻止单个校准参数在上下文域中再现物理响应。此外，观测和背景的不确定性会影响校准，必须予以考虑和量化。我们通过根据观察可能性与目标上下文的接近程度对观察可能性进行加权来构建一系列局部后验。高斯定位权重通过协方差膨胀合并上下文不确定性，并在域边界处进行反射，并对不均匀的上下文采样进行可选的校正。条件归一化流通过摊销变分推理来近似后验家族。在规定的上下文测量下积分局部后验给出边缘化参数分布。在 Branin-Hoo 模型的孪生实验中，我们比较了均匀和倾斜上下文分布下的全局和局部推理。本地化减少了报告的相对于全局后验的总体预测误差。以大气表面强迫为背景的单柱海洋模型中 k-$\\epsilon$ 湍流闭合的应用表明，相对于确定性和全局后验校准，局部后验校准减少了温度和纬向速度误差。这两个双胞胎实验都是为了接受局部补偿而构建的。",
+          "summaryZh": "arXiv:2610.37731v1 公告类型：新\n摘要：模型差异可能会阻止单个校准参数在上下文域中再现物理响应。此外，观测和背景的不确定性会影响校准，必须予以考虑和量化。我们通过根据观察可能性与目标上下文的接近程度来加权，构建了一系列局部后验。高斯定位权重通过协方差膨胀合并上下文不确定性，并在域边界处进行反射，并对不均匀的上下文采样进行可选的校正。条件归一化流通过摊销变分推理来近似后验家族。在规定的上下文测量下积分局部后验给出边缘化参数分布。在 Branin-Hoo 模型的孪生实验中，我们比较了均匀和倾斜上下文分布下的全局和局部推理。本地化减少了报告的相对于全局后验的总体预测误差。以大气表面强迫为背景的单柱海洋模型中 k-$\\epsilon$ 湍流闭合的应用表明，相对于确定性和全局后验校准，局部后验校准减少了温度和纬向速度误差。这两个双胞胎实验都是为了接受局部补偿而构建的。",
           "publishedAt": "2026-10-31T04:00:00.000Z",
           "comments": null,
           "author": "Exauc\\'e Luweh Adjim Ngarti (AIRSEA), \\'Elise Arnaud (AIRSEA), L\\'eo Nicoletti (Mines Saint-\\'Etienne MSE, LIMOS, FAYOL-ENSMSE, FAYOL-ENSMSE), Victor Trappler (Mines Saint-\\'Etienne MSE, LIMOS, FAYOL-ENSMSE, FAYOL-ENSMSE), Arthur Vidard (AIRSEA)"
@@ -86,7 +86,7 @@
           "titleZh": "WebAnything：从狂野的网络到可扩展的代理环境",
           "link": "https://arxiv.org/abs/2610.37786",
           "summary": "arXiv:2610.37786v1 Announce Type: new\nAbstract: Web agents require diverse, executable, and resettable website environments for reproducible training and evaluation. Human-assisted mirrors demand per-site engineering, while generative construction can diverge from specified real websites. Capture-and-replay preserves observations, with interaction coverage constrained by captured content and replay capabilities.\n We present WebAnything, a fully automated framework that reconstructs source-grounded, reusable Web environments from real URLs without per-site manual implementation or repair after initial setup and authorization. An Explorer-Builder collects browser-observable structures, resources, and interaction outcomes; an independent verifier checks frozen candidates and guides local repair or targeted source recapture.\n We construct 244 website artifacts across 14 application domains and 53 categories, supporting 12,984 executed and accepted tasks. Compared with human-assisted WebHarbor, WebAnything achieves higher aggregate scores on three fidelity metrics, with 12 wins, two ties, and no losses in a blind audit. Fine-tuning Qwen3.5-9B on 5,856 interaction trajectories improves REAL success by 9.9 percentage points, Odysseys-Easy Rubric Avg and Task Avg by 6.25 and 6.32 percentage points, and WebArena-Verified Overall success by 13.33 percentage points under the fixed harness. Code: https://github.com/china-qijizhifeng/Web-Anything",
-          "summaryZh": "arXiv:2610.37786v1 公告类型：新\n摘要：Web 代理需要多样化、可执行且可重置的网站环境来进行可重复的培训和评估。人工辅助镜像需要针对每个站点进行工程设计，而生成式构建可能与指定的真实网站有所不同。捕获和重放保留了观察结果，交互范围受到捕获的内容和重放功能的限制。\n 我们推出了 WebAnything，这是一个完全自动化的框架，它可以从真实的 URL 重建基于源代码的、可重用的 Web 环境，无需在初始设置和授权后针对每个站点进行手动实施或修复。 Explorer-Builder 收集浏览器可观察的结构、资源和交互结果；独立验证者检查冻结的候选者并指导本地修复或有针对性的源重新捕获。\n 我们构建了 14 个应用程序域和 53 个类别的 244 个网站工件，支持 12,984 个执行和接受的任务。与人工辅助的 WebHarbor 相比，WebAnything 在三个保真度指标上取得了更高的总分，在盲审中取得了 12 胜、2 平、无失分的成绩。对 5,856 个交互轨迹进行微调 Qwen3.5-9B 将 REAL 成功率提高了 9.9 个百分点，Odysseys-Easy Rubric Avg 和 Task Avg 提高了 6.25 和 6.32 个百分点，WebArena-Verified 总体成功率在固定控制下提高了 13.33 个百分点。代码：https://github.com/china-qijizhifeng/Web-Anything",
+          "summaryZh": "arXiv:2610.37786v1 公告类型：新\n摘要：Web 代理需要多样化、可执行且可重置的网站环境来进行可重复的培训和评估。人工辅助镜子需要针对每个站点进行工程设计，而生成式构建可能与指定的真实网站有所不同。捕获和重放保留了观察结果，交互范围受到捕获的内容和重放功能的限制。\n 我们推出了 WebAnything，这是一个完全自动化的框架，它可以从真实的 URL 重建基于源代码的、可重用的 Web 环境，无需在初始设置和授权后针对每个站点进行手动实施或修复。 Explorer-Builder 收集浏览器可观察的结构、资源和交互结果；独立验证者检查冻结的候选者并指导本地修复或有针对性的源重新捕获。\n 我们构建了 14 个应用程序域和 53 个类别的 244 个网站工件，支持 12,984 个执行和接受的任务。与人工辅助的 WebHarbor 相比，WebAnything 在三个保真度指标上取得了更高的总分，在盲审中取得了 12 胜、2 平、无失分的成绩。对 5,856 个交互轨迹进行微调 Qwen3.5-9B 将 REAL 成功率提高了 9.9 个百分点，Odysseys-Easy Rubric Avg 和 Task Avg 提高了 6.25 和 6.32 个百分点，WebArena-Verified 总体成功率在固定控制下提高了 13.33 个百分点。代码：https://github.com/china-qijizhifeng/Web-Anything",
           "publishedAt": "2026-10-31T04:00:00.000Z",
           "comments": null,
           "author": "Tianci Xie, Zikun Cai, Chaoyun Zhang, Pinxue Guo, Bingxuan Li, Rui Zheng, Hang Yan"
@@ -171,7 +171,7 @@
         {
           "id": "oai:arXiv.org:2610.37896v1",
           "title": "The Anatomy of Socio-Demographics in Pluralistic Offensiveness Modeling: When and Where It Helps, and the Role of Reasoning",
-          "titleZh": "多元攻击性建模中的社会人口统计学剖析：何时何地有帮助，以及推理的作用",
+          "titleZh": "多元进攻性建模中的社会人口统计学剖析：何时何地有帮助，以及推理的作用",
           "link": "https://arxiv.org/abs/2610.37896",
           "summary": "arXiv:2610.37896v1 Announce Type: new\nAbstract: Subjective judgments such as offensiveness often vary substantially across individuals, motivating pluralistic modeling approaches that incorporate annotators' socio-demographic information to capture this variation. However, prior findings on the benefits of socio-demographic information for pluralistic modeling are mixed, calling for a systematic analysis of both its effectiveness and the mechanisms through which it improves prediction. In this work, we study $\\textbf{when}$ and $\\textbf{where}$ socio-demographics benefit pluralistic offensiveness modeling, as well as $\\textbf{the role of explicit reasoning}$ in leveraging this information. Across three multi-annotator datasets with prompted and trained LLMs, we first show that demographic gains are small and inconsistent for individual predictions but become clearer at the group and population levels, because aggregation attenuates the idiosyncratic variation that masks small but systematic demographic signals. Second, using a reasoning and prediction format that explicitly decomposes individual judgment into an overall baseline and a demographic-specific deviation, we show that the gains arise from both components: demographic information improves baseline estimation and enables meaningful demographic-specific shifts, and interventions show that better component estimates improve final predictions. Finally, comparing direct demographic conditioning with explicit reasoning about how the text interacts with annotator demographics, we find that reasoning yields more accurate baseline and shift estimates as well as final predictions, whereas conditioning alone rarely produces informative shifts. These results suggest that the mixed evidence in prior work may partly stem from individual-level evaluation, and that the value of socio-demographic information depends on both how it is evaluated and how models are guided to use it.",
           "summaryZh": "arXiv:2610.37896v1 公告类型：新\n摘要：诸如冒犯性之类的主观判断通常因人而异，这激发了采用结合注释者的社会人口统计信息的多元建模方法来捕获这种差异。然而，先前关于社会人口统计信息对多元建模的好处的研究结果好坏参半，需要对其有效性及其改进预测的机制进行系统分析。在这项工作中，我们研究了$\\textbf{何时}$和$\\textbf{其中}$社会人口统计有利于多元攻击性建模，以及$\\textbf{显式推理的作用}$在利用这些信息中的作用。在具有提示和训练有素的法学硕士的三个多注释器数据集中，我们首先表明人口统计增益很小且与个人预测不一致，但在群体和人口水平上变得更加清晰，因为聚合减弱了掩盖小但系统的人口统计信号的特殊变化。其次，使用将个人判断明确分解为总体基线和人口特定偏差的推理和预测格式，我们表明收益来自两个组成部分：人口统计信息改善了基线估计并实现了有意义的人口特定转变，而干预措施表明更好的组成部分估计可以改善最终预测。最后，将直接人口统计调节与关于文本如何与注释者人口统计交互的显式推理进行比较，我们发现推理产生更准确的基线和变化估计以及最终预测，而单独的调节很少产生信息变化。这些结果表明，先前工作中的混合证据可能部分源于个人层面的评估，社会人口统计信息的价值取决于如何评估它以及如何指导模型使用它。",
@@ -185,7 +185,7 @@
           "titleZh": "FilingLoop：评估和发展法学硕士代理人以进行公司披露审查和修订",
           "link": "https://arxiv.org/abs/2610.37905",
           "summary": "arXiv:2610.37905v1 Announce Type: new\nAbstract: Public disclosure repositories such as SEC EDGAR support informed investment through web access to corporate filings. Supporting their review with language model agents requires discovering unstated deficiencies across related documents, acquiring missing company facts, and verifying that requested revisions satisfy evidence-backed requirements. Existing financial question-answering evaluations provide limited evidence of these interactive capabilities. We introduce \\textbf{FilingLoop}, an interactive benchmark and a self-evolving agent framework for corporate disclosure review and revision. Grounded in historical U.S.\\ Securities and Exchange Commission correspondence, FilingLoop reconstructs 380 predominantly IPO review tasks from 96 companies under distinct information constraints. An evaluator separate from the acting agents scores final filings and responses against 6,099 eligible requirements and audits unsupported claims and harmful revisions. Our framework couples iterative review and revision within each case with procedural learning across cases, converting requirement-level evaluation feedback into role-specific guidance without updating model weights. Updates affect only subsequent cases, allowing procedural adaptation to be assessed without retrying scored tasks. On the evaluated stream, evolution increases requirement fulfillment from 24.28\\% to 27.96\\% and full comment resolution from 16.90\\% to 20.75\\%, with a 5.8\\% increase in total cost over the fixed-policy variant. FilingLoop connects the concerns an agent discovers with the company facts it obtains and the revisions it commits, providing requirement-level feedback for procedures used in later review tasks.",
-          "summaryZh": "arXiv:2610.37905v1 公告类型：新\n摘要： SEC EDGAR 等公开披露存储库通过网络访问公司文件来支持知情投资。支持语言模型代理的审查需要发现相关文档中未说明的缺陷，获取缺失的公司事实，并验证所请求的修订满足有证据支持的要求。现有的金融问答评估为这些交互能力提供了有限的证据。我们引入 \\textbf{FilingLoop}，一个用于公司披露审查和修订的交互式基准和自我进化代理框架。 FilingLoop 以美国证券交易委员会的历史信件为基础，在不同的信息限制下重建了来自 96 家公司的 380 项主要 IPO 审查任务。独立于代理机构的评估员根据 6,099 项合格要求对最终申请和答复进行评分，并审核不受支持的索赔和有害的修订。我们的框架将每个案例中的迭代审查和修订与跨案例的程序学习结合起来，将需求级别的评估反馈转换为特定于角色的指导，而无需更新模型权重。更新仅影响后续案例，允许评估程序适应性而无需重试评分任务。在评估的流上，演进将需求满足率从 24.28% 提高到 27.96%，完整评论分辨率从 16.90% 提高到 20.75%，与固定策略变体相比，总成本增加了 5.8%。 FilingLoop 将代理发现的问题与其获得的公司事实和提交的修订联系起来，为后续审核任务中使用的程序提供需求级反馈。",
+          "summaryZh": "arXiv:2610.37905v1 公告类型：新\n摘要： SEC EDGAR 等公开披露存储库通过网络访问公司文件来支持知情投资。支持语言模型代理的审查需要发现相关文档中未说明的缺陷，获取缺失的公司事实，并验证所请求的修订是否满足有证据支持的要求。现有的金融问答评估为这些交互能力提供了有限的证据。我们引入了 \\textbf{FilingLoop}，一个用于公司披露审查和修订的交互式基准和自我进化代理框架。 FilingLoop 以美国证券交易委员会的历史信件为基础，在不同的信息限制下重建了来自 96 家公司的 380 项主要 IPO 审查任务。独立于代理机构的评估员根据 6,099 项合格要求对最终申请和答复进行评分，并审核不受支持的索赔和有害的修订。我们的框架将每个案例中的迭代审查和修订与跨案例的程序学习结合起来，将需求级别的评估反馈转换为特定于角色的指导，而无需更新模型权重。更新仅影响后续案例，允许评估程序适应性而无需重试评分任务。在评估的流上，演进将需求满足率从 24.28% 提高到 27.96%，完整评论分辨率从 16.90% 提高到 20.75%，与固定策略变体相比，总成本增加了 5.8%。 FilingLoop 将代理发现的问题与其获得的公司事实和提交的修订联系起来，为后续审核任务中使用的程序提供需求级反馈。",
           "publishedAt": "2026-10-31T04:00:00.000Z",
           "comments": null,
           "author": "Wentao Zhang, Yilei Zhao, Guangyan Gan, Shuo Sun, Lin William Cong"
@@ -209,7 +209,7 @@
       "url": "https://rss.arxiv.org/rss/cs.LG",
       "home": "https://arxiv.org/list/cs.LG/recent",
       "group": "arxiv",
-      "fetchedAt": "2026-10-31T20:53:10.289Z",
+      "fetchedAt": "2026-11-01T03:51:17.080Z",
       "count": 0,
       "items": []
     }
