@@ -1,0 +1,266 @@
+{
+  "source": "content/feeds.json",
+  "attribution": "Aggregated headlines/summaries from third-party RSS/Atom feeds for navigation only. All rights belong to original publishers and authors. Chinese text is machine-translated.",
+  "fetchedAt": "2026-11-02T03:55:26.401Z",
+  "date": "2026-11-02",
+  "feedCount": 3,
+  "itemCount": 20,
+  "locale": {
+    "summaryDefault": "zh",
+    "translated": true
+  },
+  "errors": [],
+  "feeds": [
+    {
+      "id": "hacker-news",
+      "title": "Hacker News",
+      "url": "https://hnrss.org/frontpage",
+      "home": "https://news.ycombinator.com/",
+      "group": "community",
+      "fetchedAt": "2026-11-02T03:55:04.314Z",
+      "count": 20,
+      "items": [
+        {
+          "id": "https://news.ycombinator.com/item?id=50332163",
+          "title": "F/OSS Comics #13: BSD Unix, Part 3 – The Beginning of BSD Unix",
+          "titleZh": "F/OSS Comics #13: BSD Unix, Part 3 – The Beginning of BSD Unix",
+          "link": "https://fosscomics.com/posts/13.%20BSD%20Unix%20Part%203%20-%20The%20Beginning%20of%20BSD%20Unix/",
+          "summary": "Article URL: https://fosscomics.com/posts/13.%20BSD%20Unix%20Part%203%20-%20The%20Beginning%20of%20BSD%20Unix/\n\n Comments URL: https://news.ycombinator.com/item?id=50332163\n\n Points: 21\n\n # Comments: 3",
+          "summaryZh": "Article URL: https://fosscomics.com/posts/13.%20BSD%20Unix%20Part%203%20-%20The%20Beginning%20of%20BSD%20Unix/\n\n Comments URL: https://news.ycombinator.com/item?id=50332163\n\n Points: 21\n\n # Comments: 3",
+          "publishedAt": "2026-11-02T01:59:38.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50332163",
+          "author": "joonehur"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50332086",
+          "title": "AI fan wikis riddled with errors are muddying the waters of games culture",
+          "titleZh": "AI fan wikis riddled with errors are muddying the waters of games culture",
+          "link": "https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture",
+          "summary": "Article URL: https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture\n\n Comments URL: https://news.ycombinator.com/item?id=50332086\n\n Points: 28\n\n # Comments: 10",
+          "summaryZh": "Article URL: https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture\n\n Comments URL: https://news.ycombinator.com/item?id=50332086\n\n Points: 28\n\n # Comments: 10",
+          "publishedAt": "2026-11-02T01:47:07.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50332086",
+          "author": "rdmuser"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50331784",
+          "title": "Trigger.dev customer environment variables exposed",
+          "titleZh": "Trigger.dev customer environment variables exposed",
+          "link": "https://trigger.dev/blog/security-incident-nov-2026",
+          "summary": "Article URL: https://trigger.dev/blog/security-incident-nov-2026\n\n Comments URL: https://news.ycombinator.com/item?id=50331784\n\n Points: 18\n\n # Comments: 1",
+          "summaryZh": "Article URL: https://trigger.dev/blog/security-incident-nov-2026\n\n Comments URL: https://news.ycombinator.com/item?id=50331784\n\n Points: 18\n\n # Comments: 1",
+          "publishedAt": "2026-11-02T01:09:16.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50331784",
+          "author": "anurag"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50331402",
+          "title": "OccupySaaS",
+          "titleZh": "OccupySaaS",
+          "link": "https://occupysaas.com/",
+          "summary": "Article URL: https://occupysaas.com/\n\n Comments URL: https://news.ycombinator.com/item?id=50331402\n\n Points: 108\n\n # Comments: 68",
+          "summaryZh": "Article URL: https://occupysaas.com/\n\n Comments URL: https://news.ycombinator.com/item?id=50331402\n\n Points: 108\n\n # Comments: 68",
+          "publishedAt": "2026-11-02T00:17:27.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50331402",
+          "author": "misswaterfairy"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50328896",
+          "title": "Ask HN: Which TV do you recommend for privacy?",
+          "titleZh": "Ask HN: Which TV do you recommend for privacy?",
+          "link": "https://news.ycombinator.com/item?id=50328896",
+          "summary": "I haven’t owned a TV in years and would like one that respects my privacy. Are there any TV’s which do this well? I am looking for something in the 60”to 80”range and would like a 4k display with at least 60hz display. I don’t mind paying a premium. I have heard good things about Apple TV as a better alternative to most smart TV native apps. Would some TV’s pair better with this than others for privacy? I don’t want the TV doing anything other than being the display for Apple TV. I am curious what success others have had.\n\n Comments URL: https://news.ycombinator.com/item?id=50328896\n\n Points: 189\n\n # Comments: 347",
+          "summaryZh": "I haven’t owned a TV in years and would like one that respects my privacy. Are there any TV’s which do this well? I am looking for something in the 60”to 80”range and would like a 4k display with at least 60hz display. I don’t mind paying a premium. I have heard good things about Apple TV as a better alternative to most smart TV native apps. Would some TV’s pair better with this than others for privacy? I don’t want the TV doing anything other than being the display for Apple TV. I am curious what success others have had.\n\n Comments URL: https://news.ycombinator.com/item?id=50328896\n\n Points: 189\n\n # Comments: 347",
+          "publishedAt": "2026-11-01T19:35:27.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50328896",
+          "author": "LecroJS"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50328251",
+          "title": "Mathematics has changed. Let's act like it",
+          "titleZh": "Mathematics has changed. Let's act like it",
+          "link": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
+          "summary": "Article URL: https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/\n\n Comments URL: https://news.ycombinator.com/item?id=50328251\n\n Points: 243\n\n # Comments: 270",
+          "summaryZh": "Article URL: https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/\n\n Comments URL: https://news.ycombinator.com/item?id=50328251\n\n Points: 243\n\n # Comments: 270",
+          "publishedAt": "2026-11-01T18:28:42.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50328251",
+          "author": "smilelamp"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50327058",
+          "title": "Seoul Viosys begins production of rare-earth-free white light emitter",
+          "titleZh": "Seoul Viosys begins production of rare-earth-free white light emitter",
+          "link": "https://www.semiconductor-today.com/news_items/2026/oct/seoul-291026.shtml",
+          "summary": "Article URL: https://www.semiconductor-today.com/news_items/2026/oct/seoul-291026.shtml\n\n Comments URL: https://news.ycombinator.com/item?id=50327058\n\n Points: 146\n\n # Comments: 39",
+          "summaryZh": "Article URL: https://www.semiconductor-today.com/news_items/2026/oct/seoul-291026.shtml\n\n Comments URL: https://news.ycombinator.com/item?id=50327058\n\n Points: 146\n\n # Comments: 39",
+          "publishedAt": "2026-11-01T16:23:26.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50327058",
+          "author": "gmays"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50326821",
+          "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+          "titleZh": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+          "link": "https://hackerbooks.org",
+          "summary": "Saw Karpathy's HackerTube and wanted the same thing for books. So I had Claude build one (Opus 5.5). It's ~16.5k books that at least two different HN commenters brought up, from 2007 till now. Each book links back to the comments that mentioned it. Data is downloadable from the about page. To be clear: Claude wrote almost all of it, including the data pipeline and the site. I mostly steered and made calls, bought the domain name, etc. It counts mentions, so it's not perfect (praising a book and trashing it both count). If your favourite book is missing or matched to the wrong thing, tell me.\n\n Comments URL: https://news.ycombinator.com/item?id=50326821\n\n Points: 1033\n\n # Comments: 194",
+          "summaryZh": "Saw Karpathy's HackerTube and wanted the same thing for books. So I had Claude build one (Opus 5.5). It's ~16.5k books that at least two different HN commenters brought up, from 2007 till now. Each book links back to the comments that mentioned it. Data is downloadable from the about page. To be clear: Claude wrote almost all of it, including the data pipeline and the site. I mostly steered and made calls, bought the domain name, etc. It counts mentions, so it's not perfect (praising a book and trashing it both count). If your favourite book is missing or matched to the wrong thing, tell me.\n\n Comments URL: https://news.ycombinator.com/item?id=50326821\n\n Points: 1033\n\n # Comments: 194",
+          "publishedAt": "2026-11-01T15:58:28.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50326821",
+          "author": "roansh"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50326099",
+          "title": "Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case",
+          "titleZh": "Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case",
+          "link": "https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/",
+          "summary": "Article URL: https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/\n\n Comments URL: https://news.ycombinator.com/item?id=50326099\n\n Points: 417\n\n # Comments: 149",
+          "summaryZh": "Article URL: https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/\n\n Comments URL: https://news.ycombinator.com/item?id=50326099\n\n Points: 417\n\n # Comments: 149",
+          "publishedAt": "2026-11-01T14:34:43.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50326099",
+          "author": "entryleveljobsc"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50325694",
+          "title": "Novellas with Groff",
+          "titleZh": "Novellas with Groff",
+          "link": "https://movq.de/blog/postings/2026-10-31/0/POSTING-en.html",
+          "summary": "Article URL: https://movq.de/blog/postings/2026-10-31/0/POSTING-en.html\n\n Comments URL: https://news.ycombinator.com/item?id=50325694\n\n Points: 115\n\n # Comments: 51",
+          "summaryZh": "Article URL: https://movq.de/blog/postings/2026-10-31/0/POSTING-en.html\n\n Comments URL: https://news.ycombinator.com/item?id=50325694\n\n Points: 115\n\n # Comments: 51",
+          "publishedAt": "2026-11-01T13:51:41.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50325694",
+          "author": "dverlaeckt80"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50325454",
+          "title": "Proving and improving the Platonic Representation Hypothesis with JEPAs",
+          "titleZh": "Proving and improving the Platonic Representation Hypothesis with JEPAs",
+          "link": "https://arxiv.org/abs/2610.39302",
+          "summary": "Article URL: https://arxiv.org/abs/2610.39302\n\n Comments URL: https://news.ycombinator.com/item?id=50325454\n\n Points: 120\n\n # Comments: 63",
+          "summaryZh": "Article URL: https://arxiv.org/abs/2610.39302\n\n Comments URL: https://news.ycombinator.com/item?id=50325454\n\n Points: 120\n\n # Comments: 63",
+          "publishedAt": "2026-11-01T13:24:49.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50325454",
+          "author": "Anon84"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50325253",
+          "title": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust",
+          "titleZh": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust",
+          "link": "https://github.com/ivankovic/omnidiff",
+          "summary": "I have been researching what the ultimate diff tool would look like, based on actual diffs in open source repositories. OmniDiff can diff: code (25 languages), config, images, PDFs, archives, cursors, fonts... It's fast. It can diff C++ files of tens of thousands of lines in under 100ms, on a 2023 ThinkPad T14s. It's open source. AGPLv3. It's based on real diffs. I looked at the 7400 repositories that are listed in Gentoo packages, sampled 2000 diffs and solved them manually to get a good understanding of what is needed, before putting together the diff pipelines for each content type. Incidentally, this also forms the basis of the CI pipeline, so the robustness of the codebase is quite high. I'm still developing it. It's v0.3.0 at this time. But I have been using it daily as my git difftool for months now, and it works well. AI Disclosure: Yes, I do use AI. No, I do not vibecode.\n\n Comments URL: https://news.ycombinator.com/item?id=50325253\n\n Points: 180\n\n # Comments: 44",
+          "summaryZh": "I have been researching what the ultimate diff tool would look like, based on actual diffs in open source repositories. OmniDiff can diff: code (25 languages), config, images, PDFs, archives, cursors, fonts... It's fast. It can diff C++ files of tens of thousands of lines in under 100ms, on a 2023 ThinkPad T14s. It's open source. AGPLv3. It's based on real diffs. I looked at the 7400 repositories that are listed in Gentoo packages, sampled 2000 diffs and solved them manually to get a good understanding of what is needed, before putting together the diff pipelines for each content type. Incidentally, this also forms the basis of the CI pipeline, so the robustness of the codebase is quite high. I'm still developing it. It's v0.3.0 at this time. But I have been using it daily as my git difftool for months now, and it works well. AI Disclosure: Yes, I do use AI. No, I do not vibecode.\n\n Comments URL: https://news.ycombinator.com/item?id=50325253\n\n Points: 180\n\n # Comments: 44",
+          "publishedAt": "2026-11-01T13:02:30.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50325253",
+          "author": "FabCH"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50324371",
+          "title": "Domain hacks with unusual Unicode characters (2018)",
+          "titleZh": "Domain hacks with unusual Unicode characters (2018)",
+          "link": "https://shkspr.mobi/blog/2018/11/domain-hacks-with-unusual-unicode-characters/",
+          "summary": "Article URL: https://shkspr.mobi/blog/2018/11/domain-hacks-with-unusual-unicode-characters/\n\n Comments URL: https://news.ycombinator.com/item?id=50324371\n\n Points: 62\n\n # Comments: 48",
+          "summaryZh": "Article URL: https://shkspr.mobi/blog/2018/11/domain-hacks-with-unusual-unicode-characters/\n\n Comments URL: https://news.ycombinator.com/item?id=50324371\n\n Points: 62\n\n # Comments: 48",
+          "publishedAt": "2026-11-01T10:44:20.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50324371",
+          "author": "n_plus_1_acc"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50323088",
+          "title": "The AI cost of JavaScript frameworks",
+          "titleZh": "The AI cost of JavaScript frameworks",
+          "link": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+          "summary": "Article URL: https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/\n\n Comments URL: https://news.ycombinator.com/item?id=50323088\n\n Points: 319\n\n # Comments: 236",
+          "summaryZh": "Article URL: https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/\n\n Comments URL: https://news.ycombinator.com/item?id=50323088\n\n Points: 319\n\n # Comments: 236",
+          "publishedAt": "2026-11-01T06:06:19.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50323088",
+          "author": "luu"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50320963",
+          "title": "An Italian farmer found some unknown seeds in his attic and planted them",
+          "titleZh": "An Italian farmer found some unknown seeds in his attic and planted them",
+          "link": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
+          "summary": "Article URL: https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/\n\n Comments URL: https://news.ycombinator.com/item?id=50320963\n\n Points: 776\n\n # Comments: 203",
+          "summaryZh": "Article URL: https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/\n\n Comments URL: https://news.ycombinator.com/item?id=50320963\n\n Points: 776\n\n # Comments: 203",
+          "publishedAt": "2026-10-31T22:41:06.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50320963",
+          "author": "ecares"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50319749",
+          "title": "Bidirectional charging during grid outages",
+          "titleZh": "Bidirectional charging during grid outages",
+          "link": "https://www.jefftk.com/p/bidirectional-charging-during-grid-outages",
+          "summary": "Article URL: https://www.jefftk.com/p/bidirectional-charging-during-grid-outages\n\n Comments URL: https://news.ycombinator.com/item?id=50319749\n\n Points: 90\n\n # Comments: 131",
+          "summaryZh": "Article URL: https://www.jefftk.com/p/bidirectional-charging-during-grid-outages\n\n Comments URL: https://news.ycombinator.com/item?id=50319749\n\n Points: 90\n\n # Comments: 131",
+          "publishedAt": "2026-10-31T20:21:55.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50319749",
+          "author": "luu"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50319510",
+          "title": "HackerTube: YouTube built from videos recommended by HN",
+          "titleZh": "HackerTube: YouTube built from videos recommended by HN",
+          "link": "https://karpathy.bearblog.dev/hacker-tube/",
+          "summary": "YouTube-style UI over 6,454 videos sourced from 39,834 HN comments since 2007. https://hackertube.org/\n\n Comments URL: https://news.ycombinator.com/item?id=50319510\n\n Points: 2352\n\n # Comments: 544",
+          "summaryZh": "YouTube-style UI over 6,454 videos sourced from 39,834 HN comments since 2007. https://hackertube.org/\n\n Comments URL: https://news.ycombinator.com/item?id=50319510\n\n Points: 2352\n\n # Comments: 544",
+          "publishedAt": "2026-10-31T19:56:53.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50319510",
+          "author": "karpathy"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50318129",
+          "title": "The She-Wolves of Jülich",
+          "titleZh": "The She-Wolves of Jülich",
+          "link": "https://www.historytoday.com/archive/history-matters/she-wolves-julich",
+          "summary": "Article URL: https://www.historytoday.com/archive/history-matters/she-wolves-julich\n\n Comments URL: https://news.ycombinator.com/item?id=50318129\n\n Points: 17\n\n # Comments: 2",
+          "summaryZh": "Article URL: https://www.historytoday.com/archive/history-matters/she-wolves-julich\n\n Comments URL: https://news.ycombinator.com/item?id=50318129\n\n Points: 17\n\n # Comments: 2",
+          "publishedAt": "2026-10-31T17:29:39.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50318129",
+          "author": "Thevet"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50315217",
+          "title": "Mystery of 60-Second Fluctuations in Power Grids Solved",
+          "titleZh": "Mystery of 60-Second Fluctuations in Power Grids Solved",
+          "link": "https://www.fz-juelich.de/en/news/archive/press-release/2026/mystery-of-60-second-fluctuations-in-power-grids-solved",
+          "summary": "Article URL: https://www.fz-juelich.de/en/news/archive/press-release/2026/mystery-of-60-second-fluctuations-in-power-grids-solved\n\n Comments URL: https://news.ycombinator.com/item?id=50315217\n\n Points: 28\n\n # Comments: 4",
+          "summaryZh": "Article URL: https://www.fz-juelich.de/en/news/archive/press-release/2026/mystery-of-60-second-fluctuations-in-power-grids-solved\n\n Comments URL: https://news.ycombinator.com/item?id=50315217\n\n Points: 28\n\n # Comments: 4",
+          "publishedAt": "2026-10-31T11:53:47.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50315217",
+          "author": "_Microft"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50314617",
+          "title": "One-minute frequency disturbances from synchronization in power systems",
+          "titleZh": "One-minute frequency disturbances from synchronization in power systems",
+          "link": "https://www.nature.com/articles/s41560-026-02144-0",
+          "summary": "Article URL: https://www.nature.com/articles/s41560-026-02144-0\n\n Comments URL: https://news.ycombinator.com/item?id=50314617\n\n Points: 128\n\n # Comments: 45",
+          "summaryZh": "Article URL: https://www.nature.com/articles/s41560-026-02144-0\n\n Comments URL: https://news.ycombinator.com/item?id=50314617\n\n Points: 128\n\n # Comments: 45",
+          "publishedAt": "2026-10-31T10:14:08.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50314617",
+          "author": "croes"
+        }
+      ]
+    },
+    {
+      "id": "arxiv-cs-ai",
+      "title": "arXiv cs.AI",
+      "url": "https://rss.arxiv.org/rss/cs.AI",
+      "home": "https://arxiv.org/list/cs.AI/recent",
+      "group": "arxiv",
+      "fetchedAt": "2026-11-02T03:55:04.827Z",
+      "count": 0,
+      "items": []
+    },
+    {
+      "id": "arxiv-cs-lg",
+      "title": "arXiv cs.LG",
+      "url": "https://rss.arxiv.org/rss/cs.LG",
+      "home": "https://arxiv.org/list/cs.LG/recent",
+      "group": "arxiv",
+      "fetchedAt": "2026-11-02T03:55:05.239Z",
+      "count": 0,
+      "items": []
+    }
+  ]
+}
