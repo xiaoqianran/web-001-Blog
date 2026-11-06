@@ -1,15 +1,20 @@
 {
   "source": "content/feeds.json",
   "attribution": "Aggregated headlines/summaries from third-party RSS/Atom feeds for navigation only. All rights belong to original publishers and authors. Chinese text is machine-translated.",
-  "fetchedAt": "2026-11-06T13:37:38.725Z",
+  "fetchedAt": "2026-11-06T22:38:51.249Z",
   "date": "2026-11-06",
   "feedCount": 3,
-  "itemCount": 50,
+  "itemCount": 30,
   "locale": {
     "summaryDefault": "zh",
     "translated": true
   },
-  "errors": [],
+  "errors": [
+    {
+      "id": "hacker-news",
+      "error": "fetch failed"
+    }
+  ],
   "feeds": [
     {
       "id": "hacker-news",
@@ -17,230 +22,10 @@
       "url": "https://hnrss.org/frontpage",
       "home": "https://news.ycombinator.com/",
       "group": "community",
-      "fetchedAt": "2026-11-06T13:36:48.884Z",
-      "count": 20,
-      "items": [
-        {
-          "id": "https://news.ycombinator.com/item?id=50391456",
-          "title": "Tesla winds down Cybertruck production after years of poor sales in few markets",
-          "titleZh": "特斯拉在少数市场多年销售不佳后逐步减少 Cyber​​truck 的生产",
-          "link": "https://www.msn.com/en-us/technology/tech-companies/tesla-to-wind-down-cybertruck-production-after-years-of-poor-sales-in-few-markets/ar-AA2gSZGv",
-          "summary": "Article URL: https://www.msn.com/en-us/technology/tech-companies/tesla-to-wind-down-cybertruck-production-after-years-of-poor-sales-in-few-markets/ar-AA2gSZGv\n\n Comments URL: https://news.ycombinator.com/item?id=50391456\n\n Points: 43\n\n # Comments: 17",
-          "summaryZh": "文章网址：https://www.msn.com/en-us/technology/tech-companies/tesla-to-wind-down-cybertruck-product-after-years-of-poor-sales-in-few-markets/ar-AA2gSZGv\n\n 评论网址：https://news.ycombinator.com/item?id=50391456\n\n 积分：43\n\n # 评论: 17",
-          "publishedAt": "2026-11-06T12:13:51.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50391456",
-          "author": "PLenz"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50391342",
-          "title": "Mbodi AI (YC P25) Is Hiring Research and Robotic Engineers",
-          "titleZh": "Mbodi AI (YC P25) 正在招聘研究和机器人工程师",
-          "link": "https://www.ycombinator.com/companies/mbodi-ai/jobs",
-          "summary": "Article URL: https://www.ycombinator.com/companies/mbodi-ai/jobs\n\n Comments URL: https://news.ycombinator.com/item?id=50391342\n\n Points: 0\n\n # Comments: 0",
-          "summaryZh": "文章网址：https://www.ycombinator.com/companies/mbodi-ai/jobs\n\n 评论网址：https://news.ycombinator.com/item?id=50391342\n\n 积分：0\n\n # 评论: 0",
-          "publishedAt": "2026-11-06T12:00:42.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50391342",
-          "author": "chitianhao"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50391145",
-          "title": "We've built an open-source feature flag server for 11 years",
-          "titleZh": "我们构建开源功能标志服务器已经有 11 年了",
-          "link": "https://github.com/Unleash/unleash",
-          "summary": "Article URL: https://github.com/Unleash/unleash\n\n Comments URL: https://news.ycombinator.com/item?id=50391145\n\n Points: 26\n\n # Comments: 13",
-          "summaryZh": "文章网址：https://github.com/Unleash/unleash\n\n 评论网址：https://news.ycombinator.com/item?id=50391145\n\n 积分：26\n\n # 评论: 13",
-          "publishedAt": "2026-11-06T11:40:06.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50391145",
-          "author": "ivarconr"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50390525",
-          "title": "Living beyond the limits of survival: wood ants trapped in a gigantic pitfall (2016)",
-          "titleZh": "超越生存极限：木蚁陷入巨大陷阱（2016）",
-          "link": "https://jhr.pensoft.net/articles.php?id=9096",
-          "summary": "Article URL: https://jhr.pensoft.net/articles.php?id=9096\n\n Comments URL: https://news.ycombinator.com/item?id=50390525\n\n Points: 65\n\n # Comments: 22",
-          "summaryZh": "文章网址：https://jhr.pensoft.net/articles.php?id=9096\n\n 评论网址：https://news.ycombinator.com/item?id=50390525\n\n 积分：65\n\n # 评论: 22",
-          "publishedAt": "2026-11-06T10:21:15.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50390525",
-          "author": "hitekker"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50390124",
-          "title": "Dutch 'idealist' bank ASN blocks non-Google Android, including GrapheneOS",
-          "titleZh": "荷兰“理想主义”银行 ASN 阻止非 Google Android，包括 GrapheneOS",
-          "link": "https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105",
-          "summary": "Article URL: https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105\n\n Comments URL: https://news.ycombinator.com/item?id=50390124\n\n Points: 264\n\n # Comments: 167",
-          "summaryZh": "文章网址：https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105\n\n 评论网址：https://news.ycombinator.com/item?id=50390124\n\n 积分：264\n\n # 评论: 167",
-          "publishedAt": "2026-11-06T09:27:12.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50390124",
-          "author": "microtonal"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50389570",
-          "title": "Chomsky and the Two Cultures of Statistical Learning",
-          "titleZh": "乔姆斯基和统计学习的两种文化",
-          "link": "https://www.norvig.com/chomsky.html",
-          "summary": "Article URL: https://www.norvig.com/chomsky.html\n\n Comments URL: https://news.ycombinator.com/item?id=50389570\n\n Points: 17\n\n # Comments: 2",
-          "summaryZh": "文章网址：https://www.norvig.com/chomsky.html\n\n 评论网址：https://news.ycombinator.com/item?id=50389570\n\n 积分：17\n\n # 评论: 2",
-          "publishedAt": "2026-11-06T08:18:36.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50389570",
-          "author": "andsoitis"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50389420",
-          "title": "Multiplayer tanks that demolish real buildings from OpenStreetMap",
-          "titleZh": "多人坦克可从 OpenStreetMap 中拆除真实建筑物",
-          "link": "https://worldstrike.fun/",
-          "summary": "Article URL: https://worldstrike.fun/\n\n Comments URL: https://news.ycombinator.com/item?id=50389420\n\n Points: 89\n\n # Comments: 58",
-          "summaryZh": "文章网址：https://worldstrike.fun/\n\n 评论网址：https://news.ycombinator.com/item?id=50389420\n\n 积分：89\n\n # 评论: 58",
-          "publishedAt": "2026-11-06T07:55:48.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50389420",
-          "author": "n4ze3m"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50389370",
-          "title": "Kugelblitz – Mac-Native Google Earth Alternative",
-          "titleZh": "Kugelblitz – Mac 原生 Google 地球替代品",
-          "link": "https://apps.metaebene.me/en/kugelblitz",
-          "summary": "Article URL: https://apps.metaebene.me/en/kugelblitz\n\n Comments URL: https://news.ycombinator.com/item?id=50389370\n\n Points: 131\n\n # Comments: 37",
-          "summaryZh": "文章网址：https://apps.metaebene.me/en/kugelblitz\n\n 评论网址：https://news.ycombinator.com/item?id=50389370\n\n 积分：131\n\n # 评论: 37",
-          "publishedAt": "2026-11-06T07:47:38.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50389370",
-          "author": "luoc"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50389333",
-          "title": "Blender's UI and Runtime: Much Faster Than GPUI",
-          "titleZh": "Blender 的 UI 和运行时：比 GPUI 快得多",
-          "link": "https://github.com/ppmpreetham/BUI",
-          "summary": "Article URL: https://github.com/ppmpreetham/BUI\n\n Comments URL: https://news.ycombinator.com/item?id=50389333\n\n Points: 347\n\n # Comments: 146",
-          "summaryZh": "文章网址：https://github.com/ppmpreetham/BUI\n\n 评论网址：https://news.ycombinator.com/item?id=50389333\n\n 积分：347\n\n # 评论: 146",
-          "publishedAt": "2026-11-06T07:40:35.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50389333",
-          "author": "ppmpreetham"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50389260",
-          "title": "Hardcoded credentials and other issues in Tata Motors App",
-          "titleZh": "塔塔汽车应用程序中的硬编码凭据和其他问题",
-          "link": "https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0537",
-          "summary": "Article URL: https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0537\n\n Comments URL: https://news.ycombinator.com/item?id=50389260\n\n Points: 47\n\n # Comments: 8",
-          "summaryZh": "文章网址：https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0537\n\n 评论网址：https://news.ycombinator.com/item?id=50389260\n\n 积分：47\n\n # 评论: 8",
-          "publishedAt": "2026-11-06T07:28:39.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50389260",
-          "author": "qtqtqt"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50389222",
-          "title": "Britain to make salary disclosure in job ads mandatory",
-          "titleZh": "英国将强制要求在招聘广告中披露薪资",
-          "link": "https://www.reuters.com/business/world-at-work/britain-make-salary-disclosure-job-ads-mandatory-2026-11-05/",
-          "summary": "Article URL: https://www.reuters.com/business/world-at-work/britain-make-salary-disclosure-job-ads-mandatory-2026-11-05/\n\n Comments URL: https://news.ycombinator.com/item?id=50389222\n\n Points: 307\n\n # Comments: 273",
-          "summaryZh": "文章网址：https://www.reuters.com/business/world-at-work/britain-make-salary-disclosure-job-ads-mandatory-2026-11-05/\n\n 评论网址：https://news.ycombinator.com/item?id=50389222\n\n 积分：307\n\n # 评论：273",
-          "publishedAt": "2026-11-06T07:22:04.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50389222",
-          "author": "1659447091"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50388122",
-          "title": "From Linux to Wikipedia: How Volunteers Build the Internet",
-          "titleZh": "从 Linux 到维基百科：志愿者如何构建互联网",
-          "link": "https://thereader.mitpress.mit.edu/from-linux-to-wikipedia-how-volunteers-build-the-internet/",
-          "summary": "Article URL: https://thereader.mitpress.mit.edu/from-linux-to-wikipedia-how-volunteers-build-the-internet/\n\n Comments URL: https://news.ycombinator.com/item?id=50388122\n\n Points: 150\n\n # Comments: 46",
-          "summaryZh": "文章网址：https://thereader.mitpress.mit.edu/from-linux-to-wikipedia-how-volunteers-build-the-internet/\n\n 评论网址：https://news.ycombinator.com/item?id=50388122\n\n 积分：150\n\n # 评论: 46",
-          "publishedAt": "2026-11-06T04:17:49.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50388122",
-          "author": "jonbaer"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50387796",
-          "title": "Pwn.college",
-          "titleZh": "Pwn学院",
-          "link": "https://pwn.college/",
-          "summary": "Article URL: https://pwn.college/\n\n Comments URL: https://news.ycombinator.com/item?id=50387796\n\n Points: 200\n\n # Comments: 28",
-          "summaryZh": "文章网址：https://pwn.college/\n\n 评论网址：https://news.ycombinator.com/item?id=50387796\n\n 积分：200\n\n # 评论: 28",
-          "publishedAt": "2026-11-06T03:27:14.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50387796",
-          "author": "tripdout"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50387738",
-          "title": "Nvidia Kubernetes Engine (NVKE)",
-          "titleZh": "Nvidia Kubernetes 引擎 (NVKE)",
-          "link": "https://github.com/dsx-ai-factory/nvke",
-          "summary": "Article URL: https://github.com/dsx-ai-factory/nvke\n\n Comments URL: https://news.ycombinator.com/item?id=50387738\n\n Points: 99\n\n # Comments: 22",
-          "summaryZh": "文章网址：https://github.com/dsx-ai-factory/nvke\n\n 评论网址：https://news.ycombinator.com/item?id=50387738\n\n 积分：99\n\n # 评论: 22",
-          "publishedAt": "2026-11-06T03:16:26.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50387738",
-          "author": "gkapur"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50386789",
-          "title": "MoofTCP – A modern replacement for MacTCP on 68k Macs",
-          "titleZh": "MoofTCP – 68k Mac 上 MacTCP 的现代替代品",
-          "link": "https://github.com/matthewmrichter/mooftcp",
-          "summary": "Article URL: https://github.com/matthewmrichter/mooftcp\n\n Comments URL: https://news.ycombinator.com/item?id=50386789\n\n Points: 56\n\n # Comments: 28",
-          "summaryZh": "文章网址：https://github.com/matthewmrichter/mooftcp\n\n 评论网址：https://news.ycombinator.com/item?id=50386789\n\n 积分：56\n\n # 评论: 28",
-          "publishedAt": "2026-11-06T00:54:15.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50386789",
-          "author": "marcusbasant"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50386338",
-          "title": "Inkling 2 Small",
-          "titleZh": "Inkling 2 小号",
-          "link": "https://thinkingmachines.ai/news/inkling-2-small/",
-          "summary": "Article URL: https://thinkingmachines.ai/news/inkling-2-small/\n\n Comments URL: https://news.ycombinator.com/item?id=50386338\n\n Points: 228\n\n # Comments: 74",
-          "summaryZh": "文章网址：https://thinkingmachines.ai/news/inkling-2-small/\n\n 评论网址：https://news.ycombinator.com/item?id=50386338\n\n 积分：228\n\n # 评论: 74",
-          "publishedAt": "2026-11-06T00:00:24.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50386338",
-          "author": "Philpax"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50385870",
-          "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
-          "titleZh": "库班：Facebook 故意投放人工智能深度伪造诈骗广告；文档称欺诈收入为 $16B",
-          "link": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
-          "summary": "Article URL: https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html\n\n Comments URL: https://news.ycombinator.com/item?id=50385870\n\n Points: 405\n\n # Comments: 184",
-          "summaryZh": "文章网址：https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html\n\n 评论网址：https://news.ycombinator.com/item?id=50385870\n\n 积分：405\n\n # 评论: 184",
-          "publishedAt": "2026-11-05T23:09:57.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50385870",
-          "author": "randycupertino"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50385272",
-          "title": "Claude Code sends your email address to websites",
-          "titleZh": "克劳德·代码将您的电子邮件地址发送到网站",
-          "link": "https://github.com/anthropics/claude-code/issues/107757",
-          "summary": "Article URL: https://github.com/anthropics/claude-code/issues/107757\n\n Comments URL: https://news.ycombinator.com/item?id=50385272\n\n Points: 1284\n\n # Comments: 406",
-          "summaryZh": "文章网址：https://github.com/anthropics/claude-code/issues/107757\n\n 评论网址：https://news.ycombinator.com/item?id=50385272\n\n 积分：1284\n\n # 评论: 406",
-          "publishedAt": "2026-11-05T22:17:15.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50385272",
-          "author": "motoroco"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50384233",
-          "title": "MS Paint Remote Code Execution Vulnerability",
-          "titleZh": "MS Paint 远程代码执行漏洞",
-          "link": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
-          "summary": "Article URL: https://www.cve.org/CVERecord?id=CVE-2026-83844\n\n Comments URL: https://news.ycombinator.com/item?id=50384233\n\n Points: 593\n\n # Comments: 220",
-          "summaryZh": "文章网址：https://www.cve.org/CVERecord?id=CVE-2026-83844\n\n 评论网址：https://news.ycombinator.com/item?id=50384233\n\n 积分：593\n\n # 评论：220",
-          "publishedAt": "2026-11-05T20:43:42.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50384233",
-          "author": "kuberwastaken"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50383294",
-          "title": "Pangram Image 1.0",
-          "titleZh": "Pangram 图像 1.0",
-          "link": "https://www.pangram.com/blog/introducing-pangram-image-1-0",
-          "summary": "Article URL: https://www.pangram.com/blog/introducing-pangram-image-1-0\n\n Comments URL: https://news.ycombinator.com/item?id=50383294\n\n Points: 123\n\n # Comments: 57",
-          "summaryZh": "文章网址：https://www.pangram.com/blog/introducing-pangram-image-1-0\n\n 评论网址：https://news.ycombinator.com/item?id=50383294\n\n 积分：123\n\n # 评论: 57",
-          "publishedAt": "2026-11-05T19:27:52.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50383294",
-          "author": "gmays"
-        }
-      ]
+      "fetchedAt": "2026-11-06T22:37:56.574Z",
+      "count": 0,
+      "items": [],
+      "error": "fetch failed"
     },
     {
       "id": "arxiv-cs-ai",
@@ -248,7 +33,7 @@
       "url": "https://rss.arxiv.org/rss/cs.AI",
       "home": "https://arxiv.org/list/cs.AI/recent",
       "group": "arxiv",
-      "fetchedAt": "2026-11-06T13:36:49.353Z",
+      "fetchedAt": "2026-11-06T22:37:57.533Z",
       "count": 15,
       "items": [
         {
@@ -257,7 +42,7 @@
           "titleZh": "人工智能时代逆问题的形式化：可能性、陷阱和邀请",
           "link": "https://arxiv.org/abs/2611.06962",
           "summary": "arXiv:2611.06962v1 Announce Type: new\nAbstract: Proof assistants such as Lean check mathematical proofs down to the axioms, and AI agents have recently made writing such proofs cheap. We describe AutoIP, a Lean library in which classical linear regularization theory, together with the functional analysis it rests on, has been autoformalized by AI agents. A machine-checked proof certifies only the formal statement it proves, so the remaining human task is to confirm that each formal statement says what was intended. We organize the library around this task: a reviewer compares the formal statements with their natural-language counterparts and never needs to read a proof. Our experience is that the risks lie in the statements rather than in the proofs, and that simple automated tests on the statements can expose problems even in the established literature. We illustrate this with a textbook theorem whose hypothesis is more restrictive than asserted. We invite the inverse problems community to extend and build on the library.",
-          "summaryZh": "arXiv:2611.06962v1 公告类型：新\n摘要：像 Lean 这样的证明助手可以检查数学证明直至公理，而人工智能代理最近使得编写此类证明变得便宜。我们描述了 AutoIP，一个精益库，其中经典的线性正则化理论及其所依赖的功能分析已由人工智能代理自动形式化。经过机器检查的证明仅证明其所证明的正式陈述，因此剩下的人工任务是确认每个正式陈述都表达了其意图。我们围绕这个任务来组织库：审阅者将正式陈述与自然语言对应物进行比较，并且不需要阅读证明。我们的经验是，风险在于陈述而不是证明，并且对陈述进行简单的自动化测试甚至可以暴露现有文献中的问题。我们用教科书定理来说明这一点，该定理的假设比断言更具限制性。我们邀请反问题社区来扩展和构建该库。",
+          "summaryZh": "arXiv:2611.06962v1 公告类型：新\n摘要：像 Lean 这样的证明助手可以检查数学证明直至公理，而人工智能代理最近使得编写此类证明变得便宜。我们描述了 AutoIP，一个精益库，其中经典的线性正则化理论及其所依赖的功能分析已由人工智能代理自动形式化。经过机器检查的证明仅证明其所证明的正式陈述，因此剩下的人工任务是确认每个正式陈述都表达了其意图。我们围绕这个任务组织库：审阅者将正式陈述与自然语言对应物进行比较，并且不需要阅读证明。我们的经验是，风险在于陈述而不是证明，并且对陈述进行简单的自动化测试甚至可以暴露现有文献中的问题。我们用一个教科书定理来说明这一点，该定理的假设比断言更具限制性。我们邀请反问题社区来扩展和构建该库。",
           "publishedAt": "2026-11-06T05:00:00.000Z",
           "comments": null,
           "author": "Christian Clason, Tapio Helin, Medet Nursultanov, Lauri Oksanen"
@@ -268,7 +53,7 @@
           "titleZh": "KDASO：知识数据双驱动责任审判任务自动化技能优化",
           "link": "https://arxiv.org/abs/2611.06972",
           "summary": "arXiv:2611.06972v1 Announce Type: new\nAbstract: Liability adjudication tasks (e.g., legal charge determination) require analyzing event descriptions against domain-specific skills to determine whether a party should bear liability. While Large Language Models (LLMs) have shown promise in this area by leveraging executable skills for interpretable reasoning, existing approaches face three critical limitations: skill libraries become stale as real-world scenarios dynamically evolve, skill descriptions often suffer from a semantic execution gap where LLMs deviate from intended expert logic, and growing skill collections exceed context budgets causing critical skill omission. To address these challenges, we propose Knowledge-Data Dual-Driven Automated Skill Optimization (KDASO), which continuously evolves a skill library through neighborhood-conditioned induction from recent adjudication data, execution-aligned refinement based on LLM trajectory analysis, and context-budgeted routing for scalable skill selection. Experiments across ride-hailing adjudication, legal liability determination, and logical reasoning judgment demonstrate that KDASO significantly outperforms current general-purpose and domain-specific baselines. KDASO further achieves 8.96% improvement when transferring skills to concept-similar scenarios and maintains consistent performance gains through continuous optimization, underscoring the high transferability and stability of generated skills.",
-          "summaryZh": "arXiv:2611.06972v1 公告类型：新\n摘要：责任裁决任务（例如，法律指控确定）需要根据特定领域的技能分析事件描述，以确定当事人是否应该承担责任。虽然大型语言模型 (LLM) 通过利用可执行技能进行可解释推理，在这一领域展现了前景，但现有方法面临三个关键限制：随着现实世界场景的动态发展，技能库会变得陈旧；技能描述通常会遇到语义执行差距，其中 LLM 偏离预期的专家逻辑；不断增长的技能集合超出了上下文预算，导致关键技能遗漏。为了应对这些挑战，我们提出了知识数据双驱动自动技能优化（KDASO），它通过最近裁决数据的邻域条件归纳、基于法学硕士轨迹分析的执行对齐细化以及用于可扩展技能选择的上下文预算路由来不断发展技能库。网约车裁决、法律责任判定和逻辑推理判断等方面的实验表明，KDASO 的性能显着优于当前的通用和特定领域基线。 KDASO 在将技能迁移到概念相似的场景时进一步实现了 8.96% 的提升，并通过持续优化保持一致的性能增益，强调了生成技能的高可迁移性和稳定性。",
+          "summaryZh": "arXiv:2611.06972v1 公告类型：新\n摘要：责任裁决任务（例如，法律指控确定）需要根据特定领域的技能分析事件描述，以确定当事人是否应该承担责任。虽然大型语言模型 (LLM) 通过利用可执行技能进行可解释推理，在该领域显示出前景，但现有方法面临三个关键限制：随着现实世界场景的动态发展，技能库会变得陈旧；技能描述经常会遇到语义执行差距，其中 LLM 偏离预期的专家逻辑；不断增长的技能集合超出了上下文预算，导致关键技能遗漏。为了应对这些挑战，我们提出了知识数据双驱动自动技能优化（KDASO），它通过最近裁决数据的邻域条件归纳、基于法学硕士轨迹分析的执行对齐细化以及用于可扩展技能选择的上下文预算路由来不断发展技能库。网约车裁决、法律责任判定和逻辑推理判断等方面的实验表明，KDASO 的性能显着优于当前的通用和特定领域基线。 KDASO 在将技能迁移到概念相似的场景时进一步实现了 8.96% 的提升，并通过持续优化保持一致的性能增益，强调了生成技能的高可迁移性和稳定性。",
           "publishedAt": "2026-11-06T05:00:00.000Z",
           "comments": null,
           "author": "Zi-Jian Cheng, Weiming Wu, Jie Meng, Zhen Peng, Shan Huang, Qun Li, Guobing Wu, Lan-Zhe Guo"
@@ -323,7 +108,7 @@
           "titleZh": "具有策略行为和参数敏感性经验特征的代理 AI 的信任响应式运行时授权",
           "link": "https://arxiv.org/abs/2611.06996",
           "summary": "arXiv:2611.06996v1 Announce Type: new\nAbstract: The policy that converts runtime estimates of an autonomous agent's condition into operational authority is rarely specified or measured. We empirically characterize the Trust Responsive Authorization Policy (TRAP), which maps an Authorization Readiness Score (ARS), a weighted combination of runtime trust, operational stability, and contextual risk, onto discrete authorization levels through an asymmetric rule: escalation requires consecutive observations above a band edge plus a margin, while a sharp drop in readiness restricts authority at once. On one matched set of 100 Monte Carlo traces, we compare TRAP with static, trust-only, risk-only, and symmetric policies. Under abrupt degradation, TRAP restricts at onset and re-escalates sooner after recovery than the symmetric policy, with the highest and, descriptively, least variable stability among the adaptive policies, although more of its post-recovery escalations occur below the selected trust threshold. Paired bootstrap intervals exclude zero for the remaining differences. In one-factor sweeps, recovery time rises with the escalation margin and run length, shifts with the score weights, and is unchanged by the restriction threshold. In an exploratory post-freeze experiment, when the same degradation is spread over 5-20 intervals, TRAP restricts only on the 4 traces that retain a single-interval drop above that threshold; averaged over all 100 traces, it holds authority above what readiness supports for 15.9-18.9 of the 20 degradation intervals, against 0.8 under abrupt degradation and about 10 for the symmetric policy. Its restriction advantage therefore depends on degradation being abrupt. All reported values are traceable to the publicly available, versioned research release.",
-          "summaryZh": "arXiv:2611.06996v1 公告类型：新\n摘要：将自主代理状况的运行时估计转换为操作权限的策略很少被指定或测量。我们根据经验描述了信任响应授权策略（TRAP），该策略将授权准备评分（ARS）（运行时信任、操作稳定性和上下文风险的加权组合）通过不对称规则映射到离散授权级别：升级需要在带边缘加上裕度之上进行连续观察，而准备度的急剧下降会立即限制权限。在一组匹配的 100 条蒙特卡罗轨迹上，我们将 TRAP 与静态、仅信任、仅风险和对称策略进行比较。在突然降级的情况下，TRAP 在开始时受到限制，并在恢复后比对称策略更快地重新升级，在自适应策略中具有最高且描述性最小的稳定性，尽管其更多的恢复后升级发生在选定的信任阈值以下。配对引导区间排除剩余差异的零。在单因素扫描中，恢复时间随着升级裕度和运行长度的增加而增加，随着分数权重的变化而变化，并且不受限制阈值的影响。在探索性冻结后实验中，当相同的降解分布在 5-20 个间隔内时，TRAP 仅限制保留高于该阈值的单间隔下降的 4 条迹线；根据所有 100 条轨迹的平均值，它在 20 个降级间隔中的 15.9-18.9 个中拥有高于就绪性支持的权威，而在突然降级下为 0.8，在对称策略中为 10 左右。因此，其限制优势取决于突然的退化。所有报告的值均可追溯到公开的、版本化的研究版本。",
+          "summaryZh": "arXiv:2611.06996v1 公告类型：新\n摘要：将自主代理状况的运行时估计转换为操作权限的策略很少被指定或测量。我们根据经验描述了信任响应授权策略（TRAP），该策略通过不对称规则将授权准备评分（ARS）（运行时信任、操作稳定性和上下文风险的加权组合）映射到离散授权级别：升级需要在带边缘加上裕度之上进行连续观察，而准备度的急剧下降会立即限制权限。在一组匹配的 100 条蒙特卡罗轨迹上，我们将 TRAP 与静态、仅信任、仅风险和对称策略进行比较。在突然降级的情况下，TRAP 在开始时受到限制，并在恢复后比对称策略更快地重新升级，在自适应策略中具有最高且描述性最小的稳定性，尽管其更多的恢复后升级发生在选定的信任阈值以下。配对引导区间排除剩余差异的零。在单因素扫描中，恢复时间随着升级裕度和运行长度的增加而增加，随着分数权重的变化而变化，并且不受限制阈值的影响。在探索性冻结后实验中，当相同的降解分布在 5-20 个间隔内时，TRAP 仅限制保留高于该阈值的单间隔下降的 4 条迹线；根据所有 100 条轨迹的平均值，它在 20 个降级间隔中的 15.9-18.9 个中拥有高于就绪性支持的权威，而在突然降级下为 0.8，在对称策略中为 10 左右。因此，其限制优势取决于突然的退化。所有报告的值均可追溯到公开的、版本化的研究版本。",
           "publishedAt": "2026-11-06T05:00:00.000Z",
           "comments": null,
           "author": "Ahsan Habib Shihab, Imre Felde, Ramis Akhmedov, Stefan Gubo, Berik Sabdenaliyev, Madina Mansurova, Amir Mosavi"
@@ -334,7 +119,7 @@
           "titleZh": "适应适应过程：人工智能中的达尔文主义、拉马克主义和智能体定向进化",
           "link": "https://arxiv.org/abs/2611.07048",
           "summary": "arXiv:2611.07048v1 Announce Type: new\nAbstract: Evolution has shaped intelligence for billions of years. Artificial intelligence (AI) now raises a striking possibility: intelligence may begin to direct its own evolution. As AI agents become capable of modifying and evaluating their own behavior, how quickly could they improve, and how can that improvement remain safe? We develop a theoretical framework comparing Darwinian, Lamarckian, and agent-directed evolution following environmental change. Darwinian evolution relies on natural selection, Lamarckian evolution adds inherited learning, and agent-directed evolution allows agents to generate and evaluate behavioral variants and choose how extensively to search. When learning is sufficiently effective, these mechanisms exhibit progressively faster adaptation. Generating more variants accelerates adaptation, while optimal search effort depends on learning ability, problem difficulty, and experimentation costs. However, an agent's ability to direct its improvement does not ensure that improvements are evaluated against the intended objective. When the evaluation target is misspecified, additional search accelerates convergence toward the wrong behavior, even as measured performance improves. In recursive self-improvement, such errors may persist across generations, posing challenges for AI safety. Independent evaluation and oversight must keep pace with autonomous AI development. The central challenge is not simply to accelerate the evolution of intelligence, but to preserve humanity's ability to guide its direction, limit its speed, and intervene when necessary.",
-          "summaryZh": "arXiv:2611.07048v1 公告类型：新\n摘要：数十亿年来，进化塑造了智力。人工智能（AI）现在提出了一个惊人的可能性：智能可能开始引导自己的进化。随着人工智能代理变得能够修改和评估自己的行为，它们能够多快地改进，以及这种改进如何保持安全？我们开发了一个理论框架，比较达尔文主义、拉马克主义和环境变化后的主体导向进化。达尔文进化论依赖于自然选择，拉马克进化论增加了遗传学习，而代理导向进化允许代理生成和评估行为变异，并选择搜索范围。当学习足够有效时，这些机制会表现出逐渐更快的适应能力。生成更多变体可以加速适应，而最佳搜索工作取决于学习能力、问题难度和实验成本。然而，代理指导其改进的能力并不能确保根据预期目标评估改进。当评估目标被错误指定时，即使测量到的性能有所提高，额外的搜索也会加速向错误行为的收敛。在递归的自我改进中，此类错误可能会持续几代人，给人工智能安全带来挑战。独立评估和监督必须跟上自主人工智能的发展。核心挑战不仅仅是加速智能的进化，而是保持人类引导其方向、限制其速度以及在必要时进行干预的能力。",
+          "summaryZh": "arXiv:2611.07048v1 公告类型：新\n摘要：数十亿年来，进化塑造了智力。人工智能（AI）现在提出了一个惊人的可能性：智能可能开始引导自己的进化。随着人工智能代理变得能够修改和评估自己的行为，它们能够多快地改进，以及这种改进如何保持安全？我们开发了一个理论框架，比较达尔文主义、拉马克主义和环境变化后的主体导向进化。达尔文进化论依赖于自然选择，拉马克进化论增加了遗传学习，而代理导向进化允许代理生成和评估行为变异，并选择搜索范围。当学习足够有效时，这些机制会表现出逐渐更快的适应能力。生成更多变体可以加速适应，而最佳搜索工作取决于学习能力、问题难度和实验成本。然而，代理指导其改进的能力并不能确保根据预期目标评估改进。当评估目标指定错误时，即使测量到的性能有所提高，额外的搜索也会加速向错误行为的收敛。在递归的自我改进中，此类错误可能会持续几代人，给人工智能安全带来挑战。独立评估和监督必须跟上自主人工智能的发展。核心挑战不仅仅是加速智能的进化，而是保持人类引导其方向、限制其速度以及在必要时进行干预的能力。",
           "publishedAt": "2026-11-06T05:00:00.000Z",
           "comments": null,
           "author": "Andrew W. Lo, Chaoyi Zhao"
@@ -424,7 +209,7 @@
       "url": "https://rss.arxiv.org/rss/cs.LG",
       "home": "https://arxiv.org/list/cs.LG/recent",
       "group": "arxiv",
-      "fetchedAt": "2026-11-06T13:36:49.798Z",
+      "fetchedAt": "2026-11-06T22:37:58.032Z",
       "count": 15,
       "items": [
         {
@@ -455,7 +240,7 @@
           "titleZh": "贝叶斯 M/EEG 源成像的不确定性校准",
           "link": "https://arxiv.org/abs/2611.06979",
           "summary": "arXiv:2611.06979v1 Announce Type: new\nAbstract: M/EEG source imaging requires accurate localization and reliable uncertainty estimates, yet posterior credible regions are rarely assessed for empirical calibration. We present a simulation-based framework for uncertainty quantification and calibration of empirical Bayesian inverse methods with closed-form conditional Gaussian posterior summaries. We compare Bayesian minimum norm (BMN) with sLORETA depth weighting and sparse Bayesian learning (SBL) with sparse basis field expansions (S-FLEX). S-FLEX allows retained coefficients to contribute nonzero marginal posterior variance at locations where voxel-wise SBL yields degenerate variances. For BMN, we derive joint source- and noise-variance updates through evidence maximization. We test whether adaptive noise learning yields near-calibrated uncertainties. Both methods retain residual miscalibration, motivating post-hoc isotonic recalibration of credible-region levels using empirical coverage. Simulations assess fixed- and free-orientation models across signal-to-noise ratios (SNR), source sparsity levels, and subject-specific head models, using oracle, baseline-estimated, and adaptively learned noise. Before recalibration, SBL+S-FLEX yields lower Wasserstein localization error, smaller posterior uncertainty, and coverage closer to nominal credibility than BMN+sLORETA. Isotonic recalibration improves both methods, with larger gains for conservative BMN+sLORETA posteriors; transfer across mismatched SNR, sparsity, and head models remains condition dependent. Noise specifications yield broadly consistent reconstruction and uncertainty trends within each estimator. In real auditory MEG data, SBL+S-FLEX provides more focal localization and tighter uncertainties than BMN+sLORETA, suggesting greater statistical power for identifying bilateral auditory sources.",
-          "summaryZh": "arXiv:2611.06979v1 公告类型：新\n摘要：M/EEG 源成像需要准确的定位和可靠的不确定性估计，但很少评估后可信区域以进行经验校准。我们提出了一个基于模拟的框架，用于不确定性量化和校准具有封闭形式条件高斯后验总结的经验贝叶斯逆方法。我们将贝叶斯最小范数 (BMN) 与 sLORETA 深度加权以及稀疏贝叶斯学习 (SBL) 与稀疏基场扩展 (S-FLEX) 进行比较。 S-FLEX 允许保留系数在体素 SBL 产生简并方差的位置贡献非零边际后验方差。对于 BMN，我们通过证据最大化导出联合源方差和噪声方差更新。我们测试自适应噪声学习是否会产生接近校准的不确定性。两种方法都保留了残余的错误校准，从而激发了使用经验覆盖率对可信区域水平进行事后等渗重新校准。模拟使用预言机、基线估计和自适应学习噪声来评估固定和自由方向模型的信噪比 (SNR)、源稀疏水平和特定于主题的头部模型。在重新校准之前，SBL+S-FLEX 比 BMN+sLORETA 产生更低的 Wasserstein 定位误差、更小的后验不确定性以及更接近名义可信度的覆盖范围。等张重新校准改进了两种方法，对于保守的 BMN+sLORETA 后验有更大的增益；跨不匹配的 SNR、稀疏性和头部模型的传输仍然依赖于条件。噪声规范在每个估计器内产生大致一致的重建和不确定性趋势。在真实的听觉 MEG 数据中，SBL+S-FLEX 比 BMN+sLORETA 提供更多的焦点定位和更严格的不确定性，这表明识别双边听觉源的统计能力更强。",
+          "summaryZh": "arXiv:2611.06979v1 公告类型：新\n摘要：M/EEG 源成像需要准确的定位和可靠的不确定性估计，但很少评估后可信区域以进行经验校准。我们提出了一个基于模拟的框架，用于不确定性量化和校准具有封闭形式条件高斯后验总结的经验贝叶斯逆方法。我们将贝叶斯最小范数 (BMN) 与 sLORETA 深度加权以及稀疏贝叶斯学习 (SBL) 与稀疏基场扩展 (S-FLEX) 进行比较。 S-FLEX 允许保留系数在体素 SBL 产生简并方差的位置贡献非零边际后验方差。对于 BMN，我们通过证据最大化导出联合源方差和噪声方差更新。我们测试自适应噪声学习是否会产生接近校准的不确定性。两种方法都保留了残余误差校准，从而激发了使用经验覆盖率对可信区域水平进行事后等渗重新校准。模拟使用预言机、基线估计和自适应学习噪声来评估固定和自由方向模型的信噪比 (SNR)、源稀疏水平和特定于主题的头部模型。在重新校准之前，SBL+S-FLEX 比 BMN+sLORETA 产生更低的 Wasserstein 定位误差、更小的后验不确定性以及更接近名义可信度的覆盖范围。等张重新校准改进了两种方法，对于保守的 BMN+sLORETA 后验有更大的增益；跨不匹配的 SNR、稀疏性和头部模型的传输仍然依赖于条件。噪声规格在每个估计器内产生大致一致的重建和不确定性趋势。在真实的听觉 MEG 数据中，SBL+S-FLEX 比 BMN+sLORETA 提供更多的焦点定位和更严格的不确定性，这表明识别双边听觉源的统计能力更强。",
           "publishedAt": "2026-11-06T05:00:00.000Z",
           "comments": null,
           "author": "Ismail Huseynov, Mohammad Orabe, Srikantan Nagarajan, Stefan Haufe"
@@ -499,7 +284,7 @@
           "titleZh": "生成式人工智能的随机动力学：从自回归模型到交互 LLM 网络和神经 SDE",
           "link": "https://arxiv.org/abs/2611.07065",
           "summary": "arXiv:2611.07065v1 Announce Type: new\nAbstract: This paper develops a stochastic dynamical-systems perspective on three classes of generative AI models. First, we formulate large language models (LLMs) as high-dimensional nonlinear autoregressive models with attention-based dependencies. This formulation connects pretraining by conditional maximum likelihood to sequential token generation and provides a probabilistic interpretation of LLM operation. Second, we consider networks of interacting LLMs and characterize their collective behavior through mean-field ordinary differential equations. These dynamics provide a framework for understanding emergent preferential attachment and persistent structural biases, including type-dependent glass-ceiling effects. Third, we consider neural stochastic differential equations (SDEs) as continuous-time generative models for stochastic trajectories, including those observed at irregular time intervals. We discuss their training with particular emphasis on Wiener-space cubature methods based on rough-path analysis as an efficient alternative to Monte Carlo estimation. Together, the three settings address probabilistic prediction, information exchange and emergent behavior in interacting networks, and path-space generative modeling.",
-          "summaryZh": "arXiv:2611.07065v1 公告类型：新\n摘要：本文对三类生成人工智能模型提出了随机动力系统的观点。首先，我们将大型语言模型（LLM）制定为具有基于注意依赖性的高维非线性自回归模型。该公式将条件最大似然的预训练与顺序令牌生成联系起来，并提供 LLM 操作的概率解释。其次，我们考虑相互作用的法学硕士网络，并通过平均场常微分方程来表征它们的集体行为。这些动态提供了一个框架，用于理解新兴的偏好依恋和持久的结构偏差，包括类型相关的玻璃天花板效应。第三，我们将神经随机微分方程（SDE）视为随机轨迹的连续时间生成模型，包括以不规则时间间隔观察到的轨迹。我们讨论了他们的训练，特别强调基于粗糙路径分析的维纳空间体积方法，作为蒙特卡罗估计的有效替代方法。这三种设置共同解决了交互网络中的概率预测、信息交换和紧急行为以及路径空间生成建模。",
+          "summaryZh": "arXiv:2611.07065v1 公告类型：新\n摘要：本文对三类生成人工智能模型提出了随机动力系统的观点。首先，我们将大型语言模型（LLM）制定为具有基于注意力的依赖性的高维非线性自回归模型。该公式将条件最大似然的预训练与顺序令牌生成联系起来，并提供 LLM 操作的概率解释。其次，我们考虑相互作用的法学硕士网络，并通过平均场常微分方程来表征它们的集体行为。这些动态提供了一个框架，用于理解新兴的偏好依恋和持久的结构偏差，包括类型相关的玻璃天花板效应。第三，我们将神经随机微分方程（SDE）视为随机轨迹的连续时间生成模型，包括以不规则时间间隔观察到的轨迹。我们讨论了他们的训练，特别强调基于粗糙路径分析的维纳空间体积方法，作为蒙特卡罗估计的有效替代方法。这三种设置共同解决了交互网络中的概率预测、信息交换和紧急行为以及路径空间生成建模。",
           "publishedAt": "2026-11-06T05:00:00.000Z",
           "comments": null,
           "author": "Vikram Krishnamurthy, Yiming Zhang, Luke Snow"
@@ -532,7 +317,7 @@
           "titleZh": "总和博弈中的乐观对冲：通过时间近似的基本限制和遗憾界限",
           "link": "https://arxiv.org/abs/2611.07078",
           "summary": "arXiv:2611.07078v1 Announce Type: new\nAbstract: Optimistic Hedge, a multiplicative weight update with one step of extrapolation, is one of the most natural regret-minimizing dynamics for games, and characterizing its regret has been a longstanding open question. Daskalakis, Fishelson and Golowich proved that if all $m$ players in a finite general-sum game follow Optimistic Hedge with a fixed learning rate, each player's regret is polylogarithmic in the horizon $T$. Subsequently, Ha showed that an appropriate choice of learning rate makes each player's regret bounded independently of $T$. This bound, however, is non-constructive and its dependence on the number of actions $n$ is not explicit, leaving open whether Optimistic Hedge can achieve a constant regret bound which is polynomial in the size of the game.\n We show that the answer hinges on the number of players. In two-player games, there is a learning rate for which Optimistic Hedge guarantees $O(n\\log n)$ regret independent of the horizon. In three-player games, however, no such bound is possible: for any learning rate up to an absolute constant and for sufficiently large horizon $T$, there is a game with $n$ actions per player in which some player's regret is $2^{\\Omega(n)}$, and more generally, for every $m\\ge3$ we construct $m$-player games in which some player's regret is $2^{\\Omega(mn)}$; for learning rates above $2^{-\\Omega(mn)}$, that player's regret even grows linearly in $T$.\n Our upper bound is based on a temporal approximation framework for the analysis of Optimistic Hedge. Starting from the variance-based RVU bound of Daskalakis et al., we approximate the losses over time-localized windows by well-behaved functions, whose total variation is a small fraction of their cumulative variance. In $m$-player games, the same framework gives a significantly simplified proof of the recent $O(\\sqrt{m}\\log n\\log T)$ regret bound due to Ha.",
-          "summaryZh": "arXiv:2611.07078v1 公告类型：新\n摘要：乐观对冲是一种具有一步外推的乘法权重更新，是游戏中最自然的后悔最小化动态之一，而表征其后悔一直是一个长期悬而未决的问题。 Daskalakis、Fishelson 和 Golowich 证明，如果有限一般和博弈中的所有 $m$ 玩家都遵循固定学习率的乐观对冲，则每个玩家的遗憾在地平线 $T$ 中是多对数的。随后，Ha 表明，适当选择学习率可以使每个玩家的后悔程度独立于 $T$。然而，这个界限是非建设性的，并且它对动作数量 $n$ 的依赖性并不明确，因此乐观对冲是否可以实现恒定的遗憾界限（该界限是游戏规模的多项式）尚不确定。\n 我们表明答案取决于玩家的数量。在两人游戏中，存在一个学习率，乐观对冲可以保证 $O(n\\log n)$ 后悔，而与范围无关。然而，在三人游戏中，这样的界限是不可能的：对于任何高达绝对常数的学习率和足够大的视野$T$，存在每个玩家有$n$个动作的游戏，其中一些玩家的遗憾是$2^{\\Omega(n)}$，更一般地，对于每个$m\\ge3$，我们构造$m$个玩家游戏，其中一些玩家的遗憾是$2^{\\Omega(mn)}$；对于高于 $2^{-\\Omega(mn)}$ 的学习率，该玩家的遗憾甚至会以 $T$ 线性增长。\n 我们的上限基于用于分析乐观对冲的时间近似框架。从 Daskalakis 等人的基于方差的 RVU 界限开始，我们通过表现良好的函数来近似时间局部化窗口上的损失，其总方差只是其累积方差的一小部分。在 $m$ 玩家游戏中，相同的框架给出了最近由于 Ha 导致的 $O(\\sqrt{m}\\log n\\log T)$ 遗憾绑定的显着简化证明。",
+          "summaryZh": "arXiv:2611.07078v1 公告类型：新\n摘要：乐观对冲是一种具有一步外推的乘法权重更新，是游戏中最自然的后悔最小化动态之一，而表征其后悔一直是一个长期悬而未决的问题。 Daskalakis、Fishelson 和 Golowich 证明，如果有限一般和游戏中的所有 $m$ 玩家都遵循固定学习率的乐观对冲，则每个玩家的遗憾在地平线 $T$ 中是多对数的。随后，Ha 表明，适当选择学习率可以使每个玩家的后悔程度独立于 $T$。然而，这个界限是非建设性的，并且它对动作数量 $n$ 的依赖性并不明确，因此乐观对冲是否可以实现恒定的遗憾界限（该界限是游戏规模的多项式）尚不确定。\n 我们表明答案取决于玩家的数量。在两人游戏中，存在一个学习率，乐观对冲可以保证 $O(n\\log n)$ 后悔，而与范围无关。然而，在三人游戏中，这样的界限是不可能的：对于任何高达绝对常数的学习率和足够大的视野$T$，存在每个玩家有$n$个动作的游戏，其中一些玩家的遗憾是$2^{\\Omega(n)}$，更一般地，对于每个$m\\ge3$，我们构造$m$个玩家游戏，其中一些玩家的遗憾是$2^{\\Omega(mn)}$；对于高于 $2^{-\\Omega(mn)}$ 的学习率，该玩家的遗憾甚至会以 $T$ 线性增长。\n 我们的上限基于用于分析乐观对冲的时间近似框架。从 Daskalakis 等人的基于方差的 RVU 界限开始，我们通过表现良好的函数来近似时间局部化窗口上的损失，其总方差只是其累积方差的一小部分。在 $m$ 玩家游戏中，相同的框架给出了最近由于 Ha 导致的 $O(\\sqrt{m}\\log n\\log T)$ 遗憾绑定的显着简化证明。",
           "publishedAt": "2026-11-06T05:00:00.000Z",
           "comments": null,
           "author": "Yuval Dagan, Nadav Eisen, Liad Erez, Tomer Koren"
@@ -543,7 +328,7 @@
           "titleZh": "联合专家混合的服务器端稀疏分配",
           "link": "https://arxiv.org/abs/2611.07093",
           "summary": "arXiv:2611.07093v1 Announce Type: new\nAbstract: Large language models (LLMs) are increasingly recognized for their remarkable capabilities; federated learning (FL) offers a promising framework for collaboratively fine-tuning LLMs on edge devices while achieving data privacy. However, edge devices are inherently heterogeneous: clients may exhibit diverse data distributions and resource constraints, including limited memory and computation budgets. Recent federated Mixture-of-Experts (MoE) approaches address these challenges by using sparse expert activation or partial expert loading. However, existing partial-expert methods rely on heuristic full-pool observations or prioritize system-wide load balance, without guarantees for recovering client-specific relevant experts from partial observations. We propose $S^3$-MoE, a server-side sparse expert assignment framework that estimates client-specific expert relevance from partial observations and refines assignments through an exploit--explore mechanism. We also establish relevance-estimation error and exact Top-$K$ recovery guarantees. Experiments using a CNN-based MoE on CIFAR-100 show that $S^3$-MoE recovers task-dependent client--expert preferences and reduces conflicts caused by correlated expert selection across clients. Compared with Full-20 FedAvg, which gives each client access to all 20 experts for local Top-5 routing, $S^3$-MoE achieves 1.31 percentage points higher mean final accuracy while loading only $5$ experts per client.",
-          "summaryZh": "arXiv:2611.07093v1 公告类型：新\n摘要：大型语言模型（LLM）因其卓越的功能而日益受到认可。联邦学习（FL）提供了一个有前途的框架，可以在边缘设备上协作微调 LLM，同时实现数据隐私。然而，边缘设备本质上是异构的：客户端可能表现出不同的数据分布和资源限制，包括有限的内存和计算预算。最近的联合专家混合 (MoE) 方法通过使用稀疏专家激活或部分专家加载来解决这些挑战。然而，现有的部分专家方法依赖于启发式全池观察或优先考虑系统范围的负载平衡，不能保证从部分观察中恢复特定于客户的相关专家。我们提出 $S^3$-MoE，一个服务器端稀疏专家分配框架，它根据部分观察估计特定于客户端的专家相关性，并通过利用-探索机制完善分配。我们还建立了相关性估计误差和精确的 Top-$K$ 恢复保证。在 CIFAR-100 上使用基于 CNN 的 MoE 进行的实验表明，$S^3$-MoE 恢复了任务相关的客户-专家偏好，并减少了客户间相关专家选择引起的冲突。与 Full-20 FedAvg 相比，Full-20 FedAvg 允许每个客户端访问所有 20 位专家进行本地 Top-5 路由，$S^3$-MoE 的平均最终准确度提高了 1.31 个百分点，同时每个客户端仅加载 5$ 专家。",
+          "summaryZh": "arXiv:2611.07093v1 公告类型：新\n摘要：大型语言模型（LLM）因其卓越的功能而日益受到认可。联邦学习 (FL) 提供了一个有前途的框架，用于在边缘设备上协作微调 LLM，同时实现数据隐私。然而，边缘设备本质上是异构的：客户端可能表现出不同的数据分布和资源限制，包括有限的内存和计算预算。最近的联合专家混合 (MoE) 方法通过使用稀疏专家激活或部分专家加载来解决这些挑战。然而，现有的部分专家方法依赖于启发式全池观察或优先考虑系统范围的负载平衡，不能保证从部分观察中恢复特定于客户的相关专家。我们提出 $S^3$-MoE，一个服务器端稀疏专家分配框架，它根据部分观察估计特定于客户端的专家相关性，并通过利用-探索机制完善分配。我们还建立了相关性估计误差和精确的 Top-$K$ 恢复保证。在 CIFAR-100 上使用基于 CNN 的 MoE 进行的实验表明，$S^3$-MoE 恢复了任务相关的客户-专家偏好，并减少了客户间相关专家选择引起的冲突。与 Full-20 FedAvg 相比，Full-20 FedAvg 允许每个客户端访问所有 20 位专家进行本地 Top-5 路由，$S^3$-MoE 的平均最终准确度提高了 1.31 个百分点，同时每个客户端仅加载 5$ 专家。",
           "publishedAt": "2026-11-06T05:00:00.000Z",
           "comments": null,
           "author": "Xue Zheng, Aylin Yener"
@@ -576,7 +361,7 @@
           "titleZh": "根据结构化临床数据进行 IVF/ICSI 后活产预测的机器学习：系统回顾、荟萃分析和批判性评估",
           "link": "https://arxiv.org/abs/2611.07124",
           "summary": "arXiv:2611.07124v1 Announce Type: new\nAbstract: Machine-learning models predicting live birth after in vitro fertilisation (IVF) or intracytoplasmic sperm injection (ICSI) from routine clinical data report performance from near chance to near perfect. We systematically reviewed these models under PRISMA 2020, searching OpenAlex, Scopus and Web of Science to 22 October 2026, appraised them with PROBAST+AI and TRIPOD+AI, and pooled their discrimination with random-effects meta-analysis on the logit scale. We define what fixes the meaning of a model's output (decision point, endpoint, unit of analysis, data source) and map the 48 included studies by model family, decision point and validation design. Models evaluated only internally pooled to an area under the receiver operating characteristic curve (AUC) of 0.814, against 0.756 (95% prediction interval 0.546-0.889) for models evaluated on a later period or another centre, and 0.764 for studies not at high risk of bias; neither difference was significant, and heterogeneity was extreme. Models whose decision point was not stated pooled to 0.910, the only significant moderator in meta-regression. Against logistic regression fitted to the same data, the best machine-learning model gained a pooled 0.056 AUC (95% CI 0.017-0.090). Of 48 studies, 47 were at high or unclear risk of bias, only four assessed the calibration slope, and no model has evidence of clinical impact. The certainty of the pooled evidence is low to very low; the gains that survive validation came from staging predictions to decision points and local calibration, not deeper architectures. We provide a TRIPOD+AI-mapped checklist, a benchmark specification and a research agenda.",
-          "summaryZh": "arXiv:2611.07124v1 公告类型：新\n摘要：根据常规临床数据预测体外受精 (IVF) 或胞浆内单精子注射 (ICSI) 后的活产的机器学习模型报告的表现从接近机会到接近完美。我们在 PRISMA 2020 下系统地回顾了这些模型，检索了 OpenAlex、Scopus 和 Web of Science 截至 2026 年 10 月 22 日，用 PROBAST+AI 和 TRIPOD+AI 对其进行了评估，并将它们的判别力与 Logit 量表上的随机效应荟萃分析进行了汇总。我们定义了模型输出的含义（决策点、终点、分析单元、数据源），并按模型系列、决策点和验证设计绘制了 48 项纳入的研究。模型仅内部评估，受试者工作特征曲线 (AUC) 下的面积为 0.814，而在较晚时期或另一个中心评估的模型为 0.756（95% 预测区间 0.546-0.889），对于不存在高偏倚风险的研究为 0.764；两种差异均不显着，且异质性极大。未说明决策点的模型汇总为 0.910，这是元回归中唯一重要的调节因素。与拟合相同数据的逻辑回归相比，最好的机器学习模型获得了 0.056 AUC（95% CI 0.017-0.090）。在 48 项研究中，47 项存在较高或不明确的偏倚风险，只有 4 项评估了校准斜率，并且没有模型具有临床影响的证据。汇总证据的质量从低到极低；经过验证的收益来自于将预测分阶段部署到决策点和局部校准，而不是更深层次的架构。我们提供 TRIPOD+AI 映射清单、基准规范和研究议程。",
+          "summaryZh": "arXiv:2611.07124v1 公告类型：新\n摘要：根据常规临床数据预测体外受精 (IVF) 或胞浆内单精子注射 (ICSI) 后的活产的机器学习模型报告的表现从接近机会到接近完美。我们在 PRISMA 2020 下系统地回顾了这些模型，检索了 OpenAlex、Scopus 和 Web of Science 截至 2026 年 10 月 22 日，用 PROBAST+AI 和 TRIPOD+AI 对其进行了评估，并将它们的判别力与 Logit 量表上的随机效应荟萃分析进行了汇总。我们定义了模型输出的含义（决策点、终点、分析单元、数据源），并按模型系列、决策点和验证设计绘制了 48 项纳入的研究。模型仅内部评估，受试者工作特征曲线 (AUC) 下的面积为 0.814，而在较晚时期或另一个中心评估的模型为 0.756（95% 预测区间 0.546-0.889），对于不存在高偏倚风险的研究为 0.764；两种差异均不显着，且异质性极大。未说明决策点的模型汇总为 0.910，这是元回归中唯一重要的调节因子。与拟合相同数据的逻辑回归相比，最好的机器学习模型获得了 0.056 AUC（95% CI 0.017-0.090）。在 48 项研究中，47 项存在较高或不明确的偏倚风险，只有 4 项评估了校准斜率，并且没有模型具有临床影响的证据。汇总证据的质量从低到极低；经过验证的收益来自于将预测分阶段部署到决策点和局部校准，而不是更深层次的架构。我们提供 TRIPOD+AI 映射清单、基准规范和研究议程。",
           "publishedAt": "2026-11-06T05:00:00.000Z",
           "comments": null,
           "author": "Abdul Raheem Shahzad, Muhammad Zaheer Khan, Umar Ajaib, Asad Ur Rehman, Juan Deng, Ming Zhang"
@@ -587,7 +372,7 @@
           "titleZh": "使用静态测试数据进行熔融氯化物腐蚀的数据驱动建模",
           "link": "https://arxiv.org/abs/2611.07125",
           "summary": "arXiv:2611.07125v1 Announce Type: new\nAbstract: Molten chloride corrosion has been studied for decades, yet reliable prediction across different alloys, salts, and test conditions remains difficult. In this work, 291 static molten chloride corrosion experiments reported in the literature were compiled into a structured dataset and used to develop an interpretable machine-learning framework for corrosion-rate predictions. To better represent the differences in salt condition across studies, a Chloride Salt Preparation Index (CSPI) was introduced to bring the reported salt-treatment method, atmosphere control, and pre-exposure impurity condition on a common numerical scale. A blended tree-based ensemble provided the most consistent predictive performance, achieving a cross-validated \\(R^2\\) of 0.85 and an MAE of 0.41 mg cm\\(^{-2}\\) day\\(^{-1}\\). The graded CSPI retained more useful information than a simple purified/unpurified classification and emerged as the dominant model descriptor. Global sensitivity and SHAP analyses further identified exposure time, temperature, and alloy chemistry as important contributors to the model predictions, with several observed trends consistent with the established molten-chloride corrosion behavior. The conformal prediction intervals were well calibrated, providing an estimate of prediction uncertainty in addition to the point prediction. Overall, the framework demonstrates that historical corrosion data can support quantitative, interpretable, and uncertainty-aware prediction when experimental context is represented explicitly, while also highlighting where more consistent reporting and targeted experiments are needed to improve future molten-salt corrosion models.",
-          "summaryZh": "arXiv:2611.07125v1 公告类型：新\n摘要：熔融氯化物腐蚀的研究已经有几十年了，但对不同合金、盐和测试条件的可靠预测仍然很困难。在这项工作中，文献中报道的 291 个静态熔融氯化物腐蚀实验被编译成结构化数据集，并用于开发用于腐蚀速率预测的可解释的机器学习框架。为了更好地表示研究中盐条件的差异，引入了氯化物盐制备指数（CSPI），将报告的盐处理方法、气氛控制和曝光前杂质条件纳入通用的数值范围。基于混合树的集成提供了最一致的预测性能，实现了 0.85 的交叉验证 \\(R^2\\) 和 0.41 mg cm\\(^{-2}\\) day\\(^{-1}\\) 的 MAE。分级 CSPI 比简单的纯化/未纯化分类保留了更多有用的信息，并成为主要的模型描述符。全局灵敏度和 SHAP 分析进一步确定了暴露时间、温度和合金化学成分是模型预测的重要因素，其中一些观察到的趋势与已建立的熔融氯化物腐蚀行为一致。共形预测区间得到了很好的校准，除了点预测之外，还提供了预测不确定性的估计。总体而言，该框架表明，当明确表示实验背景时，历史腐蚀数据可以支持定量、可解释和不确定性感知的预测，同时还强调需要更一致的报告和有针对性的实验来改进未来的熔盐腐蚀模型。",
+          "summaryZh": "arXiv:2611.07125v1 公告类型：新\n摘要：熔融氯化物腐蚀的研究已经有几十年了，但对不同合金、盐和测试条件的可靠预测仍然很困难。在这项工作中，文献中报道的 291 个静态熔融氯化物腐蚀实验被编译成结构化数据集，并用于开发用于腐蚀速率预测的可解释的机器学习框架。为了更好地表示研究中盐条件的差异，引入了氯化物盐制备指数 (CSPI)，将报告的盐处理方法、气氛控制和曝光前杂质条件纳入通用的数值范围。基于混合树的集成提供了最一致的预测性能，实现了 0.85 的交叉验证 \\(R^2\\) 和 0.41 mg cm\\(^{-2}\\) day\\(^{-1}\\) 的 MAE。分级 CSPI 比简单的纯化/未纯化分类保留了更多有用的信息，并成为主要的模型描述符。全局灵敏度和 SHAP 分析进一步确定了暴露时间、温度和合金化学成分是模型预测的重要因素，其中一些观察到的趋势与已建立的熔融氯化物腐蚀行为一致。共形预测区间得到了很好的校准，除了点预测之外，还提供了预测不确定性的估计。总体而言，该框架表明，当明确表示实验背景时，历史腐蚀数据可以支持定量、可解释和不确定性感知的预测，同时还强调需要更一致的报告和有针对性的实验来改进未来的熔盐腐蚀模型。",
           "publishedAt": "2026-11-06T05:00:00.000Z",
           "comments": null,
           "author": "Md Mahmudul Hasan Pathik"
