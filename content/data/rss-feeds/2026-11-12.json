@@ -1,0 +1,266 @@
+{
+  "source": "content/feeds.json",
+  "attribution": "Aggregated headlines/summaries from third-party RSS/Atom feeds for navigation only. All rights belong to original publishers and authors. Chinese text is machine-translated.",
+  "fetchedAt": "2026-11-12T05:47:19.311Z",
+  "date": "2026-11-12",
+  "feedCount": 3,
+  "itemCount": 20,
+  "locale": {
+    "summaryDefault": "zh",
+    "translated": true
+  },
+  "errors": [],
+  "feeds": [
+    {
+      "id": "hacker-news",
+      "title": "Hacker News",
+      "url": "https://hnrss.org/frontpage",
+      "home": "https://news.ycombinator.com/",
+      "group": "community",
+      "fetchedAt": "2026-11-12T05:47:01.670Z",
+      "count": 20,
+      "items": [
+        {
+          "id": "https://news.ycombinator.com/item?id=50463103",
+          "title": "Darling Development Update – Q4 2026",
+          "titleZh": "Darling 开发更新 – 2026 年第 4 季度",
+          "link": "https://blog.darlinghq.org/2026/11/08/development-update-q4-2026/",
+          "summary": "Article URL: https://blog.darlinghq.org/2026/11/08/development-update-q4-2026/\n\n Comments URL: https://news.ycombinator.com/item?id=50463103\n\n Points: 6\n\n # Comments: 2",
+          "summaryZh": "文章网址：https://blog.darlinghq.org/2026/11/08/development-update-q4-2026/\n\n 评论网址：https://news.ycombinator.com/item?id=50463103\n\n 积分：6\n\n # 评论: 2",
+          "publishedAt": "2026-11-12T04:32:31.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50463103",
+          "author": "tech234a"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50462469",
+          "title": "Show HN: Ramasite, a Self-Contained Laravel/Filament/SQLite CMS",
+          "titleZh": "Show HN：Ramasite，一个独立的 Laravel/Filament/SQLite CMS",
+          "link": "https://github.com/DaleFranks/ramasite",
+          "summary": "I'm new here, and little nervous about posting, but here goes. I'm not a newbie. I started programming in BASIC when my dad bought home a TRS-80 Model I in 1980, when I was 16. Other than a 9-year stint as active duty military, I've spent 46 years either personally or professionally working in tech. I've programmed in RPG using punch cards for an IBM /System360, and COBOL on a DEC pdp 11/34. I've worked professionally with VB, C#, SQL Server, ColdFusion, PHP, and more. I've seen a lot of technologies come and go. So this ain't the first time I've jogged around this track. Here's the problem I wanted to solve: I hate WordPress. I mean, as a concept, it's fine, but I used to have a fairly popular motorcycle blog on WP that got trashed by hackers. I've also run into that problem with customers. When hackers find a wordpress site, they just bang on it like a drum. It's a pain. It's also a pain just to manage it, with a wild-west plugin system where plugins constantly fall in and out of compatibility. I'm also not a huge fan of PHP, but since it comes stock with pretty much every shared hosting service, where a lot of my web work is done, it's kind of the default for doing web stuff. Back in about 2006 or so, I built my own blogging software, which I called .Blog, as an ASP.NET deal in C#. It took me about 6 months to build, start to finish. I didn't have time to keep up with it, which is why I defaulted back to WP sometime around 2014. I migrated to Grav when I ran across it (I guess around 2020 or so), and I liked that. But Grav ran into some issues, and development on it really slowed. In the past year or so, the company I work for has been delving into using Claude Code, and I got an idea. What if I could just use Claude Code to build a CMS that has everything I want, and nothing I don't? This project is the result of that idea. I designed the specifications for what I wanted it to do, and let Claude Code handle the actual code writing. I started with a flat-file, markdown-based flat-file CMS, and iterated on that. Fiddling around with markdown files and folders started to get tedious, so I moved towards SQLite as the back-end, to create a system as self-contained and easy to use as possible. This project is, I think, the final result of that idea. This project, from start to finish, took about 2 weeks to build using Laravel/Filament/PHP with Claude Code, compared to the 6 months it took to build .Blog by hand, 20 years ago. Cripes, I'm old. Personally, I'm pretty pleased with how this project turned out. I'm running two public websites on it. I'd be interested to hear what others think.\n\n Comments URL: https://news.ycombinator.com/item?id=50462469\n\n Points: 5\n\n # Comments: 0",
+          "summaryZh": "我是新来的，对发帖不太紧张，但就这样吧。我不是新手。 1980 年，我父亲买了一辆 TRS-80 Model I 回家，当时我 16 岁，我开始使用 BASIC 编程。除了 9 年的现役军人生涯之外，我个人或专业从事技术工作已有 46 年。我在 IBM /System360 上使用打孔卡进行 RPG 编程，在 DEC pdp 11/34 上使用 COBOL 进行编程。我曾专业使用 VB、C#、SQL Server、ColdFusion、PHP 等。我见过很多技术的诞生和消失。所以这不是我第一次绕这条跑道慢跑。这是我想解决的问题：我讨厌 WordPress。我的意思是，作为一个概念，它很好，但我曾经在 WP 上有一个相当受欢迎的摩托车博客，但被黑客破坏了。我也遇到过客户的这个问题。当黑客找到一个 WordPress 网站时，他们就像敲鼓一样敲击它。很痛苦。管理它也是一件痛苦的事情，在狂野西部的插件系统中，插件不断地陷入和失去兼容性。我也不是 PHP 的忠实粉丝，但由于几乎所有共享托管服务都配备了 PHP，我的许多 Web 工作都是在其中完成的，因此它是处理 Web 内容的默认设置。大约在 2006 年左右，我构建了自己的博客软件，我将其称为 .Blog，作为 C# 中的 ASP.NET 处理。从开始到完成，我花了大约 6 个月的时间来构建。我没有时间跟上它，这就是为什么我在 2014 年左右的某个时候默认回到了 WP。当我遇到它时，我迁移到了 Grav（我猜大约在 2020 年左右），我喜欢它。但 Grav 遇到了一些问题，其开发速度确实放缓了。在过去一年多的时间里，我工作的公司一直在钻研使用Claude Code，我有了一个想法。如果我可以使用 Claude Code 构建一个 CMS，其中包含我想要的一切，而没有我不需要的内容，会怎么样？这个项目就是这个想法的结果。我根据自己的需要设计了规范，并让 Claude Code 处理实际的代码编写工作。我从一个基于 Markdown 的平面文件 CMS 开始，并对其进行迭代。摆弄 Markdown 文件和文件夹开始变得乏味，所以我转向 SQLite 作为后端，以创建一个尽可能独立且易于使用的系统。我认为这个项目是这个想法的最终结果。这个项目从开始到结束，使用 Laravel/Filament/PHP 和 Claude Code 构建需要大约 2 周的时间，而 20 年前手工构建 .Blog 需要 6 个月的时间。哎呀，我老了。就我个人而言，我是",
+          "publishedAt": "2026-11-12T02:53:22.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50462469",
+          "author": "DaleFranks"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50462375",
+          "title": "Lean Grimoire",
+          "titleZh": "精益魔法书",
+          "link": "https://terrytao.wordpress.com/2026/11/11/lean-grimoire/",
+          "summary": "Article URL: https://terrytao.wordpress.com/2026/11/11/lean-grimoire/\n\n Comments URL: https://news.ycombinator.com/item?id=50462375\n\n Points: 21\n\n # Comments: 4",
+          "summaryZh": "文章网址：https://terrytao.wordpress.com/2026/11/11/lean-grimoire/\n\n 评论网址：https://news.ycombinator.com/item?id=50462375\n\n 积分：21\n\n # 评论: 4",
+          "publishedAt": "2026-11-12T02:36:48.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50462375",
+          "author": "smilelamp"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50462177",
+          "title": "Critical RCE Vulnerability in Apache HTTP Server",
+          "titleZh": "Apache HTTP 服务器中的严重 RCE 漏洞",
+          "link": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
+          "summary": "Article URL: https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability\n\n Comments URL: https://news.ycombinator.com/item?id=50462177\n\n Points: 76\n\n # Comments: 30",
+          "summaryZh": "文章网址：https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability\n\n 评论网址：https://news.ycombinator.com/item?id=50462177\n\n 积分：76\n\n # 评论: 30",
+          "publishedAt": "2026-11-12T02:11:11.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50462177",
+          "author": "soheilpro"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50460154",
+          "title": "A general purpose Apple Silicon layer for x86-64 PCs",
+          "titleZh": "适用于 x86-64 PC 的通用 Apple Silicon 层",
+          "link": "https://github.com/tylertms/Stela",
+          "summary": "Article URL: https://github.com/tylertms/Stela\n\n Comments URL: https://news.ycombinator.com/item?id=50460154\n\n Points: 84\n\n # Comments: 34",
+          "summaryZh": "文章网址：https://github.com/tylertms/Stela\n\n 评论网址：https://news.ycombinator.com/item?id=50460154\n\n 积分：84\n\n # 评论: 34",
+          "publishedAt": "2026-11-11T23:02:38.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50460154",
+          "author": "iceboundrock"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50459745",
+          "title": "93% of paint splatters are valid Perl programs (2019)",
+          "titleZh": "93% 的油漆飞溅都是有效的 Perl 程序 (2019)",
+          "link": "https://www.mcmillen.dev/sigbovik/",
+          "summary": "Article URL: https://www.mcmillen.dev/sigbovik/\n\n Comments URL: https://news.ycombinator.com/item?id=50459745\n\n Points: 293\n\n # Comments: 39",
+          "summaryZh": "文章网址：https://www.mcmillen.dev/sigbovik/\n\n 评论网址：https://news.ycombinator.com/item?id=50459745\n\n 积分：293\n\n # 评论: 39",
+          "publishedAt": "2026-11-11T22:34:23.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50459745",
+          "author": "zenincognito"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50459703",
+          "title": "Nvidia is preparing to oust Jensen Huang",
+          "titleZh": "英伟达准备罢免黄仁勋",
+          "link": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+          "summary": "Article URL: https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad\n\n Comments URL: https://news.ycombinator.com/item?id=50459703\n\n Points: 770\n\n # Comments: 1101",
+          "summaryZh": "文章网址：https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad\n\n 评论网址：https://news.ycombinator.com/item?id=50459703\n\n 积分：770\n\n #评论：1101",
+          "publishedAt": "2026-11-11T22:31:06.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50459703",
+          "author": "jbredeche"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50459485",
+          "title": "Lock Your GitHub Actions",
+          "titleZh": "锁定您的 GitHub 操作",
+          "link": "https://hugovk.dev/blog/2026/lock-github-actions/",
+          "summary": "Article URL: https://hugovk.dev/blog/2026/lock-github-actions/\n\n Comments URL: https://news.ycombinator.com/item?id=50459485\n\n Points: 189\n\n # Comments: 35",
+          "summaryZh": "文章网址：https://hugovk.dev/blog/2026/lock-github-actions/\n\n 评论网址：https://news.ycombinator.com/item?id=50459485\n\n 积分：189\n\n # 评论: 35",
+          "publishedAt": "2026-11-11T22:16:41.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50459485",
+          "author": "gslin"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50459321",
+          "title": "Jensen Huang said to have had relationship with executive who reports to him",
+          "titleZh": "据说黄仁勋与向他汇报的高管有关系",
+          "link": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html",
+          "summary": "Article URL: https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html\n\n Comments URL: https://news.ycombinator.com/item?id=50459321\n\n Points: 319\n\n # Comments: 375",
+          "summaryZh": "文章网址：https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html\n\n 评论网址：https://news.ycombinator.com/item?id=50459321\n\n 积分：319\n\n # 评论：375",
+          "publishedAt": "2026-11-11T22:03:58.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50459321",
+          "author": "louiereederson"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50458900",
+          "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+          "titleZh": "联合航空禁止人工智能代理代表旅客预订航班",
+          "link": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+          "summary": "Article URL: https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/\n\n Comments URL: https://news.ycombinator.com/item?id=50458900\n\n Points: 491\n\n # Comments: 472",
+          "summaryZh": "文章网址：https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/\n\n 评论网址：https://news.ycombinator.com/item?id=50458900\n\n 积分：491\n\n # 评论：472",
+          "publishedAt": "2026-11-11T21:24:35.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50458900",
+          "author": "herpderperator"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50458208",
+          "title": "Emacs in the Age of Magic",
+          "titleZh": "魔法时代的 Emacs",
+          "link": "https://commandlinesystems.com/magic.txt",
+          "summary": "Article URL: https://commandlinesystems.com/magic.txt\n\n Comments URL: https://news.ycombinator.com/item?id=50458208\n\n Points: 184\n\n # Comments: 64",
+          "summaryZh": "文章网址：https://commandlinesystems.com/magic.txt\n\n 评论网址：https://news.ycombinator.com/item?id=50458208\n\n 积分：184\n\n # 评论: 64",
+          "publishedAt": "2026-11-11T20:26:32.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50458208",
+          "author": "ggcr"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50458166",
+          "title": "Huawei releases MACaQ, its internal quantizer for local inference",
+          "titleZh": "华为发布MACaQ，用于本地推理的内部量化器",
+          "link": "https://github.com/huawei-csl/MACaQ",
+          "summary": "Article URL: https://github.com/huawei-csl/MACaQ\n\n Comments URL: https://news.ycombinator.com/item?id=50458166\n\n Points: 77\n\n # Comments: 23",
+          "summaryZh": "文章网址：https://github.com/huawei-csl/MACaQ\n\n 评论网址：https://news.ycombinator.com/item?id=50458166\n\n 积分：77\n\n # 评论: 23",
+          "publishedAt": "2026-11-11T20:23:57.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50458166",
+          "author": "thefox96"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50457618",
+          "title": "The Utah Teapot",
+          "titleZh": "犹他茶壶",
+          "link": "https://graphics.cs.utah.edu/teapot/",
+          "summary": "https://www.youtube.com/watch?v=k-23LgrFcvs\n\n Comments URL: https://news.ycombinator.com/item?id=50457618\n\n Points: 113\n\n # Comments: 28",
+          "summaryZh": "https://www.youtube.com/watch?v=k-23LgrFcvs\n\n 评论网址：https://news.ycombinator.com/item?id=50457618\n\n 积分：113\n\n # 评论: 28",
+          "publishedAt": "2026-11-11T19:45:10.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50457618",
+          "author": "cobbal"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50457230",
+          "title": "Show HN: I recreated Papers Please but you're deciding which YC startups to fund",
+          "titleZh": "Show HN：我重新创建了 Papers Please，但你正在决定资助哪些 YC 初创公司",
+          "link": "https://termsheetplease.com/",
+          "summary": "Article URL: https://termsheetplease.com/\n\n Comments URL: https://news.ycombinator.com/item?id=50457230\n\n Points: 199\n\n # Comments: 80",
+          "summaryZh": "文章网址：https://termsheetplease.com/\n\n 评论网址：https://news.ycombinator.com/item?id=50457230\n\n 积分：199\n\n # 评论: 80",
+          "publishedAt": "2026-11-11T19:12:16.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50457230",
+          "author": "bolau"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50456791",
+          "title": "Gemini Decisions API",
+          "titleZh": "双子座决策 API",
+          "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+          "summary": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/\n\n Comments URL: https://news.ycombinator.com/item?id=50456791\n\n Points: 347\n\n # Comments: 107",
+          "summaryZh": "文章网址：https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/\n\n 评论网址：https://news.ycombinator.com/item?id=50456791\n\n 积分：347\n\n # 评论: 107",
+          "publishedAt": "2026-11-11T18:32:42.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50456791",
+          "author": "iamdelirium"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50456631",
+          "title": "AWS emulator",
+          "titleZh": "AWS模拟器",
+          "link": "https://github.com/aws/aws-emulator",
+          "summary": "https://www.aboutamazon.com/news/aws/how-autonomous-ai-agent... https://www.allthingsdistributed.com/2026/11/aws-emulator-an...\n\n Comments URL: https://news.ycombinator.com/item?id=50456631\n\n Points: 764\n\n # Comments: 227",
+          "summaryZh": "https://www.aboutamazon.com/news/aws/how-autonomous-ai-agent... https://www.allthingsdistributed.com/2026/11/aws-emulator-an...\n\n 评论网址：https://news.ycombinator.com/item?id=50456631\n\n 积分：764\n\n # 评论：227",
+          "publishedAt": "2026-11-11T18:21:38.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50456631",
+          "author": "super_linear"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50455633",
+          "title": "Faster Retrieval for Better, More Efficient RAG",
+          "titleZh": "更快的检索以获得更好、更高效的 RAG",
+          "link": "https://machinelearning.apple.com/research/faster-retrieval",
+          "summary": "Article URL: https://machinelearning.apple.com/research/faster-retrieval\n\n Comments URL: https://news.ycombinator.com/item?id=50455633\n\n Points: 183\n\n # Comments: 35",
+          "summaryZh": "文章网址：https://machinelearning.apple.com/research/faster-retrieval\n\n 评论网址：https://news.ycombinator.com/item?id=50455633\n\n 积分：183\n\n # 评论: 35",
+          "publishedAt": "2026-11-11T16:57:45.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50455633",
+          "author": "zerop"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50455394",
+          "title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+          "titleZh": "虚假烟雾警报几乎淹没了简街唯一的纽约数据中心",
+          "link": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
+          "summary": "Article URL: https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/\n\n Comments URL: https://news.ycombinator.com/item?id=50455394\n\n Points: 452\n\n # Comments: 227",
+          "summaryZh": "文章网址：https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/\n\n 评论网址：https://news.ycombinator.com/item?id=50455394\n\n 积分：452\n\n # 评论：227",
+          "publishedAt": "2026-11-11T16:38:44.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50455394",
+          "author": "mbac32768"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50454625",
+          "title": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
+          "titleZh": "Show HN：酸奶——格兰诺拉麦片的免费、私有、开源替代品",
+          "link": "https://github.com/FrigadeHQ/yogurt",
+          "summary": "Hey HN, I’m Eric and I want to share an OSS project that I’ve been building in my free time. Yogurt is a free, MIT licensed desktop app that uses on-device AI models to transcribe, summarize, and chat with your meetings. Here's a quick demo video: https://www.youtube.com/watch?v=BFfbXAwRq98 Similar to Granola, Yogurt runs in the background and does not join your calls. But unlike Granola, Yogurt is open-source, free to use, and private. Your meeting transcripts, call recordings, and summaries never leave your computer. As small OSS models have gotten faster and more powerful, Yogurt seemed like a pretty obvious win for privacy and cost conscious folks. You do not need a frontier model to summarize meeting notes or answer questions about them. And if you want to make your notes available to a frontier model, you can just share it with Anthropic, OpenAI, etc. directly via Yogurt’s local MCP server. There’s no need to use a paid cloud service as a middleman. I tried some of the most popular OSS note taking tools, and most were missing features like calendar integration, MCP server, etc. or required you to connect or create an account. And more than that, they didn’t feel polished enough for it to be something I actually wanted to use daily, and so I built Yogurt to scratch that itch. I spent a lot of time fine-tuning every UI interaction/animation and optimizing the model calls to get the most out of your hardware + make it snappy. To support Windows/Mac/Linux, I decided to go with Electron. I use whisper.cpp for transcription and Apple’s on-device SpeechAnalyzer if your system supports it. For call summaries and questions, I use a local open weight LLM that automatically gets downloaded and set up based on what your hardware can handle without your cooling fans firing off like crazy (this part uses llama.cpp). I’ve spent a lot of time working on details like echo detection/reduction, global/folder/local level search respectively, and auto-end recordings. Hope this is useful for any of you who have held out on using AI note tools for privacy or cost reasons, or for folks using cloud tools who want to switch to something free and open source that still feels great to use. Would love to hear what you think about the onboarding and note taking experience :)\n\n Comments URL: https://news.ycombinator.com/item?id=50454625\n\n Points: 210\n\n # Comments: 91",
+          "summaryZh": "嘿 HN，我是 Eric，我想分享一个我在空闲时间构建的 OSS 项目。 Yogurt 是一款获得 MIT 许可的免费桌面应用程序，它使用设备上的 AI 模型来转录、总结会议内容并进行聊天。这是一个快速演示视频：https://www.youtube.com/watch?v=BFfbXAwRq98 与 Granola 类似，Yogurt 在后台运行，不会加入您的通话。但与 Granola 不同的是，Yogurt 是开源、免费使用且私有的。您的会议记录、通话录音和摘要永远不会离开您的计算机。随着小型 OSS 模型变得更快、更强大，对于注重隐私和成本意识的人们来说，Yogurt 似乎是一个相当明显的胜利。您不需要前沿模型来总结会议记录或回答有关会议记录的问题。如果你想让你的笔记可供前沿模型使用，你可以直接通过 Yogurt 的本地 MCP 服务器与 Anthropic、OpenAI 等共享。无需使用付费云服务作为中间人。我尝试了一些最流行的 OSS 笔记工具，大多数都缺少日历集成、MCP 服务器等功能，或者需要您连接或创建帐户。更重要的是，它们感觉不够精致，不足以成为我真正想要每天使用的东西，所以我制作了酸奶来解决这个问题。我花了很多时间微调每个 UI 交互/动画并优化模型调用，以充分利用您的硬件并使其变得敏捷。为了支持 Windows/Mac/Linux，我决定使用 Electron。如果您的系统支持，我会使用 Whisper.cpp 进行转录，并使用 Apple 设备上的 SpeechAnalyzer。对于通话摘要和问题，我使用本地开放式权重法学硕士，它会根据您的硬件可以处理的内容自动下载和设置，而不会导致冷却风扇疯狂运转（这部分使用 llama.cpp）。我花了很多时间研究回声检测/减少、全局/文件夹/本地级别搜索以及自动结束录音等细节。希望这对那些出于隐私或成本原因而坚持使用人工智能笔记工具的人有用，或者对使用云工具但想要切换到仍然感觉很棒的免费开源工具的人有用。很想听听您对入职和笔记体验的看法:)\n\n 评论网址：https://news.ycombinator.com/item?id=50454625\n\n 积分：210\n\n #评论：91",
+          "publishedAt": "2026-11-11T15:33:06.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50454625",
+          "author": "brownrout"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50453637",
+          "title": "Atuin Threads: All your agent sessions on every machine",
+          "titleZh": "Atuin 线程：每台计算机上的所有代理会话",
+          "link": "https://blog.atuin.sh/threads-agent-sessions/",
+          "summary": "Article URL: https://blog.atuin.sh/threads-agent-sessions/\n\n Comments URL: https://news.ycombinator.com/item?id=50453637\n\n Points: 205\n\n # Comments: 78",
+          "summaryZh": "文章网址：https://blog.atuin.sh/threads-agent-sessions/\n\n 评论网址：https://news.ycombinator.com/item?id=50453637\n\n 积分：205\n\n # 评论: 78",
+          "publishedAt": "2026-11-11T14:10:46.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50453637",
+          "author": "linsomniac"
+        }
+      ]
+    },
+    {
+      "id": "arxiv-cs-ai",
+      "title": "arXiv cs.AI",
+      "url": "https://rss.arxiv.org/rss/cs.AI",
+      "home": "https://arxiv.org/list/cs.AI/recent",
+      "group": "arxiv",
+      "fetchedAt": "2026-11-12T05:47:02.164Z",
+      "count": 0,
+      "items": []
+    },
+    {
+      "id": "arxiv-cs-lg",
+      "title": "arXiv cs.LG",
+      "url": "https://rss.arxiv.org/rss/cs.LG",
+      "home": "https://arxiv.org/list/cs.LG/recent",
+      "group": "arxiv",
+      "fetchedAt": "2026-11-12T05:47:02.579Z",
+      "count": 0,
+      "items": []
+    }
+  ]
+}
