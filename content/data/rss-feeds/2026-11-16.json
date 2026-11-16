@@ -1,0 +1,266 @@
+{
+  "source": "content/feeds.json",
+  "attribution": "Aggregated headlines/summaries from third-party RSS/Atom feeds for navigation only. All rights belong to original publishers and authors. Chinese text is machine-translated.",
+  "fetchedAt": "2026-11-16T04:22:05.747Z",
+  "date": "2026-11-16",
+  "feedCount": 3,
+  "itemCount": 20,
+  "locale": {
+    "summaryDefault": "zh",
+    "translated": true
+  },
+  "errors": [],
+  "feeds": [
+    {
+      "id": "hacker-news",
+      "title": "Hacker News",
+      "url": "https://hnrss.org/frontpage",
+      "home": "https://news.ycombinator.com/",
+      "group": "community",
+      "fetchedAt": "2026-11-16T04:21:50.522Z",
+      "count": 20,
+      "items": [
+        {
+          "id": "https://news.ycombinator.com/item?id=50513451",
+          "title": "Tell HN: HN is being scraped for emails to scam",
+          "titleZh": "告诉 HN：HN 正在被抓取用于诈骗的电子邮件",
+          "link": "https://news.ycombinator.com/item?id=50513451",
+          "summary": "I know that many folks here post their personal emails in the Who's for Hire monthly pages and other places, and want to remind you that this public site gets views from folks with ill intent (or their bots/agents) as well. I use unique emails for every site, so I immediately knew that the late AWS payments email sent to my HN email were fake. There were other tells, but I want to remind everyone to be vigilant! HN is public but even social media sites where you supposedly can make your page private I've had some of those emails suddenly have spam sent to as well. Please be safe everyone! My favorite tells that an email is a scam:\n- Before opening a surprising/suspicious email, hover over the sender name to see the domain the sender came from (don't open the email if it's strange).\n- _If_ you already opened the email, before clicking any links in the email, hover over them to see the domain that the link sends you to. There are dozens more tips but a full article would be required, and these two will prevent you from falling for nearly all of them.\n\n Comments URL: https://news.ycombinator.com/item?id=50513451\n\n Points: 16\n\n # Comments: 4",
+          "summaryZh": "我知道这里的许多人在“谁雇用”每月页面和其他地方发布他们的个人电子邮件，并想提醒您，这个公共网站也会收到恶意者（或其机器人/代理）的查看。我对每个站点都使用唯一的电子邮件，因此我立即知道发送到我的 HN 电子邮件的最新 AWS 付款电子邮件是假的。还有其他说法，但我想提醒大家提高警惕！ HN 是公开的，但即使是您可以将页面设为私有的社交媒体网站，我也收到过其中一些电子邮件突然收到垃圾邮件的情况。请大家注意安全！我最喜欢的说法是电子邮件是骗局：\n- 在打开令人惊讶/可疑的电子邮件之前，将鼠标悬停在发件人姓名上以查看发件人来自的域（如果奇怪，请勿打开电子邮件）。\n- _如果_您已打开电子邮件，请在单击电子邮件中的任何链接之前，将鼠标悬停在链接上以查看该链接将您发送到的域。还有几十个提示，但需要一篇完整的文章，这两个将防止您陷入几乎所有提示。\n\n 评论网址：https://news.ycombinator.com/item?id=50513451\n\n 积分：16\n\n # 评论: 4",
+          "publishedAt": "2026-11-16T02:53:30.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50513451",
+          "author": "eks391"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50513238",
+          "title": "TuringFonts: Publish Uncrawable and Uncopiable Texts",
+          "titleZh": "TuringFonts：发布无法抓取和无法复制的文本",
+          "link": "https://jfmdev.github.io/TuringFonts/index.html",
+          "summary": "Article URL: https://jfmdev.github.io/TuringFonts/index.html\n\n Comments URL: https://news.ycombinator.com/item?id=50513238\n\n Points: 4\n\n # Comments: 4",
+          "summaryZh": "文章网址：https://jfmdev.github.io/TuringFonts/index.html\n\n 评论网址：https://news.ycombinator.com/item?id=50513238\n\n 积分：4\n\n # 评论: 4",
+          "publishedAt": "2026-11-16T02:19:08.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50513238",
+          "author": "negura"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50513215",
+          "title": "Qwen4-Max",
+          "titleZh": "Qwen4-Max",
+          "link": "https://qwen.ai/blog?id=qwen4-max",
+          "summary": "Article URL: https://qwen.ai/blog?id=qwen4-max\n\n Comments URL: https://news.ycombinator.com/item?id=50513215\n\n Points: 191\n\n # Comments: 53",
+          "summaryZh": "文章网址：https://qwen.ai/blog?id=qwen4-max\n\n 评论网址：https://news.ycombinator.com/item?id=50513215\n\n 积分：191\n\n # 评论: 53",
+          "publishedAt": "2026-11-16T02:14:44.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50513215",
+          "author": "ilreb"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50513160",
+          "title": "Universal XSS in uBlock Origin from website-driven element picker",
+          "titleZh": "uBlock Origin 中来自网站驱动的元素选择器的通用 XSS",
+          "link": "https://iter.ca/post/ubo-uxss/",
+          "summary": "Article URL: https://iter.ca/post/ubo-uxss/\n\n Comments URL: https://news.ycombinator.com/item?id=50513160\n\n Points: 138\n\n # Comments: 28",
+          "summaryZh": "文章网址：https://iter.ca/post/ubo-uxss/\n\n 评论网址：https://news.ycombinator.com/item?id=50513160\n\n 积分：138\n\n # 评论: 28",
+          "publishedAt": "2026-11-16T02:04:48.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50513160",
+          "author": "zaik"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50512824",
+          "title": "Coles hit by a cybersecurity incident",
+          "titleZh": "Coles遭遇网络安全事件",
+          "link": "https://www.colesgroup.com.au/updates/",
+          "summary": "Article URL: https://www.colesgroup.com.au/updates/\n\n Comments URL: https://news.ycombinator.com/item?id=50512824\n\n Points: 72\n\n # Comments: 48",
+          "summaryZh": "文章网址：https://www.colesgroup.com.au/updates/\n\n 评论网址：https://news.ycombinator.com/item?id=50512824\n\n 积分：72\n\n # 评论: 48",
+          "publishedAt": "2026-11-16T01:14:35.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50512824",
+          "author": "sagunsh"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50512441",
+          "title": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack",
+          "titleZh": "Tor 项目在持续的 DDoS 攻击中发布快速响应的 DoS 防御修复程序",
+          "link": "https://forum.torproject.org/t/security-release-0-4-9-17/22454",
+          "summary": "Article URL: https://forum.torproject.org/t/security-release-0-4-9-17/22454\n\n Comments URL: https://news.ycombinator.com/item?id=50512441\n\n Points: 71\n\n # Comments: 16",
+          "summaryZh": "文章网址：https://forum.torproject.org/t/security-release-0-4-9-17/22454\n\n 评论网址：https://news.ycombinator.com/item?id=50512441\n\n 积分：71\n\n # 评论: 16",
+          "publishedAt": "2026-11-16T00:21:54.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50512441",
+          "author": "aillia"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50512235",
+          "title": "What's Next for Nvidia?",
+          "titleZh": "英伟达的下一步是什么？",
+          "link": "https://steveblank.com/2026/11/15/whats-next-for-nvidia/",
+          "summary": "Article URL: https://steveblank.com/2026/11/15/whats-next-for-nvidia/\n\n Comments URL: https://news.ycombinator.com/item?id=50512235\n\n Points: 133\n\n # Comments: 153",
+          "summaryZh": "文章网址：https://steveblank.com/2026/11/15/whats-next-for-nvidia/\n\n 评论网址：https://news.ycombinator.com/item?id=50512235\n\n 积分：133\n\n # 评论: 153",
+          "publishedAt": "2026-11-15T23:55:55.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50512235",
+          "author": "zdw"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50512231",
+          "title": "Mini.nvim Is Now on Tangled",
+          "titleZh": "Mini.nvim 现已上线《魔发奇缘》",
+          "link": "https://tangled.org/nvim-mini.org/mini.nvim",
+          "summary": "Article URL: https://tangled.org/nvim-mini.org/mini.nvim\n\n Comments URL: https://news.ycombinator.com/item?id=50512231\n\n Points: 44\n\n # Comments: 12",
+          "summaryZh": "文章网址：https://tangled.org/nvim-mini.org/mini.nvim\n\n 评论网址：https://news.ycombinator.com/item?id=50512231\n\n 积分：44\n\n # 评论: 12",
+          "publishedAt": "2026-11-15T23:55:41.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50512231",
+          "author": "nerdypepper"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50511806",
+          "title": "Preserving 30 years of Salon journalism",
+          "titleZh": "保留 30 年的沙龙新闻业",
+          "link": "https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism/",
+          "summary": "Article URL: https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism/\n\n Comments URL: https://news.ycombinator.com/item?id=50511806\n\n Points: 104\n\n # Comments: 31",
+          "summaryZh": "文章网址：https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism/\n\n 评论网址：https://news.ycombinator.com/item?id=50511806\n\n 积分：104\n\n # 评论: 31",
+          "publishedAt": "2026-11-15T23:00:11.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50511806",
+          "author": "CharlesW"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50511718",
+          "title": "Show HN: The Last Complication, a Zachtronics-style watchmaking puzzle game",
+          "titleZh": "Show HN: The Last Complication，一款 Zachtronics 风格的制表益智游戏",
+          "link": "https://lastcomplication.com/",
+          "summary": "Article URL: https://lastcomplication.com/\n\n Comments URL: https://news.ycombinator.com/item?id=50511718\n\n Points: 59\n\n # Comments: 8",
+          "summaryZh": "文章网址：https://lastcomplication.com/\n\n 评论网址：https://news.ycombinator.com/item?id=50511718\n\n 积分：59\n\n # 评论: 8",
+          "publishedAt": "2026-11-15T22:48:52.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50511718",
+          "author": "tdeangelis"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50511395",
+          "title": "Old Bitly links are being hijacked",
+          "titleZh": "旧的 Bitly 链接被劫持",
+          "link": "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/",
+          "summary": "Article URL: https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/\n\n Comments URL: https://news.ycombinator.com/item?id=50511395\n\n Points: 213\n\n # Comments: 114",
+          "summaryZh": "文章网址：https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/\n\n 评论网址：https://news.ycombinator.com/item?id=50511395\n\n 积分：213\n\n # 评论: 114",
+          "publishedAt": "2026-11-15T22:11:43.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50511395",
+          "author": "hspeiser"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50510296",
+          "title": "WebGL Flight Simulator with seed generated terrain",
+          "titleZh": "具有种子生成地形的 WebGL 飞行模拟器",
+          "link": "https://baron.by.dai.studio/",
+          "summary": "Article URL: https://baron.by.dai.studio/\n\n Comments URL: https://news.ycombinator.com/item?id=50510296\n\n Points: 103\n\n # Comments: 16",
+          "summaryZh": "文章网址：https://baron.by.dai.studio/\n\n 评论网址：https://news.ycombinator.com/item?id=50510296\n\n 积分：103\n\n # 评论: 16",
+          "publishedAt": "2026-11-15T20:20:05.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50510296",
+          "author": "ranger_danger"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50509972",
+          "title": "Handwriting, as a Font",
+          "titleZh": "手写，作为字体",
+          "link": "https://ductus.sorenblank.com",
+          "summary": "Article URL: https://ductus.sorenblank.com\n\n Comments URL: https://news.ycombinator.com/item?id=50509972\n\n Points: 175\n\n # Comments: 42",
+          "summaryZh": "文章网址：https://ductus.sorenblank.com\n\n 评论网址：https://news.ycombinator.com/item?id=50509972\n\n 积分：175\n\n # 评论: 42",
+          "publishedAt": "2026-11-15T19:42:13.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50509972",
+          "author": "coinfused"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50509837",
+          "title": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
+          "titleZh": "Protomaps：自托管地图图块变得便宜且简单",
+          "link": "https://bruceroettgers.eu/blog/protomaps/",
+          "summary": "Article URL: https://bruceroettgers.eu/blog/protomaps/\n\n Comments URL: https://news.ycombinator.com/item?id=50509837\n\n Points: 221\n\n # Comments: 47",
+          "summaryZh": "文章网址：https://bruceroettgers.eu/blog/protomaps/\n\n 评论网址：https://news.ycombinator.com/item?id=50509837\n\n 积分：221\n\n # 评论: 47",
+          "publishedAt": "2026-11-15T19:26:22.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50509837",
+          "author": "bcye"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50509416",
+          "title": "Eclipse Mosquitto – An open source MQTT broker",
+          "titleZh": "Eclipse Mosquitto – 开源 MQTT 代理",
+          "link": "https://github.com/eclipse-mosquitto/mosquitto",
+          "summary": "Article URL: https://github.com/eclipse-mosquitto/mosquitto\n\n Comments URL: https://news.ycombinator.com/item?id=50509416\n\n Points: 75\n\n # Comments: 29",
+          "summaryZh": "文章网址：https://github.com/eclipse-mosquitto/mosquitto\n\n 评论网址：https://news.ycombinator.com/item?id=50509416\n\n 积分：75\n\n # 评论：29",
+          "publishedAt": "2026-11-15T18:36:40.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50509416",
+          "author": "gregsadetsky"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50509411",
+          "title": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests",
+          "titleZh": "Microsoft 365 中断导致 15 名酒店客人氯气中毒",
+          "link": "https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html",
+          "summary": "Article URL: https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html\n\n Comments URL: https://news.ycombinator.com/item?id=50509411\n\n Points: 442\n\n # Comments: 192",
+          "summaryZh": "文章网址：https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-lor-phantasialand-100.html\n\n 评论网址：https://news.ycombinator.com/item?id=50509411\n\n 积分：442\n\n # 评论: 192",
+          "publishedAt": "2026-11-15T18:36:10.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50509411",
+          "author": "DeepLogin"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50509308",
+          "title": "A short explainer on how El Niño works [video]",
+          "titleZh": "关于厄尔尼诺现象如何运作的简短解释[视频]",
+          "link": "https://www.youtube.com/watch?v=7_JF3etiAv8",
+          "summary": "Article URL: https://www.youtube.com/watch?v=7_JF3etiAv8\n\n Comments URL: https://news.ycombinator.com/item?id=50509308\n\n Points: 195\n\n # Comments: 86",
+          "summaryZh": "文章网址：https://www.youtube.com/watch?v=7_JF3etiAv8\n\n 评论网址：https://news.ycombinator.com/item?id=50509308\n\n 积分：195\n\n # 评论: 86",
+          "publishedAt": "2026-11-15T18:23:21.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50509308",
+          "author": "nharada"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50509023",
+          "title": "Crows make decisions faster than we can",
+          "titleZh": "乌鸦做决定的速度比我们快",
+          "link": "https://www.nytimes.com/2026/11/15/science/birdbrain-crows-birds-research-decision.html",
+          "summary": "Article URL: https://www.nytimes.com/2026/11/15/science/birdbrain-crows-birds-research-decision.html\n\n Comments URL: https://news.ycombinator.com/item?id=50509023\n\n Points: 189\n\n # Comments: 141",
+          "summaryZh": "文章网址：https://www.nytimes.com/2026/11/15/science/birdbrain-crows-birds-research-decision.html\n\n 评论网址：https://news.ycombinator.com/item?id=50509023\n\n 积分：189\n\n # 评论：141",
+          "publishedAt": "2026-11-15T17:53:31.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50509023",
+          "author": "gumby"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50508715",
+          "title": "Clice v1.0 Released: Welcome to Modern C++",
+          "titleZh": "Clice v1.0 发布：欢迎来到现代 C++",
+          "link": "https://ykiko.me/en/articles/2105384023094834022/",
+          "summary": "Article URL: https://ykiko.me/en/articles/2105384023094834022/\n\n Comments URL: https://news.ycombinator.com/item?id=50508715\n\n Points: 114\n\n # Comments: 71",
+          "summaryZh": "文章网址：https://ykiko.me/en/articles/2105384023094834022/\n\n 评论网址：https://news.ycombinator.com/item?id=50508715\n\n 积分：114\n\n # 评论: 71",
+          "publishedAt": "2026-11-15T17:22:32.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50508715",
+          "author": "molenzwiebel"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50507553",
+          "title": "Emacs Is My Browser",
+          "titleZh": "Emacs 是我的浏览器",
+          "link": "https://joshblais.com/blog/emacs-as-my-browser/",
+          "summary": "Article URL: https://joshblais.com/blog/emacs-as-my-browser/\n\n Comments URL: https://news.ycombinator.com/item?id=50507553\n\n Points: 189\n\n # Comments: 109",
+          "summaryZh": "文章网址：https://joshblais.com/blog/emacs-as-my-browser/\n\n 评论网址：https://news.ycombinator.com/item?id=50507553\n\n 积分：189\n\n # 评论：109",
+          "publishedAt": "2026-11-15T15:21:21.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50507553",
+          "author": "nyc111"
+        }
+      ]
+    },
+    {
+      "id": "arxiv-cs-ai",
+      "title": "arXiv cs.AI",
+      "url": "https://rss.arxiv.org/rss/cs.AI",
+      "home": "https://arxiv.org/list/cs.AI/recent",
+      "group": "arxiv",
+      "fetchedAt": "2026-11-16T04:21:51.040Z",
+      "count": 0,
+      "items": []
+    },
+    {
+      "id": "arxiv-cs-lg",
+      "title": "arXiv cs.LG",
+      "url": "https://rss.arxiv.org/rss/cs.LG",
+      "home": "https://arxiv.org/list/cs.LG/recent",
+      "group": "arxiv",
+      "fetchedAt": "2026-11-16T04:21:51.450Z",
+      "count": 0,
+      "items": []
+    }
+  ]
+}
