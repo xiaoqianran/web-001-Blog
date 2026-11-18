@@ -1,15 +1,20 @@
 {
   "source": "content/feeds.json",
   "attribution": "Aggregated headlines/summaries from third-party RSS/Atom feeds for navigation only. All rights belong to original publishers and authors. Chinese text is machine-translated.",
-  "fetchedAt": "2026-11-17T15:23:34.671Z",
-  "date": "2026-11-17",
+  "fetchedAt": "2026-11-18T00:23:57.541Z",
+  "date": "2026-11-18",
   "feedCount": 3,
-  "itemCount": 50,
+  "itemCount": 30,
   "locale": {
     "summaryDefault": "zh",
     "translated": true
   },
-  "errors": [],
+  "errors": [
+    {
+      "id": "hacker-news",
+      "error": "HTTP 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
+    }
+  ],
   "feeds": [
     {
       "id": "hacker-news",
@@ -17,230 +22,10 @@
       "url": "https://hnrss.org/frontpage",
       "home": "https://news.ycombinator.com/",
       "group": "community",
-      "fetchedAt": "2026-11-17T15:22:29.356Z",
-      "count": 20,
-      "items": [
-        {
-          "id": "https://news.ycombinator.com/item?id=50532086",
-          "title": "We don't need more apps. We need better open source",
-          "titleZh": "我们不需要更多的应用程序。我们需要更好的开源",
-          "link": "https://jordankrueger.com/blog/better-open-source-not-more-apps/",
-          "summary": "Article URL: https://jordankrueger.com/blog/better-open-source-not-more-apps/\n\n Comments URL: https://news.ycombinator.com/item?id=50532086\n\n Points: 24\n\n # Comments: 4",
-          "summaryZh": "文章网址：https://jordankrueger.com/blog/better-open-source-not-more-apps/\n\n 评论网址：https://news.ycombinator.com/item?id=50532086\n\n 积分：24\n\n # 评论: 4",
-          "publishedAt": "2026-11-17T14:45:36.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50532086",
-          "author": "pandemicsoul"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50531751",
-          "title": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
-          "titleZh": "百度、小米首席执行官警告人工智能炒作与回报之间的差距越来越大",
-          "link": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
-          "summary": "Article URL: https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns\n\n Comments URL: https://news.ycombinator.com/item?id=50531751\n\n Points: 42\n\n # Comments: 13",
-          "summaryZh": "文章网址：https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-forming-gap- Between-ai-hype-and-returns\n\n 评论网址：https://news.ycombinator.com/item?id=50531751\n\n 积分：42\n\n # 评论: 13",
-          "publishedAt": "2026-11-17T14:19:59.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50531751",
-          "author": "larrysalibra"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50531484",
-          "title": "S. Korea to send nationwide emergency alerts over college entrance exam cheating",
-          "titleZh": "韩国将向全国发布高考作弊紧急警报",
-          "link": "https://apnews.com/article/south-korea-exam-cheating-ai-college-e25b5612dbf4bd09fdf9197254c4547e",
-          "summary": "Article URL: https://apnews.com/article/south-korea-exam-cheating-ai-college-e25b5612dbf4bd09fdf9197254c4547e\n\n Comments URL: https://news.ycombinator.com/item?id=50531484\n\n Points: 33\n\n # Comments: 31",
-          "summaryZh": "文章网址：https://apnews.com/article/south-korea-exam-cheating-ai-college-e25b5612dbf4bd09fdf9197254c4547e\n\n 评论网址：https://news.ycombinator.com/item?id=50531484\n\n 积分：33\n\n # 评论: 31",
-          "publishedAt": "2026-11-17T14:00:47.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50531484",
-          "author": "parksb"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50530163",
-          "title": "New Evidence Shows School Phone Bans Are Gradually Improving Test Scores",
-          "titleZh": "新证据显示学校电话禁令正在逐渐提高考试成绩",
-          "link": "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
-          "summary": "Article URL: https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html\n\n Comments URL: https://news.ycombinator.com/item?id=50530163\n\n Points: 482\n\n # Comments: 236",
-          "summaryZh": "文章网址：https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html\n\n 评论网址：https://news.ycombinator.com/item?id=50530163\n\n 积分：482\n\n # 评论：236",
-          "publishedAt": "2026-11-17T11:45:51.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50530163",
-          "author": "donohoe"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50529612",
-          "title": "How the Claude Code team thinks about verification",
-          "titleZh": "Claude Code 团队如何看待验证",
-          "link": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
-          "summary": "Article URL: https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/\n\n Comments URL: https://news.ycombinator.com/item?id=50529612\n\n Points: 105\n\n # Comments: 112",
-          "summaryZh": "文章网址：https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/\n\n 评论网址：https://news.ycombinator.com/item?id=50529612\n\n 积分：105\n\n # 评论: 112",
-          "publishedAt": "2026-11-17T10:20:40.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50529612",
-          "author": "craigmart"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50526560",
-          "title": "If an App Asks for Full Disk Access or System and App Protection Override",
-          "titleZh": "如果应用程序请求完全磁盘访问或系统和应用程序保护覆盖",
-          "link": "https://support.apple.com/en-us/149699",
-          "summary": "Article URL: https://support.apple.com/en-us/149699\n\n Comments URL: https://news.ycombinator.com/item?id=50526560\n\n Points: 184\n\n # Comments: 100",
-          "summaryZh": "文章网址：https://support.apple.com/en-us/149699\n\n 评论网址：https://news.ycombinator.com/item?id=50526560\n\n 积分：184\n\n # 评论：100",
-          "publishedAt": "2026-11-17T02:17:04.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50526560",
-          "author": "jshier"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50525575",
-          "title": "Why 3dfx 1 cards had such a washed out color output?",
-          "titleZh": "为什么 3dfx 1 卡的颜色输出如此褪色？",
-          "link": "https://twitter.com/id_aa_carmack/status/2122478083319992513",
-          "summary": "Article URL: https://twitter.com/id_aa_carmack/status/2122478083319992513\n\n Comments URL: https://news.ycombinator.com/item?id=50525575\n\n Points: 214\n\n # Comments: 75",
-          "summaryZh": "文章网址：https://twitter.com/id_aa_carmack/status/2122478083319992513\n\n 评论网址：https://news.ycombinator.com/item?id=50525575\n\n 积分：214\n\n # 评论: 75",
-          "publishedAt": "2026-11-17T00:16:24.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50525575",
-          "author": "mfiguiere"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50524767",
-          "title": "Optimizely compromised, served malware on Zoom, GitLab",
-          "titleZh": "在 Zoom、GitLab 上优化受损、提供恶意软件",
-          "link": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
-          "summary": "Article URL: https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/\n\n Comments URL: https://news.ycombinator.com/item?id=50524767\n\n Points: 501\n\n # Comments: 201",
-          "summaryZh": "文章网址：https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/\n\n 评论网址：https://news.ycombinator.com/item?id=50524767\n\n 积分：501\n\n # 评论：201",
-          "publishedAt": "2026-11-16T23:00:34.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50524767",
-          "author": "kristjansson"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50523601",
-          "title": "BugMeNot has closed",
-          "titleZh": "BugMeNot 已关闭",
-          "link": "https://www.bugmenot.com/",
-          "summary": "Article URL: https://www.bugmenot.com/\n\n Comments URL: https://news.ycombinator.com/item?id=50523601\n\n Points: 645\n\n # Comments: 290",
-          "summaryZh": "文章网址：https://www.bugmenot.com/\n\n 评论网址：https://news.ycombinator.com/item?id=50523601\n\n 积分：645\n\n # 评论：290",
-          "publishedAt": "2026-11-16T21:32:17.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50523601",
-          "author": "lode"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50523459",
-          "title": "OpenCode Browse",
-          "titleZh": "开放代码浏览",
-          "link": "https://opencode.ai/product/browse",
-          "summary": "Article URL: https://opencode.ai/product/browse\n\n Comments URL: https://news.ycombinator.com/item?id=50523459\n\n Points: 311\n\n # Comments: 195",
-          "summaryZh": "文章网址：https://opencode.ai/product/browse\n\n 评论网址：https://news.ycombinator.com/item?id=50523459\n\n 积分：311\n\n # 评论: 195",
-          "publishedAt": "2026-11-16T21:20:37.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50523459",
-          "author": "mfiguiere"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50523025",
-          "title": "Comcast's \"fiber-powered Wi-Fi\" is cable, AT&T says in false advertising case",
-          "titleZh": "AT＆T在虚假广告案中称康卡斯特的“光纤供电Wi-Fi”是电缆",
-          "link": "https://arstechnica.com/tech-policy/2026/11/comcast-falsely-advertises-cable-internet-as-fiber-powered-att-lawsuit-says/",
-          "summary": "Article URL: https://arstechnica.com/tech-policy/2026/11/comcast-falsely-advertises-cable-internet-as-fiber-powered-att-lawsuit-says/\n\n Comments URL: https://news.ycombinator.com/item?id=50523025\n\n Points: 198\n\n # Comments: 167",
-          "summaryZh": "文章网址：https://arstechnica.com/tech-policy/2026/11/comcast-falsely-advertises-cable-internet-as-optical-powered-att-lawsuit-says/\n\n 评论网址：https://news.ycombinator.com/item?id=50523025\n\n 积分：198\n\n # 评论: 167",
-          "publishedAt": "2026-11-16T20:48:08.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50523025",
-          "author": "jaredwiener"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50522980",
-          "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
-          "titleZh": "卡内基梅隆大学将在 YouTube 上免费发布计算机科学课程",
-          "link": "https://www.cs.cmu.edu/learn/",
-          "summary": "Article URL: https://www.cs.cmu.edu/learn/\n\n Comments URL: https://news.ycombinator.com/item?id=50522980\n\n Points: 1925\n\n # Comments: 264",
-          "summaryZh": "文章网址：https://www.cs.cmu.edu/learn/\n\n 评论网址：https://news.ycombinator.com/item?id=50522980\n\n 积分：1925\n\n # 评论: 264",
-          "publishedAt": "2026-11-16T20:43:36.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50522980",
-          "author": "pcompeau"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50522643",
-          "title": "Chemistry is Actually Geometry",
-          "titleZh": "化学实际上是几何",
-          "link": "https://chillphysicsenjoyer.substack.com/p/chemistry-is-actually-geometry",
-          "summary": "Article URL: https://chillphysicsenjoyer.substack.com/p/chemistry-is-actually-geometry\n\n Comments URL: https://news.ycombinator.com/item?id=50522643\n\n Points: 283\n\n # Comments: 122",
-          "summaryZh": "文章网址：https://chillphysicalsenjoyer.substack.com/p/chemistry-is-actually-geometry\n\n 评论网址：https://news.ycombinator.com/item?id=50522643\n\n 积分：283\n\n # 评论: 122",
-          "publishedAt": "2026-11-16T20:22:18.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50522643",
-          "author": "sebg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50520182",
-          "title": "Grazing sheep in fields with solar arrays",
-          "titleZh": "在装有太阳能电池板的田野里放羊",
-          "link": "https://news.cornell.edu/stories/2026/10/sheep-grazing-solar-fields-offers-farmers-economic-ecological-gains",
-          "summary": "Article URL: https://news.cornell.edu/stories/2026/10/sheep-grazing-solar-fields-offers-farmers-economic-ecological-gains\n\n Comments URL: https://news.ycombinator.com/item?id=50520182\n\n Points: 305\n\n # Comments: 307",
-          "summaryZh": "文章网址：https://news.cornell.edu/stories/2026/10/sheep-grazing-solar-fields-offers-farmers-economic-ecological-gains\n\n 评论网址：https://news.ycombinator.com/item?id=50520182\n\n 积分：305\n\n # 评论: 307",
-          "publishedAt": "2026-11-16T17:27:46.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50520182",
-          "author": "PaulHoule"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50519744",
-          "title": "Jiff 1.0: A datetime library for Rust",
-          "titleZh": "Jiff 1.0：Rust 的日期时间库",
-          "link": "https://burntsushi.net/jiff/",
-          "summary": "Article URL: https://burntsushi.net/jiff/\n\n Comments URL: https://news.ycombinator.com/item?id=50519744\n\n Points: 413\n\n # Comments: 88",
-          "summaryZh": "文章网址：https://burntsushi.net/jiff/\n\n 评论网址：https://news.ycombinator.com/item?id=50519744\n\n 积分：413\n\n # 评论: 88",
-          "publishedAt": "2026-11-16T16:53:39.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50519744",
-          "author": "burntsushi"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50519354",
-          "title": "Frame – 31.5\" color ePaper display",
-          "titleZh": "框架 – 31.5 英寸彩色电子纸显示屏",
-          "link": "https://trmnl.com/blog/introducing-frame",
-          "summary": "Article URL: https://trmnl.com/blog/introducing-frame\n\n Comments URL: https://news.ycombinator.com/item?id=50519354\n\n Points: 482\n\n # Comments: 338",
-          "summaryZh": "文章网址：https://trmnl.com/blog/introducing-frame\n\n 评论网址：https://news.ycombinator.com/item?id=50519354\n\n 积分：482\n\n # 评论: 338",
-          "publishedAt": "2026-11-16T16:23:22.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50519354",
-          "author": "geerlingguy"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50518328",
-          "title": "First Photos of the Poles of a Rod-Shaped Bacterium",
-          "titleZh": "杆状细菌两极的第一张照片",
-          "link": "https://nautil.us/check-out-the-first-photos-of-the-poles-of-a-rod-shaped-bacterium-1286664",
-          "summary": "Article URL: https://nautil.us/check-out-the-first-photos-of-the-poles-of-a-rod-shaped-bacterium-1286664\n\n Comments URL: https://news.ycombinator.com/item?id=50518328\n\n Points: 21\n\n # Comments: 1",
-          "summaryZh": "文章网址：https://nautil.us/check-out-the-first-photos-of-the-poles-of-a-rod-shape-bacteria-1286664\n\n 评论网址：https://news.ycombinator.com/item?id=50518328\n\n 积分：21\n\n # 评论: 1",
-          "publishedAt": "2026-11-16T15:02:20.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50518328",
-          "author": "dustfinger"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50517602",
-          "title": "What is w2rt6byl5nf1opmc-a.com?",
-          "titleZh": "w2rt6byl5nf1opmc-a.com 是什么？",
-          "link": "https://jack.cab/blog/siterate",
-          "summary": "Article URL: https://jack.cab/blog/siterate\n\n Comments URL: https://news.ycombinator.com/item?id=50517602\n\n Points: 383\n\n # Comments: 155",
-          "summaryZh": "文章网址：https://jack.cab/blog/siterate\n\n 评论网址：https://news.ycombinator.com/item?id=50517602\n\n 积分：383\n\n # 评论：155",
-          "publishedAt": "2026-11-16T13:51:38.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50517602",
-          "author": "dverlaeckt80"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50517321",
-          "title": "Microsoft blames monster email outage on software defect introduced in July fix",
-          "titleZh": "微软将巨大的电子邮件中断归咎于 7 月份修复中引入的软件缺陷",
-          "link": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
-          "summary": "Article URL: https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026\n\n Comments URL: https://news.ycombinator.com/item?id=50517321\n\n Points: 391\n\n # Comments: 296",
-          "summaryZh": "文章网址：https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026\n\n 评论网址：https://news.ycombinator.com/item?id=50517321\n\n 积分：391\n\n # 评论：296",
-          "publishedAt": "2026-11-16T13:18:22.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50517321",
-          "author": "Bender"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=50516689",
-          "title": "Do Repeat Yourself",
-          "titleZh": "重复自己",
-          "link": "https://arcentry.com/blog/do-repeat-yourself/",
-          "summary": "Article URL: https://arcentry.com/blog/do-repeat-yourself/\n\n Comments URL: https://news.ycombinator.com/item?id=50516689\n\n Points: 131\n\n # Comments: 47",
-          "summaryZh": "文章网址：https://arcentry.com/blog/do-repeat-yourself/\n\n 评论网址：https://news.ycombinator.com/item?id=50516689\n\n 积分：131\n\n # 评论: 47",
-          "publishedAt": "2026-11-16T12:06:46.000Z",
-          "comments": "https://news.ycombinator.com/item?id=50516689",
-          "author": "max_sendfeld"
-        }
-      ]
+      "fetchedAt": "2026-11-18T00:23:15.512Z",
+      "count": 0,
+      "items": [],
+      "error": "HTTP 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
     },
     {
       "id": "arxiv-cs-ai",
@@ -248,7 +33,7 @@
       "url": "https://rss.arxiv.org/rss/cs.AI",
       "home": "https://arxiv.org/list/cs.AI/recent",
       "group": "arxiv",
-      "fetchedAt": "2026-11-17T15:22:29.876Z",
+      "fetchedAt": "2026-11-18T00:23:16.079Z",
       "count": 15,
       "items": [
         {
@@ -268,7 +53,7 @@
           "titleZh": "如何打造道德主体：感伤主义和理性主义作为人工智能的视角",
           "link": "https://arxiv.org/abs/2611.18714",
           "summary": "arXiv:2611.18714v1 Announce Type: new\nAbstract: Can AI systems be moral agents? That is, can they undertake actions that can be correctly assessed as morally right or wrong? There is no settled normative criterion of moral agency that applies neatly outside paradigm human cases. Because of the difficulties with a normative account, we instead propose a research program to explore descriptive moral agency. Most basically, we ask, what are the capabilities we humans possess that underlie our moral agency? To do so, we draw on historical scholarship in philosophy and moral psychology to isolate candidate capabilities. Then we suggest refining candidate capabilities so that they are testable in the context of AI systems. Finally, we offer specific empirical recommendations to test AI systems, especially large language models (LLMs), for those refined capabilities. Our approach offers several benefits. Firstly, it may demonstrate whether the behaviors of AI systems are aligned, or in a broad sense desirable. Secondly, the debate may inform policy questions (e.g., what models should be deployed in which contexts?). Thirdly, our approach may complement engineering and design efforts: when capabilities can be precisely characterized, they can inform the development of models. Fourthly, applying our moral reasoning concepts in the new context of AI systems should improve our understanding of those concepts.",
-          "summaryZh": "arXiv:2611.18714v1 公告类型：新\n摘要：人工智能系统可以成为道德主体吗？也就是说，他们可以采取可以被正确评估为道德上正确或错误的行为吗？没有既定的道德机构规范标准可以完全适用于人类案例范式之外。由于规范性解释存在困难，我们转而提出一项研究计划来探索描述性道德能动性。最根本的是，我们要问的是，我们人类所拥有的构成我们道德能动性的能力是什么？为此，我们利用哲学和道德心理学的历史学术来隔离候选人的能力。然后我们建议完善候选功能，以便它们可以在人工智能系统的背景下进行测试。最后，我们提供了具体的经验建议来测试人工智能系统，特别是大型语言模型（LLM）的这些精细功能。我们的方法有几个好处。首先，它可以证明人工智能系统的行为是否一致，或者在广义上是否是可取的。其次，辩论可能会提出政策问题（例如，应在哪些情况下部署哪些模型？）。第三，我们的方法可以补充工程和设计工作：当可以精确表征功能时，它们可以为模型的开发提供信息。第四，在人工智能系统的新背景下应用我们的道德推理概念应该可以提高我们对这些概念的理解。",
+          "summaryZh": "arXiv:2611.18714v1 公告类型：新\n摘要：人工智能系统可以成为道德主体吗？也就是说，他们可以采取可以被正确评估为道德上正确或错误的行为吗？没有既定的道德能动性规范标准可以完全适用于人类案例范式之外。由于规范性解释存在困难，我们转而提出一项研究计划来探索描述性道德能动性。最根本的是，我们要问的是，我们人类所拥有的构成道德能动性的能力是什么？为此，我们利用哲学和道德心理学的历史学术来隔离候选人的能力。然后我们建议完善候选功能，以便它们可以在人工智能系统的背景下进行测试。最后，我们提供了具体的经验建议来测试人工智能系统，特别是大型语言模型（LLM）的这些精细功能。我们的方法有几个好处。首先，它可以证明人工智能系统的行为是否一致，或者在广义上是否是可取的。其次，辩论可能会提出政策问题（例如，应在哪些情况下部署哪些模型？）。第三，我们的方法可以补充工程和设计工作：当可以精确表征功能时，它们可以为模型的开发提供信息。第四，在人工智能系统的新背景下应用我们的道德推理概念应该可以提高我们对这些概念的理解。",
           "publishedAt": "2026-11-17T05:00:00.000Z",
           "comments": null,
           "author": "David Gottlieb, Jared Moore"
@@ -356,7 +141,7 @@
           "titleZh": "严谨与现实之间：AI安全基准开发者如何理解基准的使用与维护",
           "link": "https://arxiv.org/abs/2611.18930",
           "summary": "arXiv:2611.18930v1 Announce Type: new\nAbstract: Safety benchmarks are cited as the primary tool to understand the risks posed by generative AI (GenAI) systems, yet growing evidence suggests they often fail to meet the needs of real-world safety evaluation. We present findings from five interviews with AI safety benchmark developers in academia and industry. We find a disconnect between perceptions of the intended usefulness of safety benchmarks and their practical usefulness in safety evaluations of deployed systems. Our participants offered perspectives on two challenges contributing to this disconnect: (1) the difficulty of achieving inter-rater reliability on safety constructs, and (2) a lack of clarity regarding how to address persistent threats to external validity. Based on our analysis, we argue that safety benchmarks must not only be grounded in deployment contexts, but actively integrated with them. To facilitate this, we outline pathways for more transparent communication between academic and industry AI safety stakeholders.",
-          "summaryZh": "arXiv:2611.18930v1 公告类型：新\n摘要：安全基准被认为是了解生成人工智能（GenAI）系统带来的风险的主要工具，但越来越多的证据表明它们往往无法满足现实世界安全评估的需求。我们展示了对学术界和工业界人工智能安全基准开发人员的五次采访的结果。我们发现，对安全基准预期用途的认知与其在已部署系统安全评估中的实际用途之间存在脱节。我们的参与者对导致这种脱节的两个挑战提出了看法：（1）在安全结构上实现评估者间可靠性的困难，以及（2）对于如何解决外部有效性的持续威胁缺乏明确性。根据我们的分析，我们认为安全基准不仅必须立足于部署环境，而且还必须积极与其集成。为了促进这一目标，我们概述了学术界和行业人工智能安全利益相关者之间更透明沟通的途径。",
+          "summaryZh": "arXiv:2611.18930v1 公告类型：新\n摘要：安全基准被认为是了解生成式人工智能（GenAI）系统带来的风险的主要工具，但越来越多的证据表明它们往往无法满足现实世界安全评估的需求。我们展示了对学术界和工业界人工智能安全基准开发人员的五次采访的结果。我们发现，对安全基准预期用途的认知与其在已部署系统安全评估中的实际用途之间存在脱节。我们的参与者对导致这种脱节的两个挑战提出了看法：（1）在安全结构上实现评估者间可靠性的困难，以及（2）对于如何解决外部有效性的持续威胁缺乏明确性。根据我们的分析，我们认为安全基准不仅必须立足于部署环境，而且还必须积极与其集成。为了促进这一目标，我们概述了学术界和行业人工智能安全利益相关者之间更透明沟通的途径。",
           "publishedAt": "2026-11-17T05:00:00.000Z",
           "comments": null,
           "author": "Megan Li, Ningjing Tang, Christopher Stewart, Hoda Heidari, Hong Shen"
@@ -424,16 +209,16 @@
       "url": "https://rss.arxiv.org/rss/cs.LG",
       "home": "https://arxiv.org/list/cs.LG/recent",
       "group": "arxiv",
-      "fetchedAt": "2026-11-17T15:22:30.322Z",
+      "fetchedAt": "2026-11-18T00:23:16.557Z",
       "count": 15,
       "items": [
         {
           "id": "oai:arXiv.org:2611.18564v1",
           "title": "Check Token: Real-Time Self-Verification and Precise Truncation in LLM Reasoning",
-          "titleZh": "Check Token：LLM推理中的实时自验证和精确截断",
+          "titleZh": "Check Token：LLM推理中的实时自验证和精准截断",
           "link": "https://arxiv.org/abs/2611.18564",
           "summary": "arXiv:2611.18564v1 Announce Type: new\nAbstract: ECC memory embeds 8 parity bits for every 64 data bits and automatically detects and corrects errors on each read. The parity bits carry no data and only safeguard integrity, at ~12.5% overhead. Yet the reasoning chains of large language models lack such built-in self-verification: once an error occurs it propagates along the chain, and existing methods can only verify externally after generation completes. We propose the check token, establishing built-in self-verification for language model generation streams for the first time: a functional marker is added to the vocabulary, and the model triggers self-checking (analysis, localization, truncation, rewriting) by outputting it at any position. The check token carries no reasoning content (discarded after triggering) and only safeguards reasoning correctness, directly corresponding to the role of ECC parity bits, also at only ~13% overhead. Speculative forking further eliminates false-positive latency, and segmented reward makes trigger timing end-to-end learnable. Experiments (Qwen3-32B / Qwen3-Next) show that the check token achieves +10.8 pp improvement on HMMT25 at 1.13x overhead, with token efficiency 88x that of Best-of-8, and the precise truncation advantage monotonically increases with chain length.",
-          "summaryZh": "arXiv:2611.18564v1 公告类型：新\n摘要：ECC 存储器每 64 个数据位嵌入 8 个奇偶校验位，并在每次读取时自动检测和纠正错误。奇偶校验位不携带数据，仅保护完整性，开销约为 12.5%。然而大型语言模型的推理链缺乏这种内置的自我验证：一旦发生错误，它就会沿着链传播，而现有的方法只能在生成完成后进行外部验证。我们提出了检查令牌，首次为语言模型生成流建立内置自验证：在词汇表中添加功能标记，模型在任意位置输出即可触发自检查（分析、本地化、截断、重写）。检查令牌不携带推理内容（触发后丢弃），仅保障推理正确性，直接对应ECC奇偶校验位的作用，同样开销也只有~13%。投机分叉进一步消除了误报延迟，分段奖励使触发时间端到端可学习。实验（Qwen3-32B / Qwen3-Next）表明，检查令牌在 HMMT25 上以 1.13 倍的开销实现了 +10.8 pp 的改进，令牌效率是 Best-of-8 的 88 倍，并且精确截断优势随着链长度单调增加。",
+          "summaryZh": "arXiv:2611.18564v1 公告类型：新\n摘要： ECC 存储器每 64 个数据位嵌入 8 个奇偶校验位，并在每次读取时自动检测和纠正错误。奇偶校验位不携带数据，仅保护完整性，开销约为 12.5%。然而大型语言模型的推理链缺乏这种内置的自我验证：一旦发生错误，它就会沿着链传播，而现有的方法只能在生成完成后进行外部验证。我们提出了检查令牌，首次为语言模型生成流建立内置自验证：在词汇表中添加功能标记，模型在任意位置输出即可触发自检查（分析、本地化、截断、重写）。检查令牌不携带推理内容（触发后丢弃），仅保障推理正确性，直接对应ECC奇偶校验位的作用，同样开销也只有~13%。投机分叉进一步消除了误报延迟，分段奖励使触发时间端到端可学习。实验（Qwen3-32B / Qwen3-Next）表明，检查令牌在 HMMT25 上以 1.13 倍的开销实现了 +10.8 pp 的改进，令牌效率是 Best-of-8 的 88 倍，并且精确截断优势随着链长度单调增加。",
           "publishedAt": "2026-11-17T05:00:00.000Z",
           "comments": null,
           "author": "Fei Ding, Yongkang Zhang, Yuhao Liao, Zijian Zeng, Huiming Yang"
