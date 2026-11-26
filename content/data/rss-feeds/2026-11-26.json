@@ -1,0 +1,598 @@
+{
+  "source": "content/feeds.json",
+  "attribution": "Aggregated headlines/summaries from third-party RSS/Atom feeds for navigation only. All rights belong to original publishers and authors. Chinese text is machine-translated.",
+  "fetchedAt": "2026-11-26T01:27:02.130Z",
+  "date": "2026-11-26",
+  "feedCount": 3,
+  "itemCount": 50,
+  "locale": {
+    "summaryDefault": "zh",
+    "translated": true
+  },
+  "errors": [],
+  "feeds": [
+    {
+      "id": "hacker-news",
+      "title": "Hacker News",
+      "url": "https://hnrss.org/frontpage",
+      "home": "https://news.ycombinator.com/",
+      "group": "community",
+      "fetchedAt": "2026-11-26T01:26:32.656Z",
+      "count": 20,
+      "items": [
+        {
+          "id": "https://news.ycombinator.com/item?id=50649864",
+          "title": "Tell HN: Lots of Ask HNs again",
+          "titleZh": "告诉 HN：再次询问很多 HN",
+          "link": "https://news.ycombinator.com/item?id=50649864",
+          "summary": "There have been questions about why the /ask page ( https://news.ycombinator.com/ask ) was running dry of Ask HN posts - e.g.: Ask HN: Why is Ask HN only showing me 14 posts? - https://news.ycombinator.com/item?id=49984484 - Oct 2026 (47 comments) Ask HN: Why is pagination gone on \"Ask HN\", and showing only 19 items? - https://news.ycombinator.com/item?id=50280719 - Oct 2026 (3 comments) I believe I found the problem. The pool of stories for https://news.ycombinator.com/ask has traditionally been drawn from the ranked stories list from which we generate the frontpage. That list is restricted to the top 1500 ranked submissions, and it seems the % of submissions which are text posts (i.e. no linked URL) had declined enough to starve the Ask HN feed. The solution is to compute a separate list of ranked Ask HNs. p.s. \"Ask HN\" is the conventional name but it just means text posts. They can also start with \"Tell HN\" or indeed neither. The key is that they're text posts which were submitted without a URL.\n\n Comments URL: https://news.ycombinator.com/item?id=50649864\n\n Points: 26\n\n # Comments: 13",
+          "summaryZh": "有人质疑为什么 /ask 页面 ( https://news.ycombinator.com/ask ) 没有 Ask HN 帖子 - 例如：Ask HN：为什么 Ask HN 只向我显示 14 个帖子？ - https://news.ycombinator.com/item?id=49984484 - 2026 年 10 月（47 条评论） Ask HN：为什么“Ask HN”上的分页消失了，并且只显示 19 个项目？ - https://news.ycombinator.com/item?id=50280719 - 2026 年 10 月（3 条评论） 我相信我发现了问题。 https://news.ycombinator.com/ask 的故事池传统上是从我们生成首页的排名故事列表中提取的。该列表仅限于排名前 1500 的提交内容，而且文本帖子（即无链接 URL）提交内容的百分比似乎已下降到足以使 Ask HN 提要匮乏。解决方案是计算一个单独的 Ask HN 排名列表。附注“Ask HN”是常规名称，但它仅表示文本帖子。他们也可以从“Tell HN”开始，或者两者都不是。关键是它们是在没有 URL 的情况下提交的文本帖子。\n\n 评论网址：https://news.ycombinator.com/item?id=50649864\n\n 积分：26\n\n # 评论: 13",
+          "publishedAt": "2026-11-26T00:43:34.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50649864",
+          "author": "dang"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50648823",
+          "title": "Jev is probably Qwen3.5-35B-A3B",
+          "titleZh": "Jev可能是Qwen3.5-35B-A3B",
+          "link": "https://modaic.dev/blog/latency-doesnt-lie",
+          "summary": "Article URL: https://modaic.dev/blog/latency-doesnt-lie\n\n Comments URL: https://news.ycombinator.com/item?id=50648823\n\n Points: 203\n\n # Comments: 55",
+          "summaryZh": "文章网址：https://modaic.dev/blog/latency-doesnt-lie\n\n 评论网址：https://news.ycombinator.com/item?id=50648823\n\n 积分：203\n\n # 评论: 55",
+          "publishedAt": "2026-11-25T22:57:04.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50648823",
+          "author": "csoham"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50648365",
+          "title": "Bare Metal Qwen",
+          "titleZh": "裸机Qwen",
+          "link": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
+          "summary": "Article URL: https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os\n\n Comments URL: https://news.ycombinator.com/item?id=50648365\n\n Points: 52\n\n # Comments: 5",
+          "summaryZh": "文章网址：https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os\n\n 评论网址：https://news.ycombinator.com/item?id=50648365\n\n 积分：52\n\n # 评论: 5",
+          "publishedAt": "2026-11-25T22:15:34.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50648365",
+          "author": "miohtama"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50648323",
+          "title": "Deploying a payphone on a tiny Pacific Island",
+          "titleZh": "在太平洋小岛上部署公用电话",
+          "link": "https://nickvsnetworking.com/deploying-a-payphone-on-a-tiny-pacific-island-for-fun-and-zero-profit/",
+          "summary": "Article URL: https://nickvsnetworking.com/deploying-a-payphone-on-a-tiny-pacific-island-for-fun-and-zero-profit/\n\n Comments URL: https://news.ycombinator.com/item?id=50648323\n\n Points: 28\n\n # Comments: 0",
+          "summaryZh": "文章网址：https://nickvsnetworking.com/deploying-a-payphone-on-a-tiny-pacific-island-for-fun-and-zero-profit/\n\n 评论网址：https://news.ycombinator.com/item?id=50648323\n\n 积分：28\n\n # 评论: 0",
+          "publishedAt": "2026-11-25T22:12:25.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50648323",
+          "author": "qzervaas"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50648050",
+          "title": "Much shorter version of GRH Lean verification from Anthropic",
+          "titleZh": "Anthropic 的 GRH Lean 验证的更短版本",
+          "link": "https://github.com/lsernau/grh-lean",
+          "summary": "Article URL: https://github.com/lsernau/grh-lean\n\n Comments URL: https://news.ycombinator.com/item?id=50648050\n\n Points: 247\n\n # Comments: 113",
+          "summaryZh": "文章网址：https://github.com/lsernau/grh-lean\n\n 评论网址：https://news.ycombinator.com/item?id=50648050\n\n 积分：247\n\n # 评论: 113",
+          "publishedAt": "2026-11-25T21:48:10.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50648050",
+          "author": "nb-t"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50648035",
+          "title": "Defang Security Incident",
+          "titleZh": "德芳保安事件",
+          "link": "https://defang.io/blog/post/security-incident-november-2026/",
+          "summary": "Article URL: https://defang.io/blog/post/security-incident-november-2026/\n\n Comments URL: https://news.ycombinator.com/item?id=50648035\n\n Points: 54\n\n # Comments: 18",
+          "summaryZh": "文章网址：https://defang.io/blog/post/security-incident-november-2026/\n\n 评论网址：https://news.ycombinator.com/item?id=50648035\n\n 积分：54\n\n # 评论: 18",
+          "publishedAt": "2026-11-25T21:47:16.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50648035",
+          "author": "gregsadetsky"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50647673",
+          "title": "The New York Times warns photographers not to update Photoshop over AI features",
+          "titleZh": "《纽约时报》警告摄影师不要因为 AI 功能而更新 Photoshop",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+          "summary": "https://archive.ph/pcUgy\n\n Comments URL: https://news.ycombinator.com/item?id=50647673\n\n Points: 184\n\n # Comments: 119",
+          "summaryZh": "https://archive.ph/pcUgy\n\n 评论网址：https://news.ycombinator.com/item?id=50647673\n\n 积分：184\n\n # 评论: 119",
+          "publishedAt": "2026-11-25T21:18:02.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50647673",
+          "author": "rmason"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50647181",
+          "title": "Slow Ubuntu security response times",
+          "titleZh": "Ubuntu 安全响应时间慢",
+          "link": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
+          "summary": "Article URL: https://www.openwall.com/lists/oss-security/2026/11/25/9\n\n Comments URL: https://news.ycombinator.com/item?id=50647181\n\n Points: 123\n\n # Comments: 50",
+          "summaryZh": "文章网址：https://www.openwall.com/lists/oss-security/2026/11/25/9\n\n 评论网址：https://news.ycombinator.com/item?id=50647181\n\n 积分：123\n\n # 评论: 50",
+          "publishedAt": "2026-11-25T20:38:00.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50647181",
+          "author": "gslin"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50647161",
+          "title": "Nfs2root: A 12-year-old pre-auth remote root in the Linux kernel's NFS server",
+          "titleZh": "Nfs2root：Linux 内核的 NFS 服务器中具有 12 年历史的预身份验证远程根",
+          "link": "https://opensec.in/blog/nfs2root-cve-2026-99362",
+          "summary": "Article URL: https://opensec.in/blog/nfs2root-cve-2026-99362\n\n Comments URL: https://news.ycombinator.com/item?id=50647161\n\n Points: 79\n\n # Comments: 26",
+          "summaryZh": "文章网址：https://opensec.in/blog/nfs2root-cve-2026-99362\n\n 评论网址：https://news.ycombinator.com/item?id=50647161\n\n 积分：79\n\n # 评论: 26",
+          "publishedAt": "2026-11-25T20:35:50.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50647161",
+          "author": "dm"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50647158",
+          "title": "72-hour fasting can reset your immune system, USC study shows",
+          "titleZh": "南加州大学研究表明，72 小时禁食可以重置您的免疫系统",
+          "link": "https://scienceinhand.com/72-hour-fasting-can-reset-your-entire-immune-system-usc-study-shows/",
+          "summary": "Article URL: https://scienceinhand.com/72-hour-fasting-can-reset-your-entire-immune-system-usc-study-shows/\n\n Comments URL: https://news.ycombinator.com/item?id=50647158\n\n Points: 148\n\n # Comments: 100",
+          "summaryZh": "文章网址：https://scienceinhand.com/72-hour-fasting-can-reset-your-entire-immune-system-usc-study-shows/\n\n 评论网址：https://news.ycombinator.com/item?id=50647158\n\n 积分：148\n\n # 评论：100",
+          "publishedAt": "2026-11-25T20:35:39.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50647158",
+          "author": "handfuloflight"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50646108",
+          "title": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
+          "titleZh": "天哪天哪天哪天哪天哪：现在发生的事情的严重性",
+          "link": "https://scottaaronson.blog/?p=10379",
+          "summary": "See also The matrix multiplication exponent is nine fourths [pdf] - https://news.ycombinator.com/item?id=50637220\n\n Comments URL: https://news.ycombinator.com/item?id=50646108\n\n Points: 861\n\n # Comments: 706",
+          "summaryZh": "另请参阅矩阵乘法指数是四分之九 [pdf] - https://news.ycombinator.com/item?id=50637220\n\n 评论网址：https://news.ycombinator.com/item?id=50646108\n\n 积分：861\n\n # 评论: 706",
+          "publishedAt": "2026-11-25T19:11:27.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50646108",
+          "author": "Kotlopou"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50645541",
+          "title": "Multiagent coding is the future",
+          "titleZh": "多智能体编码是未来",
+          "link": "https://www.kalzumeus.com/2026/11/25/multiagent-coding-is-the-future/",
+          "summary": "Article URL: https://www.kalzumeus.com/2026/11/25/multiagent-coding-is-the-future/\n\n Comments URL: https://news.ycombinator.com/item?id=50645541\n\n Points: 19\n\n # Comments: 7",
+          "summaryZh": "文章网址：https://www.kalzumeus.com/2026/11/25/multiagent-coding-is-the-future/\n\n 评论网址：https://news.ycombinator.com/item?id=50645541\n\n 积分：19\n\n # 评论: 7",
+          "publishedAt": "2026-11-25T18:20:11.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50645541",
+          "author": "akalin"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50645074",
+          "title": "Britain's ghost stations",
+          "titleZh": "英国的幽灵车站",
+          "link": "https://spectator.com/article/britains-ghost-stations-are-fascinating/",
+          "summary": "https://archive.ph/pfVdX\n\n Comments URL: https://news.ycombinator.com/item?id=50645074\n\n Points: 96\n\n # Comments: 19",
+          "summaryZh": "https://archive.ph/pfVdX\n\n 评论网址：https://news.ycombinator.com/item?id=50645074\n\n 积分：96\n\n # 评论: 19",
+          "publishedAt": "2026-11-25T17:43:46.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50645074",
+          "author": "translocator"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50644980",
+          "title": "The polynomial Hirsch conjecture is false [pdf]",
+          "titleZh": "多项式赫希猜想是错误的 [pdf]",
+          "link": "https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf",
+          "summary": "Article URL: https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf\n\n Comments URL: https://news.ycombinator.com/item?id=50644980\n\n Points: 119\n\n # Comments: 30",
+          "summaryZh": "文章网址：https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf\n\n 评论网址：https://news.ycombinator.com/item?id=50644980\n\n 积分：119\n\n # 评论: 30",
+          "publishedAt": "2026-11-25T17:34:34.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50644980",
+          "author": "acossta"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50644817",
+          "title": "1Password Security Incident",
+          "titleZh": "1密码安全事件",
+          "link": "https://1password.com/blog/update-on-nov-2026-security-incident",
+          "summary": "Article URL: https://1password.com/blog/update-on-nov-2026-security-incident\n\n Comments URL: https://news.ycombinator.com/item?id=50644817\n\n Points: 1104\n\n # Comments: 481",
+          "summaryZh": "文章网址：https://1password.com/blog/update-on-nov-2026-security-incident\n\n 评论网址：https://news.ycombinator.com/item?id=50644817\n\n 积分：1104\n\n # 评论：481",
+          "publishedAt": "2026-11-25T17:18:26.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50644817",
+          "author": "lxhrstn"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50643129",
+          "title": "A few questions for the guy who went snorkeling in a Home Depot retention pond",
+          "titleZh": "有几个问题要问在家得宝滞留池里浮潜的人",
+          "link": "https://www.vox.com/down-to-earth/511999/home-depot-retention-pond-snorkel-joseph-ricketts",
+          "summary": "Article URL: https://www.vox.com/down-to-earth/511999/home-depot-retention-pond-snorkel-joseph-ricketts\n\n Comments URL: https://news.ycombinator.com/item?id=50643129\n\n Points: 432\n\n # Comments: 104",
+          "summaryZh": "文章网址：https://www.vox.com/down-to-earth/511999/home-depot-retention-pond-snorkel-joseph-ricketts\n\n 评论网址：https://news.ycombinator.com/item?id=50643129\n\n 积分：432\n\n # 评论: 104",
+          "publishedAt": "2026-11-25T15:14:32.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50643129",
+          "author": "gumby"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50642939",
+          "title": "I checked Clojure's core with Lean and found unreported bugs",
+          "titleZh": "我用 Lean 检查了 Clojure 的核心，发现了未报告的错误",
+          "link": "https://s.conao3.com/blog/2026/e4f733",
+          "summary": "Article URL: https://s.conao3.com/blog/2026/e4f733\n\n Comments URL: https://news.ycombinator.com/item?id=50642939\n\n Points: 181\n\n # Comments: 63",
+          "summaryZh": "文章网址：https://s.conao3.com/blog/2026/e4f733\n\n 评论网址：https://news.ycombinator.com/item?id=50642939\n\n 积分：181\n\n # 评论: 63",
+          "publishedAt": "2026-11-25T14:56:52.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50642939",
+          "author": "encyclopedism"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50642086",
+          "title": "Google releases Cogentic papers on integer factorization, discrete logs and more",
+          "titleZh": "谷歌发布关于整数分解、离散对数等的 Cogentic 论文",
+          "link": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+          "summary": "Article URL: https://github.com/google-research/google-research/tree/master/cogentic_research_papers\n\n Comments URL: https://news.ycombinator.com/item?id=50642086\n\n Points: 443\n\n # Comments: 332",
+          "summaryZh": "文章网址：https://github.com/google-research/google-research/tree/master/cogentic_research_papers\n\n 评论网址：https://news.ycombinator.com/item?id=50642086\n\n 积分：443\n\n # 评论: 332",
+          "publishedAt": "2026-11-25T13:33:07.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50642086",
+          "author": "rgwohlbold"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50641323",
+          "title": "Hazel (YC W24) Is Hiring a Product Designer",
+          "titleZh": "Hazel (YC W24) 正在招聘一名产品设计师",
+          "link": "https://www.ycombinator.com/companies/hazel-2/jobs/8EhsvYE-product-designer-contract",
+          "summary": "Article URL: https://www.ycombinator.com/companies/hazel-2/jobs/8EhsvYE-product-designer-contract\n\n Comments URL: https://news.ycombinator.com/item?id=50641323\n\n Points: 0\n\n # Comments: 0",
+          "summaryZh": "文章网址：https://www.ycombinator.com/companies/hazel-2/jobs/8EhsvYE-product-designer-contract\n\n 评论网址：https://news.ycombinator.com/item?id=50641323\n\n 积分：0\n\n # 评论: 0",
+          "publishedAt": "2026-11-25T12:00:34.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50641323",
+          "author": "augustschen"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=50641171",
+          "title": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
+          "titleZh": "Windows 响度均衡、逆向工程并移植到 PipeWire",
+          "link": "https://github.com/xoxorwr/pw-loudness-eq",
+          "summary": "Article URL: https://github.com/xoxorwr/pw-loudness-eq\n\n Comments URL: https://news.ycombinator.com/item?id=50641171\n\n Points: 314\n\n # Comments: 173",
+          "summaryZh": "文章网址：https://github.com/xoxorwr/pw-loudness-eq\n\n 评论网址：https://news.ycombinator.com/item?id=50641171\n\n 积分：314\n\n # 评论: 173",
+          "publishedAt": "2026-11-25T11:34:25.000Z",
+          "comments": "https://news.ycombinator.com/item?id=50641171",
+          "author": "ThrowNotAway"
+        }
+      ]
+    },
+    {
+      "id": "arxiv-cs-ai",
+      "title": "arXiv cs.AI",
+      "url": "https://rss.arxiv.org/rss/cs.AI",
+      "home": "https://arxiv.org/list/cs.AI/recent",
+      "group": "arxiv",
+      "fetchedAt": "2026-11-26T01:26:33.287Z",
+      "count": 15,
+      "items": [
+        {
+          "id": "oai:arXiv.org:2611.31284v1",
+          "title": "Irreducible Governance Structure for Autonomous Agent Systems: Fair Allocation, Strategy-Proofness, and Multi-Scale Composition",
+          "titleZh": "自治代理系统的不可约治理结构：公平分配、策略验证和多尺度组合",
+          "link": "https://arxiv.org/abs/2611.31284",
+          "summary": "arXiv:2611.31284v1 Announce Type: new\nAbstract: Autonomous agent governance is commonly framed as a problem of enforcing correct execution. However, in multi-agent systems, an equally fundamental question precedes execution: which agents are allowed to act.\n In this paper, we show that allocation is not an auxiliary concern but a structural component of governance. When multiple agents compete for execution under constrained resources, any allocation mechanism introduces unavoidable trade-offs between fairness, efficiency, and resistance to strategic manipulation. We formalize this through a set of impossibility results, including Sybil amplification and the incompatibility of desirable allocation properties.\n We then show that these allocation constraints cannot be resolved within a single layer of control. Instead, they propagate across the system, interacting with execution atomicity, state enforcement, and behavioral drift. This leads to a multi-scale governance structure composed of four orthogonal dimensions: temporal (atomicity), state (enforcement), behavioral (drift monitoring), and population (allocation).\n Our main result is an irreducibility theorem: under finite observability, no governance architecture can collapse these dimensions without loss of correctness or stability. Allocation, in particular, acts as a first-class constraint that prevents simplification of the governance stack.\n We validate these results through a series of analytical constructions and empirical ablations, showing that removing or approximating any layer leads to systematic failure modes.\n This work reframes agent governance as a structural problem: not only how actions are executed, but how access to execution is determined, and why these decisions impose irreducible architectural requirements.",
+          "summaryZh": "arXiv:2611.31284v1 公告类型：新\n摘要：自治代理治理通常被视为强制正确执行的问题。然而，在多代理系统中，执行之前还有一个同样基本的问题：允许哪些代理执行操作。\n 在本文中，我们表明分配不是一个辅助问题，而是治理的结构组成部分。当多个智能体在有限的资源下竞争执行时，任何分配机制都会不可避免地在公平、效率和抗战略操纵之间进行权衡。我们通过一组不可能的结果来形式化这一点，包括 Sybil 放大和理想分配属性的不兼容性。\n 然后我们表明这些分配约束无法在单层控制中得到解决。相反，它们在整个系统中传播，与执行原子性、状态执行和行为漂移交互。这导致了由四个正交维度组成的多尺度治理结构：时间（原子性）、状态（执行）、行为（漂移监控）和人口（分配）。\n 我们的主要结果是一个不可约性定理：在有限的可观测性下，没有任何治理架构可以在不损失正确性或稳定性的情况下瓦解这些维度。特别是，分配充当了一流的约束，阻止了治理堆栈的简化。\n 我们通过一系列分析结构和经验消融验证了这些结果，表明删除或近似任何层都会导致系统性故障模式。\n 这项工作将代理治理重新定义为一个结构性问题：不仅是如何执行操作，还包括如何确定执行访问权限，以及为什么这些决策提出了不可简化的架构要求。",
+          "publishedAt": "2026-11-25T05:00:00.000Z",
+          "comments": null,
+          "author": "Marcelo Fernandez"
+        },
+        {
+          "id": "oai:arXiv.org:2611.31301v1",
+          "title": "MOZAIC: An Audio-Video Deepfake Benchmark for Telling What Is Fake",
+          "titleZh": "MOZAIC：辨别真伪的音频-视频 Deepfake 基准",
+          "link": "https://arxiv.org/abs/2611.31301",
+          "summary": "arXiv:2611.31301v1 Announce Type: new\nAbstract: Audio-video (AV) deepfakes can fake the face, the voice, or both. Most benchmarks only ask whether a clip is real or fake, so they cannot show whether a detector relies on the picture, the voice, or encoding traces. We present MOZAIC, a paired benchmark with a 4-way label in which every source clip is released in all four combinations of real or fake video and real or fake audio so each modality contribution can be measured directly. Fakes cover inner-face swapping, whole-frame video diffusion and voice conversion. MOZAIC has 137,745 clips from 15,014 source pairs and four tasks: T1 AV authenticity, T2 manipulation type, T3 identity verification and T4 explanation. We evaluate 12 AV multimodal LLMs (MLLMs), train four detectors and fine-tune MLLMs with LoRA. Overall, the best MLLM reaches only 35.6% on the four-way T1 and catches far more video-only fakes than voice-only fakes (43.6% vs 7.5%). Trained detectors reach 98.4% on T1, and LoRA fine-tuning raises explanation scores (OmniVinci 4.17 to 7.40, Qwen2.5-Omni 4.42 to 6.98), but the best T1 detector falls to 78.3% when the face-swap generator is held out of training, so generalization and explanation remain open. We release the dataset, the compact MOZAIC-SMALL split, the code and the prompts. https://vectorinstitute.github.io/mozaic/",
+          "summaryZh": "arXiv:2611.31301v1 公告类型：新\n摘要：音频视频（AV）深度伪造可以伪造面部、声音或两者。大多数基准测试只询问片段是真是假，因此无法显示检测器是否依赖于图片、语音或编码痕迹。我们推出了 MOZAIC，这是一个带有 4 路标签的配对基准测试，其中每个源剪辑都以真实或虚假视频和真实或虚假音频的所有四种组合发布，因此可以直接测量每种模态贡献。假货包括内换脸、整帧视频扩散和语音转换。 MOZAIC 拥有来自 15,014 个源对的 137,745 个剪辑，以及四个任务：T1 AV 真实性、T2 操纵类型、T3 身份验证和 T4 解释。我们评估 12 个 AV 多模态 LLM (MLLM)，训练四个检测器并使用 LoRA 微调 MLLM。总体而言，最好的 MLLM 在四向 T1 上仅达到 35.6%，并且捕获的纯视频假货比纯语音假货多得多（43.6% 比 7.5%）。经过训练的检测器在 T1 上达到 98.4%，LoRA 微调提高了解释分数（OmniVinci 4.17 到 7.40，Qwen2.5-Omni 4.42 到 6.98），但当换脸生成器不进行训练时，最好的 T1 检测器会下降到 78.3%，因此泛化和解释仍然开放。我们发布了数据集、紧凑的 MOZAIC-SMALL 拆分、代码和提示。 https://vectorinstitute.github.io/mozaic/",
+          "publishedAt": "2026-11-25T05:00:00.000Z",
+          "comments": null,
+          "author": "Shaina Raza, Mohamed Hafez, Ahmed Y. Radwan, Khalid Elgazzar, Kathryn Hume"
+        },
+        {
+          "id": "oai:arXiv.org:2611.31329v1",
+          "title": "Conservative Overlap Fuzzy Rough Sets for Incomplete Data",
+          "titleZh": "不完整数据的保守重叠模糊粗糙集",
+          "link": "https://arxiv.org/abs/2611.31329",
+          "summary": "arXiv:2611.31329v1 Announce Type: new\nAbstract: Attribute reduction in incomplete information systems is difficult because missing values break the equivalence-class structure of rough set theory. We propose the Conservative Overlap Fuzzy Rough Set (COFRS) model. Each object is described by its set of present attributes. The similarity of two objects is a weighted overlap on the attributes present in both, divided by the fixed number of attributes |A| instead of the size of their union, so missing values are penalised globally and are not matched as wildcards. From this similarity we define a soft dependency degree based on weighted granule consistency, and we search for reducts by greedy backward elimination in O(|U|^2 |A|^2) time. We show that the relation is symmetric and non-reflexive, that the dependency degree is not monotone, and we give a sufficient condition under which monotonicity holds. On 11 UCI benchmarks with missing rates from 0.15% to 20.46%, COFRS gives the smallest reducts on average (4.1 attributes, against 5.0-11.2 for Tolerance-RS, a range-threshold variant Tol-RS_tau, Zhou-RS and the min-aggregation variant COFRS-min). The difference is significant against Tol-RS_tau, Zhou-RS and COFRS-min (Holm-adjusted Wilcoxon p<0.01) but not against Tolerance-RS (p=0.56), and it is small against the Jensen-Shen selector (adjusted p=0.084). At equal reduct size, COFRS selects more informative attributes than random subsets. With a kNN classifier the methods do not differ significantly in accuracy, F1 or G-mean; with an RBF-SVM they do, and COFRS ranks last. The gain is therefore compactness, not predictive accuracy.",
+          "summaryZh": "arXiv:2611.31329v1 公告类型：新\n摘要：不完备信息系统中的属性约简非常困难，因为缺失值破坏了粗糙集理论的等价类结构。我们提出了保守重叠模糊粗糙集（COFRS）模型。每个对象都由其当前属性集来描述。两个对象的相似度是两个对象中存在的属性的加权重叠除以属性的固定数量 |A|而不是它们并集的大小，因此缺失值会受到全局惩罚，并且不会作为通配符进行匹配。根据这种相似性，我们定义了基于加权颗粒一致性的软依赖度，并在 O(|U|^2 |A|^2) 时间内通过贪婪向后消除来搜索约简。我们证明了该关系是对称且非自反的，依赖度不是单调的，并且给出了单调性成立的充分条件。在缺失率从 0.15% 到 20.46% 的 11 个 UCI 基准上，COFRS 的平均减少量最小（4.1 个属性，而 Tolerance-RS、范围阈值变体 Tol-RS_tau、Zhou-RS 和最小聚合变体 COFRS-min 的减少量为 5.0-11.2）。与 Tol-RS_tau、Zhou-RS 和 COFRS-min 相比，差异显着（Holm 调整的 Wilcoxon p<0.01），但与 Tolerance-RS 相比差异不显着（p=0.56），与 Jensen-Shen 选择器相比差异较小（调整后的 p=0.084）。在相同的归约大小下，COFRS 选择比随机子集信息更多的属性。使用 kNN 分类器，这些方法在准确度、F1 或 G 均值方面没有显着差异；他们使用 RBF-SVM 做到了这一点，而 COFRS 排名最后。因此，增益是紧凑性，而不是预测准确性。",
+          "publishedAt": "2026-11-25T05:00:00.000Z",
+          "comments": null,
+          "author": "Trung Hieu Vuong, Van Thien Nguyen, Nhu Son Nguyen, Thanh Dai Tran"
+        },
+        {
+          "id": "oai:arXiv.org:2611.31345v1",
+          "title": "Beyond Static Charts: Benchmarking Interactive Chart-to-Code Generation for MLLMs",
+          "titleZh": "超越静态图表：MLLM 交互式图表到代码生成的基准测试",
+          "link": "https://arxiv.org/abs/2611.31345",
+          "summary": "arXiv:2611.31345v1 Announce Type: new\nAbstract: In recent years, multimodal large language models (MLLMs) have achieved significant progress in chart-to-code generation. However, existing benchmarks mainly focus on static charts, overlooking interactive charts that enable richer and more expressive data exploration. Unlike static chart-to-code generation, which emphasizes visual consistency, interactive chart-to-code evaluation targets behavioral consistency, requiring chart states to evolve correctly under sequences of user interactions, thereby rendering traditional one-step evaluation paradigms ineffective. To address this gap, we introduce ChartInt, the first benchmark specifically designed for interactive chart-to-code generation. ChartInt consists of 2,779 carefully annotated examples covering common interaction patterns such as hover, highlight, and tooltips. Additionally, ChartInt incorporates editing tasks such as data updates, style adjustments, and cross-chart style transfer to expand real-world application scenarios. To enable reliable evaluation of interaction behavior, we propose a preset state snapshot protocol that predefines target interaction states and deterministically triggers interaction events, transforming dynamic behaviors into reproducible evaluation targets. Based on this protocol, we design a multi-dimensional evaluation framework measuring semantic and stylistic consistency. Experiments show that while current MLLMs perform well on static charts, their performance drops significantly on interactive tasks, highlighting the need for interaction-aware benchmarks.",
+          "summaryZh": "arXiv:2611.31345v1 公告类型：新\n摘要：近年来，多模态大语言模型（MLLM）在图表到代码生成方面取得了重大进展。然而，现有的基准主要关注静态图表，忽视了能够实现更丰富、更具表现力的数据探索的交互式图表。与强调视觉一致性的静态图表到代码生成不同，交互式图表到代码评估的目标是行为一致性，要求图表状态在用户交互序列下正确演化，从而使传统的一步评估范例变得无效。为了解决这一差距，我们引入了 ChartInt，这是第一个专门为交互式图表到代码生成而设计的基准测试。 ChartInt 包含 2,779 个经过仔细注释的示例，涵盖常见的交互模式，例如悬停、突出显示和工具提示。此外，ChartInt还融合了数据更新、样式调整、跨图表样式传输等编辑任务，以扩展现实世界的应用场景。为了实现交互行为的可靠评估，我们提出了一种预设状态快照协议，该协议预定义目标交互状态并确定性地触发交互事件，将动态行为转化为可重现的评估目标。基于该协议，我们设计了一个测量语义和文体一致性的多维评估框架。实验表明，虽然当前的 MLLM 在静态图表上表现良好，但它们在交互式任务上的性能显着下降，这凸显了对交互感知基准的需求。",
+          "publishedAt": "2026-11-25T05:00:00.000Z",
+          "comments": null,
+          "author": "Yuhan Bian, Haoyu Liu, Siyu Li, Hanpei Guo, Jingrong Gao, Zhixu Li"
+        },
+        {
+          "id": "oai:arXiv.org:2611.31346v1",
+          "title": "What People Choose Not to Say: A Multimodal Benchmark for Fine-Grained Information Manipulation in Conversations",
+          "titleZh": "人们选择不说的话：对话中细粒度信息操纵的多模式基准",
+          "link": "https://arxiv.org/abs/2611.31346",
+          "summary": "arXiv:2611.31346v1 Announce Type: new\nAbstract: Recent advances in MLLMs have improved social understanding, enabling models to recognize emotions and distinguish truthful from deceptive behaviors. However, existing benchmarks largely focus on coarse-grained emotion recognition or binary truth-deception detection, overlooking the diverse ways people manipulate information in conversations, such as withholding, leakage, fabrication, evasion, and defensive counterclaim. Understanding these behaviors requires reasoning about underlying facts, participant knowledge, and conversational context, making them difficult to evaluate reliably. To address this gap, we introduce InfoCon, a multimodal benchmark for fine-grained information manipulation in conversations. InfoCon identifies six fine-grained strategies and derives a coarse consistency label from their factual and interactional relations. We develop an evidence-grounded multi-agent annotation framework to construct and verify reliable labels from rich contextual evidence. We benchmark representative multimodal models and systematically analyze their fine-grained information manipulation understanding, providing a testbed beyond binary truth-deception judgments.",
+          "summaryZh": "arXiv:2611.31346v1 公告类型：新\n摘要：MLLM 的最新进展提高了社会理解，使模型能够识别情绪并区分真实行为和欺骗行为。然而，现有的基准主要侧重于粗粒度的情感识别或二元真相欺骗检测，忽视了人们在对话中操纵信息的多种方式，例如隐瞒、泄漏、捏造、逃避和防御性反诉。理解这些行为需要对潜在事实、参与者知识和对话上下文进行推理，这使得它们难以可靠地评估。为了解决这一差距，我们引入了 InfoCon，这是一种用于在对话中进行细粒度信息操作的多模式基准。 InfoCon 确定了六种细粒度策略，并从它们的事实和交互关系中得出粗略的一致性标签。我们开发了一个基于证据的多代理注释框架，以从丰富的上下文证据中构建和验证可靠的标签。我们对代表性的多模态模型进行基准测试，并系统地分析它们对细粒度信息操纵的理解，提供超越二元真假判断的测试平台。",
+          "publishedAt": "2026-11-25T05:00:00.000Z",
+          "comments": null,
+          "author": "Yuhan Bian, Zhaokai Liang, Jia Wang, Haoyu Liu, Yu Chen, Jianfeng Qu, Zhixu Li"
+        },
+        {
+          "id": "oai:arXiv.org:2611.31347v1",
+          "title": "Antares-Smaug: Adversarial Names, Tokens and Attack Rewrites: Sanitisers Miss Unseen Generalisations",
+          "titleZh": "Antares-Smaug：对抗性名称、代币和攻击重写：消毒剂错过了看不见的概括",
+          "link": "https://arxiv.org/abs/2611.31347",
+          "summary": "arXiv:2611.31347v1 Announce Type: new\nAbstract: Laya is an open decision model: given a text, a question and K named options with descriptions, it returns one probability per option in a single pass, and software may act on the answer unseen. We attack six Laya models with 81 programmatic edits of 566 synthetic items (injected sentences, label leaks, edited descriptions, decoy options, invisible and look-alike characters, floods) and report the share of correctly answered items hijacked or lost, with bootstrap intervals. Attack wordings that no defence was built from win the attacker's option on 59% of items for released Laya and 36% for fine-tune v1 (trained on 109 written injections). An injection works through the option name: a sentence naming an option steers the released model even when negated (32%), while an imperative naming no option does not (5%). Option descriptions barely matter (2%). Character edits alone cost v1 up to 72% of right answers. A sanitiser frozen before any held-out result cuts the attacks it was built from by 72% but held-out sentence attacks by 27%, and an attacker who picks the best of 34 held-out strings per item restores success to 84% (mean string 18%). The same oracle takes the model fine-tuned on the four build families of injected sentences from 5% (mean string) to 58%. Fine-tuning on build families only (against an unchanged-rows control) cuts held-out sentence attacks (three held-out families) from 33% to 3% but character edits only from 25% to 20%. A label-free check that deletes the option names and measures the shift flags held-out sentence attacks (AUROC 0.95) but not character edits (0.46), and thresholds set on dev schemas for 5% false alarms gave 8% to 18% on an unseen schema and other languages. All data are synthetic with LLM labels, on one backbone. Several planned runs (other checkpoints, a second seed, some fine-tunes) were not run.",
+          "summaryZh": "arXiv:2611.31347v1 公告类型：新\n摘要：Laya 是一种开放决策模型：给定一段文本、一个问题和 K 个带有描述的命名选项，它会在一次传递中返回每个选项的一个概率，并且软件可能会根据看不见的答案采取行动。我们对 6 个 Laya 模型进行了 81 次编程编辑，对 566 个合成项目（注入的句子、标签泄漏、编辑的描述、诱饵选项、不可见和相似的字符、洪水）进行了攻击，并报告了正确回答的项目被劫持或丢失的比例，以及引导间隔。攻击措辞表明，在已发布的 Laya 中，59% 的项目和 Fine-tune v1 中的 36% 的项目（在 109 次书面注入上训练）上赢得了攻击者的选择权，没有建立任何防御。注入通过选项名称进行：即使被否定，命名选项的句子也会引导发布的模型（32％），而命令式命名无选项则不会（5％）。选项描述几乎不重要（2%）。仅角色编辑就花费 v1 高达 72% 的正确答案。在任何保留结果之前冻结的消毒剂可以将其构建的攻击减少 72%，但保留句子攻击可以减少 27%，而从每个项目的 34 个保留字符串中选择最好的攻击者可以将成功率恢复到 84%（平均字符串 18%）。同一个预言机对注入句子的四个构建系列的模型进行了从 5%（平均字符串）到 58% 的微调。仅对构建族进行微调（针对未更改的行控制）将保留句子攻击（三个保留族）从 33% 减少到 3%，但字符编辑仅从 25% 减少到 20%。无标签检查删除选项名称并测量移位标记保留句子攻击 (AUROC 0.95)，但不测量字符编辑 (0.46)，并且在开发模式上设置的 5% 误报阈值在未见过的模式和其他语言上为 8% 到 18%。所有数据均在一个主干上与 LLM 标签合成。几个计划的运行（其他检查点、第二个种子、一些微调）没有运行。",
+          "publishedAt": "2026-11-25T05:00:00.000Z",
+          "comments": null,
+          "author": "Mohammed Nayeem Khan, Akhil P"
+        },
+        {
+          "id": "oai:arXiv.org:2611.31424v1",
+          "title": "ContextLure: Exploiting Benign Conversation History for Indirect Prompt Injection",
+          "titleZh": "ContextLure：利用良性对话历史进行间接提示注入",
+          "link": "https://arxiv.org/abs/2611.31424",
+          "summary": "arXiv:2611.31424v1 Announce Type: new\nAbstract: As LLMs become more capable, agents can perform more complex tasks with tools and maintain longer interactions with users. These benign conversations contain evidence on task results, user concerns, and operational constraints. The risk is that attackers who can observe benign conversations (evidence) may construct stronger indirect prompt injections without increasing the attackers' control over prior turns or the later injection. However, we still lack a clear study of how effectively attackers can select and use this evidence. To address this gap, we introduce ContextLure, a red-teaming framework in which an attacker silently observes an existing benign conversation, extracts evidence, and constructs an injection. The challenges are twofold: (a) selecting useful evidence and (b) presenting it as reasons for an unauthorized action, without changing the prior benign conversation. To efficiently exploit (a) the effect of evidence on attack success, our framework selects evidence across 2 dimensions: User/System Preferences with 3 selection policies. And to enhance (b) the process of turning the selected information into the malicious request, we introduce an Urgency/Priority matrix with 4 rewriting strategies. Across the evaluated conditions, we reach 67.4% ASR on AgentDojo and 87.3% on InjecAgent. These results show that attackers can use benign interaction evidence in later attacks without first poisoning the benign conversation.",
+          "summaryZh": "arXiv:2611.31424v1 公告类型：新\n摘要：随着法学硕士的能力越来越强，代理可以使用工具执行更复杂的任务，并与用户保持更长时间的交互。这些良性对话包含有关任务结果、用户关注点和操作限制的证据。风险在于，能够观察到良性对话（证据）的攻击者可能会构建更强大的间接提示注入，而不会增加攻击者对先前回合或稍后注入的控制。然而，我们仍然缺乏关于攻击者如何有效地选择和使用这些证据的明确研究。为了解决这个问题，我们引入了 ContextLure，这是一个红队框架，攻击者可以在其中默默地观察现有的良性对话，提取证据并构建注入。挑战是双重的：(a) 选择有用的证据，(b) 将其作为未经授权的行动的理由，而不改变之前的良性对话。为了有效地利用 (a) 证据对攻击成功的影响，我们的框架从两个维度选择证据：具有 3 个选择策略的用户/系统偏好。为了增强 (b) 将所选信息转化为恶意请求的过程，我们引入了具有 4 种重写策略的紧急/优先级矩阵。在评估的条件下，我们在 AgentDojo 上达到了 67.4% 的 ASR，在 InjecAgent 上达到了 87.3%。这些结果表明，攻击者可以在以后的攻击中使用良性交互证据，而无需首先毒害良性对话。",
+          "publishedAt": "2026-11-25T05:00:00.000Z",
+          "comments": null,
+          "author": "Yi Han, Zhen Sun, Zhijie Deng, Yini Huang, Yangyang Zheng, Dongyi Zhang, Xinlei He"
+        },
+        {
+          "id": "oai:arXiv.org:2611.31427v1",
+          "title": "Learning What vs. Learning How: Decomposing Task and Interface Competence in Agentic Training",
+          "titleZh": "学习什么与学习如何：分解代理训练中的任务和界面能力",
+          "link": "https://arxiv.org/abs/2611.31427",
+          "summary": "arXiv:2611.31427v1 Announce Type: new\nAbstract: LLM agents operate through harnesses that define system prompts, action formats, feedback loops, and resource constraints. A model may possess the knowledge needed to solve a task yet fail to express that knowledge through a particular harness. This raises a basic question: when a policy fails under a given harness, is it missing task knowledge or the competence to operate the interface? We distinguish two components of agentic competence: task competence, the knowledge and reasoning needed to solve a task, and interface competence, the ability to act on that knowledge through a given harness. Across four reasoning and agentic benchmarks, we show that harness-conditioned training yields vastly different outcomes depending on how these interact. Multi-harness distillation aggregates task knowledge from trajectories collected through different harnesses into a shared policy, but this knowledge is realised only when training preserves or improves competence on the inference-time interface. Otherwise, single-harness training can induce interference in interface competence, sometimes catastrophically collapsing performance on a held-out harness despite improvements in underlying task knowledge. To disentangle task and interface supervision, we introduce harness rehearsal: distillation on traces that carry minimal task knowledge while exercising the target interface. Cross-harness task supervision or rehearsal alone yields little gain, but their combination yields gains far larger than either: on BFCL V3 multi-turn with Qwen3-4B, they achieve 8.5% and 32.5% respectively, versus 58.8% together. Finally, on-policy reinforcement learning (RL) is more robust than distillation to single-harness training: it does not substantially degrade performance on other harnesses, and interface competence acquired through multi-harness distillation persists through subsequent RL.",
+          "summaryZh": "arXiv:2611.31427v1 公告类型：新\n摘要：LLM 代理通过定义系统提示、操作格式、反馈循环和资源约束的工具进行操作。模型可能拥有解决任务所需的知识，但无法通过特定的工具表达该知识。这就提出了一个基本问题：当策略在给定的工具下失败时，它是否缺少任务知识或操作界面的能力？我们区分代理能力的两个组成部分：任务能力（解决任务所需的知识和推理）和界面能力（通过给定的工具对知识采取行动的能力）。通过四个推理和代理基准，我们表明，根据它们如何相互作用，利用条件训练会产生截然不同的结果。多线束蒸馏将通过不同线束收集的轨迹中的任务知识聚合到共享策略中，但只有当训练保留或提高推理时间接口上的能力时，才能实现这些知识。否则，单线束训练可能会干扰接口能力，有时尽管基础任务知识有所改善，但仍会导致悬挂线束上的性能发生灾难性的崩溃。为了解开任务和界面监督，我们引入了工具排练：在练习目标界面时对携带最少任务知识的痕迹进行蒸馏。交叉线束任务监督或排练单独产生的收益很小，但它们的组合产生的收益远远大于其中任何一种：在 BFCL V3 与 Qwen3-4B 的多回合上，它们分别实现了 8.5% 和 32.5%，而合计实现了 58.8%。最后，在策略强化学习 (RL) 比单线束训练的蒸馏更加稳健：它不会大幅降低其他线束的性能，并且通过多线束蒸馏获得的接口能力会在后续的 RL 中持续存在。",
+          "publishedAt": "2026-11-25T05:00:00.000Z",
+          "comments": null,
+          "author": "Chaeeun Lee, Hossein A. Rahmani, Aryo Pradipta Gema, Kexin Xu, Emine Yilmaz, Pasquale Minervini, T. Ian Simpson, Chen Jin, Amrutha Saseendran"
+        },
+        {
+          "id": "oai:arXiv.org:2611.31457v1",
+          "title": "Taxi: Analyzing Agents at (Real) Scale",
+          "titleZh": "出租车：（真实）规模分析代理",
+          "link": "https://arxiv.org/abs/2611.31457",
+          "summary": "arXiv:2611.31457v1 Announce Type: new\nAbstract: In this technical report, we present Taxi -- a system for debugging, clustering, and monitoring agents at scale. Taxi scales to millions of steps efficiently. This is made possible by a combination of scalable analysis methods. Taxi relies primarily on clustering to generate a taxonomy over steps for a structured overview of the data, and provides full SQL access for engineers and automated agents to ask complex questions. Clustering and querying are best used together in a hybrid pipeline guided by a coding agent. Taxi also includes an experimental integration of Jev-style decision models: models that map state and bounded questions directly to typed, probabilistic decisions. They add low-cost semantic routing and evaluation where embeddings or literal queries alone are insufficient. In addition, Taxi provides an extensible ecosystem, including built-in evaluators and daily reports. To accommodate growth, Taxi is designed to be modular, hackable, and easy to plug-and-play for individuals and teams.",
+          "summaryZh": "arXiv:2611.31457v1 公告类型：新\n摘要：在这份技术报告中，我们介绍了 Taxi——一种用于大规模调试、集群和监控代理的系统。 Taxi 可以有效地扩展到数百万步。这是通过可扩展分析方法的组合实现的。 Taxi 主要依靠集群来生成步骤分类，以实现数据的结构化概述，并为工程师和自动化代理提供完整的 SQL 访问权限以提出复杂的问题。集群和查询最好在编码代理引导的混合管道中一起使用。 Taxi 还包括 Jev 式决策模型的实验性集成：将状态和有界问题直接映射到类型化概率决策的模型。它们添加了低成本的语义路由和评估，而仅靠嵌入或文字查询是不够的。此外，Taxi 还提供了可扩展的生态系统，包括内置评估器和每日报告。为了适应增长，Taxi 被设计为模块化、可破解且易于个人和团队即插即用。",
+          "publishedAt": "2026-11-25T05:00:00.000Z",
+          "comments": null,
+          "author": "Guy Dar"
+        },
+        {
+          "id": "oai:arXiv.org:2611.31475v1",
+          "title": "SpatialCraft: Evolving Procedural Intelligence from Experience and Skills for Spatial Reasoning Agents",
+          "titleZh": "SpatialCraft：从空间推理代理的经验和技能中进化出程序智能",
+          "link": "https://arxiv.org/abs/2611.31475",
+          "summary": "arXiv:2611.31475v1 Announce Type: new\nAbstract: Spatial reasoning agents increasingly rely on external tools, such as 3D reconstruction, segmentation, and geometric computation, to answer questions that a multimodal large language model (MLLM) cannot resolve from pixels alone. Tool access, however, shifts the bottleneck to orchestration: the agent must decide which tools to call, in what order, and how to interpret their outputs, yet a stateless agent repeats the same mistakes across tasks. We ask whether a frozen tool-using agent can improve its orchestration from its own interaction history, without parameter updates. We present SpatialCraft, a self-evolving framework that maintains two forms of external knowledge: Experiences, condition-action tactics distilled by contrasting rollouts of the same task, and Skills, multi-step procedures with explicit activation and termination conditions. Three designs couple the two streams. Experiences can be anchored to a Skill, appearing only while it is active rather than once per task. A Contrastive Utility Score estimates each Experience's effect by randomly withholding it across rollouts of the same task, separating its contribution from task difficulty, and Experiences with consistently positive utility are consolidated into the Skills they support. Across five spatial benchmarks and four backbones, SpatialCraft achieves the best accuracy in all 20 settings, showing that a frozen agent can learn to orchestrate spatial tools from its own experience.",
+          "summaryZh": "arXiv:2611.31475v1 公告类型：新\n摘要：空间推理代理越来越依赖外部工具，例如 3D 重建、分割和几何计算，来回答多模态大语言模型 (MLLM) 无法仅从像素解决的问题。然而，工具访问将瓶颈转移到了编排上：代理必须决定调用哪些工具、以什么顺序以及如何解释其输出，而无状态代理会在任务中重复相同的错误。我们询问冻结的工具使用代理是否可以根据其自己的交互历史记录来改进其编排，而无需更新参数。我们提出了 SpatialCraft，一个自我进化的框架，它维护两种形式的外部知识：经验，通过对比同一任务的推出而提炼出的条件动作策略，以及技能，具有明确激活和终止条件的多步骤程序。三种设计将两条流连接起来。经验可以锚定到技能上，仅在技能处于活动状态时出现，而不是每个任务出现一次。对比效用分数通过在同一任务的推出中随机保留每个体验的效果来估计每个体验的效果，将其贡献与任务难度分开，并且具有持续积极效用的体验被整合到它们支持的技能中。在五个空间基准和四个骨干网中，SpatialCraft 在所有 20 个设置中实现了最佳准确度，这表明冻结代理可以根据自己的经验学习编排空间工具。",
+          "publishedAt": "2026-11-25T05:00:00.000Z",
+          "comments": null,
+          "author": "Xiwei Liu, Yulong Li, Xuhui Li, Zhixiang Lu, Haolin Yang, Jianxu Chen, Yifan Lu, Di Fan, Yutong Xie"
+        },
+        {
+          "id": "oai:arXiv.org:2611.31480v1",
+          "title": "Evaluating Frontier-Model Agent Skills with Open-Weight Models in a Science Gateway",
+          "titleZh": "在 Science Gateway 中使用开放权重模型评估前沿模型代理技能",
+          "link": "https://arxiv.org/abs/2611.31480",
+          "summary": "arXiv:2611.31480v1 Announce Type: new\nAbstract: Scientific analyses that span many jobs and computing sites depend on workflow management systems to run reliably, but writing a production workflow requires expertise in such a system, which many domain scientists do not have. Coding agents can supply this expertise when they are guided by skills and packaged procedures for recurring tasks. We wrote skills and specialist agents for the Pegasus workflow management system with a frontier model, and the PegasusAI Studio science gateway offers them to scientists through a chat interface. New users without frontier-model credits need an open-weight model, served at no cost on research cyberinfrastructure, but skills written for a frontier model may not work with an open-weight solution. This paper presents a method for adapting such skills. An evaluation harness drives the real gateway as a user would, scores the workflows the agent builds, and feeds recurring failures back to the frontier model that maintains the skills. We evaluated 21 open-weight models on 17 tasks. The five highest-scoring models are close in quality after one trial per task, and their median response times differ twelvefold. In repeated trials with the best of the three open-weight models, we repeated scores of 0.76 on workflow building against 0.82 for Claude. The harness led to five changes to the initial skills. We also identify challenges in evaluating agents within operational systems: evaluation failures can be mistaken for model failures, and agents can circumvent experimental controls within their privilege domain. In a controlled ablation, an initially significant effect disappeared when the restrictions were properly enforced.",
+          "summaryZh": "arXiv:2611.31480v1 公告类型：新\n摘要：跨越许多工作和计算站点的科学分析依赖于工作流管理系统的可靠运行，但编写生产工作流需要此类系统的专业知识，而许多领域科学家并不具备这些专业知识。当编码代理在重复任务的技能和打包程序的指导下，他们可以提供这种专业知识。我们使用前沿模型为 Pegasus 工作流管理系统编写了技能和专业代理，PegasusAI Studio 科学网关通过聊天界面将它们提供给科学家。没有前沿模型积分的新用户需要一个开放权重模型，在研究网络基础设施上免费提供服务，但为前沿模型编写的技能可能不适用于开放权重解决方案。本文提出了一种适应此类技能的方法。评估工具像用户一样驱动真正的网关，对代理构建的工作流程进行评分，并将反复出现的故障反馈给维护技能的前沿模型。我们评估了 17 项任务的 21 个开放权重模型。每项任务进行一次试验后，五个得分最高的模型的质量接近，并且它们的中位响应时间相差十二倍。在对三个开放权重模型中最好的模型进行重复试验时，我们在工作流程构建上重复得分为 0.76，而 Claude 的得分为 0.82。该安全带导致初始技能发生了五处变化。我们还发现了在操作系统内评估代理的挑战：评估失败可能会被误认为模型失败，并且代理可以在其特权域内规避实验控制。在受控消融中，当限制得到正确执行时，最初的显着效果消失了。",
+          "publishedAt": "2026-11-25T05:00:00.000Z",
+          "comments": null,
+          "author": "Komal Thareja, Mats Rynge, Anirban Mandal, Ewa Deelman"
+        },
+        {
+          "id": "oai:arXiv.org:2611.31498v1",
+          "title": "XRL4T1D: A Post-hoc Explainability Framework for Reinforcement Learning in Type 1 Diabetes Management",
+          "titleZh": "XRL4T1D：1 型糖尿病管理中强化学习的事后可解释性框架",
+          "link": "https://arxiv.org/abs/2611.31498",
+          "summary": "arXiv:2611.31498v1 Announce Type: new\nAbstract: Type 1 diabetes (T1D) requires lifelong insulin therapy, and reinforcement learning (RL) has shown promise for automated dosing in the UVA/Padova simulator. However, the decisions of RL controllers remain difficult to interpret. We present XRL4T1D, a post-hoc explainability framework for evaluating pretrained insulin-dosing policies without retraining. Each policy uses 60 minutes of continuous glucose monitor (CGM) and administered-insulin history, sampled every 5 minutes, to recommend insulin. We use SHapley Additive exPlanations (SHAP) to compare the importance of CGM and insulin-history inputs and summarize insulin-history attributions over three 20-minute windows motivated by insulin-on-board. We assess whether these attributions correspond to policy-output sensitivity through targeted input replacement and compare temporal rankings with TimeSHAP. In all 80 patient-policy-mask-size cases, replacing the highest-attribution inputs changes the normalized insulin recommendation more than replacing the lowest-attribution or random inputs. The highest-attribution insulin-history window is also the most output-sensitive in 115 of 120 patient-policy-scenario configurations, and KernelSHAP and TimeSHAP select the same top window in 111 of 120. Applying XRL4T1D to PPO and G2P2C across 20 virtual patients, we find that both controllers rely predominantly on CGM history, especially G2P2C. However, the distribution of insulin-history importance across recent, middle, and older windows varies by cohort, explainer, and analysis settings, without a consistent separation between controllers. Global feature-attribution rankings remain stable under the tested observation corruptions. These results show why attribution fidelity, temporal reproducibility, and controller-comparison robustness should be assessed separately.",
+          "summaryZh": "arXiv:2611.31498v1 公告类型：新\n摘要：1 型糖尿病 (T1D) 需要终生胰岛素治疗，而强化学习 (RL) 已在 UVA/Padova 模拟器中显示出自动给药的前景。然而，强化学习控制器的决策仍然难以解释。我们提出了 XRL4T1D，这是一种事后可解释性框架，用于评估预训练的胰岛素剂量策略而无需重新训练。每个策略使用 60 分钟的连续血糖监测仪 (CGM) 和每 5 分钟采样一次的胰岛素注射历史来推荐胰岛素。我们使用 SHapley Additive exPlanations (SHAP) 来比较 CGM 和胰岛素历史输入的重要性，并总结由机载胰岛素驱动的三个 20 分钟窗口内的胰岛素历史归因。我们通过有针对性的输入替换来评估这些归因是否与政策输出敏感性相对应，并将时间排名与 TimeSHAP 进行比较。在所有 80 个患者策略面罩大小的案例中，替换最高归因输入对标准化胰岛素推荐的改变比替换最低归因或随机输入更大。在 120 个患者策略场景配置中的 115 个中，最高归因胰岛素历史窗口也是对输出最敏感的，KernelSHAP 和 TimeSHAP 在 120 个中的 111 个中选择相同的顶部窗口。将 XRL4T1D 应用于 20 名虚拟患者的 PPO 和 G2P2C，我们发现这两个控制器主要依赖于 CGM 历史，尤其是 G2P2C。然而，胰岛素历史重要性在最近、中期和较早窗口中的分布因队列、解释者和分析设置而异，控制者之间没有一致的分离。在经过测试的观察腐败情况下，全球特征归因排名保持稳定。这些结果说明了为什么应单独评估归因保真度、时间再现性和控制器比较稳健性。",
+          "publishedAt": "2026-11-25T05:00:00.000Z",
+          "comments": null,
+          "author": "Malay Phadke, Chirath Hettiarachchi"
+        },
+        {
+          "id": "oai:arXiv.org:2611.31521v1",
+          "title": "PatientFlowSynth: Evaluating FHIR Agents with Matched Patient Charts",
+          "titleZh": "PatientFlowSynth：使用匹配的患者图表评估 FHIR 代理",
+          "link": "https://arxiv.org/abs/2611.31521",
+          "summary": "arXiv:2611.31521v1 Announce Type: new\nAbstract: Agents that search patient charts must classify claims from retrieved records, including cases with missing or conflicting evidence. In Fast Healthcare Interoperability Resources (FHIR), status fields can change how those records should be interpreted. PatientFlowSynth provides 18,000 tasks from 225 synthetic patients and 18 templates that hold the patient, question, and retrieval program fixed across chart variants representing four evidence states. Re-executing the program verifies each variant's reference answer, evidence sets, and search requirements. Strict success requires a completed response with correct labels and citations exactly matching an accepted evidence set retrieved during the episode. Where required, a tool response must also show a complete search at the specified scope. In a study using GPT-5.6 Luna and 225 synthetic patients (3,600 matched pairs), explicit Encounter-status guidance increased strict success from 40.7% to 51.3% (+10.6 percentage points; 95% patient-bootstrap confidence interval, 8.4 to 12.8). Among cases whose primary reference label was insufficient evidence, label agreement fell from 49.2% to 29.3%. A prespecified two-model replication reproduced both changes. Failed retrieval can mask interpretation errors by producing a correct insufficient-evidence label without examining the relevant records. Additional model comparisons showed that the benefit of guidance was model-dependent. Retrieval, citation, and classification should be evaluated separately.",
+          "summaryZh": "arXiv:2611.31521v1 公告类型：新\n摘要：搜索患者图表的代理必须对检索到的记录中的索赔进行分类，包括证据缺失或冲突的案例。在快速医疗保健互操作性资源 (FHIR) 中，状态字段可以更改这些记录的解释方式。 PatientFlowSynth 提供来自 225 名合成患者的 18,000 项任务和 18 个模板，这些模板在代表四种证据状态的图表变体中固定患者、问题和检索程序。重新执行程序会验证每个变体的参考答案、证据集和搜索要求。严格的成功需要完整的回复，并带有正确的标签和引文，与事件期间检索到的已接受的证据集完全匹配。如果需要，工具响应还必须显示指定范围内的完整搜索。在一项使用 GPT-5.6 Luna 和 225 名合成患者（3,600 配对）的研究中，明确的遭遇状态指导将严格成功率从 40.7% 提高到 51.3%（+10.6 个百分点；95% 患者引导置信区间，8.4 到 12.8）。在主要参考标签证据不足的案例中，标签一致性从 49.2% 下降至 29.3%。预先指定的双模型复制再现了这两种变化。失败的检索可以通过在不检查相关记录的情况下生成正确的证据不足标签来掩盖解释错误。其他模型比较表明，指导的好处取决于模型。检索、引用和分类应单独评估。",
+          "publishedAt": "2026-11-25T05:00:00.000Z",
+          "comments": null,
+          "author": "Anthony Cuturrufo, Ratul Ghosh, Devashish Khatwani, Krishnaram Kenthapadi"
+        },
+        {
+          "id": "oai:arXiv.org:2611.31522v1",
+          "title": "One Step, Four Clocks: How GUI Agents Fall Out of Step",
+          "titleZh": "一步，四个时钟：GUI 代理如何失步",
+          "link": "https://arxiv.org/abs/2611.31522",
+          "summary": "arXiv:2611.31522v1 Announce Type: new\nAbstract: GUI agents can choose correct actions yet fail as interfaces change during deliberation. Latency alone cannot explain these failures because actions may become invalid at different interaction stages. We model four events: environment change, observation availability, decision commitment, and action receipt (EODA). We introduce ChronotopeGym to study these failures under Paused, Replay, and Live execution. Across five tasks, agents can fail in Live despite succeeding when responses remain valid, even when actions meet deadlines. On Moving Balloon, updating a pending click raises success from 0% to 100% without changing response time. Our accelerator-resident GUI controller, Chronotope, maintains compact interaction history and selectively keeps, updates, or redecides pending actions. Compared with Agent S3, Chronotope reduces median end-to-end latency by 85.5% for a 27B model, expanding its performance envelope to 100% Live success at an 8-second deadline versus 0%. Chronotope enables real-time GUI control through compact interaction history, knowing when to preserve, revise, or replace actions, and an overall efficient architectural design that obviates verbose reflection, reasoning, and grounding calls.",
+          "summaryZh": "arXiv:2611.31522v1 公告类型：新\n摘要：GUI 代理可以选择正确的操作，但会因为界面在审议过程中发生变化而失败。仅凭延迟无法解释这些失败，因为操作可能在不同的交互阶段变得无效。我们对四个事件进行建模：环境变化、观测可用性、决策承诺和行动接收 (EODA)。我们引入 ChronotopeGym 来研究暂停、重放和实时执行下的这些失败。在五项任务中，即使响应保持有效，即使行动在最后期限内完成，代理也可能会在 Live 中失败，尽管会成功。在移动气球上，更新待处理的点击可将成功率从 0% 提高到 100%，而不会改变响应时间。我们的加速器驻留 GUI 控制器 Chronotope 维护紧凑的交互历史记录，并有选择地保留、更新或重新决定待处理的操作。与 Agent S3 相比，Chronotope 将 27B 模型的中值端到端延迟降低了 85.5%，将其性能范围扩大到 8 秒截止日期内 100% 的 Live 成功率（而不是 0%）。 Chronotope 通过紧凑的交互历史记录实现实时 GUI 控制，了解何时保留、修改或替换操作，以及避免冗长的反射、推理和接地调用的整体高效架构设计。",
+          "publishedAt": "2026-11-25T05:00:00.000Z",
+          "comments": null,
+          "author": "Zhanwen Chen, Tianchun Wang"
+        },
+        {
+          "id": "oai:arXiv.org:2611.31539v1",
+          "title": "Agent Evaluation Without Ground Truth: A Null Proportion Perspective",
+          "titleZh": "没有基本事实的代理评估：零比例视角",
+          "link": "https://arxiv.org/abs/2611.31539",
+          "summary": "arXiv:2611.31539v1 Announce Type: new\nAbstract: The correctness of actions taken by agents is typically evaluated against known, externally verified ground truth labels, such as whether a proof is correct or whether code compiles and passes unit tests. However, as coding and science agents are entrusted with more end-to-end autonomy -- proposing interventions, running experiments, and deciding what to deploy and investigate next -- whether an agent's actions genuinely improve an outcome must be inferred from noisy, often inconclusive experiments. To evaluate agents in this setting, we define agent quality as a weighted sum of correct decisions along its trajectory, using sequences of $e$-values as statistical evidence regarding correctness in place of ground-truth labels. Our framework accommodates arbitrarily dependent decisions, data-dependent trajectory termination, dynamically generated hypotheses, and quality measures defined after the trajectory concludes. We construct upper and lower bound estimators and confidence sets for agent quality with statistical guarantees that hold uniformly over agent trajectory distributions and establish instance-wise sharpness of our estimator class. We demonstrate our methods with a case study comparing the success of Claude Opus and Claude Haiku in improving the runtime of an open-source Python package.",
+          "summaryZh": "arXiv:2611.31539v1 公告类型：新\n摘要：代理采取的操作的正确性通常是根据已知的、外部验证的真实标签进行评估，例如证明是否正确或代码是否编译并通过单元测试。然而，由于编码和科学代理被赋予了更多的端到端自主权——提出干预措施、运行实验以及决定下一步部署和调查什么——代理的行为是否真正改善了结果，必须从嘈杂的、通常是不确定的实验中推断出来。为了评估这种情况下的智能体，我们将智能体质量定义为沿着其轨迹的正确决策的加权总和，使用 $e$ 值序列作为有关正确性的统计证据来代替真实标签。我们的框架适应任意相关的决策、数据相关的轨迹终止、动态生成的假设以及轨迹结束后定义的质量度量。我们构建了代理质量的上限和下限估计器和置信集，并具有统计保证，这些保证在代理轨迹分布上保持一致，并建立了估计器类的实例级锐度。我们通过案例研究来展示我们的方法，该案例研究比较了 Claude Opus 和 Claude Haiku 在改进开源 Python 包的运行时方面的成功。",
+          "publishedAt": "2026-11-25T05:00:00.000Z",
+          "comments": null,
+          "author": "Brian M. Cho, Michael Lindon, Nathan Kallus"
+        }
+      ]
+    },
+    {
+      "id": "arxiv-cs-lg",
+      "title": "arXiv cs.LG",
+      "url": "https://rss.arxiv.org/rss/cs.LG",
+      "home": "https://arxiv.org/list/cs.LG/recent",
+      "group": "arxiv",
+      "fetchedAt": "2026-11-26T01:26:33.740Z",
+      "count": 15,
+      "items": [
+        {
+          "id": "oai:arXiv.org:2611.31245v1",
+          "title": "Local subspace encoding for spectral prediction: from TabPFN to operator-adaptive calibration",
+          "titleZh": "用于光谱预测的局部子空间编码：从 TabPFN 到操作员自适应校准",
+          "link": "https://arxiv.org/abs/2611.31245",
+          "summary": "arXiv:2611.31245v1 Announce Type: new\nAbstract: TabPFN has already shown useful predictive performance on near-infrared spectra. RamanPFN subsequently proposed two spectral representations for tabular inference: Global Compositional Unmixing (GCU) and Local Vibrational Subspace Encoding (LVSE). We assess whether these representations also help on datasets assembled through the nirs4all ecosystem, and whether their value extends to classical calibration. We reanalyse completed experiments from a public spectral dataset catalogue. On a post-hoc subset of 61 matched numerical prediction tasks, after excluding ten class-code, metadata or semantically ambiguous targets, LVSE reduces RMSE relative to raw-spectrum TabPFN by 10.22%, 12.80% and 14.52% on average for checkpoints 2.5, 3 and 3.5, respectively, with median reductions of 4.99%, 4.74% and 7.82%. Across 76 classification datasets, weighted F1 increases by 2.22, 2.56 and 3.81 percentage points. The 2.5 classification procedure uses output coding on 15 datasets exceeding the checkpoint's native class limit. GCU alone is less reliable in this implementation. LVSE also improves PLS and Ridge in many cases, with median RMSE reductions of 4.75% and 1.89%. Adding LVSE candidates to an operator-adaptive model is feasible, but a separate 35-task panel derived from the public AOM benchmark shows only small median gains. These results motivate evaluating LVSE alongside existing representation choices. They do not establish that a selector choosing between raw and LVSE inputs will improve every task.",
+          "summaryZh": "arXiv:2611.31245v1 公告类型：新\n摘要：TabPFN 已经在近红外光谱上表现出了有用的预测性能。 RamanPFN 随后提出了两种用于表格推理的谱表示：全局组合分解（GCU）和局部振动子空间编码（LVSE）。我们评估这些表示是否也有助于通过 nirs4all 生态系统组装的数据集，以及它们的价值是否扩展到经典校准。我们重新分析公共光谱数据集目录中已完成的实验。在 61 个匹配数值预测任务的事后子集中，排除 10 个类代码、元数据或语义模糊目标后，对于检查点 2.5、3 和 3.5，LVSE 相对于原始频谱 TabPFN 的 RMSE 平均分别降低了 10.22%、12.80% 和 14.52%，中值降低分别为 4.99%、4.74% 和 4.99%。 7.82%。在 76 个分类数据集中，加权 F1 增加了 2.22、2.56 和 3.81 个百分点。 2.5 分类过程对超过检查点的本机类限制的 15 个数据集使用输出编码。在此实现中，单独使用 GCU 的可靠性较低。在许多情况下，LVSE 还改善了 PLS 和 Ridge，中位 RMSE 降低了 4.75% 和 1.89%。将 LVSE 候选者添加到操作员自适应模型中是可行的，但从公共 AOM 基准导出的单独的 35 任务面板仅显示出较小的中值收益。这些结果促使我们对 LVSE 以及现有的表示选择进行评估。他们并没有确定在原始输入和 LVSE 输入之间进行选择的选择器将改善每项任务。",
+          "publishedAt": "2026-11-25T05:00:00.000Z",
+          "comments": null,
+          "author": "Gregory Beurier, Robin Reiter, Denis Cornet, Lauriane Rouan"
+        },
+        {
+          "id": "oai:arXiv.org:2611.31249v1",
+          "title": "Actionwave: A Systematic Benchmark for Waveform-Centric Clinical Prediction Across Care Scenarios",
+          "titleZh": "Actionwave：跨护理场景以波形为中心的临床预测的系统基准",
+          "link": "https://arxiv.org/abs/2611.31249",
+          "summary": "arXiv:2611.31249v1 Announce Type: new\nAbstract: Continuous bedside waveforms record rapid physiological changes that can inform clinical decisions. Existing benchmarks examine selected prediction conditions, but it remains unclear how model advantages depend on signal duration, warning time, and available inputs across care settings. We introduce Actionwave, a benchmark for waveform-centric clinical prediction across intensive-care, operating-room, and emergency-department settings. Actionwave uses a common decision-time prediction interface and groups clinically grounded tasks by what is inferred and when. It varies conditions relevant to clinical use, including the warning required before an intervention. We compare diverse architectures and pretrained biosignal encoders under specified model-size and compute budgets. The protocol requires patient-level splits, strict information cutoffs, and comparisons that isolate individual modeling factors. Across 20 tasks and 1.4M task-labelled windows from source datasets, the experimental grids account for over 87,000 model fits. These comparisons identify task-specific choices and show why matched cohorts, unimodal controls, and explicit timing are necessary when interpreting waveform model performance.",
+          "summaryZh": "arXiv:2611.31249v1 公告类型：新\n摘要：连续床边波形记录快速的生理变化，可以为临床决策提供信息。现有基准检查选定的预测条件，但尚不清楚模型优势如何取决于信号持续时间、警告时间和护理环境中的可用输入。我们推出了 Actionwave，这是一个跨重症监护、手术室和急诊科环境以波形为中心的临床预测的基准。 Actionwave 使用通用的决策时间预测界面，并根据推断内容和时间对临床基础任务进行分组。它改变了与临床使用相关的条件，包括干预前所需的警告。我们在指定的模型大小和计算预算下比较不同的架构和预训练的生物信号编码器。该协议需要患者级别的分割、严格的信息截止以及隔离个体建模因素的比较。在源数据集中的 20 个任务和 140 万个任务标记窗口中，实验网格包含超过 87,000 个模型拟合。这些比较确定了特定于任务的选择，并说明了为什么在解释波形模型性能时需要匹配队列、单峰控制和明确的计时。",
+          "publishedAt": "2026-11-25T05:00:00.000Z",
+          "comments": null,
+          "author": "Jie Peng, Davis Hobley, Song Wang, Zachary PlotkinB, Tianlong Chen"
+        },
+        {
+          "id": "oai:arXiv.org:2611.31271v1",
+          "title": "Chain-of-Thought Is Not Explainability",
+          "titleZh": "思想链不可解释",
+          "link": "https://arxiv.org/abs/2611.31271",
+          "summary": "arXiv:2611.31271v1 Announce Type: new\nAbstract: Chain-of-thought (CoT) allows language models to verbalise multi-step rationales before producing their final answer. While this technique often boosts task performance and offers an impression of transparency into the model's reasoning, this position paper argues that rationales generated by current CoT techniques can be misleading and are neither necessary nor sufficient for trustworthy interpretability. We analyse faithfulness as whether CoTs are not only human-interpretable but also reflect the model's underlying reasoning well enough to support responsible use. By synthesising evidence from prior work, we systematically show that verbalised chains are frequently unfaithful, diverging from the critical hidden computations that drive a model's predictions. As CoT is increasingly relied upon in application domains, including high-stakes ones such as medicine, law, and autonomous systems, we further argue that this unfaithfulness is not taken seriously enough in these settings: our analysis of 1,000 recent CoT-centric papers finds that approximately 21.7% explicitly treat CoT as a load-bearing interpretability technique, building pipelines or safety arguments that would not hold if CoT is unfaithful to the model's actual reasoning. They include papers in high-stakes domains that heavily hinge on such interpretability claims. Building on prior work, we make three proposals: (i) avoid treating CoT as being sufficient for interpretability without additional verification, (ii) adopt rigorous methods that assess faithfulness for downstream decision-making, and (iii) report such assessments alongside any interpretability claims based on CoT, while continuing to use CoT for its communicative and monitoring benefits.",
+          "summaryZh": "arXiv:2611.31271v1 公告类型：新\n摘要：思想链（CoT）允许语言模型在产生最终答案之前表达多步骤的基本原理。虽然这种技术通常可以提高任务性能，并给人留下模型推理透明的印象，但本立场文件认为，当前 CoT 技术生成的基本原理可能会产生误导，对于可信的可解释性来说既不是必要的也不是充分的。我们分析忠实度，看看 CoT 是否不仅可以被人类解释，而且还可以很好地反映模型的基本推理以支持负责任的使用。通过综合先前工作的证据，我们系统地表明，语言化的链经常是不忠实的，与驱动模型预测的关键隐藏计算背道而驰。随着 CoT 在应用领域中越来越依赖，包括医学、法律和自治系统等高风险领域，我们进一步认为，在这些环境中，这种不忠实行为没有得到足够的重视：我们对最近 1,000 篇以 CoT 为中心的论文的分析发现，大约 21.7% 明确将 CoT 视为一种承载可解释性技术，构建管道或安全论点，如果 CoT 不忠实于模型的实际推理，这些论点将不成立。其中包括高风险领域的论文，这些领域很大程度上依赖于这种可解释性主张。基于之前的工作，我们提出三项建议：（i）避免在没有额外验证的情况下将 CoT 视为足以解释性，（ii）采用严格的方法来评估下游决策的忠实度，以及（iii）将此类评估与基于 CoT 的任何可解释性声明一起报告，同时继续使用 CoT 来实现其沟通和监控的好处。",
+          "publishedAt": "2026-11-25T05:00:00.000Z",
+          "comments": null,
+          "author": "Fazl Barez, Tung-Yu Wu, Iv\\'an Arcuschin, Michael Lan, Vincent Wang, Noah Siegel, Nicolas Collignon, Clement Neo, Isabelle Lee, Alasdair Paren, John Yan, Adel Bibi, Damiano Fornasiere, Robert Trager, Yanai Elazar, Yoshua Bengio"
+        },
+        {
+          "id": "oai:arXiv.org:2611.31292v1",
+          "title": "Hidden Clues in WM-811K: Uncovering the Spatial Signals Behind Wafer Map Prediction",
+          "titleZh": "WM-811K 中的隐藏线索：揭示晶圆图预测背后的空间信号",
+          "link": "https://arxiv.org/abs/2611.31292",
+          "summary": "arXiv:2611.31292v1 Announce Type: new\nAbstract: WM-811K (also known as LSWMD) is a wafer map dataset first made publicly available in a 2015 paper by Wu et al. Convolutional neural networks have been used to achieve high classification accuracy on this dataset, yet it's not easy to decipher which features of the dataset are driving that performance. This study attempts to answer this specifically for WM-811K: how much of the predictive performance results from the wafer layout, the count of failed dies, their distance from the center and their exact 2-D location. After analyzing duplicate wafer maps, removing same wafer maps with conflicting labels and ensuring that the same manufacturing lot or exact same map doesn't appear in training, validation and test data, we were left with 25,513 defect-labeled wafer maps from eight classes. We then constructed four variations of each wafer map. The Original was the actual wafer map present in the dataset. The Layout-only kept only the layout of the non-background dies. The Global-shuffle kept the count of failed dies while shuffling them around. The Radial-shuffle randomized the locations of failed dies only in their radial bin, which was chosen out of 8 radial bins based on distance from the center. The data split, preprocessing and CNN architecture remained the same for all four of them. Macro-F1 progressed like this: 0.3829 (Layout-only), 0.5803 (Global-shuffle), 0.7439 (Radial-shuffle) and 0.8563 (Original). These results show that WM-811K contains useful information at several levels: wafer layout, number of failures, distribution of failed dies in a given radius, and exact 2-D locations of the failed dies. Therefore, high classification performance on this benchmark does not come only from learning the exact defect configuration.",
+          "summaryZh": "arXiv:2611.31292v1 公告类型：新\n摘要：WM-811K（也称为 LSWMD）是 Wu 等人在 2015 年的一篇论文中首次公开的晶圆图数据集。卷积神经网络已用于在该数据集上实现高分类精度，但要破译数据集的哪些特征正在驱动该性能并不容易。这项研究试图专门针对 WM-811K 回答这个问题：预测性能有多少是由晶圆布局、失败芯片的数量、它们距中心的距离以及它们的精确二维位置决定的。在分析重复的晶圆图、删除具有冲突标签的相同晶圆图并确保相同的制造批次或完全相同的图不会出现在训练、验证和测试数据中之后，我们剩下了来自八个类别的 25,513 个带有缺陷标记的晶圆图。然后我们构建了每个晶圆图的四种变体。原件是数据集中存在的实际晶圆图。仅布局仅保留非背景芯片的布局。全局洗牌在洗牌的同时保留了失败骰子的数量。径向洗牌仅将失败芯片的位置随机化在其径向仓中，该径向仓是根据距中心的距离从 8 个径向仓中选择的。这四个模型的数据分割、预处理和 CNN 架构保持相同。 Macro-F1 的进展如下：0.3829（仅布局）、0.5803（全局洗牌）、0.7439（径向洗牌）和 0.8563（原始）。这些结果表明，WM-811K 包含多个级别的有用信息：晶圆布局、故障数量、给定半径内故障芯片的分布以及故障芯片的精确二维位置。因此，该基准测试的高分类性能不仅仅来自于学习准确的缺陷配置。",
+          "publishedAt": "2026-11-25T05:00:00.000Z",
+          "comments": null,
+          "author": "Kabir Tolani"
+        },
+        {
+          "id": "oai:arXiv.org:2611.31319v1",
+          "title": "Conformalized Tree-Based Gradient Ensembles for Out-of-Distribution Detection and Plausible Recourse",
+          "titleZh": "用于分布外检测和合理追索的基于共形树的梯度集成",
+          "link": "https://arxiv.org/abs/2611.31319",
+          "summary": "arXiv:2611.31319v1 Announce Type: new\nAbstract: Counterfactual recourse provides actionable feature adjustments that reverse unfavourable predictions made by automated decision models. However, when recourse search optimizes purely against classifier confidence or narrow proxy scores over gradient-boosted decision trees (GBDT), search procedures can exploit boundary artifacts and low-density regions---an instance of Goodhart's law---yielding out-of-distribution (OOD) recommendations that appear favourable nominally while lacking manifold plausibility. In this paper, we study conformalized OOD gating coupled with actionability-constrained counterfactual search across two tabular benchmarks: Adult and Give Me Some Credit (GMSC). Calibrating finite-sample anomaly gates (gate_IF, gate_LOF, and the conjunctive gate_ALL) at significance level delta = 0.05 over isolation forest, local outlier factor, and k-nearest-neighbor signals, we audit generated counterfactuals against held-out GMM and OCSVM detectors alongside ablation studies (gen10, gen100, and relax). Across matched recourse pairs where both constrained and unconstrained searches succeed, gate_ALL significantly reduces held-out OCSVM flags on Adult (N=541, Delta flag_OCSVM = -0.0296, p_Holm = 4.0e-4) and lowers both held-out flags on GMSC (N=540, Delta flag_OCSVM = -0.0346, p = 1.0751e-4; Delta flag_GMM = -0.1663, p = 3.5679e-16) while increasing matched recourse cost (Delta cost = +0.3035, p = 1.3365e-5) and narrowing overall feasibility. Our findings formalize the cost--feasibility--plausibility trade-off and demonstrate how conformal OOD gating audits recourse reliability on tabular ensembles.",
+          "summaryZh": "arXiv:2611.31319v1 公告类型：新\n摘要：反事实追索权提供了可操作的特征调整，可以扭转自动决策模型做出的不利预测。然而，当资源搜索纯粹针对分类器置信度或梯度增强决策树 (GBDT) 上的窄代理分数进行优化时，搜索过程可以利用边界伪影和低密度区域（古德哈特定律的一个实例），产生名义上有利但缺乏多种可信性的分布外 (OOD) 建议。在本文中，我们研究了保形 OOD 门控以及跨两个表格基准的可操作性约束的反事实搜索：Adult 和 Give Me Some Credit (GMSC)。在隔离森林、局部离群值因子和 k 最近邻信号上以显着性水平 delta = 0.05 校准有限样本异常门（gate_IF、gate_LOF 和联合 gateway_ALL），我们根据保留的 GMM 和 OCSVM 检测器以及消融研究（gen10、gen100 和relax）审核生成的反事实。在受约束和无约束搜索均成功的匹配资源对中，gate_ALL 显着减少了 Adult 上保留的 OCSVM 标志（N=541，Delta flag_OCSVM = -0.0296，p_Holm = 4.0e-4），并降低了 GMSC 上保留的两个标志（N=540，Delta flag_OCSVM = -0.0346，p = 1.0751e-4；Delta flag_GMM = -0.1663，p = 3.5679e-16），同时增加匹配追索成本（Delta 成本 = +0.3035，p = 1.3365e-5）并缩小总体可行性。我们的研究结果正式化了成本-可行性-合理性权衡，并展示了共形 OOD 门控如何审计表格集合上的资源可靠性。",
+          "publishedAt": "2026-11-25T05:00:00.000Z",
+          "comments": null,
+          "author": "Mariam Zakaria Moussa Ali"
+        },
+        {
+          "id": "oai:arXiv.org:2611.31320v1",
+          "title": "Layer-Readout Interfaces in EEG Foundation Models: Predictive Accessibility and Cross-Dataset Transfer",
+          "titleZh": "脑电图基础模型中的层读出接口：预测可访问性和跨数据集传输",
+          "link": "https://arxiv.org/abs/2611.31320",
+          "summary": "arXiv:2611.31320v1 Announce Type: new\nAbstract: Intermediate layers often outperform final layers when foundation models are used as frozen feature extractors, but the source of this advantage is unclear. We study this question in EEG foundation models by separating three factors: how representations are read out, whether intermediate layers provide predictive utility beyond the final-layer interface, and whether useful depth structure transfers across datasets. Across five models and three tasks, improving the final-layer readout consistently recovers substantial predictive performance, yet intermediate layers remain advantageous within frozen extraction. We also find that layers selected on one dataset remain useful on another across five dataset pairs and four task families, and that a compact set of source-derived task directions retains predictive value after transfer in sleep staging. Together, these results show that predictive utility varies across depth, and its usefulness depends on how representations are read out and transferred. More crucially, source-selected layers provide a reusable feature interface across datasets, reducing the need for target-side layer search while outperforming final-layer baselines on target datasets.",
+          "summaryZh": "arXiv:2611.31320v1 公告类型：新\n摘要：当基础模型用作冻结特征提取器时，中间层的性能通常优于最终层，但这种优势的来源尚不清楚。我们通过分离三个因素来研究脑电图基础模型中的这个问题：如何读出表示，中间层是否提供最终层接口之外的预测实用性，以及有用的深度结构是否跨数据集传输。在五个模型和三个任务中，改进最终层读数始终可以恢复显着的预测性能，但中间层在冷冻提取中仍然具有优势。我们还发现，在一个数据集上选择的层在五个数据集对和四个任务系列中的另一个数据集上仍然有用，并且一组紧凑的源派生任务方向在睡眠分期转移后保留了预测价值。总之，这些结果表明，预测效用随深度的不同而变化，其有用性取决于表示的读出和传输方式。更重要的是，源选择的图层提供了跨数据集的可重用特征接口，减少了对目标端图层搜索的需求，同时优于目标数据集上的最终层基线。",
+          "publishedAt": "2026-11-25T05:00:00.000Z",
+          "comments": null,
+          "author": "Yanlin Fu, Wei Liu, Liming Zhao"
+        },
+        {
+          "id": "oai:arXiv.org:2611.31321v1",
+          "title": "Flagging Batch Shift in Flow Cytometry using Jeffreys Divergence between Gaussian Mixtures",
+          "titleZh": "使用高斯混合物之间的 Jeffreys 散度标记流式细胞术中的批次偏移",
+          "link": "https://arxiv.org/abs/2611.31321",
+          "summary": "arXiv:2611.31321v1 Announce Type: new\nAbstract: Machine learning models for clinical flow cytometry are usually evaluated on data drawn from their training distribution. In routine practice, however, acquisition conditions and reagents may change, potentially making predictions unreliable without warning. We propose a model agnostic criterion for prediction reliability based on a notion of distance from the training distribution: each patient sample is represented by a Gaussian mixture model, and its Jeffreys divergence to a reference fitted on the training data is estimated using Monte Carlo integration. We illustrate our approach on real-life shifted cohorts of acute myeloid leukaemia patients, using a classifier trained to predict NPM1 mutation status. First, we show graphically and statistically that pairwise divergences capture acquisition cohort structure. We then calibrate a rejection threshold on a subset of shifted cohort samples and evaluate it on held-out subjects. Across 20 runs, the misclassification rate of rejected samples was 2.5 times larger than for retained samples. These results suggest that input divergence can help identify unreliable predictions, providing a strong candidate component for abstention frameworks, along with quality control measures and classifier confidence.",
+          "summaryZh": "arXiv:2611.31321v1 公告类型：新\n摘要：临床流式细胞术的机器学习模型通常根据从其训练分布中提取的数据进行评估。然而，在常规实践中，采集条件和试剂可能会发生变化，可能会在没有警告的情况下使预测变得不可靠。我们基于与训练分布的距离概念，提出了一种与模型无关的预测可靠性标准：每个患者样本都由高斯混合模型表示，并且使用蒙特卡洛积分估计其与训练数据上拟合的参考的杰弗里斯散度。我们使用经过训练来预测 NPM1 突变状态的分类器来说明我们对现实生活中急性髓系白血病患者转移队列的方法。首先，我们以图形和统计方式展示了成对差异捕获了获取队列结构。然后，我们在转移队列样本的子集上校准拒绝阈值，并在保留的受试者上对其进行评估。在 20 次运行中，拒绝样本的误分类率是保留样本的 2.5 倍。这些结果表明，输入分歧可以帮助识别不可靠的预测，为弃权框架提供强大的候选组件，以及质量控制措施和分类器置信度。",
+          "publishedAt": "2026-11-25T05:00:00.000Z",
+          "comments": null,
+          "author": "Jonathan Legrand (MONC, IMB), Aguirre Mimoun (Centre m{\\'e}dico chirurgical Magellan), Audrey Bidet (Centre m{\\'e}dico chirurgical Magellan), Pierre-Yves Dumas (Centre m{\\'e}dico chirurgical Magellan), Christ{\\`e}le Etchegaray (MONC, IMB), Baudouin Denis de Senneville (IMB, MONC)"
+        },
+        {
+          "id": "oai:arXiv.org:2611.31333v1",
+          "title": "Fusion Gains Depend on the Implementation and the Calibration Target: An 18-Task Study of Prediction Intervals with a Single-Source Fallback",
+          "titleZh": "融合增益取决于实现和校准目标：具有单源回退的预测间隔的 18 任务研究",
+          "link": "https://arxiv.org/abs/2611.31333",
+          "summary": "arXiv:2611.31333v1 Announce Type: new\nAbstract: A fused model can benefit from an extra learning stage as well as from a second data source. We compare four fusion implementations with matched single-source learners on 18 regression tasks with prediction intervals. Across ten refits under group-wise calibration, linear stacking improved the interval score by 6.0% against a source model without a second stage and by 0.1% against its matched single source. The four implementations agreed on 3 of 18 tasks and gave opposite clear verdicts on 12, including 8 of the 10 tasks with naturally distinct sources. With pointwise calibration, they agreed on 5 tasks and gave opposite clear verdicts on 9. A development-set selector with a matched single-source fallback improved ten-refit task-averaged scores by 2.2--6.3% in every implementation under both calibrations. Adding fused arms to the pool of single-source candidates improved the mean relative score by about 5 percentage points. Under group-wise calibration, the gradient-boosted selector met the criterion frozen before evaluation on eight held-out tasks. In post-opening refits, selectors lost to the matched single source in 4.4--6.1% of task-level runs under group-wise calibration. Under signed pointwise calibration, three implementations lost in 19--23% of runs. Fusion evaluations should compare matched candidates on held-out data and report how often the selector loses alongside its average gain.",
+          "summaryZh": "arXiv:2611.31333v1 公告类型：新\n摘要：融合模型可以受益于额外的学习阶段以及第二个数据源。我们将四种融合实现与匹配的单源学习器在 18 个具有预测区间的回归任务上进行比较。在分组校准下的 10 次改装中，线性叠加将间隔分数相对于没有第二阶段的源模型提高了 6.0%，相对于其匹配的单一源提高了 0.1%。四个实现对 18 项任务中的 3 项达成了一致，并对 12 项给出了相反的明确结论，其中 10 项任务中的 8 项具有自然不同的来源。通过逐点校准，他们在 5 项任务上达成了一致，并对 9 项任务给出了相反的明确结论。在两种校准下的每次实施中，具有匹配的单源后备的开发集选择器将十项改装任务的平均分数提高了 2.2--6.3%。将融合臂添加到单一来源候选人库中，平均相对分数提高了约 5 个百分点。在分组校准下，梯度增强选择器满足在评估八个保留任务之前冻结的标准。在开放后改装中，在分组校准下，选择器在 4.4--6.1% 的任务级运行中输给了匹配的单一源。在有符号的逐点校准下，三种实现在 19--23% 的运行中失败。融合评估应该根据保留的数据比较匹配的候选者，并报告选择器失败的频率以及其平均增益。",
+          "publishedAt": "2026-11-25T05:00:00.000Z",
+          "comments": null,
+          "author": "Liwei Deng, Lu Wang"
+        },
+        {
+          "id": "oai:arXiv.org:2611.31350v1",
+          "title": "GHC:Expanding Residual Interfaces in Hyper-Connections",
+          "titleZh": "GHC：扩展超连接中的剩余接口",
+          "link": "https://arxiv.org/abs/2611.31350",
+          "summary": "arXiv:2611.31350v1 Announce Type: new\nAbstract: Hyper-Connections expand residual capacity across parallel streams, yet restrict every branch to narrow read and write interfaces: each branch still reads a single stream mixture and writes scaled copies of one output vector to all streams. To lift this bottleneck, we propose Grouped Hyper-Connections (GHC). By partitioning each branch into parallel groups along attention heads or FFN channels, GHC supplies each group with a distinct stream mixture and aggregates their separate outputs into each stream with learned weights. Extensive experiments across dense and Mixture-of-Experts (MoE) models show that GHC consistently improves upon Identity Hyper-Connections (IHC) with negligible parameter and memory-access overhead, increasing training efficiency by 35% over Pre-Norm and 10% over IHC. Moreover, expanding residual interfaces overcomes the diminishing returns of adding streams, allowing wider residual states to yield further gains.",
+          "summaryZh": "arXiv:2611.31350v1 公告类型：新\n摘要：超连接扩展了并行流上的剩余容量，但将每个分支限制为狭窄的读写接口：每个分支仍然读取单个流混合并将一个输出向量的缩放副本写入所有流。为了解决这个瓶颈，我们提出了分组超连接（GHC）。通过沿着注意力头或 FFN 通道将每个分支划分为并行组，GHC 为每个组提供不同的流混合，并将其单独的输出聚合到具有学习权重的每个流中。针对密集模型和专家混合 (MoE) 模型的大量实验表明，GHC 持续改进了身份超连接 (IHC)，参数和内存访问开销可以忽略不计，训练效率比 Pre-Norm 提高了 35%，比 IHC 提高了 10%。此外，扩展残差接口克服了添加流的收益递减问题，允许更广泛的残差状态产生进一步的收益。",
+          "publishedAt": "2026-11-25T05:00:00.000Z",
+          "comments": null,
+          "author": "Tianyu Li, Hongtao Zhang, Dongchen Han, Jingshu Liu, Bojun Wang, Chen Jiang, Yulong Huang, Wei Chen, Tianyu He, Xiangyu Zhang, Gao Huang"
+        },
+        {
+          "id": "oai:arXiv.org:2611.31354v1",
+          "title": "Detecting Harmful Short Videos in Toxic Diet Culture: A Governance-Ready Evidence Framework with Sparse Autoencoders",
+          "titleZh": "检测有毒饮食文化中的有害短视频：具有稀疏自动编码器的治理就绪证据框架",
+          "link": "https://arxiv.org/abs/2611.31354",
+          "summary": "arXiv:2611.31354v1 Announce Type: new\nAbstract: Algorithmic content moderation is increasingly important for governing short-form video content, yet harmful-content detection research focuses primarily on prediction or limited explanations. This leaves a governance challenge underexplored: producing decision-linked evidence that supports the review and justification of moderation decisions. Using toxic diet culture as an empirical case, we conceptualize governance-ready evidence as computational traceability, evidence localization, policy grounding, and evidence inspectability. We develop the Sparse Autoencoder-based Policy-Aligned Contrastive Evidence (SPACE) framework in a pretrained SAE feature space derived from a large multimodal model. A global relevance gate and decomposable linear evidence head identify decision-linked evidence; segment supervision and within-video ranking localize this evidence; policy alignment maps it to platform guidelines; and Pareto-efficient selection yields a compact, task-specific evidence vocabulary. On 3,711 labeled TikTok videos, SPACE achieves the highest harmful-category Macro F1 among benchmarks across four families, at 0.8507. Its highest-scoring observation overlaps a ground-truth harmful span for 88.0% of harmful test videos, while its evidence representation retrieves the corresponding policy category for 87.0%. Stakeholder evaluations indicate that the SPACE evidence report is perceived as useful for understanding, reviewing, documenting, and responding to moderation decisions. The study contributes computational design science knowledge for embedding governance-ready evidence within predictive content-moderation systems.",
+          "summaryZh": "arXiv:2611.31354v1 公告类型：新\n摘要：算法内容审核对于管理短视频内容越来越重要，但有害内容检测研究主要集中在预测或有限的解释上。这就留下了一个尚未得到充分探索的治理挑战：生成与决策相关的证据，以支持审核和调整决策的合理性。使用有毒饮食文化作为实证案例，我们将治理就绪的证据概念化为计算可追溯性、证据本地化、政策基础和证据可检查性。我们在从大型多模态模型派生的预训练 SAE 特征空间中开发了基于稀疏自动编码器的策略对齐对比证据 (SPACE) 框架。全局相关性门和可分解的线性证据头识别与决策相关的证据；片段监督和视频内排名定位了这一证据；政策调整将其映射到平台指南；帕累托有效选择产生紧凑的、特定于任务的证据词汇。在 3,711 个带标签的 TikTok 视频中，SPACE 在四个系列的基准中实现了最高的有害类别 Macro F1，为 0.8507。其得分最高的观察结果与 88.0% 的有害测试视频的真实有害跨度重叠，而其证据表示则检索了 87.0% 的相应政策类别。利益相关者评估表明，SPACE 证据报告被认为对于理解、审查、记录和响应审核决策有用。该研究贡献了计算设计科学知识，以便将治理就绪的证据嵌入到预测内容审核系统中。",
+          "publishedAt": "2026-11-25T05:00:00.000Z",
+          "comments": null,
+          "author": "Wenli Zhang, Shuang Geng, Jiaheng Xie, Zhonghan Xiang, Sudha Ram"
+        },
+        {
+          "id": "oai:arXiv.org:2611.31431v1",
+          "title": "CaLA: Causal Latent Adjustment for World Models under Adaptive Policies",
+          "titleZh": "CaLA：自适应政策下世界模型的因果潜在调整",
+          "link": "https://arxiv.org/abs/2611.31431",
+          "summary": "arXiv:2611.31431v1 Announce Type: new\nAbstract: World models is answering ``imagine\" answers to ``what-if'' questions via imagined rollouts. But rollouts collected by adaptive policies induce treatment-outcome confounding in imagined rollouts. We study this problem in Match-3 difficulty adjustment, where latent player skill influences both assigned difficulty and churn. We build a fully specified Match-3 SCM with sequential mechanics, adaptive assignment, and paired ground-truth interventions, on which unadjusted models fit to the logged trajectories select difficulty settings that raise churn. We then introduce Causal Latent Adjustment (CaLA), a DAG-constrained world model that infers a variational player representation from pretreatment history. Across our evaluations, CaLA provides the most reliable population-level intervention estimates and competitive individualized decisions, although rich handcrafted histories can remain advantageous for individual-level adjustment. We further find that residual correction can degrade causal decision quality despite improving predictive fit, highlighting the need to distinguish predictive accuracy, confounding adjustment and the behavior of downstream causal estimators.",
+          "summaryZh": "arXiv:2611.31431v1 公告类型：新\n摘要：世界模型正在通过想象中的推出来回答“假设”问题的“想象”答案。但是，自适应策略收集的推出会导致想象中的推出中的治疗结果混淆。我们在三消难度调整中研究了这个问题，其中潜在的玩家技能影响分配的难度和流失。我们构建了一个完全指定的三消 SCM，具有顺序机制、自适应分配和配对的地面实况干预，在此基础上，未调整的模型适合记录的模型然后，我们引入因果潜在调整（CaLA），这是一种 DAG 约束的世界模型，它从预处理历史中推断出变化的玩家表示。在我们的评估中，CaLA 提供了最可靠的群体水平干预估计和有竞争力的个性化决策，尽管丰富的手工历史仍然有利于个人水平的调整，但我们进一步发现，尽管提高了预测拟合度，残差校正仍会降低因果决策质量。准确性、混杂调整和下游因果估计器的行为。",
+          "publishedAt": "2026-11-25T05:00:00.000Z",
+          "comments": null,
+          "author": "Robert Ness, Sofiane Ennadir, Oleg Smirnov"
+        },
+        {
+          "id": "oai:arXiv.org:2611.31436v1",
+          "title": "Is 4 Bits Enough for EEG Sleep Staging? A Subject-Level Benchmark of MXFP4, NVFP4 and FP8",
+          "titleZh": "4 位足以进行 EEG 睡眠分期吗？ MXFP4、NVFP4 和 FP8 的学科级基准",
+          "link": "https://arxiv.org/abs/2611.31436",
+          "summary": "arXiv:2611.31436v1 Announce Type: new\nAbstract: Staging sleep on a wearable device keeps the raw electroencephalogram (EEG) private and saves the energy needed to transmit it. It also requires small, energy-efficient neural networks. We benchmark 13 post-training quantization (PTQ) configurations, from FP16 to the block-scaled 4-bit formats MXFP4 and NVFP4, for five-stage sleep staging from single-channel Fpz-Cz EEG. We use Sleep-EDF-78 (78 subjects), subject-wise cross-validation, three training seeds, value-exact emulation, and per-subject paired statistics. All 8- and 16-bit formats stay within 0.45 percentage points (pp) of FP32 Macro-F1. With 4-bit weights and activations, an epoch-wise CNN loses 1.98 to 3.04 pp, and a temporal-context network loses at most 1.19 pp. A same-encoder ablation shows that temporal context explains little of this gap. At equal block size, NVFP4 outperforms MXFP4. The first layer, which quantizes the raw EEG, is the most sensitive layer in both networks. Keeping the first and last layers in FP8 brings both tested 4-bit formats within 0.48 pp of FP32. This recipe adds at most 2.1% weight storage, needs no retraining, and is equivalent to quantization-aware training (QAT) within an exploratory 1-pp margin. The 4-bit losses fall on the same subjects across architectures (Spearman correlation coefficient = 0.69 to 0.79), and they reduce N3 recall the most. On the nested Sleep-EDF-20 subset, NVFP4 with FP8 first and last layers again stays within 0.25 pp of FP32. Under MXFP4, however, the ranking of the architectures reverses, and FP8 first and last layers do not fully recover two of the three tested models. In our emulation, NVFP4 with FP8 first and last layers thus loses little accuracy without QAT in both cohorts.",
+          "summaryZh": "arXiv:2611.31436v1 公告类型：新\n摘要：在可穿戴设备上进行睡眠可以保护原始脑电图（EEG）的私密性，并节省传输所需的能量。它还需要小型、节能的神经网络。我们对 13 种训练后量化 (PTQ) 配置（从 FP16 到块级 4 位格式 MXFP4 和 NVFP4）进行了基准测试，用于单通道 Fpz-Cz EEG 的五阶段睡眠分期。我们使用 Sleep-EDF-78（78 名受试者）、受试者交叉验证、三个训练种子、值精确模拟和每个受试者配对统计数据。所有 8 位和 16 位格式与 FP32 Macro-F1 的误差均保持在 0.45 个百分点 (pp) 以内。使用 4 位权重和激活时，epoch-wise CNN 损失了 1.98 到 3.04 pp，时间上下文网络最多损失 1.19 pp。同编码器消融表明时间上下文几乎不能解释这一差距。在相同的块大小下，NVFP4 优于 MXFP4。第一层量化原始脑电图，是两个网络中最敏感的层。将第一层和最后一层保留在 FP8 中，可以使经过测试的 4 位格式与 FP32 相比在 0.48 pp 以内。此配方最多增加 2.1% 的权重存储，无需重新训练，相当于探索性 1-pp 裕度内的量化感知训练 (QAT)。 4 位损失落在跨架构的相同主题上（Spearman 相关系数 = 0.69 至 0.79），并且它们最大程度地降低了 N3 召回率。在嵌套的 Sleep-EDF-20 子集中，具有 FP8 第一层和最后一层的 NVFP4 再次保持在 FP32 的 0.25 pp 以内。然而，在 MXFP4 下，架构的排名相反，FP8 第一层和最后一层没有完全恢复三个测试模型中的两个。因此，在我们的仿真中，在两个队列中，如果没有 QAT，则具有 FP8 第一层和最后一层的 NVFP4 几乎不会损失准确性。",
+          "publishedAt": "2026-11-25T05:00:00.000Z",
+          "comments": null,
+          "author": "Emese Batizi, Hossein Valavi"
+        },
+        {
+          "id": "oai:arXiv.org:2611.31439v1",
+          "title": "Transformers with Signatures: Towards Universal In-Context Learning in Path Space",
+          "titleZh": "具有签名的变形金刚：迈向路径空间中的通用情境学习",
+          "link": "https://arxiv.org/abs/2611.31439",
+          "summary": "arXiv:2611.31439v1 Announce Type: new\nAbstract: In-context learning (ICL) enables transformers to adapt to new tasks from demonstrations without updating their parameters. However, theoretical guarantees for transformers remain limited in general, and elusive in particular when target responses depend nonlinearly on the evolution of observed paths. We establish an ICL framework for path space, using path signature features. Building on the universal linear approximation property of signatures, we construct explicitly a causal softmax transformer with two attention heads per layer that emulates in-context Lasso. Under sparse signature approximation and suitable moment and concentration conditions, we establish finite-sample prediction error bounds. Our analysis goes beyond the IID data setting in the existing ICL theory, allowing dependence among demonstrations and the query.\n Experiments on in-context sparse recovery, nonlinear path regression, execution-cost prediction, and financial payoff inference demonstrate robustness to changes in observation grids and adaptation to unseen market environments. Across these prediction tasks, transformers with signatures match or outperform vanilla transformer baselines with substantially fewer trainable parameters, highlighting the effectiveness and efficiency of signature-based ICL.",
+          "summaryZh": "arXiv:2611.31439v1 公告类型：新\n摘要：上下文学习（ICL）使 Transformer 能够在不更新参数的情况下适应演示中的新任务。然而，变压器的理论保证总体上仍然有限，尤其是当目标响应非线性地依赖于观测路径的演化时，更难以捉摸。我们利用路径签名特征建立了路径空间的 ICL 框架。基于签名的通用线性逼近属性，我们明确构造了一个因果 softmax 变换器，每层有两个注意力头，模拟上下文 Lasso。在稀疏签名近似和合适的矩和浓度条件下，我们建立了有限样本预测误差界限。我们的分析超越了现有ICL理论中的IID数据设置，允许演示和查询之间的依赖。\n 关于上下文稀疏恢复、非线性路径回归、执行成本预测和财务回报推断的实验证明了对观测网格变化的稳健性以及对未知市场环境的适应。在这些预测任务中，具有签名的 Transformer 与普通 Transformer 基线相匹配或优于普通 Transformer 基线，可训练参数大大减少，凸显了基于签名的 ICL 的有效性和效率。",
+          "publishedAt": "2026-11-25T05:00:00.000Z",
+          "comments": null,
+          "author": "Ziheng Cheng, Xin Guo, Ben Hambly"
+        },
+        {
+          "id": "oai:arXiv.org:2611.31442v1",
+          "title": "Small Learned Projections for Semantic-Reversal-Aware Retrieval with Spectral Acceleration: A Four-Domain Empirical Study",
+          "titleZh": "用于具有谱加速的语义反转感知检索的小型学习投影：四领域实证研究",
+          "link": "https://arxiv.org/abs/2611.31442",
+          "summary": "arXiv:2611.31442v1 Announce Type: new\nAbstract: Dense-embedding retrievers can fail adversarially: when a query is answered by a document A and reversed by a near-copy B that differs from A by a small meaning-changing edit (a \"trap\"), raw cosine over E5-Large-v2 places B in the top-10 for 82-100% of queries at a pool of 5,000. We study two things. First, a small learned projection W: R^1024 -> R^d (d in {11, 32}), trained by a deterministic recipe on a declared set of cases, that suppresses the trap: for the declared cases, HN@10 = 0.0000 (no trap in the top-10) in all twelve (domain, pool-size) settings across four independent domains (legal, medical, patent, financial) and pools up to 100,000, while the correct paraphrase is retained for 93-99% of cases, under exact nearest-neighbour search. Second, a boundary-conditioned accelerator that serves the projection at that scale: an acceleration of spectral graph retrieval (SpectRAG) that replaces a dense eigendecomposition with a boundary-value solve, holding HN@10 = 0.0000 at n = 100,000 in every domain and retrieving the ~300-query suite in 0.6-1.1 s (~2-4 ms per query on average). Because the lens's output is the stored representation (a few floats per document), a hardened, specialised index per domain or tenant is ~90x smaller and dimension-proportionally faster than the full embedding, making many small declared indexes a practical alternative to one large vector store. The claim is scoped to the declared cases on the measured pools, with no probabilistic bound; the correct-answer rate drops for a reworded query against an unchanged corpus (about 0.79, trap suppression still holding). A projection transfers only partly to other domains, which we report in full. The recipe, lenses, trap sets and evaluation harness are released under AGPL-3.0; the accelerator's implementation is a reserved commercial component, and every HN number is reproducible under exact search.",
+          "summaryZh": "arXiv:2611.31442v1 公告类型：新\n摘要：密集嵌入检索器可能会出现对抗性失败：当一个查询由文档 A 回答并由与 A 不同的一个小的意义改变编辑（“陷阱”）的近似副本 B 反转时，E5-Large-v2 上的原始余弦将 B 置于 5,000 个池中 82-100% 查询的前 10 名中。我们研究两件事。首先，一个小的学习投影 W: R^1024 -> R^d (d in {11, 32})，通过一组声明的案例的确定性配方进行训练，抑制陷阱：对于声明的案例，HN@10 = 0.0000（前 10 名中没有陷阱）在跨四个独立领域（法律、医疗、专利、金融）的所有 12 个（领域、池大小）设置中，并且池化为100,000，而在精确的最近邻搜索下，93-99% 的情况下会保留正确的释义。其次，服务于该规模投影的边界条件加速器：谱图检索加速 (SpectRAG)，用边界值求解代替密集特征分解，在每个域中 n = 100,000 时保持 HN@10 = 0.0000，并在 0.6-1.1 秒内检索约 300 个查询套件（平均每个查询约 2-4 毫秒）。由于镜头的输出是存储的表示形式（每个文档几个浮点数），因此每个域或租户的强化专用索引比完全嵌入小约 90 倍，并且按尺寸比例更快，这使得许多小型声明的索引成为一个大型向量存储的实用替代方案。索赔范围仅限于已测量池上已声明的案例，没有概率界限；对于未更改的语料库，重新措辞的查询的正确答案率会下降（大约 0.79，陷阱抑制仍然有效）。投影仅部分转移到其他领域，我们对此进行了完整报告。配方、镜头、陷阱套件和评估工具均在 AGPL-3.0 下发布；加速器的实现是保留的商业组件，并且每个HN号码在精确搜索下都是可再现的。",
+          "publishedAt": "2026-11-25T05:00:00.000Z",
+          "comments": null,
+          "author": "Sayed Amir Karim"
+        },
+        {
+          "id": "oai:arXiv.org:2611.31479v1",
+          "title": "Transferable, Time-Parallel Graph Dynamics via Space-Time Factorization",
+          "titleZh": "通过时空分解实现可转移的时间并行图动力学",
+          "link": "https://arxiv.org/abs/2611.31479",
+          "summary": "arXiv:2611.31479v1 Announce Type: new\nAbstract: Time-parallel neural operators (FNO and successors) have transformed PDE surrogates on regular grids. Mesh-based operators (MeshGraphNets, Transolver) extend operator learning to irregular geometries, but jointly learning across diverse topologies while retaining non-recurrent temporal evaluation remains challenging. We propose space-time factorization: partition the model into local temporal operators (learned, graph-independent) and a spatial mixer that propagates information across nodes without graph-dependent learned parameters. This structural condition lets the same parameters run on unseen graphs; non-recurrent instances also admit time-parallel evaluation. Accurate zero-shot transfer further depends on controlling three information leaks (graph-dependent weights, graph-specific features, and graph-correlated training distributions) and on suitable task physics and training coverage. The protocol applies to two distinct spatial-mixer families, fixed-spectral and learned-attention. We validate the principle in three domains. For floodwave propagation in river networks, a 27K-parameter model trained on the Yangtze transfers zero-shot to the Mississippi with median NSE 0.998 in boundary-conditioned operational evaluation, training 5.5x faster than a stabilized recurrent baseline. On cross-geometry Navier-Stokes, the three-seed SepFNO mean relative vorticity error on five unseen targets falls by about 28% from 5 to 12 training geometries, with a consistent single-run SepTransolver trend. On cross-city traffic forecasting, zero-shot transfer reaches within 12.9% of an oracle trained on the target city. Across settings, cross-geometry error decreases with both the number of training geometries and their relatedness to the test, at a rate depending on the spatial mixer. This opens the path to pooled-data, foundation-style models for graph dynamics on irregular topologies.",
+          "summaryZh": "arXiv:2611.31479v1 公告类型：新\n摘要：时间并行神经算子（FNO 和后继者）已经在规则网格上转换了偏微分方程代理。基于网格的算子（MeshGraphNets、Transolver）将算子学习扩展到不规则几何形状，但跨不同拓扑的联合学习同时保留非循环时间评估仍然具有挑战性。我们提出时空分解：将模型划分为局部时间运算符（学习的、与图无关的）和空间混合器，该空间混合器在没有与图相关的学习参数的情况下跨节点传播信息。这种结构条件允许相同的参数在看不见的图上运行；非经常性实例也允许时间并行评估。准确的零样本传输进一步取决于控制三个信息泄漏（图相关权重、图特定特征和图相关训练分布）以及适当的任务物理和训练覆盖范围。该协议适用于两个不同的空间混合器系列：固定光谱和学习注意力。我们在三个领域验证了这一原则。对于河流网络中的洪水波传播，在长江上训练的 27K 参数模型将零样本传输到密西西比河，在边界条件操作评估中 NSE 中位数为 0.998，训练速度比稳定的循环基线快 5.5 倍。在跨几何 Navier-Stokes 上，三种子 SepFNO 对 5 个未见目标的平均相对涡度误差从 5 到 12 个训练几何下降了约 28%，与单次运行 SepTransolver 趋势一致。在跨城市交通预测方面，零镜头传输达到目标城市训练预言机的 12.9% 以内。在设置中，跨几何误差随着训练几何形状的数量及其与测试的相关性的增加而减小，其速率取决于空间混合器。这为不规则拓扑上的图动态的池化数据、基础式模型开辟了道路。",
+          "publishedAt": "2026-11-25T05:00:00.000Z",
+          "comments": null,
+          "author": "Wencong Yang, Chaopeng Shen, Abdolmehdi Behroozi"
+        }
+      ]
+    }
+  ]
+}
