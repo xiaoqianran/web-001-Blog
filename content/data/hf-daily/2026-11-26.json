@@ -1,0 +1,424 @@
+{
+  "source": "huggingface.co/api/daily_papers",
+  "attribution": "Data from Hugging Face Daily Papers (community curation). All rights belong to the original authors. Chinese text is machine-translated.",
+  "fetchedAt": "2026-11-26T18:08:14.826Z",
+  "date": "2026-11-26",
+  "sort": "trending",
+  "count": 15,
+  "locale": {
+    "summaryDefault": "zh",
+    "translated": true
+  },
+  "papers": [
+    {
+      "id": "2604.05018",
+      "title": "PaperOrchestra: A Multi-Agent Framework for Automated AI Research Paper Writing",
+      "summary": "Synthesizing unstructured research materials into manuscripts is an essential yet under-explored challenge in AI-driven scientific discovery. Existing autonomous writers are rigidly coupled to specific experimental pipelines, and produce superficial literature reviews. We introduce PaperOrchestra, a multi-agent framework for automated AI research paper writing. It flexibly transforms unconstrained pre-writing materials into submission-ready LaTeX manuscripts, including comprehensive literature synthesis and generated visuals, such as plots and conceptual diagrams. To evaluate performance, we present PaperWritingBench, the first standardized benchmark of reverse-engineered raw materials from 200 top-tier AI conference papers, alongside a comprehensive suite of automated evaluators. In side-by-side human evaluations, PaperOrchestra significantly outperforms autonomous baselines, achieving an absolute win rate margin of 50%-68% in literature review quality, and 14%-38% in overall manuscript quality.",
+      "summaryZh": "将非结构化研究材料合成手稿是人工智能驱动的科学发现中一个重要但尚未充分探索的挑战。现有的自主作家与特定的实验流程严格耦合，并产生肤浅的文献评论。我们介绍 PaperOrchestra，一个用于自动化 AI 研究论文写作的多代理框架。它灵活地将不受约束的预写作材料转换为可供提交的 LaTeX 手稿，包括全面的文献综合和生成的视觉效果，例如图表和概念图。为了评估性能，我们推出了 PaperWritingBench，这是第一个对 200 篇顶级 AI 会议论文进行逆向工程原材料的标准化基准，以及一整套自动化评估器。在并行人类评估中，PaperOrchestra 显着优于自主基线，在文献综述质量方面实现了 50%-68% 的绝对胜率，在总体稿件质量方面实现了 14%-38% 的绝对胜率。",
+      "titleZh": "PaperOrchestra：用于自动化人工智能研究论文写作的多代理框架",
+      "authors": [
+        "Yiwen Song",
+        "Yale Song",
+        "Tomas Pfister",
+        "Jinsung Yoon"
+      ],
+      "publishedAt": "2026-04-06T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-04-05T20:00:00.000Z",
+      "submitter": null,
+      "upvotes": 19,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2604.05018",
+        "arxiv": "https://arxiv.org/abs/2604.05018",
+        "pdf": "https://arxiv.org/pdf/2604.05018"
+      }
+    },
+    {
+      "id": "2606.23050",
+      "title": "Unlimited OCR Works",
+      "summary": "Recently, end-to-end OCR models, exemplified by DeepSeek OCR, have once again thrust OCR into the spotlight. A widely held view is that employing a large language model (LLM) as the decoder allows the model to leverage the prior distribution of language, leading to improved OCR performance. However, the downside is equally evident: as the output sequence lengthens, the accumulated KV cache drives up memory consumption and progressively slows down generation. This stands in stark contrast to humans, who exhibit no such decline in efficiency during long-horizon copying tasks. In this technical report, we propose Unlimited OCR, a model designed to emulate human parsing working memory. Taking DeepSeek OCR as the baseline, we replace all attention layers in the decoder with our proposed Reference Sliding Window Attention (R-SWA), which reduces attention computation costs while maintaining a constant KV cache throughout the entire decoding process. By combining the high compression rate of DeepSeek OCR's encoder with our constant KV cache design, Unlimited OCR can transcribe dozens of pages of documents in a single forward pass under a standard maximum length of 32K. More importantly, R-SWA is a general-purpose parsing attention mechanism - beyond OCR, it is equally applicable to tasks such as ASR, translation, etc. Codes and model weights are publicly available at http://github.com/baidu/Unlimited-OCR.",
+      "summaryZh": "最近，以DeepSeek OCR为代表的端到端OCR模型再次将OCR推向了人们的视线。一种广泛持有的观点是，采用大型语言模型 (LLM) 作为解码器允许模型利用语言的先验分布，从而提高 OCR 性能。然而，缺点也同样明显：随着输出序列的延长，累积的 KV 缓存会增加内存消耗并逐渐减慢生成速度。这与人类形成鲜明对比，人类在执行长视距复制任务时并没有表现出效率下降的情况。在这份技术报告中，我们提出了 Unlimited OCR，一种旨在模拟人类解析工作记忆的模型。以 DeepSeek OCR 为基准，我们用我们提出的参考滑动窗口注意力（R-SWA）替换解码器中的所有注意力层，这降低了注意力计算成本，同时在整个解码过程中保持恒定的 KV 缓存。通过将 DeepSeek OCR 编码器的高压缩率与我们的恒定 KV 缓存设计相结合，Unlimited OCR 可以在标准最大长度 32K 的情况下在单次前向传递中转录数十页文档。更重要的是，R-SWA 是一种通用的解析注意力机制——除了 OCR 之外，它同样适用于 ASR、翻译等任务。代码和模型权重可在 http://github.com/baidu/Unlimited-OCR 上公开。",
+      "titleZh": "无限 OCR 作品",
+      "authors": [
+        "Youyang Yin",
+        "Huanhuan Liu",
+        "YY",
+        "Qunyi Xie",
+        "Chaorun Liu",
+        "Shiqi Yang",
+        "Shaohua Wang",
+        "Zhanlong Liu",
+        "Hao Zou",
+        "Jinyue Chen",
+        "Shu Wei",
+        "Jingjing Wu"
+      ],
+      "publishedAt": "2026-06-22T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-06-23T00:00:00.000Z",
+      "submitter": "taesiri",
+      "upvotes": 112,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2606.23050",
+        "arxiv": "https://arxiv.org/abs/2606.23050",
+        "pdf": "https://arxiv.org/pdf/2606.23050"
+      }
+    },
+    {
+      "id": "2610.14224",
+      "title": "Harness^2: Recursive Agent Harnessing for an Open World",
+      "summary": "LLM agents' capabilities depend not only on their underlying models but also on their execution harnesses. Recursive self-improvement (RSI) offers a promising approach to automatically evolve these harnesses. However, deploying RSI in open-world settings still faces two critical challenges. First, open-world tasks are typically unseen during the harness design phase and novel at test time, leaving no ground-truth verifiers to reliably guide online harness edits. Second, the RSI process remains highly task-specific and fails to generalize to novel scenarios. We introduce Harness^2, a plug-and-play, recursive agent harnessing framework that addresses these challenges through two connected levels of recursion. Task-level recursion refines the current task's harness using a contrastive Propose-Probe-Compose step that reliably guides edits without ground-truth verifiers, and can be scaled further via parallel or sequential recursion. Harnessing-level recursion then extracts experience from these edits to update a continual improvement harness, enabling the agent to better adapt to future tasks. Across three professional benchmarks and four model-harness configurations, a single step consistently improves GLM-5 and Gemini 3.5 Flash over their base harnesses, yielding gains of up to 11.5 points on WorkBuddy-Bench, 4.5 points on JobBench, and 11.8 percentage points on LAB, with further gains as the task-level recursion budget increases.",
+      "summaryZh": "LLM 代理的能力不仅取决于其底层模型，还取决于其执行工具。递归自我改进（RSI）提供了一种有前途的方法来自动改进这些工具。然而，在开放世界环境中部署 RSI 仍然面临两个关键挑战。首先，开放世界任务通常在线束设计阶段是看不见的，并且在测试时是新颖的，因此没有真实的验证者来可靠地指导在线线束编辑。其次，RSI 过程仍然高度特定于任务，无法推广到新场景。我们引入了 Harness^2，这是一个即插即用的递归代理利用框架，它通过两个连接的递归级别来解决这些挑战。任务级递归使用对比性的 Propose-Probe-Compose 步骤来细化当前任务的控制，该步骤可以在没有真实验证器的情况下可靠地指导编辑，并且可以通过并行或顺序递归进一步扩展。然后，利用级递归从这些编辑中提取经验，以更新持续改进的利用，使代理能够更好地适应未来的任务。在三个专业基准测试和四种模型线束配置中，一步即可持续改进 GLM-5 和 Gemini 3.5 Flash 的基本线束，在 WorkBuddy-Bench 上获得高达 11.5 个百分点的收益，在 JobBench 上获得 4.5 个百分点，在 LAB 上获得 11.8 个百分点，并且随着任务级递归预算的增加，收益还会进一步增加。",
+      "titleZh": "Harness^2：开放世界的递归代理利用",
+      "authors": [
+        "Ruiyao Xu",
+        "Yanfei Chen",
+        "Zhongying CuiZhu",
+        "Bhavana Dalvi Mishra",
+        "Yifei Ming",
+        "Han Yu",
+        "Rujun Han",
+        "Chen-Yu Lee",
+        "Tomas Pfister"
+      ],
+      "publishedAt": "2026-10-09T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-10-14T00:00:00.000Z",
+      "submitter": "ruiyaox",
+      "upvotes": 72,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2610.14224",
+        "arxiv": "https://arxiv.org/abs/2610.14224",
+        "pdf": "https://arxiv.org/pdf/2610.14224"
+      }
+    },
+    {
+      "id": "2611.26603",
+      "title": "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth",
+      "summary": "We present Depth Pro 2, an approach to estimating dense metric depth for images and video at full resolution. By analyzing prior methods for monocular depth estimation, we find that they commonly trade off temporal consistency and boundary sharpness: multi-frame methods favor consistency, single-frame methods favor sharpness. To overcome this trade-off, we train a single, scalable network that processes both images and video and predicts depth maps at native resolution. Depth Pro 2 produces depth maps that are metrically accurate, sharp, and temporally consistent all at once, outperforming prior work in all of these dimensions. We release a family of models that define a new Pareto frontier in terms of metric accuracy, sharpness, temporal consistency, and runtime. We release code and weights at https://apple-aiml-research.github.io/ml-depth-pro-2/",
+      "summaryZh": "我们推出了 Depth Pro 2，这是一种估计全分辨率图像和视频的密集度量深度的方法。通过分析现有的单目深度估计方法，我们发现它们通常会权衡时间一致性和边界清晰度：多帧方法有利于一致性，单帧方法有利于清晰度。为了克服这种权衡，我们训练了一个可扩展的网络，该网络可以处理图像和视频，并以原始分辨率预测深度图。 Depth Pro 2 可同时生成度量准确、清晰且时间一致的深度图，在所有这些维度上均优于之前的工作。我们发布了一系列模型，在度量精度、清晰度、时间一致性和运行时方面定义了新的帕累托前沿。我们在 https://apple-aiml-research.github.io/ml-depth-pro-2/ 发布代码和权重",
+      "titleZh": "Depth Pro 2：清晰且时间一致的公制单目深度",
+      "authors": [
+        "Peiyun Hu",
+        "Marko Mihajlovic",
+        "Lyndon Duong",
+        "Lahav Lipson",
+        "Wei Dong",
+        "Amaël Delaunoy",
+        "Stephan R. Richter",
+        "Vladlen Koltun"
+      ],
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-11-20T00:00:00.000Z",
+      "submitter": "amael-apple",
+      "upvotes": 41,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2611.26603",
+        "arxiv": "https://arxiv.org/abs/2611.26603",
+        "pdf": "https://arxiv.org/pdf/2611.26603"
+      }
+    },
+    {
+      "id": "2412.20138",
+      "title": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "summary": "Significant progress has been made in automated problem-solving using\nsocieties of agents powered by large language models (LLMs). In finance,\nefforts have largely focused on single-agent systems handling specific tasks or\nmulti-agent frameworks independently gathering data. However, the multi-agent\nsystems' potential to replicate real-world trading firms' collaborative\ndynamics remains underexplored. TradingAgents proposes a novel stock trading\nframework inspired by trading firms, featuring LLM-powered agents in\nspecialized roles such as fundamental analysts, sentiment analysts, technical\nanalysts, and traders with varied risk profiles. The framework includes Bull\nand Bear researcher agents assessing market conditions, a risk management team\nmonitoring exposure, and traders synthesizing insights from debates and\nhistorical data to make informed decisions. By simulating a dynamic,\ncollaborative trading environment, this framework aims to improve trading\nperformance. Detailed architecture and extensive experiments reveal its\nsuperiority over baseline models, with notable improvements in cumulative\nreturns, Sharpe ratio, and maximum drawdown, highlighting the potential of\nmulti-agent LLM frameworks in financial trading. TradingAgents is available at\nhttps://github.com/TauricResearch/TradingAgents.",
+      "summaryZh": "使用自动化解决问题取得了重大进展\n由大型语言模型 (LLM) 提供支持的代理协会。在金融领域，\n工作主要集中在处理特定任务的单代理系统或\n多代理框架独立收集数据。然而，多代理\n系统复制现实世界贸易公司协作的潜力\n动力学仍有待探索。 TradingAgents 提出了一种新颖的股票交易方式\n受贸易公司启发的框架，以法学硕士支持的代理为特色\n专业角色，例如基本面分析师、情绪分析师、技术分析师\n具有不同风险状况的分析师和交易员。该框架包括 Bull\n贝尔斯登研究人员评估市场状况，风险管理团队\n监控风险敞口，交易者从辩论中综合见解\n历史数据以做出明智的决策。通过模拟动态，\n协作交易环境，该框架旨在改善交易\n性能。详细的架构和广泛的实验揭示了它的\n优于基线模型，累积显着改进\n回报率、夏普比率和最大回撤，凸显了\n金融交易中的多代理法学硕士框架。交易代理可在\nhttps://github.com/TauricResearch/TradingAgents。",
+      "titleZh": "TradingAgents：多代理LLM金融交易框架",
+      "authors": [
+        "Yijia Xiao",
+        "Edward Sun",
+        "Di Luo",
+        "Wei Wang"
+      ],
+      "publishedAt": "2024-12-28T12:54:06.000Z",
+      "submittedOnDailyAt": "2024-12-28T07:54:06.000Z",
+      "submitter": null,
+      "upvotes": 168,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2412.20138",
+        "arxiv": "https://arxiv.org/abs/2412.20138",
+        "pdf": "https://arxiv.org/pdf/2412.20138"
+      }
+    },
+    {
+      "id": "2611.18397",
+      "title": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
+      "summary": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment pipeline supports interaction with both conventional 2D graphical interfaces and complex 3D simulated worlds. We first continue pre-training on a dataset constructed from tens of thousands of hours of device-level keyboard and mouse interaction. These trajectories span simulated games and embodied environments, allowing the model to learn environmental dynamics across both physical and virtual domains. Sparse-thinking instruction tuning then substantially reduces redundant computation while preserving the reasoning needed for complex decisions. We train the policy for long-horizon interaction with a stable multi-turn reinforcement learning method that addresses finite context windows, accumulated rollout errors, and sparse rewards. For real-time interaction, a cloud-edge inference engine serves numerous simulated game environments concurrently, supports unbounded-context execution, and keeps online inference latency low. Across multiple challenging 3D open-world games, Gamer demonstrates solid generalization and operational efficiency comparable to skilled players. It also achieves competitive results on a range of conventional 2D game benchmarks. These results suggest that even repetitive keyboard and mouse trajectories can support substantial gains from scaling data and learning algorithms. Training on these trajectories helps Gamer learn complex skills more steadily in environments with both physical and digital properties. This approach offers a path toward generalist agents that can interact across digital and physical worlds.",
+      "summaryZh": "我们介绍 Gamer，这是一个专为复杂交互环境中的长期任务而构建的通用代理框架。其端到端架构结合了感知、内存管理和多步推理。共享的训练和部署管道支持与传统 2D 图形界面和复杂的 3D 模拟世界的交互。我们首先继续对由数万小时的设备级键盘和鼠标交互构建的数据集进行预训练。这些轨迹跨越模拟游戏和具体环境，使模型能够学习物理和虚拟领域的环境动态。然后，稀疏思维指令调整大大减少了冗余计算，同时保留了复杂决策所需的推理。我们使用稳定的多轮强化学习方法来训练长范围交互的策略，该方法可解决有限的上下文窗口、累积的推出错误和稀疏奖励问题。对于实时交互，云边推理引擎同时服务于多个模拟游戏环境，支持无界上下文执行，并保持在线推理低延迟。在多个具有挑战性的 3D 开放世界游戏中，Gamer 表现出了可与熟练玩家相媲美的扎实泛化能力和操作效率。它还在一系列传统 2D 游戏基准测试中取得了有竞争力的结果。这些结果表明，即使是重复的键盘和鼠标轨迹也可以从扩展数据和学习算法中获得巨大收益。对这些轨迹进行训练可以帮助玩家在具有物理和数字属性的环境中更稳定地学习复杂的技能。这种方法为通才代理提供了一条可以跨数字世界和物理世界进行交互的途径。",
+      "titleZh": "游戏玩家：长视野实时游戏代理的通用视觉-语言-动作基础模型",
+      "authors": [
+        "Run Luo",
+        "Kuan Zhang",
+        "Qi Deng",
+        "Yukun Chen",
+        "Zhihao Yang",
+        "Yufei Zhang",
+        "Renrong Hu",
+        "Yi Zhang",
+        "Guiyu Ma",
+        "Tianyu Fan",
+        "Longze Chen",
+        "Hao Sun"
+      ],
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-11-16T00:00:00.000Z",
+      "submitter": "iTheresaApocalypse",
+      "upvotes": 166,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2611.18397",
+        "arxiv": "https://arxiv.org/abs/2611.18397",
+        "pdf": "https://arxiv.org/pdf/2611.18397"
+      }
+    },
+    {
+      "id": "2309.06180",
+      "title": "Efficient Memory Management for Large Language Model Serving with\n  PagedAttention",
+      "summary": "High throughput serving of large language models (LLMs) requires batching\nsufficiently many requests at a time. However, existing systems struggle\nbecause the key-value cache (KV cache) memory for each request is huge and\ngrows and shrinks dynamically. When managed inefficiently, this memory can be\nsignificantly wasted by fragmentation and redundant duplication, limiting the\nbatch size. To address this problem, we propose PagedAttention, an attention\nalgorithm inspired by the classical virtual memory and paging techniques in\noperating systems. On top of it, we build vLLM, an LLM serving system that\nachieves (1) near-zero waste in KV cache memory and (2) flexible sharing of KV\ncache within and across requests to further reduce memory usage. Our\nevaluations show that vLLM improves the throughput of popular LLMs by\n2-4times with the same level of latency compared to the state-of-the-art\nsystems, such as FasterTransformer and Orca. The improvement is more pronounced\nwith longer sequences, larger models, and more complex decoding algorithms.\nvLLM's source code is publicly available at\nhttps://github.com/vllm-project/vllm",
+      "summaryZh": "大型语言模型 (LLM) 的高吞吐量服务需要批处理\n一次有足够多的请求。然而，现有系统却举步维艰\n因为每个请求的键值缓存（KV缓存）内存巨大并且\n动态增长和收缩。当管理效率低下时，该内存可能会被\n碎片和冗余重复造成了极大的浪费，限制了\n批量大小。为了解决这个问题，我们提出PagedAttention，一个注意力机制\n算法的灵感来自经典的虚拟内存和分页技术\n操作系统。在此基础上，我们构建了 vLLM，一个 LLM 服务系统，\n实现 (1) KV 缓存内存近乎零浪费和 (2) KV 灵活共享\n在请求内和请求之间进行缓存，以进一步减少内存使用。我们的\n评估表明，vLLM 通过以下方式提高了流行 LLM 的吞吐量：\n与最先进的技术相比，相同延迟水平下的 2-4 倍\n系统，例如 FasterTransformer 和 Orca。改善效果更加明显\n具有更长的序列、更大的模型和更复杂的解码算法。\nvLLM 的源代码可在以下位置公开获取：\nhttps://github.com/vllm-project/vllm",
+      "titleZh": "大型语言模型的高效内存管理\n  分页注意力",
+      "authors": [
+        "Woosuk Kwon",
+        "Zhuohan Li",
+        "Siyuan Zhuang",
+        "Ying Sheng",
+        "Lianmin Zheng",
+        "Cody Hao Yu",
+        "Joseph E. Gonzalez",
+        "Hao Zhang",
+        "Ion Stoica"
+      ],
+      "publishedAt": "2023-09-12T12:50:04.000Z",
+      "submittedOnDailyAt": "2023-09-13T00:00:00.000Z",
+      "submitter": "akhaliq",
+      "upvotes": 76,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2309.06180",
+        "arxiv": "https://arxiv.org/abs/2309.06180",
+        "pdf": "https://arxiv.org/pdf/2309.06180"
+      }
+    },
+    {
+      "id": "2407.16741",
+      "title": "OpenDevin: An Open Platform for AI Software Developers as Generalist\n  Agents",
+      "summary": "Software is one of the most powerful tools that we humans have at our\ndisposal; it allows a skilled programmer to interact with the world in complex\nand profound ways. At the same time, thanks to improvements in large language\nmodels (LLMs), there has also been a rapid development in AI agents that\ninteract with and affect change in their surrounding environments. In this\npaper, we introduce OpenDevin, a platform for the development of powerful and\nflexible AI agents that interact with the world in similar ways to those of a\nhuman developer: by writing code, interacting with a command line, and browsing\nthe web. We describe how the platform allows for the implementation of new\nagents, safe interaction with sandboxed environments for code execution,\ncoordination between multiple agents, and incorporation of evaluation\nbenchmarks. Based on our currently incorporated benchmarks, we perform an\nevaluation of agents over 15 challenging tasks, including software engineering\n(e.g., SWE-Bench) and web browsing (e.g., WebArena), among others. Released\nunder the permissive MIT license, OpenDevin is a community project spanning\nacademia and industry with more than 1.3K contributions from over 160\ncontributors and will improve going forward.",
+      "summaryZh": "软件是我们人类拥有的最强大的工具之一\n处置；它允许熟练的程序员以复杂的方式与世界互动\n和深刻的方法。同时得益于大语言的改进\n模型（法学硕士），人工智能代理也得到了快速发展，\n与周围环境相互作用并影响其变化。在这个\n论文中，我们介绍了 OpenDevin，一个用于开发功能强大且\n灵活的人工智能代理，以类似于人类的方式与世界互动\n人类开发人员：通过编写代码、与命令行交互和浏览\n网络。我们描述了该平台如何允许实施新的\n代理，与沙盒环境安全交互以执行代码，\n多个主体之间的协调以及评估的结合\n基准。根据我们当前纳入的基准，我们执行\n对代理进行超过 15 项挑战性任务的评估，包括软件工程\n（例如，SWE-Bench）和网页浏览（例如，WebArena）等。已发布\n在 MIT 许可下，OpenDevin 是一个社区项目，涵盖\n学术界和工业界超过 160 人做出了超过 1,300 份贡献\n贡献者并将继续改进。",
+      "titleZh": "OpenDevin：面向多面手的人工智能软件开发人员的开放平台\n  代理商",
+      "authors": [
+        "Xingyao Wang",
+        "Boxuan Li",
+        "Yufan Song",
+        "Frank F. Xu",
+        "Xiangru Tang",
+        "Mingchen Zhuge",
+        "Jiayi Pan",
+        "Yueqi Song",
+        "Bowen Li",
+        "Jaskirat Singh",
+        "Hoang H. Tran",
+        "Fuqiang Li"
+      ],
+      "publishedAt": "2024-07-23T17:50:43.000Z",
+      "submittedOnDailyAt": "2024-07-25T00:00:00.000Z",
+      "submitter": "akhaliq",
+      "upvotes": 87,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2407.16741",
+        "arxiv": "https://arxiv.org/abs/2407.16741",
+        "pdf": "https://arxiv.org/pdf/2407.16741"
+      }
+    },
+    {
+      "id": "2605.03042",
+      "title": "ARIS: Autonomous Research via Adversarial Multi-Agent Collaboration",
+      "summary": "This report describes ARIS (Auto-Research-in-sleep), an open-source research harness for autonomous research, including its architecture, assurance mechanisms, and early deployment experience. The performance of agent systems built on LLMs depends on both the model weights and the harness around them, which governs what information to store, retrieve, and present to the model. For long-horizon research workflows, the central failure mode is not a visible breakdown but a plausible unsupported success: a long-running agent can produce claims whose evidential support is incomplete, misreported, or silently inherited from the executor's framing. Therefore, we present ARIS as a research harness that coordinates machine-learning research workflows through cross-model adversarial collaboration as a default configuration: an executor model drives forward progress while a reviewer from a different model family is recommended to critique intermediate artifacts and request revisions. ARIS has three architectural layers. The execution layer provides more than 65 reusable Markdown-defined skills, model integrations via MCP, a persistent research wiki for iterative reuse of prior findings, and deterministic figure generation. The orchestration layer coordinates five end-to-end workflows with adjustable effort settings and configurable routing to reviewer models. The assurance layer includes a three-stage process for checking whether experimental claims are supported by evidence: integrity verification, result-to-claim mapping, and claim auditing that cross-checks manuscript statements against the claim ledger and raw evidence, as well as a five-pass scientific-editing pipeline, mathematical-proof checks, and visual inspection of the rendered PDF. A prototype self-improvement loop records research traces and proposes harness improvements that are adopted only after reviewer approval.",
+      "summaryZh": "本报告介绍了 ARIS（睡眠中自动研究），这是一种用于自主研究的开源研究工具，包括其架构、保证机制和早期部署经验。基于 LLM 构建的代理系统的性能取决于模型权重及其周围的工具，这控制着要存储、检索和呈现给模型的信息。对于长期研究工作流程，中心失败模式不是可见的故障，而是看似合理且不受支持的成功：长期运行的代理可以产生其证据支持不完整、误报或从执行者的框架中悄悄继承的主张。因此，我们将 ARIS 作为一种研究工具，通过跨模型对抗性协作作为默认配置来协调机器学习研究工作流程：执行器模型推动进展，同时建议来自不同模型系列的审阅者批评中间工件并请求修订。 ARIS 具有三个架构层。执行层提供超过 65 种可重用的 Markdown 定义的技能、通过 MCP 的模型集成、用于迭代重用先前发现的持久研究 wiki 以及确定性图形生成。编排层通过可调整的工作量设置和可配置的路由到审阅者模型来协调五个端到端工作流程。保证层包括一个用于检查实验索赔是否得到证据支持的三阶段流程：完整性验证、结果到索赔映射和索赔审计（根据索赔分类账和原始证据交叉检查手稿陈述），以及五遍科学编辑管道、数学证明检查和对渲染的 PDF 进行目视检查。原型自我改进循环记录研究痕迹并提出仅在审阅者批准后才采用的安全措施改进。",
+      "titleZh": "ARIS：通过对抗性多智能体协作进行自主研究",
+      "authors": [
+        "Ruofeng Yang",
+        "Yongcan Li",
+        "Shuai Li"
+      ],
+      "publishedAt": "2026-05-04T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-05-06T00:00:00.000Z",
+      "submitter": "RuofengYang",
+      "upvotes": 158,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2605.03042",
+        "arxiv": "https://arxiv.org/abs/2605.03042",
+        "pdf": "https://arxiv.org/pdf/2605.03042"
+      }
+    },
+    {
+      "id": "2603.16790",
+      "title": "InCoder-32B: Code Foundation Model for Industrial Scenarios",
+      "summary": "Recent code large language models have achieved remarkable progress on general programming tasks. Nevertheless, their performance degrades significantly in industrial scenarios that require reasoning about hardware semantics, specialized language constructs, and strict resource constraints. To address these challenges, we introduce InCoder-32B (Industrial-Coder-32B), the first 32B-parameter code foundation model unifying code intelligence across chip design, GPU kernel optimization, embedded systems, compiler optimization, and 3D modeling. By adopting an efficient architecture, we train InCoder-32B from scratch with general code pre-training, curated industrial code annealing, mid-training that progressively extends context from 8K to 128K tokens with synthetic industrial reasoning data, and post-training with execution-grounded verification. We conduct extensive evaluation on 14 mainstream general code benchmarks and 9 industrial benchmarks spanning 4 specialized domains. Results show InCoder-32B achieves highly competitive performance on general tasks while establishing strong open-source baselines across industrial domains.",
+      "summaryZh": "最近的代码大语言模型在通用编程任务上取得了显着的进展。然而，在需要推理硬件语义、专门语言结构和严格资源限制的工业场景中，它们的性能会显着下降。为了应对这些挑战，我们推出了 InCoder-32B (Induscial-Coder-32B)，这是第一个 32B 参数代码基础模型，统一了跨芯片设计、GPU 内核优化、嵌入式系统、编译器优化和 3D 建模的代码智能。通过采用高效的架构，我们从头开始训练 InCoder-32B，包括通用代码预训练、策划的工业代码退火、使用合成工业推理数据将上下文从 8K 逐步扩展到 128K 令牌的训练中期，以及基于执行验证的训练后。我们对 14 个主流通用代码基准测试和跨越 4 个专业领域的 9 个工业基准测试进行了广泛的评估。结果表明，InCoder-32B 在一般任务上实现了极具竞争力的性能，同时在整个工业领域建立了强大的开源基线。",
+      "titleZh": "InCoder-32B：工业场景代码基础模型",
+      "authors": [
+        "Jian Yang",
+        "Wei Zhang",
+        "Jiajun Wu",
+        "Junhang Cheng",
+        "Shawn Guo",
+        "Haowen Wang",
+        "Weicheng Gu",
+        "Yaxin Du",
+        "Joseph Li",
+        "Fanglin Xu",
+        "Yizhi Li",
+        "Lin Jing"
+      ],
+      "publishedAt": "2026-03-17T17:01:35.000Z",
+      "submittedOnDailyAt": "2026-03-18T00:00:00.000Z",
+      "submitter": "csjiaya",
+      "upvotes": 169,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2603.16790",
+        "arxiv": "https://arxiv.org/abs/2603.16790",
+        "pdf": "https://arxiv.org/pdf/2603.16790"
+      }
+    },
+    {
+      "id": "2610.22732",
+      "title": "TokenEconomizer: Experience-Driven Black-Box Cost Control for Coding Agents",
+      "summary": "Advances in frontier coding agents have sharply increased the token costs of AI-assisted software engineering. Their token efficiency is typically evaluated on isolated tasks, whereas real-world developers use them to continuously build, update, and maintain large-scale projects. This mismatch motivates us to evaluate agents over sequences of realistic coding tasks, where we find that agents exhibit recurring environment-dependent token costs that existing methods struggle to reduce. To minimize these costs, we introduce TokenEconomizer, an external controller that cuts environment-specific token costs over a sequence of tasks. These cuts come from determining (i) which operational micro-skills to inject, (ii) which persistently irrelevant tools to prune, and (iii) when to intervene in unproductive failure loops. Across Claude Code, Codex, and GitHub Copilot CLI paired with frontier models, TokenEconomizer reduces the average token cost by 18.4-30.9% with comparable task success. Savings hold in every repository under every tested agent-model setting and generalize to diverse domains such as sequential web development and security auditing, where costs fall by 6.4-21.2% depending on task structure. Our work establishes adaptive black-box cost control as a promising direction for reducing token costs of coding agents in realistic settings.",
+      "summaryZh": "前沿编码代理的进步大幅增加了人工智能辅助软件工程的代币成本。它们的代币效率通常是在孤立的任务上评估的，而现实世界的开发人员使用它们来持续构建、更新和维护大型项目。这种不匹配促使我们通过实际编码任务序列来评估智能体，我们发现智能体表现出反复出现的依赖于环境的令牌成本，而现有方法很难降低这种成本。为了最大限度地降低这些成本，我们引入了 TokenEconomizer，这是一个外部控制器，可以降低一系列任务中特定于环境的令牌成本。这些削减来自于确定（i）注入哪些操作微观技能，（ii）修剪哪些持续不相关的工具，以及（iii）何时干预非生产性故障循环。在与前沿模型配对的 Claude Code、Codex 和 GitHub Copilot CLI 中，TokenEconomizer 将平均代币成本降低了 18.4-30.9%，并且任务成功率相当。在每个经过测试的代理模型设置下的每个存储库中都可以节省成本，并推广到不同的领域，例如顺序 Web 开发和安全审计，其中成本下降了 6.4-21.2%，具体取决于任务结构。我们的工作将自适应黑盒成本控制确立为在现实环境中降低编码代理的令牌成本的有希望的方向。",
+      "titleZh": "TokenEconomizer：编码代理的经验驱动黑盒成本控制",
+      "authors": [
+        "Aaron J. Li",
+        "Weijia Xu",
+        "Chandan Singh",
+        "Zixiao Chen",
+        "Jeevana Priya Inala",
+        "Charlotte Siska",
+        "Acar Tamersoy",
+        "Bin Yu",
+        "Ion Stoica",
+        "Michel Galley",
+        "Jianfeng Gao"
+      ],
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-10-19T00:00:00.000Z",
+      "submitter": "aaronjli",
+      "upvotes": 21,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2610.22732",
+        "arxiv": "https://arxiv.org/abs/2610.22732",
+        "pdf": "https://arxiv.org/pdf/2610.22732"
+      }
+    },
+    {
+      "id": "2606.03264",
+      "title": "PaddleOCR-VL-1.6: Expanding the Frontier of Document Parsing with Under-Optimized Region Refinement and Progressive Post-Training",
+      "summary": "We introduce PaddleOCR-VL-1.6, an upgraded compact document parsing model built upon PaddleOCR-VL-1.5. Although PaddleOCR-VL-1.5 establishes a strong 0.9B baseline, its remaining errors concentrate in under-optimized regions where model behavior is unstable, data coverage is sparse, or supervision is unreliable. Rather than expanding the training corpus indiscriminately, PaddleOCR-VL-1.6 introduces a region-aware data optimization framework that identifies weak regions from the previous model, applies targeted enhancement to these regions, and improves the reliability of supervision signals. It further adopts a progressive post-training recipe based on curated data selection and reinforcement learning, pushing model performance to a higher level through staged optimization. PaddleOCR-VL-1.6 achieves a new state-of-the-art score of 96.33% on OmniDocBench v1.6, demonstrates strong competitiveness against top-tier VLMs, and provides a practical post-training recipe for the PaddleOCR-VL series.",
+      "summaryZh": "We introduce PaddleOCR-VL-1.6, an upgraded compact document parsing model built upon PaddleOCR-VL-1.5. Although PaddleOCR-VL-1.5 establishes a strong 0.9B baseline, its remaining errors concentrate in under-optimized regions where model behavior is unstable, data coverage is sparse, or supervision is unreliable. Rather than expanding the training corpus indiscriminately, PaddleOCR-VL-1.6 introduces a region-aware data optimization framework that identifies weak regions from the previous model, applies targeted enhancement to these regions, and improves the reliability of supervision signals. It further adopts a progressive post-training recipe based on curated data selection and reinforcement learning, pushing model performance to a higher level through staged optimization. PaddleOCR-VL-1.6 achieves a new state-of-the-art score of 96.33% on OmniDocBench v1.6, demonstrates strong competitiveness against top-tier VLMs, and provides a practical post-training recipe for the PaddleOCR-VL series.",
+      "titleZh": "PaddleOCR-VL-1.6：通过欠优化区域细化和渐进式后训练扩展文档解析的前沿",
+      "authors": [
+        "Zelun Zhang",
+        "Hongen Liu",
+        "Suyin Liang",
+        "Yubo Zhang",
+        "Yiqing Xiang",
+        "Jiaxuan Liu",
+        "Ting Sun",
+        "Manhui Lin",
+        "Yue Zhang",
+        "Changda Zhou",
+        "Tingquan Gao",
+        "Cheng Cui"
+      ],
+      "publishedAt": "2026-06-02T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-06-03T00:00:00.000Z",
+      "submitter": "ChengCui",
+      "upvotes": 28,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2606.03264",
+        "arxiv": "https://arxiv.org/abs/2606.03264",
+        "pdf": "https://arxiv.org/pdf/2606.03264"
+      }
+    },
+    {
+      "id": "2407.17789",
+      "title": "Very Large-Scale Multi-Agent Simulation in AgentScope",
+      "summary": "Recent advances in large language models (LLMs) have opened new avenues for\napplying multi-agent systems in very large-scale simulations. However, there\nremain several challenges when conducting multi-agent simulations with existing\nplatforms, such as limited scalability and low efficiency, unsatisfied agent\ndiversity, and effort-intensive management processes. To address these\nchallenges, we develop several new features and components for AgentScope, a\nuser-friendly multi-agent platform, enhancing its convenience and flexibility\nfor supporting very large-scale multi-agent simulations. Specifically, we\npropose an actor-based distributed mechanism as the underlying technological\ninfrastructure towards great scalability and high efficiency, and provide\nflexible environment support for simulating various real-world scenarios, which\nenables parallel execution of multiple agents, centralized workflow\norchestration, and both inter-agent and agent-environment interactions among\nagents. Moreover, we integrate an easy-to-use configurable tool and an\nautomatic background generation pipeline in AgentScope, simplifying the process\nof creating agents with diverse yet detailed background settings. Last but not\nleast, we provide a web-based interface for conveniently monitoring and\nmanaging a large number of agents that might deploy across multiple devices. We\nconduct a comprehensive simulation to demonstrate the effectiveness of the\nproposed enhancements in AgentScope, and provide detailed observations and\ndiscussions to highlight the great potential of applying multi-agent systems in\nlarge-scale simulations. The source code is released on GitHub at\nhttps://github.com/modelscope/agentscope to inspire further research and\ndevelopment in large-scale multi-agent simulations.",
+      "summaryZh": "大语言模型 (LLM) 的最新进展为\n在超大规模模拟中应用多智能体系统。然而，有\n在利用现有技术进行多智能体模拟时仍然面临一些挑战\n平台，如可扩展性有限、效率低下、代理不满意\n多样性和努力密集型的管理流程。为了解决这些\n挑战，我们为 AgentScope 开发了几个新功能和组件，\n用户友好的多代理平台，增强其便利性和灵活性\n用于支持超大规模的多智能体模拟。具体来说，我们\n提出基于参与者的分布式机制作为底层技术\n基础设施具有良好的可扩展性和高效率，并提供\n灵活的环境支持模拟各种现实场景，\n支持多个代理并行执行、集中工作流程\n编排，以及代理间和代理与环境之间的交互\n代理。此外，我们集成了一个易于使用的可配置工具和一个\nAgentScope中自动后台生成管道，简化流程\n创建具有多样化但详细的背景设置的代理。最后但不是\n至少，我们提供了一个基于网络的界面，可以方便地监控和\n管理可能跨多个设备部署的大量代理。我们\n进行全面的模拟以证明其有效性\nAgentScope 中提出的增强功能，并提供详细的观察结果和\n讨论强调了应用多智能体系统的巨大潜力\n大规模模拟。源代码发布在 GitHub 上：\nhttps://github.com/modelscope/agentscope 激发进一步的研究和\n大规模多智能体模拟的发展。",
+      "titleZh": "AgentScope 中的超大规模多智能体模拟",
+      "authors": [
+        "Xuchen Pan",
+        "Dawei Gao",
+        "Yuexiang Xie",
+        "Zhewei Wei",
+        "Yaliang Li",
+        "Bolin Ding",
+        "Ji-Rong Wen",
+        "Jingren Zhou"
+      ],
+      "publishedAt": "2024-07-25T05:50:46.000Z",
+      "submittedOnDailyAt": "2024-07-26T00:00:00.000Z",
+      "submitter": "akhaliq",
+      "upvotes": 38,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2407.17789",
+        "arxiv": "https://arxiv.org/abs/2407.17789",
+        "pdf": "https://arxiv.org/pdf/2407.17789"
+      }
+    },
+    {
+      "id": "2508.16279",
+      "title": "AgentScope 1.0: A Developer-Centric Framework for Building Agentic\n  Applications",
+      "summary": "Driven by rapid advancements of Large Language Models (LLMs), agents are\nempowered to combine intrinsic knowledge with dynamic tool use, greatly\nenhancing their capacity to address real-world tasks. In line with such an\nevolution, AgentScope introduces major improvements in a new version (1.0),\ntowards comprehensively supporting flexible and efficient tool-based\nagent-environment interactions for building agentic applications. Specifically,\nwe abstract foundational components essential for agentic applications and\nprovide unified interfaces and extensible modules, enabling developers to\neasily leverage the latest progress, such as new models and MCPs. Furthermore,\nwe ground agent behaviors in the ReAct paradigm and offer advanced agent-level\ninfrastructure based on a systematic asynchronous design, which enriches both\nhuman-agent and agent-agent interaction patterns while improving execution\nefficiency. Building on this foundation, we integrate several built-in agents\ntailored to specific practical scenarios. AgentScope also includes robust\nengineering support for developer-friendly experiences. We provide a scalable\nevaluation module with a visual studio interface, making the development of\nlong-trajectory agentic applications more manageable and easier to trace. In\naddition, AgentScope offers a runtime sandbox to ensure safe agent execution\nand facilitates rapid deployment in production environments. With these\nenhancements, AgentScope provides a practical foundation for building scalable,\nadaptive, and effective agentic applications.",
+      "summaryZh": "在大型语言模型 (LLM) 快速发展的推动下，代理正在\n能够将内在知识与动态工具使用相结合，极大地\n增强他们解决现实世界任务的能力。符合这样一个\n演变，AgentScope 在新版本 (1.0) 中引入了重大改进，\n全面支持灵活高效的工具化\n用于构建代理应用程序的代理与环境交互。具体来说，\n我们抽象了代理应用程序所必需的基础组件，并且\n提供统一的接口和可扩展的模块，方便开发者\n轻松利用最新进展，例如新模型和 MCP。此外，\n我们将代理行为置于 ReAct 范式中，并提供高级代理级别\n基于系统异步设计的基础设施，丰富了两者\n人与代理和代理与代理之间的交互模式，同时提高执行力\n效率。在此基础上，我们集成了多个内置代理\n针对具体的实际场景进行定制。 AgentScope 还包括强大的\n为开发人员提供友好体验的工程支持。我们提供可扩展的\n具有 Visual Studio 界面的评估模块，使得开发\n长轨迹代理应用程序更易于管理和跟踪。在\n此外，AgentScope 还提供运行时沙箱以确保安全代理执行\n并有利于生产环境中的快速部署。有了这些\n增强功能，AgentScope 为构建可扩展、\n自适应且有效的代理应用程序。",
+      "titleZh": "AgentScope 1.0：以开发人员为中心的 Agentic 构建框架\n  应用领域",
+      "authors": [
+        "Dawei Gao",
+        "Zitao Li",
+        "Yuexiang Xie",
+        "Weirui Kuang",
+        "Liuyi Yao",
+        "Bingchen Qian",
+        "Zhijian Ma",
+        "Yue Cui",
+        "Haohao Luo",
+        "Shen Li",
+        "Lu Yi",
+        "Yi Yu"
+      ],
+      "publishedAt": "2025-08-22T10:35:56.000Z",
+      "submittedOnDailyAt": "2025-08-25T00:00:00.000Z",
+      "submitter": "taesiri",
+      "upvotes": 72,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2508.16279",
+        "arxiv": "https://arxiv.org/abs/2508.16279",
+        "pdf": "https://arxiv.org/pdf/2508.16279"
+      }
+    },
+    {
+      "id": "2611.31201",
+      "title": "Embo-Harness: Towards Understanding Frontier-Model-as-Policy Harness",
+      "summary": "Frontier multimodal models exhibit extraordinary generalization in generating robot actions from observations and instructions, enabling a new paradigm in which they serve directly as policies within closed-loop robotic harnesses. However, the design principles of such harnesses, and the capabilities underlying their strong performance, remain unclear. We present Embo-Harness, a framework for systematically studying frontier-model-as-policy harnesses. We investigate four components of the robotic agentic loop, namely, prompting, planning, action execution, and tool use, and distill six empirical findings into a practical recipe. This recipe prioritizes interfaces that exploit the model's native visual reasoning and tool-use capabilities over handcrafted plans, skills, or action priors, and identifies effective choices for action representation, chunking, reasoning effort, visual observations, short multi-action sequences, and policy refinement. On RoboLab-120, Embo-Harness achieves an 83.3\\% success rate, outperforming the strongest reported baseline by 26.2 percentage points. It also succeeds in 15 of 20 zero-shot trials across four real-world manipulation tasks. Beyond performance, controlled interventions indicate that the studied model depends more strongly on accurate spatial target estimation than on explicit low-level joint or trajectory generation. These results provide both a practical recipe for building strong frontier-model-as-policy harnesses and a clearer account of the capabilities that drive their performance.",
+      "summaryZh": "前沿多模态模型在根据观察和指令生成机器人动作方面表现出非凡的泛化能力，从而实现了一种新的范式，在该范式中它们直接充当闭环机器人线束中的策略。然而，此类安全带的设计原理及其强大性能背后的功能仍不清楚。我们提出了 Embo-Harness，一个系统地研究前沿模型作为政策工具的框架。我们研究了机器人代理循环的四个组成部分，即提示、计划、行动执行和工具使用，并将六个经验发现提炼成一个实用的配方。该方案优先考虑利用模型的本机视觉推理和工具使用功能的界面，而不是手工制定的计划、技能或动作先验，并确定动作表示、分块、推理工作、视觉观察、短多动作序列和策略细化的有效选择。在 RoboLab-120 上，Embo-Harness 实现了 83.3% 的成功率，比报告的最强基线高 26.2 个百分点。它还在 4 个现实世界操作任务的 20 次零样本试验中成功完成了 15 次。除了性能之外，受控干预表明所研究的模型更依赖于准确的空间目标估计，而不是显式的低级关节或轨迹生成。这些结果既为构建强大的前沿模型政策工具提供了实用的方法，也为推动其绩效的能力提供了更清晰的说明。",
+      "titleZh": "Embo-Harness：理解前沿模型作为政策的框架",
+      "authors": [
+        "Xiao-Ming Wu",
+        "Kang Liao",
+        "Yuexiao Ma",
+        "Taolin Zhang",
+        "Mingqian Zhou",
+        "Nuo Chen",
+        "Ziming Li",
+        "Yihang Luo",
+        "Rui Li",
+        "Zhonghua Wu",
+        "Tianyu Xie",
+        "Xiawu Zheng"
+      ],
+      "publishedAt": "2026-11-23T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-11-24T00:00:00.000Z",
+      "submitter": "draven-alg",
+      "upvotes": 106,
+      "urls": {
+        "hf": "https://huggingface.co/papers/2611.31201",
+        "arxiv": "https://arxiv.org/abs/2611.31201",
+        "pdf": "https://arxiv.org/pdf/2611.31201"
+      }
+    }
+  ]
+}
