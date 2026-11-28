@@ -83,7 +83,7 @@ export function serializePost(input: PostInput): string {
   return matter.stringify(body.endsWith("\n") ? body : `${body}\n`, data);
 }
 
-export function writePost(input: PostInput): void {
+function writePostFile(input: PostInput, flag: "w" | "wx"): void {
   ensurePostsDir();
   if (!isValidSlug(input.slug)) {
     throw new Error("Invalid slug");
@@ -96,7 +96,23 @@ export function writePost(input: PostInput): void {
     updatedAt: input.updatedAt || new Date().toISOString(),
     folder: folder || undefined,
   };
-  fs.writeFileSync(full, serializePost(withTime), "utf8");
+  fs.writeFileSync(full, serializePost(withTime), { encoding: "utf8", flag });
+}
+
+export function writePost(input: PostInput): void {
+  writePostFile(input, "w");
+}
+
+/** Never replace an existing file, even if it appears after the slug check. */
+export function tryCreatePost(input: PostInput): boolean {
+  if (postExists(input.slug)) return false;
+  try {
+    writePostFile(input, "wx");
+    return true;
+  } catch (error) {
+    if ((error as NodeJS.ErrnoException).code === "EEXIST") return false;
+    throw error;
+  }
 }
 
 /** Find absolute path of slug by scanning tree (root or nested). */

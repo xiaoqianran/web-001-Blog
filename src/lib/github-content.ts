@@ -96,7 +96,8 @@ async function putFile(
   content: string,
   message: string,
   sha?: string | null,
-): Promise<void> {
+  createOnly = false,
+): Promise<boolean> {
   const { owner, repo, branch } = getConfig();
   const body: Record<string, string> = {
     message,
@@ -110,10 +111,14 @@ async function putFile(
     body: JSON.stringify(body),
   });
 
-  if (!res.ok) {
+  if (createOnly && (res.status === 409 || res.status === 422) && await getFileSha(path)) {
+    return false;
+  }
+  if (!res.ok || (createOnly && res.status !== 201)) {
     const text = await res.text();
     throw new Error(`GitHub put file failed (${res.status}): ${text}`);
   }
+  return true;
 }
 
 async function deleteFile(
@@ -175,6 +180,17 @@ export async function githubFindPostRepoPath(
         p === `content/posts/${needle}` ||
         (p.endsWith(`/${needle}`) && !p.includes("/trash/")),
     ) ?? null
+  );
+}
+
+/** Without an existing blob SHA, the GitHub Contents API cannot update a file. */
+export async function githubTryCreatePost(input: PostInput): Promise<boolean> {
+  return putFile(
+    postPath(input.slug, input.folder),
+    serializePost(input),
+    `content: add post ${input.slug}`,
+    undefined,
+    true,
   );
 }
 

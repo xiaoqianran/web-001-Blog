@@ -3,28 +3,18 @@
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import {
-  githubPostExists,
-  githubWritePost,
+  githubListPostRepoPaths,
+  githubTryCreatePost,
   isGitHubContentEnabled,
 } from "@/lib/github-content";
 import { registerDocInTreeBestEffort } from "@/lib/content-persist";
 import {
   buildLabCapturePost,
+  createLabCaptureDraft,
   type LabCaptureKind,
 } from "@/lib/lab-capture";
-import { postExists, writePost, type PostInput } from "@/lib/posts";
+import { getPostSlugs, tryCreatePost, type PostInput } from "@/lib/posts";
 import { getSession } from "@/lib/session";
-
-async function slugTaken(slug: string): Promise<boolean> {
-  if (isGitHubContentEnabled()) {
-    try {
-      return await githubPostExists(slug);
-    } catch {
-      return postExists(slug);
-    }
-  }
-  return postExists(slug);
-}
 
 /**
  * Lab → knowledge-base draft note.
@@ -78,26 +68,17 @@ export async function captureLabNoteAction(formData: FormData) {
     extraLinks,
   });
 
-  // Unique slug against GitHub/local
-  const base = built.slug;
-  let slug = base;
-  if (await slugTaken(slug)) {
-    for (let i = 2; i < 1000; i++) {
-      const candidate = `${base}-${i}`.slice(0, 80);
-      if (!(await slugTaken(candidate))) {
-        slug = candidate;
-        break;
-      }
-    }
-  }
-  const input: PostInput = { ...built, slug };
-
+  const useGitHub = isGitHubContentEnabled();
+  let input: PostInput;
   try {
-    if (isGitHubContentEnabled()) {
-      await githubWritePost(input);
-    } else {
-      writePost(input);
-    }
+    const slugs = useGitHub
+      ? (await githubListPostRepoPaths()).map((p) => p.split("/").pop()!.slice(0, -3))
+      : getPostSlugs();
+    input = await createLabCaptureDraft(
+      built,
+      new Set(slugs),
+      useGitHub ? githubTryCreatePost : tryCreatePost,
+    );
   } catch (err) {
     console.error("captureLabNote failed:", err);
     redirect(
@@ -112,6 +93,6 @@ export async function captureLabNoteAction(formData: FormData) {
   revalidatePath(`/admin/posts/${input.slug}/edit`);
 
   const q = new URLSearchParams({ saved: "1", created: "1" });
-  if (isGitHubContentEnabled()) q.set("via", "github");
+  if (useGitHub) q.set("via", "github");
   redirect(`/admin/posts/${encodeURIComponent(input.slug)}/edit?${q}`);
 }

@@ -1,6 +1,6 @@
 /**
  * Pure helpers: Lab paper/feed item → PostInput draft for knowledge base.
- * No FS / GitHub — callers use existing write + registerDocInTreeBestEffort.
+ * No FS / GitHub — callers supply a create-only writer.
  */
 
 /** Local slugify so Node smoke can load this file without path aliases. */
@@ -125,12 +125,18 @@ ${summary || "（无摘要）"}
   };
 }
 
-/** Append numeric suffix for unique slug (pure). */
-export function uniquifySlug(base: string, taken: (s: string) => boolean): string {
-  if (!taken(base)) return base;
-  for (let i = 2; i < 1000; i++) {
-    const candidate = `${base}-${i}`.slice(0, 80);
-    if (!taken(candidate)) return candidate;
+/** Allocate a slug, retrying only when the create-only writer reports a collision. */
+export async function createLabCaptureDraft(
+  draft: LabCapturePostInput,
+  taken: ReadonlySet<string>,
+  tryCreate: (input: LabCapturePostInput) => boolean | Promise<boolean>,
+): Promise<LabCapturePostInput> {
+  for (let i = 1; i < 1000; i++) {
+    const suffix = i === 1 ? "" : `-${i}`;
+    const slug = draft.slug.slice(0, 80 - suffix.length).replace(/-$/, "") + suffix;
+    if (taken.has(slug)) continue;
+    const input = { ...draft, slug };
+    if (await tryCreate(input)) return input;
   }
-  return `${base}-${Date.now().toString(36)}`.slice(0, 80);
+  throw new Error("No available Lab capture slug");
 }

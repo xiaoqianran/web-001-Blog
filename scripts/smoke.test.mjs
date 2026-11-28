@@ -1,6 +1,8 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import fs from "node:fs";
+import { registerHooks } from "node:module";
+import { tmpdir } from "node:os";
 import path from "node:path";
 import matter from "gray-matter";
 import { pathToFileURL } from "node:url";
@@ -1121,7 +1123,7 @@ Inline \`[[also-not]]\` stays raw.
 });
 
 test("lab-capture: build draft PostInput with folder and source URL", async () => {
-  const { buildLabCapturePost, uniquifySlug } = await loadTs(
+  const { buildLabCapturePost, createLabCaptureDraft } = await loadTs(
     "src/lib/lab-capture.ts",
   );
   const paper = buildLabCapturePost({
@@ -1153,9 +1155,17 @@ test("lab-capture: build draft PostInput with folder and source URL", async () =
   assert.match(feed.content, /news\.ycombinator\.com/);
   assert.equal(feed.folder, undefined);
 
-  const taken = new Set(["lab-foo"]);
-  assert.equal(uniquifySlug("lab-foo", (s) => taken.has(s)), "lab-foo-2");
-  assert.equal(uniquifySlug("lab-bar", (s) => taken.has(s)), "lab-bar");
+  const longDraft = { ...feed, slug: "lab-" + "a".repeat(76) };
+  const seen = new Set();
+  await assert.rejects(
+    createLabCaptureDraft(longDraft, new Set(), ({ slug }) => {
+      assert.ok(slug.length <= 80);
+      seen.add(slug);
+      return false;
+    }),
+    /No available Lab capture slug/,
+  );
+  assert.equal(seen.size, 999);
 
   // action wiring
   const cap = fs.readFileSync(
@@ -1164,7 +1174,8 @@ test("lab-capture: build draft PostInput with folder and source URL", async () =
   );
   assert.match(cap, /captureLabNoteAction/);
   assert.match(cap, /registerDocInTreeBestEffort/);
-  assert.match(cap, /githubWritePost|writePost/);
+  assert.match(cap, /githubTryCreatePost/);
+  assert.match(cap, /tryCreatePost/);
   assert.match(cap, /login\?from=/);
   assert.ok(!/\bsaveTreeToDisk\s*\(/.test(cap));
   assert.ok(!/\bloadTreeFromDisk\s*\(/.test(cap));
@@ -1265,4 +1276,128 @@ test("kb v1.1 phase D: capture errors + docs checkboxes + persist still holds", 
       `${file} bare loadTreeFromDisk`,
     );
   }
+});
+
+test("Lab capture preserves an edited draft on repeated and concurrent captures", async (t) => {
+  const workdir = fs.mkdtempSync(path.join(tmpdir(), "blog-lab-capture-"));
+  t.after(() => fs.rmSync(workdir, { recursive: true, force: true }));
+  const modules = {
+    "next/cache": "export function revalidatePath() {}",
+    "next/navigation": "export function redirect(url) { throw Object.assign(new Error(url), { url }); }",
+    "@/lib/session": "export async function getSession() { return {}; }",
+    "@/lib/content-persist": "export async function registerDocInTreeBestEffort() {}",
+    "server-only": "export {}",
+  };
+  const hooks = registerHooks({
+    resolve(specifier, context, nextResolve) {
+      if (Object.hasOwn(modules, specifier)) {
+        return { url: "data:text/javascript," + encodeURIComponent(modules[specifier]), shortCircuit: true };
+      }
+      if (specifier === "@/lib/posts" || specifier === "./posts") {
+        const url = pathToFileURL(path.join(root, "src/lib/posts.ts")).href;
+        return { url: url + "?isolated-lab-store", shortCircuit: true };
+      }
+      if (specifier.startsWith("@/lib/")) {
+        return { url: pathToFileURL(path.join(root, "src", specifier.slice(2) + ".ts")).href, shortCircuit: true };
+      }
+      return nextResolve(specifier, context);
+    },
+  });
+  const cwd = process.cwd();
+  let captureLabNoteAction;
+  try {
+    process.chdir(workdir);
+    ({ captureLabNoteAction } = await loadTs("src/app/actions/capture.ts"));
+  } finally {
+    process.chdir(cwd);
+    hooks.deregister();
+  }
+
+  for (const key of ["GITHUB_TOKEN", "GITHUB_REPO", "GITHUB_BRANCH", "VERCEL"]) {
+    const value = process.env[key];
+    delete process.env[key];
+    t.after(() => {
+      if (value === undefined) delete process.env[key];
+      else process.env[key] = value;
+    });
+  }
+
+  const title = "A".repeat(95);
+  const base = "lab-" + "a".repeat(76);
+  const capture = async (name = title, folder = "notes/feeds") => {
+    const data = new FormData();
+    data.set("title", name);
+    data.set("kind", "feed");
+    data.set("folder", folder);
+    data.set("sourceUrl", "https://example.com/feed");
+    try {
+      await captureLabNoteAction(data);
+    } catch (error) {
+      if (error.url) return error.url;
+      throw error;
+    }
+    assert.fail("Expected a capture redirect");
+  };
+  const assertCreated = (url) => {
+    const match = url.match(/^\/admin\/posts\/([a-z0-9-]+)\/edit\?saved=1&created=1/);
+    assert.ok(match, url);
+    return match[1];
+  };
+
+  assert.equal(assertCreated(await capture()), base);
+  const original = path.join(workdir, "content/posts/notes/feeds", base + ".md");
+  fs.appendFileSync(original, "\nMy local edit.\n");
+  const saved = fs.readFileSync(original, "utf8");
+  const localCopies = (await Promise.all([capture(), capture()])).map(assertCreated);
+  assert.deepEqual(new Set(localCopies), new Set([base.slice(0, 78) + "-2", base.slice(0, 78) + "-3"]));
+  assert.equal(fs.readFileSync(original, "utf8"), saved);
+
+  process.env.GITHUB_TOKEN = "mock-test-token";
+  process.env.GITHUB_REPO = "test/blog";
+  process.env.GITHUB_BRANCH = "test";
+  const remote = new Map();
+  const rootPath = "/repos/test/blog/contents/";
+  let collisions = 0;
+  let failNextPut = false;
+  const mockFetch = t.mock.method(globalThis, "fetch", async (url, init) => {
+    const pathname = new URL(url).pathname;
+    if (pathname === "/repos/test/blog/git/trees/test") {
+      return Response.json({ tree: [...remote.keys()].map((path) => ({ path, type: "blob" })) });
+    }
+    assert.ok(pathname.startsWith(rootPath), url);
+    const file = pathname.slice(rootPath.length);
+    if (init.method === "PUT") {
+      const body = JSON.parse(init.body);
+      assert.ok(!Object.hasOwn(body, "sha"), "a capture must never send an update SHA");
+      if (failNextPut) {
+        failNextPut = false;
+        return new Response("validation failed", { status: 422 });
+      }
+      if (remote.has(file)) {
+        collisions++;
+        return new Response("file already exists", { status: 422 });
+      }
+      remote.set(file, Buffer.from(body.content, "base64").toString("utf8"));
+      return Response.json({}, { status: 201 });
+    }
+    return remote.has(file)
+      ? Response.json({ sha: "existing-blob" })
+      : new Response(null, { status: 404 });
+  });
+  assert.equal(assertCreated(await capture()), base);
+  const remoteOriginal = "content/posts/notes/feeds/" + base + ".md";
+  remote.set(remoteOriginal, remote.get(remoteOriginal) + "\nMy GitHub edit.\n");
+  const savedRemote = remote.get(remoteOriginal);
+  const remoteCopies = (await Promise.all([capture(), capture()])).map(assertCreated);
+  assert.deepEqual(new Set(remoteCopies), new Set(localCopies));
+  assert.equal(collisions, 1);
+  assert.equal(remote.get(remoteOriginal), savedRemote);
+  assert.equal(remote.size, 3);
+
+  const before = mockFetch.mock.callCount();
+  failNextPut = true;
+  t.mock.method(console, "error", () => {});
+  assert.match(await capture("Other article"), /captureError=write$/);
+  assert.equal(mockFetch.mock.callCount() - before, 3); // list, PUT, confirm no collision
+  assert.equal(remote.size, 3);
 });
